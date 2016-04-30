@@ -4,6 +4,6 @@ These are Hansard XML files downloaded from the [Parliament of Australia website
 
 The files are made available on the Parliament website under a [CC-BY-NC-ND licence](http://www.aph.gov.au/Help/Disclaimer_Privacy_Copyright#c).
 
-Currently this repository includes files for the House of Representatives from 1901 to 1965. Browse the files or [download a zip file](https://github.com/wragge/hansard-xml/archive/master.zip) of the lot (it's about .
+Currently this repository includes files for the House of Representatives from 1901 to 1965. Browse the files or [download a zip file](https://github.com/wragge/hansard-xml/archive/master.zip) of the lot (it's about 400mb).
 
 The XML is a bit dodgy in places, so feel free to fork this repository, correct the XML, and send me pull requests.
