@@ -6,4 +6,6 @@ The files are made available on the Parliament website under a [CC-BY-NC-ND lice
 
 Currently this repository includes files for the House of Representatives from 1901 to 1965. Browse the files or [download a zip file](https://github.com/wragge/hansard-xml/archive/master.zip) of the lot (it's about 400mb).
 
+I think it's complete, but given the complexities of the harvest process it's always possible that files are missing. Let me know if you notice any gaps.
+
 The XML is a bit dodgy in places, so feel free to fork this repository, correct the XML, and send me pull requests.
