@@ -1,11 +1,20 @@
 # Commonwealth of Australia Hansard
 
-These are Hansard XML files downloaded from the [Parliament of Australia website](http://parlinfo.aph.gov.au/parlInfo/search/summary/summary.w3p;adv%3Dyes;orderBy%3D_fragment_number,doc_date-rev;query%3DDataset%3Ahansardr,hansardr80;resCount%3DDefault) by [Tim Sherratt](http://timsherratt.org) in April 2016.
+These are Hansard XML files downloaded from the [Parliament of Australia website](http://parlinfo.aph.gov.au/parlInfo/search/summary/summary.w3p;adv%3Dyes;orderBy%3D_fragment_number,doc_date-rev;query%3DDataset%3Ahansardr,hansardr80;resCount%3DDefault) by [Tim Sherratt](http://timsherratt.org) in April-July 2016.
 
 The files are made available on the Parliament website under a [CC-BY-NC-ND licence](http://www.aph.gov.au/Help/Disclaimer_Privacy_Copyright#c).
 
-Currently this repository includes files for the House of Representatives from 1901 to 1965. Browse the files or [download a zip file](https://github.com/wragge/hansard-xml/archive/master.zip) of the lot (it's about 400mb).
+Currently this repository includes files for the House of Representatives from 1901 to 1980, and the Senate from 1901 to 1916. The rest of the Senate through to 1980 will be added shortly. The Hansard file format changes after 1980.
 
-I think it's complete, but given the complexities of the harvest process it's always possible that files are missing. Let me know if you notice any gaps.
+Browse the files or [download a zip file](https://github.com/wragge/hansard-xml/archive/master.zip) of the lot (it's big). For convenience there's also individual zip files for each year.
+
+In the process of harvesting the Senate XML files I noticed that some sitting days seem to be missing. I've [documented what I've found](http://timsherratt.org/research-notebook/notes/investigating-the-hansard-black-hole/) in my Research Notebook. Lists of missing days and copies of the empty XML files are included here in folders labelled `missing`. So far I've found 94 Senate and 8 House of Reps sitting days missing.
 
 The XML is a bit dodgy in places, so feel free to fork this repository, correct the XML, and send me pull requests.
+
+## More info
+
+* [Historic Hansard](http://timsherratt.org/research-notebook/projects/historic-hansard/) in my Research Notebook
+* [Historic Hansard](http://historichansard.net/) -- my own version of Hansard, optimised for easy browsing.
+* [Documentation](http://timsherratt.org/digital-heritage-handbook/docs/historic-hansard/) of the Historic Hansard site.
+
