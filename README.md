@@ -4,11 +4,11 @@ These are Hansard XML files downloaded from the [Parliament of Australia website
 
 The files are made available on the Parliament website under a [CC-BY-NC-ND licence](http://www.aph.gov.au/Help/Disclaimer_Privacy_Copyright#c).
 
-Currently this repository includes files for the House of Representatives from 1901 to 1980, and the Senate from 1901 to 1916. The rest of the Senate through to 1980 will be added shortly. The Hansard file format changes after 1980.
+Currently this repository includes files for the House of Representatives and the Senate from 1901 to 1980. The Hansard file format changes after 1980.
 
 Browse the files or [download a zip file](https://github.com/wragge/hansard-xml/archive/master.zip) of the lot (it's big). For convenience there's also individual zip files for each year.
 
-In the process of harvesting the Senate XML files I noticed that some sitting days seem to be missing. I've [documented what I've found](http://timsherratt.org/research-notebook/notes/investigating-the-hansard-black-hole/) in my Research Notebook. Lists of missing days and copies of the empty XML files are included here in folders labelled `missing`. So far I've found 94 Senate and 8 House of Reps sitting days missing.
+In the process of harvesting the Senate XML files I noticed that some sitting days seem to be missing. I've [documented what I've found](http://timsherratt.org/research-notebook/notes/investigating-the-hansard-black-hole/) in my Research Notebook. Lists of missing days and copies of the empty XML files are included here in folders labelled `missing`. I've found 94 Senate and 8 House of Reps sitting days missing.
 
 The XML is a bit dodgy in places, so feel free to fork this repository, correct the XML, and send me pull requests.
 
