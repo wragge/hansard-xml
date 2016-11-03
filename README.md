@@ -8,7 +8,7 @@ Currently this repository includes files for the House of Representatives and th
 
 Browse the files or [download a zip file](https://github.com/wragge/hansard-xml/archive/master.zip) of the lot (it's big). For convenience there's also individual zip files for each year.
 
-In the process of harvesting the Senate XML files I noticed that some sitting days seem to be missing. I've [documented what I found](http://timsherratt.org/research-notebook/notes/investigating-the-hansard-black-hole/) in my Research Notebook. Most of the problems have now been fixed, but there still seem to be a few missing days. Lists of missing files and copies of the empty XML files are included in folders labelled `missing`. 
+In the process of harvesting the Senate XML files I noticed that some sitting days seem to be missing. I've [documented what I found](http://timsherratt.org/research-notebook/notes/investigating-the-hansard-black-hole/) in my Research Notebook. Almost all of the problems have now been fixed. I think the only day of Senate proceedings now missing is 20 September 1907.
 
 The XML is a bit dodgy in places, so feel free to fork this repository, correct the XML, and send me pull requests.
 
