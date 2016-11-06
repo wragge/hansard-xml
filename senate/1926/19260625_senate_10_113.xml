@@ -1,251 +1,1780 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1926-06-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1926-06-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1926-06-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1926-06-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1926-06-25%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1926-06-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1926-06-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1926-06-25/19260625_senate_10_113.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1926-06-25</date>
+    <parliament.no>10</parliament.no>
+    <session.no>1</session.no>
+    <period.no>1</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>3531</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1926-06-25</day.start>
+      <para>The <inline font-weight="bold">President (Senator the Hon. T. Givens)</inline> took the chair at 11 a.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3531</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SHORTAGE OF SUGAR</title>
+          <page.no>3531</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3531</page.no>
+              <time.stamp />
+              <name.id>JYG</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ELLIOTT, Harold</name>
+              <name role="display">Senator ELLIOTT</name>
+            </talker>
+            <para>asked the Leader of the Government in the Senate, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Has the attention  of  the Government been drawn to the threatened shortage in the sugar supply  in this  State and elsewhere? </para>
+            </item>
+            <item label="2.">
+              <para>Does the  Government intend to take any step to relieve  the  situation? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3531</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator PEARCE</name>
+            </talker>
+            <para>- The answers to the honorable senator&#39;s questions are:- </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. </para>
+            </item>
+            <item label="2.">
+              <para>The  Government is closely watching the position. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PRINTING COMMITTEE</title>
+        <page.no>3531</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Report</title>
+          <page.no>3531</page.no>
+        </subdebateinfo>
+        <para class="block">Motion (by <inline font-weight="bold">Senator Elliott)</inline> agreed to - </para>
+        <quote>
+          <para>That the Second Report from the Printing Committee, presented to &#39;the Senate on the 24th June, 1926, be adopted. </para>
+        </quote>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEFENCE EQUIPMENT BILL</title>
+        <page.no>3532</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill received from House of Representatives, and (on motion by <inline font-weight="bold">Senator Sir Thomas</inline> Glasgow) read a first time. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SUPPLY BILL (No. 1) 1926-1927</title>
+        <page.no>3532</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>3532</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3532</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>NAT</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator PEARCE</name>
+            </talker>
+            <para>.- I move- </para>
+          </talk.start>
+          <para>That the bill be now read a second time. The object of the bill is to provide the moneys that are necessary for the ordinary expenses of the Commonwealth in the early part of the approaching financial year. The unexpended moneys under the appropriations of the current year lapse on the 30th June. After that date, no payments for the ordinary services of the departments can be made until Parliament grants Supply for the new year. As it is necessary that moneys shall be available for urgent payments at the beginning of July, and as the first salary pay day is on the 2nd July, the bill has been introduced at this stage to give time for its passage through Parliament before the 30th June. It covers the requirements for approximately two months. The five salary payments due in July and August are included, as well as approximately one-sixth of the moneys required for the year for other annual votes. It is definitely the intention of the Government to introduce the budget within the first ten days of July, so as to enable the Parliament to consider the general financial proposals of the Government for the ensuing year at the earliest possible date. Honorable senators will thus be in a position to discuss the budget before the Supply which is now being asked for is exhausted. The total amount covered by the bill is &#163;4,046,117, made up as follows: - </para>
+          <para class="block">
+            <graphic href="113332192606253_1_0.jpg" />
+          </para>
+          <para class="block">The items are based on the Appropriation Act for the current financial year. No provision is made for expenditure that has not previously been approved by Parliament. The total for ordinary expenditure, &#163;2,846,117, is slightly less than one-sixth of the appropriation for this year for these services, which works out at &#163;3,078,797. The sum of &#163;200,000 is included for refunds of revenue, which are expected to be payable in the two months concerned. The sum of &#163;1,000,000 which is provided as an advance to the Treasurer, is required chiefly for carrying on the capital works in progress at the 30th June, 1926. The provision of moneys for these works is necessary, pending the passing of the Loan Act and the Appropriation Act for Additions, New Works, and Buildings. The chief works in progress are those for postal, telegraphic, and telephonic purposes. As the current financial year will close on Wednesday of next week, and the position of the finances will be definitely known a few days later, it is scarcely necessary for me now to anticipate the results. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3532</page.no>
+              <time.stamp />
+              <name.id>KMP</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GRANT, John</name>
+              <name role="display">Senator GRANT</name>
+            </talker>
+            <para>. - The bill does not appear to make provision for the construction of a railway from Yass Junction to Canberra. Action in that direction ought to be taken at a very early date. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3532</page.no>
+              <time.stamp />
+              <name.id>KLS</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIVENS, Thomas</name>
+              <name role="display">The PRESIDENT (Senator the Hon T Givens</name>
+            </talker>
+            <para>- The honorable senator had a full opportunity to discuss matters that are not relevant to the bill upon the motion for the first reading last night. He must now confine himself to matters that are relevant. </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3532</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- Can I not move that the other place be requested to insert an additional item ? </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3532</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- No. </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3532</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- That is a pity, because I am anxious to see a line constructedas soon as possible to meet the convenience of those residents of other States who will shortly be visiting Canberra. I notice in the bill an item relating to the maintenance of the GovernorGeneral&#39;s establishments at Melbourne and Sydney. I should like to know whether it is a fact that all the tobacco and liquors that are consumed at Government House are free from excise and Customs duties? </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3533</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PRESIDENT, The</name>
+                <name role="display">The PRESIDENT</name>
+              </talker>
+              <para>- There is nothing in the bill relating to that matter. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3533</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- I thought that I could discuss it under the item &#34; GovernorGeneral&#39;s establishment.&#34; </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3533</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PRESIDENT, The</name>
+                <name role="display">The PRESIDENT</name>
+              </talker>
+              <para>- The honorable senator may criticize the uses to which the expenditure is applied. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3533</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- Apparently, honorable senators are very greatly restricted in debate at this stage of the bill. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3533</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PRESIDENT, The</name>
+                <name role="display">The PRESIDENT</name>
+              </talker>
+              <para>- The honorable senator had a full opportunity to debate any subject, whether relevant or irrelevant to the bill, on the motion for the first reading. If he did not avail himself of it, it was his fault, not mine. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3533</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- I should like to know whether it is intended to organize an air service for the carriage of mails to Tasmania. The people of that State are put to great inconvenience when the shipping services are interrupted. Those who live on the mainland can get their mails by aeroplane, railway, motor car, or steamship. The position in Tasmania is quite different. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3533</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PRESIDENT, The</name>
+                <name role="display">The PRESIDENT</name>
+              </talker>
+              <para>- The honorable senator must see that that matter is not relevant to the second reading of the bill. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3533</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- Another subject that has exercised my mind in recent years is that of the irrigation works being carried out in the Hume Valley. I see no item in the schedule relating to the opening of the mouth of the River Murray. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3533</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PRESIDENT, The</name>
+                <name role="display">The PRESIDENT</name>
+              </talker>
+              <para>- That matter has nothing to do with the bill. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3533</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- Then I shall endeavour to extract the information at the committee stage. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3533</page.no>
+              <time.stamp />
+              <name.id>K8L</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">THOMAS, Josiah</name>
+              <name role="display">Senator THOMAS</name>
+            </talker>
+            <para>. - A week or two ago a number of honorable senators were invited to witness the screening of parts of a number of moving pictures that had been censored. Having seen some of the portions which had thus been cut out, I desire to congratulate the censors upon the good work they are doing. One is surprised that there are persons in any part of the civilized world prepared to lower themselves to such an extent as to present such films publicly. I was able to understand why an exhibitor of moving pictures in New South Wales told me that if it were not for the censors few films would be displayed in Australia. I was invited one day this week to see another picture, entitled &#34; The Great Parade,&#34; which certain persons considered should be censored; but I should be sorry indeed if it were prohibited. It attempts to show some of the horrors of war, and -I- believe that films of this nature should be screened in order that we may not forget the sacrifices made on our behalf by the men who went to the front. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3533</page.no>
+                <time.stamp />
+                <name.id>KMI</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRAHAM, Charles</name>
+                <name role="display">Senator Graham</name>
+              </talker>
+              <para>- What was the date of the picture? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3533</page.no>
+                <time.stamp />
+                <name.id>K8L</name.id>
+                <electorate>NEW SOUTH WALES</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">THOMAS, Josiah</name>
+                <name role="display">Senator THOMAS</name>
+              </talker>
+              <para>- I admit that it was an American film, but that is no reason why it should not be shown in Australia. It was the story of a lad who joined up with the American forces, and went to the front. It did not seek to glorify war or the United States of America. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3533</page.no>
+                <time.stamp />
+                <name.id>JXP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DRAKE-BROCKMAN, Edmund</name>
+                <name role="display">Senator Drake-Brockman</name>
+              </talker>
+              <para>- I was told by one who went to the front that it was rather a burlesque of war. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3533</page.no>
+                <time.stamp />
+                <name.id>K8L</name.id>
+                <electorate>NEW SOUTH WALES</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">THOMAS, Josiah</name>
+                <name role="display">Senator THOMAS</name>
+              </talker>
+              <para>- According to <inline font-weight="bold">Senator Cox,</inline> who was a general in the great war, the picture was not an exaggeration of conditions at the front. The concluding portion of the picture shows very clearly that the mother did not forget what her son had suffered. I was reminded of John Bright&#39;s remark in the House of Commons, after the Crimean war, when he said&#39;, &#34; We all forget, except mothers.&#34; There is a tendency already on the part of the people to forget the experiences in connexion with the late war. The picture to which I refer is shown in other countries, including Great Britain; and, since it makes no attempt to glorify war, why should it not be shown in Australia? </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3533</page.no>
+                <time.stamp />
+                <name.id>K8P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">THOMPSON, William</name>
+                <name role="display">Senator Thompson</name>
+              </talker>
+              <para>- Why harrow the mothers&#39; feelings any more than necessary ? </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3533</page.no>
+                <time.stamp />
+                <name.id>KMI</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRAHAM, Charles</name>
+                <name role="display">Senator Graham</name>
+              </talker>
+              <para>- In order to show how America won the war. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3533</page.no>
+                <time.stamp />
+                <name.id>K8L</name.id>
+                <electorate>NEW SOUTH WALES</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">THOMAS, Josiah</name>
+                <name role="display">Senator THOMAS</name>
+              </talker>
+              <para>- The picture does not do that. It seems to me to have been conceived by a pacifist. I believe that we should uphold the work of the League of Nations by discouraging warfare at every opportunity. </para>
+            </talk.start>
+          </continue>
+          <para>Debate (on motion by <inline font-weight="bold">&#39;Senator Foll.)</inline> adjourned. &#39; </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>CALL OF THE SENATE</title>
+        <page.no>3534</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para class="italic">
+        <inline font-style="italic">The roll of honorable senators having been called,</inline>
+      </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3534</page.no>
+            <time.stamp />
+            <name.id>KLS</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT (Senator the Hon T Givens</name>
+          </talker>
+          <para>- Every honorable senator has answered to his name. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>CONSTITUTION ALTERATION (INDUSTRY AND COMMERCE) BILL</title>
+        <page.no>3534</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Third Reading</title>
+          <page.no>3534</page.no>
+        </subdebateinfo>
+        <para>Motion (by <inline font-weight="bold">Senator Pearce)</inline> proposed - </para>
+        <quote>
+          <para>That the bill be now read a third time. </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3534</page.no>
+              <time.stamp />
+              <name.id>KKZ</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GARDINER, Albert</name>
+              <name role="display">Senator GARDINER</name>
+            </talker>
+            <para>
+              <inline font-weight="bold">.- Mr. President-</inline>
+            </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3534</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- The honorable senator may not address himself to this motion. There has been a call of the Senate, and the motion for the third reading has been declared formal. </para>
+          </talk.start>
+          <para>Question put. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3534</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PRESIDENT, The</name>
+                <name role="display">The PRESIDENT</name>
+              </talker>
+              <para>- This bill requires to be passed by an absolute majority of the whole Senate. I therefore consider it desirable that there should be a division, so that the names and numbers for and against the motion may be recorded. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <division>
+          <division.header>
+            <time.stamp />
+            <para>The Senate divided.</para>
+          </division.header>
+          <division.data>
+            <ayes>
+              <num.votes>32</num.votes>
+              <title>AYES</title>
+            </ayes>
+            <noes>
+              <num.votes>1</num.votes>
+              <title>NOES</title>
+            </noes>
+          </division.data>
+          <para>Majority .. ..31 </para>
+          <para>AYES</para>
+          <para class="block">
+            <graphic href="113332192606253_3_1_1_A.jpg" />
+          </para>
+          <para>NOES</para>
+          <para class="block">
+            <graphic href="113332192606253_3_1_2_N.jpg" />
+          </para>
+          <division.result />
+        </division>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>3534</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- The result of the division is 32 &#34; Ayes &#34; and 1 &#34; No.&#34; The question is therefore resolved in the affirmative, and there being more than an absolute majority of the whole Senate voting in the affirmative, as required by the Constitution, I declare the motion carried. </para>
+          </talk.start>
+        </continue>
+        <para>Bill read a third time. </para>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>CONSTITUTION ALTERATION (ESSENTIAL SERVICES) BILL</title>
+        <page.no>3534</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Third Reading</title>
+          <page.no>3534</page.no>
+        </subdebateinfo>
+        <para>Motion (by <inline font-weight="bold">Senator Pearce)</inline> pro posed - </para>
+        <quote>
+          <para>That the bill be now read a third time. </para>
+        </quote>
+        <division>
+          <division.header>
+            <time.stamp />
+            <para>Question put. The Senate divided.</para>
+          </division.header>
+          <division.data>
+            <ayes>
+              <num.votes>28</num.votes>
+              <title>AYES</title>
+            </ayes>
+            <noes>
+              <num.votes>8</num.votes>
+              <title>NOES</title>
+            </noes>
+          </division.data>
+          <para>Majority . .  . . 10 </para>
+          <para>AYES</para>
+          <para class="block">
+            <graphic href="113332192606253_3_2_1_A.jpg" />
+          </para>
+          <para>NOES</para>
+          <para class="block">
+            <graphic href="113332192606253_3_2_2_N.jpg" />
+          </para>
+          <division.result />
+        </division>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3534</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- The result of the division is 28 &#34; Ayes &#34; and 8 &#34; Noes.&#34; The question is therefore resolved in the affirmative, and there being more than an absolute majority of the whole Senate voting in the affirmative, as required by the Constitution, I declare the motion carried. </para>
+          </talk.start>
+          <para>Bill read a third time. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SUPPLY BILL (No. 1) 1926-1927</title>
+        <page.no>3534</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>3534</page.no>
+        </subdebateinfo>
+        <para>Debate resumed. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3534</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - I direct the attention of the Minister representing the Postmaster-General to the unsatisfactory position of postmasters who are charged with the responsibility of doing banking business for the Commonwealth Bank. They receive no extra remuneration. Stationmasters, being employees of a State Government, receive additional pay if they are called upon to do banking business. Postmasters are tied down to their offices in much the same way as a bank manager is; that is to say, they may not leave the premises at night without the permission of the  Deputy  PostmasterGeneral, and they have to pay rent up to 10 per cent, of their salary for premises which they occupy ; whereas stationmasters have free quarters, free passes on the railways - I am not advocating, of course, that postmasters should have that privilege - lighting, and fuel. In some cases, linemen, if they are working a certain distance from the post-office to which they are attached, get an allowance which brings their salary almost to the level of that received by the postmaster himself. It would not be unreasonable if the postmasters were given the privilege of free residences, as well as extra remuneration in the way of commission, for the banking business transacted. I understand that the State Government <inline font-style="italic">is</inline> credited with commission, according to the amount of banking business transacted for the Commonwealth Bank by stationmasters, and that some portion, at all events, of the commission is passed on to the stationmasters who do the work. Postmasters should be treated in the same way. <inline font-weight="bold">Senator Needham</inline> mentioned the censorship of picture films. Certain honorable senators appear to be pursuing a vendetta against the proprietors of picture shows. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3535</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator Grant</name>
+              </talker>
+              <para>- That is not so. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3535</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- What I have said may not be true of the honorable senator, but it is strange that, in  the vote  taken in this chamber a little while ago, a majority of the Senate favoured an increase in the duty on foreign-made films. The only effect of this extra duty will be to increase the prices charged for admission to picture shows, which are practically the only form of entertainment available to people on the basic wage. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3535</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator Grant</name>
+              </talker>
+              <para>- To what extent will the proposed tax affect them? It means only one-fifth of a penny on each ticket. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3535</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- The honorable senator must know that the increased duty, if accepted by another place, will add to the cost of picture-show entertainments. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3535</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Pearce</name>
+              </talker>
+              <para>- I rise to a point&#39; of order. We shall probably have all this discussion when we are dealing again with the item relating to the duty on picture films. This bill has no relation whatever to the tariff. Therefore, <inline font-weight="bold">Senator Foll,</inline> I submit, should not be allowed to discuss the duty on films. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3535</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator Grant</name>
+              </talker>
+              <para>- I submit that <inline font-weight="bold">Senator Foll</inline> was only making passing reference to the duty on picture films, and that reasonable latitude should be allowed to all honorable senators in the debate on this bill. </para>
+            </talk.start>
+          </interjection>
+          <para>The <inline font-weight="bold">DEPUTY PRESIDENT (Senator Newlands).</inline> - <inline font-weight="bold">Senator Foll</inline> must be aware, that specific reference to the duty on picture films is out of order in this debate. I trust, therefore, that he will not pursue that line of discussion. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3535</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- There is in the bill an item relating to the Commonwealth film censorship. I shall confine my remarks to that item. The censorship of films in Australia is very desirable; but honorable senators must not think that, because recently they had an opportunity to view an objectionable film screened in the office of the censor, that picture and others like it would have been screened in Australia but for the existence of the censorship. Under the present system the pictures are received by the censor before they reach the distributors. I understand that prior to the appoint; ment of the censors the companies themselves took every care to maintain a high standard in the class of pictures shown. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3535</page.no>
+                <time.stamp />
+                <name.id>KN7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GUTHRIE, James</name>
+                <name role="display">Senator Guthrie</name>
+              </talker>
+              <para>- Why, then, were some censored pictures sent back to America and re-imported under another name in order to evade the censorship? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3535</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- That is a matter for the distributors themselves to explain. My point is that they should be allowed to conduct a legitimate business without being unnecessarily harassed by the working of the censorship system. At present they do not know where  they  stand. Sometimes when a film has been submitted to the office in Sydney a portion has been cut out of it and the picture spoiled. The distributors have then sent it on to Melbourne for the opinion of Professor Wallace, the principal censor, and it has been returned to Sydney with the portion cut out by the Sydney office restored and another portion censored. On other occasions pictures rejected by the </para>
+            </talk.start>
+          </continue>
+          <para class="block">Sydney office have been accepted in Melbourne. The moving picture business has brought a modern form of entertainment within the reach of thousands of people who otherwise would beshut out from practically all forms of amusement, so the distributors should not be unduly interfered with. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3536</page.no>
+              <time.stamp />
+              <name.id>KN7</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GUTHRIE, James</name>
+              <name role="display">Senator GUTHRIE</name>
+            </talker>
+            <para>. - I should not have taken part in this debate but for the remarks of <inline font-weight="bold">Senator Foll</inline> concerning film censorship. I deny that there is a vendetta against picture shows in Australia. Every one realizes that moving pictures are the most popular form of entertainment in the world. There is, however, a feeling that pictures should be produced in the British Empire to depict the traditions of our race and Empire and to advertise the great advantages for settlement offered by our far-flung dominions. <inline font-weight="bold">Senator Foll</inline> has suggested that, because a majority of the Senate desires a slight increase in the duty on foreign picture films there is some sort of vendetta against the industry itself. That is not so. The honorable senator also suggested that the Commonwealth censors, including Professor Wallace in Melbourne, were not doing their duty. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3536</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator Foll</name>
+              </talker>
+              <para>-I  did not. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3536</page.no>
+                <time.stamp />
+                <name.id>KN7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GUTHRIE, James</name>
+                <name role="display">Senator GUTHRIE</name>
+              </talker>
+              <para>- As regards the proposed increase in the duty on foreign films, the honorable senator must know that the picture industry in Australia is not being (harassed in any way. Last year no less than 100,000,000 people paid for admission to moving picture shows in Australia. The proposed increase in the duty on foreign films will not amount to more than l-5d. on each ticket of admission. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3536</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator Foll</name>
+              </talker>
+              <para>-  I rise to order. At your request, <inline font-weight="bold">Mr. Deputy President,</inline> I desisted from discussing the proposed increase in the duty on picture films. Consequently <inline font-weight="bold">Senator Guthrie</inline> cannot say how my argument would have developed had I been allowed to continue. My remarks, subsequent to your ruling, related entirely to the arrangements between the two censorship officers in Melbourne and Sydney, and I submit that <inline font-weight="bold">Senator Guthrie</inline> is not in order now in debating the proposed increase inthe duty on picture films. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3536</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator Grant</name>
+              </talker>
+              <para>-  I listened to <inline font-weight="bold">Senator Foll,</inline> and to the point of order raised by the Minister <inline font-weight="bold">(Senator Pearce),</inline> and although your ruling, sir, was against <inline font-weight="bold">Senator Foll,</inline> he dealt fully with the censorship of films. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3536</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator Foll</name>
+              </talker>
+              <para>-  There is an item in the schedule relating to the censorship of films. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3536</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator Grant</name>
+              </talker>
+              <para>-  The consideration accorded to <inline font-weight="bold">Senator Foll</inline> should be extended to <inline font-weight="bold">Senator Guthrie</inline> to enable the honorable senator to explain his attitude. </para>
+            </talk.start>
+          </interjection>
+          <para>The <inline font-weight="bold">DEPUTY PRESIDENT (Senator Newlands).</inline> - I ask <inline font-weight="bold">Senator Guthrie</inline> to discuss the item in the bill, and not to refer to the point raised by <inline font-weight="bold">Senator Foll</inline> as to the duty on films. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3536</page.no>
+                <time.stamp />
+                <name.id>KN7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GUTHRIE, James</name>
+                <name role="display">Senator GUTHRIE</name>
+              </talker>
+              <para>- I consider it very desirable that adequate funds be made available to meet the expense incurred by the censor and his staff. In order &#39;to show how necessary it is to pro vide money to meet the cost of this important work, I may mention that, of the 19,000,000 feet of &#34;Feature&#34; films imported into Australia during 1925, over 9,000,000 feet were censored, and approximately 1,700,000 feet of objectionable stuff had to be entirely cut out and returned to the country of origin. Those figures are, I think, sufficient to indicate the necessity of placing sufficient money at the disposal of the Censor&#39;s Department to enable it to carry out the work efficiently. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3536</page.no>
+              <time.stamp />
+              <name.id>K2L</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">REID, Matthew</name>
+              <name role="display">Senator REID</name>
+            </talker>
+            <para>.- It is only natural that there should be a considerable difference of opinion concerning the manner in which films are censored; but I think it is admitted that the censors are doing their work satisfactorily, and that it is the desire of producers to keep the pictures clean. I remind <inline font-weight="bold">Senator Guthrie</inline> that some of the British productions sent to Australia for exhibition are censored more severely than are some American films. I endorse the sentiments expressed by <inline font-weight="bold">Senator Thomas</inline> concerning a certain war film which we had the opportunity of seeing the other day. Many, I believe, attended under the impression that the whole production was anti-British, antiAustralian, and anti almost everything that wasnot American; but I came away believing that the whole production was anti-war. It is true that a good deal of credit is given to American soldiers; but </para>
+          </talk.start>
+          <para class="block">I suppose that is only natural in an American production. We were told by interjection that  an honorable senator who has had considerable military experience said that the whole thing was a burlesque. It may have been overdone in certain respects, but, generally speaking, I regard it as one of the most realistic war pictures I have seen. I join with <inline font-weight="bold">Senator Thomas</inline> in the hope that the picture will be released by the department, so that the rising generation may realize the horrors of war, and do all in its power to create an atmosphere of peace. The part which Great Britain, the dominions, and other nations played in the Great War should be included; but I do not think it can be said that the production is anti-British. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3537</page.no>
+                <time.stamp />
+                <name.id>KOJ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HAYS, Herbert</name>
+                <name role="display">Senator H Hays</name>
+              </talker>
+              <para>- There was a good deal omitted that might well have been included. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3537</page.no>
+                <time.stamp />
+                <name.id>K2L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">REID, Matthew</name>
+                <name role="display">Senator REID</name>
+              </talker>
+              <para>- I do not suggest that it is a perfect picture. Such productions are of great educational value. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3537</page.no>
+                <time.stamp />
+                <name.id>KOJ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HAYS, Herbert</name>
+                <name role="display">Senator H Hays</name>
+              </talker>
+              <para>- The fathers who went to the war will tell their children of the horrors of war. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3537</page.no>
+                <time.stamp />
+                <name.id>K2L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">REID, Matthew</name>
+                <name role="display">Senator REID</name>
+              </talker>
+              <para>- Unfortunately, there were many fathers who did not return We should endeavour to create an atmosphere of peace amongst the nations, and pictures such as that to which reference has been made will, I feel sure, assist in that direction. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3537</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator PAYNE</name>
+            </talker>
+            <para>. -I wish to add a little to what has already been said concerning a certain film. </para>
+          </talk.start>
+          <para>The <inline font-weight="bold">DEPUTY PRESIDENT (Senator Newlands).</inline> - Order! Provision is made in the bill for film censorship. I ask honorable senators to confine their remarks to the item, and not to discuss generally the merits of an American&#39; picture film, to which reference has been made. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3537</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- I understand that under the vote for the Department of Trade and Customs provision is made to meet certain expenditure incurred by the censor. A few days ago I had an opportunity to see the result of the censor&#39;s work on some of the films sent to Australia for exhibition, and one could not witness the exhibition which I attended without feeling grateful to those who in sisted upon the appointment of a Commonwealth censor. If the work is carried out as effectively in the future as it has been in the past much good will result. It is appalling that wealthy film corporations should pay large sums of money to produce pictures of a very undesirable type, and which have rightly been severely censored. While I agree with some of the remarks made by honorable senators who have preceded me concerning the film in which the activities  of American soldiers are depicted, I feel inclined to support <inline font-weight="bold">Senator Thomas&#39;s</inline> contention that a great deal of good will result if the exhibition of the film is permitted. With many others, I realize the danger that is so apparent; the younger members of our community may be allowed to forget the sacrifices made by our brave men. It is appalling to find that very little gratitude is shown to those who made such an enormous sacrifice on our behalf. Certainly some of the incidents depicted in this film are horrible; but I have been informed by some who went through the great ordeal that they are in no way exaggerated. In fairness to the producers, I may say that no attempt has been made to introduce American propaganda. They intimate before the picture is shown that the American boys responded when the call came. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3537</page.no>
+                <time.stamp />
+                <name.id>KN7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GUTHRIE, James</name>
+                <name role="display">Senator Guthrie</name>
+              </talker>
+              <para>- They were such a long time hearing the call. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3537</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- It was not for individuals but for the authorities&#39; to decide when America should enter the war. When the call came, the American boys responded, as did those of other nations. The men of the French, Belgian, Italian, and other armies contributed their share, and their efforts and sacrifices should also be recognized by the rising generation. I believe that the exhibition of this film would inspire the younger section of the community with that feeling. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3537</page.no>
+              <time.stamp />
+              <name.id>KOJ</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYS, Herbert</name>
+              <name role="display">Senator H HAYS</name>
+            </talker>
+            <para>. - If there .is one portion of the Postal Department that more than another is rendering good service to the people, it is the country post office in isolated districts. Action should be taken by the department to increase the allowances of those who are in charge of those offices. I do not know  whether a minimum salary is paid, but I believe that the remuneration is decided according to the amount of business that is done. That is most unfair. If people are to be induced to go outback, they must be provided with reasonable postal and telephonic facilities. A great deal has already been done in that direction; but the conditions can be greatly improved. In isolated districts, the residents have to travel long distances to receive their mail, and invariably they have to make the journey after their Say&#39;s work is done. They pay a great tribute to the officers&#39; - mostly women - who perform this duty. It may be all right to remunerate according to the business that is transacted in some of the towns, large or small; but it is not equitable in the case of allowance postmasters or postmistresses in isolated districts. The invariable practice is for one of the residents to undertake the duties for the district, and for that purpose to place his home at the service of the department. They do not realize the amount of work that is entailed. Frequently, in addition to postal and telephonic services, they also discharge duties connected with the payment of pensions, and conduct branches of the savings bank. The amount which they receive is not at all commensurate with the work that they perform. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3538</page.no>
+                <time.stamp />
+                <name.id>JRW</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CRAWFORD, Thomas</name>
+                <name role="display">Senator Crawford</name>
+              </talker>
+              <para>-  When they make pensions payments, or conduct a branch of the savings bank, they receive a commission. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3538</page.no>
+                <time.stamp />
+                <name.id>KOJ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HAYS, Herbert</name>
+                <name role="display">Senator H HAYS</name>
+              </talker>
+              <para>- I am aware of that. It is sometimes considered advisable for the residents to make a substantial contribution to augment the salary that is received by these officers. I was on King Island some little while ago.It has an isolated and scattered population, and the residents contribute an additional &#163;1 per annum each towards the salary of the postmistress. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3538</page.no>
+              <time.stamp />
+              <name.id>JZW</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ANDREW, David</name>
+              <name role="display">Senator ANDREW</name>
+            </talker>
+            <para>. - When an old-aged pensioner enters a charitable institution, the Government pays the institution 10s. 6d. weekly, and reduces to 4s. a week the amount paid to the pensioner himself. The cost of maintenance in those institutions ranges from 15s. 6d. to 16s. 6d. an inmate. This matter has been brought under the notice of different Treasurers. On one occasion, the reason advanced for the reduction in the amount of j&#62;ension was that the sum which the Commonwealth retained was only sufficient to cover the overhead charges entailed in making payment to the institution. There are about 30 old-age pensioners in an institution with which I am connected. Although it receives a Government subsidy, it has . to be maintained principally by charitable contributions. When a depression occurs, and the contributions fail to realize anticipations, the. institution suffers. If a pensioner leaves an institution, the full amount of pension is restored to him. <inline font-weight="bold">Mr. Hughes</inline> was approached upon this matter when he was Prime Minister, and he said that to pay the full amount of pension in addition to the cost of maintenance would involve an extra &#163;40,000 per annum. What is that to this great Commonwealth, compared with the benefits that would accrue to our old folks? It is less costly to make one payment to an institution in respect of 30 or 40 pensioners than to make payments individually to those pensioners. If the Minister secures the payment of the full amount to the institutions, he will Gave their everlasting gratitude. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3538</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>NAT</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator PEARCE</name>
+            </talker>
+            <para>. - The various matters that have been raised affecting different departments will be brought under the notice of the responsible Minister. <inline font-weight="bold">Senator Foll</inline> referred to the salaries that are paid to postmasters. In this Senate recently, in another debate, it was recognized that no place is more unsuited than Parliament for determining the questions of wages and hours of labour. Postmasters have two barrels to their gun.  The Public Service Board classifies the Service, and they can appeal against any classification. I venture the opinion that whenever an appeal is heard the officer concerned does not refrain from mentioning every duty that he has to perform; and we must assume that, in the presentation of their case, postmasters represent the fact that they are called upon to undertake banking business. Then they also have the right, through their association, to approach the Commonwealth Public Service Arbitrator. Not so long ago, I laid upon the table of the Senate a determination of that gentleman. . Unquestionably these facts were brought forward when the salaries of postmasters were being decided. The Minister does not fix salaries. That is a delightful fiction which cannot now be sustained. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3539</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator Foll</name>
+              </talker>
+              <para>-  My idea was to see whether the Government could not arrange for the Commonwealth Batik to pay it a commission. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3539</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator PEARCE</name>
+              </talker>
+              <para>- This service ought not to be remunerated twice. If, when the salaries of these officers were fixed, they represented the advisability of greater remuneration being paid because of the fact that they were doing banking work, and that contention was upheld, they ought not to receive payment also from the Commonwealth Bank. How can Parliament decide such a question as this? We must all be pleased atthe tributes that have been paid to the useful service which is being rendered by the film censorship. The question that has been raised by <inline font-weight="bold">Senator Andrew</inline> has been brought forward previously by <inline font-weight="bold">Senator Needham,</inline> and other honorable senators. The view of the Treasury is that an oldage pensioner who has to provide board and lodging for himself is in a worse position than the man who can enter a charitable institution. It may look as though the total amount of pension is only 14s. 6d. a week, seeing that the Commonwealth pays the charitable institution 10s. 6d. a week, and the pensioner 4s. a week; but it is necessary to make a comparison between the man who receives  4s.  a week, and is under no obligation to provide board and lodging for himself, and the man who receives &#163;1 a week, and is compelled to make that provision, It does not matter to the pensioner whether the Commonwealth Government pays the State institution 10s. 6d. or nothing at all. <inline font-weight="bold">Senator Andrew</inline> said that the Commonwealth should pay more than 10s. 6d., but I submit that the obligation rests upon the institutions to demonstrate to the Treasury that it costs more than 10s. 6d. a week to maintain each inmate. I am informed that the Treasury has been furnished with no particulars to demonstrate that. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3539</page.no>
+                <time.stamp />
+                <name.id>JZW</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">ANDREW, David</name>
+                <name role="display">Senator Andrew</name>
+              </talker>
+              <para>-  The Treasury stated that the 10s. 6d. was given as a matter of grace. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3539</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator PEARCE</name>
+              </talker>
+              <para>- There is certainly no legal obligation on the part of the Commonwealth to pay the amount. I should imagine that the obligation lies on the State Government and the charitable institutions first to establish the fact that the maintenance of each inmate costs more than 10s. 6d. I know that before the war the average cost was said to be 7s. 6d. a head. The cost may be greater at the present time, otherwise these institutions would be making a profit out of the 10s. 6d. I should say that it is for them to&#39; make representation to the Treasury that the payment should be equal to the average sum required to maintain each inmate. </para>
+            </talk.start>
+          </continue>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time. </para>
+          <para class="italic">
+            <inline font-style="italic">In committee:</inline>
+          </para>
+          <para>Clause 1 agreed to. </para>
+          <para>Clause 2 postponed. </para>
+          <para>Clauses 3 and 4 agreed to. </para>
+          <para>Schedule - </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3539</page.no>
+              <time.stamp />
+              <name.id>KMP</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GRANT, John</name>
+              <name role="display">Senator GRANT</name>
+            </talker>
+            <para>. - Most, if not all, Ministers in the Federal cabinet are provided with motor cars, offices, and secretaries, to enable them to carry out their duties. The Leader and Deputy Leader of the Opposition in the other branch of the legislature and in this chamber have been furnished with office accommodation and secretaries, but the Government has not assisted them sufficiently. I propose to move that the bill be returned to the  House  of Representatives, with a request that provision be made for motor cars for them. Motor cars are no longer considered a luxury; to-day they are regarded as a necessity. The Leader of the Opposition and his Deputy, both in this and the other chamber, have strenuous duties to perform, and each is entitled to be provided with a motor car for his exclusive use. When <inline font-style="italic">they</inline> have concluded their work in this building, they should be in a position to retreat to their homes in comfort, instead of having to rush for trains or trams. Instead of having to live in the heart of Melbourne, they would then be able to reside at some salubrious resort along Hobson&#39;s Bay. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3539</page.no>
+              <time.stamp />
+              <name.id>JYX</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FINDLEY, Edward</name>
+              <name role="display">The TEMPORARY CHAIRMAN (Senator Findley</name>
+            </talker>
+            <para>- It would be impossible to accept a request in the form suggested. The honorable senator should move a request that a specific item be reduced by a certain amount, and add, though not as part of his motion, his reasons for doing so. </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3540</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- In view of a desire to expedite the passage of the bill, I intend to waive my right in the matter. I desire to know whether anything is being done by the Government to expedite the construction of the railway from Canberra to Yass Junction? </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3540</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Pearce</name>
+              </talker>
+              <para>-  How can we expedite a work that has not been commenced ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3540</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- I understood that it had to be done by the New South Wales Government; but, for some reason or other, it has not been carried out. It is unfair that such a small work should have been hung up for 25 years. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3540</page.no>
+              <time.stamp />
+              <name.id>JRW</name.id>
+              <electorate>QueenslandHonorary Minister</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRAWFORD, Thomas</name>
+              <name role="display">Senator CRAWFORD</name>
+            </talker>
+            <para>. - Honorable senators will remember that the proposal referred to was reported upon by the Public Works Committee, whose recommendation was against the construction of the line. The matter has again been taken up by the Government, however, and the Minister for Works and Railways <inline font-weight="bold">(Mr. Hill)</inline> is in communication with the State Minister for Railways with a view to improving the railway communication with the Federal Capital- </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3540</page.no>
+              <time.stamp />
+              <name.id>KMP</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GRANT, John</name>
+              <name role="display">Senator GRANT</name>
+            </talker>
+            <para>. - I should like to know whether the Government has considered the advisability of providing a seaplane mail service between the mainland and Tasmania. As honorable senators know, Tasmania suffers considerable inconvenience in the event of the steamer services between that State and the mainland being interrupted. I do not suggest that a passenger air .service should be inaugurated; but in these progressive times I think that it is desirable that the mails to and from Tasmania should be carried by seaplane. In other parts of the Commonwealth, where the carrying of mails by motor car would probably be cheaper, aeroplane mail services exist, and are giving satisfaction. At one time travelling by air involved considerable risk, but to-day it is probably net more dangerous than transport by motor car or railway. The cost of constructing the aeroplanes necessary for a mail service to Tasmania would not be great. A few passengers might also be carried. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3540</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Pearce</name>
+              </talker>
+              <para>-  Evidently the honorable senator wants to avoid payment of the 2s. per head landing charge imposed by- Tasmania. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3540</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- In the event of passengers being conveyed to Tasmania by aeroplanes, I do not think that the people of that State would be so foolish as to insist upon the infamous poll tax of 2s. per head, which they impose upon people who arrive at Launceston or Burnie by steamer from the mainland. A seaplane service could land them at Hobart. I consider that the time is opportune to establish an air mail service with Tasmania, and I should like to know whether the Government contemplates doing anything in that direction. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3540</page.no>
+              <time.stamp />
+              <name.id>KLU</name.id>
+              <electorate>Queensland</electorate>
+              <party>NAT</party>
+              <role>Minister for Home and Territories</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GLASGOW, William</name>
+              <name role="display">Senator Sir WILLIAM GLASGOW</name>
+            </talker>
+            <para>&#91;12.50&#93;. - The provision of aerial communication between the mainland and Tasmania is a matter for the Minister for Defence. The question raised by the honorable senator will be considered by the Government when it is dealing with the Estimates. </para>
+          </talk.start>
+          <para>Schedule agreed to. </para>
+          <para>Postponed clause 2 agreed to. </para>
+          <para>Preamble and title agreed to. </para>
+          <para>Bill reported without request; report adopted. </para>
+          <para>Standing Orders suspended, and bill read a third time. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPER</title>
+        <page.no>3540</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para class="block">The following paper was presented: - </para>
+      <quote>
+        <para>Papuan Oilfields - -Reports from tlie AngloPersian Oil Company on drilling programmes for the oil bores at Popo. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3540</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>RETIRING SENATORS</title>
+          <page.no>3540</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3540</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>NAT</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator PEARCE</name>
+            </talker>
+            <para>. - We have with us to-day two honorable senators who, for a time at least, will not meet with us again, the reason being that they will not be members of the Senate after the end of this month. I suggest that the bells be rung in order to secure a full attendance of honorable senators, and that,. if necessary, the Senate sit beyond the usual time for the luncheon adjournment in order that we may express our appreciation  of  the services rendered by  those  honorable senators without meeting after luncheon. </para>
+          </talk.start>
+          <para>The DEPUTY PRESIDENT <inline font-weight="bold">(Senator Newlands).</inline> - With the concurrence of the Senate, I shall adopt the honorable senator&#39;s suggestion. </para>
+          <para class="block">Honorable Senators.  -  Hear, hear ! </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>3541</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Retiring Senators</title>
+          <page.no>3541</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3541</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>NAT</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator PEARCE</name>
+            </talker>
+            <para>. -  In moving - </para>
+          </talk.start>
+          <quote>
+            <para>That the Senate do now adjourn, </para>
+          </quote>
+          <para>I feel that I am voicing the desire of honorable senators generally when I say that we should not like to carry this motion without first making reference to the fact that three honorable senators who have been with us for a considerable time will not, owing to the exigencies of political fortune, be members of the new Senate which assembles on the  1st  July next. We hope that at some future time they will make their re-appearance here; but for the present we are losing them. I refer to Senators Wilson, Gardiner, and Drake-Brockman. As <inline font-weight="bold">Senator Drake-Brockman</inline> will be with us next week, I shall postpone until then any reference to him; but <inline font-weight="bold">Senator Wilson</inline> and <inline font-weight="bold">Senator Gardiner</inline> have intimated that they will not attend the meeting of the Senate on Wednesday next. Speaking for honorable senators on this side of the chamber, I express regret that the exigencies of political fortune should have occasioned this severance. Both honorable senators are men of strong character and personality, who, when they hit, strike hard. Nevertheless, I feel that no bitterness has been occasioned by their utterances. On the contrary, they have earned the respect of all of us. I have worked with <inline font-weight="bold">Senator Wilson</inline> as a colleague, and for him I have a very high regard, as indeed, we all have. </para>
+          <para class="block">Honorable Senators.  -  Hear, hear! </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3541</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator PEARCE</name>
+              </talker>
+              <para>- He has no enemy in this chamber, but many friends. We are all sorry that he is leaving us. <inline font-weight="bold">Senator Gardiner</inline> has a strong fighting spirit, and carries a nasty punch, which he lets us feel occasionally. He is an old Rugby footballer, and in that strenuous game he learned not only to give hard knocks, but also to take them, and to continue smiling. He and I have engaged in many  a  combat. I do not know how the honorable senator feels towards me, but personally I regard him as a friend. I regret that he is leaving us. The Senate will feel the loss of his debating powers. Although during recent years <inline font-weight="bold">Senator Gardiner</inline> and I have seldom agreed, I feel that in him we have had a political opponent worthy of our steel. We wish these two gentlemen well, and hope that they will continue to enjoy good health. We trust also, that their services will, in another sphere, be made available to their country. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3541</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator NEEDHAM</name>
+            </talker>
+            <para>. -  I heartily endorse the sentiments expressed by the Leader of the Senate <inline font-weight="bold">(Senator Pearce).</inline> With him, I hope that the absence of Senators Wilson and Gardiner from the Senate will be only temporary. Last Friday I referred to the approaching departure of <inline font-weight="bold">Senator Wilson.</inline> We know that he is a man in the best sense of the term. As a Minister, he has always been willing to meet us, and, if possible, to assist us. He has always been courteous. I sincerely regret that the Parliament of this country is losing a man of his ability. With <inline font-weight="bold">Senator Pearce,</inline> I sincerely regret that, for a little while, the Leader of the Opposition in this chamber <inline font-weight="bold">(Senator Gardiner)</inline> will not be with us. For sixteen years I have served in this Parliament under <inline font-weight="bold">Senator Gardiner,</inline> and I know that in losing him the Labour party is losing not only a leader, but a colleague and a chum. </para>
+          </talk.start>
+          <para>Honorable Senators.  -  Hear, hear! </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3541</page.no>
+                <time.stamp />
+                <name.id>JXJ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">NEEDHAM, Edward</name>
+                <name role="display">Senator NEEDHAM</name>
+              </talker>
+              <para>- Not only that, but I feel that Australia is losing from this national Parliament a man whom it can ill afford to lose. I endorse all the kind words said by <inline font-weight="bold">Senator Pearce</inline> about my Leader . It is true that <inline font-weight="bold">Senator Gardiner</inline> has an effective punch, but, whilst he is an aggressive fighter, he never hits below the belt. I sincerely hope that the retirement of the two honorable senators who are about to leave us will be for  a  brief period only. We all have  a  high regard for them, and, personally, I hope soon to see them again with us, engaged in working for the welfare of Australia. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3542</page.no>
+              <time.stamp />
+              <name.id>KKZ</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GARDINER, Albert</name>
+              <name role="display">Senator GARDINER</name>
+            </talker>
+            <para>. - I thank the right honorable the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> and <inline font-weight="bold">Senator Needham</inline> for their kind remarks, andI appreciate also the sympathetic manner in which they were received by honorable senators. Looking around this chamber, I can see only three who were members of it when first I became a senator in 1910. I cannot help thinking it is strange that I was not defeated before now, because, possibly, I deserved defeat on many occasions. Next week <inline font-weight="bold">Senator Wilson,</inline> who, till a day or two ago, was Minister for Markets and Migration, will be on the same side of the Senate as I am - the outside. I am not sure that we were not destined to be on the same side in politics in any case. I have always felt that on many public questions he was with me. I cannot shut my eyes to the fact that, although on many occasions these words of farewell are uttered somewhat lightly, in some cases they mean the final good-bye. So I say good-bye to all honorable senators who are listening to me now. Although we have had our differences in debate on many occasions, I leave this chamber without the slightest feeling of ill-will towards any one. </para>
+          </talk.start>
+          <para>Honorable Senators. - Hear, hear! </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3542</page.no>
+                <time.stamp />
+                <name.id>KKZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GARDINER, Albert</name>
+                <name role="display">Senator GARDINER</name>
+              </talker>
+              <para>- Frequently during my career in this chamber, I have been in conflict with the Chair, both in the Senate and in committee, but I can assure honorable senators that if I have been a source of annoyance to the  President  or the  Chairman  of Committees, it is because I have ever been watchful, and have not hesitated to resent and resist any departure from what I regarded as the proper parliamentary practice. As I am about to leave the Senate, I advise the younger members of it to watch procedure carefully, and resist to the utmost any departure from the regular practice in the conduct of the business of this chamber. As for the Leader of the Senate, I can only say that although <inline font-weight="bold">Senator Pearce</inline> and I have drifted apart politically, we are still firm personal friends. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3542</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Pearce</name>
+              </talker>
+              <para>- Hear, hear! </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3542</page.no>
+                <time.stamp />
+                <name.id>KKZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GARDINER, Albert</name>
+                <name role="display">Senator GARDINER</name>
+              </talker>
+              <para>-Whilst I have bitterly opposed the right honorable gentleman on many occasions in respect of his public policy, I have never been unmindful of the value of his services to the community. I may add that last night I was pleased to find the right honorable gentleman in his most aggressive mood, and I enjoyed as thoroughly as any other honorable senator the final caning which he gave me. I happen to know the reason. For once I had achieved something. I had talked one of my audience to sleep. <inline font-weight="bold">Senator Pearce</inline> slept on serenely and dreamed a dream. Then, when he awoke, he castigated me severely. I appreciated the drubbing which he gave me. And now, as I am about to leave the Senate, I extend to honorable senators on both sides my best wishes for the future, and am vain enough to believe that I carry with me the good wishes of all. </para>
+            </talk.start>
+          </continue>
+          <para>Honorable Senators. - Hear, hear! </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3542</page.no>
+                <time.stamp />
+                <name.id>KKZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GARDINER, Albert</name>
+                <name role="display">Senator GARDINER</name>
+              </talker>
+              <para>- I have spent many years in the political life of Australia. To all I think there comes a time when one thinks that one can get too much of a good thing. On the 14th of July next it will be 35 years since I entered public life in New South Wales as a Labour member. I have been sixteen years a member of this chamber, and I have been through strenuous sessions, but I feel that I may yet perform useful service for many years outside this Parliament. I understand the parliamentary machine.I understand the difficulties of members of Parliament, and, whether inside or outside of Parliament, I shall always be loyal to the institution which I value so highly. I thank you, <inline font-weight="bold">Mr. President,</inline> and all honorable senators for kindnesses received during my term as a senator. I should also like to take this opportunity to thank the officers of the Senate, those gentlemen who unostentatiously do so much to facilitate the transaction of public business, for the assistance which they have at all times been so ready to give. I may, perhaps, be permitted to say that, had the people, as I anticipated they would, returned Labour to power at the last election, I intended to aspire to the position of  President  of this chamber, largely in order to do what I could to make the positions of our officers easier than they have been. The electors willed otherwise; but I see possibilities with the incoming  President. </para>
+            </talk.start>
+          </continue>
+          <para class="block">Having said so much, may I be pardoned ifI say a little more, and add a word of praise for a gentleman who is not an officer of the Parliament? I wish to place on record my high regard for <inline font-weight="bold">Mr. Eric</inline> Tonkin, who forthe last eight years has rendered excellent service to me as secretary to the Leader of the Opposition in the Senate. I am under a deep obligation to him. Now may I say a word or two for the members of the fourth estate? The press has treated me well, although it has not always reported speeches which I wished to be reported. 1 thank its representatives in this chamber. As a defeated candidate at the last election, I may be regarded as a political casualty. For the time being I have been put out of action as a senator, but my life&#39;s work is not yet finished. I still have the vigour of a strong frame, and I feel that for many years I may be permitted to continue my work in another sphere of political action. </para>
+          <para>
+            <inline font-weight="bold">Senator Sir VICTOR</inline>WILSON (South Australia) &#91;1.9&#93;. - I also wish to thank the Lender of the Senate <inline font-weight="bold">(Senator Pearce)</inline> as well as the Leader of the Opposition <inline font-weight="bold">(Senator Gardiner)</inline> and the  Deputy  Leader <inline font-weight="bold">(Senator Needham)</inline> for their kindly references to me. I heartily endorse all that has been said in appreciation of <inline font-weight="bold">Senator Gardiner,</inline> who, with me, is about to sever his connexion with this chamber. When I came here six years ago, <inline font-weight="bold">Senator Gardiner</inline> was alone on the Opposition benches. I also was alone, so in some respects we were kindred spirits, and to some extent were drawn towards one another. <inline font-weight="bold">Senator Gardiner</inline> remarked just now that he and <inline font-weight="bold">Senator Pearce</inline> had drifted apart politically. On the contrary, I can say that <inline font-weight="bold">Senator Pearce</inline> and I have been drawn together politically, and I have the highest regard for the right honorable gentleman who has been leading the Senate for so long. I have the greatest admiration for his outstanding ability, and have had many evidences of his unfailing courtesy. I have always found him ready to assist other honorable senators in every way possible. This will be my last appearance in the Senate, at all events for some time.Ican assure honorable senators that I have the highest personal regard for them all, and I wish them well. In leaving I earnestly counsel them to be loyal one to the other. Public men in the performance of difficult tasks have a right to expect the loyalty of their fellow workers. Few people realize the tremendous sacrifices that are made by many of the men who do the public work of this country. To a considerable extent they have to give up home life, the comfort of the fire-side, and the privilege of daily family intercourse. Nevertheless, I leave this Senate with feelings of regret. I trust all honorable senators will have a very prosperous future. </para>
+          <para class="block">Question resolved in the affirmative. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>3543</page.no>
+        <time.stamp>13:11:00</time.stamp>
+      </adjournmentinfo>
+      <para class="block">Senate adjourned at 1.11 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

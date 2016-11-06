@@ -1,251 +1,2132 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #060606; } body { background-image: url(/images/body-home-evening-blurred.jpg); background-color: #060606; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1962-10-02%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1962-10-02%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1962-10-02%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1962-10-02%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1962-10-02%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1962-10-02%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1962-10-02%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1962-10-02/19621002_senate_24_s22.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1962-10-02</date>
+    <parliament.no>24</parliament.no>
+    <session.no>1</session.no>
+    <period.no>2</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>617</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <business.start>
+      <day.start>1962-10-02</day.start>
+      <para>The <inline font-weight="bold">PRESIDENT (Senator the Hon. Sir Alister McMullin)</inline> took the chair at 3 p.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF SENATOR MAXWELL WILLIAM POULTER</title>
+        <page.no>617</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>617</page.no>
+            <time.stamp />
+            <name.id>K7A</name.id>
+            <electorate>New South WalesVicePresident of the Executive Council and Minister for National Development</electorate>
+            <party>LP</party>
+            <role>Minister for National Development</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">SPOONER, William</name>
+            <name role="display">Senator SPOONER</name>
+          </talker>
+          <para>- by leave - lt is with regret that I advise the Senate of the death of <inline font-weight="bold">Senator Poulter</inline> on 2nd September last. <inline font-weight="bold">Senator Poulter</inline> was elected to the Senate for the State of Queensland at the last federal election on 9th December, 1961. He was to have taken his seat on 7th August, but was unable- to do so. 1 think, <inline font-weight="bold">Mr. President,</inline> that we all find this a sad occasion. <inline font-weight="bold">Senator Poulter</inline> was a young man, he was only 49 years of age. For many years he had been associated with the Australian Labour Party. He had been a candidate for the Senate in 1958 and had contested a Federal seat in Tasmania in 1951. When his ambition to enter public life seemed to have been achieved with his election to the Senate, he was unable to fulfil that ambition by serving here. </para>
+        </talk.start>
+        <para>I think all will agree that <inline font-weight="bold">Senator Poulter&#39;s</inline> scholastic attainments would have made him a worthy addition indeed to the Senate. He was a Bachelor of Commerce, a Bachelor of Arts and a Master of Arts. He held a Diploma of Education, and further, be was a Doctor of Education.  His  career in Queensland showed that he had made a distinguished contribution to the work of the education department of the University of Queensland. </para>
+        <para>It is a sad fact that not many of us in the Senate knew <inline font-weight="bold">Senator Poulter</inline> personally. Despite that, we think it proper to pay respect to him personally and also to extend our sympathy to his widow and three daughters. I move - </para>
+        <quote>
+          <para>That the Senate expresses its deep regret at the death of <inline font-weight="bold">Senator Maxwell</inline> William Poulter, senator for the State of Queensland, and tenders its sincere sympathy to his widow and the members of his family in their bereavement. </para>
+        </quote>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>617</page.no>
+            <time.stamp />
+            <name.id>KPK</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">KENNELLY, Patrick</name>
+            <name role="display">Senator KENNELLY</name>
+          </talker>
+          <para>- On behalf of the Opposition, I second the motion. A man who was in the prime of life has passed from amongst us at the early age of 49 years. It is very true, as the good book records, that we know neither the day nor the hour of our passing. As <inline font-weight="bold">Senator Spooner</inline> has said, <inline font-weight="bold">Dr. Poulter</inline> was elected at the last election but unfortunately, because of ill health, he was not able to take his seat in this chamber. He did attend a meeting of his party at which certain officers of the party were elected. That meeting was held after the election and prior to the meeting of the Parliament. </para>
+        </talk.start>
+        <para>
+          <inline font-weight="bold">Dr. Poulter</inline>was not a newcomer to politics. He had been a member of  the  Australian Labour Party for many years. In 1951 he contested the election for the seat of Braddon in Tasmania and was narrowly defeated. In 1958 he was an unsuccessful candidate for election to the Senate. </para>
+        <para>The late <inline font-weight="bold">Dr. Poulter</inline> undoubtedly made his mark in the field of education. He was  a  Master of Arts and a Bachelor of Commerce, and he held the Diploma of Education. He was also  a  Doctor of Education. I knew <inline font-weight="bold">Dr. .Poulter</inline> over a long number of years. If  he  held a particular view on a subject he would express that view no matter what other people thought about it. </para>
+        <para>In expressing regret at the passing of my late colleague I could not do better than repeat the statement made by <inline font-weight="bold">Sir Frederick</inline> Schonell, Vice-Chancellor of the University of Queensland who, when commenting on the untimely death of <inline font-weight="bold">Dr. Poulter</inline> and the great loss suffered by the university, said - </para>
+        <quote>
+          <para>Max Poulter was a stimulating lecturer and very much liked by his students. He had his feet on the ground and was an expert in the social factors in education In this field he made a distinct contribution to the work of the university&#39;s Education Department. Moreover he was a fearless fighter for improvement in education. </para>
+        </quote>
+        <para>I am sure that if <inline font-weight="bold">Dr. Poulter</inline> had been spared to sit in this Senate he would not only have enhanced his own reputation but also would have added great lustre to the Senate. He was a young man - only 49 years of age. If Providence had permitted, he could have given many years of useful work in the service of the people of this nation. On behalf of the Opposition I tender to his widow and children our very sincere sympathy in their great loss. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>617</page.no>
+            <time.stamp />
+            <name.id>KAF</name.id>
+            <electorate>Victoria</electorate>
+            <party>CP</party>
+            <role>Minister for Health</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">WADE, Harrie</name>
+            <name role="display">Senator WADE</name>
+          </talker>
+          <para>. - On behalf of the Australian </para>
+        </talk.start>
+        <para class="block">Country Party I, too, would like to support the motion before the Senate and to express our profound regret at the untimely passing of <inline font-weight="bold">Senator Poulter.</inline> Not having been privileged to meet <inline font-weight="bold">Senator Poulter,</inline> I can conclude only that the Labour Party and the people of Queensland chose him to represent them in this chamber because of his outstanding talents and ability.  His  untimely passing is something we all regret. We extend to his wife and family our very sincere sympathy in their great sorrow. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>618</page.no>
+            <time.stamp />
+            <name.id>JYA</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">O&#39;BYRNE, Justin</name>
+            <name role="display">Senator O&#39;BYRNE</name>
+          </talker>
+          <para>- I should like to associate myself with the condolence motion now before the Senate. I knew <inline font-weight="bold">Dr. Max</inline> Poulter for many years, and I know the great contribution that he made in the field of education in Tasmania. He was always in the forefront of advanced thinking, and his contribution to education administration in Tasmania was held in very high regard by the authorities there. He earned his degrees by hard work and application to his studies. He went to the United States of America to widen his knowledge and understanding of the problems of education. He was alert to the need to expand the education of the Australian people, and the experience that he gained overseas was of great advantage to the Tasmanian Department of Education and, later, to the Department of Public Instruction in Queensland and to the University of Queensland. </para>
+        </talk.start>
+        <para>I knew him also as a sportsman and a very able administrator of sporting bodies. He earned the respect and friendship of many people in whatever field he entered. In the political sphere, I campaigned with him in the election for the federal seat of Braddon. He was a man who always expressed his views with great confidence, believing sincerely in the cause that he espoused. I found him always to be most sympathetic and humane in his attitude towards his fellow men, his constant objective being to try to elevate the dignity of man. </para>
+        <para>By his passing, the public life of Australia has lost a man who had much to give. To his wife and three young children, I extend my very deepest sympathy. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>618</page.no>
+            <time.stamp />
+            <name.id>KBW</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">WRIGHT, Reginald</name>
+            <name role="display">Senator WRIGHT</name>
+          </talker>
+          <para>- Together with other old scholars of the Devonport High School who are now in the Senate - Senators Cole and Lillico - I looked forward with a rare degree of personal pleasure to the advent of <inline font-weight="bold">Senator Poulter</inline> in this chamber. I hoped that, with his great educational accomplishments and his earnest interest in the politics of this country, he would enliven the proceedings of  this  place, to its great improvement. However, a cruel disease cut him down and abruptly put an end to his long-cherished ambition to participate in national politics. I wish to express my sympathy with all the members of his family. </para>
+        </talk.start>
+        <para>Question resolved in the affirmative, honorable senators standing in their places. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>618</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator Spooner</name>
+            </talker>
+            <para>-  I suggest that, as a mark of respect to the late senator, the sitting be suspended until  8  p.m. </para>
+          </talk.start>
+        </interjection>
+        <para>Sitting suspended from 3.15 to 8 p.m. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>618</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ROYAL AUSTRALIAN NAVY</title>
+          <page.no>618</page.no>
+        </subdebateinfo>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>618</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator Sir WALTER COOPER</name>
+            </talker>
+            <para>- I  direct my question to the Minister for the Navy. Is it a fact that the Royal Australian Navy is to be equipped with helicopters for the purpose of locating and attacking enemy submarines? If that is a fact, how many units will operate and how many helicopters will be in each unit? What will be the maximum range and the maximum flying speed of the helicopters? What will be the numbers and duties of the helicopter crews? When is it expected that the helicopter branch of the Navy will be ready for action? </para>
+          </talk.start>
+        </interjection>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>618</page.no>
+              <time.stamp />
+              <name.id>KH5</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role>Minister for the Navy</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GORTON, John</name>
+              <name role="display">Senator GORTON</name>
+            </talker>
+            <para>-  It is intended that the Royal Australian Navy will be equipped with anti-submarine helicopters. They will be Wessex helicopters equipped with Asdic for discovering submarines and a torpedo or torpedoes to attack the submarines. In fact, the first two or three of the helicopters have been handed over to the Navy already. The order is for 27 helicopters altogether. The &#34; Melbourne &#34;, which will be carrying the helicopter unit, will have sixteen helicopters on board at a time. The other helicopters will be used for operational training requirements at the base at Nowra and for replacements and so on as they become necessary. </para>
+          </talk.start>
+          <para>The range of the helicopters depends entirely on the all-up weight - the amount of equipment - they are carrying. Normally it would be about 250 nautical miles  with ordinary petrol tanks and about double that distance with overloaded petrol tanks. Their speed is about 115 knots. The first group should be fully operationally trained and embarked towards the end of 1963. They will be withdrawn for <inline font-style="italic">a</inline> little while, and then they will go into full operation early in 1964. </para>
+          <para>The duties of the crews will not be to travel long distances, but some of them - not the whole sixteen - will be constantly in the air forming an outer screen around a convoy by night or by day, hovering at predetermined heights by night or by day, lowering Asdic detection apparatus to find submarines, and attacking them when they are found. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>619</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BANKING</title>
+          <page.no>619</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>619</page.no>
+              <time.stamp />
+              <name.id>K4S</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SANDFORD, Charles Walter</name>
+              <name role="display">Senator SANDFORD</name>
+            </talker>
+            <para>- I direct a question to the Minister representing the Treasurer. Have the so-called free enterprise, independent, competitive banks recently increased their service charges considerably? Can the Minister inform the Senate whether the independent, competitive- banksreached their decisions independently or in consultation? Is it only a coincidence that all the increases are the same? Has the Commonwealth Trading Bank also increased its service charges on a par with the increases made by the free enterprise, independent, competitive banks? If it has, did the Commonwealth Trading Bank consult the Treasurer or was the bank subjected to pressure by the free enterprise, independent, competitive banks through the Treasurer? i </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>619</page.no>
+              <time.stamp />
+              <name.id>JZY</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>LP</party>
+              <role>Minister for Civil Aviation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PALTRIDGE, Shane</name>
+              <name role="display">Senator PALTRIDGE</name>
+            </talker>
+            <para>- I thought it was generally known that the decision to vary the scale of banking charges was reached by all the banks in consultation. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>619</page.no>
+                <time.stamp />
+                <name.id>K4S</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SANDFORD, Charles Walter</name>
+                <name role="display">Senator Sandford</name>
+              </talker>
+              <para>- Where is the free enterprise, competitive system? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>619</page.no>
+                <time.stamp />
+                <name.id>JZY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PALTRIDGE, Shane</name>
+                <name role="display">Senator PALTRIDGE</name>
+              </talker>
+              <para>- The honorable senator refers to the free enterprise competitive banks. I am sure he will know that the consultations were not restricted to the private banks, and that the Commonwealth Trading Bank, the Commonwealth Development Bank and, for that matter, the State trading banks were all parties to those consultations and that they were all in agreement with the new scale of charges to be imposed. </para>
+            </talk.start>
+          </continue>
+          <para>The honorable senator asks whether any pressure was brought to bear on the Commonwealth Bank to adopt the new scale of charges. Having regard to the growth which has occurred in that institution in recent years, I should have .thought that if any such pressure were brought to bear in. connexion with this matter, the Commonwealth Bank would have been able to withstand it. The proposal was not discussed with the Treasurer. It was looked upon as a day-to-day administrative matter which did not go to him for consideration. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>619</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SHIPPING</title>
+          <page.no>619</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>619</page.no>
+              <time.stamp />
+              <name.id>KBW</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WRIGHT, Reginald</name>
+              <name role="display">Senator WRIGHT</name>
+            </talker>
+            <para>- By way of preface to a question addressed to the Minister representing the Minister for Shipping and Transport, 1 refer to a letter which I, and, no doubt, others, received from the general manager of Ampol Petroleum Limited giving certain background facts in relation to the demand by the Seamen&#39;s Union in connexion with the manning of the Ampol company&#39;s new ship, &#34; P. J. Adams &#34;, in which it is stated that if existing awards for Australian seamen were adopted the wage costs of the company would be increased by over 200 per cent, and that that would make the operation of &#34; P. J. Adams &#34; completely uneconomic. Can the Minister say whether his department has any information contrary to that statement? I also ask the Minister whether he can tell me whether the claim by the Seamen&#39;s Union to have Australian seamen man this ship has yet been resolved. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>619</page.no>
+              <time.stamp />
+              <name.id>JZY</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PALTRIDGE, Shane</name>
+              <name role="display">Senator PALTRIDGE</name>
+            </talker>
+            <para>- I cannot say definitely that an increase of 200 per cent, in costs would result from the employment of an Australian crew on this vessel. I know - and I have frequently so indicated in this place - that the employment of Australian crews often creates a situation in which it is impossible for Australian vessels to operate at costs which compare with those of vessels that sail under other flags. I stop short of saying that the increase would be 200 per cent. I shall have to consult with my colleague on that point. But it is true, as has been said by the company, that if it had contemplated the possibility of its having to engage an Australian crew to man this vessel the tanker would not have been built in Australia and the Australian shipping yards, as well as all those  people employed in the Australian shipbuilding industry would not have had the employment and other benefits that flowed from the construction of this vessel in Australia. </para>
+          </talk.start>
+          <para>I  am not sure of the stage which has been reached in connexion with the demand by the union that the tanker be manned by an Australian crew.  I  shall obtain the information from my colleague and inform the honorable senator. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>620</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TASMANIAN SHIPPING SERVICE</title>
+          <page.no>620</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>620</page.no>
+              <time.stamp />
+              <name.id>KSN</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MARRIOTT, John</name>
+              <name role="display">Senator MARRIOTT</name>
+            </talker>
+            <para>- I  ask the Minister representing the Minister for Shipping and Transport whether he recalls that in the Senate, on 28th February this year,  I  suggested, by way of a question, that an Australia-wide competition should be held to decide the best name for the new passenger-vehicular ship being constructed to trade between Tasmania and Sydney. Although the Minister said he would refer the matter to the Minister for Shipping and Transport, <inline font-weight="bold">Mr. Opperman,</inline> I have heard nothing in reply. Having recently repeated my suggestion in Tasmania, where  I  found it met with popular accord,  I  ask the Minister whether he will endeavour to obtain the views of the Minister for Shipping and Transport with respect to my suggestion that an Australia-wide competition be held to decide the name of this new ship. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>620</page.no>
+              <time.stamp />
+              <name.id>JZY</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PALTRIDGE, Shane</name>
+              <name role="display">Senator PALTRIDGE</name>
+            </talker>
+            <para>- The Minister for </para>
+          </talk.start>
+          <para class="block">Shipping and Transport has provided me with the following answer to the query: - </para>
+          <quote>
+            <para>The suggestion is one which commends itself at first sight, but further investigation indicates that its conduct on a proper basis, in keeping with the standards of the National Line would entail a volume of work adverting to prizes and to organization out of proportion to the result. The selection of a suitable name is one which is under review, but as the ship will not be launched until 1963 it is considered that there is no immediate urgency. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>620</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BANKING</title>
+          <page.no>620</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>620</page.no>
+              <time.stamp />
+              <name.id>K1T</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BENN, Archibald</name>
+              <name role="display">Senator BENN</name>
+            </talker>
+            <para>- I  wish to direct  a  question to the Minister representing the Treasurer, but before doing so  I  propose to state something by way of  a  fact. The fact is that savings banks pay interest  on  the minimum monthly balances. Under this scheme, a sum of &#163;1,000 paid into a savings bank account on 2nd October of this year and withdrawn from the savings bank account on 29th November next would not attract any interest payment at all. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>620</page.no>
+                <time.stamp />
+                <name.id>KBW</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WRIGHT, Reginald</name>
+                <name role="display">Senator Wright</name>
+              </talker>
+              <para>-  -Nonsense </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>620</page.no>
+                <time.stamp />
+                <name.id>K1T</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BENN, Archibald</name>
+                <name role="display">Senator BENN</name>
+              </talker>
+              <para>- All right, it is nonsense. You do not know what you are talking about. You are sitting there like a frilledneck lizard trying to scare people. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>620</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator Spooner</name>
+              </talker>
+              <para>-  Have you the dates right? You said 2nd October one year and 29th November next year. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>620</page.no>
+                <time.stamp />
+                <name.id>K1T</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BENN, Archibald</name>
+                <name role="display">Senator BENN</name>
+              </talker>
+              <para>- This year. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>620</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator Spooner</name>
+              </talker>
+              <para>-  You made a mistake, then. You state your dates again. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>620</page.no>
+                <time.stamp />
+                <name.id>K1T</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BENN, Archibald</name>
+                <name role="display">Senator BENN</name>
+              </talker>
+              <para>- It has to be a full calendar month. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>620</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator Spooner</name>
+              </talker>
+              <para>-  You made it fourteen months, or thirteen months. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>620</page.no>
+                <time.stamp />
+                <name.id>K1T</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BENN, Archibald</name>
+                <name role="display">Senator BENN</name>
+              </talker>
+              <para>- No. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>620</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator Spooner</name>
+              </talker>
+              <para>-  Yes, you did. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>620</page.no>
+                <time.stamp />
+                <name.id>K1T</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BENN, Archibald</name>
+                <name role="display">Senator BENN</name>
+              </talker>
+              <para>- Will the Minister consider notifying the savings banks of the unfairness of their paying interest on moneys in savings banks accounts based on the minimum monthly balances and stating that they should, to be fair to depositors, pay interest on average monthly balances? </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>620</page.no>
+              <time.stamp />
+              <name.id>JZY</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PALTRIDGE, Shane</name>
+              <name role="display">Senator PALTRIDGE</name>
+            </talker>
+            <para>- It is my  own  understanding that the payment of interest on the minimum monthly balance has  been  a condition of the payment of interest since savings banks were savings banks. Some norms necessarily have to be set. This was. the norm that was set years ago and has been adhered to ever since. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>620</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TELEVISION</title>
+          <page.no>620</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>620</page.no>
+              <time.stamp />
+              <name.id>KBW</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WRIGHT, Reginald</name>
+              <name role="display">Senator WRIGHT</name>
+            </talker>
+            <para>- I direct a question to the Minister representing the PostmasterGeneral and preface it by saying that I was tremendously interested in an announcement that <inline font-weight="bold">Dr. Darling,</inline> on his return from overseas recently, was encouraging the view that television should be used as an educational medium. Will the Minister inform the Senate whether <inline font-weight="bold">Dr. Darling</inline> will be expressing his views to the Government on that subject in any formal way, either as an individual or on behalf of the Australian Broadcasting Commission? Will the Minister keep the Senate acquainted  with <inline font-weight="bold">Dr. Darling&#39;s</inline> most valuable  views on. this  matter? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>621</page.no>
+              <time.stamp />
+              <name.id>KAF</name.id>
+              <electorate />
+              <party>CP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WADE, Harrie</name>
+              <name role="display">Senator WADE</name>
+            </talker>
+            <para>- There is a question on the notice-paper now relating to this matter, although it is not in the terms in which <inline font-weight="bold">Senator Wright</inline> has framed his question. I understand that the question on the notice-paper asks whether a television channel will be set aside as an educational medium under the auspices of the Australian Broadcasting Commission. A reply to it has not yet been received from the Postmaster-General. I shall bring to the Minister&#39;s notice the additional points that have been raised by <inline font-weight="bold">Senator Wright</inline> and seek a detailed reply. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>621</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CIVIL AVIATION</title>
+          <page.no>621</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>621</page.no>
+              <time.stamp />
+              <name.id>JYA</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;BYRNE, Justin</name>
+              <name role="display">Senator O&#39;BYRNE</name>
+            </talker>
+            <para>- Is the Minister for Civil Aviation aware that the Flinders Island shipping fleet has been seriously depleted by the loss by wreck of the &#34; Sheerwater &#34;? Is the Minister aware also that in order to place the fat lambs produced by war service land settlers on Flinders Island on the Tasmanian market, a quote was received from Pacific Airlines to air freight lambs to Tasmania at 13s. a head? Is it a fact that the Minister has allowed this airline only a limited number of trips from Flinders Island on the ground that the airline could not operate at this price when the AnsettA.N.A. organization was charging 20s. 6d. a head to transport Iambs? Is the policy of the Government directed towards supplying services to the public at competitive prices, or is it solely concerned with guarding the price structure that gives Ansett-A.N.A. a handsome profit, at the expense of the settlers on Flinders Island who have enough burdens on their shoulders already? Will the Minister give an assurance that Pacific Airlines can continue to freight the lambs to the Tasmanian market at the present price, which is profitable to that organization? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>621</page.no>
+              <time.stamp />
+              <name.id>JZY</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PALTRIDGE, Shane</name>
+              <name role="display">Senator PALTRIDGE</name>
+            </talker>
+            <para>- I regret very much that the honorable senator has seen fit to try again to make political capital out of this situation. I am well aware of the position on Flinders Island and of the loss of the &#34; Sheerwater &#34;. In accordance with an application made to the Director-General of the Department of Civil Aviation, I have granted a number of charter flights to Pacific Airlines. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>621</page.no>
+                <time.stamp />
+                <name.id>JYA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">O&#39;BYRNE, Justin</name>
+                <name role="display">Senator O&#39;Byrne</name>
+              </talker>
+              <para>- Eight. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>621</page.no>
+                <time.stamp />
+                <name.id>JZY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PALTRIDGE, Shane</name>
+                <name role="display">Senator PALTRIDGE</name>
+              </talker>
+              <para>- I think it was rather more than that. In any case, whatever Pacific Airlines applied for was granted. So far as I am aware, to this date Pacific Airlines has not applied for any further charter licences. When it does, its application will be considered on its merits. I want to say this in connexion with the smear, or attempted smear, that the honorable senator directed at the Government&#39;s policy: If he knows anything about airline operations or any other form of transport, he will know that a charter operator can always move into a particular service at a chosen time and pick up cargoes at rates less than those charged by a permanent operator. In respect of this matter, I say again to the honorable senator that the Government has taken action as requested to meet a particular situation. Any further applications will be considered in the light of existing circumstances. For good measure, let me tell the honorable senator that the pattern of operations by the operator concerned may, within the next day or two, undergo considerable change. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>621</page.no>
+              <time.stamp />
+              <name.id>JQQ</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CORMACK, Magnus</name>
+              <name role="display">Senator CORMACK</name>
+            </talker>
+            <para>- My question, which also is addressed to the Minister for Civil Aviation, arises out of the question which <inline font-weight="bold">Senator O&#39;Byrne</inline> has just asked. In view of the breadfruit kind of economy that exists in Tasmania, will the Minister direct the attention of the Premier of that State to the fact that the provision of transport services is a function of the .State governments and not of the Federal Government? The Minister will realize that I am speaking as a senator from Victoria which is getting rather weary of subsidizing these services in other States. </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>621</page.no>
+                <time.stamp />
+                <name.id>JZY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PALTRIDGE, Shane</name>
+                <name role="display">Senator PALTRIDGE</name>
+              </talker>
+              <para>- The provision of air transport to the Bass Strait islands is accepted by the Commonwealth Government as its responsibility. That has been so ever since this Government has been in office, and before then. When difficulties arise, as they frequently do, in the provision of shipping services to the Bass Strait islands, the Commonwealth Government has at all times, I think, shown a ready appreciation of them and a willingness to assist in overcoming them. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>621</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BANKING</title>
+          <page.no>621</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>621</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator AYLETT</name>
+            </talker>
+            <para>- I ask the Minister representing the Treasurer whether the </para>
+          </talk.start>
+          <para class="block">Commonwealth Bank is a party to the new bank charges which came into operation on the first day of this month. I understand that the private associated banks have introduced this new scale of charges which will mean that costs amounting to many hundreds of thousands of pounds, and possibly millions of pounds, will have to be passed on to the consumer. As I see the position, there is no alternative. Whether the costs are passed on from the manufacturer of raw materials or from some other source, they will affect the retailer who will, in turn, pass them on to the consumer. I also ask the Minister whether he has any idea of the total amount of the costs that will be passed on to the consumer because of the additional charges. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>622</page.no>
+              <time.stamp />
+              <name.id>JZY</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PALTRIDGE, Shane</name>
+              <name role="display">Senator PALTRIDGE</name>
+            </talker>
+            <para>- I think I can deal briefly with most of the question asked by the honorable senator by referring him to an answer I gave to a question asked by his colleague, <inline font-weight="bold">Senator Sandford,</inline> earlier this evening. Perhaps <inline font-weight="bold">Senator Aylett,</inline> oddly enough, was absent at the time. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>622</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>INDONESIA</title>
+          <page.no>622</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>622</page.no>
+              <time.stamp />
+              <name.id>K2I</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRANSON, George</name>
+              <name role="display">Senator BRANSON</name>
+            </talker>
+            <para>- Is the Minister representing the Minister for External Affairs able to confirm the statement that appeared in the press that Indonesia is contemplating the military training of school-age children? Is not that the same technique that was used by Hitler and Mussolini prior to the last World War? Has the Government been advised by the Indonesian Government why it is necessary to pursue this policy? Is there any direct threat to Indonesia that warrants such action? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>622</page.no>
+              <time.stamp />
+              <name.id>KH5</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GORTON, John</name>
+              <name role="display">Senator GORTON</name>
+            </talker>
+            <para>- I know of no direct threat to Indonesia from any quarter, nor have I any confirmation whatever of the truth of the statement, alluded to by <inline font-weight="bold">Senator Branson,</inline> that Indonesia proposes to train school children. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>622</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PENSIONER MEDICAL SERVICES</title>
+          <page.no>622</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>622</page.no>
+              <time.stamp />
+              <name.id>K19</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">POKE, Albert</name>
+              <name role="display">Senator POKE</name>
+            </talker>
+            <para>-  I address my question to the Minister representing the Minister for Social Services. Is it a fact that the Department of Social Services declines to issue separate medical cards to married age and invalid pensioners except in the case of pensioners living apart? If that is so, does not the Minister consider that a disability is imposed on pensioner couples by such a practice? Will he consider the desirability of issuing separate medical cards to married pensioners living together? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>622</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>-  Whether one card or two cards should be issued is obviously a matter affecting administration and something on which I am not fitted to express an opinion. I therefore ask the honorable senator to place his question on the notice-paper. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>622</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ABDUCTION OF CHILDREN</title>
+          <page.no>622</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>622</page.no>
+              <time.stamp />
+              <name.id>KBW</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WRIGHT, Reginald</name>
+              <name role="display">Senator WRIGHT</name>
+            </talker>
+            <para>- I direct a question to the Minister representing the Minister for Social Services. Is it the practice of the Department of Social Services, in cases of abduction of children, to claim that the interests of confidence require the department not to disclose the addresses at which child endowment in respect of those children is drawn? If so, will the Minister ask his colleague to reconsider the matter in order to ascertain whether the reasons that obviously prompted the idea of confidence in regard to such matters are valid in respect of circumstances such as the abduction of children? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>622</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- This is another question that I must ask to be placed on the notice-paper because I think it involves issues that may transcend the knowledge of an outsider. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>622</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PRESS PHOTOGRAPHERS</title>
+          <page.no>622</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>622</page.no>
+              <time.stamp />
+              <name.id>KTA</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCCLELLAND, Douglas</name>
+              <name role="display">Senator MCCLELLAND</name>
+            </talker>
+            <para>- My question to the Leader of the Government in the Senate deals with the subject of a question asked of the Minister by <inline font-weight="bold">Senator Mariott</inline> on 29th August last and the Minister&#39;s reply thereto. The subject is the number of press photographers assigned to cover the recent tour of Australia by the King and Queen of Thailand. Is the Minister aware that about 70 photographers covered the royal couple&#39;s visit to Canberra but that about only 20 of them were employed by newspaper companies and were members of the Australian Journalists Association? Does the Minister know that photographer members of the Australian Journalists Association have complained about nonassociation members., interfering with and impeding their work during the recent tour? </para>
+          </talk.start>
+          <para class="block">Will the Government listen to and heed any views put forward by the Australian Journalists Association regarding press arrangements for next year&#39;s royal tour by Her Majesty Queen Elizabeth? </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>623</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- I remember quite well <inline font-weight="bold">Senator Marriott&#39;s</inline> question and my answer because the incidents surrounding the tour by the King and Queen of Thailand were impressed upon me. The number of photographers present in many ways impeded the carrying out of various functions and ceremonies. Off the cuff I replied to <inline font-weight="bold">Senator Marriott&#39;s</inline> question and I think my reply betrayed my view that too many photographers were present during the recent royal tour. Subsequently I read with great interest the statement by the Australian Journalists Association that many of the photographers present at royal tour functions did not represent newspapers but were operating as amateurs in their own right. The Australian Journalists Association subsequently wrote to the Prime Minister expressing its view on the matter and the Acting Prime Minister replied stating that the association&#39;s views would be referred to officials arranging next year&#39;s royal tour of  Her  Majesty the Queen. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>623</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>AUSTRALIA DAY CELEBRATIONS</title>
+          <page.no>623</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>623</page.no>
+              <time.stamp />
+              <name.id>KSN</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MARRIOTT, John</name>
+              <name role="display">Senator MARRIOTT</name>
+            </talker>
+            <para>- My question is addressed to the Minister for the Navy. Is it a fact that the Government, over a number of years, has done all it can to have Australia Day celebrated in a suitable manner? I understand that it is outside the province of the Federal Government to arrange Australia Day celebrations in the States, but will the Minister consider having a unit of the Royal Australian Navy visit the port of every State capital on Australia Day 1963, which falls on Saturday, 26th January - a day when all capital cities will arrange functions to commemorate our national birthday7 </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>623</page.no>
+              <time.stamp />
+              <name.id>KH5</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GORTON, John</name>
+              <name role="display">Senator GORTON</name>
+            </talker>
+            <para>- It is true in general that the States make arrangements for Australia Day celebrations within their own borders. I would not at this time - I think it would be extremely difficult at any time - undertake to have units of the Royal Australian Navy visit every capital city port on Australia Day. That would involve the diversion of ships all around the Australian coast. It would mean an interruption of training and quite possibly, would interfere with exercises which were to be carried out. I can see great difficulties in complying with the suggestion. Certainly it might be possible to make suitable arrangements for Australia Day 1963, as programming up to that date has not been carried out, but, even so, I think that the difficulties in the way, and the disruption of training, would outweigh the advantages that would accrue. Most Australian capital cities, if not all, have visits from units of the Royal Australian Navy at least once during a year, but it would be impracticable for ships to visit all the capital cities on the one day. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>623</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TRADE</title>
+          <page.no>623</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>623</page.no>
+              <time.stamp />
+              <name.id>KOU</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENDRICKSON, Albion</name>
+              <name role="display">Senator HENDRICKSON</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Trade, upon notice - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact, as stated by Douglas Wilkie in an article in the &#34; Sun &#34;, Melbourne, dated 14th August, that the Japanese and Russians are undertaking trade arrangements which will bring Japan &#163;450,000,000 a year within five years? </para>
+            </item>
+            <item label="2.">
+              <para>Is it also a fact that Japan is trading extensively with China, has signed a shipping agreement with Peking and offered the Chinese longterm credits, and has invited a Chinese trade delegation to Japan next October? </para>
+            </item>
+            <item label="3.">
+              <para>Did the Japanese Prime Minister recently stale that &#34;Japan will positively promote trade with China no matter what Washington says about it &#34;? </para>
+            </item>
+            <item label="4.">
+              <para>Is it the Government&#39;s policy to promote trade with Communist countries; if so, what steps have been taken recently to further that object? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>623</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- The Minister for Trade has provided me with the following answers: - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Trade between Japan and the Union of Soviet Socialist Republics is regulated by agreements negotiated every three years. Under the current three-year trade agreement between the two countries, Japan exported goods worth &#163;A.29,000,000 to Russia in 1961. A private Japanese trade mission now in Moscow stated before its departure that Japan&#39;s exports to Russia could reach &#163;A.450,000,000 in the next five years, but, so far as is known, official negotiations for a new agreement will not be held until October-November, 1962. </para>
+            </item>
+            <item label="2.">
+              <para>Japan does not trade extensively with mainland China. Two-way trade in 1961 amounted to about &#163;21,000,000, that is, about <inline font-style="italic">i</inline> per cent, of Japan&#39;s total international trade that year. The </para>
+            </item>
+          </list>
+          <para class="block">Japanese Government does not recognize mainland China and has not entered into a shipping agreement with mainland China. For the same reason it would not have extended long-term credits to mainland China nor would it have invited a mainland China trade mission to visit Japan. </para>
+          <list type="decimal-dotted">
+            <item label="3.">
+              <para>It was reported in the Japanese press in June that the Japanese Prime Minister spoke in somewhat these terms. </para>
+            </item>
+            <item label="4.">
+              <para>The Government does not discourage trade wilh Communist countries as long as the question of Australia&#39;s security is not involved. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>624</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>COLOMBO PLAN</title>
+          <page.no>624</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>624</page.no>
+              <time.stamp />
+              <name.id>KOW</name.id>
+              <electorate>TASMANIA</electorate>
+              <party>LP</party>
+              <role>Minister for Customs and Excise</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENTY, Norman</name>
+              <name role="display">Senator HENTY</name>
+            </talker>
+            <para>- On 16th August <inline font-weight="bold">Senator Cole</inline> asked the Minister representing the Minister for Immigration the following questions, upon notice - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Because of the distressing and disturbing Chinese refugee problem in Hong Kong, could the Government make available to these unfortunate people certain aid similar to that granted through the Colombo Plan in other parts of Asia? </para>
+            </item>
+            <item label="2.">
+              <para>Is the Government aware of the many offers for adoption or sponsorship of these victims spontaneously made by Australian voluntary organizations, families and individuals? If so, what is the Government&#39;s attitude to these requests? </para>
+            </item>
+            <item label="3.">
+              <para>In response to the grave and growing concern of Australians for these refugees driven by hunger from Communist China, could the Government make more widely known the reasons why requests for adoption of refugee children have not been granted? </para>
+            </item>
+            <item label="4.">
+              <para>Have not statements been publicized in Hong Kong papers that could well be repeated here for the information of the public? </para>
+            </item>
+          </list>
+          <para class="block">The Minister for Immigration has now supplied the following answers: - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>The Government of Hong Kong has made it clear that it does not regard and will not treat recent migrants into Hong Kong as &#34;refugees&#34; and that it does not require aid similar to that granted under the Colombo Plan. </para>
+            </item>
+            <item label="2.">
+              <para>The Government is aware of the interest&#39; in Australia in the adoption of Chinese children from Hong Kong. Apart, however, from the issues of Government policy which would be involved in meeting such requests, it is known that the Hong Kong authorities, who are concerned with caring for parentless or abandoned children in the colony, are where this is possible arranging for adoptions locally with well-to-do Chinese families resident in Hong Kong. It is understood also that in those cases where overseas adoptions have been arranged, these have generally been into Chinese families. In an official .statement on 19th July, the Director of Social Welfare in Hong Kong compared the steady and encouraging drop in recent years in the number of children found abandoned in Hong Kong and, in contrast, the marked and equally encouraging rise in the num ber of adoptions arranged in Hong Kong. The director went on to say that there was already an unsatisfied demand among prospective adopters in Hong Kong. He added that local adoption in this way would normally be considered preferable, on the grounds that it would usually be in the child&#39;s best interest to be adopted into a family of his or her own community. Whilst appreciating the generous impulses which have prompted offers of adoption from overseas, it was thought that only a proportion of these were, in the circumstances, likely to find acceptance. The director explained that there are over 2,500 children in residential homes in Hong Kong, of whom the majority had one or both parents living who, for a variety of reasons, were unable to look after their children at present. These children did not therefore need to have new families found for them and were not free for adoption. Others were not available or suitable for adoption for other reasons, such as physical or mental handicap. 3 and 4. The statement made by the Director of Social Welfare in Hong Kong was reported in the Hong Kong press on 20th July. I am not aware that it was carried by the Australian press, but organizations in Australia interested have been suitably informed. The information has also been given in reply to inquiries which I and the Department of Immigration have received. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>624</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>KING&#39;S-BRIDGE</title>
+          <page.no>624</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>624</page.no>
+              <time.stamp />
+              <name.id>JYA</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;BYRNE, Justin</name>
+              <name role="display">Senator O&#39;BYRNE</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Works, upon notice - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it the intention of the Commonwealth Government to have observers attend the hearings of the royal commission to be set up by the Victorian Government to inquire into the causes of the defects in the &#163;4,000,000 King&#39;s-bridge in Melbourne? </para>
+            </item>
+            <item label="2.">
+              <para>Is steel similar to that used in the King&#39;sbridge being distributed, or has it been distributed, throughout Australia? </para>
+            </item>
+            <item label="3.">
+              <para>Has any of this type of steel been used in major Commonwealth works projects? </para>
+            </item>
+            <item label="4.">
+              <para>What precautions are being taken to test steel by the latest modern isotope methods in major construction projects carried out foi trie Commonwealth Department of Works? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>624</page.no>
+              <time.stamp />
+              <name.id>KAF</name.id>
+              <electorate />
+              <party>CP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WADE, Harrie</name>
+              <name role="display">Senator WADE</name>
+            </talker>
+            <para>- The Minister for Works has supplied the following answers: - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>No arrangement has been made for the Commonwealth Government to have observers at the royal commission inquiring into the failure of the Kings-bridge, Melbourne. </para>
+            </item>
+            <item label="2.">
+              <para>I am unable to say to what extent such steel ; has been distributed throughout Australia. </para>
+            </item>
+            <item label="3.">
+              <para>No. It has, however, been used on several projects requiring small sections and bolted joints. </para>
+            </item>
+            <item label="4.">
+              <para>The Commonwealth Department of Works specifies modern non-destructive tests for its fabricated steel such as ultra-sonic flaw detection and X-ray inspection. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>625</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TRADE</title>
+          <page.no>625</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>625</page.no>
+              <time.stamp />
+              <name.id>JZU</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ORMONDE, James</name>
+              <name role="display">Senator ORMONDE</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Trade, upon notice - </para>
+          </talk.start>
+          <quote>
+            <para>Is a Japanese trade delegation of 60 persons at present in Communist China negotiating, among other trade matters, a massive trade agreement involving the exchange of Japanese steel for Chinese coal? If so, could such a development endanger Australia&#39;s coal exports? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>625</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- The Minister for Trade has provided me with the following answer to the honorable senator&#39;s question: - </para>
+          </talk.start>
+          <quote>
+            <para>I am not in a position to have knowledge of any discussion between Japanese commercial interests and mainland China. Japan imports considerable quantities of coal from a number of countries. Even if mainland China should emerge as a significant supplier of coal to Japan, there is no reason to believe that this would endanger the business which is being built up on the basis of long-term contracts with Australia. </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>625</page.no>
+              <time.stamp />
+              <name.id>K6R</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COHEN, Samuel</name>
+              <name role="display">Senator COHEN</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Trade, upon notice - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What goods were exported by Australia to each of the countries of the European Economic Community in each of the financial years 1956-57 to 1961-62 inclusive? </para>
+            </item>
+            <item label="2.">
+              <para>What was the value of such exports in each of those years? </para>
+            </item>
+            <item label="3.">
+              <para>What goods were imported into Australia from each of those countries in each of the same years? </para>
+            </item>
+            <item label="4.">
+              <para>What was the value of such imports in each of those years? </para>
+            </item>
+          </list>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>625</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>- The Minister for Trade has supplied the following answers: - </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>For the years 1956-57 to 1960-61, the detailed information which the honorable senator has requested is presented in convenient form in tables 18 and 19, commencing on pages 590 and 629 respectively, of the annual &#34; Overseas Trade &#34; Bulletin, No. 58, 1960-61, published by the Commonwealth Statistician. Similar particulars are not yet available for the year 1961-62. However, the value of Australia&#39;s exports to and imports from each of the countries of the European Economic Community in that year was as follows: - </para>
+          </quote>
+          <para class="block">
+            <graphic href="022232196210022_8_0.jpg" />
+          </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>625</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>DEMORALIZATION OF WATER</title>
+          <page.no>625</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>625</page.no>
+              <time.stamp />
+              <name.id>KRG</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LILLICO, Alexander</name>
+              <name role="display">Senator LILLICO</name>
+            </talker>
+            <para>asked the Minister in Charge of the Commonwealth Scientific and Industrial Research Organization, upon notice - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is Australia included in the survey instituted by the United Nations into the possibilities of the economic utilization of demineralized sea and brackish waters? </para>
+            </item>
+            <item label="2.">
+              <para>Is it a fact, as reported in the press, that this survey covers 36 countries and . is being carried out under direction of an Israeli hydrologist, <inline font-weight="bold">Mr. Salkind,</inline> who has stated that it can be confidently assumed that the cost of demineralized water will continue to fall as a result of advances in the technology of processing and the availability of less corrosive and more heat resisting -materials? </para>
+            </item>
+            <item label="3.">
+              <para>Will the Government keep itself conversant with these investigations with a view to the practical application of the results to Australia? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>625</page.no>
+              <time.stamp />
+              <name.id>KH5</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GORTON, John</name>
+              <name role="display">Senator GORTON</name>
+            </talker>
+            <para>- The answers to the honorable senator&#39;s questions are as follows: - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>No. The C.S.I.R.O. has not been asked by the United Nations to assist in such a survey. </para>
+            </item>
+            <item label="2.">
+              <para>I do not know. I have at present no information on this survey other than that which the honorable senator quoted from a press report. I am having inquiries made and will let him know the results. </para>
+            </item>
+            <item label="3.">
+              <para>Yes. The C.S.I.R.O. maintains a close watch on any overseas developments in water desalting that may have practical applications under Australian conditions. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>626</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>NATURALIZATION</title>
+          <page.no>626</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>626</page.no>
+              <time.stamp />
+              <name.id>K6F</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAVANAGH, James</name>
+              <name role="display">Senator CAVANAGH</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Immigration, upon notice - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>How many applications for naturalization from migrants with the necessary residential qualifications have been rejected? </para>
+            </item>
+            <item label="2.">
+              <para>Have any such rejections resulted from the applicant&#39;s trade union activities or party political membership? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>626</page.no>
+              <time.stamp />
+              <name.id>KOW</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENTY, Norman</name>
+              <name role="display">Senator HENTY</name>
+            </talker>
+            <para>- The Minister for Immigration has supplied the following answers: - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Up to 31st March this year approximately 11,500 applications for naturalization from migrants who can satisfy the residential qualifications have been refused or deferred. The majority of them would have been refused or deferred because of the applicant&#39;s inadequate knowledge of English, but many of these applicants would have since been approved after acquiring sufficient knowledge of the language. </para>
+            </item>
+            <item label="2.">
+              <para>It is not the Government&#39;s policy to reject applications for naturalization on the basis of an applicant&#39;s bona fide trade union activities or party political membership as such. However, if an applicant&#39;s activities are such that he is not considered suitable for Australian citizenship, then citizenship has been and will continue to be refused. &#39; &#39; </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>626</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>REPATRIATION</title>
+          <page.no>626</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>626</page.no>
+              <time.stamp />
+              <name.id>K4S</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SANDFORD, Charles Walter</name>
+              <name role="display">Senator SANDFORD</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Repatriation, upon notice - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Have representations been made to the Government by ex-service organizations for repatriation, medical and hospital treatment to be made available for ex-service personnel from World War I, who are in need of such treatment? </para>
+            </item>
+            <item label="2.">
+              <para>If representations have been made what has been the Government&#39;s decision regarding them? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>626</page.no>
+              <time.stamp />
+              <name.id>JZY</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PALTRIDGE, Shane</name>
+              <name role="display">Senator PALTRIDGE</name>
+            </talker>
+            <para>-  The Minister for Repatriation has supplied the following answers: - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. </para>
+            </item>
+            <item label="2.">
+              <para>In addition to their entitlement for disabilities due to war service, provision is already made for those in receipt of the full general rate - 100 per cent. - of pension or more, for war nurses of the 1914-18 war, and for service pensioners to be treated for disabilities not due to war service. This ensures that the older and more necessitous exservicemen are provided with a full range of medical and pharmaceutical benefits, including hospital treatment and dental treatment. Exservicemen who, because of their means, do not qualify for service pension, have available to them the substantial benefits of the national health scheme. For these reasons, which have been explained in the Parliament on previous occasions, it has been decided not to agree to this request. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>TARIFF BOARD</title>
+        <page.no>626</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Reports on Items. </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>626</page.no>
+            <time.stamp />
+            <name.id>KOW</name.id>
+            <electorate>Tasmania</electorate>
+            <party>LP</party>
+            <role>Minister for Customs and Excise</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">HENTY, Norman</name>
+            <name role="display">Senator HENTY</name>
+          </talker>
+          <para>. - I lay on the table of the Senate reports by a special advisory authority on the following subjects: - </para>
+        </talk.start>
+      </speech>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Handkerchiefs</title>
+          <page.no>626</page.no>
+        </subdebateinfo>
+        <para>Pillow cases. </para>
+        <para>Plastic building sheets. 2, 4, 5-trichlorophenoxyacetic acid, its esters and salts and certain preparations thereof. Weedicides and insecticides. </para>
+        <para>I also lay on the table of the Senate a report by a special advisory authority on - </para>
+        <quote>
+          <para>Citrus juices. which does not call for any legislative action. </para>
+        </quote>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>LEAVE OF ABSENCE</title>
+        <page.no>626</page.no>
+        <type>leave of absence</type>
+      </debateinfo>
+      <para>Motions (by <inline font-weight="bold">Senator Spooner)</inline> - by leave - agreed to - </para>
+      <quote>
+        <para>That leave of absence for two months be granted to <inline font-weight="bold">Senator Scott</inline> on account of absence overseas. </para>
+        <para>That leave of absence for two months be granted to <inline font-weight="bold">Senator Mattner</inline> on account of absence overseas. </para>
+        <para>That leave of absence for two months be granted to <inline font-weight="bold">Senator McKellar</inline> on account of absence overseas. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>626</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Wine Marketing - Senate Procedure - Pensions - Medical Benefits - Press Photographers - Newspaper Reports</title>
+          <page.no>626</page.no>
+        </subdebateinfo>
+        <para>Motion (by <inline font-weight="bold">Senator Spooner)</inline> proposed - </para>
+        <quote>
+          <para class="block">That the Senate do now adjourn. </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>626</page.no>
+              <time.stamp />
+              <name.id>KQQ</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LAUGHT, Keith</name>
+              <name role="display">Senator LAUGHT</name>
+            </talker>
+            <para>. - I desire to detain the Senate for a moment to mention a matter that has been referred to me by Clarevale Co-operative Wineries Limited, of Clare, in South Australia, and the problem I present to-night could well be presented with relation to the marketing schemes of other rural industries. For the information of the Senate, I point out that Clarevale Co-operative Wineries Limited has been operating  a  winery in the mid-north of South Australia for slightly over 30 years. The winery is situated in the Clare district, which is  a  non-irrigated grape-growing district.  The  company has a branch in Sydney and  an  agency in Western Australia. Its winery provides an important outlet for the cranes produced by many co-operative growers in the Clare, Seven Hills and Stanley Flat areas. For the last 30 years, the winery has been struggling to keep going, but conditions improved gradually, as did the marketing system, and to-day the organization is doing a quite useful trade. </para>
+          </talk.start>
+          <para>The problem that I present to-night results from the operation of an act of this Parliament - the Wine Grape Charges Act - under which a levy of 14s. a ton is imposed on fresh grapes processed by all wineries in Australia. On the 1961 vintage, the sum of &#163;112,000 was gathered from the wineries of Australia under that act. The money so gathered was paid to the Department of Primary Industry which passed it on to the Australian Wine Board. It represented the sole revenue of the board. It might interest the Senate to know that of that sum &#163;66,000 was spent on publicity and &#163;27,000 on trade promotion in the United Kingdom. The board has eleven members, one of whom is a government nominee. The others are representatives of the proprietary and privately owned wineries in South Australia, New South Wales, Queensland, Victoria and Western Australia, the co-operative wineries and distilleries and the grape-growers who supply the grapes. </para>
+          <para>I now wish to refer to certain aspects mentioned in the thirty-fourth annual report of the Australian Wine Board. First I refer to the following paragraph which appears under the heading, &#34; Australian National Advertising Campaign &#34; on page 7 of the interim report of the activities of the board for the year ended 30th June, 1962: - </para>
+          <quote>
+            <para>The Board allocated &#163;50,000 to national advertising in Australia for the 1961-62 advertising year, which commenced 1st October. </para>
+            <para>The nature of the campaign following the pattern adopted in recent years, with stresss on the informal use of wine. National magazines and metropolitan press provided the main media, but there was increased activity with wine tastings. </para>
+          </quote>
+          <para class="block">It is on this question of wine tasting that I desire to address the Senate. The report continued - </para>
+          <quote>
+            <para>The New South Wales, Victorian and South Australian State Wine Associations have each appointed a Wine Advisory Officer who conducts tastings ranging from large scale public wine tastings to small private functions. Tastings have also been held in many licensed outlets such as hotel bottle departments and licensed grocer shops. This form of promotion is proving effective and is well accepted by the trade and consuming public. </para>
+          </quote>
+          <para class="block">These wine tastings, as the report states, are conducted by the wine associations, which are trade associations; they are not instrumentalities of this Government. You can well see, <inline font-weight="bold">Sir, that</inline> an event or a festival such as a wine tasting is of much importance to the successful promotion of wine in general and, of course, of special types and brands in particular. I am informed, <inline font-weight="bold">Sir, that</inline> the Wine Board, which has its only source of revenue in the levy provided by the act to which I have referred, excludes from the organized wine tastings any wine-makers who are not members of any organization such as the Wine and Brandy Producers Association of the particular State in which the tasting takes place. </para>
+          <para>The Clarevale Co-operative Winery, for reasons best known to itself and no doubt for very good reasons, has chosen not to belong to any Wine and Brandy Producers Association. It is bound by federal law to pay 14s. a ton on all grapes produced by it, but still it is excluded from the benefits that could well accrue from the wine-tasting events conducted through the apparatus created by the Wine Board. I ask the Minister representing the Minister for Primary Industry to investigate whether the products of any wine-makers who pay the levy are being excluded from wine-tasting events through failure or reluctance to belong to any association. If the Minister finds that this is so, will he arrange for his colleague, the Minister for Primary Industry, to discuss with the board the possibility of ensuring that wine-tasting events are open to the products of all wine-makers who pay the levy under the act to which I have referred? </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>627</page.no>
+              <time.stamp />
+              <name.id>KTN</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role>Leader of the Opposition</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCKENNA, Nicholas</name>
+              <name role="display">Senator McKENNA</name>
+            </talker>
+            <para>. - I feel under an obligation to direct the attention of the Senate to an incident that took place in Washington, United States of America, on Thursday last. I was at the Senate of the United States on that day and I was asked to take a seat on the floor of the Senate. My presence was announced by <inline font-weight="bold">Senator Dirksen,</inline> the minority leader, whose office would correspond with the office that I hold in this chamber. <inline font-weight="bold">Senator Dirksen</inline> directed attention to my presence. I was welcomed by a very obviously efficient Madame  President.  The Senate unanimously agreed to adjourn for the purpose of enabling senators to meet me. They greeted me by coming along, each of them announcing his name and the State that he represented. </para>
+          </talk.start>
+          <para>I felt that I should say to the Senate that it was quite clear that the honour they did was not directed to me as an individual at all, but was intended to be a compliment to Australia and in particular to the Australian Senate. It is for that reason that I feel impelled to convey to the chamber a brief record of what happened. <inline font-weight="bold">Senator Dirksen,</inline> who sponsored the action that the Senate took, although he was due to leave immediately for hospital for an operation, wrote me a note directing attention to what had happened and undertaking to let mc have the following day two copies of the Congressional Record of the incident. Honorable senators may be interested to have a look at the phrasing. If so, the report is readily available in my office. </para>
+          <para>I should like to say, <inline font-weight="bold">Mr. President,</inline> that there was something very warmhearted and spontaneous about the procedure that was adopted. I thought that it provided a very strong contrast to the rather cold and conservative courtesy that this Senate extends to visitors when it decides to honour. I rather commend to the Senate the thought that it might give some consideration to revising its own procedure in these matters, because there was something particularly heart-warming in the type of approach that was made. I shall send to <inline font-weight="bold">Senator Dirksen</inline> a copy of the remarks I make on this occasion, wishing him well and a speedy recovery from the operation that he was undergoing last Thursday. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>628</page.no>
+              <time.stamp />
+              <name.id>K8Y</name.id>
+              <electorate>TASMANIA</electorate>
+              <party>IND; AP from Aug. 1969; IND from Jan. 1970</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">TURNBULL, Reginald</name>
+              <name role="display">Senator TURNBULL</name>
+            </talker>
+            <para>. - J want to raise a matter which I consider is an injustice and which should be rectified by this Parliament. Unfortunately, I am not quite certain to which Minister I should direct my remarks, or which of the poohbahs represents the Minister for Social Services <inline font-weight="bold">(Mr. Roberton).</inline> I particularly ask the Leader of the Government in the Senate <inline font-weight="bold">(Senator Spooner)</inline> to listen to my remarks, because this is a matter which not only affects the Department of Health, the </para>
+          </talk.start>
+          <para class="block">Treasury, and the Department of Social Services, but is also one of Government policy. I refer to the inconceivably archaic attitude of all governments - not just the Liberal Government - to mentally, ill pensioners. I have raised , this matter before and I propose to keep on raising it until it has been corrected. I make no excuse at all for repeating myself and I shall keep on repeating myself on this subject. I make no differentiation in regard to Liberal government or Labour government. I want to keep to the one facet of the subject, that is, the deprivation of the pension of those pensioners who are certified and have to be incarcerated in mental hospitals. I say that it is inconceivable, because I cannot follow the reasons and I do not think that any one else, apart from the Government, in the whole of the Commonwealth of Australia, can follow it. I do not want to attack the Libera! Government, because a Labour government was equally to blame. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>628</page.no>
+                <time.stamp />
+                <name.id>KSN</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MARRIOTT, John</name>
+                <name role="display">Senator Marriott</name>
+              </talker>
+              <para>-  Stop crawling. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>628</page.no>
+                <time.stamp />
+                <name.id>K8Y</name.id>
+                <electorate>TASMANIA</electorate>
+                <party>IND; AP from Aug. 1969; IND from Jan. 1970</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">TURNBULL, Reginald</name>
+                <name role="display">Senator TURNBULL</name>
+              </talker>
+              <para>-  The little pipsqueak will please stop talking. I am speaking of a serious matter. All he can think of is to interject. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>628</page.no>
+                <time.stamp />
+                <name.id>KBW</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WRIGHT, Reginald</name>
+                <name role="display">Senator Wright</name>
+              </talker>
+              <para>-  Are you referring to the fact that they get no invalid pension? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>628</page.no>
+                <time.stamp />
+                <name.id>K8Y</name.id>
+                <electorate>TASMANIA</electorate>
+                <party>IND; AP from Aug. 1969; IND from Jan. 1970</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">TURNBULL, Reginald</name>
+                <name role="display">Senator TURNBULL</name>
+              </talker>
+              <para>- The position is that the moment that they enter a mental institution they are deprived of a pension. I say that it is inconceivable, because I can.not see how any enlightened government or any enlightened group of people can allow such inhumanity to exist. It is an insult to the mentally sick which they do not deserve at all. I say that it is archaic, because apparently we still live in the dark ages of black magic, when somebody who is mentally ill is beyond the pale and is put aside. These things went by the board years ago. There is no difference, as I have said before, and as I shall keep on saying, between the mentally ill and the physically ill. Just because one happens to have an appendicitis and the other a cerebral lesion, we make some differentiation. Why, I do not know. </para>
+            </talk.start>
+          </continue>
+          <para>I do not want to be put off by being told that it is a matter of cost. It is not a matter of cost; it is a matter of humanity. We do not worry about the chronically ill in rest homes. They still get their pensions and live in rest homes for the remainder of their lives. The advisers of the Government do not seem to realize - or the Department of Health has not advised them - that to-day we cure mentally ill people. They are not in institutions for the long periods that used to be involved. If the Government wants to make any differentiation - I do not agree with it at all - and restrict the provision to incurables, those whom it knows can never be cured, let it do that. To me, that is splitting straws. It is a reprehensible attitude and one which we must alter. </para>
+          <para>I do not know how we are going to alter it. We talk and somebody says, &#34; That is a good point&#34;, but nothing is done when these matters are raised. Will the Leader of the Government in the Senate tell me, in reply, how we can go about getting this position changed? I am not interested in insults or stupid remarks from supporters of the Government. I am only interested in getting this situation changed. If it helps honorable senators on the Government side to interject with stupidities, I do not mind, so long as we get this situation changed. There is no reason why we should not change it. There is nobody in Australia who would not agree with me, except the members of this Government. </para>
+          <para>I think we should do something. There must be some reason for the present proVision, but nobody seems to be able to give a reason why we do this. I am sure that the cost to the Government of an alteration would not be great. I know there are agreements between the Commonwealth and the States on mental institutions, but that has nothing to do with this matter. It does not matter if the Commonwealth Government has agreed to pay 9d. or lOd. a head, as in the case pf Tasmania, for each inmate of an institution. That only affects governments; it does not affect the individuals. Why should an individual suffer simply because he is unfortunate enough to suffer a mental illness and has to be certified? </para>
+          <para> I hope the time will come when certification will be abolished in all the States. I hope that we will follow the English custom and do away with certification, and, that, with modern treatment, we will not have mental institutions at all. But, until that time comes, I ask the Government to get out of the clutches of the Treasury and to give the mentally sick pensioners the assistance they deserve. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>629</page.no>
+              <time.stamp />
+              <name.id>K6F</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAVANAGH, James</name>
+              <name role="display">Senator CAVANAGH</name>
+            </talker>
+            <para>. -  I wish to refer to a matter affecting the administration of the National Health Act. The motion for the adjournment of the Senate was unexpected and has left me unable to marshal my facts in chronological order. However, I ask the Senate to bear with me as I refer to the non-recognition of certain wards, associated with the Royal Adelaide Hospital, for the purposes of the payment of special benefits under the National Health Act. The act provides for the payment of benefits to those who are in hospital and medical benefit associations. It also provides that such associations may set up special funds for the payment of benefits to their members if they are either over  65  years of age or are suffering from diseases which they had prior to joining the associations. I understand that the special funds are guaranteed by the Commonwealth Government under section  82  of the National Health Act. </para>
+          </talk.start>
+          <para>The Commonwealth Government authorizes the payment of special benefits to people Who are in recognized hospitals, but it does not recognize certain private hospitals. This was explained by a former Minister for Health when he was outlining the relevant amendments to the National Health Act in another place in  1959.  The Government sought to exclude private hospitals which act as convalescent or rest homes for the aged or in which the patients do not receive the full treatment they would receive in a normal hospital. In effect, the special funds were not to be used for the payment of benefits to those who might only be confined to bed. </para>
+          <para>Patients in the Royal Adelaide Hospital receive treatment while they are there; but some, patients are sent to the Magill and Northfield wards, which are associated with the hospital. Whilst the Commonwealth Government will recognize the Magill wards and the infectious diseases and orthopaedic wards at Northfield, it will not recognize the other Northfield wards for the purpose of the payment of benefits to those who come under the special funds. </para>
+          <para>I have endeavoured to ascertain the reason for this attitude. I took the matter up with the Director-General of Medical Services in South Australia, <inline font-weight="bold">Dr. Rollason,</inline> and the Secretary of Medical Services, <inline font-weight="bold">Mr. Moore,</inline> and asked whether the wards at Northfield gave hospital treatment to the patients or whether they were used only for convalescence. I have been informed by <inline font-weight="bold">Dr. Rollason</inline> and <inline font-weight="bold">Mr. Moore</inline> that the patients there receive all the medical treatment they would have received if they had remained in the Royal Adelaide Hospital. It is essential for the patients to be visited by medical practitioners at least once a week. Some of the chronic cases have to have injections under proper supervision, and the prescriptions for injections and medicines must be supplied by medical practitioners. </para>
+          <para>Here we have patients in wards attached, not to a private hospital, but to the Royal Adelaide Hospital. They are receiving all the medical treatment that justifies the payment of benefits from a special benefits fund but for some unknown reason they are denied this assistance. The Commonwealth Government will not recognize these wards under section 82 of the National Health Act. I appeal to the Government to examine this position and at least give an explanation of the differentiation between the hospital wards at Northfield. </para>
+          <para>I make a special plea for a <inline font-weight="bold">Mrs. Edwards,</inline> who is in Northfield and whose relatives brought this matter to my notice. Section 82, in part, provides that even if a hospital is not recognized for this purpose, the Director-General administering the fund for the Commonwealth Government may recognize an individual patient as being entitled to special benefits, if application is made for them. I approached the Mutual Hospital Association Limited, to which the Edwards family has been contributing for full benefits for twelve years. I asked the association to make a special case to the Director-General of Medical Services on behalf of <inline font-weight="bold">Mrs. Edwards. Mr. Murray,</inline> of the Mutual Hospital Association Limited, has finally agreed to comply with my request, but he has said that he feels it is useless because the many applications he has made for special consideration for patients have always been rejected by the Director-General of Medical Services in South Australia. </para>
+          <para>As I have said, <inline font-weight="bold">Mrs. Edwards&#39;</inline> family has been contributing for hospital benefits for the past twelve years. <inline font-weight="bold">Mrs. Edwards</inline> is now incurably affected by Parkinson&#39;s disease and is in the Northfield ward. She contracted this disease since she became a subscriber to the Mutual Hospital Association Limited, and would therefore be entitled to the standard benefit, but she previously received a special benefit for a disease which does not bother her now. She was then placed in the special fund, and she can only be removed from the special fund now by a decision of the Mutual Hospital Association Limited. It can remove her from those provisions and put her back under the ordinary fund, but it is not prepared to do this for patients whose illnesses may be of long duration. </para>
+          <para>Here we have a woman who has contributed for twelve years. She is suffering from a disease which she has had for five years. It is a disease that would bring her within the standard benefits fund. At one time she received medical treatment, under a special fund, for a pre-existing disease, and now she is not being paid for treatment because she is in a particular ward at Northfield. Even when she was a patient at the Royal Adelaide Hospital, suffering from Parkinson&#39;s disease, her present complaint, she received an allowance from the Hospital Association special fund, as authorized by the Government. If she were taken back to the Royal Adelaide Hospital she would again receive the fund benefit because that is a recognized hospital. While she is at Northfield, however, she cannot receive any payment, nor can her family get assistance to pay the bills which are being received weekly. </para>
+          <para>The position is made more complicated at Northfield - and this is something which the patients cannot understand - by reason of the fact that some of the patients who are suffering from diseases that were not pre-existing, or are not over 65 years of age, are receiving medical benefits, while others, such as <inline font-weight="bold">Mrs. Edwards,</inline> who are in the same ward, are not receiving benefits. Not only is <inline font-weight="bold">Mrs. Edwards</inline> denied benefits because she is in a certain ward, to which she was sent by- the - Royal Adelaide Hospital to receive the same- treatment as she was receiving at that hospital, but she is also denied benefits in respect of a disease that was not. pre-existing. Other, patients in the ward are receiving benefits at the same time as she is being refused them. </para>
+          <para>I ask, first, for the recognition of all the wards at Northfield for the purpose of the payment of special benefits, and secondly, for proper and sympathetic consideration by the responsible Minister if the matter should come before him on the personal application that has been made on behalf of <inline font-weight="bold">Mrs. Edwards</inline> by the Mutual Hospital Association Limited. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>631</page.no>
+              <time.stamp />
+              <name.id>KSN</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MARRIOTT, John</name>
+              <name role="display">Senator MARRIOTT</name>
+            </talker>
+            <para>. - I wish to refer briefly to a subject that has been raised by <inline font-weight="bold">Senator McClelland,</inline> following a question that I asked in the Senate before we adjourned late in August. It relates to the presence of press photographers during Royal visits and at other important events. The Australian Journalists&#39; Association has had a letter from me on this subject, and I have had a reply. I want to make my position clear. In my question in the Senate, I asked that the number of press photographers present on such occasions should be cut down. I said that all we could see at the ceremony at Duntroon, to which I referred, were the backs of 30, 40 or 50 press photographers. </para>
+          </talk.start>
+          <para>I have since learned that the press photographers at that function were in the minority. There were present visiting Thailand photographers and also private photographers. I thought that on such an occasion the photographers who were present would be accredited by the government department concerned, or by some other relevant body. I do not desire at all to have the press of Australia debarred from sending photographers to such occasions, but I still want to see the number of photographers reduced. I put it to the press of Australia and to the Government that photographers should not crowd round the guests at such ceremonies. A specific space should be allotted to photographers. Only press, television, and visiting photographers, as well as those from the News and Information Bureau, should be allowed in that area for the purpose of taking photographs. I want to- make it clear that I think the press must- have a fair deal, but at the same time it should co-operate with the Commonwealth and State Governments, and also municipal authorities, with a view to reducing the number of photographers present at important ceremonies and public occasions. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>631</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator AYLETT</name>
+            </talker>
+            <para>.- Before I raise the matter to which. I want to refer, I ask the Government to give me the same consideration that <inline font-weight="bold">Senator Marriott</inline> has asked for other people, because I suffer probably what some of the people to whom he has been referring suffer. First, I want to say that I have been caught a little off my guard, as my colleague has been, because I understood that when we were summoned here for a meeting of the Senate, the Government would have some business to put before this chamber. As there seems to be no business for the Senate, I should like to know, before the Senate rises tonight, whether those of us who have sickness at home are to have the privilege of returning home, or whether there is likely to be business coming before the Senate to-morrow. </para>
+          </talk.start>
+          <para>I want to clear up a statement that the press alleged I had made, and which I did not make, in reference to one of the Ministers of the Crown. At no time did I ever say that <inline font-weight="bold">Mr. Freeth</inline> was absent from Parliament for months on end. That statement is just as false and slanderous as are the volumes of statements that have been made by the press against me since the Parliament rose about a month ago. I give that statement I have mentioned an emphatic denial. As other slanderous statements that have been made about me involve the party with which I have had the honour and the privilege to be associated, directly and indirectly, over the last 46 years, I shall leave them for the high officers of my party to answer as they think fit. I do not doubt for one moment what their answer will be, because I have held many responsible positions in the party. For many years I was a member of the State executive, and I was a member of the Federal executive also for many years. I have held other senior positions in the party. I do not doubt that the high officers of the party will deal with those statements as I would have dealt with them when I was in their position as a member of the executive. </para>
+          <para>The newspapers, and one in particular, have a very sinister motive. They have been stumped to pinpoint one occasion, in the whole of the 46 years that I have been associated with the Australian Labour Party, on which I have flouted the rules of the party. They are completely stumped. I shall leave it to my executive to decide whether to back the statements that have been made or point out where they are slanderous and incorrect. In the whole time that I have belonged to this party and that I have been in Parliament, I have never suffered such a great insult as I suffered during the recent recess when I was approached by a person who claimed he was representing the &#34; Truth &#34; newspaper. He put a certain proposition to me that involved my ratting on the party with which I have been associated, directly and indirectly, for 46 years. That in itself showed me that it was not I personally in whom &#34;. Truth &#34; was interested; it was the party with which I was associated. That was clear to me beyond all reasonable doubt. Therefore, I have had nothing to say since that proposition was made. The newspaper did not print the statement I made to the person concerned when he made the proposition to me. My reply to him was, &#34; You are a most insulting, dirty rat &#34;. I left him at that. </para>
+          <para>Many other statements have been incorrectly attributed to me. I did call some pressmen &#34; dirty rats &#34;, but I did not give to my expressions the flavour that was given to them by the press. The slanderous remarks that appeared in the press were not made by me. However, I can tell the press this, and I hope that it prints it: I am not the only senator who has absented himself from the Senate because of ill health, nor am I the only senator who has been present in the Senate against doctors&#39; orders. Many of my colleagues and I have been present in this Senate in defiance of doctors&#39; orders- Some of my colleagues will bear out that statement, as will my doctor. When we present ourselves here, against doctors&#39; orders in an endeavour to be loyal to our party and to do our duty when an issue of vital importance is before the Parliament, we run the risk of doing serious injury to ourselves. I do not doubt for one moment that my colleagues and other honorable senators will in the future be here at times against doctors&#39; orders. </para>
+          <para>I have been somewhat caught off-guard to-night because I did not expect so soon to have an opportunity to raise these matters. I have no idea where the proposition put to me by a pressman, and to which I have earlier referred, originated. I do not for a moment suggest that any honorable senator would be guilty of being so low or so dirty as to instigate such a proposition. I sincerely hope that no other member of this Senate, even if he has given only twelve months&#39; loyal service to his party, will ever be confronted with such a proposition. Directly and indirectly I have served my party with distinction for 46 years. I have been referred to by &#34; Truth &#34; as a nincompoop. If I am a nincompoop there must be many other nincompoops in Tasmania because I have represented Tasmania in this national Parliament longer than any other man since federation. I told that record only because the people of Tasmania, despite my position on the&#39; ballot-paper, have constantly returned me to represent them in Canberra. As far as my record and my electors are concerned, my conscience does not trouble me at all. As for statements that I have been asked to return to Tasmania, the Labour Party, in Tasmania knows the state of my health.  It knows why I live in Queensland at present. I have not been requested by any Labour official or organization in Tasmania to return to Tasmania&#39;s cold climate. On the contrary, I have had numerous letters from Tasmania sympathizing with me in the slanderous attacks that have been made upon me and wishing me many years&#39; happiness in this Senate. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>632</page.no>
+              <time.stamp />
+              <name.id>KAF</name.id>
+              <electorate>Victoria</electorate>
+              <party>CP</party>
+              <role>Minister for Health</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WADE, Harrie</name>
+              <name role="display">Senator WADE</name>
+            </talker>
+            <para>. -  I listened with a good deal of interest to the matter raised by <inline font-weight="bold">Senator Laught.</inline> He referred to some disabilities that he alleged were being suffered by the : Clarevale wine industry. Having listened to the honorable senator with interest I have come to the conclusion that the matter to which he has referred does not come within the jurisdiction of the Government. Government policy, as far as primary industry boards are concerned, has always been clearly defined. The Government has always laid down that the industries themselves shall choose their representatives on the boards, that those representatives shall be the mouthpiece of the industry and that they shall be the deciding voice in matters pertaining to the industry. The Australian Wine Board is no exception. As <inline font-weight="bold">Senator Laught</inline> said, there are eleven members on the board. Ten of those members represent the industry and in each case those representatives are nominated by the various sections of the industry. The point I make is that the board is constituted democratically by members who represent specifically the various sections of the industry interested in wine board activities. It is true that the board has an income, by way of levy, of, I think, an expected &#163;130,000 this year. I understand the honorable senator to say that the income was &#163;112,000. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>633</page.no>
+                <time.stamp />
+                <name.id>KQQ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LAUGHT, Keith</name>
+                <name role="display">Senator Laught</name>
+              </talker>
+              <para>- That was last year. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>633</page.no>
+                <time.stamp />
+                <name.id>KAF</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WADE, Harrie</name>
+                <name role="display">Senator WADE</name>
+              </talker>
+              <para>- The estimated income for this year is &#163;130,000, the major proportion of which will be devoted to research and promotion, both domestically and overseas. I think it is fair to say that substantial gains have accrued to the industry as a result of the board&#39;s activities. The board, in its wisdom, has set aside some &#163;7,000 annually for wine tasting functions in the States. The board is not equipped with sufficient administrative staff to undertake the detailed activities of wine tasting functions but has permitted the wine making associations to be responsible for the wine tasting activities in the various States. The wine making associations undertake this responsibility in an honorary capacity. The point I make is that when you have people working in an honorary capacity you are loath to dictate how they shall carry out their functions. According to the policy of the wine making associations that organize the wine tasting functions, all participants must be members of an association. I think <inline font-weight="bold">Senator Laught</inline> suggested that the Australian Wine Board excluded those who were not members of an association. That is not so. The board does not exclude them. That is the function of the associations which work in a voluntary capacity. </para>
+            </talk.start>
+          </continue>
+          <para>The Clarevale company has not affiliated with any association, as <inline font-weight="bold">Senator Laught</inline> said. It has stated that it prefers to remain an independent unit. That is a decision that the company is entitled to make. It is a decision that it has made. However, the Australian Wine Board - this will interest <inline font-weight="bold">Senator Laught</inline> because it is pertinent to the point that he raised - recently advised the company that in the board&#39;s opinion tasting should be open to - </para>
+          <list type="loweralpha">
+            <item label="(a)">
+              <para>members of the Wine and Brandy Producers Association in the States conducting wine tastings; and </para>
+            </item>
+            <item label="(b)">
+              <para>to agents being members of the Wine and Brandy or Wine and Spirits Association and representing principals who are members of a Wine and Brandy Producers Association. </para>
+            </item>
+          </list>
+          <para class="block">Of course, the board&#39;s opinion does not bind the State associations, but, as it has indicated to the Clarevale company, the tastings should be open to any wine maker who subscribes to orderly marketing in the respective States. The whole question will be considered again at a meeting of the board in Melbourne on 17th October next, partly in the light of representations made by the company. </para>
+          <para>I have indicated to <inline font-weight="bold">Senator Laught</inline> that the matter raised by him is not within the jurisdiction of the Government. I think I have indicated that the Minister for Primary Industry <inline font-weight="bold">(Mr. Adermann)</inline> has a very lively interest in the welfare of all parties concerned with the industry. If I have failed to clarify any of the matters raised by the honorable senator, I will ask the Minister for Primary Industry to elaborate further on them. </para>
+          <para>
+            <inline font-weight="bold">Senator Cavanagh</inline>dwelt at some length on two matters about which I have no personal knowledge. Therefore I am sure that he will understand me when I say that I am able to reply to him in general terms only. The first matter raised by the honorable senator was non-recognition of the Northfield ward of the Royal Adelaide Hospital. In his presentation of his matter he sought some reasons why that recognition was not granted. I cannot tell him the reasons in relation to that hospital specifically but I can reply in general terms. The legislation makes it mandatory for a hospital seeking recognition to conform to certain set standards. I think that policy is supported by all honorable senators for the very good reason that we all have the desire at least to maintain, if not improve - I do not want to be misunderstood when I use the word &#34; improve &#34; - our standards of hospitalization. If no standards were required it, could well be that these most important institutions would not be giving the service to the community that they are giving to-day. Therefore, we have certain standards in respect of buildings, equipment, medical supervision and nursing staff, and what is perhaps even more important the legislation requires that in order to qualify for the hospital benefits a patient must be in need of hospitalization. That is the fundamental basis upon which the whole scheme rests. The aggregation of these requirements may not have been met by the case which the honorable senator cited. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>634</page.no>
+                <time.stamp />
+                <name.id>K6F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CAVANAGH, James</name>
+                <name role="display">Senator Cavanagh</name>
+              </talker>
+              <para>-  They are. Will the Minister inquire into them? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>634</page.no>
+                <time.stamp />
+                <name.id>KAF</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WADE, Harrie</name>
+                <name role="display">Senator WADE</name>
+              </talker>
+              <para>- I will be very happy to inquire into the circumstances, but I want to give the honorable senator some explanation in general terms of what is involved. I will be very interested &#39; to find out for myself why this section of the hospital has not qualified and I shall pass the information on to the honorable senator. </para>
+            </talk.start>
+          </continue>
+          <para>The second point concerns the case of a <inline font-weight="bold">Mrs. Edwards,</inline> who the honorable senator said has been a member of a hospital benefits association for a long time. He said that she does not qualify under the special accounts fund. The Commonwealth Government underwrites the whole of the commitments of the special accounts fund with the benefit organizations. The honorable senator is at a loss to know why <inline font-weight="bold">Mrs. Edwards,</inline> who has been a member of a medical benefits organization for twelve years, fails to qualify whilst, he says, a patient in the same ward, with a. shorter term of affiliation with a medical benefits association, does qualify. I cannot say why <inline font-weight="bold">Mrs. Edwards</inline> has failed to qualify; I can only answer again in general terms. I shall obtain specific information on this matter, but I say that, in general terms, even hospitals which have not been granted full recognition have been granted authority for what is known as a sick bay into which they may transfer their long-term patients who suddenly require acute hospitalization. When such patients are transferred into a sick bay on the authority of their doctor,  application may. be made for hospital) benefits, and invariably they are paid. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>634</page.no>
+                <time.stamp />
+                <name.id>K6F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CAVANAGH, James</name>
+                <name role="display">Senator Cavanagh</name>
+              </talker>
+              <para>-  Some &#39; get standard &#39; benefits. &#39; 1 </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>634</page.no>
+                <time.stamp />
+                <name.id>KAF</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WADE, Harrie</name>
+                <name role="display">Senator WADE</name>
+              </talker>
+              <para>-  That is quite possible. . There is no infringement of the regulation on that score, nor is there any injustice, in . general terms on that score. Having said . that, I shall take notice of what the honorable senator has said and endeavour to obtain for him more specific information. I shall let him have a reply in writing. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>634</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate>New South WalesVicePresident of the Executive Council . and Minister for National Development</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>. - in reply - On this occasion there have been six speakers on the motion for . the adjournment of the Senate. My colleague the Minister for Health <inline font-weight="bold">(Senator &#39; Wade)</inline> has replied to two of them. I will do the best I can to reply to the remaining four. I should like to say to the Leader of the Opposition <inline font-weight="bold">(Senator McKenna)</inline> that we were interested in the account of his visit to the United States Senate. He suggested that he will send to his host, <inline font-weight="bold">Senator Dirksen,</inline> a copy of &#34; Hansard &#34; containing the report pf his statement about the courtesy he received on that occasion. I think that honorable senators on the Government side would like to be associated with the appreciation that <inline font-weight="bold">Senator McKenna</inline> has expressed. </para>
+          </talk.start>
+          <para>It must have been an interesting occasion for <inline font-weight="bold">Senator McKenna.</inline> I think we would like to have it on record that, politi-cai opponents though we may be, as members of the Australian Senate we appreciate the courtesy shown to an Australian senator when he visited the great Senate1 of the United States. </para>
+          <para>Honorable senators.  -  Hear, hear! </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>634</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>-  I shall now reply to <inline font-weight="bold">Senator Turnbull.</inline> It would be wrong to say that this matter arises out of a dispute or disagreement in respect of two types of illness. <inline font-weight="bold">Senator Turnbull</inline> said that he had not been able to obtain a satisfactory explanation of the reason for the decision of the Commonwealth to discontinue the payment of social service benefits to pensioners who enter mental hospitals. My recollection is that this has been a matter of disputation between the Commonwealth arid State governments over a long period. I followed the Leader of the Opposition <inline font-weight="bold">(Senator McKenna)</inline> as Minister for Social Services in 1949. I remember that in 1950 this matter was the subject of discussion at the Premiers&#39; Conference. I think the point had been at issue for some years prior to that,although my reflection could be at fault. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>635</page.no>
+                <time.stamp />
+                <name.id>KBW</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WRIGHT, Reginald</name>
+                <name role="display">Senator Wright</name>
+              </talker>
+              <para>-  Is this in regard to invalid pensions or hospital benefits? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>635</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>-  We are talking in terms of social service benefits for age and invalid pensioners who enter mental hospitals. I think the question refers specifically to age pensioners as distinct from invalid pensioners. My recollection is that one of the principal points at issue is that when a person enters a mental hospital then the social services benefit is not credited to the patient. It is then paid into the revenues of a State government. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>635</page.no>
+                <time.stamp />
+                <name.id>K8Y</name.id>
+                <electorate>TASMANIA</electorate>
+                <party>IND; AP from Aug. 1969; IND from Jan. 1970</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">TURNBULL, Reginald</name>
+                <name role="display">Senator TURNBULL</name>
+              </talker>
+              <para>-  That is not quite correct. The Commonwealth does not make any payment. The States and the Commonwealth have an agreement on mental hospitals, but the moment a pensioner enters a mental hospital his pension ceases to be paid. The money is not paid to any one. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>635</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>-  I was trying to explain the reason for that. The patient not being in command of his income and expenditure, the payment is not made to the patient. The money goes to  a  State government. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>635</page.no>
+                <time.stamp />
+                <name.id>K8Y</name.id>
+                <electorate>TASMANIA</electorate>
+                <party>IND; AP from Aug. 1969; IND from Jan. 1970</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">TURNBULL, Reginald</name>
+                <name role="display">Senator TURNBULL</name>
+              </talker>
+              <para>-  No. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>635</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>-  If it were paid at all, to whom would it be paid? The patient would not receive it. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>635</page.no>
+                <time.stamp />
+                <name.id>K8Y</name.id>
+                <electorate>TASMANIA</electorate>
+                <party>IND; AP from Aug. 1969; IND from Jan. 1970</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">TURNBULL, Reginald</name>
+                <name role="display">Senator TURNBULL</name>
+              </talker>
+              <para>-  Why should not the patient or his trustees receive the payment?- </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>635</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>-  I know that I am talking to a medical practitioner. Perhaps I should not say this, but as I understand it the patient in the circumstances is not given the benefit of the payment. He is not allowed to have control of the money. </para>
+            </talk.start>
+          </continue>
+          <para>My recollection is that that is the point of difference between the Commonwealth and State governments. It is not a question of the difference between a physical illness and a mental illness. First, this hospitalization is a State responsibility and, secondly, if the Commonwealth made the payment the State and not the patient would get the benefit of it. If I am wrong, I will ask my colleague, the Minister for Social Services <inline font-weight="bold">(Mr. Roberton),</inline> to write to <inline font-weight="bold">Senator Turnbull</inline> and give him the Commonwealth&#39;s point of view. I am quite certain that this matter has been brought before Premiers&#39; Conferences repeatedly. </para>
+          <para>
+            <inline font-weight="bold">Senator Marriott</inline>spoke about press photographers. I dealt with that matter at question time to-night. Expressing a personal view, I agree that there were a great number of photographers at functions during the recent royal tour. Until the matter became public it had not occurred to me that the majority of them were not representing newspapers. I put the point that I expressed earlier, namely that the representations of the Australian Journalists Association have been sent to the officials who are controlling the next royal tour. They will be taken into consideration. I do not think <inline font-weight="bold">Senator Aylett&#39;s</inline> remarks require a reply from me. As I interpret them, he was taking the opportunity provided in the forum of the Senate to place on record his views about his relationship with his own political party and with the press. </para>
+          <para>Question resolved in the affirmative. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>635</page.no>
+        <time.stamp>21:47:00</time.stamp>
+      </adjournmentinfo>
+      <para>Senate adjourned at 9.47 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

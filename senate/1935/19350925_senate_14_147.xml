@@ -1,251 +1,2096 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-09-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-09-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-09-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-09-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-09-25%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-09-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-09-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1935-09-25/19350925_senate_14_147.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1935-09-25</date>
+    <parliament.no>14</parliament.no>
+    <session.no>1</session.no>
+    <period.no>3</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>140</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1935-09-25</day.start>
+      <para>The <inline font-weight="bold">President (Senator the Hon. P. J. Lynch)</inline> took the chair at 3 p.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>140</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers were presented .  - </para>
+      <quote>
+        <para>Control of Naval Waters Act - Regulations amended - Statutory <inline font-style="italic">Rules 1935,</inline> No. 82. </para>
+        <para>Seat of Government (Administration) Act - Statementof . Receipts and Expenditure of the Federal Capital Territory for the period 1st July, 1934, to 30th June, 1935. </para>
+        <para>Taxation Acts - Seventeenth Report of the Commissioner, year 1933-34, and part 1934-35. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>140</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BANKING AND MONETARY SYSTEM</title>
+          <page.no>140</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>140</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- I ask the Minister representing the Prime Minister - (1) Is it the intention of the Government to appoint a commission to inquire into banking and monetary reform in Australia? (2) If so, when ? (3) Will Parliament have an opportunity to discuss the terms of reference ? (4) Will a representative of the Labour party be appointed to such commission? </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>140</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator SirGEORGE PEARCE</name>
+              </talker>
+              <para>- As the matter is now under consideration by the Government, it is not possible to answer the honorable senator&#39;s questions seriatum; but the aspects mentioned are being considered. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>MR. R.G. MENZIES</title>
+        <page.no>140</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>SenatorCOLLINGS. - I ask the Leader of the Senate - (1) Is it a fact, as reported in the newspapers, that <inline font-weight="bold">Mr. S.</inline> M. Bruce, the High Commissioner for Australia, stated recently that Australia was lucky to have a man like <inline font-weight="bold">Mr. Menzies</inline> for its future Prime Minister? (2) Is it the intention of the Prime Minister <inline font-weight="bold">(Mr. Lyons)</inline> to retire in the near future to make way for <inline font-weight="bold">Mr. Menzies?</inline></para>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>140</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>- I have no knowledge of any such statement having been made by <inline font-weight="bold">Mr. Bruce,</inline> nor does the Government assume responsibility for unauthorized newspaper statements. </para>
+        </talk.start>
+      </interjection>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>140</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>NORTH AUSTRALIAN WATERS</title>
+          <page.no>140</page.no>
+        </subdebateinfo>
+        <para class="block">Movements of Japanese Pearling Fleet. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>140</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>asked the Minister representing the Minister for the Interior, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Has the Minister&#39;s attention been drawn to a report appearing in the Brisbane Sunday <inline font-style="italic">Mail,</inline> of the 15th September,1935, in which it is stated that the Japanese pearling fleet which operates in the waters north of Australia, numbering <inline font-style="italic">22</inline> vessels, is careened on the beach, south-west of Bathurst Island, and that the masters of these vessels have broken the customs, immigration, and quarantine laws of the Commonwealth for the purpose of overhauling their luggers, and also to obtain supplies of fresh water from Bathurst Island? </para>
+            </item>
+            <item label="2.">
+              <para>If so, does the Government intend to take action in the matter! </para>
+            </item>
+          </list>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>140</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- The Minister for the Interior has supplied the following answers: - </para>
+            </talk.start>
+          </interjection>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. </para>
+            </item>
+            <item label="2.">
+              <para>The matter has been brought to the notice of the Administrator, but, if the report  is  correct, it would be difficult to deal with the situation without the service of a fast patrol boat. Approval was given some months ago for the provision of a fast launch to patrol the waters north of the Northern Territory. The vessel is nearing completion, and is expected to arrive in Australia towards the end of October. Thereafter no time will be lost in placing it in commission. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>140</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ROYAL AUSTRALIAN AIR FORCE</title>
+          <page.no>140</page.no>
+        </subdebateinfo>
+        <para>Flying Accidents</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>140</page.no>
+              <time.stamp />
+              <name.id>K7M</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLETT, Herbert</name>
+              <name role="display">Senator COLLETT</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Defence, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that the last four flying accidents, in which personnel of the Royal Australian Air Force was concerned, happened when machines of the Wapiti class were in use? </para>
+            </item>
+            <item label="2.">
+              <para>If so, has inquiry revealed that this type of machine is unsuitable for military purposes ? </para>
+            </item>
+            <item label="3.">
+              <para>Will the machines be withdrawn from the service? </para>
+            </item>
+          </list>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>140</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator SirGEORGE PEARCE</name>
+              </talker>
+              <para>- The Minister for Defence has supplied the following answers: - </para>
+            </talk.start>
+          </interjection>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes; but  it  must be remembered that during the 21/2 years over which these accidents occurred, the Wapiti type alone has been used for the training of pilots and the equipment of land-plane squadrons; also that pupils under training were involved in three ofthose accidents. </para>
+            </item>
+            <item label="2.">
+              <para>No. Although aircraft  of  better performance are now available Wapitis are quite suitable for use in Australia. In fact eleven service squadrons of the Royal Air Force are still equipped with this type. </para>
+            </item>
+            <item label="3.">
+              <para>No. There would be no justification for such action. </para>
+            </item>
+          </list>
+          <para class="block">MR. McCANN&#39;S SERVICES. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>141</page.no>
+              <time.stamp />
+              <name.id>JNM</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BADMAN, Albert</name>
+              <name role="display">Senator BADMAN</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Commerce, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Prior to theappointmentofMr.McCann as Agent-General of South Australia, was <inline font-weight="bold">Mr. McCann</inline> offered a position ata high salary by the Federal Government? </para>
+            </item>
+            <item label="2.">
+              <para>If so, what was the nature of the appointment, and what was the amount of salary be was to receive? </para>
+            </item>
+            <item label="3.">
+              <para>Did the South Australian Government offer the services of <inline font-weight="bold">Mr. McCann</inline> to the Commonwealth Government at the recent Meat Conference held in London; and, if so, why were <inline font-weight="bold">Mr. McCann&#39;s</inline> services not utilized? </para>
+            </item>
+            <item label="4.">
+              <para>Were <inline font-weight="bold">Mr. McCann&#39;s</inline> services offered to the Commonwealth Government to assist at the Ottawa Conference; if so, who offered his services, and why were his services refused? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>141</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>- The Minister for Commerce has supplied the following answers : - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>No. </para>
+            </item>
+            <item label="2.">
+              <para>Sue answer to No. 1. 3 and 4. Yes. The Commonwealth delegation in each case had available to it the expert advice which it required. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>LEAVE OF ABSENCE</title>
+        <page.no>141</page.no>
+        <type>leave of absence</type>
+      </debateinfo>
+      <para>Motions (by <inline font-weight="bold">Senator Foll)</inline> agreed to - </para>
+      <quote>
+        <para>That <inline font-weight="bold">Senator Cox</inline> be panted one month&#39;s leave of absence on account of absence overseas. </para>
+        <para>That <inline font-weight="bold">Senator Carroll</inline> be granted one month&#39;s leave of absence on account of ill health. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SEAT OF GOVERNMENT (ADMINISTRATION) BILL 1935</title>
+        <page.no>141</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Second Beading. </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>141</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>West ern Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;3.10&#93;  . -  I move- </para>
+        </talk.start>
+        <quote>
+          <para>That the  bill  be  now  read a second  time. </para>
+        </quote>
+        <para>This small bill is of a technical nature, its principal object being to correct an error in the Seat of Government (Administration) Act 1930, with regard to certain by-laws continued in force by that act. Prior to the enactment of the act in 1930, the Federal Capital Commission had made certain by-laws. It was considered desirable  that  those by-laws should remain in force, despite the change in the administration of the Federal Territory effected by the act. Among them are the Accommodation by-laws, wh&#39;ch relate to the vacation of rooms in government boarding houses. In the  act  of 1930, the by-laws continued in force are shown in a schedule, and several amendments are set out with respect to the Accommodation  by-laws  which, in fact, should have been made with respect to the Protection of Lands by-laws. The present bill proposes to correct that error and to make slight alterations of a purely formal character with respect to other by-laws mentioned in the schedule to the act of 1930. </para>
+        <para>Debate (on motion by <inline font-weight="bold">Senator Collings)</inline> adjourned. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PARLIAMENTARY PAPERS BILL 1935</title>
+        <page.no>141</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>141</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>141</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role>Postmaster-General</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>. - I move - </para>
+          </talk.start>
+          <para>That the bill be now read a second time. </para>
+          <para>Briefly, the purpose of this bill is to place <inline font-style="italic">Hansard</inline> on the same footing as parliamentary papers with respect to the protection accorded to the publishers. It, is provided by sections 2 and 4 of the Parliamentary Papers Act 1908 that it shall be lawful for either the Senate or the House of Representatives to authorize the publication of any document laid before it, and that no action or proceeding, civil or criminal, shall lie against any person for publishing any document published under the authority of the Senate or the House of Representatives. As the reports of the parliamentary debates are not documents laid before either House, the act does not apply to them, and the only privilege attaching to the publication of the reports is that afforded by the common law. Under the common law, every fair and accurate report of any proceeding in either House is privileged even though it contains matters defamatory of an individual; but the privilege is &#34;qualified &#34; only, in that it is lost if the plaintiff can show that the defendant acted maliciously in making and publishing the report. Section 3 of the existing act provides that when either House of the Parliament has ordered a document to be printed, that House is to be deemed, unless the contrary intention appears in the order, to have authorized the Government Printer to publish the document. It is proposed to extend this section by further providing that each House of the Parliament is to be deemed to have  authorized the Government Printer to publish the reports of the debates in that House. The effect of the proposed amendment would be to make the publication by the Government Printer of reports of parliamentary debates absolutely privileged ; that is to say, no action could be brought against the Government Printer in respect of the publication of the reports. The actual alteration of the law to be made by the proposed amendment appears to be slight, but it seems desirable that there should be statutory authority for the publication of the official reports of parliamentary debates. I accordingly commit the measure to the consideration of the Senate, and urge that the principle contained in it be approved. </para>
+          <para>Debate (on motion by <inline font-weight="bold">Senator Collings)</inline> adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>TRADE MARKS BILL 1935</title>
+        <page.no>142</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>142</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>142</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role>Postmaster-General</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>. - I move - </para>
+          </talk.start>
+          <quote>
+            <para class="block">That the bill be now read a second time. </para>
+          </quote>
+          <para class="block">The bill relates to the rights of a prospective proprietor of a trade mark under international arrangements, and proposes to extend the protection at present afforded to the proprietor to his legal personal representative or assignee. This extension is in conformity with article IV. of the International Convention for the Protection of Industrial Property which was concluded at The Hague in 1925. Section 115 of the Designs Act is designed to implement international find other arrangements, and provides that any person who has applied for the protection of any trade mark in the United Kingdom or in any foreign country with which an arrangement has been made shall he entitled to the registration of his trade mark under the Commonwealth Designs Act in priority to other applicants. At present the protection is limited to the original applicant, but it isconceivable that that applicant may die during the course of proceedings prior to the grant of an  application, or may assign his rights in a registrable trade mark. The bill has been drawn to cover such contingencies by extending the right of protection to the legal personal representative or assignee of the original applicant. The amendment will, in effect, bring section 115 into line with the convention of 1925, in so far as it concerns the persons entitled to the protection specified in the convention. An extension similar to that proposed in the bill has already been effected by the Patents Act 1921, with respect to the rights of patentees, and by the Patents, Trade Marks and Designs Act of 1932, with respect to industrial designs. </para>
+          <para>Debate (on motion by <inline font-weight="bold">Senator Collings)</inline> adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>142</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ESTIMATES AND BUDGET PAPERS 1935-36</title>
+          <page.no>142</page.no>
+        </subdebateinfo>
+        <para>Debate resumed from the 23rd September <inline font-style="italic">(vide</inline> page 20), on motion by <inline font-weight="bold">Senator Sir George</inline> Pearce - </para>
+        <quote>
+          <para>That the papers be printed. </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>142</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>. - At the outset I protest against the inadequate time allowed for the scrutiny of such important papers as those containing the Government&#39;s financial proposals for the current year. Fortyeight hours is altogether too short a time for the Opposition properly to analyze such documents in preparation for their discussion. In saying that, I am not unappreciative of the courtesy of the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> in agreeing to the adjournment of the debate on Monday to enable honorable senators to study the papers. I assure the Senate that the criticism of the Government&#39;s financial proposals by the Opposition will be undertaken in no facetious spirit ; but the opportunity provided by the motion will he availed of to express the views of the Labour party in regard to a number of subjects coveredby these papers. </para>
+          </talk.start>
+          <para>The budget speech confirms our previously expressed view that the Government is rightly designated &#34; The Rich Man&#39;s Government&#34;, for during its life it has consistently taken from those least able to pay and given liberal concessions to those financial and commercial interests which dictate its policy. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>142</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- While rich men complain that not enough is given to them. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>142</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- Some of the sections that the right honorable senator represents are very difficult to satisfy; however much they may be given, like Oliver Twist, they will always be asking for more. Ever since this Government has been in power, the people of Australia have been waiting for it to redeem its promise to find employment for the workless, but the present budget offers little prospect of relief, although the allimportant subject of unemployment has been in the forefront of the Government&#39;s election propaganda for the last two years. For the want of a better word, I would term the budget a dead one. There is nothing in it that will enable the common people to look forward to the ensuing twelve months with any hope of greater comfort, security, and happiness. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>143</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator Duncan-Hughes</name>
+              </talker>
+              <para>- Whom does the honorable senator mean by the common people? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>143</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I mean the people whom the Opposition represents, in contradistinction to the predatory vested interests represented by some honorable senators opposite. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>143</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator Duncan-Hughes</name>
+              </talker>
+              <para>- They will not feel flattered to be described a3 common people. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>143</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- They will understand the sense in which I employ the adjective, and <inline font-style="italic">will not</inline> regard it as derogatory. </para>
+            </talk.start>
+          </continue>
+          <para>A study of the budget can lead only to the conclusion that the Government is bankrupt of ideas and destitute of any practical policy for dealing with unemployment, which is the main problem confronting the nation to-day. Surely the Government must recognize that the whole of our economic and financial difficulties are due to the widespread unemployment. The Prime Minister <inline font-weight="bold">(Mr. Lyons)</inline> apparently has quickly forgotten in his new environment the men and women who fought with him so many years ago when he stood for the policy I am now enunciating. They are fighting to-day to secure for mankind the right to work, the right to live in decency and reasonable comfort, and the right to security and happiness, all of which are denied to practically 300,000 Australians and their dependants. The Leader of the Senate <inline font-weight="bold">(Senator Pearce),</inline> too, was at one time a member of the Australian Labour party, and took part in its struggles in the interests of the working classes. The </para>
+          <para class="block">Prime Minister and <inline font-weight="bold">Senator Pearce</inline> have apparently forgotten their association with Labour, and, worse still, they forget and ignore their election promises to grapple with the unemployment problem in a practical way. At the 1931 election the country was placarded with such slogans as &#34; Vote for Lyons and jobs for all &#34;, and &#34; A vote for Lyons is a vote for work &#34;. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>143</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator Duncan-Hughes</name>
+              </talker>
+              <para>- That ideal is a great deal closer to-day than it was then. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>143</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I shall deal later with the statistics, which disclose how little nearer we have come to a solution of the unemployment problem. The Commonwealth Statistician&#39;s, figures disclose that 17 per cent, of the trade unionists registered are still unemployed. Those 17 per cent, throughout this long winter, which has just passed, have had  coalless  grates, empty pantries, and all the other miseries that attend prolonged unemployment. </para>
+            </talk.start>
+          </continue>
+          <para>I also remember the statement made by the Prime Minister while fighting the Scullin Government, which, admittedly, saved Australia, and was the real friend of the common people. According to the Melbourne <inline font-style="italic">Age</inline> of the 29th May, 1931, <inline font-weight="bold">Mr. Lyons</inline> said then - </para>
+          <quote>
+            <para>If in the event of un election the present Government (meaning the Scullin Government) is removed from office, it will become the duty of the Opposition (meaning the United Australia party) to put forward practical proposals for the relief of the suffering. </para>
+          </quote>
+          <para>The Scullin Government was defeated, and <inline font-weight="bold">Mr. Lyons</inline> became Prime Minister. When his first term of three years had expired, he again appealed to the people to trust him to find work for the unemployed. Had it not been for misrepresentation, and the groundless fears instilled into the minds of the people regarding Labour&#39;s financial policy, Labour would have won the last election, and the greater part of the suffering which prevails to-day would have been removed. 1 have no fear for the future, however; we shall get our opportunity so surely as the sun will rise to-morrow. Were I not certain that if Labour&#39;s financial policy were put into operation in this country unemployment would be banished, I would not remain a member of my party. </para>
+          <para>In 1934 the Prime Minister said that the Government had decided, after many months of careful study, to take a larger share in the responsibility with regard to unemployment. Those words condemn the Government, because after two and a half years in office the Lyons Government had done nothing, despite its pledges. Where is the long range policy that was promised for the absorption of the unemployed? In the budget speech which he delivered in 1932. the Prime Minister said that it was to private enterprise that we must look to provide employment - private enterprise that has been responsible for the ghastly failure of the economic system of to-day. In the past, private enterprise absorbed about 80 per cent, of the people in employment. That was when their spending power enabled the people to purchase goods; to-day the position is different. The Prince of Wales, speaking in Great Britain some months ago, said that one of the outstanding problems with which Great Britain had to deal was that of slums. He went on to remind his hearers, who were not slum dwellers, that they were not living iri the Victorian or Edwardian age, and must find some new way of getting rid of slums, which were a direct result of unemployment and inadequate wages. Private industry cannot expand until the people have money to purchase the goods which it produces. It should be remembered that during the reign of the Bruce-Page Government Australia borrowed overseas at the rate of &#163;30,000,000 per annum. In its report in 1932 the Economic Committee appointed by the Commonwealth Government pointed out - </para>
+          <quote>
+            <para>A substantial part of the prevalent unemployment is dire to the collapse of government borrowing which employed on public works 100,000 men. </para>
+          </quote>
+          <para class="block">Half a million men in Australia are without any purchasing power at the present time. By juggling with the tariff this Government has done more than any other Ministry to strangle private enterprise in Australia. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>144</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- How does the honorable senator reconcile that statement with the increased number of workers now employed in factories 1 </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>144</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I shall deal with that point later. The Ottawa agreement led to a reduction of duties on many items of the tariff and there will be more reductions shortly. I understand that the Government has introduced a measure to enable the present duties to remain in operation notwithstanding that Parliament has had no opportunity to discuss them. The Ottawa agreement allows British manufactured goods to enter Australia and compete on equal terms with local products. This &#34;rich man&#39;s Government&#34; is prepared to encourage private enterprise anywhere other than in its own country. In the <inline font-style="italic">Canberra Times</inline> of 28th November, 1934, <inline font-weight="bold">Mr. Paterson,,</inline> now Minister for the Interior, was reported to have said - </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>Two alternatives face them; either to provide mankind with more leisure or else to em ploy about half the people of the world and put the other half on the dole. </para>
+          </quote>
+          <para>I wonder how honorable senators opposite feel when faced with such statements. The world has undergone a transformation since the Great War, resulting in increased production which has riot been overtaken by increased consumption. <inline font-weight="bold">Mr. Paterson</inline> admitted that difficulties lay in the way of his proposals, but he said that it did seem that the problem would have to be solved along the lines of providing more leisure for the workers. I heartily agree with him. He concluded with this striking statement, which 1. recommend to his colleagues- - </para>
+          <quote>
+            <para>We will have to discard some of our conservatism and try to solve this new problem in a new way. </para>
+          </quote>
+          <para class="block">That is in consonance with the sentiment expressed by the Prince of Wales. Although this Government proposes bo inquire into matters pertaining to unemployment - Ministers were two and a half years in office before they decided that inquiry was necessary - I believe that if the result of such an investigation should be a recommendation of shorter working hours and better conditions it will be opposed or sidetracked by this Government. I understand that the Government is shortly to resolve itself from a group of Ministers elected by the people and responsible to Parliament and the people into a variety of commissions and committees. That is one way of covering up the ineptitude of the Government. Ministers are paid to attack and solve problems; they have an obligation to show that they have the capacity to administer the country&#39;s affairs. Surely honorable senators realize that industrial mechanization and economic forces must inevitably bring about shorter working hours ! <inline font-weight="bold">Mr. Paterson</inline> said that we cannot continue with half the workers employed and the other half on the dole. In this rich country of Australia such a condition is altogether wrong. The Government claimed that all it had to do was to restore confidence and unlimited money would be forthcoming to put men back into work. The Government maintains that, by reducing taxation, industries will flourish again and our troubles will be ended. Confidence and taxation relief were to be the solution of the unemployment problem ! Now approximately 300,000 people are out of work in. Australia. At our very doors 700 or 800 persons are without work in this beautiful city of Canberra. This evening a deputation representing the workless of Canberra will assemble before Parliament House, led by the son of the Minister for Health &#39; <inline font-weight="bold">(Mr. Hughes).</inline> There is no excuse for any man being compulsorily unemployed in Canberra. The Stamp Branch, the Note Issue Office and the large departments that still remain in Melbourne should be transferred here without delay as was promised to the lessees of this Territory. Such a gesture by the Government would indicate to private industry that the Ministry, is in earnest about tackling unemployment. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>145</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>- How would the absorption of 700 or 800 men in Canberra improve the general position ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>145</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- What a puerile question for the honorable senator to ask! It would certainly improve the position of those men and their hundreds of dependants. </para>
+            </talk.start>
+          </continue>
+          <para>On other occasions, Ministers and their supporters have urged that Australia&#39;s economic position was wrapped up with the economic position of the world : that our prosperity depended upon world prices. We all realize the importance of our export trade, and the need for high prices for our primary products in overseas markets. But we, on this side, realize also that, because of the system, of economic nationalism which has been adopted by practically every nation, and because of the existing unsatisfactory monetary system in Australia, we must take new measures to ensure that our people are put back in employment. As a member of this chamber, my sole concern is to see that the unemployment problem of this country is dealt with in a practical manner. That is my job. If by a united effort we can solve this problem in Australia we shall at least have established a beacon light for the guidance of the governments of other countries. Our efforts should be concentrated on the development of Australian internal markets for the benefit of our primary and secondary industries. This is a national obligation resting upon us as representatives of the people, and the Government and this Parliament should accept full responsibility and bear the cost. </para>
+          <para>After stressing the point that the States had exhausted their financial possibilities in a whole-hearted effort to overcome unemployment, and that the task was beyond the resources of the States, meaning, of course, that the State governments could not secure the necessary finance, the Prime Minister said in his policy speech - </para>
+          <quote>
+            <para>The Government proposes that practical anil enlarged effort* to relieve unemployment, with particular reference to the needs of the youth&#39;, shall take precedence over other government &#171;  activities. </para>
+          </quote>
+          <para class="block">That statement, I&#34; remind honorable senators, was a definite promise contained in the policy speech of the Prime Minister. He said that the Government, if returned, would do  somethng  of a practical nature to find employment for the workless. and particularly the workless youths of this country. </para>
+          <para>Under the heading, &#34; A . vigorous policy of works &#34;, the right &#34;honorable gentleman said that he was prepared to submit &#34;definite suggestions&#34;. The Prime Minister, it will be seen, first made a promise, and now after eighteen months of masterly inactivity, during which time he failed utterly to grapple with the problem, he says he is prepared to submit &#34; definite suggestions &#34;. Let us examine these &#34; definite suggestions&#34;, to ascertain what the Prime Minister meant. One was a comprehensive scheme of national forestry. But what do we find? There is provision in the budget for an expenditure of only &#163;258,000 to be either loaned or given to the States for this purpose. I ask honorable senators, in all seriousness, if that is the sum total of the Prime Minister&#39;s comprehensive forestry scheme. If time permitted I could tell honorable senators something of what has been done in Queensland during the last two or three years with regard to forestry development. How far will this &#163;258,000 go in the development of a comprehensive forestry policy? No doubt <inline font-weight="bold">Senator Duncan-Hughes</inline> will tell us that, following the expenditure of this sum, the position will be relatively better. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>146</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- That proposal was based on the provision by the States of &#163;1 for every &#163;1 provided by the Commonwealth, so really it represented a total of over &#163;500,000. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>146</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I am aware that the Government threw on the State governments a responsibility to find an amount equal to that provided by the Commonwealth. But I remind the right honorable gentleman that in a preceding paragraph of the policy speech the Prime Minister stated that the various States had exhausted their financial resources. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>146</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- But the States were able to find the money for the forestry scheme. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>146</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- If this amount of &#163;258,000 represents the sum total of the contribution by the Commonwealth for the development of a forestry policy it discloses a paucity of knowledge and lack of vision that are utterly deplorable. </para>
+            </talk.start>
+          </continue>
+          <para>Apparently when the Government is not &#34; examining &#34; proposals it is &#34; considering&#34; suggestions; and when it is not appointing a commission it is &#34; considering&#34; the establishment of a committee; and then Parliament goes into recess and nothing is done for the unemployed. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>146</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- The forestry policy announced in the Prime Minister&#39;s speech is now in operation. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>146</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I am glad to hear that. I shall be happy to assist the Minister to secure an increase of the amount provided for that purpose, when the Estimates of expenditure are under consideration. The Prime Minister, in his policy speech, went on to say - </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>We propose to examine, in conjunction with the State governments, any useful proposals for the training and preparation of youths for work. We must give these youths a chance to become useful citizens. </para>
+          </quote>
+          <para class="block">What hypocrisy unless the suggestion is to be backed up by action ! </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>146</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- The term employed by the honorable senator is somewhat strong ; I ask him to withdraw it. </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>146</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I withdraw it, <inline font-weight="bold">Mr. President,</inline> and substitute for it the word &#34; incapacity &#34; which I hope is more acceptable. The record of this Government discloses its incapacity to deal with the problems which the Prime Minister had declared would be tackled. In all seriousness I ask honorable senators opposite if they realize the tragic condition of the unemployed youths in Australia to-day. This tragedy is increasing in intensity and horror with every 24 hours that passes, because more and more youths are being turned out of our schools, colleges and universities without a reasonable chance of their securing employment. Meanwhile we sit in this chamber, and go on from election to election and from Parliamentary adjournment to Parliamentary adjournment without making any definite and worthwhile effort to right the position. Let honorable senators make no mistake about it - the tragedy of the youth of Australia to-day is the forerunner of the tragedy that exists in Europe, and which has given rise to Fascism in Italy and Nazism in Germany. If the youths of those countries had been absorbed in useful employment there would not have been the drastic changes in governmental systems that have taken place there in recent years. It is unfortunate that by inaction due to its incapacity the Government of this country is allowing industrial conditions to drift so alarmingly as to encourage propaganda in favour of communism and the rise of the fascist movement. </para>
+            </talk.start>
+          </continue>
+          <para>The Prime Minister also told us that the Government had in mind works of some magnitude, such as - <inline font-style="italic">{a)</inline> Unification of railway gauges. </para>
+          <para class="block">I heard the standardization of railway gauges as a means of relieving unemployment discussed when my hair was black. Honorable senators can judge how many years ago that was. </para>
+          <list type="loweralpha">
+            <item label="(b)">
+              <para>Country water storage, </para>
+            </item>
+            <item label="(c)">
+              <para>Sewerage construction for large country towns and other works of like description. </para>
+            </item>
+          </list>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>147</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- There is provision for those works in the budget. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>147</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I propose to examine them. It will be interesting to know what has been done since the last election. The Government has had a full twelve months to &#34; examine &#34; and &#34; inquire &#34; into and set up commissions and committees to give effect to the many items of policy mentioned by the Prime Minister. </para>
+            </talk.start>
+          </continue>
+          <para>The budget shows that the Government is merely tinkering with the problem. &#34;We have no guarantee that it will give effect to its undertakings. Among other proposals mentioned was the establishment of works for the treatment of shale and coal deposits for the extraction of oil. Rumour states that the Government intends to continue shelving this important item of policy as it has been doing for several years, although the Prime Minister told us some time ago that the Commonwealth and New South &#34;Wales Governments had decided to enter into negotiations with a company for the development of our shale deposits. Perhaps I may digress for a moment to tell the Senate what private enterprise is doing with regard to the extraction of oil from shale and coal. The following newspaper report appeared recently :  - </para>
+          <quote>
+            <para>A new retorting and distillation system in connexion with extractions from shale was lately demonstrated at Mittagong, New South Wales. <inline font-weight="bold">Mr. A.</inline> C. Smith, of the Commonwealth Development Branch, was present, and said he was greatly impressed. It is claimed that the process, which has been developed by Messrs. H. E. Gotting and J. M. Browne, will enable retorting and distillation to be carried out in one operation at much lower costs than those of the separate retorting and cracking processes hitherto employed. </para>
+          </quote>
+          <para>If <inline font-weight="bold">Mr. A.</inline> C. Smith was present at that demonstration, and was impressed by it, he presumably has reported to the Government. Therefore, when I ask questions later in the session concerning the Government&#39;s intentions, it will be of no use for the Minister in Charge of Develop ment to &#34; fob &#34; me off, as he has done on several previous occasions, by telling me that investigations are being made and that reports disclose that the processes are altogether too expensive for adoption by Australia. I have here an extract from the <inline font-style="italic">Queensland Government Mining Journal</inline> of July, 1935 - </para>
+          <quote>
+            <para>In view of the difficulties of marketing the coke, processes for recovering oil from brown coal which do not make coke are. preferred. Gas&#39; producers with low temperature carbonising auxiliaries enable the low-grade gas to be disposed of, but make tar as a by-product. Some 40,000 metric tons of tar are produced annually in these plants in Germany, apart from the amounts not marketed but used for firing the plants. Messrs. Pintsch have also evolved what is termed a &#34;flush gas&#34; low temperature carbonising process which works in conjunction with travelling grate stokers. The hot furnace gases are drawn up by the briquette charge in the furnace, while the low temperature coke leaves the carbonising shaft from below and is fed to the travelling grate in the hot state. In this process, tar is the only product recovered, but the use of such plants are restricted, as they are necessarily dependent on furnaces and cannot be regarded as independent low temperature carbonising plants. </para>
+            <para>As regards the actual production of oils, the process is confined at present to the Leuna Works of the I.G. Farben-industrie, whose experiments are now completed. </para>
+          </quote>
+          <para class="block">There is no need for the Government to undertake further experiments. A letter costing 2d. for a stamp will obtain all the information available as to what is being done in other countries. The extract continues - </para>
+          <quote>
+            <para>The process is noteworthy in so far as oils are derived from the brown coal as the main product, and only comparatively small quantities of gas are made and can be utilised without difficulty. Compared with other tar recovery processes, the only feature of the hydrogenation of brown coal is that the percentage of bitumen in the coal has no effect on the yield of oil. This is an important point as regards the life of the German brown coal resources. </para>
+          </quote>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>147</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate>SOUTH AUSTRALIA</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator A J McLACHLAN</name>
+              </talker>
+              <para>- For what purpose could the tar be used? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>147</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- If the Government were to undertake a Commonwealthwide road-making scheme the tar could be used. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>147</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate>SOUTH AUSTRALIA</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator A J McLACHLAN</name>
+              </talker>
+              <para>- Tar is of no use for road-making. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>147</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- Tar is being used in Queensland for the making of some types of roads and the results are quite satisfactory. </para>
+            </talk.start>
+          </continue>
+          <para>Another extract from the same journal deals with the distillation of coal in South Africa, and shows what can be done. The distillation of coal in Australia would give a number of by-products which would make Australia increasingly independent of other nations, especially in times of national emergency. The journal to which I have referred also contains the following: - </para>
+          <quote>
+            <para>Much progress has recently been made in the United Kingdom in the direction and conduct of the investigations of fuel problems, and by the researches of science in the field of oil production from coal. </para>
+          </quote>
+          <para class="block">We are frequently advised to follow the example of Great Britain. I suggest that its example he followed in this instance. The extract continues - </para>
+          <quote>
+            <para>As is stated by the  chairman  of the Fuel Research Board in his annual report for the year ended the 31st March, 1933, &#34; The scientific study of the utilization of our coal resources should have for its objects not only the well-being of our great mining industry; it should help to increase the competitive power of our manufacturing industries by lowering costs of production and increasing the efficiency of coal utilization; and it should make the country less dependent upon imported fuels &#34;. </para>
+          </quote>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>148</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate>SOUTH AUSTRALIA</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator A J McLACHLAN</name>
+              </talker>
+              <para>- There is another means of lowering the cost of production to the farmer, hut he will not adopt it. I refer to the production of gas from fuel obtainable on his own farm. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>148</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I thought that the Postmaster-General intended to refer to the reduction of interest charges by financial institutions. I ask him what has been done in regard to the distillation of oil from coal in Australia; whether any men have been employed at  this class of work during the past twelve months, and whether provision is made in the Estimates to employ men in these activities. </para>
+            </talk.start>
+          </continue>
+          <para>It is admitted that the unemployment figures have shown a decrease; but as that improvement is not confined to Australia the Government is not justified in taking all of the credit to itself. The seriousness of the unemployment problem in this country cannot be overstated. The 1933 census figures give the number of persons unemployed in Australia as 480,000, with a further 27,000 persons employed only part time and in receipt of sustenance or relief work. That represents a total of 507,000 persons compulsorily idle in a rich country like Australia, whose total population is less than 7,000,000. We who draw salaries as legislators in this Parliament ought to be ashamed of that position. Unless the Government can bring forward immediately proposals to end that state of affairs it should make way for another government which would be prepared to do so. During the second quarter of 1933 the statistical returns covering those trade unions which report their membership and unemployed members showed that 106,000 unionists were out of work. Those figures represent only 56 per cent, of the trade unions. It will be seen, therefore, that the unemployed, as disclosed by the census, are about four and threequarter times as many as the number of unemployed unionists reported by the trade unions. For the second quarter of the present year the statistics show 77,000 unemployed trade unionists. Computing on the same basis, it will be seen that approximately 366,000 men are still unemployed. That total excludes many thousands of youths under the age of sixteen years who have left school and are seeking employment. How long is this state of affairs to continue? There is no hope for these unfortunate people in the proposals of the Government. </para>
+          <para>In 1925 the then Prime Minister <inline font-weight="bold">(Mr. Bruce)</inline> said - </para>
+          <quote>
+            <para>The man with a family is the greatest asset to the community and it is essential that the greatest encouragement and assistance should bo given to such nien. </para>
+          </quote>
+          <para class="block">The working man is the man with a family, but what has the Government done for him? Although when I began the analysis of the census figures I knew that the position was serious, I had no idea that it was so tragic as the statistics disclosed. The census returns give a total of 3,149,000 breadwinners in the Commonwealth, made up of the following classes : - </para>
+          <para class="block">
+            <graphic href="147332193509255_8_0.jpg" />
+          </para>
+          <para class="block">Of the wage and salary earners 392,000 persons were in receipt of no income whatever. Can honorable senators imagine what that means? </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>149</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator Payne</name>
+              </talker>
+              <para>- That number includes children. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>149</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- No ; the figures I have given relate only to breadwinners. The Postmaster-General criticizes me for becoming noisy and excited. Knowing these things I would be recreant to my trust and a traitor to my class if I could sleep in comfort at night unless I took steps to bring about an improvement. The only reason that I can sleep is that I belong to a party which is always ready, if given the power, to tackle this problem and make the Commonwealth a place in which no adult need be idle. I. get a good deal of satisfaction from that. </para>
+            </talk.start>
+          </continue>
+          <para class="block">
+            <graphic href="147332193509255_9_1.jpg" />
+          </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>149</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator Brown</name>
+              </talker>
+              <para>- The Government&#39;s only idea of finding employment for the workless is to commit the country to war. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>149</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- Behind Mussolini&#39;s warlike activities is the desire to reduce the number of unemployed in Italy. </para>
+            </talk.start>
+          </continue>
+          <para>The census figures also disclose that 874,000 persons in the Commonwealth earn less than &#163;52 per annum. Expressed in another way, the census discloses that 36 per cent, of the wage and salary earners receive less than &#163;1 a week; if pensioners are included, the proportion is 52.7 per cent. The position is more clearly set out in the following table: - </para>
+          <para class="block">
+            <graphic href="147332193509255_9_1.jpg" />
+          </para>
+          <para>At the eightieth annual meeting of the Melbourne City Mission, held on the 21st May last, the superintendent and secretary, <inline font-weight="bold">Mr. F.</inline> L. Bruce, stated, <inline font-style="italic">inter</inline><inline font-style="italic">alia -</inline></para>
+          <quote>
+            <para>The executive feels that more should be done for derelict men. We have 600 destitute men at our meetings each week, and at each meeting food is provided. Among them are many desperately in earnest to detach themselves from the unsavoury environment in which they are forced to live. </para>
+          </quote>
+          <para class="block">That is the experience of only one mission in one capital city. The Melbourne <inline font-style="italic">Star</inline> of the 2nd June, 1934, published the following: - </para>
+          <quote>
+            <para>When arrears of rent caused the eviction yesterday of <inline font-weight="bold">Mrs. Jessie</inline> Compt and her four children from a house in Spring-street, Fitzroy, her few pieces of furniture were piled in a back lane adjoining a forge and machine shop. There, huddled about a fire which burned in a dustbin, the family kept a cold and dreary vigil last night, while the thermometer dropped to a mimimum  of 41 degrees. </para>
+            <para>To add to <inline font-weight="bold">Mrs.</inline> Compt&#39;s  distress she had the worry of nursing a child aged 18 months, who was, until recently, an inmate of the Queen Victoria Hospital, suffering from pneumonia, while she herself has been in poor health since the birth of a child who died a few weeks ago. </para>
+          </quote>
+          <para class="block">In its issue of the 6th June, 1934, the Melbourne <inline font-style="italic">Star</inline> stated - </para>
+          <quote>
+            <para>While neighbours in adjacent streets watched from front fences, and a posse of plainclothes police was stationed nearby, <inline font-weight="bold">Mrs. L.</inline> Babinall  and her family of seven children were evicted from their house in Duke-street, Richmond to-day. </para>
+            <para>Richmond police, fearing trouble, had strong reinforcements ready. </para>
+            <para>
+              <inline font-weight="bold">Mrs.</inline>Babinall  was besieged by neighbours tendering offers of help and shelter. </para>
+            <para>Four mounted police were stationed at the Richmond police yard and nine plainclothes men and more than a dozen uniformed constables were ready in case of trouble. This, however, did not occur. </para>
+          </quote>
+          <para class="block">The Melbourne <inline font-style="italic">Sun</inline> of the 26th June, 1934, published the following story of the eviction of a &#34; digger &#34; : - </para>
+          <quote>
+            <para>Because he had failed to meet payments due, H, T. Thompson, a former soldier, was evicted yesterday by the War Service Homes Commission from his home in Gallipoli-street, West Coburg. Thompson has a wife and four daughters. On behalf of the Commission it was stated last night that after full inquiry into the circumstances Thompson had been treated according to the Commission&#39;s policy. The photograph shows some of Thompson&#39;s belongings after they had been removed from the house. </para>
+          </quote>
+          <para class="block">This man, who was cheered in 1914, was evicted in 1934! </para>
+          <para>It was stated in the <inline font-style="italic">Sydney Morning Herald</inline> of the 24th September that Archbishop Mowll, speaking on the previous day at a meeting of the Synod of the Diocese of Sydney, had said - </para>
+          <quote>
+            <para>We cannot be content with a scheme for the rebuilding of Macquarie-street, important as that will be for the beauty and prestige of our city, if there is not at the same time a determined effort to improve the conditions in many of our poorer districts. Those of us who know the parishioners of our poorer city parishes are amazed by their self-respect, their courage, and their decency, notwithstanding the unlovely and depressing environment in which they live. In one school which I recently caused to be visited, 80 per cent, of the children appeared to be underfed and underclothed. The headmaster stated that, after 2 o&#39;clock, the mental fatigue of the scholars waa so marked as to make the afternoon&#39;s work practically useless. </para>
+          </quote>
+          <para class="block">The Archbishop was not speaking of events in effete and old countries, with centuries of alleged civilization behind them, but of what was taking place in this wonderful and beautiful Australia. <inline font-style="italic">&#91;Leave to continue given.&#34;&#93;</inline></para>
+          <para>I submit that the figures I have read in regard to the numbers of the unemployed, and the earnings of the breadwinners of this country, are astounding. <inline font-weight="bold">Mr. A.</inline> E. Clarkson, one of the South Australian employers&#39; delegates at the Industrial Peace Conference, made the following statement when addressing the Rotary Club : - </para>
+          <quote>
+            <para>If unemployment were  unescapable,  then the problem should be accepted as a direct charge in some form or another on industry or the community. </para>
+            <para>He did not plead for the dole system, with its debasing influence, but every worker had a right to expect employment. </para>
+          </quote>
+          <para class="block">Speaking at Castlemaine during the last elections, the Prime Minister said - </para>
+          <quote>
+            <para>The Government believed that the reemployment of the people was a national obligation. </para>
+          </quote>
+          <para class="block">Yet the Lyons Government has been in office for four years, and there are still between 300,000 and 350,000 people out of work. The Prime Minister also said in his policy speech - </para>
+          <quote>
+            <para>My Government believes that it would be wiser in the general interests to engage in a limited number of sound major employment works than to dissipate money upon a multiplicity of small local jobs of doubtful character. </para>
+          </quote>
+          <para class="block">I may mention that none of the figures I have quoted have relation to the Northern Territory or the Federal Capital Territory. </para>
+          <para>The budget shows that &#163;8,600,000 is to be expended on public works, of which &#163;3,000,000 is to be allocated for the rehabilitation of the wheat-growing industry! But no money devoted to that industry can be regarded as expenditure on public works. We all know that the greater part of that &#163;3,000,000 will find its way to the pockets of the big financial institutions. The individual farmer will get nothing with which to purchase the necessaries of life or to take a muchneeded holiday, or in any way to make life better for himself, although any expenditure in that direction would naturally create employment. Not long ago, when this Parliament was considering legislation designed to. give assistance to the wheat-farmers, <inline font-weight="bold">Senator E.</inline> B. Johnston submitted an amendment, in opposition to the Government which he supports, providing that the sum of at least &#163;50 should be reserved for the benefit of each farmer, instead of being permitted to pass into the hands of those who have already ridden too long on the backs of the primary producers. Members of the Opposition assured <inline font-weight="bold">Senator Johnston</inline> that they would support him in his efforts to ensure that &#163;50 would find its way to- the home of the farmer for the direct benefit of himself and those dependent on him. I thought that the Government would have acccepted that amendment with open arms. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>150</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- The Attorney-General said that it was unconstitutional. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>151</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- The amendment was definitely refused by the Government. If the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> had any sense of the fitness of things, and the immensity of the problem of unemployment, he would be prepared to take the necessary action and have it made -constitutional afterwards. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>151</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator Duncan-Hughes</name>
+              </talker>
+              <para>- What we need is a constitutional convention. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>151</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- Yes, but the Government will not agree to that. </para>
+            </talk.start>
+          </continue>
+          <para>Amounts are being expended on the post office, defence, river Murray waters, railways generally, war service homes, and the Federal Capital Territory, which under ordinary circumstances must necessitate yearly expenditure. It may be argued that these amounts are greater than in the past, but we should allow for the fact that for the past three years the budget has disclosed surpluses. Last year the British Chancellor of the Exchequer, <inline font-weight="bold">Mr. Neville</inline> Chamberlain, in presenting the annual budget, which showed the largest surplus for fifteen years, said - </para>
+          <quote>
+            <para>The improvement in the country&#39;s position was due almost entirely to the expansion of the home market. </para>
+          </quote>
+          <para class="block">All that this Government has done has resulted in restricting the home market. <inline font-weight="bold">Mr. Keynes,</inline> one of England&#39;s most brilliant economists, stated in 1932 - </para>
+          <quote>
+            <para> There is more chance of improving the profitableness of business by fostering enterprise, and by such measures as public works, than by a further pressure on money-wages or a further forcing of exports. </para>
+          </quote>
+          <para class="block">How can we improve our home market unless we first increase the spending power of the people, and how can we increase the spending power of the people unless we place them in employment? Hartley Withers, a recognized authority on finance, when referring to American industry and the world depression, said - </para>
+          <quote>
+            <para>In fact, the present depression is bringing home to all employers the conviction that mass production cannot exist without mass consumption, and from that conviction to the necessity of high wages is but a short step. </para>
+          </quote>
+          <para class="block">Last year the present Minister for Commerce <inline font-weight="bold">(Dr. Earle Page)</inline> advocated a five-year plan of road construction, with the object of relieving unemployment. What has been done in that direction? At the beginning of this year, according to the <inline font-style="italic">Age</inline> of the 26th February of this year, the then Premier of Victoria <inline font-weight="bold">(Sir Stanley Argyle)</inline> said - </para>
+          <quote>
+            <para>With regard to unemployment, sometime before Christmas the Commonwealth Government realized for the first time that it was not bearing its fair share of the unemployment relief burden, and called upon the States to submit programmes. He submitted a programme of works totalling &#163;5,000,000 spread over three years. The Government then began to hedge. </para>
+          </quote>
+          <para class="block">That is not the statement of a Labour Premier. Lord D&#39;Abernon, post-war ambassador to Berlin, and a leading financier, economist and statesman in Great Britain, speaking on the world depression in 1931, said - </para>
+          <quote>
+            <para>I hold that the deplorable conditions are due in the main to the fall in prices of staple commodities. This fall has been brought about by the scarcity of means of payment. </para>
+          </quote>
+          <para class="block">The Labour party appeals to the electors to give it power to institute a system of financial reform which will give consumers a sufficient supply of the commodities they require. A bold public works policy would go a long way towards relieving our present economic position, but there is no mention of such a policy in the budget just presented to this Parliament. Some time ago the State governments prepared lists of numerous public works which could be put in hand if the money were available; but I should like honorable senators opposite to note that more money is not required; all that is needed is sufficient debt-free credit issued against the wonderful productivity of this nation. An extensive works plan would mean - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Increased employment. </para>
+            </item>
+            <item label="2.">
+              <para>The works carried out would he of benefit to the country. </para>
+            </item>
+            <item label="3.">
+              <para>Saving in sustenance by the States which are to-day struggling to balance their budgets. </para>
+            </item>
+            <item label="4.">
+              <para>Increase of the spending power of the community and that would in turn have the effect of - </para>
+              <list type="loweralpha">
+                <item label="(a)">
+                  <para>assisting our primary producers; </para>
+                </item>
+                <item label="(b)">
+                  <para>starting the wheels of our secondary industries moving, thus bringing more money now lying idle in the banks into the industrial field; </para>
+                </item>
+                <item label="(c)">
+                  <para>raising the price levels. </para>
+                </item>
+              </list>
+            </item>
+          </list>
+          <para class="block">It is interesting to study the comments contained in a leading article in the </para>
+          <para>Melbourne <inline font-style="italic">Herald</inline> of the 6th July, 1934, dealing with a proposal before a Premiers conference to float a loan of from &#163;7,500,000 to &#163;15,000,000 to relieve  unemployment.  A portion of that article reads; - </para>
+          <quote>
+            <para>Assuming that it can hu demonstrated that n. &#187;s now necessary and wise to secure additional funds for the governments to spend immediately on unemployment relief work, there is a way in which such funds could be made available without the dangers attendant on an attempt to float a public loan. If a legitimate ease can be put before the Commonwealth Bank, it would become the function of the Commonwealth Bank Board to arrange for reasonable expansion of bank credit. </para>
+          </quote>
+          <para>They all are coming round to the Labour party&#39;s policy. The article continues - </para>
+          <quote>
+            <para>The money advanced by the Commonwealth Bank would not necessarily restrict bank advances to legitimate enterprise. It is even arguable that the process would increase the ability of the hanks to expand credit generally, because it would be new money put into circulation, earning profits and eventually returning to the banks in  form of  deposits. </para>
+          </quote>
+          <para>The Melbourne <inline font-style="italic">Herald,</inline> which is the &#34;mouthpiece of this Government, advocated exactly what the Labour party wishes to do, and that is to place new money in circulation in order to provide additional employment. </para>
+          <para>In the matter of taxation the Government displays a wonderful capacity for doing things in the wrong way. Since 3930-31 Commonwealth taxation has increased from &#163;50,400,000 to &#163;58,700,000. The Government is pursuing its usual course of remitting direct taxation by way of land tax, company tax, and the property tax, while at the same time increasing the indirect taxation which is paid by the workers. In 1930-31 the land tax assessments amounted to &#163;2,964,000, and in 1934-35 to &#163;1,092,000. &#34;What a wonderful present to make to the landowners of this country, practically every one of whom is thoroughly well equipped financially and able to meet the tax ! Had the 1930-31 land tax assessments remained operative the Government would have received an additional &#163;5,500,000. What is the position in regard to income taxation ?  In 1930-31 the amount received was &#163;13,600,000, and in 1934-35 it was &#163;S,700.000. Had the 1930-31 taxation remained operative the Government would have received an additional &#163;12,000,000 in taxation from this source. </para>
+          <para>To whom were remissions made? Not to the workers who produce the profits, but to the land owners and others who were well able to pay. I am not in favour of unduly high taxation, but when our economic position is such that thousands of our people are on the verge of starvation and over one half are receiving &#163;1 a week or less it is inequitable to remit taxation to those well able to pay it, and to place further burdens upon those on the bread line. </para>
+          <para>In the matter of indirect taxation the figures are startling. In 1930-31 the indirect taxation per head of population amounted to &#163;4 18s. Id., which, when added to direct taxation of &#163;2 17s.  7 1/4 d.  made a total of &#163;7 15s.  8 1/4 d.  In 1934-35 the indirect taxation amounted to &#163;7 0s. 10$d., and the direct taxation to &#163;1 14s. 5d., making a total of &#163;8 J 5s. 3j}:d. These figures show an increase of <inline font-style="italic">&#163;2</inline> 2s. per head of population in indirect taxation and a decrease of &#163;1 3s. 2d. in direct taxation. The indirect taxation is paid by the workers - the profit-makers - and the direct taxation by the profit-takers. The reduction of direct taxation benefits principally the wealthy classes, financial institutions and companies. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>152</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator Payne</name>
+              </talker>
+              <para>- Does the honorable senator suggest that the indirect taxation is heavier than in 1930-31. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>152</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- Yes, it is over &#163;2 per head more than during that financial year. The Minister directing negotiations for Trade Treaties <inline font-weight="bold">(Sir Henry Gullett)</inline> when speaking in the House of Representatives on the 16th November, 1927, said- </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>The Treasurer&#39;s claim that he has  reduced  taxation since he has been in office is one of the most fantastic ever made in any Parliament. It is true that he has reduced taxation of a particular kind - that he has collected less direct taxation from certain classes in the country but at the same time he has steadily increased the flow of money into the Treasury and has actually collected more both in the aggregate and from each individual taxpayer. He has merely shifted the load of income from the top to the bottom and has not actually relieved those people whom he has sought to help, by the remission of direct, taxation. </para>
+          </quote>
+          <para class="block">That gentleman, who is now a member of the Cabinet is at present on the other side of the world endeavouring to fix up some more Mumbo-J umbo trade arrangements which will merely get us further into the mire. <inline font-weight="bold">Sir Henry</inline> Gullett continued - </para>
+          <quote>
+            <para>I should endeavour to explain how vicious is the effect upon industry of that change and how progress is retarded when direct taxation is removed from the top and a corresponding or greater amount of indirect taxation is collected at the bottom. </para>
+          </quote>
+          <para class="block">
+            <inline font-style="italic">I</inline>have a good deal of information on the subject of rural rehabilitation but time will not permit me to say all that I wish to say. According to the United Australia party the Country party is a self interested party and its only concern is alleged to be for the farmer. According to the Country party the United Australia party is a party dominated by city and vested interests. The representatives of both parties maintain that they are greatly concerned about our primary producers, and have made extravagant statements concerning how they are going to remove the difficulties now confronting the producers. After years of political wrangling during which the two parties have at times accused each other of doing everything but the right thing to place our primary industries on a sound basis, they have again amalgamated. Every year we hear the same whine about the difficulties of the primary producers who, we all know, are the very backbone of the nation, and each year they are forced to appeal to this Parliament like mendicants asking for assistance to enable them to carry on for another twelve months. For how long will the Government allow the present conditions to continue? It purported to do something last year, and it proposes to do something this year; but every one knows that not one penny of the money voted last year for rural rehabilitation went into the pockets of the primary producers. Nor will any of the money proposed to be expended this year go to them. It will go to the banks and financial institutions in the form of reductions of overdrafts. That is not a statesmanlike way of tackling rural problems. Australia is rich enough, and the people are willing to pay the primary producers such a price for their products as will enable them to live in comfort if not in luxury. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>153</page.no>
+                <time.stamp />
+                <name.id>JNM</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BADMAN, Albert</name>
+                <name role="display">Senator Badman</name>
+              </talker>
+              <para>- Why did the honorable senator squeal about the flour tax? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>153</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- Because we know that the flour tax is merely a device for raising the price of bread, and the people we represent are the greatest consumers of that commodity. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>153</page.no>
+                <time.stamp />
+                <name.id>JNM</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BADMAN, Albert</name>
+                <name role="display">Senator Badman</name>
+              </talker>
+              <para>- Have we raised the price of bread? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>153</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>
+                <inline font-weight="bold">- Senator Badman</inline>mentally is a modern equivalent of a notorious Queen of France who, before the Revolution, when told that the people were threatening trouble because of their sufferings and hunger, said, &#34; If they have no bread, can&#39;t they eat cake?&#34; It is time that the Government told the primary producers that they no longer have the right to be on the dole; no right to sit on the doorsteps of this building pleading for relief like mendicants. In Queensland, the wheat-farmers and sugar-growers have been placed in a position that obviates the necessity for mendicancy. The Commonwealth has already done that for the butter producers. New Zealand has placed its principal primary producers on a sound footing. Great Britain, proceeding along the same lines, is making itself move selfcontained, developing its home market, and looking after its people. Having such an illustrious example for our guidance, we should also put our primary producers on a permanent and stable basis, thus making, it possible for them to be self-reliant. </para>
+            </talk.start>
+          </continue>
+          <para>I desire briefly to refer to the GovernorGeneralship. A few years ago when I knew that, for the first time in our history, an Australian-born Governor-General had been appointed, I was, indeed, a proud Australian. I regret to state that this Government has behaved shamefully regarding that high office. A. few months ago we had the spectacle of the Prime Minister running about like a common huckster hawking the position of Governor-General from one place to another, and finding &#34; no takers &#34;. He approached the Royal Family itself, and, finding &#34; no takers &#34; there for the Governor-Generalship, he came down the scale, until the choice fell upon a gentlemen, of whose worthiness I have no doubt whatever, but who is in. no way the equal of the present Governor-General, who is shortly to retire. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>154</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- I rise to a point of order. 1 direct attention to Standing Order 417, which reads - </para>
+            </talk.start>
+          </interjection>
+          <quote>
+            <para>No senator shall use the name of  His  Majesty or of his representative in this Commonwealth disrespectfully in debate, nor for the purpose of influencing the Senate in its deliberations. </para>
+          </quote>
+          <para class="block">I submit that it is not in order for the honorable senator to discuss the qualifications of the incoming Governor-General. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>154</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- Was I disrespectful ? </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>154</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PRESIDENT, The</name>
+                <name role="display">The PRESIDENT</name>
+              </talker>
+              <para>- Standing Order 417, to which the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> has directed attention, clearly provides that no honorable senator shall use the name of the Governor-General disrespectfully or to influence the opinion of the Senate. The latter portion of the honorable senator&#39;s remarks was, I consider, intended to influence opinion in favour of a nativehorn Governor-General as against one not of Australian birth. He is, therefore, not in order. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>154</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I must, of course, bow to your ruling; but I contend that I used no words of disrespect. The present occupant of the office of Governor-General is a dignified gentleman, and has ennobled every duty of his high office. He has impressed the people of Australia as being the best Governor-General we have ever had. I hope that that is not disrespectful. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>154</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PRESIDENT, The</name>
+                <name role="display">The PRESIDENT</name>
+              </talker>
+              <para>- The honorable senator has made comparisons to the disadvantage of other Governors-General. He is not entitled to do that. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>154</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- Obviously, it is a crime to be an Australian and to have Australian sentiments. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>154</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PRESIDENT, The</name>
+                <name role="display">The PRESIDENT</name>
+              </talker>
+              <para>- No, not that. The statements of the honorable senator imply that it is a bar sinister to come from overseas. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>154</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I did not mean that. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>154</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PRESIDENT, The</name>
+                <name role="display">The PRESIDENT</name>
+              </talker>
+              <para>- The honorable senator&#39;s remarks were capable of that interpretation. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>154</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I did not intend that, for I remember that you, <inline font-weight="bold">Mr. President,</inline> also came from overseas. </para>
+            </talk.start>
+          </continue>
+          <para>Regarding salary restorations, the recurring surpluses remove the slightest excuse for failure to make full restoration of the salaries of public servants, and pensions. </para>
+          <para>Something very much better than the method of censorship now used is imperative. The position is almost intolerable. Even the churches are protesting. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>154</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- Some of them. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>154</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- Not only the churches, but also publishers who are not supporters of the Labour party and have no sympathy with pornographic literature are opposed to the continuance of the existing Commonwealth censorship. Every State has laws dealing with obscene or blasphemous literature, and imposing penalties for its publication. On top of all that we have a Commonwealth censorship by one Minister, a Censorship Board or an officer of the Trade and Customs Department. Their methods suggest that these censors have no qualifications for the work. Foi how long is the country to allow the continuance of the existing Commonwealth system ? </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>154</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PRESIDENT, The</name>
+                <name role="display">The PRESIDENT</name>
+              </talker>
+              <para>- The honorable senator has exhausted his time. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>154</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator PAYNE</name>
+            </talker>
+            <para>.- Before dealing with the budget, I desire to reply to the extraordinary statements made this afternoon by the Leader of the Opposition <inline font-weight="bold">(Senator Collings).</inline> He said that this budget did not take into consideration in any way the &#34; common &#34; people whom he professes to represent. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>154</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- I do represent them. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>154</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- I represent them as fully as does the honorable senator. I have been very careful in my perusal of Commonwealth budgets to see that the &#34; common &#34; people have been given a fair deal. The statements of the Leader of the Opposition this afternoon are likely to inflame the minds of those who have no opportunity to delve into Commonwealth statistics or to read carefully the budget papers. The honorable senator&#39;s remarks will be read by people who are not able to verify his statements, and as he is the leader of a party, they may be accepted as facts. The Leader of the Opposition said definitely that this Government has done nothing to relieve unemployment in Australia. Reference to the budget will show that various sums of money have been made available by this Government for relief of distress caused by unemployment. On page 63 of the budget papers honorable senators will find under the heading &#34; Financial assistance to States that in 1932-33 the sum of &#163;1,155,698 was provided by the Commonwealth from loan for unemployment relief works. In 1934-35 &#163;22,883 was provided from the same fund for the same purpose, in addition to the following grants to the States under the Loan (Unemployment Relief Works) Act: - Metalliferous mining, &#163;75,000; relief works, &#163;250,000; and forestry, &#163;64,000; making a total, under these four heads, of &#163;411,883. Page 89 also reveals the following proposals for financial assistance to the States in 1935-36: - Unemployment relief works, &#163;750,000; assistance for metalliferous mining, &#163;208,750; and forestry, &#163;258,000. These sums are apart from the &#163;3,000,000 for farmers&#39; debt adjustment, and make the total provision for the current year, &#163;4,216,750, and still the honorable senator tells the people that this Government is not concerned about the unemployed. The figures which I have quoted prove that such a statement is unwarranted, and, coming from a public man, is inexcusable. The honorable senator charged the Government with relying on private enterprise to solve the unemployment problem. I believe that the solution must always lie with the extension of private enterprise, and for that reason it is the duty of every government not to hinder private enterprise, but to give it every opportunity to expand. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>155</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator Brown</name>
+              </talker>
+              <para>- Can the honorable senator show the chamber in what way private enterprise can solve  unemployment,  or can he point out any part of the world where it has done so ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>155</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- The experience of the last three years in Australia has shown that, through the opportunities given to private enterprise to extend its operations, unemployment has greatly diminished. I agree with the honorable senator that the most lamentable feature of unemployment is the lack of work for our youths; but does he appreciate what has been the greatest factor in bringing about this unfortunate position? The cause can be traced, not to the Commonwealth Parliament or to any Commonwealth Government, but to State legislation; and the party which <inline font-weight="bold">Senator Brown</inline> supports has always protested against any effort to effect an amelioration of existing conditions. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>155</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator Brown</name>
+              </talker>
+              <para>- Was that when the honorable senator wanted boys to &#34; scab &#34; on their fathers? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>155</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- I gave my reply to that accusation last year, and I do not think the honorable senator ought to repeat it. I said then that this Parliament has no right so to legislate that a lad leaving school, and compelled a few years later to accept the responsibility of manhood, shall not be allowed to work in the meantime. That is the effect of the State laws. I can see no justification for keeping a lad in that condition. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>155</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator Brown</name>
+              </talker>
+              <para>- The honorable senator says the State laws prevent boys from working. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>155</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- We have spent millions of pounds in educating these boys. Many of them have been trained at technical schools in trades to which they may be suited; but owing to the operation of certain laws, they cannot be employed. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>155</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator Brown</name>
+              </talker>
+              <para>- Nothing of the kind ! </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>155</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- If the honorable senator and the party of which he is a member would recognize the seriousness of the position, they would realize the need for amending the existing laws. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>155</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator Brown</name>
+              </talker>
+              <para>- Does the honorable senator believe in cheap child labour? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>155</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- I believe in cheap child labour no more than the honorable senator does ; but I assert that every child brought into this world should be given at least the same opportunity as his father had. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>155</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator Brown</name>
+              </talker>
+              <para>- A child should have a better opportunity than his father had. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>155</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- But the honorable senator&#39;s party does everything to hinder a lad&#39;s chances. This is one of the greatest tragedies we have to face. There is a growing opinion in the Commonwealth that something must be done to solve this problem, but up to the present no definite plan has been formulated. The Prime Minister <inline font-weight="bold">(Mr. Lyons)</inline> is keenly interested, and he has promised to co-operate fully with the States in any practical plan that they can devise to find employment for the youths of this country. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>156</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator Brown</name>
+              </talker>
+              <para>- Is not one solution the reduction of the hours of labour ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>156</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- That would not overcome the difficulty. If the working day were only three hours the awards of wages boards and other tribunals would still operate, and these lads would still he denied the opportunity to find employment. I have spoken with scores of parents who are heart-broken because under the law of the land their boys have been refused employment. According to age, a fixed scale of wages must be paid to boys, whether or not they know anything about the business they are entering. A boy who left school at the age of 15 and has no possible chance of obtaining employment until he is 18 then finds that he cannot get employment owing to the stipulated wage being more than he is worth. Year by year our unemployed population is being augmented &#39;by young people who a few years hence should be the hope and driving force of the nation. </para>
+            </talk.start>
+          </continue>
+          <para>I have studied the savings bank statistics to ascertain whether the doleful picture painted by the Leader of the Opposition is justified. These figures are a true indicator of a country&#39;s prosperity. Deposits in the savings banks in 1931 amounted to &#163;193,375,000. During the regime of the present Government, whose administration has been so strongly condemned by the Leader of the Opposition, deposits materially increased until in 1934 they totalled &#163;210,676,000, an improvement of &#163;17,301,000. Is that a sign of adversity? Those figures could never have been realized had there been no improvement in the economic condition of the country. </para>
+          <para>The honorable senator said that this Government had as its motive for the reduction of taxation the lifting of the burden from those wellable to hear it and the imposition of a heavier burden upon the common people. He quoted figures to substantiate his contention, but figures can be made to prove anything. I propose to quote other statistics to show exactly the opposite. Customs and excise taxation, which chiefly affects the common people, whereas direct taxation does not, was &#163;6 9s. 3d. a head in 1929, but in 1933 had dropped to &#163;4 19s.11d. The Labour party opposed that decrease although it meant relief for the common people. Every effort made in the Senate to reduce this burden was vigorously opposed by members of the Labour party. </para>
+          <para>During the last few years, considerable relief from indirect taxation has been given to the common people. Has the reduction of direct taxation tended to relieve the masses of the people or to increase their difficulties? Every business man knows that the lighter the burden of taxation, the more employment he can give by extending his operations. Because of the reduction of taxation made by the present Government there are indications of a diminution of distress, and an increase of output. The common people have also been assisted by a reduction of the sales tax which affects the masses rather than the wealthy few. The sales tax was imposed at a high rate by the Scullin Government. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>156</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator Duncan-Hughes</name>
+              </talker>
+              <para>- The Labour party had to do something when it took office. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>156</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- Yes; it had the responsibility to balance the budget and introduced the sales tax which proved an onerous burden on the common people. The present Government has exerted every effort to relieve the people of this tax. <inline font-weight="bold">Senator Collings</inline> stated that only the party with which he is associated had any real sympathy for the unemployed, and that a Labour government would take steps to find work for persons now on the dole.For some time the present Government has been co-operating with all the States to attain this most desirable end. As the present Government has provided large sums year after year for the purpose of assisting the States, I was somewhat surprised to read the following statement in a mainland newspaper - </para>
+            </talk.start>
+          </continue>
+          <para>Hobart, September 18. </para>
+          <para>At a conference at Hobart to-day of delegates from unemployed organizations in Tasmania, the State Government was strongly criticized for its attitude towards the unemployment problem. It was alleged that promises given during the election campaign with regard to bettering conditions for the unemployed had not been honoured, and that the unemployed were worse off than when a Nationalist government was in power. </para>
+          <para class="block">Yet a representative of the Labour party stated with some heat to-day that the present composite Government in this Parliament has no sympathy with the unemployed. The budget shows that in co-operation with the States the Commonwealth Government is giving practical assistance for the relief of unemployment. </para>
+          <para>The smallness of the population of the Commonwealth is one of the most important subjects to which we can direct attention. We have a country which probably has more blessings to the square foot than any other country has to the square yard. Australia is mainly undeveloped and its inhabitants number little more than 6,500,000. In 1921, when the population was only slightly over 5,500,000, the natural annual increase was 82,000. In 1933 there were almost 1,250,000 more people in Australia, and the natural increase dropped to 52,000. These figures are alarming, and, in view of the great distance that separates us from other more populous portions of the globe, we should do all we can to set our house in order. The health conference which took place recently in Canberra dealt with this important matter, and I hope that efforts will be made in the near future to accomplish something practical to increase our population. I believe that the Minister for Health <inline font-weight="bold">(Mr. Hughes)</inline> is earnestly seeking a solution of the problem. From the national point of view it is imperative that efforts be made to increase our numbers materially during the next, ten or twenty years. The Prime Minister <inline font-weight="bold">(Mr. Lyons),</inline> on his return from abroad, stated, according to the newspapers, that this vital matter would have to be investigated as speedily as possible, and I agree that the problem should be seriously considered without delay. There should be cooperation and collaboration between the Commonwealth Government and the governments of the various States in order to devise a scheme by which it will be possible considerably to increase the population in the next ten years. An excellent example of what can be done in this direction is furnished in Western Australia. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>157</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator Duncan-Hughes</name>
+              </talker>
+              <para>- At no heavy cost. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>157</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator PAYNE</name>
+            </talker>
+            <para>- What does the cost matter, when prompt action is necessary to save Australia ? A visit to other countries not far removed from our shores enables one to realize how vitally important it is for us to have more people here. Work such as that being accomplished at the Fairbridge Farm School in Western Australia could be done in every part of Australia almost immediately. I understand that 4,000 boys and girls have passed through that school, and 98 per cent, of them have been passed as &#34; Al &#34;. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>157</page.no>
+                <time.stamp />
+                <name.id>KS7</name.id>
+                <electorate>WESTERN AUSTRALIA</electorate>
+                <party>UAP; LP from 1944</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MACDONALD, Allan</name>
+                <name role="display">Senator ALLAN MACDONALD</name>
+              </talker>
+              <para>- In one year it was 99 per cent. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>157</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- Yes. The inauguration of this remarkably successful scheme is due to the efforts of <inline font-weight="bold">Mr. Fairbridge,</inline> who devoted the later years of his life to the project. With the aid of sympathizers in the Old Country and local committees in Western Australia, the farm was eventually established, despite serious initial difficulties. The boys and girls who are trained there are brought up in good, homely surroundings and every cottage has a senior girl to act as mother to the occupants. The life proves so attractive to the young people that after their training they frequently return to the farm for their holidays, because they regard it as their home. There might well be three or four such institutions in each of the States, and their establishment would not dislocate the labor market, for no great difficulty has been experienced in absorbing these boys and girls into the industrial population. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>157</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator Brown</name>
+              </talker>
+              <para>- These young people are brought from overseas. Why not deal with Australian children first? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>157</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- I am dealing with the urgent need for increased population in the Commonwealth. </para>
+            </talk.start>
+          </continue>
+          <para>I am gratified to notice that the careful and wise administration of the Government has enabled it to submit a most satisfactory budget. The careful management of the finances by the Ministry  is largely responsible for the increased prosperity experienced in the last few years, and I hope that the handsome surplus disclosed will be wisely utilized in order that further progress may be assured. I had hoped to find in the Treasurer&#39;s proposals provisions for a much larger decrease of direct taxation than is contemplated. Some of the direct taxation imposed some time ago was evidently introduced without due regard to the extent to which it would retard the development of this country. I am glad that the Government intends gradually to reduce the special tax which was super-imposed upon the three other federal income taxes. </para>
+          <para>I should have liked to see the special tax on property removed, or reduced by half with a view to its elimination within a year or two. I hope that even now, in view of the good prospects for the coming year, provision will be made for a greater reduction of this particular impost. Last year I submitted an amendment to the Income Tax Assessment Bill, with a view to getting a grievance remedied, but I did not obtain sufficient support. I have taken this action for three years, and I shall not rest until justice is done to a deserving section of the community. Provision is made in the principal act that those whose total income is under a certain amount shall not be subject to the tax. Although these persons are not liable for income tax, according to the act, the department has levied the higher rate of tax on a certain number of them whose incomes have been below the amount of the exemption. </para>
+          <para>In 1931 the Income Tax Assessment Bill provided that it should be optional on the part of a company which paid dividends on preference shares to deduct the special property tax from those dividends. The company pays the tax direct to the Commissioner. If a person received a total income of &#163;50 a year, - that is, &#163;200 below the exemption - which was derived from dividends on preference shares, the Commissioner would receive &#163;5 in the form of income taxation at the original 2s. rate. Although it has been represented to the Treasurer that this practice is contrary to the letter and spirit of the Income Tax Act, it still continues. The taxation authorities say that the anomaly cannot be removed owing to administrative difficulties; but there should be no difficulty in refunding money to which the department is not entitled. If a person whose income is below the exempt amount can prove to the department that a company has deducted &#163;10, &#163;15, &#163;20 or &#163;50 during the last three years in the form of a special property tax on income received from dividends on preference shares, the tax should be refunded to him by the Commissioner. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>158</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>-  Did the honorable senator bring that matter before theRoyal Commission on Taxation, which dealt, among other things, with taxation anomalies ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>158</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- I did not think it right that a member of Parliament should approach the commission, but I mentioned it to a member of the legal profession in Hobart, who questioned me on the subject. I understood that he would place the facts before the commission when he gave evidence, but unfortunately, he did not. If the department is satisfied that it has received, through a company, a property tax dividend payable to a person who is exempt under the act, the money should be refunded. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>158</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>-  The department has previously replied that there are administrative difficulties in the way and dangers of collusion. The honorable senator will obtain a similar reply from the department on this occasion. Had it been brought before the members of the commission they could have acted as arbiters. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>158</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- The difficulty could be overcome by compelling any person making such a claim to sign a statutory declaration, and if the declaration were false he would be liable to a heavy penalty. </para>
+            </talk.start>
+          </continue>
+          <para>
+            <inline font-weight="bold">Senator Collings</inline>referred to the necessity for increased governmental activity in the matter of re-afforestation, and I trust that further financial assistance will be provided so that we shall have a comprehensive re-afforestation policy throughout the Commonwealth. Recently I have visited the East, where I made  numerous inquiries into various subjects, including afforestation. In Japan I found that even small areas unsuitable for the production of foodstuffs are used for afforestation purposes. &#34;We should take off our hats to the Japanese people for the foresight they have displayed in utilizing the territory under their control in the way they have. In Japan pines are planted wherever they, are likely to thrive, and to-day some of the plantations are being cut for commercial purposes. Our supplies of timber are becoming depleted and a policy of reafforestation should be tackled on scientific lines so that a sufficient quantity of timber will always be available. </para>
+          <para>Returning from the East I paid a brief visit to New Guinea and inspected the native hospital a couple of miles from Rabaul. For some time it was customary to provide an amount on the Commonwealth estimates to assist in providing medical services for the natives in the Mandated Territory, but owing to tho rapid development of the gold industry the revenue received has been sufficient to enable the authorities to carry on without an annual vote from the Commonwealth Parliament. When I visited the hospital I was informed that in the matter of equipment, location and general layout it is one of the finest native hospitals in the world. Everything is provided in the interests &#39;of the native races. I am pleased to find that such a modern institution is available, because the future of that territory depends upon a healthy native population. Everything possible should be done to develop the territory by bringing larger numbers of natives under consol and showing them how to increase production. It is pleasing to find that remarkable progress has been made in the direction of stamping &#39;out tropical diseases. </para>
+          <para>Debate (on motion by <inline font-weight="bold">Senator Brown)</inline> adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>LIBRARY COMMITTEE</title>
+        <page.no>159</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para class="block">Motion (by <inline font-weight="bold">Senator Sir George</inline> Pearce) - <inline font-style="italic">by leave</inline> - agreed to. </para>
+      <para>That <inline font-weight="bold">Senator Sampson</inline> be discharged from further attendance on the Library Committee. </para>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>159</page.no>
+        <time.stamp>17:37:00</time.stamp>
+      </adjournmentinfo>
+      <para>Senate adjourned at 5.37 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

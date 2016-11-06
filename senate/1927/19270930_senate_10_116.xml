@@ -1,251 +1,1593 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1927-09-30%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1927-09-30%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1927-09-30%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1927-09-30%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1927-09-30%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1927-09-30%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1927-09-30%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1927-09-30/19270930_senate_10_116.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1927-09-30</date>
+    <parliament.no>10</parliament.no>
+    <session.no>1</session.no>
+    <period.no>3</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>132</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1927-09-30</day.start>
+      <para>The <inline font-weight="bold">President (Senator the Eon. Sir John Newlands)</inline> took the chair at 11 a.m., andread prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>132</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers were presented : - </para>
+      <quote>
+        <para>Canned Fruits Export Control Act - Statement by the Minister for Markets and Migration, dated 30th September, 1927, regarding the operation of the act, together with a copy of the report of the Canned Fruits Control Board for the year ended 30th June,1927. </para>
+        <para>Dairy Produce Export Control Act - Statement by the Minister for Markets and Migration, dated 29th September, 1927, regarding the operation of the act, together with copy of the report of the Dairy Produce Control Board for the year ended 30th June, 1927. </para>
+        <para>Dried Fruits Export Control Act - Statement by the Minister for Markets and Migration, dated 30th September, 1927, regarding the operation of the act, together with a copy of the third report of the Dried Fruits Control Board. </para>
+        <para>War Service Homes Act-Report of the War Service Homes Commission for the year 1926-7. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>132</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>DEVELOPMENT AND MIGRATION COMMISSION</title>
+          <page.no>132</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>132</page.no>
+              <time.stamp />
+              <name.id>JYX</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FINDLEY, Edward</name>
+              <name role="display">Senator FINDLEY</name>
+            </talker>
+            <para>- I desire to ask the Minister for Defence if the members of the Development and Migration Commission have unlimited powers? Are they permitted to tour Australia and speak on public questions at every opportunity, thus incurring heavy unnecessary expenditure ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>132</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- Order ! The honorable senator is not entitled to offer an opinion when asking a question except to the extent necessary to explain his question. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>132</page.no>
+                <time.stamp />
+                <name.id>KLU</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GLASGOW, William</name>
+                <name role="display">Senator Sir WILLIAM GLASGOW</name>
+              </talker>
+              <para>- If the honorable senator wishes to know if the members of the Development and Migration Commission have unlimited powers, the answer is in the negative. </para>
+            </talk.start>
+          </interjection>
+          <para>SenatorFINDLEY. - Have they the right to tour and talk on every occasion they feel inclined so to do? </para>
+          <para>
+            <inline font-weight="bold">Senator Sir WILLIAM</inline>GLASGOW.The members ofthe commission necessarily have to tour the Commonwealth in order to acquaint themselves with the problems with which they are dealing. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION&#39;SON NOTICE</title>
+        <page.no>133</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>
+        <inline font-weight="bold">Senator Sir WILLIAM</inline>GLASGOW.In asking <inline font-weight="bold">Senator Graham</inline> to postpone the question standing in his name on the notice-paper, I desire to point out that, as questions of which notice is given on Thursdays do not reach the departments until 9 o&#39;clock on Friday morning, it is somewhat difficult for the officers to obtain the answers by the time the Senate meets. In these circumstances, I ask honorable senators not to expect on Fridays answers to questions of which notice is given on Thursdays. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>133</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TARIFF BOARD : TIMBER INDUSTRY</title>
+          <page.no>133</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>133</page.no>
+              <time.stamp />
+              <name.id>K3L</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SAMPSON, Burford</name>
+              <name role="display">Senator SAMPSON</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Trade and Customs, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Have the Tariff Board presented their report on the Tasmanian timber industry? </para>
+            </item>
+            <item label="2.">
+              <para>If so, when will the report be made available? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>133</page.no>
+              <time.stamp />
+              <name.id>JRW</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party>NAT</party>
+              <role>Honorary Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRAWFORD, Thomas</name>
+              <name role="display">Senator CRAWFORD</name>
+            </talker>
+            <para>- The answers to the honorable senator&#39;s questions are as follow: - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. </para>
+            </item>
+            <item label="2.">
+              <para>The report is only recently to hand, and has not yet been considered by the Government. When fully considered, the report will be laid on the table of the House. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>133</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PRODUCTION OF HOPS</title>
+          <page.no>133</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>133</page.no>
+              <time.stamp />
+              <name.id>KOF</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYES, John</name>
+              <name role="display">Senator J B HAYES</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Trade and Customs, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>If, in view of the over-production of hops, he will at once consider the desirability of placing an embargo against the importation of hops into Australia? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>133</page.no>
+              <time.stamp />
+              <name.id>JRW</name.id>
+              <electorate />
+              <party>NAT</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRAWFORD, Thomas</name>
+              <name role="display">Senator CRAWFORD</name>
+            </talker>
+            <para>- At the instance of the Minister for Markets and Migration, the brewers of Australia are now importing not more than 15 per cent. of their requirements of hops, and are supplying the balance from hops produced in Australia. The Development and Migration Commission, in association with the Department of Agriculture, Tasmania, is now examining the general position of the hop industry in that State, which is responsible for the bulk of the production of the Commonwealth. Under the circumstances, it is not considered necessary or advisable to place an embargo on the importation of hops into Australia. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>133</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>AIR FORCE</title>
+          <page.no>133</page.no>
+        </subdebateinfo>
+        <para>Number of Accidents</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>133</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator NEEDHAM</name>
+            </talker>
+            <para>asked the Minister for Defence, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Will the Minister give the number of accidents that have occurred to members of the Air Force, whilst flying, each year from 1920; also the number that were fatal? </para>
+          </quote>
+          <para>
+            <inline font-weight="bold">Senator Sir WILLIAM</inline>GLASGOW.The information is being obtained and will be furnished as early as possible. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>133</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>POST AND TELEGRAPH DEPARTMENT</title>
+          <page.no>133</page.no>
+        </subdebateinfo>
+        <para>Arms for Telegraph Poles</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>133</page.no>
+              <time.stamp />
+              <name.id>KOJ</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYS, Herbert</name>
+              <name role="display">Senator HERBERT HAYS</name>
+            </talker>
+            <para>asked the Minister representing the PostmasterGeneral, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact, that recently tenders were received by the Department for the supply of 120,000 arms for telegraph poles, among which was one from Tasmania at 7&#189;d. per arm less than one from a Western Australian firm, and that the latter tender was accepted? </para>
+            </item>
+            <item label="2.">
+              <para>If so, what is the explanation? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>133</page.no>
+              <time.stamp />
+              <name.id>JRW</name.id>
+              <electorate />
+              <party>NAT</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRAWFORD, Thomas</name>
+              <name role="display">Senator CRAWFORD</name>
+            </talker>
+            <para>- Inquiries are being made, and the information asked for will be supplied as soon as it is available </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PUBLIC WORKS COMMITTEE</title>
+        <page.no>133</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para class="block">wharfagefacilities,darwin. </para>
+      <para>
+        <inline font-weight="bold">Senator BARNES</inline>presented the report of the Parliamentary Standing Committee on Public Works, together with minutes of evidence, plans and appendices relating to the proposed provision of wharfage facilities at Darwin. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PRINTING COMMITTEE</title>
+        <page.no>133</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator Sir William</inline> Glasgow) agreed to - </para>
+      <quote>
+        <para>That <inline font-weight="bold">Senator Hoare</inline> be appointed to fill the vacancy now existing on the Printing Committee. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PUBLIC ACCOUNTS COMMITTEE</title>
+        <page.no>133</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator Sir William</inline> Glasgow) agreed to - </para>
+      <quote>
+        <para>That, in accordance with the provisions of the Committee of Public Accounts Act 1913-20, <inline font-weight="bold">Senator Hoare</inline> be appointed to fill the vacancy now existing on the Joint Committee of Public Accounts. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>CRIMES BILL</title>
+        <page.no>134</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator McLachlan)</inline> agreed to- </para>
+      <quote>
+        <para>That leave be given to introduce a bill for an act to amend the Crimes Act 1914-26. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>COMMONWEALTH ELECTORAL BILL</title>
+        <page.no>134</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator Sir William</inline> Glasgow) agreed to - </para>
+      <quote>
+        <para>That leave be given to introduce a bill for an act to amend the Commonwealth Electoral Act 1918-25. </para>
+      </quote>
+      <para>Bill presented and read a first time. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>FORESTRY BUREAU BILL</title>
+        <page.no>134</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator. Sir William</inline></para>
+      <para class="block">Glasgow) agreed to - </para>
+      <quote>
+        <para>That leave be given to introduce a bill for an act to provide for the establishment of a Forestry Bureau. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEVELOPMENT AND MIGRATION COMMISSION</title>
+        <page.no>134</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator Ogden)</inline> agreed to- </para>
+      <quote>
+        <para>That a return be laid upon the table of the Senate showing - </para>
+        <list type="decimal-dotted">
+          <item label="1.">
+            <para>The number of persons employed on the staff of the Migration and Development Commission. </para>
+          </item>
+          <item label="2.">
+            <para>The number of experts and advisers attached to it, together with their duties and salaries. </para>
+          </item>
+          <item label="3.">
+            <para>The total cost of the commission since its inception up to the end of August, 1927. </para>
+          </item>
+        </list>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PRIVILEGE</title>
+        <page.no>134</page.no>
+        <type>privilege</type>
+      </debateinfo>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>134</page.no>
+            <time.stamp />
+            <name.id>KLS</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GIVENS, Thomas</name>
+            <name role="display">Senator Givens</name>
+          </talker>
+          <para>- I rise to a point of order and a question of privilege. Yesterday I gave notice of motion concerning the privileges of honorable senators. It has relation to a matter which is very seriously and importantly connected with the business of the Senate. On to-day&#39;s notice paper it is placed under &#34; Private Business.&#34; It is not private business in any shape or form because, as I have stated, it concerns the business of the Senate. Our Standing Orders provide and our practice always has been to recognize that any question of privilege is the business of the Senate and takes precedence over all other business. The Standing Orders also specifically state that any question of privilege arising since the last sitting of the Senate must take precedence of all other business. My notice of motion, as honorable senators will observe, concerns the manner in which the business of the Senate was conducted on 9th May last. The question of privilege did not arise, or at least it was not obvious, until the motion for the adjournment of the Senate on that occasion had been moved by the then Leader of the Senate, the Right Honorable <inline font-weight="bold">Sir George</inline> Pearce, and when that motion was agreed to, the Senate of course adjourned. There was therefore no opportunity for me or any other senators then to raise the question of privilege. Our next meeting took place on Wednesday last, and again, owing to the lamentable death of <inline font-weight="bold">Senator McHugh,</inline> there was no possibility of an honorable senator raising a question of privilege. The Senate passed a motion of sympathy with the relatives of the deceased gentleman and adjourned immediately. This, therefore, is the first opportunity any honorable senator has had to&#39; raise the question of privilege concerning the conduct of &#39; the business of the Senate on the 9th May. I wish to know by what right my notice of motion, dealing as it does with a question of privilege,has been placed on the notice paper not only behind Government business but as private business. I am prepared if necessary to take drastic action to see that the Senate is afforded every opportunity to discuss such issues and to protect its privileges. </para>
+        </talk.start>
+      </interjection>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>134</page.no>
+            <time.stamp />
+            <name.id>K09</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PAYNE, Herbert</name>
+            <name role="display">Senator Payne</name>
+          </talker>
+          <para>- Is the honorable senator aware that from where he is standing at the table no honorable sen- ator on this side of the chamber can hear him? </para>
+        </talk.start>
+      </interjection>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>134</page.no>
+            <time.stamp />
+            <name.id>KLS</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GIVENS, Thomas</name>
+            <name role="display">Senator Givens</name>
+          </talker>
+          <para>- I regret that the acoustics of this Chamber are not as satisfactory as we could wish. As I have said, our Standing Orders provide for, and our practice always has been to give, precedence over all other business to any question of privilege. That also is the practice of the House of Commons, the procedure of which is the foundation of all our parliamentary practice. I wish to know by what right my notice of motion has been placed behind Government business and included amongst private business. I have no intention of censuring anyone in connexion with the manner in which the business of the Senate was conducted on the 9th May last. All that I am concerned with is the protection of the privileges, the rights, the dignity, and the honour of the Senate. That obligation rests also upon every other member of this chamber. The order of business on the noticepaper for to-day is an intimation to us that a question of privilege may be regarded as private business. It is not private business in any shape or form. I was not consulted as to the positionit should occupy on the notice-paper, and I did not have an opportunity this morning to look the matter up because a noticepaper for the day was not placed in my box nor was it available in the Senate Club Room. I did not know where my notice of motion had been placed onthe notice-paper until I entered the chamber this morning. It would appear, therefore, that there is an attempt on the part of the Government to burk discussion on the issue raised in my notice of motion I claim, as a matter of privilege, that my motion should take precedence over all other business. If you, <inline font-weight="bold">Mr. President,</inline> rule against me, I shall be obliged to take the only course open to me, namely, to move that your ruling be disagreed with. </para>
+        </talk.start>
+      </interjection>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>135</page.no>
+            <time.stamp />
+            <name.id>KLU</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GLASGOW, William</name>
+            <name role="display">Senator Sir William Glasgow</name>
+          </talker>
+          <para>- I can assure <inline font-weight="bold">Senator Givens</inline> and other honorable senators that in arranging the order of business on the notice-paper for the day there was&#39; no attempt to burk discussion on the notice of motion relating to the business of the Senate on the 9th of May last. Standing Order 118 provides : - </para>
+        </talk.start>
+      </interjection>
+      <quote>
+        <para>Whenever a matter or question directly concerning the privileges of the Senate, or of any committee or member thereof, has arisen since the last sitting of the Senate, a motion calling upon the Senate to take action thereon may bo moved, without notice, and shall, until decided, unless the debate be adjourned, suspend the consideration of other motions as well as orders of the day. </para>
+      </quote>
+      <para>Standing Order 426 also deals with questions of privilege. It reads - </para>
+      <quote>
+        <para>All questions of order and matters of privilege which have arisen since the last sitting of the Senate, until decided, suspend the consideration and decision of every other question. </para>
+      </quote>
+      <para>I submit that the issue raised by <inline font-weight="bold">Senator Givens</inline> has not arisen &#34; since the last sitting of the Senate,&#34; and that, therefore, a question of privilege, which must be decided before &#34;the consideration and decision of every other question,&#34; is not involved. There is no intention on the part of the Government to prevent discussion on the motion. </para>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>135</page.no>
+            <time.stamp />
+            <name.id>KLS</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GIVENS, Thomas</name>
+            <name role="display">Senator Givens</name>
+          </talker>
+          <para>- That was done most effectively on the 9th of May as the Minister knows, and he will hear about it. </para>
+        </talk.start>
+      </interjection>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>135</page.no>
+            <time.stamp />
+            <name.id>KLU</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GLASGOW, William</name>
+            <name role="display">Senator Sir William Glasgow</name>
+          </talker>
+          <para>- The honorable senator will remember, probably, that on that occasion I had nothing to do with the matter. The question was mentioned by the honorable senator, and I think also by <inline font-weight="bold">Senator Kingsmill.</inline></para>
+        </talk.start>
+      </interjection>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>135</page.no>
+            <time.stamp />
+            <name.id>KLS</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GIVENS, Thomas</name>
+            <name role="display">Senator Givens</name>
+          </talker>
+          <para>- But there was no opportunity to discuss it on any motion except that relating to the adjournment of the Senate. </para>
+        </talk.start>
+      </interjection>
+      <para>The <inline font-weight="bold">PRESIDENT (Senator the Hon. Sir John Newlands).</inline> - I invite honorable senators to read carefully the notice of motion submitted by <inline font-weight="bold">Senator Givens.</inline> It is as follows: - </para>
+      <quote>
+        <para>That the manner in which the proceedings in the Senate were conducted at its meeting on 9th May, 1927, was a grave breach of the privileges of the House, and must not be regarded us a precedent. </para>
+      </quote>
+      <para class="block">Is there anything in that motion to show that it relates to a matter of urgency - to a question of privilege that has arisen since the last meeting of the Senate, and which therefore, under the Standing Orders, must take precedence of all other business? It conveys no intimation of the subject desired to be discussed under cover of it. The officers of the Senate who are my advisers in this matter, and I, also, after careful and thoughtful consideration of the notice of motion, and after consulting the authorities, came to the decision that it did not come within the provisions of Standing Order 426. This question was raised at the meeting of the Senate on the 9th May, and grave charges were levelled against me then, as they have been to-day, the allegation of the honorable senator being that, in my administration of the business of the Senate, I was deliberately attempting to deprive honorable senators of certain privileges. Nothing of the kind has been, or will be, attempted by me. I shall at all times do my very best to uphold the privileges of the Senate just as effectively as <inline font-weight="bold">Senator Givens</inline> did when he was in the chair which I now have the honour to occupy. I shall not allow the privileges of honorable senators to be curtailed in any way. In my opinion, as well as in the opinion of the responsible officers who have considered this matter, it does not relate to a question of privilege that has arisen since the Senate last met. If any attempt was made at the meeting of the Seriate on the 9th May to curtail the privileges of honorable senators - and I do not admit that there was - it was referred .to at the time, and I hold that the notice of motion has been placed in its proper position on the notice-paper. If the honorable senator wishes, it is open to him to initiate a discussion in any way that he pleases. I have =a desire, however, to debar <inline font-weight="bold">Senator Givens</inline> from taking such action as he is at liberty to take under the Standing Orders. The Senate is at present discussing the point of order and question of privilege raised this morning by the honorable senator - not the motion that stands in his name on the business-paper - and it is competent for either the Minister <inline font-weight="bold">(Senator Glasgow)</inline> or the honorable senator himself to obtain the opinion of the Senate as to whether the question is one of privilege. It has been ruled that a question of privilege does not arise in circumstances such as these, and I intend to adhere to that decision. The Standing Orders make provision for my protection as well as for the protection of honorable senators generally. I rule that the motion is not one of privilege, and that it, therefore/ should take its place amongst the private business on the notice-paper. </para>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>136</page.no>
+            <time.stamp />
+            <name.id>KLS</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GIVENS, Thomas</name>
+            <name role="display">Senator Givens</name>
+          </talker>
+          <para>- With all respect to you sir, I move - </para>
+        </talk.start>
+      </interjection>
+      <quote>
+        <para>That the Senate dissent from the ruling of the  President.  on the ground that it is contrary to the Standing Orders and the practice of the Senate. I desire to have discussed immediately the motion which stands in my name on the business-paper. It is for the Senate to decide whether that shall be done, or whether the discussion shall be held over for a future occasion. </para>
+      </quote>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>136</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>- The honorable senator may, if he so please, move that his present motion be decided forthwith. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>136</page.no>
+              <time.stamp />
+              <name.id>KLS</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIVENS, Thomas</name>
+              <name role="display">Senator Givens</name>
+            </talker>
+            <para>- It must go over to the next day of sitting unless the Senate decides otherwise. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>136</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- The motion now before the Senate is that my ruling be disagreed with. Is it seconded? </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>136</page.no>
+              <time.stamp />
+              <name.id>JZR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">OGDEN, James</name>
+              <name role="display">Senator Ogden</name>
+            </talker>
+            <para>- I second the motion. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>136</page.no>
+              <time.stamp />
+              <name.id>KLS</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIVENS, Thomas</name>
+              <name role="display">Senator Givens</name>
+            </talker>
+            <para>- This is a matter about which I have no personal feeling; but I consider that it concerns the dignity, the honour, the independence, and the rights of the Senate. It is for the Senate to say whether the motion shall be dealt with as private members&#39; business or be treated - as I contend it ought to be treated - as a question of privilege, and thus take precedence of all other business before the Senate. It must be apparent to every honorable senator that if this question of privilege is not decided immediately, possibly one, two, or three months may elapse before it is dealt with, and in the meantime the rights of the Senate may be filched just as they were on the 9th May last. I shall briefly relate the occurrences of that day, and I ask for the impartial opinion of the Senate. The 9th&#39; May was a very important and historic occasion. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>136</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- The honorable senator will not be in order in discussing, on this motion of dissent from my ruling, the proceedings on that occasion. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>136</page.no>
+              <time.stamp />
+              <name.id>KLS</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIVENS, Thomas</name>
+              <name role="display">Senator Givens</name>
+            </talker>
+            <para>- My contention is th a,t if the matter is allowed to stand over the rights and privileges of the Senate and of honorable senators individually may be filched at any sitting, just as they were on the 9th May. I wish to relate what occurred on that occasion in order to stress the importance of deciding the question forthwith. The procedure to be followed on the opening day was set out in a paper that was distributed to every honorable senator. Doubtless it was prepared by the  Clerk  of the Senate, and with your full knowledge and concurrence, <inline font-weight="bold">Mr. President.</inline> I read from the document as follows : - </para>
+          </talk.start>
+        </interjection>
+        <quote>
+          <para>The Senate having resumed after the suspension - </para>
+          <para>Petitions may now be presented and notices given, and papers be laid upon the table </para>
+          <para>A motion for an address to Eis Royal Highness the Duke of York may now be moved. </para>
+        </quote>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>137</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- Order ! The honorable senator is disregarding my ruling. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>137</page.no>
+              <time.stamp />
+              <name.id>KLS</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIVENS, Thomas</name>
+              <name role="display">Senator Givens</name>
+            </talker>
+            <para>- I refer to this paper only by way of illustration. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>137</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- The honorable senator is discussing events that took place in the Senate on the 9th of May last. The motion before the Senate is that my ruling - that the question is not one of privilege - be disagreed with. I ask the honorable senator to confine his remarks to the motion. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>137</page.no>
+              <time.stamp />
+              <name.id>KLS</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIVENS, Thomas</name>
+              <name role="display">Senator Givens</name>
+            </talker>
+            <para>- There may be to-aa a repetition of what occurred on the motion for the adjournment on the 9th of May. <inline font-weight="bold">Senator Glasgow,</inline> as Leader of the Senate, may move &#34; That the Senate do now adjourn&#34;; some discussion may arise, at the conclusion of which <inline font-weight="bold">Senator Glasgow</inline> may reply; and, as occurred on the 9 th of May, you, sir, may intervene subsequent to that reply. Honorable senators would have no remedy. Both you, sir, and <inline font-weight="bold">Senator Glasgow,</inline> have admitted that if any question of privilege had arisen since the last meeting of the Senate it unquestionably would take precedence of all other business to-:lay. Honorable senators were not seized of the magnitude and the importance of this matter until the motion for the adjournment of the Senate had been moved on the 9th of May. There could be no intervention until that motion had been disposed of ; and at that stage the Senate adjourned. We were precluded from taking any action on Wednesday last unless we were prepared to do what the Senate had never previously done - agree to the intervention of other business before the motion for the adjournment of the Senate out of respect to the memory of an honorable senator who had died since its last meeting. If the death had not occurred I should have moved my motion of privilege without notice on. that day. I gave notice in order that I should not take unawares either you, <inline font-weight="bold">Mr. President,</inline> or the members of the Ministry. Honorable senators must realize that I had not an earlier opportunity of intervening. All that I now ask is that the question be decided at the first opportunity. It is exceedingly important that it should be so decided. For that reason I have moved that your ruling be disagreed with. I have no desire to either censure or condemn any person. My sole desire is to protect the right3, the independence, the dignity and the honour of the Senate. I ask honorable senators to consider carefully whether the question should not be decided forthwith. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>137</page.no>
+              <time.stamp />
+              <name.id>KLU</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GLASGOW, William</name>
+              <name role="display">Senator Sir William Glasgow</name>
+            </talker>
+            <para>- I have no objection to the motion before the Senate being decided forthwith. The ruling of the  President,  I submit, is quite in order, because the question of privilege has not arisen since the last meeting of the Senate. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>137</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator Kingsmill</name>
+            </talker>
+            <para>- The  President  did not rule on that point; he ruled that it was not a question of privilege. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>137</page.no>
+              <time.stamp />
+              <name.id>KLU</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GLASGOW, William</name>
+              <name role="display">Senator Sir William Glasgow</name>
+            </talker>
+            <para>- The two Standing Orders that I have quoted specifically state that it is only a  question  of privilege that has arisen since the last day of sitting that takes precedence of all other business. I ask  honorable  senators to support the ruling of the  President.  The circumstances of the case are known to all . </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>137</page.no>
+              <time.stamp />
+              <name.id>KLS</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIVENS, Thomas</name>
+              <name role="display">Senator Givens</name>
+            </talker>
+            <para>- Similar action may be taken at every sitting until the question is decided. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>137</page.no>
+              <time.stamp />
+              <name.id>KLU</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GLASGOW, William</name>
+              <name role="display">Senator Sir William Glasgow</name>
+            </talker>
+            <para>- There is no desire to prevent the discussion of the question. The  President  called the business in what he considered was the correct order. It has not been shown that the motion relates to a question of privilege that has arisen since the last day of sitting. I move - </para>
+          </talk.start>
+        </interjection>
+        <quote>
+          <para>That the question of dissent requires immediate determination. </para>
+        </quote>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>137</page.no>
+              <time.stamp />
+              <name.id>KLS</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIVENS, Thomas</name>
+              <name role="display">Senator Givens</name>
+            </talker>
+            <para>- I rise to order ! This motion should have been moved before mine had been put from the chair, not after discussion had taken place upon it. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>137</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator Needham</name>
+            </talker>
+            <para>- May the motion just moved be debated? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>137</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- It may not. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>137</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator Kingsmill</name>
+            </talker>
+            <para>- Some honorable senators appear to be of the opinion that if this motion for the immediate determination of the question before the Senate is carried, it will preclude any further debate on the important mattei raised by <inline font-weight="bold">Senator Givens.</inline> That is not so. If the motion of the Minister is agreed to, the debate must continue until the question of disagreeing, or otherwise, with the President&#39;s ruling is determined. I should like your ruling in the matter. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>138</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- The debate on the motion of dissent from my ruling may continue if this motion is agreed to. </para>
+          </talk.start>
+        </continue>
+        <para>Motion agreed to. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>138</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator Needham</name>
+            </talker>
+            <para>- <inline font-weight="bold">Senator Givens</inline> is to be commended for the action he has taken to preserve the dignity of the Senate. Nevertheless, I cannot see my way to support him. According to my interpretation of Standing Order 118, <inline font-weight="bold">Senator Givens</inline> lost on Wednesday his opportunity of making this matter one of privilege and  urgency. It is true that, in explanation of his delay, he has told the Senate that on Wednesday, the first meeting of the Senate after the meeting on the 9th May, the Senate had before it a motion expressing its regret at the death of a member of this chamber. I agree that that would not have been a fitting occasion to raise the question which we are now considering; but I remind the honorable senator that under Standing Order 118 he could have taken action yesterday without notice. <inline font-weight="bold">Senator Givens,</inline> who occupied the President&#39;s chair for thirteen years, should have known that. Standing Order &#34;118 reads - </para>
+          </talk.start>
+        </interjection>
+        <quote>
+          <para>Whenever a matter or question directly concerning the privileges of the Senate or of any committee or member thereof has arisen since the lust sitting of the Senate, a motion calling upon the Senate to take action  thereon  may be moved without notice. . . </para>
+        </quote>
+        <para>It is therefore clear that <inline font-weight="bold">Senator Givens</inline> could have taken action yesterday, without notice. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>138</page.no>
+              <time.stamp />
+              <name.id>KLS</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIVENS, Thomas</name>
+              <name role="display">Senator Givens</name>
+            </talker>
+            <para>- The honorable senator appears to have forgotten that Wednesday&#39;s sitting intervened. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>138</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator Needham</name>
+            </talker>
+            <para>- I have not. I respect the honorable senator&#39;s reason for not taking action on Wednesday; but yesterday he could have taken action without notice. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>138</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator Kingsmill</name>
+            </talker>
+            <para>- The standing order does not say that the motion must be moved without notice. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>138</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator Needham</name>
+            </talker>
+            <para>- That is so; but it may be moved without notice. If the question before us is one of privilege today, it was one of privilege yesterday; and there was nothing to prevent <inline font-weight="bold">Senator Givens</inline> from taking action without notice yesterday. For that reason I intend to support the President&#39;s ruling. I shall support it for another reason, namely, that the incident to which <inline font-weight="bold">Senator Givens</inline> has referred has not occurred since the last sitting of the Senate. In my opinion, that entirely disposes df the argument that this is a matter of privilege. Taking all the circumstances into consideration, I think that the privileges of honorable senators have been safeguarded. I shall, therefore, support the President&#39;s ruling. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>138</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator Kingsmill</name>
+            </talker>
+            <para>- I find myself reluctantly compelled to support the motion moved by <inline font-weight="bold">Senator Givens.</inline> 1 shall do so largely because I desire to clear the way from the straw-splitting arguments that have been brought forward. <inline font-weight="bold">Senator Needham</inline> said that if this question is one of privilege to-day, it was one of privilege yesterday. I remind him that conversely, if it was a question of privilege yesterday, it is a question of privilege to-day. But even if we treated the motion of <inline font-weight="bold">Senator Givens</inline> as an ordinary one, we should be right in considering it as we are now doing. As the innocent cause of the whole series of. circumstances which led to this unfortunate position, let me say that, although I have forgiven the circumstances which then arose, I have not forgotten them. It is important that this chamber should arrive at a decision which will preclude the possibility of a recurrence of the incidents of 9th May. Although <inline font-weight="bold">Senator Givens</inline> could have moved his motion yesterday without notice, he very graciously gave notice of his intention to do so to-day. I understand that your ruling, <inline font-weight="bold">Mr, President,</inline> is that the question before us is not one of privilege. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>138</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- The motion does not say so. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>138</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator Kingsmill</name>
+            </talker>
+            <para>- In my innocence, I thought that that is exactly what it did say. The motion states that the manner in which the proceedings of the Senate were conducted on the 9th May, 1927, constituted a great breach of the privileges of the House. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>138</page.no>
+              <time.stamp />
+              <name.id>K1P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARWELL, Henry</name>
+              <name role="display">Senator Sir Henry Barwell</name>
+            </talker>
+            <para>- It is clearly a question of privilege. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>138</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator Kingsmill</name>
+            </talker>
+            <para>- Yes; and it is only on that question that the present debate is being conducted. Seeing that the motion distinctly refers to a question of privilege, I find myself reluctantly compelled, notwithstanding that I have freely forgiven the painful circumstances which occurred on the 9th May last, to disagree with your ruling. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>139</page.no>
+              <time.stamp />
+              <name.id>K1P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARWELL, Henry</name>
+              <name role="display">Senator Sir Henry Barwell</name>
+            </talker>
+            <para>- I cannot agree with the stand taken by <inline font-weight="bold">Senator Givens</inline> in connexion with this matter, nor do I agree with the arguments of either <inline font-weight="bold">Senator Needham</inline> or <inline font-weight="bold">Senator Kingmill.</inline> The Senate is now considering, not the original motion moved by <inline font-weight="bold">Senator Givens</inline> ; but whether the ruling of the  President  shall be disagreed with. The Standing Orders relating to questions of privilege are clear. If a question of privilege arises during the course of a sitting any honorable senator has the right to move that action be taken immediately, and without notice, in which case all the other business of the Senate is suspended until the matter is determined. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>139</page.no>
+              <time.stamp />
+              <name.id>KLS</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIVENS, Thomas</name>
+              <name role="display">Senator Givens</name>
+            </talker>
+            <para>- Action could not have been taken earlier because the question of privilege only became clear on the motion moved on the 9th May last, &#34; That the Senate do now adjourn.&#34; </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>139</page.no>
+              <time.stamp />
+              <name.id>K1P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARWELL, Henry</name>
+              <name role="display">Senator Sir Henry Barwell</name>
+            </talker>
+            <para>- The Standing Orders are clear that in the event of a breach of privilege occurring during a sitting of the Senate, action can be taken immediately, in which case it has precedence over all the other business of the Senate. They also provide that should a breach of privilege occur after the last day of sitting, action, without notice can be taken at the next sitting of the Senate. If the incident complained of occurred after the sitting on the 9th May, the only time when action could have been taken without notice was the next day of sitting, namely, Wednesday last; otherwise the motion must take its place on the notice-paper as an ordinary motion. Should one honorable senator address abusive words to another, or strike him within the chamber after the Senate had adjourned, that would be a breach of privilege. Action could not be taken that day, however, because the offence had occurred after the Senate had adjourned. But at the next sitting of the Senate action could be taken without notice. If, however, action was not taken on the next day of sitting, it could not be taken without notice, but would have to take its place as an ordinary motion, in which case it would not suspend all other business. I am sure that <inline font-weight="bold">Senator Kingsmill</inline> will agree with my contention. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>139</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator Kingsmill</name>
+            </talker>
+            <para>- The honorable senator is discussing a different question from that which I discussed. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>139</page.no>
+              <time.stamp />
+              <name.id>K1P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARWELL, Henry</name>
+              <name role="display">Senator Sir Henry Barwell</name>
+            </talker>
+            <para>- There is evidently some misunderstanding. I did not understand the  President  to rule that the question was not one of privilege. In my opinion, it is clearly a question of privilege. I understand the ruling to be that, although a question of privilege, it is not a question of privilege which may be brought forward without notice, and cause all other business to be suspended. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>139</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- The Senate is now dealing with the motion that my ruling be disagreed with. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>139</page.no>
+              <time.stamp />
+              <name.id>K1P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARWELL, Henry</name>
+              <name role="display">Senator Sir Henry Barwell</name>
+            </talker>
+            <para>- If the  President  had ruled that the question raised by <inline font-weight="bold">Senator Givens</inline> was not one of privilege, I should be compelled to disagree with that ruling, because, in my opinion, the honorable senator has raised a question of privilege. The point to be determined is whether it is a question of privilege which can be brought forward without notice at this sitting, and which, if so brought forward, will suspend all the other business of the Senate. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>139</page.no>
+              <time.stamp />
+              <name.id>K3X</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CARROLL, William</name>
+              <name role="display">Senator Carroll</name>
+            </talker>
+            <para>- It is clear that the honorable senator does not know the nature of the President&#39;s ruling. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>139</page.no>
+              <time.stamp />
+              <name.id>K1P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARWELL, Henry</name>
+              <name role="display">Senator Sir Henry Barwell</name>
+            </talker>
+            <para>- Would you, sir, be good enough to repeat, for the information of honorable senators, the exact terms of your ruling. </para>
+          </talk.start>
+        </interjection>
+        <para>THE  PRESIDENT.-  Because this is not a matter which has arisen since the last meeting of the Senate, and is not one which requires immediate consideration, to the suspension of the consideration and decision of every other question, the honorable Senator&#39;s motion has not been given precedence on the notice-paper. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>139</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator Kingsmill</name>
+            </talker>
+            <para>- That is quite different from what I understood the ruling to be. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>139</page.no>
+              <time.stamp />
+              <name.id>K1P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARWELL, Henry</name>
+              <name role="display">Senator Sir Henry Barwell</name>
+            </talker>
+            <para>-Quite so. I do not think that <inline font-weight="bold">Senator Kingsmill</inline> would have disagreed with the ruling if he had properly grasped it. Clearly the ruling of the  President  is that although. <inline font-weight="bold">Senator Givers&#39;</inline> motion  does refer to a matter of privilege, it does not come within Standing Orders 118 and 426. I agree that unless it comes within the four corners of either of those Standing Orders, or relates to a breach of privilege occurring during the present sitting it is not one which can be moved without notice to the suspension of all other business. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>140</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator Kingsmill</name>
+            </talker>
+            <para>- Notice of motion was given. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>140</page.no>
+              <time.stamp />
+              <name.id>K1P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARWELL, Henry</name>
+              <name role="display">Senator Sir Henry Barwell</name>
+            </talker>
+            <para>- That may be so, but the question is whether the motion  should  be considered at once to the suspension of other business. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>140</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator Kingsmill</name>
+            </talker>
+            <para>- It has not been taken at once. Other business has intervened. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>140</page.no>
+              <time.stamp />
+              <name.id>K1P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARWELL, Henry</name>
+              <name role="display">Senator Sir Henry Barwell</name>
+            </talker>
+            <para>- It is quite right that it should not have been&#39; taken at once. It could only have been taken at once if it related to a breach of privilege occurring to-day or since the last sitting of the Senate. As it is neither of these things it is not a matter that must be dealt with at once. Honorable senators ought to think well before disagreeing with the ruling. I know that every honorable senator is anxious to uphold the privilege <inline font-style="italic">i</inline> of the Senate. But honorable senators are equally anxious to abide strictly by the Standing Orders, and that being so in this case they must uphold the ruling of the  President. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>140</page.no>
+              <time.stamp />
+              <name.id>KOJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYS, Herbert</name>
+              <name role="display">Senator Herbert Hays</name>
+            </talker>
+            <para>- If <inline font-weight="bold">Senator Givens</inline> had raised the question of privilege without giving notice he would have been within his rights in demanding that the motion should take precedence of all other business. But since he has not done so, and has not set out in the motion that it relates to a matter of urgency, thai should take precedence of all other business. I take it that his motion must be treated in the ordinary way as private business. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>140</page.no>
+              <time.stamp />
+              <name.id>KLS</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIVENS, Thomas</name>
+              <name role="display">Senator Givens</name>
+            </talker>
+            <para>- Honorable senators seem to have missed the simple, and, indeed, the only point for consideration and decision by the Senate. For instance <inline font-weight="bold">Senator Herbert</inline> Hays claims that my motion would have been entitled to precedence if I had moved it without notice. The motion is exactly the same whether </para>
+          </talk.start>
+        </interjection>
+        <para class="block">I move it without notice or on notice. My friend <inline font-weight="bold">Senator Needham,</inline> the Leader of the Opposition, says that I would have been quite in order in moving the motion when the Senate met on Wednesday, and that it would then undoubtedly have been a question of privilege, the urgency of which could not be disputed. Had I done so the honorable senator would have been perfectly justified in regarding it as grave lack of respect on. my part for the  memory of his late honorable colleague. That was why I did not raise this question on Wednesday. That sitting having intervened, I thought it was only courtesy to you, <inline font-weight="bold">Mr. President,</inline> and to the Government for me to proceed by giving notice. To any one who has a knowledge of the practice and Standing Orders of the Senate, it is obvious that a day having intervened, I was precluded from the right of proceeding without giving notice of my motion. Honorable senators seem to think that the sole issue is whether or not your ruling, <inline font-weight="bold">Mr. President,</inline> should be upheld. The privileges of the Senate, however, are at stake. In the British House of Commons and in every other deliberate assembly with whose practice I am acquainted - and I am acquainted with the practice of all of them more or less - questions of privilege or concerning the rights of Parliament have always taken precedence, and very properly so, of all other business. Our Standing Orders go further than that. They declare that unless otherwise ordered the &#34; business of the Senate &#34; shall take precedence over all other business. Will any honorable senator claim that the matter I have raised is not a question of privilege? Honorable senators must admit that. They may say &#34;It does not matter; we can let it go; we do not care a straw about it&#34; ; but they cannot deny that it is a question of privilege. Again, they will agree that it is not a matter affecting me as a private-senator but relates to the business of the Senate which, under our Standing Orders, takes precedence over all other business. There is no reason why it should not be decided to-day. It would probably have been decided with much less discussion than has taken place if it had been taken in the proper way. No question is of greater importance to the Senate than the preservation of its rights, integrity, dignity, importance and independence. It is an obligation on every honorable senator to hand down to posterity the traditional rights of Parliament for which the British House of Commons has fought through the centuries. The great mother of Parliaments had to fight for its independence against the aggression of the Crown, against the great feudal system, and against the domineering power ofcertain governments, and it is our duty to hand down intact to those who come after us those sacred rights and privileges thus gained for us. I trust the Senate will disagree with the President&#39;s ruling. </para>
+      </speech>
+      <division>
+        <division.header>
+          <time.stamp />
+          <para>Question - That the Senate dissent from the ruling of the President - put. The Senate divided.</para>
+        </division.header>
+        <division.data>
+          <ayes>
+            <num.votes>0</num.votes>
+            <title>AYES</title>
+          </ayes>
+          <noes>
+            <num.votes>0</num.votes>
+            <title>NOES</title>
+          </noes>
+        </division.data>
+        <para>AYES</para>
+        <para class="block">
+          <graphic href="116332192709305_9_1_1_A.jpg" />
+        </para>
+        <para>NOES</para>
+        <para class="block">
+          <graphic href="116332192709305_9_1_2_N.jpg" />
+        </para>
+        <division.result>
+          <para class="block">Question so resolved in the negative. </para>
+        </division.result>
+      </division>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>141</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <para>Deathof the Clerkof the House ofrepresentatives  -  Government Business. </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>141</page.no>
+            <time.stamp />
+            <name.id>KLU</name.id>
+            <electorate>Queensland</electorate>
+            <party>NAT</party>
+            <role>Minister for Defence</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GLASGOW, William</name>
+            <name role="display">Senator Sir WILLIAM GLASGOW</name>
+          </talker>
+          <para>&#91;12.15&#93;.- I move - </para>
+        </talk.start>
+        <para class="block">That the Senate do now adjourn. </para>
+        <para>I desire to inform honorable senators that the funeral of the late <inline font-weight="bold">Mr. J.R.</inline> McGregor,  Clerk  of the House ofRepresentatives, will leave Parliament House at 2.30 p.m., and will be preceded by a service in the King&#39;s Hall. I understand it will meet the wishes of the Leader of the Opposition <inline font-weight="bold">(Senator Needham)</inline> if the debate on the motion for the printing of the budget papers is adjourned until Wednesday next. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>141</page.no>
+            <time.stamp />
+            <name.id>KLS</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GIVENS, Thomas</name>
+            <name role="display">Senator GIVENS</name>
+          </talker>
+          <para>. -  We were informed earlier in the sitting that the government business on the notice-paper for to-day was of such importance that a question of privilege could not be allowed to take precedence; but now, at 12.16 p.m., when it could be proceeded with,we are told by the Minister that it is to be adjourned until Wednesday next. I most earnestly protest against the Senate being treated in this way. If the business which the Government has to bring forward is so unimportant, the Senate should not have been asked to meet to-day. It is unfitting and unbecoming the dignity of theSenate that we should be treated in this way. If the Leader of the Opposition <inline font-weight="bold">(Senator Needham)</inline> is not prepared to proceed with the debate on the budget. I, who have rights and privileges in common with other honorable senators, am quite willing to do so. Must the Senate stultify itself merely because one honorable senator docs not wish to speak. I am sure we all wish to pay our last tribute of respect to an officer of this Parliament, who has rendered valuable service to the Commonwealth; but the funeral is not until this afternoon. I again protest against the action of the Government, and unhesitatinglysay that it is not facilitating the conduct of public business by proceeding in this manner. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>141</page.no>
+            <time.stamp />
+            <name.id>JXJ</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">NEEDHAM, Edward</name>
+            <name role="display">Senator NEEDHAM</name>
+          </talker>
+          <para>. -  In justice to the Acting Leader of the Government in the Senate <inline font-weight="bold">(Senator Glasgow),</inline> I may say that, when heinformed me that it was the intention of the Senate to adjourn at 1 p.m., to enable honorable senators to pay their last tribute of respect to the late  Clerk  of the House ofRepresentatives, I said that, as there were only a few minutes to go before the proposed adjournment, it would meet my wishes if the discussion on the budget were postponed until Wednesday next. Had we proposed to sit during the hours in which business is usually conducted on Friday, I should havebeen prepared to proceed to-day. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>142</page.no>
+            <time.stamp />
+            <name.id>KMP</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GRANT, John</name>
+            <name role="display">Senator GRANT</name>
+          </talker>
+          <para>. - We all sympathize with <inline font-weight="bold">Senator Givens,</inline> who is anxious that the work of this chamber should be transacted in a businesslike manner; but I think it is very unfair to expect the Leader of the Opposition <inline font-weight="bold">(Senator Needham)</inline> to commence his speech on the budget to-day, when we are within half an hour of the proposed adjournment, and conclude it on Wednesday next. In view of all the circumstances, I contend that <inline font-weight="bold">Senator Givens&#39;s</inline> assertion that the Senate is neglecting its business is unwarranted. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>142</page.no>
+            <time.stamp />
+            <name.id>K09</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PAYNE, Herbert</name>
+            <name role="display">Senator PAYNE</name>
+          </talker>
+          <para>. - I cannot support the views expressed by <inline font-weight="bold">Senator Grant.</inline> I came to Canberra expecting the Senate to proceed with Government business. The Leader of the Opposition <inline font-weight="bold">(Senator Needham)</inline> said that there were only a few minutes between now and the hour of adjourning, whereas we have nearly 40 minutes in which to continue the budget discussion. I protest against these unnecessary delays. The time between now and 1 o&#39;clock could be well spent in discussing public business, which should be proceeded with as expeditiously as possible while we are here. </para>
+        </talk.start>
+        <para>
+          <inline font-weight="bold">Senator Sir WILLIAM</inline>GLASGOW (Queensland- Minister for Defence) &#91;12.24&#93;. - The position is as stated by the Leader of the Opposition <inline font-weight="bold">(Senator Needham),</inline> who suggested to me that it would be rather unfortunate if he had to commence his speech on the budget today, and conclude his remarks on Wednesday next. <inline font-weight="bold">Senator Givens</inline> himself has no reason to complain concerning the manner in which business is being conducted, as he postponed the debate on his own motion. May I remind <inline font-weight="bold">Senator Payne,</inline> who said that government business should be proceeded with as expeditiously as possible, that it was owing to the death of a member of the Senate that no business was transacted on Wednesday; that on Thursday I presented the budget figures and sought leave for the introduction of certain bills, the first readings of which have been taken to-day, and the second readings of which will be moved on Wednesday next. In these circumstances there will be ample business to keep the Senate engaged next week. <inline font-weight="bold">Senator Payne</inline> said that the Government should proceed with the business on the notice-paper. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>142</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator Payne</name>
+            </talker>
+            <para>- The Minister adopted the suggestion of the Leader of the Opposition. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>142</page.no>
+              <time.stamp />
+              <name.id>KLU</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GLASGOW, William</name>
+              <name role="display">Senator Sir WILLIAM GLASGOW</name>
+            </talker>
+            <para>- I can assure <inline font-weight="bold">Senator Payne</inline> and others that, whilst I am in charge of government business in&#39; the Senate, I shall endeavour to meet the wishes of honorable senators on both sides of the chamber. I shall make every effort to see that business is available, and that honorable senators are not kept here longer than is necessary. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>142</page.no>
+              <time.stamp />
+              <name.id>JZR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">OGDEN, James</name>
+              <name role="display">Senator Ogden</name>
+            </talker>
+            <para>- We do not want to stay in this place longer than is necessary. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>142</page.no>
+              <time.stamp />
+              <name.id>KLU</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GLASGOW, William</name>
+              <name role="display">Senator Sir WILLIAM GLASGOW</name>
+            </talker>
+            <para>-The length of time that honorable senators will remain here is largely in their own hands. </para>
+          </talk.start>
+        </interjection>
+        <para>Question resolved in the affirmative. </para>
+      </speech>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>142</page.no>
+        <time.stamp>12:20:00</time.stamp>
+      </adjournmentinfo>
+      <para>Senate adjourned at 12.20 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

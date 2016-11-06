@@ -1,251 +1,1464 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #060606; } body { background-image: url(/images/body-home-evening-blurred.jpg); background-color: #060606; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1962-10-03%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1962-10-03%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1962-10-03%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1962-10-03%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1962-10-03%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1962-10-03%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1962-10-03%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1962-10-03/19621003_senate_24_s22.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1962-10-03</date>
+    <parliament.no>24</parliament.no>
+    <session.no>1</session.no>
+    <period.no>2</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>637</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <business.start>
+      <day.start>1962-10-03</day.start>
+      <para>The <inline font-weight="bold">PRESIDENT (Senator the Hon. Sir Alister McMullin)</inline> took the chair at 3 p.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>637</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>WAR SERVICE HOMES</title>
+          <page.no>637</page.no>
+        </subdebateinfo>
+        <para>Petition</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>637</page.no>
+              <time.stamp />
+              <name.id>K4S</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SANDFORD, Charles Walter</name>
+              <name role="display">Senator SANDFORD</name>
+            </talker>
+            <para>-  I have received for presentation to the Senate a petition from 133 ex-service men and women, and their dependants, of the Oak Park district of Victoria. The petition refers to contracts entered into with the War Service Homes Division for the purchase of homes, and seeks the provision of funds for the construction of roads. Unfortunately, the petition does not conform to the Standing Orders in that it is not properly addressed and does not end with a prayer. I have been advised by the  Clerk  that in the circumstances I cannot present the petition without leave of the Senate. Accordingly I ask for leave to present the petition. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>637</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>-  Is leave granted? </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>637</page.no>
+                <time.stamp />
+                <name.id>JQQ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CORMACK, Magnus</name>
+                <name role="display">Senator Cormack</name>
+              </talker>
+              <para>-  No. The petition does not conform to the Standing Orders, and I do not think that we should depart from the usual practice in regard to these matters. Petitions should be in proper form. </para>
+            </talk.start>
+          </interjection>
+          <para>Leave not granted. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ORDERS OF THE DAY</title>
+        <page.no>637</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Discharge of Motions</title>
+          <page.no>637</page.no>
+        </subdebateinfo>
+        <para>Motion (by <inline font-weight="bold">Senator Spooner)</inline> agreed to - </para>
+        <quote>
+          <para>That Orders of the Day Nos. 1 to 4, Government Business, and Orders of the Day Nos. 1, 2, 3, 4 and 6, General Business, be discharged from the notice-paper. </para>
+        </quote>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>637</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>HOSPITAL TREATMENT</title>
+          <page.no>637</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>637</page.no>
+              <time.stamp />
+              <name.id>K0N</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARNOLD, James</name>
+              <name role="display">Senator ARNOLD</name>
+            </talker>
+            <para>-  I direct a question without notice to the Minister for Health. As Sydney Hospital is the only hospital in New South Wales with a cobalt ray unit, people living in country areas and needing cobalt ray treatment are forced to spend large sums of money in travelling to Sydney in order to obtain the treatment. I have in mind a patient who travels about 400 miles from Lismore to obtain this treatment&#34; in Sydney. Will the Minister consider granting some relief to country people who must come to Sydney for this specialized treatment? Will the Government arrange for travel warrants to be issued to these people or will it assist them in some other way to obtain this treatment? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>637</page.no>
+              <time.stamp />
+              <name.id>KAF</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>CP</party>
+              <role>Minister for Health</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WADE, Harrie</name>
+              <name role="display">Senator WADE</name>
+            </talker>
+            <para>- There is no provision in the National Health Act to meet the travelling expenses of patients seeking specialist treatment. In fact, <inline font-weight="bold">Sir, I</inline> am bound to say that it is beyond the wit of man to devise a scheme that would cover every emergency that could arise. The Government realizes that people in such circumstances may well seek relief. It has recognized that fact by making what I believe is a fairly substantial allowance by way of an income tax deduction. The taxpayer is allowed a deduction of &#163;150 for medical expenses and a similar amount for his dependants. I think it can be argued quite justifiably that the Government, whilst it realizes that no act of Parliament can cover every situation, does endeavour to make provision for cases such as those mentioned by <inline font-weight="bold">Senator Arnold.</inline></para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>637</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>QUESTIONS</title>
+          <page.no>637</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>637</page.no>
+              <time.stamp />
+              <name.id>K2I</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRANSON, George</name>
+              <name role="display">Senator BRANSON</name>
+            </talker>
+            <para>- My question is addressed to the Minister representing the Postmaster-General. I direct his attention to a question I have had on the noticepaper since 9th August. It is of great interest to people in Western Australia and I should like the Minister to say when I may expect a reply. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>637</page.no>
+              <time.stamp />
+              <name.id>KAF</name.id>
+              <electorate />
+              <party>CP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WADE, Harrie</name>
+              <name role="display">Senator WADE</name>
+            </talker>
+            <para>- The latest report I have - and Ministers do follow up these questions very closely - is that replies to questions that have been on the noticepaper for some time are about to see the light of day. I expect to have a reply to <inline font-weight="bold">Senator Branson&#39;s</inline> question next week. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>637</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>HOME BUILDING</title>
+          <page.no>637</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>637</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>- I should like to ask the Minister for National Development a few questions. I like asking him questions because he is not a  boondoggler. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>637</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator Aylett</name>
+              </talker>
+              <para>- What is a boondoggler? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>637</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- A boondoggler is one who engages in trifling and inconsequential words. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>637</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- -Order </para>
+          </talk.start>
+          <para>
+            <inline font-weight="bold">Senator- BROWN.</inline>^ May- I proceed further to increase the word power of members of the Senate,, because another dictionary defines a . boondoggler as a. person who does not. waste public. money on useless projects. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>638</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PRESIDENT, The</name>
+                <name role="display">The PRESIDENT</name>
+              </talker>
+              <para>- Order! If the honorable senator does not ask his question he can sit down. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>638</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>-  I am not going to sit down because I intend to ask my question. Did the Minister notice a press item which stated that Professor Stern, a research professor of wood construction at the Virginia Polytechnic Institute, was on a three weeks&#39; official visit to Australia, sponsored by the State Department of the United States of America? Of course, the Minister may have brought this man out here himself  -  I do not know. If this report is correct, did the Minister note that the professor stated that America could show Australia how to speed home construction? He contended that the Yanks could put a house under a roof in a day. I do not know to what extent that is true. My third question is: As this matter is of such economic importance will the Minister procure the facts from the professor and convey them to all senators who are interested in this subject? </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>638</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>LP</party>
+              <role>Minister for National Development</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>-  I am sorry that I have to say in reply to <inline font-weight="bold">Senator Brown</inline> that I did not notice the newspaper report to which he refers. I know nothing of this visitor from overseas, I can assure <inline font-weight="bold">Senator Brown</inline> that he did not come here under the control of the Department of National Development. I shall make some inquiries into the matter. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>638</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>UNITED NATIONS</title>
+          <page.no>638</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>638</page.no>
+              <time.stamp />
+              <name.id>KRG</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LILLICO, Alexander</name>
+              <name role="display">Senator LILLICO</name>
+            </talker>
+            <para>- Can the Minister representing the Minister for External Affairs say how many countries outside the Soviet bloc have taken up an attitude similar to that adopted by countries of that bloc in refusing to pay for special United Nations operations such as those undertaken in the Congo? How many members of the United Nations are in danger of forfeiting their membership should Article 19 of the charter be invoked? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>638</page.no>
+              <time.stamp />
+              <name.id>KH5</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role>Minister for the Navy</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GORTON, John</name>
+              <name role="display">Senator GORTON</name>
+            </talker>
+            <para>- I regret to say that I am not absolutely certain whether any member countries of the United Nations outside the Soviet bloc&#39; have refused to meet their obligations in this respect. My impression is that, in fact, no countriesapart from those in the Soviet bloc have repudiated their obligations. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>638</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator Spooner</name>
+              </talker>
+              <para>- France has. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>638</page.no>
+                <time.stamp />
+                <name.id>KH5</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GORTON, John</name>
+                <name role="display">Senator GORTON</name>
+              </talker>
+              <para>- I have stated what was my impression, but my leader corrects me and says that France has. I shall be glad to obtain for the honorable senator a considered reply to his question. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>638</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>MOTOR VEHICLES USED BY AUSTRALIAN REPRESENTATIVES OVERSEAS</title>
+          <page.no>638</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>638</page.no>
+              <time.stamp />
+              <name.id>KOU</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENDRICKSON, Albion</name>
+              <name role="display">Senator HENDRICKSON</name>
+            </talker>
+            <para>- I preface my question, which I direct to the Leader of the Government in the Senate, by stating that recently I have asked several questions about the exclusive, use of Australian-made motor cars by Australian Government instrumentalities abroad, but the Minister has shown little or no interest in the export of this most valuable Australian product and has explained his attitude by suggesting that there may be servicing difficulties. I now ask him whether he has seen a recent official announcement by the authorities in Kuala Lumpur, Malaya, that the Royal Federation Police Force is tq replace its hundreds of patrol cars and vans with Australian-made Holden sedans and station wagons. Does the Minister agree that this important nation does not foresee any servicing difficulties? As example is greater than precept, will he ask the Government to follow the excellent lead given by the authorities in Kuala Lumpur? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>638</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- I rather suspect that <inline font-weight="bold">Senator Hendrickson</inline> is complaining because we have been successful in Kuala Lumpur. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>638</page.no>
+                <time.stamp />
+                <name.id>KOU</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HENDRICKSON, Albion</name>
+                <name role="display">Senator Hendrickson</name>
+              </talker>
+              <para>- No, I am not. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>638</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>- Then I do not follow the question. We are as keen as any- &#39; body else is to see Holdens used as much as is practicable. Here is a country in which we have been successful in- having them used. What is wrong with that? </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>639</page.no>
+                <time.stamp />
+                <name.id>KOU</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HENDRICKSON, Albion</name>
+                <name role="display">Senator Hendrickson</name>
+              </talker>
+              <para>-  That overcomes your objection. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>639</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>- No, it does not. Because we have been successful in one country which is reasonably close to Australia geographically, it does not mean that the difficulties I have mentioned do not still exist in countries that are further away from Australia than Malaya is. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>639</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>WEST NEW GUINEA</title>
+          <page.no>639</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>639</page.no>
+              <time.stamp />
+              <name.id>KQQ</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LAUGHT, Keith</name>
+              <name role="display">Senator LAUGHT</name>
+            </talker>
+            <para>-  My question is directed to the Minister representing the Minister for External Affairs. Is the United Nations administering West New Guinea at present, and will Indonesia alone take over the administration next year pursuant to an agreement between Indonesia and Holland? Are the functions of former Dutch-Australian liaison officers in the West New Guinea area now at an end? Has the Government decided what diplomatic or consular posts will be opened in the West New Guinea area, at what place or places they will be situated and when they will be opened? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>639</page.no>
+              <time.stamp />
+              <name.id>KH5</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GORTON, John</name>
+              <name role="display">Senator GORTON</name>
+            </talker>
+            <para>- The answer to the first part of the question is, &#34; Yes &#34;. The United Nations is now administering what was formerly Dutch New Guinea and next year the Indonesians will take over the administration, pending ultimate determination by the indigenous inhabitants of the sort of government the area will have. A liaison office established at Hollandia is still in existence. It was established in pursuance of a policy of close liaison in administration between the former administrators of West New Guinea and the Australian authorities in the eastern part of New Guinea. Only recently the United Nations authorities expressed the hope that the office would continue to exist during their period of administration. Whether it will continue to exist after the Indonesians take over the administration will have to be decided between the Indonesians, when they take over, and the Australians. If the same sort of liaison as existed in the past is required by both countries, I dare say that the liaison office will continue as in the past. Unless and until that question has been decided, the matter  of  appointing consular officers and so on will  not  arise. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>639</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>COMMONWEALTH DEVELOPMENT BANK</title>
+          <page.no>639</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>639</page.no>
+              <time.stamp />
+              <name.id>1L5</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MURPHY, Lionel</name>
+              <name role="display">Senator MURPHY</name>
+            </talker>
+            <para>-  I address a question to the Minister for National Development. Last month, in the Riverina, the New South Wales Minister for Conservation complained publicly that the Commonwealth Development Bank had failed to assist in financing closer settlement in Coleambally, and appeared to have no interest in the project. Will the Minister consider informing the Commonwealth Development Bank that the closer settlement of this part of the Mumimbidgee irrigation area represents a significant contribution to national development, and that the bank ought to give the project every encouragement and assistance within the scope of its charter? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>639</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- I should think that the Commonwealth Development Bank needs no reminder of the importance of the Coleambally scheme. Unfortunately, I did not see the newspaper comment to which the honorable senator refers, but I would be very much inclined to discount the criticism of the State Minister. I have no brief for the Commonwealth Development Bank in this matter but, knowing the importance of the development proposal referred to, I find it difficult to credit that the bank would adopt any policy other than one based on a desire to do what it can to help the scheme along. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>639</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>NATURALIZATION</title>
+          <page.no>639</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>639</page.no>
+              <time.stamp />
+              <name.id>JZB</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FITZGERALD, Joseph</name>
+              <name role="display">Senator FITZGERALD</name>
+            </talker>
+            <para>- I ask the </para>
+          </talk.start>
+          <para class="block">Minister representing the Minister  for  Immigration whether he has seen the special, featured articles and correspondence from new settlers appearing in the Sunday issues of the &#34; Sun-Herald &#34; in Sydney in recent weeks, relating to the failure of almost 250,000 newcomers to Australia to become naturalized. In these articles it is pointed out that the cold, indirect approach by the Department of Immigration, the fear entertained by immigrants  of  official letters, and many unsavoury deals with speculators, had created a feeling  of  fear and hostility in the minds of these immigrants which,  if  not checked, could lead to the setting-up of little hostile communities  in  our midst. In  view of  the great concern felt by all sections of the community in connexion with this matter, will the Minister consider promoting a full discussion between his department and local municipal authorities, which are doing such a great job in the field of naturalization, and also with the Good Neighbour Council and specially selected citizens with a view to approaching individually all who are eligible for naturalization, or who will become eligible in the future? </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>640</page.no>
+              <time.stamp />
+              <name.id>KOW</name.id>
+              <electorate>TASMANIA</electorate>
+              <party>LP</party>
+              <role>Minister for Customs and Excise</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENTY, Norman</name>
+              <name role="display">Senator HENTY</name>
+            </talker>
+            <para>- Without consulting the Minister, I should think that the matter of naturalization is one for the personal decision of eligible immigrants. I did not hear the honorable senator clearly, but I understood him to suggest that immigrants were experiencing a feeling of fear. I do not agree that there is a great deal of fear amongst them. </para>
+          </talk.start>
+          <para>Yesterday, the Minister for Immigration supplied an answer to a question on notice. In that answer he pointed out that the reason why a number of immigrants had not become naturalized was that they had not yet sufficiently mastered the English language, but that their mastering of the language was only a matter of time. If the honorable senator cares to put his question on notice, I shall ask the Minister to reply to him directly on that aspect. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>640</page.no>
+              <time.stamp />
+              <name.id>K6F</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAVANAGH, James</name>
+              <name role="display">Senator CAVANAGH</name>
+            </talker>
+            <para>- I direct to the Minister representing the Minister for Immigration a question arising out of a purported reply that I received yesterday. How many migrants have been refused naturalization because they have not been considered suitable for Australian citizenship through political or trade union associations or activities? What is the standard adopted by the Government in deciding whether an applicant&#39;s trade union activities are bona fide or make him unfit for Australian citizenship? That is the Minister&#39;s phrase. What reports does the Government accept in deciding whether a migrant&#39;s activities in a trade union are bona fide or such as to make him unsuitable for Australian citizenship? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>640</page.no>
+                <time.stamp />
+                <name.id>KOW</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HENTY, Norman</name>
+                <name role="display">Senator HENTY</name>
+              </talker>
+              <para>- I thought that was the question that the honorable senator asked recently, to which I gave him an answer yesterday. If the answer is not sufficient for him and he will put the question on the notice-paper again, I shall ask the Minister to clarify the position. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>640</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TOBACCO</title>
+          <page.no>640</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>640</page.no>
+              <time.stamp />
+              <name.id>KNU</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HANNAN, George</name>
+              <name role="display">Senator HANNAN</name>
+            </talker>
+            <para>- I direct a question to the Minister representing the Minister for Trade or to the Minister for Customs and Excise. Has his attention been directed to a paragraph in the Melbourne &#34; Herald &#34; of 2nd October last, headed &#34;Tobacco Workers Dismissed &#34;, which referred to the dismissal of 40 hands? In view of the general rise in employment in Victoria in the past quarter, would the Minister care to comment on the reason for retrenchment given by the company, namely, a shortage of Australian tobacco leaf? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>640</page.no>
+              <time.stamp />
+              <name.id>KOW</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENTY, Norman</name>
+              <name role="display">Senator HENTY</name>
+            </talker>
+            <para>- I did notice in the Melbourne press a paragraph to the effect that one manufacturer had found that he had not sufficient stocks of Australian leaf to enable him to comply with the Government&#39;s requirement of a 40 per cent, content of Australian leaf for the coming season. The overall tobacco crop in Aus-, tralia was sufficient to enable manufacturers to achieve a 40 per cent. Austraiian content in manufactured tobacco. The crop was disposed of by public auction. If the firm concerned did not purchase enough Australian tobacco to cover itself, all I can say is that this was due to its failure to evaluate correctly its requirements. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>640</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>EXPORTS</title>
+          <page.no>640</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>640</page.no>
+              <time.stamp />
+              <name.id>JYA</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;BYRNE, Justin</name>
+              <name role="display">Senator O&#39;BYRNE</name>
+            </talker>
+            <para>- I direct a question to the Minister representing the Minister for Trade. I point out that certain companies in Australia have agreements with their parent companies outside Australia to restrict the exports of their products to markets in which those exports will not compete with those of the parent companies. In view of the pressing need for Australia to find new and expanding markets in Asian countries as a consequence of the extension of the European Economic Community, will the Minister have prepared for the information of the Senate the names of companies with a high content of overseas capital investment &#39; which restrict the franchise within which their Australianoperated subsidiaries can trade? Will the </para>
+          </talk.start>
+          <para class="block">Minister take measures to have this restrictive trade practice terminated? </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>641</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- This is a matter to which my colleague, the Minister for Trade has given a good deal of attention over the last year or so, and it is not free of its complexities. We have encouraged overseas capital to come into Australia. We wanted to see industries developed and have always consciously maintained a policy that we would give no undertakings concerning the repatriation of capital or variations in exchange rates. It is not easy, therefore, to take one aspect of overseas investment in Australia in isolation. Having said that, with the consent of the Senate I will put the question on notice because <inline font-weight="bold">Senator O&#39;Byrne</inline> has asked for specific information and I am not aware whether such information is available. I shall ask the &#34; Minister for Trade to furnish a reply. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>641</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>DEFENCE</title>
+          <page.no>641</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>641</page.no>
+              <time.stamp />
+              <name.id>K2I</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRANSON, George</name>
+              <name role="display">Senator BRANSON</name>
+            </talker>
+            <para>- My question is directed to the Minister for the Navy. Because the people of Australia are very conscious of the need for defence in Australia, will the Minister inform the Senate whether there will be an operation similar to Operation Shop Window, which was conducted by the Royal Australian Navy some years ago? Does the Minister agree that this sort of exercise does much to create a better public realization of what our armed services are doing? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>641</page.no>
+              <time.stamp />
+              <name.id>KH5</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GORTON, John</name>
+              <name role="display">Senator GORTON</name>
+            </talker>
+            <para>- I do think that operations such as that referred to by the honorable senator disseminate knowledge of what the Navy is doing and the sort of work it does, the life its men lead and the equipment with which it is provided. Operation Shop Window was arranged so that members of Parliament could go to sea for a day to see the Navy in action. Unfortunately, invitations were accepted only by supporters of the Government, although they were extended to members of all political parties in this Parliament. We have not had an operation exactly the same since then, but we are continuing to have similar operations. Each year, for example, a day is set aside when the wives and families of sailors are taken out in an operation similar to Operation Shop </para>
+          </talk.start>
+          <para class="block">Window. Recently, when Charles F. Adams class destroyers visited Australia, representative citizens in Sydney and Melbourne were taken to sea by the United States Navy so that they could get an idea of the sort of equipment we were purchasing.  1  can say to the honorable senator that, operational needs and training permitting, I would be glad to see as many of these operations as possible take place. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>641</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TAXATION</title>
+          <page.no>641</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>641</page.no>
+              <time.stamp />
+              <name.id>K2N</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">RIDLEY, Clement</name>
+              <name role="display">Senator RIDLEY</name>
+            </talker>
+            <para>- I preface a question to the Minister representing the Treasurer by saying that I understand that the Minister for Health stated in reply to a question by <inline font-weight="bold">Senator Arnold</inline> that it was not within the wit of any government to find a means by which a person could obtain some taxation relief for expenses incurred in travelling to undergo specialized medical treatment. I ask the Minister: Are expenses incurred in travelling for specialized treatment an allowable tax deduction? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>641</page.no>
+              <time.stamp />
+              <name.id>JZY</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>LP</party>
+              <role>Minister for Civil Aviation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PALTRIDGE, Shane</name>
+              <name role="display">Senator PALTRIDGE</name>
+            </talker>
+            <para>- I understand the answer is &#34; No &#34;. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>641</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>COAL</title>
+          <page.no>641</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>641</page.no>
+              <time.stamp />
+              <name.id>KTA</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCCLELLAND, Douglas</name>
+              <name role="display">Senator MCCLELLAND</name>
+            </talker>
+            <para>- I direct a question to the Minister for National Development. Is it a fact that the Singleton Municipal Council has sought advice from both the New South Wales and Federal Governments on whether an industry to extract chemicals from coal could be established at Ravensworth, in New South Wales? Also, is it a fact that the Federal Government has appointed a committee to consider the practicality of establishing by-products industries on the coal-fields throughout Australia? Has the New South Wales Government representation on that committee? Because most of Australia&#39;s black coal is won in New South Wales, if that State is not represented on the committee will the Minister immediately invite the New South Wales Government to appoint a representative? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>641</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- I would not question the statement that representations in this respect had been made by the Singleton Municipal Council. I do not remember the particular circumstances, but I am well  &#34;aware that there has been a series of representations to the effect that something should be done to use the Ravensworth coal deposits to better advantage. It has been put to us that that should be done by establishing an industry to extract oil from coal, or a chemical industry, but that is a matter for private investment. It is a matter for the coal-mining industry. I do not contemplate the Commonwealth Government embarking on such a venture. </para>
+          </talk.start>
+          <para>The committee that was appointed some two and a half years ago did not include a representative of the New South Wales Government as such, but it did include the  chairman  of the Joint Coal Board, which is a Commonwealth-State responsibility. The committee&#39;s primary task was to inquire into the expenditure of Commonwealth funds on coal research. Commonwealth expenditure on coal research is very large. I cannot give the figure from memory, but there is a very substantial expenditure, which is spread over the Commonwealth Scientific and Industrial Research Organization, the Joint Coal Board, the turbine venture in Victoria and elsewhere. The committee was established for the purpose of reporting upon the Commonwealth&#39;s expenditure and other matters, with a view to putting forward proposals which might be appropriate in relation to research into the further uses of coal. </para>
+          <para>In my opinion, the committee was a very competent one. Its inquiries were made over a period of some two and a half years. I have had its report for, I should think, a couple of weeks. The committee has made a series of recommendations, and I hope to make the report available concurrently with the decisions on the recommendations that have been made. That seems to me to be an appropriate way to deal with the recommendations. The report is very lengthy and is well-documented. I hope to deal with it in a final way by saying, &#34; Here is the report and here are the decisions on the recommendations.&#34; </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>642</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>EUROPEAN COMMON MARKET</title>
+          <page.no>642</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>642</page.no>
+              <time.stamp />
+              <name.id>KBW</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WRIGHT, Reginald</name>
+              <name role="display">Senator WRIGHT</name>
+            </talker>
+            <para>-  I direct a question to the Minister representing the AttorneyGeneral. I remind him that in May last I asked the Attorney-General, through him, whether he would consider the advisability of bringing the Crown Law officers of the </para>
+          </talk.start>
+          <para class="block">Commonwealth into consultation on the question of the constitutional limitations of authority that the Treaty of Rome would impose upon the Parliament at Westminster, and whether he would examine their effects from the points of view of the traditional rule of law and their impact on Commonwealth countries. I want to take this opportunity to thank warmly the Minister for the courtesy with which he replied to my question. He said that he would consider it and would keep me advised of progress. Before the Senate adjourned a month ago, the Minister was good enough to provide me with some references on the subject, but to date I have not been informed whether a formal opinion has been delivered by the Commonwealth Crown Law officers. Will the Minister advise me of the present position in this regard? Has any note been taken of the speech delivered on this subject about ten days ago by Lord Dilhorne, the Lord Chancellor? Will the Minister give urgent consideration to the advisability, not merely of creating a link between the interests of this Commonwealth and the British Parliament on the trade aspects of this treaty, but also of establishing a link between the law officers of this Commonwealth and those of the United Kingdom, so that any constitutional repair deemed necessary to the Treaty of Rome may be put in hand during the negotiations over the next three or four months? </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>642</page.no>
+              <time.stamp />
+              <name.id>KH5</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GORTON, John</name>
+              <name role="display">Senator GORTON</name>
+            </talker>
+            <para>-  I will ask the Attorney-General whether he has yet received information from the Crown Law officers on the matters raised by <inline font-weight="bold">Senator Wright.</inline> I will also ask the Attorney-General whether he has had brought to his attention the speech by Lord Dilhorne referred to by the honorable senator. I will ask the Attorney-General whether he is considering establishing the links to which <inline font-weight="bold">Senator Wright</inline> referred. I will ask the AttorneyGeneral to reply direct to <inline font-weight="bold">Senator Wright</inline> on those matters that come within the Attorney-General&#39;s administration. If <inline font-weight="bold">Senator Wright</inline> does not receive a reply within a time suitable to him, I trust that he will let me know. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>642</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CENSORSHIP</title>
+          <page.no>642</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>642</page.no>
+              <time.stamp />
+              <name.id>JZU</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ORMONDE, James</name>
+              <name role="display">Senator ORMONDE</name>
+            </talker>
+            <para>-  Was the Minister for Customs and Excise reported correctly when he was alleged to have said recently that the Government intended to remove the ban on the importation of certain types of licentious and blasphemous literature? The Minister is reported to have said that he would exercise his judgment as to whether a ban should be lifted. In what circumstances does the Minister consider that blasphemous literature should be allowed into Australia? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>643</page.no>
+              <time.stamp />
+              <name.id>KOW</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENTY, Norman</name>
+              <name role="display">Senator HENTY</name>
+            </talker>
+            <para>- <inline font-weight="bold">Senator Ormonde</inline> is referring to a statement that I made about two weeks ago regarding alterations to the regulations governing the importation of certain types of literature. My statement had nothing to do with the lifting of a ban on the importation of blasphemous literature. The position now is that a banned book may be imported if it is required for use as a text-book by a university. Previously, the regulations did not provide properly for such a course of action. There is no intention of freely admitting into this country blasphemous and other objectionable literature. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>643</page.no>
+              <time.stamp />
+              <name.id>1L5</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MURPHY, Lionel</name>
+              <name role="display">Senator MURPHY</name>
+            </talker>
+            <para>- I ask the Minister for Customs and Excise: Is it a fact that in November, 1960, after a lengthy trial in London by judge and jury, the book &#34;Lady Chatterley&#39;s Lover&#34; was adjudged to be not obscene? Has the book since been sold freely throughout the United Kingdom without any calamity resulting to the British people? Is the importation of the book into Australia still prohibited notwithstanding the recommendation of the Australian Literature Censorship Board that the ban be lifted? Is it not a fact that the Minister has banned as obscene many other books that are considered not obscene in all but the most intolerant countries? When will the Minister abandon this extreme thought-control procedure that is making Australia the laughing stock of the civilized world? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>643</page.no>
+                <time.stamp />
+                <name.id>KOW</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HENTY, Norman</name>
+                <name role="display">Senator HENTY</name>
+              </talker>
+              <para>- The honorable senator is new to the Senate. Apparently he has not followed the steps taken over the last two or three years by the Government in relation to literature censorship. During the last three years the Government has adopted a broader approach to this matter. &#34;Lady Chatterley&#39;s Lover&#34; was released for sale in Great Britain after a ban of 30 years only because British law had first been altered. Australian law is unchanged. We still apply the common law that formerly was applied in Great Britain, and which led to the imposition of a ban on this book - a ban that lasted for 30 years. Until about three years ago about 1,100 books were prohibited from entering Australia. The Literature Censorship Board has reduced that number to about 150. So on that aspect the honorable senator is misinformed. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>643</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>AIRPORT AMENITIES</title>
+          <page.no>643</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>643</page.no>
+              <time.stamp />
+              <name.id>K7Y</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">TANGNEY, Dorothy</name>
+              <name role="display">Senator TANGNEY</name>
+            </talker>
+            <para>- I ask a question of the Minister for Civil Aviation. The Department of Civil Aviation has spent hundreds of thousands of pounds on the erection of modern passenger terminals at major airports, but is the Minister aware that no provision has been made in these ultramodern buildings, apart from the usual toilet facilities, for a rest room for women passengers? As passengers often are forced to wait hours for &#39;plane connexions, women who are ill or elderly would appreciate the privacy of a suitable rest room. If the Minister agrees to provide such rest rooms, will he see that they are furnished with comfortable lounges and chairs of a type less modern than those provided in the main lounges? In other words, will he give consideration to maternity rather than to modernity? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>643</page.no>
+              <time.stamp />
+              <name.id>JZY</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PALTRIDGE, Shane</name>
+              <name role="display">Senator PALTRIDGE</name>
+            </talker>
+            <para>-  I will consider the matters raised by the honorable senator. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>643</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TELEVISION</title>
+          <page.no>643</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>643</page.no>
+              <time.stamp />
+              <name.id>K1Y</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BISHOP, Reginald</name>
+              <name role="display">Senator BISHOP</name>
+            </talker>
+            <para>asked the Minister representing the Postmaster-General, upon notice - </para>
+          </talk.start>
+          <quote>
+            <para>Has the Government given consideration to the question of reserving one of the television broadcasting channels for educational purposes exclusively? , </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>643</page.no>
+              <time.stamp />
+              <name.id>KAF</name.id>
+              <electorate />
+              <party>CP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WADE, Harrie</name>
+              <name role="display">Senator WADE</name>
+            </talker>
+            <para>-  The PostmasterGeneral has now provided the following answer: - </para>
+          </talk.start>
+          <quote>
+            <para>The Australian Broadcasting Control Board which is the authority responsible for the planning of television services, has given a great deal of consideration to the question of educational television, and has made a preliminary report to the Postmaster-General on the matter. I am informed that the board will shortly consult educational bodies on the question and will then submit  a  further report to the Postmaster-General. </para>
+            <para>The great possibilities of television as an educational medium are&#39; keenly appreciated by both the </para>
+            <para>Minister and the board and the honorable senator may be assured that the matter will be fully investigated. The question of the reservation of channels for educational purposes is only one of the matters to be considered. Generally speaking, the view is taken that at present it is not necessary to take any action to reserve channels, in the strict sense, as channels are currently available. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>644</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>NORTHERN TERRITORY</title>
+          <page.no>644</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>644</page.no>
+              <time.stamp />
+              <name.id>K7Y</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">TANGNEY, Dorothy</name>
+              <name role="display">Senator TANGNEY</name>
+            </talker>
+            <para>asked the Minister representing the Attorney-General, upon notice - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What is the position of women as jurors in the Northern Territory? </para>
+            </item>
+            <item label="2.">
+              <para>Has the ban against the service of women jurors yet been lifted by the Legislative Council; if so, will the Minister ensure that the names of women willing to serve as members of juries are included on all jury lists prepared from time to time? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>644</page.no>
+              <time.stamp />
+              <name.id>KH5</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GORTON, John</name>
+              <name role="display">Senator GORTON</name>
+            </talker>
+            <para>- The AttorneyGeneral has supplied the following answer: - </para>
+          </talk.start>
+          <quote>
+            <para>A bill for a new Juries Ordinance for the Northern Territory was passed by the Legislative Council of the Territory on 21st August, 1962. The bill is awaiting assent by the Administrator or reservation for the Governor-General&#39;s consideration, as the Administrator may decide. Under the bill as passed, women who apply to serve as jurors will be included on the jury list and will be, in all respects, equally eligible and liable with men to serve on juries. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>644</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>POSTAL DEPARTMENT</title>
+          <page.no>644</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>644</page.no>
+              <time.stamp />
+              <name.id>K6F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAVANAGH, James</name>
+              <name role="display">Senator CAVANAGH</name>
+            </talker>
+            <para>asked the Minister representing the Postmaster-General, upon notice - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Does the volume of business of non-official post offices at Flinders Park, Rosewater, Clovelly Park, Seaton Park and Windsor Gardens, al! of which are suburbs of Adelaide, justify giving these post offices official status? 2: Has the Minister approved of official status being given to these post offices? </para>
+            </item>
+            <item label="3.">
+              <para>Would the establishment of official post offices at these areas give better service to the public and promotion to employees? </para>
+            </item>
+            <item label="4.">
+              <para>fs any delay in giving official status due to absence of suitable buildings; if so, has the department any proposals for building or obtaining suitable buildings in the near future? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>644</page.no>
+              <time.stamp />
+              <name.id>KAF</name.id>
+              <electorate />
+              <party>CP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WADE, Harrie</name>
+              <name role="display">Senator WADE</name>
+            </talker>
+            <para>-  The PostmasterGeneral has supplied the following answers: - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. </para>
+            </item>
+            <item label="2.">
+              <para>The conversion to official status of the existing non-official offices at the centres concerned has been approved by the department, subject to the practicability of securing suitable accommodation for the purpose. </para>
+            </item>
+            <item label="3.">
+              <para>All facilities normally provided at an official post office are available under the existing arrangements. However, local development in each instance has now reached the stage which would warrant the provision of an. officially staffed office. The introduction of official conditions would, of course; provide additional avenues of promotion for departmental staff. </para>
+            </item>
+            <item label="4.">
+              <para>Yes. The resources available to the department for new buildings must necessarily be allocated to works of the highest priority order and it is not practicable, in the circumstances, to arrange for the erection of new post offices at the centres in question at the present juncture. Unfortunately, as an alternative, it has not yet been possible to secure suitable leased premises, but efforts in that direction are being continued. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>TARIFF BOARD</title>
+        <page.no>644</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Annual Report</title>
+          <page.no>644</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>644</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate>New South WalesVicePresident of the Executive Council and Minister for National Development</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- In accordance with the provisions of section 18 of the Tariff Board Act 1921-1962, I lay on the table of the Senate the following paper: - </para>
+          </talk.start>
+          <quote>
+            <para>Tariff Board Act - Annual Report of the Tariff Board, for year 1961-62, together with a summary of recommendations. </para>
+          </quote>
+          <para class="block">The report is accompanied by an annexure which summarizes the recommendations made by the board and shows the action taken in respect of each of them. It is not proposed to print the annexure. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>644</page.no>
+              <time.stamp />
+              <name.id>KTN</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role>Leader of the Opposition</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCKENNA, Nicholas</name>
+              <name role="display">Senator McKENNA</name>
+            </talker>
+            <para>. -  I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the paper be printed. </para>
+          </quote>
+          <para class="block">I ask for leave to make my remarks at a later stage. </para>
+          <para>Leave granted; debate adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>644</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>AIRCRAFT ACCIDENT IN BOTANY BAY</title>
+          <page.no>644</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>644</page.no>
+              <time.stamp />
+              <name.id>JZY</name.id>
+              <electorate>Western Australia</electorate>
+              <party>LP</party>
+              <role>Minister for Civil Aviation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PALTRIDGE, Shane</name>
+              <name role="display">Senator PALTRIDGE</name>
+            </talker>
+            <para>. - For  the information of honorable senators I lay on the table of the Senate the following paper: - </para>
+          </talk.start>
+          <quote>
+            <para>Report of Chairman of Board of Accident Inquiry on accident which occurred on 30th November, 1961, near Sydney, New South Wales, to Viscount VH-TVC, operated by Australian National Airways Proprietary Limited. </para>
+          </quote>
+          <para class="block">With the concurrence of honorable senators I propose to make a short statement. </para>
+          <para>In submitting to the Senate the report of the board appointed by me to inquire into the accident to Viscount aircraft VH-TVC at Sydney on 30th November, 1961, 1 should like to say that I have already written to <inline font-weight="bold">Mr. Justice</inline> Spicer expressing my appreciation and that of the Government for the fine public service he and his assessors performed in carrying out such a thorough and painstaking examination into the circumstances of this accident. I would now like to add the appreciation of this Parliament, which I feel has always maintained a close and critical interest in all matters related to air safety. </para>
+          <para>I think it is generally accepted that Australian civil aviation has one of the best safety records, if not the best, in the world. Because accidents such as the one that occurred to the Ansett-A.N.A. airliner VH-TVC. involving as it did the deaths of fifteen people, are rare, considerable public and industry interest is focused on the results of inquiries into such accidents and on the recommendations made to prevent their recurrence. </para>
+          <para>The Senate will know that as soon as an accident occurs an expert investigation panel begins an official inquiry. Whenever an airline aircraft is involved, the panel includes appropriate technical and operational experts from the airline industry and is assisted also by observers nominated by the Australian Federation of Air Pilots. When this panel has submitted its report, the Board of Accident Inquiry appointed by me begins a public hearing, assisted by counsel representing all the interested parties. The board&#39;s duty is to determine the cause of the accident, and, if it thinks fit, to make observations and recommendations &#34; with a view to the preservation of life and the avoidance of future accidents &#34;. </para>
+          <para>The Board of Inquiry into the Viscount accident has confirmed the conclusions reached earlier by the Accident Investigation Panel - that this accident resulted from the in-flight failure of the starboard wing. This wing failure was due to the pilot losing control df the aircraft, and during the subsequent rapid descent the pilot&#39;s attempted recovery action imposed a manoeuvre load on the aircraft which, together with its speed and the turbulence it encountered, produced forces greater than the aircraft&#39;s wing structure was designed to bear. The board was unable to make any positive finding as to why the pilot lost control but says this was &#34; most probably due to weather conditions in which the aircraft encountered extreme turbulence &#34;. This confirms the opinion of the Accident Investigation Panel. </para>
+          <para>The board gave considerable attention to other factors which may have contributed to this loss of control, such as impairment of the pilot&#39;s vision due to a lightning strike, malfunction of the flight instruments, or some form of pilot error, but on all these matters said that there was no evidence to justify a finding. It is clear that the cause of the loss of control has not been positively determined. Some experts have expressed the view that some other unknown factor intervened coincidentally with adverse weather to overwhelm this particular aircraft and its crew. On the available evidence, however, such a theory must be regarded as purely conjectural. </para>
+          <para>Although the board was unable to determine with any more than a degree of probability the primary cause of the accident, it did make four positive recommendations. These are, first, that the functions of the approach controller in relation to hazardous conditions likely to be encountered by an aircraft in the vicinity of the Sydney Airport required more precise definition. In particular when thunderstorm activity is present at or in the vicinity of the airport he should be responsible for determining whether the departure path designated for an aircraft is not such as to lead the aircraft into regions where severe turbulence may be encountered. </para>
+          <para>The second recommendation was that when thunderstorm activity is present the approach controller should be provided with the best current weather information pertinent to the assessment of the changing weather pattern. The third recommendation was that ground weather radar would greatly facilitate the provision of pertinent data. Such a facility should be capable of effectively scanning the region above the airport and its vicinity. With this in view the board recommended that . any such facility used should be situated at such a distance from the airport as would ensure its effectiveness in relation to that region, and in conditions of thunderstorm activity, constant contact between such radar and the tower should be maintained. Finally the board suggested that its recommendations might have relevance to other Australian airports. </para>
+          <para>Recommendations by successive boards of accident inquiry have had an important impact on the development of our flying safety systems and it is important that the most careful consideration be given to the observations and recommendations of such a report as we now have before the Senate. My function as Minister for Civil Aviation is to see that any lessons which may be learned from the accident and the board&#39;s report are clearly understood and that action is taken by all concerned to do what they can to prevent the recurrence of a similar type of accident. </para>
+          <para>With this clear objective in mind 1 initiated a series of conferences which the Director-General of Civil Aviation has in recent weeks conducted with representatives of every Australian airline, with representatives of the Federation of Air Pilots, with representatives of the Civil Air Operations Officers Association of Australia, with operations specialists of the department from all States of the Commonwealth, with the Director of the Commonwealth Bureau of Meteorology, and, during recent overseas visits, with the heads of civil aviation organizations in the United States and the United Kingdom. </para>
+          <para>I should like to make it clear at this point that the Director-General has not been inhibited in any of these discussions by the thought of taking any action which might result in the evolution of a system of control different from that existing elsewhere. My department has long demonstrated its ability to provide leadership in matters relating to air safety and, as a result of this philosophy, already has a traffic control system which accepts far greater responsibilities in the safety field than any other system in the world. If, however, it were the consensus of informed aviation opinion that it was necessary and desirable for safety reasons that additional responsibilities be accepted by air traffic control or any other section of the department, then there would be no question of refusing such responsibility simply because this did not conform with practices adopted elsewhere. </para>
+          <para>I should at this point, <inline font-weight="bold">Mr. President,</inline> say that I accept the board&#39;s recommendations dealing with weather information, ground radar, and the extension of such facilities to other airports. I have purposely left the board&#39;s initial recommendation until now because part of it has prompted considerable discussion and thought, not only in the aviation industry but also elsewhere. <inline font-weight="bold">Mr. Justice</inline> Spicer&#39;s recommendation reads - </para>
+          <quote>
+            <para>The functions of the Approach Controller in relation to hazardous conditions likely to be encountered by an aircraft in the vicinity of the Sydney Airport require, I think, more precise definition. In particular when thunderstorm activity is present at or in the vicinity of the airport he should be responsible for determining whether a departure path designated for an aircraft is not such as to lead the aircraft into regions where severe turbulence may be encountered. </para>
+          </quote>
+          <para class="block">In the first sentence of this recommendation <inline font-weight="bold">Mr. Justice</inline> Spicer has suggested that the activity of the aerodrome/ approach controller in relation to hazardous weather conditions may need more precise definition. This refers to the fact that although the senior operations officer clearly had the authority to close an airport because of hazardous weather conditions, existing instructions may not have made it abundantly clear that his subordinate, the aerodrome approach controller, also had this authority. I do not think in practice there has been any lack of understanding by air traffic controllers on this point but covering instructions have been suitably amended to meet the recommendation made by the board. </para>
+          <para>It is the second part of this recommendation which reads that the approach controller shall be responsible &#34; for determining whether a departure path designated for an aircraft is not such as to lead the aircraft into regions where severe turbulence may be encountered &#34; that has prompted profound examination and study in the aviation industry. In making this recommendation, it seems that the board believed that ground radar systems would enable an air traffic controller to define with precision all the areas in which severe turbulence would be encountered within the vicinity of the airport. Unfortunately there is no radar or other system presently available or in prospect which will detect all turbulence. Moreover there is no equipment in existence which will measure exactly the degree of  turbulence likely to be encountered in any thunderstorm area showing on. a radar screen. </para>
+          <para>It is the unanimous opinion of the industry that such a responsibility could not reasonably be placed on air traffic control staff or alternatively on the airline operators or the pilots. Indeed the representatives of the airlines - Qantas, Trans-Australia Airlines, Ansett-A.N.A., East-West Airlines, MacRobertson Miller Airlines, Mandated Airlines, Airlines of New South Wales, Airlines of South Australia and Queensland Airlines - raised a further fundamental objection to this particular part of the board&#39;s recommendation. They considered that its adoption would result &#34; in the shifting of the responsibility for a particular flight path from the pilot-in-command to a ground based controller &#34;. They considered this &#34; contrary to the operational philosophy under which air transport throughout the world has operated since its inception &#34;. They said further that they &#34; could not see how this change would improve the safety of air operations and would regard such a move as a retrograde step.&#34; They felt that the current programme of additional airborne and ground radars would &#34; adequately cover &#34; the particular operational problems to which the board&#39;s recommendation was directed. As a result they are opposed to any change in the respective responsibilities of pilots and ground based controllers. </para>
+          <para>Representatives of the Civil Air Operations Officers Association of Australia agreed that because of the unavailability of suitable equipment it would be impractical for an approach controller to guarantee absolutely that a particular flight path would not lead an aircraft into areas of extreme turbulence. However, as officers of the Commonwealth Public Service, they would do their best to discharge any responsibility the Commonwealth, in its wisdom, decided to place upon them. </para>
+          <para>The Australian Federation of Air Pilots believed that the recommendation of the board, if applied in practical terms, meant that traffic clearances for departing aircraft should be arranged by air traffic control so as to avoid air space where, on the basis of observation, reports, and other available information, severe or extreme turbulence was believed to exist and, as appropriate, air traffic control should continue to exercise authority to close an airport, runway or . air space.. The federation also believed that in accordance with regulation  219 (3)  pilots in command of departing aircraft should similarly be responsible, on the basis of observation, reports or information available to them, for taking such action as they consider appropriate to avoid air space in which they believe extreme turbulence may exist. For this purpose they may elect not to accept a traffic clearance, or request an alternative clearance. </para>
+          <para>As the consensus of expert technical opinion was that it was impossible with any radar equipment now available, or likely to be available, to detect every area of extreme turbulence, my department and the Bureau of Meteorology have therefore directed their efforts towards providing, insofar as is possible, more precise weather information - particularly in relation to areas of extreme turbulence. All of these endeavours, of necessity, must be of an experimental nature. </para>
+          <para>Before I outline to the Senate the steps we propose to take, it should be appreciated that Australia is the only country in the world where the air traffic control service provided by the Government accepts any direct responsibility for safety matters other than those related to the separation of aircraft. Our air traffic control service provides both the normal &#34; Collision prevention&#34; service and also an operational control service which accepts responsibility for ensuring that flight plans submitted by pilots make adequate provision for the carriage of fuel and, in particular, for the provision of fuel for alternate aerodromes when weather conditions at destination aerodromes are forecast to be below prescribed limits. In addition, it closes aerodromes to all operations when cloud ceiling or runway visibility is below prescribed minima, it diverts aircraft as necessary from aerodromes which are closed to operations and it keeps a continuous check on the in-flight navigation of all aircraft. It also has the authority to close aerodromes or air routes to all aircraft or to aircraft of particular types when it considers that conditions- are hazardous for. aircraft operations. The exercise of this  authority is greatly influenced by in-flight reports from pilots as to the weather conditions being experienced and can cover the occurrence of such phenomena as severe icing or extremely turbulent weather. </para>
+          <para>Our air traffic controllers have one of the most direct and comprehensive responsibilities for the safety of human life and property found anywhere in the structure of government. . They certainly have a much greater responsibility than that of an air traffic controller in any other part of the world and at the same time an outstanding record of safe and efficient operation. I have confidence in their ability to maintain this standard. </para>
+          <para>Coming now to the additional measures we propose to take, efforts to better detect turbulent areas will initially be made at Sydney and Brisbane. A special meteorological watch will be established by the Bureau of Meteorology at Sydney Airport during periods of expected development and actual occurrence of severe and extreme turbulence. This watch will initially cover an area of 30 miles around Sydney Airport and will later be extended to 50 miles. It will be provided by two specialist officers of the Bureau of Meteorology. The first of these will bc a forecasting officer who will, on the basis of his professional analysis of all available meteorological data, including that from the weather radar when established on the Commonwealth Offices in Sydney, give detailed advice on the location, intensity and development of likely areas of severe and extreme turbulence in the Sydney approach control area. The second officer will be a meteorological radar observer who will be located alongside the Department of Civil Aviation radar controller in the Sydney control tower. He will observe turbulence conditions on the control tower radar and receive reports from aircraft of turbulent weather. These observations will be passed to the forecasting officer, who will then provide a forecast of expected turbulence areas. Up to the minute weather data will be conveyed by television techniques to a screen located within the direct view of the Department of Civil Aviation radar and approach controllers. A similar service using voice communications instead of a television display will be established in Brisbane. </para>
+          <para>These services will be established as quickly as staff and equipment can be provided and are expected to be in operation within a few months. If successful, it is proposed to extend the service to other centres where air traffic control and meteorological radar are available. These additional centres include Melbourne, Adelaide, Perth, Darwin, Hobart, Cairns, Townsville and Mackay. Later, consideration will be given to places such as Cocos Island, Port Moresby and Lae, where air traffic control exists and meteorological radar is planned. Other centres such as Canberra, Tamworth, Rockhampton and Coolangatta, where air traffic control exists but no radar installation is planned, will also receive consideration. </para>
+          <para>Additional costs over and above those already approved for radar installations, which already amount to more than &#163;2,000,000, are estimated to be &#163;400,000. Additionally the annual cost of providing this service is of the order of &#163;100,000. If the service proves that it can make a useful contribution to both pilot and controller knowledge of weather conditions,, then such expenditure would be justified. </para>
+          <para>Controllers will use&#34; this service to the best of their ability to keep aircraft out of severe turbulence and, if necessary, close air space to operations if they consider the forecast conditions hazardous. Pilots will retain the final responsibility for the safety of their aircraft. </para>
+          <para>In the final analysis, <inline font-weight="bold">Mr. President,</inline> I think it is fair to say that the board in this recommendation has recommended an ideal which in the present state of aviation, meteorology, and electronics, is hardly possible of full achievement. However, I believe that the positive steps that have been taken and which I have already outlined go as far as is humanly and technically possible to achieve the board&#39;s aims. I should emphasize here that every section of the aviation industry that has taken part in the discussions initiated by the DirectorGeneral has done so with sincerity and an obvious eagerness to take every practical step that is humanly possible to advance the cause of safety in the air. </para>
+          <para>We should not lose sight of the positive findings reached by the board on a number of important safety aspects. The board found that the aircraft was operating under current certificates of airworthiness and registration, and was loaded within permissible limits; that the pilot in command and first officer were properly licensed, trained and competent officers who were in good health at the time of the accident; that all airways and airport facilities provided by the department for this flight were functioning correctly; and that there were no material, structural or systems defects in the aircraft or its engines prior to the accident. These are vital safety areas subject to the continuous and detailed regulatory supervision of my department, and it is important and reassuring to the public that the board, after the most searching and detailed examination, reached these positive conclusions. I think that these findings, together with the steps now being taken by the industry, should give re-assurance to the travelling public. </para>
+          <para>I must express my appreciation of the excellent accident report produced by the department&#39;s Division of Air Safety Investigation and the magnificent work performed immediately after the tragedy by the Royal </para>
+          <para class="block">Australian Navy, the New South Wales police, the Volunteer Coast Patrol, and many individuals and scientific and technical organizations who helped make possible the exhaustive analysis work that followed this accident. I thank the Senate for its attention to what has been a long, but in my view important, statement. </para>
+          <para>
+            <inline font-weight="bold">Senator Dame</inline>ANNABELLE RANKIN (Queensland) &#91;4.14&#93;.  -  I move - </para>
+          <quote>
+            <para>That the paper be printed. </para>
+          </quote>
+          <para>I ask for leave to continue my remarks at a later stage. </para>
+          <para>Leave granted; debate adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ORDER OF THE DAY</title>
+        <page.no>649</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Discharge of Motion</title>
+          <page.no>649</page.no>
+        </subdebateinfo>
+        <para>Motion (by <inline font-weight="bold">Senator McKenna)</inline> agreed to - </para>
+        <quote>
+          <para>That Order of the Day No. 5, General Business, be discharged from the notice-paper. </para>
+        </quote>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SPECIAL ADJOURNMENT</title>
+        <page.no>649</page.no>
+        <type>special adjournment</type>
+      </debateinfo>
+      <para class="block">Motion (by <inline font-weight="bold">Senator Spooner)</inline> agreed to - </para>
+      <quote>
+        <para>That the Senate, at its rising, adjourn till Tuesday next at 3 p.m. </para>
+      </quote>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>649</page.no>
+        <time.stamp>16:15:00</time.stamp>
+      </adjournmentinfo>
+      <para class="block">Senate adjourned at 4.15 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

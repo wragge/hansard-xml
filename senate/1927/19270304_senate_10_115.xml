@@ -1,251 +1,1342 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1927-03-04%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1927-03-04%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1927-03-04%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1927-03-04%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1927-03-04%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1927-03-04%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1927-03-04%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1927-03-04/19270304_senate_10_115.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1927-03-04</date>
+    <parliament.no>10</parliament.no>
+    <session.no>1</session.no>
+    <period.no>2</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>110</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1927-03-04</day.start>
+      <para>The DeputyPresident <inline font-weight="bold">(Senator Plain)</inline> took the chair at 11 a.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>PAPER</title>
+        <page.no>110</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>The following paper was presented :  - </para>
+      <quote>
+        <para>Public Service Act - Regulations amendedStatutoryRule 1927, No. 22. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>HOUSE COMMITTEE</title>
+        <page.no>110</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Motions (by <inline font-weight="bold">Senator Pearce)</inline><inline font-style="italic">(by leave)</inline> agreed to - </para>
+      <quote>
+        <para>That <inline font-weight="bold">Senator McLachlan</inline> be discharged from attendance as a member of the House Committee. </para>
+        <para>That <inline font-weight="bold">Senator Sampson</inline> be appointed a member of the House Committee in place of <inline font-weight="bold">Senator McLachlan,</inline> discharged from attendance. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>110</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TASMANIAN MAIL CONTRACT</title>
+          <page.no>110</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>110</page.no>
+              <time.stamp />
+              <name.id>JZR</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">OGDEN, James</name>
+              <name role="display">Senator OGDEN</name>
+            </talker>
+            <para>asked the Minister representing the Postmaster-General, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>When does the mail subsidy contract with the shipping companies for the carriageof Tasmanian mails expire? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>110</page.no>
+              <time.stamp />
+              <name.id>JRW</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party>NAT</party>
+              <role>Honorary Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRAWFORD, Thomas</name>
+              <name role="display">Senator CRAWFORD</name>
+            </talker>
+            <para>- The contract for the carriage of Tasmanian mails is terminable on twelve months&#39; notice by either party to the agreement. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>111</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TRADE AGREEMENT WITH CANADA</title>
+          <page.no>111</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>111</page.no>
+              <time.stamp />
+              <name.id>JZR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">OGDEN, James</name>
+              <name role="display">Senator OGDEN</name>
+            </talker>
+            <para>asked the Minister representing the Prime Minister, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>When does the trade agreement between the Commonwealth and Canada expire? </para>
+            </item>
+            <item label="2.">
+              <para>Whether, in view of the reported statement of thePrime Minister that Canadahad &#34; the big end of the stick,&#34; Parliament will be given an opportunity for reconsideration of the agreement at the earliest possible date? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>111</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator PEARCE</name>
+            </talker>
+            <para>- The answers to the honorable senator&#39;s questions are as follow :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>The agreement is a continuing agreement, which can be terminated on six months&#39; notice on either side. </para>
+            </item>
+            <item label="2.">
+              <para>It is not proposed to give any special opportunity during this sitting in Melbourne, but honorable senators will have on the Supply Bill full opportunity to express their views upon this matter. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>111</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>OVERSEAS SALES OF AUSTRALIAN PEACHES</title>
+          <page.no>111</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>111</page.no>
+              <time.stamp />
+              <name.id>JZW</name.id>
+              <electorate>through Senator Foll</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ANDREW, David</name>
+              <name role="display">Senator ANDREW</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Markets and Migration, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Has he seen a statement reported to have been made by <inline font-weight="bold">Major Lynn</inline> when speaking at a  luncheon in the House of Commons to the effect that turnips treated by syrup were sold as Australian peaches? </para>
+            </item>
+            <item label="2.">
+              <para>If so, will he cause inquiries to be made; and should the statement be true, will he cause the necessary action to be taken to prevent this imposition? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>111</page.no>
+              <time.stamp />
+              <name.id>JRW</name.id>
+              <electorate />
+              <party>NAT</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRAWFORD, Thomas</name>
+              <name role="display">Senator CRAWFORD</name>
+            </talker>
+            <para>- The answers to the honorable senator&#39;s questions are as follow: - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. </para>
+            </item>
+            <item label="2.">
+              <para>Inquiries will be made in Great Britain in regard to the alleged practice. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>111</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>POSTAL DEPARTMENT</title>
+          <page.no>111</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>111</page.no>
+              <time.stamp />
+              <name.id>KN7</name.id>
+              <electorate>through Senator Toll</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GUTHRIE, James</name>
+              <name role="display">Senator GUTHRIE</name>
+            </talker>
+            <para>asked the Minister representing the Postmaster-General, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Whether it is a fact that lead pencils, and other materials, the product of foreign countries are being used in the Post and Telegraph Offices and elsewhere in the Department? </para>
+            </item>
+            <item label="2.">
+              <para>If so, will instructions be immediately issued that preference be given to materials manufactured within the Empire? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>111</page.no>
+              <time.stamp />
+              <name.id>JRW</name.id>
+              <electorate />
+              <party>NAT</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRAWFORD, Thomas</name>
+              <name role="display">Senator CRAWFORD</name>
+            </talker>
+            <para>- The PostmasterGeneral supplies the following answer to the honorable senator&#39;s questions :  -  1 and 2. Very substantial preference is given to British Empire products, and it is only in exceptional cases that foreign material is used. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>COMMONWEALTH INSCRIBED STOCK BILL</title>
+        <page.no>111</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>111</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>NAT</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator PEARCE</name>
+          </talker>
+          <para>. - I move- </para>
+        </talk.start>
+        <quote>
+          <para>That the bill be now read a second time. </para>
+        </quote>
+        <para class="block">This is a short machinery bill designed principally to facilitate transactions and clear up certain matters in connexion with the inscription of stock. The first amendment proposed to be made relates to friendly societies, and lays down the procedure to be followed in connexion with the inscription of stock in the names of friendly societies or their tranches, and transactions in such stock. Under the Inscribed Stock Act, stock can only bo registered in the name of a &#34;person,&#34; and under the Acts Interpretation Act &#34; person &#34; includes a body politic or corporate, but does not include a friendly society unless it is registered as a corporation under a State act. Very few societies are so registered. Friendly societies are thus in a different position from companies, whose officers are authorized by law to act in their names, and have common seals and prescribed methods of affixing those seals. Under the law as it at present stands, stock purchased by a friendly society cannot be inscribed in the name of the society, but can only be registered in the names of individuals without any reference to the society. This is obviously undesirable, and creates a considerable amount of risk to the societies themselves. It is desired to encourage friendly societies to invest their funds in Commonwealth Government Inscribed Stock, and provision is therefore being made in this amendment for stock to be inscribed in the name of any friendly society, or branch of a society, which the Registrar of Inscribed Stock is satisfied is registered under the laws of any State. Under the amendment, an application for inscription of stock by a society must be signed by two or more persons appointed by the society or branch, and transactions in relation to such stock must be authorized by the persons appointed in that behalf by the society, or branch of the society. The second amendment - clause 3 - dealswith the transmission of amounts of stock of &#163;100 or under, held by deceased loan subscribers, who have no other estates, and whose relatives desire to avoid the expense of taking out probate of the will or letters of administration. A similar principle is already to be found in the Commonwealth Bank Act, in regard to savings bank moneys held on deposit, and this amendment would give a certain amount of relief in the case of small subscribers to our loans. The third amendment is designed to clear up a matter about which, at present, there is some doubt, namely, the right of any State to impose stamp duty on documents that are used in connexion with stock and bond transactions on the market. Section 52a of the present act already provides that stock certificates and certain other documents specified in that section shall not be liable to stamp duty, but the section hardly goes far enough, and it is proposed to provide that all documents relating to the purchase or sale of Commonwealth stock or bonds shall also be exempt from State stamp duty. The last amendment repeals section 57 of the act, which requires a certain return to be laid before Parliament. Much of the information contained in that return is, however, supplied in the annual finance statement presented to Parliament, while under the National Deht Sinking Fund Act the National Debt Commission is required to report its transactions annually to Parliament. As the information presented to Parliament is thus duplicated it is proposed to repeal section 57. That is all the amendments the bill contemplates. Honorable senators will see that they are all of a minor character, which should commend them to the Senate. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>112</page.no>
+            <time.stamp />
+            <name.id>KMP</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GRANT, John</name>
+            <name role="display">Senator GRANT</name>
+          </talker>
+          <para>. - It appears to me that the amendments proposed by this bill are of a minor character, which have been found necessary by those who are administering the act, and I do not propose to offer any objection to the passage of the measure. At the same time, I do not think  I  should allow the opportunity to pass without expressing my satisfaction at the proposal to repeal section 52 of the principal act. If there is one form of taxation which is more irritating than any other it is the imposition of stamp duties, especially those imposed by the States.It is most extraordinary that in a civilized community we should be put not only to expense, but also to delay and annoyance in many directions, by the necessity for observing the requirements of stamp duties acts. The imposition of these duties may be held to be necessary in some cases, but personally I cannot recall any instance where the necessity should arise. I look upon these duties as a kind of cross between excise and Customs duties, both of which are exexceedingly objectionable. They are a hindrance to the transaction of business whether they are applied to bankcheques or bonds or the transfer of stock. The idea of insisting upon stamping the transfer of certificates or coupons is absurd, and the repeal of that provision in the Commonwealth Inscribed Stock Act is a step in the right direction. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>112</page.no>
+              <time.stamp />
+              <name.id>KLS</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIVENS, Thomas</name>
+              <name role="display">Senator Givens</name>
+            </talker>
+            <para>-  Can the honorable senator say why one section of the community should be exempt from the payment of the stamp duties while the charge is imposed on all others? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>112</page.no>
+              <time.stamp />
+              <name.id>KMP</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GRANT, John</name>
+              <name role="display">Senator GRANT</name>
+            </talker>
+            <para>- I am entirely opposed to all forms of stamp duty, and I consider that theproposal now before us is a step in the right direction. If at any time it is proposed to repeal all stamp duties I shall be very pleased to assist in their removal. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>112</page.no>
+              <time.stamp />
+              <name.id>KLS</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIVENS, Thomas</name>
+              <name role="display">Senator Givens</name>
+            </talker>
+            <para>-  I have to pay a stamp duty of1d. every time I write a cheque, even if it is only for15s., whereas this bill proposes to exempt bond-holders from the payment of stamp duties. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>112</page.no>
+              <time.stamp />
+              <name.id>KMP</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GRANT, John</name>
+              <name role="display">Senator GRANT</name>
+            </talker>
+            <para>- The charge of 3d. for the drawing of a cheque is an imposition. Stamp duties on the transfer of property are also an imposition. If a worker in New South Wales, in an effort to escape from his landlord, decides to purchase a block of land, he is jumped upon by the Stamp Duties Department, and called uponto pay stamp duty at the rate of 15s. per cent. on the value of the land even before he has commenced to pay for it. If he buys a house already built, he is called upon to pay 15s. per cent., not only on the value of the land, but also on the total value of the property. It is  a  foolish notion that stamp duties hit the wealthy and assist the poor. As a matter of fact, in actual practice they are a tax on every man in the community, no matter what position he occupies. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>113</page.no>
+            <time.stamp />
+            <name.id>JXZ</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNCAN, Walter</name>
+            <name role="display">Senator DUNCAN</name>
+          </talker>
+          <para>. - I agree with the bill so far as it goes, but it seems to me that its benefits might be extended. The intention is to remove certain disabilities under which friendly societies find themselves to-day. There are, however, other societies akin to friendly societies, to which the bill does not apply. I refer to trade unions, and if we could make provision to enable them to invest their surplus funds in Commonwealth inscribed stock it would be to their advantage. Some of the unions have large surplus funds, and we now have an opportunity to enable them to invest those funds wisely. I hope that an amendment along the lines I have indicated will be moved in committee, and will be accepted by the Government. </para>
+        </talk.start>
+        <para>Question resolved in the affirmative. </para>
+        <para>Bill read a second time. </para>
+        <para class="italic">
+          <inline font-style="italic">In committee:</inline>
+        </para>
+        <para>Clause 1 agreed to. </para>
+        <para>Clause 2 (Inscription in name of friendly society). </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>113</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>NAT</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator PEARCE</name>
+          </talker>
+          <para>. - I shall have inquiry made into the matter referred to by <inline font-weight="bold">Senator Duncan.</inline> Speaking offhand it occurs to me  that  there are two classes of trade unions. The Amalgamated Society of Engineers and the Amalgamated Society of Carpenters and Joiners are not only trade unions, but also bodies in the nature of friendly societies, because they pay sick benefits. I should say they would be registered both as trade unions and friendly societies. There is another class of trade union, such as the Australian Workers Union, which cannot be registered under the Friendly Societies Act. I agree that it is desirable to encourage the unions to invest their funds in Commonwealth securities, and that safeguards should be provided for the proper protection of those funds. The point raised is an interesting one, and in order to have it looked into before the committee proceeds further with the bill I ask that progress be reported. </para>
+        </talk.start>
+        <para>Progress reported. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>BANKRUPTCY BILL</title>
+        <page.no>113</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>113</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>113</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party>NAT</party>
+              <role>Honorary Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>. -  I move - </para>
+          </talk.start>
+          <quote>
+            <para class="block">That the bill be now read a second time. </para>
+          </quote>
+          <para class="block">It provides for a few amendments, mostly of a merely formal character, in the Bankruptcy Act  1924.  The principal act, as honorable senators will remember, was passed in  1924,  and constitutes a single uniform bankruptcy system for the whole of the Commonwealth to replace in each of the States the numerous Bankruptcy or Insolvency Acts. In passing that measure, Parliament gave effect to section  51  of the Constitution in respect of an important item of its legislative powers, i.e., paragraph xvii. of section  51  - &#34;Bankruptcy and Insolvency.&#34; In preparing the way for its commencement by proclamation, which will bo made as soon as the necessary arrangements now in progress have been completed, the measure has been submitted to a very severe criticism. Its provisions were considered by the AttorneysGeneral of the States, who met in conference with the then Commonwealth Attorney-General <inline font-weight="bold">(Sir Littleton Groom),</inline> and some few, but essential amendments were recommended to improve the machinery necessary for its administration, and to secure its complete application to the proposed changes. Further, a number of bankruptcy officers sat in conference in Melbourne for several days, and, in addition to dealing with various bankruptcy matters and the proposed regulations, which are of a very voluminous character, made some useful suggestions for the improvement of the act. The act contains  223  sections, and in the consolidation and adaptation of the English and States&#39; legislation, notwithstanding the close and exhaustive debate in this chamber, and in the other branch of the legislature, it is not surprising to find that there have been a few typographical errors, one or two instances of duplication, and one or two omissions of desirable provisions. The bill will remedy these defects, while it makes provision for giving legislative effect to some valuable suggestions made, as already referred to, at the conferences. The work preparatory to initiating a Commonwealth bankruptcy system for the whole of Australia is, as honorable senators will admit, a very considerable task. The framing and printing of the regulations, and the drawing up and printing of the necessary forms as required by the act to supersede over 2,000 State bankruptcy regulations and forms, has required time and care. The passing of the amendingbill will enable this work to be finalized. An Inspector-General in Bankruptcy, as required by the act, has been appointed, and the appointment made, will, I feel sure, commend itself to honorable senators. </para>
+          <para>Honorable Senators.  -  Hear, hear ! </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>114</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLACHLAN</name>
+              </talker>
+              <para>- The bill contains eighteen clauses. As the matters dealt with are all more or less technical, the explanations will be more appropriate at the committee stage. I can assure honorable senators now that the bill contains no alterations in principles as embodied in the main act, but provides more fully and effectively for carrying out what Parliament intended when it passed that act. I suggest to honorable senators that the discussion might be brief on the second reading, because the elucidation of the amendments proposed will come better at the committee stage. I commend the acceptance of the bill to the Senate. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>114</page.no>
+              <time.stamp />
+              <name.id>KMP</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GRANT, John</name>
+              <name role="display">Senator GRANT</name>
+            </talker>
+            <para>. -  I doubt whether any honorable senator can remember when the first bankruptcy bill came before this chamber.For many years it was a hardy annual, and there was great and I think very proper reluctance on the part of many honorable senators to address themselves to such a highly technical measure. The limited number of legal men in the Senate resulted in the bill being held over for a long time. Ultimately it was agreed to by both branches of the legislature, and although it has not yet been proclaimed an act, I believe it is in a fair way of becoming operative. No sooner, was the principal measure passed by both Houses than it was found necessary to amend it. Some hundreds of amendments were suggested almost immediately the bill had been passed, and these were duly incorporated. The work of consolidating the bankruptcy laws of the six States of the Commonwealth, and incorporating the most recent decisions of the British Courts was of great magnitude, and it is not surprising that a number of omissions and some slight defects have been discovered. I expect that as soon as an attempt is made to put the measure into operation a number of other defects necessitating further amendments will be discovered. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>114</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>-  We hope not. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>114</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- That hope cannot be realized. The bill is far too complicated. It involves too many interests, and in many respects will require amending from time to time. I do not object to that. As far as I am able to understand the amending measure - it is a bill that I do not profess to know very much about, but I have taken the trouble to make some inquiries in the right quarter - it is of a machinery character intended to make the act more workable. In the circumstances, it is advisable to agree to it, but I do not expect that even with these amendments the principal act will be perfect. I anticipate that, as soon as the InspectorGeneral gets to work, Parliament will be asked to make further alterations. In the meantime this modest little series of amendments should be agreed to so that we may see how the act will work. It is time that the Commonwealth realized that all the matters referred to it under section 39 of the Constitution received consideration. I regret very much that it has been laid down that the Commonwealth has no power to pass a uniform companies law, because, in my judgment, such a measure is urgently required. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>114</page.no>
+                <time.stamp />
+                <name.id>K8P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">THOMPSON, William</name>
+                <name role="display">Senator Thompson</name>
+              </talker>
+              <para>-  The Commonwealth Parliament would have been empowered to pass such a law if the referenda questions had been carried. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>114</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- I do not admit that for one moment. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>114</page.no>
+                <time.stamp />
+                <name.id>K8P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">THOMPSON, William</name>
+                <name role="display">Senator Thompson</name>
+              </talker>
+              <para>-  It is correct, absolutely. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>114</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- The mere fact that the honorable senator says it is correct is not necessarily conclusive. It may be correct. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>114</page.no>
+                <time.stamp />
+                <name.id>K8P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">THOMPSON, William</name>
+                <name role="display">Senator Thompson</name>
+              </talker>
+              <para>-  There is no doubt about it. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>114</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- At all events,I doubt it. In any case, that is one direc  tion in which I think this Parliament should have power to legislate. The Commonwealth should be authorized to deal with the company laws of the various States, and by amalgamating them take over complete control of all company legislation. The Commonwealth also should deal similarly with the marriage and divorce laws of the various States. It has this power, but for some unknown reason nothing has been done up to the present. Certainly the Commonwealth should make an excellent job of this  bankruptcy  law, because as I have already stated, Ave have had this subject under notice for so long that it is difficult for any one to say when -we started on the business. An Inspector-General has been appointed. We all have complete confidence in his ability to administer the law in such a way as to give it a very fair trial, and I feel sure that if he finds it inoperative in any respect, he will ask for the necessary amendments to be made. I support the second reading of the bill. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>115</page.no>
+              <time.stamp />
+              <name.id>K8P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">THOMPSON, William</name>
+              <name role="display">Senator THOMPSON</name>
+            </talker>
+            <para>. - Honorable senators will recall that when the principal bill was before the Senate, I took considerable interest in it, and endeavoured to have inserted a number of amendments which I thought were necessary and desirable. Some I succeeded in getting through, but others I. did not. In the interregnum I asked the Attorney-General&#39;s Department if consideration could not be given to some of those alterations which I had advocated, but which were not made. Apparently with the exception of one, they have not met with the approval of the department. I thought that section 6S could very well be extended to give power to a trustee to examine a debtor upon oath privately. I know there is a good deal of objection to that, and honorable senators opposite have stigmatized it as a star-chamber method. As a matter of fact, it is nothing of the kind. We have had it in operation in Queensland for many years, and it has worked most satisfactorily, and with advantage to the estates affected. However, as the Attorney-General is strongly averse to it, I shall not dwell upon it; but 1 should like to say, in passing, that our experience in Queensland has been that this power given to a trustee to examine a debtor privately has had very good results indeed. Presumably one reason why the Attorney-General is opposed to it is that the other States have not had experience of the principle in operation, and do not know of its benefits. Section 75 should be amended. It deals with estates that are being carried on for the benefit of the creditors, and in its present form prevents creditors from supplying the going concern with goods. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>115</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>- Not altogether. They can do so with the sanction of the court. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>115</page.no>
+                <time.stamp />
+                <name.id>K8P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">THOMPSON, William</name>
+                <name role="display">Senator THOMPSON</name>
+              </talker>
+              <para>- Why should it be necessary to apply to the court? To support my contention, I instance one estate of which my firm was the principal creditor. I  was  appointed one of a committee of inspection, and naturally, as one of the largest creditors I realized that it would not be good business to give orders from the going concern to rivals in business who did not stand to lose any money by it. That is the position under the act as it stands at present. It is absolutely wrong and improper from a business point of view. Then there is section 133, which deals with the remuneration payable to a trustee, and provides that it shall be based on the net amount realized. Let us take the stock of an insolvent debtor. Suppose a trustee is put in to sell off the stock, and it realizes &#163;1,000, less expenses of &#163;200. Is it fair that the trustee should be remunerated on the net return of &#163;800 instead of &#163;1,000? I advocate paying remuneration on the larger amount, although it is against the interests of the commercial community to which I belong, because we should have to pay a little more in commission. Then there is the matter of the small bankruptcies. In Queensland we usually leave the remuneration of the receiver to the creditors, but under the Commonwealth act the official receiver ha3 to deal with all small estates. If we could be sure that the official receiver would be a man of proved commercial experience, and not an official in a Government office, all would be well. We had recently in Queensland the case of the estate of a man who had died in a sanatorium. His assets were quite substantial, but the estate got  into the hands of the public trustee, who got sufficient funds out of the assets to pay the sanatorium fees, and was content to stop at that, with the result that the other creditors did not get a shilling. Had that estate been taken in hand properly and handled expeditiously, considerable dividends would have been paid to the other creditors. I hope, therefore, that in the administration of the Insolvency Act there will be a possibility of ensuring that the official receivers shall not be men in government offices, but men with sound commercial experience. Coming to Part XI., section 160, sub-sectionf, which deals with meetings of creditors, we consider that the chairmen of such gatherings have unusual powers, which might very well be modified. However, I believe that the Government wishes to see Part XI. tested out by actual experience with a view possibly to certain amendments being made in the light of experience, so I shall say no more under that heading. Section 175 provides that the trustees shall render an account of an estate within twelve months. We consider that a hardship. Our experience is that it takes much longer than twelve months to wind up an estate. The only subject, I think, on which the Attorney-General&#39;s Department met me, but not to the extent I would have liked, is that covered by section 184, which deals with the commission payable to a trustee when carrying on the business of an insolvent as a going concern for the benefit of all the creditors. Authority is given in the act to pay 1 per cent. on the turnover. That amount is altogether too small. Our experience in Queensland has been that 11/2 per cent. is a fair remuneration. Otherwise, I am quite satisfied with the section as it stands; butI suggest that the Minister in charge of the bill <inline font-weight="bold">(Senator McLachlan)</inline> should allow the percentage to be increased to11/4 per cent.  This  is 1/4 per cent.lower than what experience has shown to be a proper remuneration. I have no desire to interfere with the Government in getting its business through, because I am anxious that the act shall be proclaimed as early as possible. The mercantile community of Australia has been waiting for some time for the proclamation of the act, and I do not wish to take any action which will hamper Parliament and delay the proclamation. I propose to ask the Minister to meet me in respect of the commission on turnover of estates which are being carried on as going concerns, and then if the Ministry will give me an assurance that if, after an experience of twelve months or two years of the working of the act, it is found desirable to amend it, and possibly to include those other variations and improvements from my point of view, which have been mentioned, I shall be prepared to support the Government. </para>
+            </talk.start>
+          </continue>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time. </para>
+          <para class="italic">
+            <inline font-style="italic">In committee:</inline>
+          </para>
+          <para>Clauses 1 and 2 agreed to. </para>
+          <para>Clause 3 (District Registrars and Official Receivers). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>116</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party>NAT</party>
+              <role>Honorary Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>. -  I feel that a word of explanation is due to the committee in connexion with the amendment proposed in this clause. The official receivers contemplated by section 12 of the principal act will not be subject to the Commonwealth Public Service Act, and it is doubtful whether they will be accounting officers within the meaning of the Audit Act. The proposed amendment requires them to give security. They will be non-salaried official receivers, who will be in practically the same position as official assignees, who are required to give security. This amendment was proposed by the Bankruptcy Conference, held in 1925, and is being inserted to ensure the integrity of the official receiver appointed. </para>
+          </talk.start>
+          <para>Clause agreed to. </para>
+          <para>Clause 4 (Extent of Jurisdiction of Court). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>116</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party>NAT</party>
+              <role>Honorary Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>. - This clause purports to make provision for the enforcement of orders of the court. A doubt has been expressed by some Attorneys-General, as to whether there is sufficient power under the act to enforce the orders of the court, and the Government has therefore decided to include this amendment. </para>
+          </talk.start>
+          <para>Clause agreed to. </para>
+          <para>Clause 5 (Jurisdiction in Chambers). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>116</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party>NAT</party>
+              <role>Honorary Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>. - As section 21 of the principal act was passed by Parliament, creditors&#39; petitions could be heard only in chambers, and the object of this amendment, which the Government think it necessary to include, is to compel the hearing of such petitions in open court. It is a most desirable amendment. </para>
+          </talk.start>
+          <para>Clause agreed to. </para>
+          <para>Clause 6 (Acts of bankruptcy committed before commencement of act). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>117</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party>NAT</party>
+              <role>Honorary Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator MCLACHLAN</name>
+            </talker>
+            <para>. -  It appears to be necessary to insert this clause, as it has been pointed out that under the act there is some doubt as to whether a debtor in bankruptcy might not escape the penalty. The clause has, therefore, been inserted for purposes of greater caution and to protect the trading community. </para>
+          </talk.start>
+          <para>Clause agreed to. </para>
+          <para>Clause 7 (Power to appoint special manager). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>117</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party>NAT</party>
+              <role>Honorary Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>. - This clause is to amend section 64 of the principal act, which provides that if creditors do not fix the remuneration of any special manager appointed, the remuneration may be fixed &#34;as is prescribed.&#34; It was agreed at the bankruptcy conference that difficulty would be experienced in fixing the remuneration of special managers by regulation, as the classes of business which a special manager may be called upon to handle would vary considerably. It appears to be more practicable, therefore, in the absence of any determination by the creditors, to leave the matter to the official receiver to determine, subject to the approval of the court or registrar. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>117</page.no>
+                <time.stamp />
+                <name.id>K8P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">THOMPSON, William</name>
+                <name role="display">Senator Thompson</name>
+              </talker>
+              <para>-  What is the object of appointing a special manager? Is it to enable a business to be carried on for a certain time? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>117</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLACHLAN</name>
+              </talker>
+              <para>-Yes. </para>
+            </talk.start>
+          </continue>
+          <para>Clause agreed to. </para>
+          <para>Clause 8 (Priorities). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>117</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party>NAT</party>
+              <role>Honorary Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>. - This clause appears to be somewhat complex, but, after consideration, I think honorable senators will find that it is simplicity itself. Section 84 provides for the priority of the payment of certain claims on the estate of a bankrupt. The priority is subject, amongst other things, to section 112, which provides, in connexion with the declaration and distribution of dividends, for the retention of such sums as are necessary for the cost of administration or other wise, but it does not provide for the necessary priority in payment of administration expenses. Some of the costs of administration should have priority over others, and statutory authority is required to effect this by regulation. The provision safeguarding the payment of the expenses of trustees under deeds of assignment and deeds of arrangement which may be declared void is now made in a proposed new clause 9. Paragraphs <inline font-style="italic">b</inline> to <inline font-style="italic">g</inline> inclusive are consequential amendments. </para>
+          </talk.start>
+          <para>Clause agreed to. </para>
+          <para>Clause 9 agreed to. </para>
+          <para>Clause 10 (Protection of electrical apparatus). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>117</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party>NAT</party>
+              <role>Honorary Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>.- This clause is being inserted in response to representations made by the Electricity Commissions in the States. Similar provision is made in other acts. The clause is framed to protect the interests of such bodies in respect of their machinery and appliances on their premises. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>117</page.no>
+                <time.stamp />
+                <name.id>K8P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">THOMPSON, William</name>
+                <name role="display">Senator Thompson</name>
+              </talker>
+              <para>-  It is not proposed to cover any debts for current? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>117</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLACHLAN</name>
+              </talker>
+              <para>- No. </para>
+            </talk.start>
+          </continue>
+          <para>Clause agreed to. </para>
+          <para>Clause 11 (Restriction of rights of creditor under execution or attachment). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>117</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party>NAT</party>
+              <role>Honorary Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>. - This clause is inserted on the suggestion of the Attorney-General in another State, who thinks it undesirable that the word &#34; seizure &#34; should be included in the principal act. In outlying districts it is exceedingly difficult and expensive to effect a seizure before a sale, and, as the word &#34; sale &#34; will have the same effect, the Government see no objection to the amendment. </para>
+          </talk.start>
+          <para>Clause agreed to. </para>
+          <para>Clause 12 (Validity of certain payments to bankrupt and transferee). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>117</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party>NAT</party>
+              <role>Honorary Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>. - This is a new provision, but if honorable senators will refer to the principal act they will see that it is in harmony with section 96. This provision was omitted from the bill as originally presented to Parliament, but it was subsequently thought desirable to bring our legislation in this respect into line with the English act. Section 46 of the English act gives additional protection to the public over and above that contained in section 96 of the Commonwealth act, which is section 45 of the English act. Section 97 of the Commonwealth act gives special protection to bankers, but this provision is to extend more protection to general traders. </para>
+          </talk.start>
+          <para>Clause agreed to. </para>
+          <para>Clause 13 agreed to. </para>
+          <para>Clause 14 (Notice of Order of Discharge). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>118</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party>NAT</party>
+              <role>Honorary Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>. - At the conference it was pointed out that the section which it is proposed to amend is defective as it contains no declaration as to the effect of the order. Section 124 appears to contain adequate provision for cases where the debts of a bankrupt are paid in full. The proposed new clause will give the necessary publicity and provide for recording in the proper offices the fact  of  the discharge, for which there is at present no provision in the act. </para>
+          </talk.start>
+          <para>Clause agreed to. </para>
+          <para>Clause 15 agreed to. </para>
+          <para>Clause 16- </para>
+          <quote>
+            <para>Section One hundred and eighty-four of the principal act is repealed and the following section inserted in its stead :  - &#34; (2.) Where the trustee pursuant to resolution of the creditors carries on the business of the debtor, he may retain out of the estate, in addition to any remuneration under the last preceding sub-section, such commission, not exceeding One pound per centum on the turnover or sales made in the ordinary course of carrying on the business, as the creditors fix by resolution.&#34;. </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>118</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party>NAT</party>
+              <role>Honorary Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>. - This is the clause in which an amendment of sub-clause 2 was suggested by <inline font-weight="bold">Senator Thompson.</inline> The position at present is that in ordinary cases the remuneration of a trustee is fixed at 5 per cent. The bill provides that a trustee, carrying on a business, may be, by a resolution of the creditors, remunerated to the extent of 1 per cent., whereas previously the practice has been not to allow any such remuneration. As the Government feel that it is making some concession, I trust that the honorable senator will be willing to allow the rate to stand at 1 per cent. at least for  the  time, and if it should be found inadequate it can be remedied. This is really a concession on all previous bankruptcy practice </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>118</page.no>
+                <time.stamp />
+                <name.id>K6I</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CHAPMAN, John</name>
+                <name role="display">Senator Chapman</name>
+              </talker>
+              <para>-  Has not this remuneration been allowed before by arrangement ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>118</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLACHLAN</name>
+              </talker>
+              <para>-Yes. The honorable senator is thinking of the special provision which is made in the legislation of that enlightened State of South Australia, which was strenuously opposed some time ago by some of the States. For the time being the committee should accept the clause in its present form. It is our business to protect the creditors as far as possible, and it is for the creditors themselves to vote this remuneration if they think fit. If they desired, they could decline to vote any remuneration or could reduce it to, say, one-half per cent. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>118</page.no>
+              <time.stamp />
+              <name.id>K6I</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CHAPMAN, John</name>
+              <name role="display">Senator CHAPMAN</name>
+            </talker>
+            <para>. - It is surprising to find that a Bankruptcy Bill which was before Parliament for a considerable time should now have to be amended in this way. An extraordinary number of new provisions are submitted which we are informed are absolutely necessary to ensure the satisfactory working of the act. This measure, embodying a number of amendments of the principal act, was placed in our hands only this morning, and we are now asked to pass it without the opportunity of. referring it to persons who are vitally interested. In regard to the point raised by <inline font-weight="bold">Senator Thompson,</inline> I trust the Honorary Minister <inline font-weight="bold">(Senator McLachlan)</inline> will agree to report progress at this stage, so that honorable senators will have an opportunity, if they so desire, to confer with the various interests concerned. So far as I can see, there can be no reasonable objection to the proposed amendments, but representations might be made by various interests which would throw a different light on the opinions expressed by the Honorary Minister, whom we all regard as a level-headed man. I ask the Minister if he will not give us time to carefully study the provisions of this measure over the week-end in case there should be any difference of opinion concerning the points under discussion. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>118</page.no>
+              <time.stamp />
+              <name.id>K8P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">THOMPSON, William</name>
+              <name role="display">Senator THOMPSON</name>
+            </talker>
+            <para>. - I agree with <inline font-weight="bold">Senator Chapman</inline> that this amending measure has been sprung upon us. The proposed amendments are so highly technical that it would have been to our advantage if the bill had been circulated some time ago, so that we could analyse its provisions. If that had been done, possibly I would have had more to say on the motion for the second reading. What has been proposed so far appears to be satisfactory, but I am not sure, because I have not had time to com pare the amendments with the principal act. I do not think the Minister or the Government is showing that spirit of sweet reasonableness in this matter that we are entitled to expect. I am looking at the remuneration ofa trustee, to which I have previously referred, from the point of view of the man who knows best, because as far as bankruptcy is concerned I have always been in the unfortunate position of being a creditor. I submit that a remuneration of 1 per cent. on the turnover of a business which is being carried on is absolutely inadequate. We have this power in Queensland, and speaking after experience in that State extending over 40 years, I suggest that the Government should meet me to the extent of agreeing to a remuneration of 11/4 per cent., which represents a compromise, as the rate proposed in the bill is 1 per cent., and that in operation in Queensland11/2 per cent. If the Minister will not accept my suggestion it is my intention to move an amendment to that effect. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>119</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party>NAT</party>
+              <role>Honorary Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>. - It is unfortunate that this measure could not be circulated earlier, but I would suggest to honorable senators that if they will agree to allow the bill to be carried to the report stage it can then be further considered the week after next. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>119</page.no>
+                <time.stamp />
+                <name.id>K6I</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CHAPMAN, John</name>
+                <name role="display">Senator Chapman</name>
+              </talker>
+              <para>-  There will then be no opportunity to submit amendments. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>119</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLACHLAN</name>
+              </talker>
+              <para>- Yes; because if the Government deem any proposed amendments worthy of consideration the bill can be recommitted. No opposition would be taken to such a course. I ask honorable senators to adopt my suggestion, because it is urgently necessary that our Bankruptcy Act should be brought into force at once. I move - </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>That in sub-clause (2) after the word &#34; pound &#34; the words &#34; five shillings &#34; be inserted. </para>
+          </quote>
+          <para class="block">Although the various chambers of commerce approved of the rate of &#163;1 per cent., the Government is agreeable to the increase suggested by <inline font-weight="bold">Senator Thompson.</inline></para>
+          <para>Amendment agreed to. </para>
+          <para>Clause, as amended, agreed to. </para>
+          <para>Clause 17 consequentially amended and agreed to. </para>
+          <para>Clauses18 and19 agreed to. </para>
+          <para>Title agreed to. </para>
+          <para>Bill reported with amendments. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>119</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>IMPERIAL CONFERENCE</title>
+          <page.no>119</page.no>
+        </subdebateinfo>
+        <para>summaryofproceedings. </para>
+        <para>Debate resumed from 3rd March (vide page 45), on motion by <inline font-weight="bold">Senator Pearce</inline> - </para>
+        <quote>
+          <para>That the paper be printed. </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>119</page.no>
+              <time.stamp />
+              <name.id>KMP</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GRANT, John</name>
+              <name role="display">Senator GRANT</name>
+            </talker>
+            <para>. - The Senate has not been furnished with the information concerning the Imperial Conference, to which it is justly entitled. Although the Government may have further details, all that has been placed before honorable senators is that contained in the summary of proceedings, which although fairly extensive seeing that it comprises 38 closely printed pages, is scarcely a full report of the proceedings of a conference which lasted nearly a month, during which period sixteen meetings of the full conference and innumerable meetings of the various sub-committees  Avere  held. From a perusal of this report it is almost impossible to obtain any definite knowledge of what was accomplished by the conference. It would appear that, notwithstanding the galaxy of talent drawn from the various parts  of  the Empire, very little was actually accomplished by the conference. I can understand that in matters affecting the  relations  of Great Britain with the different dominions and with foreign countries, it may be desirable to withhold certain facts but, nevertheless, more information than is contained in this report should have been supplied to us. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>119</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Pearce</name>
+              </talker>
+              <para>-  None of the decisions arrived at have been withheld. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>119</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- All that hasbeen made available to honorable senators is a report containing a summary of the proceedings of the conference. I understand that reports were submitted to the full conference by the various sub-committees and that several speeches were delivered. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>119</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Pearce</name>
+              </talker>
+              <para>-  The summary of the proceedings includes the various resolutions of the conference. The speeches will be published later. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>119</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- Those reports should have been made available to us before we were asked to agree to this motion. </para>
+            </talk.start>
+          </continue>
+          <para class="block">Before the Prime Minister left Australia for Great Britain, he said that, in his opinion, Australia should have a voice in Empire affairs, but he did not make clear how far he was prepared to go in that direction. I desire to set before the Senate the views of honorable senators on this side of the chamber regarding these matters. Personally, I have no desire that Australia shall take part in the affairs of the Empire, especially in relation to wars or possible wars. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>120</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Pearce</name>
+              </talker>
+              <para>-  Then why did the Labour party yesterday pass a resolution dealing with the situation in China? That resolution was a declaration on foreign affairs. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>120</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- That was an entirely different matter. The resolution passed by the Labour party yesterday was a clear declaration of the party&#39;s attitude towards the situation in China, and was in complete agreement with what I have just said. The Labour party does not agree that, because Great Britain may go to war with China, Australia must do the same. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>120</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Pearce</name>
+              </talker>
+              <para>-  That is not what the motion said. It was a clear expression of opinion regarding affairs in China ; it deplored Great Britain&#39;s attitude. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>120</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- That is a small matter in any case. The impression made upon the minds of many people by the Prime Minister&#39;s statement was that Australia should have a voice in deciding whether war should be declared. The majority of the people of this country do not desire that. They hold the view that, in the event of war being declared by Great Britain, they should decide whether Australia should participate in it. It does not necessarily follow that they would not fall into line with the Mother Country. <inline font-weight="bold">Mr. Amery,</inline> the Home Secretary, was apparently of the same opinion when he said recently that it was right to let the outside world know now and again that, Great Britain and the dominion governments did not interfere with each other&#39;s affairs. He said that there was a wide-spread opinion, which he thought was well founded, that the various parts of the British dominions should, as far as possible, have complete control of their own affairs, and that one dominion should interfere as little as possible in the affairs of other portions of the Empire. That view is gaining ground every day. In my opinion, it is the view we should endeavour to cultivate. There is no desire on the part of the great majority of the people of Australia to interfere in Great Britain&#39;s affairs. When <inline font-weight="bold">Mr. Ramsay</inline> MacDonald was Prime Minister of Great Britain a treaty with Russia was entered into. Australia was not consulted, nor did she desire to be; it was a matter between Great Britain and Russia. The more that spirit is cultivated, and made known, the better it will be for the Empire. With its component parts having complete control of their affairs, and each minding its own business, the Empire will be stronger than if they interfere in each other&#39;s affairs. </para>
+            </talk.start>
+          </continue>
+          <para>I desire to refer to that portion of the report dealing with the New Hebrides condominium. The reference to the joint control of the New Hebrides by Great Britain and France, which has not been satisfactory to British residents, who would gladly welcome a change, is a fair illustration of the inconclusive nature of this summary of the proceedings of the Imperial Conference, and of the lack of information afforded. The paragraph referring to this matter is as follows: - </para>
+          <quote>
+            <para>The further developments in the New Hebrides since the Imperial Conference of 1923 wereexamined  by  representatives of His Majesty&#39;s Government in Great Britain, in consultation with the Prime Ministers of the Commonwealth of Australia and New Zealand, and agreement reached on the policy to be followed. </para>
+          </quote>
+          <para>As to the nature of the agreement, we are left completely in the dark; and that is the position in relation to nearly every paragraph in the summary. It is a most unsatisfactory report. This Parliament should be taken into the confidence of the delegates to the conference, and of the conference asa whole, and should bo told exactly what was done and what decisions were reached. Particularly do I wish to know the decision arrived at in reference to the condominium in the New Hebrides. </para>
+          <para>I notice that, in addition to the delegates to the conference, there were in attendance many other people, including <inline font-weight="bold">Mr. Gepp,</inline> the  chairman  of the Commonwealth Development and Migration Commission. Apparently this is an innovation, aud I have no strong objection to it; but I should like to know what decision was reached in regard to  migration, because one of the most important problems of the Commonwealth to-day is the need for increasing its population. Some little time ago we took the trouble to pass a Development nnd Migration Bill, under which we appointed Commissioners, with a view to securing an increase in our population, particularly from Great Britain; but, so far, nothing appears to hove been done in that direction. Yesterday a vessel arrived at Melbourne with representatives of seventeen or eighteen different nationalities, and very few Britishers among them, and it was stated that arrangements for a regular service of steamers - with accommodation for from 600 to 800 immigrants - between Southern European ports and Australia, had been made. I should like to know what practical steps the Migration Commissioners are taking to ensure that Britishers who desire to como to Australia can find ways and means of doing so. Personally, I am of opinion that they are going about the businessin the wrong way, and that while their efforts may be costly, they may not be very fruitful. People came to Australia in the early days because they were of opinion that gold could be found here easily. They came in large numbers, of their own free will, and at their own expense, and they were of a better type than, or at any rate of as good a type as, those who are now being assisted to come to Australia. What is required in Australia is a condition of affairs that will appeal to the people of Great Britain and induce them to find their way voluntarily to our shores. We havo a country which is capable of sustaining n very large number of people in addition to those who are already here. The density of our population is about two to the square mile. Europe is very much more densely populated. It is true that there may be small areas in Australia that are not as fertile as parts of Europe, but it is never safe to dogmatize on such matters, because what may be regarded to-day as a desert may later on, with different treatment, prove to be one of the most valuable areas of the Commonwealth. We need not highlypaid commissioners, but action on the part of the various Governments of the States to show people that Australia is the best country to come to. By those means migrants will come to Australia of their own free will. It seems to me that nothing was done in this direction at the Imperial Conference. The document we have before us is the most extraordinary I have ever seen. Every paragraph it contains seems to be more inconclusive than that immediately preceding it. I defy any one to get anything of a definite character out of it. Certain resolutions have been placed on record, but they do not appear to me to be of any particular value. I should like to know what the Imperial Conference did to find additional markets for the excess production of the Commonwealth. There is nothing in the document itself to supply that information. There are references to workmen&#39;s compensation, and a number of other matters, but each paragraph appears to be more inconclusive than that preceding it. The Government should not ask the Senate to debate this question until the printed documents to which the Minister has referred have been circulated. </para>
+          <para>Debate (on motion by <inline font-weight="bold">Senator Millen)</inline> adjourned. </para>
+          <para class="block">SPECIAL ADJOURNMENT. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>121</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western AustraliaVicePresident of the Executive Council</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator PEARCE</name>
+            </talker>
+            <para>. - I move- </para>
+          </talk.start>
+          <para>That the Senate at its rising adjourn till Tuesday, 15th March, at 3 p.m. </para>
+          <para class="block">As honorable senators are aw.are, the bill which will be the main business during the present sittings in Melbourne, will probably not reach us until the week following the next. It will be noticed that Iam asking the Senate to meet on Tuesday instead of Wednesday, because I think it desirable that an endeavour should be made to finish the business in time to enable honorable senators to take part in the receptions to theirRoyal Highnesses the Duke and Duchess of York in Sydney, to do which they will have to leave Melbourne on the 24th March. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>121</page.no>
+                <time.stamp />
+                <name.id>KMP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, John</name>
+                <name role="display">Senator Grant</name>
+              </talker>
+              <para>- When does the Minister expect that the States Grants Bill will be before the Senate? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>121</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator PEARCE</name>
+              </talker>
+              <para>-I hope that it will be here on the 16th; but in any case there will be a Supply Bill to pass. We expect either the States Grants Bill or the Supply Bill to be in the Senate on the 15th. </para>
+            </talk.start>
+          </continue>
+          <para>Question resolved in the affirmative. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>121</page.no>
+        <time.stamp>12:26:00</time.stamp>
+      </adjournmentinfo>
+      <para>Senate adjourned at 12.26 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

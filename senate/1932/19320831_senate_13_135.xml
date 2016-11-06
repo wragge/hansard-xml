@@ -1,251 +1,1951 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1932-08-31%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1932-08-31%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1932-08-31%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1932-08-31%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1932-08-31%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1932-08-31%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1932-08-31%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1932-08-31/19320831_senate_13_135.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1932-08-31</date>
+    <parliament.no>13</parliament.no>
+    <session.no>1</session.no>
+    <period.no>3</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>3</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">COMMONWEALTH OF AUSTRALIA. </para>
+    <para class="block">PARLIAMENTARY DEBATES. </para>
+    <para class="block">(Third Period.) </para>
+    <para>The Senate on the 24th May, 1932, adjourned till a  day  and hour to be  fixed  and to be notified by the  President  to each honorable <inline font-weight="bold">Senator.</inline></para>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1932-08-31</day.start>
+      <para>The Senate met at 3 p.m., pursuant to the notification of the  President. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>SWEARING-IN OF SENATORS</title>
+        <page.no>3</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>
+        <inline font-weight="bold">His Excellency</inline>the Eight Honorable <inline font-weight="bold">Sir Isaac</inline> Alfred Isaacs, P.C., G.C.M.G., Governor-General and Commander in Chief in and over the Commonwealth of Australia, entered the chamber and taking his seat on the dais, said - </para>
+      <para>Honorable Senators : I am present to administer to newly-elected senators the oath or affirmation of allegiance as required by section 42 of the Constitution. </para>
+      <para>The  Clerk  produced and laid on the table the writs and certificates of return for members elected on the 19th December, 1931, to serve in the Senate as senators for their respective States. </para>
+      <para>The following honorable senators made and subscribed the oath or affirmation  of  allegiance: - </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>New South Wales - Charles Frederick Cox, Walter Massy Greene, Charles Hardy,</title>
+          <page.no>3</page.no>
+        </subdebateinfo>
+        <para>Queensland - Gordon Brown, Joseph Silver Collings, John Valentine MacDonald. </para>
+        <para>South Australia - Alexander John McLachlan, Albert Oliver Badman. </para>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Tasmania - Burford Sampson, John Dunlop Millen, Herbert James Mockford Payne</title>
+          <page.no>3</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Victoria - William Plain</title>
+          <page.no>3</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Western Australia - Sir George Foster Pearce, Patrick Joseph Lynch, William Carroll</title>
+          <page.no>3</page.no>
+        </subdebateinfo>
+        <para>His Excellency the GovernorGeneral, having retired, </para>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ELECTION OF PRESIDENT</title>
+        <page.no>3</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for Defence</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;3.17&#93;. - <inline font-weight="bold">Mr. Monahan,</inline> I would remind the Senate that the time has arrived for choosing some suitable member of the Senate as its  President. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3</page.no>
+            <time.stamp />
+            <name.id>KQZ</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">LAWSON, Harry</name>
+            <name role="display">Senator LAWSON</name>
+          </talker>
+          <para>.- I move - </para>
+        </talk.start>
+        <quote>
+          <para>That <inline font-weight="bold">Senator Patrick</inline> Joseph Lynch do take thechair of this Senate as  President. </para>
+        </quote>
+        <para>Very few words of mine are necessary to commend this nomination to honorable senators. For more than a quarter of  a  century <inline font-weight="bold">Senator Lynch</inline> has been a notable figure in the public life of Australia. For two years he was a member of the Legislative Assembly of Western Australia, and for a portion of that time held office as a Minister of the Crown. For 26 consecutive years he has been a member of the Senate, and has also occupied ministerial positions in the federal sphere. By his urbanity, eloquence and personality he has commended himself to honorable senators, and has won the confidence and esteem of every one of us. I doubt not that if he is elevated to the Chair he will maintain the high traditions of that office; that he will administer the Standing Orders with judgment, discretion and absolute impartiality, and will justify the trust reposed in him by honorable senators in electing him to that position. I, therefore, submit the nomination. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>4</page.no>
+            <time.stamp />
+            <name.id>K3X</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CARROLL, William</name>
+            <name role="display">Senator CARROLL</name>
+          </talker>
+          <para>. -  I second the nomination. With one or two exceptions, perhaps, every honorable senator knows <inline font-weight="bold">Senator Lynch</inline> as well as I do, and, though some may have disagreed with views at times expressed by him, I am sure all would be pleased to see him elected to the high office in which it is now proposed to place him. However we may disagree on questions of party politics I am sure we arc united in our personal regard for <inline font-weight="bold">Senator Lynch.</inline> I would remind the honorable senator that if he is elected to the position he will have a fairly difficult row to hoe in following those who have gone before him. Past Presidents of the Senate have set a very high standard, but I feel certain that <inline font-weight="bold">Senator Lynch,</inline> with his extensive experience of parliamentary life and procedure, will worthily maintain the high traditions established by them. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>4</page.no>
+            <time.stamp />
+            <name.id>JYB</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNN, James Patrick Digger</name>
+            <name role="display">Senator DUNN</name>
+          </talker>
+          <para>.- I move- </para>
+        </talk.start>
+        <quote>
+          <para>That <inline font-weight="bold">Senator ArthurRae</inline> do take the chair of this Senate as  President. </para>
+        </quote>
+        <para class="block">It will be generally admitted that nominations for the position of  President  of the Senate are determined from the viewpoint of party politics, and I therefore do not see why I, as a representative of the Federal Labour Party in New South Wales, should not take advantage of this opportunity to nominate a member of my group for the office. It has been said on previous occasions that the  President  of the Senate should be elected on the floor of the chamber and not chosen in caucus. When such a distinguished position as that of  President  of the Senate is vacant it is only reasonable that all parties should have an opportunity to submit a candidate. SenatorRae has had a very long experience not only in this Parliament but also in the legislature of New South Wales. I have endeavoured at all times to be fair. I can give and take hard knocks and conduct a political fightto afinish. I shall never be a quitter or a squealer. On occasions, however, when we have endeavoured to place our views before the Senate we have been sabotaged. I remind the Senate of an incident which occurred before this Parliament went into recess in May last. On that occasion in accordance with the Standing Orders I addressed a letter to the  President  of the Senate notifying my intention to move the adjournment of the Senate in order to discuss a matter of urgent public importance. The matter which I intended to ventilate was unpalatable to the Government of the day, or at least to the Leader of the Government in the Senate <inline font-weight="bold">(Senator Pearce),</inline> who has been a member of this chamber for over 30 years. The communication, which I directed to <inline font-weight="bold">Mr. President,</inline> read - </para>
+        <quote>
+          <para>I have to inform you that it is my intention to move this day, the 19th of May, 1932 - &#34; That the Senate, at its rising, adjourn till 10 a.m. to-morrow, in order to discuss  a  matter of urgent public importance, namely, the failure of the Government to take immediate steps to institute prosecutions in respect of the breach of section 24c of the Crimes Act which deals with sedition.&#34; </para>
+        </quote>
+        <para class="block">At that particular time, men, comprising a certain organization, were openly flouting the constitutionally-elected governments of the day in their upholding of law and order, and the observance of allegiance to His Majesty the King. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>4</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator Payne</name>
+            </talker>
+            <para>-  What has that to do with the election of a President of the Senate ? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>4</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>- The honorable senator will have an opportunity, at a later stage, to show whether or not I am out of order. Section 27 of the Crimes Act makes it a penal offence for any person, after the issue of a proclamation by the Governor-General, to be. present at or to take part in training or drilling operations, the use of arms, or the practice of military evolutions, exercises or movements. Why was not such a proclamation issued to deal with the New Guard, when the Government of the day had in its possession definite information proving that that semi-criminal organization was conducting military operations? Honorable senators will recollect that I produced in this chamber statutory declarations concerning the inner workings of this particular organization. In another  place, if I remember rightly, the members of my party were challenged by the Treasurer of a now defunct administration to produce evidence in support of the charges that they had made concerning unemployment relief moneys. That evidence was produced there; and, as the leader of the group in this chamber, I also sought to place before the present Government, and the people of this nation, information concerning the New Guard. But when I rose in my place to read the statutory declarations, I was assailed from all quarters, and prevented from proceeding by that brutal majority which acts in accordance with the wishes of the Leader of the Senate <inline font-weight="bold">(Senator Pearce)whenever</inline> he gives the wink to the Government Whip <inline font-weight="bold">(Senator Foll)</inline> to &#34; run the steam-roller &#34; over the small group to which I belong. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>5</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator Foll</name>
+            </talker>
+            <para>- It is a pleasure to do it. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>5</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>- As a citizen of Australia, and a member of the Senate, my reply to the Government Whip&#39;s observation is that I shall wait with pleasure to see whether he will be given the direction by his leader to run the steam-roller over another representative of New South Wales, who espouses a different political doctrine from that to which I give adherence: I refer to <inline font-weight="bold">Senator Hardy.</inline> The statutory declaration which I was not permitted to read on the occasion to which I have referred, I shall read now. It is as follows :  - </para>
+          </talk.start>
+        </continue>
+        <list type="upperalpha-dotted">
+          <item label="I.">
+            <para>Henry Symonds-Poynton, of 71 Bedfordstreet, Newtown, in the State of New South Wales, do solemnly and sincerely declare - That I joined the New Guard about last September, 1931, realizing the seriousness of such a movement and how dangerous it could be if it entered the political arena. Now that this body has developed into a Fascist menace I consider that I am free of all obligations to them, and intend to expose their aims and objects <inline font-style="italic">re</inline> political movements as follows: - </para>
+          </item>
+        </list>
+        <para>Being a member of the Now Guard Intelligence I was free to examine any paper or papers that came through that department. The principal recent object of this body was to fan the workers into revolution per medium of starting fights at Labour rallies, for instance the Town Hall rally of <inline font-weight="bold">Mr. J.</inline> T. Lang on the 21st April, 1932. A hundred and fifty New Guardsmen were present in the vicinity of the Town Hall with instructions not to start trouble by directly attacking Labour sympathizers in the large crowd present, but it was arranged to start a fight and them fan it along. </para>
+        <para>The New Guard is formed on aggressive military lines comprised as follows: - Air force, sea guard, harbour guard, mobile battalions, shock troops, home defence, essential services, and even men to form tank corps: thus every branch of military and naval units are represented and controlled by trained men and officers, of the reserve list, and still serving. </para>
+        <para>Previous to the opening of the Sydney Harbour Bridge plans were made under the direct control of Colonel E. Campbell to kidnap the most influential members of the Labour party. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>5</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir George Pearce</name>
+            </talker>
+            <para>- I rise to a point of order. I submit, <inline font-weight="bold">Mr. Monahan,</inline> that the remarks of the honorable senator are not relevant to the motion before the Chair. I remind you, that the Standing Orders of the Senate are not suspended. Standing Orders Nos. 16, 17 and 18. which set out the procedure to be followed in connexion with the election of a  President  of the Senate, certainly do not contemplate a general discussion onall sorts of subjects. The debate, I submit, must be relevant to the motion or the amendment. The motion before us is the definite one that <inline font-weight="bold">Senator Lynch</inline> do take the Chair of the Senate as President; upon which another motion has been submitted, that <inline font-weight="bold">Senator Rae</inline> do take the Chair of the Senate as  President.  I submit for your consideration, sir, that the present discussion, in which I understand the honorable senator is enlarging upon certain allegations concerning the New Guard, cannot by any stretch of the imagination be said to have any bearing upon the election of a suitable senator as  President  of the Senate. I ask whether, in your judgment, the discussion which the honorable senator is inaugurating is relevant to the Standing Orders relating to the election of a President? </para>
+          </talk.start>
+        </interjection>
+        <para>SenatorRae. - I submit that the Standing Orders quoted by the right honorable senator do not touch upon the question of relevancy; nor can I see in the Standing Orders any limitation of the subjects that may be discussed upon the motion for the election of a  President  of the Senate. I submit that <inline font-weight="bold">Senator Dunn</inline> is in order, because it is his intention to link up the matters with which he is now dealing, with that of the general control of this Senate by its future  President. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator Payne</name>
+            </talker>
+            <para>- I support <inline font-weight="bold">Senator Pearce</inline> in his submission that the remarks of <inline font-weight="bold">Senator Dunn</inline> are out of order. Standing Order No. 17 is clear and definite. It reads - </para>
+          </talk.start>
+        </interjection>
+        <list type="decimal-dotted">
+          <item label="17.">
+            <para>A senator, addressing himself to the  Clerk,  shall propose to the Senate for their  President  some senator then present, and move that such senator do take the Chair of the Senate as  President.  Such motion shall be seconded by some other senator. </para>
+          </item>
+        </list>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>K1L</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARNES, John</name>
+              <name role="display">Senator Barnes</name>
+            </talker>
+            <para>- On a point of order- </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata" />
+            <name role="display">The Clerk (Mr Monahan</name>
+          </talker>
+          <para>- A point of order is already under consideration. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator Payne</name>
+            </talker>
+            <para>- I am speaking to a point of order. I submit that the references made by <inline font-weight="bold">Senator Dunn</inline> to the attitude of the Government to <inline font-weight="bold">Senator Hardy</inline> and also to the New Guard, are entirely apart from the motion before the Chair, and therefore irrelevant. </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CLERK, The</name>
+            <name role="display">The Clerk</name>
+          </talker>
+          <para>- I rule that the debate must be relevant to the subject-matter of the motion. <inline font-weight="bold">Senator Dunn</inline> has moved that <inline font-weight="bold">Senator Rae</inline> do take the chair as  President  of the Senate, and his remarks must be strictly relevant to that motion. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator Daly</name>
+            </talker>
+            <para>- Then <inline font-weight="bold">Senator Payne</inline> is out of order? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>- Do I understand, <inline font-weight="bold">Mr. Monahan,</inline> that you will permit me to proceed? </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CLERK, The</name>
+              <name role="display">The Clerk</name>
+            </talker>
+            <para>- So long as the honorable senator&#39;s remarks are relevant to the motion. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>- I have no desire to take an unfair advantage of this occasion. I have nominated <inline font-weight="bold">Senator Bae</inline> for the position of  President  of the Senate, and in support of my motion, I wish to say that I believe that if he is appointed to that high and distinguished position, his interpretation of the Standing Orders will be absolutely unbiased. I repeat that, on a previous occasion when I had moved the adjournment of the Senate, the right honorable the Leader of the Senate, with the assistance of his brutal majority, intervened, and I was denied the opportunity of placing before members of this chamber information which was then in my possession with respect to the New Guard. I submit now, with all due respect to you, that I shall be in order in dealing with that matter if I link up my remarks with the motion. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator Collings</name>
+            </talker>
+            <para>- On a point of order, I ask you, <inline font-weight="bold">Mr. Monahan,</inline> if, despite the ruling you have just given, <inline font-weight="bold">Senator Dunn</inline> is to be allowed to discuss matters having no relevancy to the motion. We have a great deal of important business to deal with, and should not be obliged to listen to a speech of this nature. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CLERK, The</name>
+              <name role="display">The Clerk</name>
+            </talker>
+            <para>- I must ask <inline font-weight="bold">Senator Dunn</inline> to confine his remarks strictly to the subject-matter of the motion. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>- I agree with <inline font-weight="bold">Senator Collings</inline> that we have urgent matters to attend to, and I tell him that he will be called upon to listen to what we in this group may have to say on many subjects before he is much older. Let him make no mistake about that. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>KS9</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party>ALP; FLP from 1932</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, John Valentine</name>
+              <name role="display">Senator MACDONALD</name>
+            </talker>
+            <para>- Do not use threats. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator Collings</name>
+            </talker>
+            <para>- I can protect myself at any time from larrikins of <inline font-weight="bold">Senator Dunn&#39;s</inline> type. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>- Since we have not a  President  to call the honorable senator to order and make him apologize for what he has just said, let me tell him that if, in his view, I am a larrikin, I am not, at all events, like <inline font-weight="bold">Senator Collings,</inline> an industrial scab. Because of the ruling which you, <inline font-weight="bold">Mr. Monahan,</inline> have just given, I now move - </para>
+          </talk.start>
+        </continue>
+        <quote>
+          <para>That your ruling be dissented from on the ground that there is nothing in the Standing Orders to prevent any honorable senator from advancing reasons why his nominee should be elected. </para>
+        </quote>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>K1Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">RAE, Arthur</name>
+              <name role="display">Senator Rae</name>
+            </talker>
+            <para>- I second the motion. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir George Pearce</name>
+            </talker>
+            <para>- I move - </para>
+          </talk.start>
+        </interjection>
+        <quote>
+          <para>That the question of dissent requires immediate determination. </para>
+        </quote>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator Daly</name>
+            </talker>
+            <para>- I take a point of order. Can dissent from a ruling of the  Clerk,  as  chairman,  be moved under the Standing Orders of the Senate? Is it not a fact that, when the Senate is in committee, it is necessary, in the event of a motion of dissent from a ruling being moved, to send for the  President  in order to determine the issue? At the moment we have not a  President  to whom we may appeal. Personally, I have no objection to the procedure provided it is in order; but I would suggest that, if the weaknesses of our Standing Orders are disclosed by what is taking place this afternoon, the sooner we remedy them the better. I am sure that no honorable senator desires to make the Senate appear ridiculous in the eyes of the public by passing the motion moved by the Minister <inline font-weight="bold">(Senator Pearce).</inline></para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>7</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator Payne</name>
+            </talker>
+            <para>-  The  Clerk,  as  chairman,  is in control of the Senate; his position is not that of a  chairman  of committees. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>7</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator Daly</name>
+            </talker>
+            <para>-  But he has no power to give a ruling.  </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>7</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLachlan</name>
+            </talker>
+            <para>-  As  chairman  of this afternoon&#39;s proceedings, the  Clerk  is clothed with all the powers of the Presi-. dent </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>7</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator Daly</name>
+            </talker>
+            <para>-  Accepting <inline font-weight="bold">Senator McLachlan&#39;s</inline> view, I submit that every honorable senator has the right of appeal to the  President  from a decision of the  chairman,  and, as I have already pointed out, we have not yet appointed a  President.  Our procedure, in the event of dissent from the ruling of the  chairman  being moved, is to appeal to the  President,  who has to be called in to decide the issue. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>7</page.no>
+              <time.stamp />
+              <name.id>K7F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLEBATCH, Hal</name>
+              <name role="display">Senator Sir Hat, Colebatch</name>
+            </talker>
+            <para>-  Not necessarily. Look at Standing Order 421. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>7</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator Daly</name>
+            </talker>
+            <para>-  I have referred to the Standing Order in question, and it seems to me that we are in a hopeless position until we elect a  President. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>7</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLachlan</name>
+            </talker>
+            <para>-  Standing Order 447 should meet the position. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>7</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator Daly</name>
+            </talker>
+            <para>-  If the Standing Orders are in operation at this stage, I draw attention to Standing Order No. 421 which gives the  Chairman  of Committees the right to decide the relevancy of certain matters. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>7</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir George Pearce</name>
+            </talker>
+            <para>-  Since I feel sure that <inline font-weight="bold">Senator Daly</inline> does not wish to make the position more difficult for you, <inline font-weight="bold">Mr. Monahan,</inline> I direct the honorable senator&#39;s attention to  Standing Order No. 429, which provides that the motion, which I have submitted, must be decided without debate. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>7</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator Daly</name>
+            </talker>
+            <para>- That is a matter which cannot be decided on this motion, except on the ground that the end justifies the means. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>7</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CLERK, The</name>
+              <name role="display">The Clerk</name>
+            </talker>
+            <para>-  The Standing Orders provide that the  Clerk  of the Senate, in circumstances such as those now existing, acts as the  Chairman  of the Senate, not as the  Chairman  of Committees. There being at the moment no  President  of the Senate, the  Clerk  takes the place of the  President  for the time being, in which case I assume that he must administer the Standing Orders as he finds them. I therefore now put the question - </para>
+          </talk.start>
+        </interjection>
+        <quote>
+          <para>That the question, of dissent requires immediate determination. </para>
+        </quote>
+      </speech>
+      <division>
+        <division.header>
+          <time.stamp />
+          <para>The Senate divided.</para>
+        </division.header>
+        <division.data>
+          <ayes>
+            <num.votes>24</num.votes>
+            <title>AYES</title>
+          </ayes>
+          <noes>
+            <num.votes>7</num.votes>
+            <title>NOES</title>
+          </noes>
+        </division.data>
+        <para class="block">Majority 17 </para>
+        <para>AYES</para>
+        <para class="block">
+          <graphic href="135332193208310_4_1_1_A.jpg" />
+        </para>
+        <para>NOES</para>
+        <para class="block">
+          <graphic href="135332193208310_4_1_2_N.jpg" />
+        </para>
+        <division.result>
+          <para>Question so resolved in the affirmative. </para>
+        </division.result>
+        <para>Original question, &#34; That the ruling of the  Clerk  be dissented from &#34;, resolved in the negative. </para>
+      </division>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>7</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CLERK, The</name>
+            <name role="display">The Clerk</name>
+          </talker>
+          <para>-  Is the nomination of <inline font-weight="bold">Senator Bae</inline> seconded? </para>
+        </talk.start>
+      </interjection>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>7</page.no>
+            <time.stamp />
+            <name.id>JYB</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNN, James Patrick Digger</name>
+            <name role="display">Senator Dunn</name>
+          </talker>
+          <para>- <inline font-weight="bold">Senator Rae</inline> desires that I withdraw his nomination. Since federation we have had a long line of presidents, most of whom have been fairminded men; but as <inline font-weight="bold">Senator Bae,</inline> who, I am sure, would be absolutely impartial, does not wish to join that line, I ask leave to withdraw my motion. </para>
+        </talk.start>
+      </interjection>
+      <para>Leave granted. </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>7</page.no>
+            <time.stamp />
+            <name.id>JZ6</name.id>
+            <electorate>South Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">O&#39;HALLORAN, Michael</name>
+            <name role="display">Senator O&#39;HALLORAN</name>
+          </talker>
+          <para>.- I move- </para>
+        </talk.start>
+        <quote>
+          <para>That <inline font-weight="bold">Senator John</inline> Barnes do take the chair of this Senate as  President. </para>
+        </quote>
+        <para class="block">
+          <inline font-weight="bold">Senator Barnes</inline>has had a long and useful parliamentary career, and has held many important offices, including that of Leader of the Government in this chamber. I feel, confident that he enjoys the confidence and respect of every honorable senator. He is admirably suited in every way to preside over this chamber, and I am sure that, if elected, he will uphold the high traditions set by the former occupants of the presidential chair, and preside over our deliberations in a manner worthy of this important branch of the legislature. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>8</page.no>
+            <time.stamp />
+            <name.id>JVF</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DOOLEY, John</name>
+            <name role="display">Senator DOOLEY</name>
+          </talker>
+          <para>. - I have pleasure in seconding the nomination of <inline font-weight="bold">Senator Barnes</inline> as  President  of the Senate. In doing so, I endorse what <inline font-weight="bold">Senator O&#39;Halloran</inline> has said regarding the honorable senator&#39;s ability, integrity and loyalty - attributes which have been displayed by <inline font-weight="bold">Senator Barnes</inline> in the important positions he has held in the past. Believing that the presiding officer in this chamber should not be a party hack, or a person chosen to represent particular interests, I feel that the election of the  President  should be determined on the floor of the Senate, not in the party room before the Senate has assembled. It is hardly fair that one State should have a monopoly of the highest office in this chamber. Honorable senators will agree with me that <inline font-weight="bold">Senator Barnesj</inline> if honoured with the position, would fill it with credit to this Parliament, and would uphold the dignity of the office. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>8</page.no>
+            <time.stamp />
+            <name.id>K1Z</name.id>
+            <electorate>NEW SOUTH WALES</electorate>
+            <party>ALP; LANG LAB from 1931</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">RAE, Arthur</name>
+            <name role="display">Senator RAE</name>
+          </talker>
+          <para>. - Having been relieved of the tremendous responsibility that attaches to one who is a candidate for election as  President  of this chamber, I desire to say a few words in regard to the position generally. As <inline font-weight="bold">Senator Dooley</inline> has just said, it is rather a pity that what is supposed to be an impartial office should be filled by a party vote, but the Labour party has been equally guilty with its opponents in making the position a party prize. In the nature of things, complete impartiality can scarcely be expected from one who is selected by one party only. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B Johnston</name>
+            </talker>
+            <para>-  By two parties. </para>
+          </talk.start>
+        </interjection>
+        <para>SenatorRAE. - By two wings of one party. The fact remains that the course adopted on previous occasions has been followed to-day. It nevertheless affords one an opportunity to criticize the occupant or future occupant of the Chair. While I hope that the adaptability which is in all human nature to a certain ex tent will enable <inline font-weight="bold">Senator Lynch,</inline> if elected to the position, . to carry out his duties impartially, I can hardly imagine any one believing that he has been gifted with a judicial temperament. In numerous and lengthy speeches he has made during the years I have been in this chamber, he has frequently made me the victim of attacks as if I were to him, at any rate, and to this chamber, the embodiment of the Red Menace. The fact that in many of those speeches, he showed what I may almost say was a considerable degree of venomous feeling towards the members of the group to which I belong, permits one to wonder whether we may expect impartiality from him. I do not want to speak of the dead - the ex-President is no longer occupying the Chair, but while I was not entirely satisfied with his conduct of proceedings, I think that he endeavoured to be impartial.  His  failing to my mind was that he took up the attitude of the schoolmaster, compelling autocratic obedience to his slightest behest. Many years ago I had the privilege of. being a member of the Legislative Assembly of New South Wales, and the  Speaker  of that chamber was <inline font-weight="bold">Sir Joseph</inline> Abbott. While that honorable gentleman was entirely opposed to Labour - he made no pretence of being otherwise - he was not only fair but always assumed, in regard to points of order, that he was not possessed of entire knowledge of the subject, or capable of giving a ruling at a moment&#39;s notice. He always allowed those who were immediately concerned, particularly the person who was called to order, to debate the point briefly. He had the power, which he frequently exercised, to stop the debate whenever it tended to go to greater length that was thought desirable; but the course he followed enabled many honorable members, particularly members of the legal fraternity, to put views which, perhaps, had not come into his mind. No occupant of the Chair should be so autocratic that his slightest word must be bowed down to. The idea, at any rate, is repugnant to any one like myself with a spirit of freedom in him. I think that in this chamber more latitude should be allowed than frequently was permitted by the exPresident. When an honorable senator would attempt to elaborate his argument by making comparisons or drawing analo gies,  he was of ten pulled up. I venture to say that the great orators of the House of Commons of the last and the previous generation would never have made the eloquent orations they did had they been continually harassed by the Chair, as to whether they were or were not trespassing beyond the precise relevancy of the particular subject under discussion. Every  speaker  has his own way of putting matters in a debate, and it would be advantageous if the President-elect exercised a reasonable attitude by allowing honorable senators to draw illustrations or analogies in order to explain any matter to the Senate. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>9</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator Payne</name>
+            </talker>
+            <para>- I rise to a point of order. Standing Order No. 19 provides - </para>
+          </talk.start>
+        </interjection>
+        <quote>
+          <para>If two or more senators be proposed as  President,  a motion shall be made and seconded regarding each such senator, &#34; That </para>
+          <para class="block">
+            <inline font-weight="bold">Senator- do</inline>take the Chair of the Senate as </para>
+          <para class="block">President&#34;; and each senator so proposed shall address himself to the Senate. </para>
+        </quote>
+        <para class="block">This Standing Order provides that the only senators permitted to speak after nominations have been received are the nominated candidates. Otherwise I could follow the example of <inline font-weight="bold">Senator Hae</inline> and talk of the qualifications&#39; or disqualifications of <inline font-weight="bold">Senator Barnes</inline> and <inline font-weight="bold">Senator Lynch</inline> for half the afternoon. You, <inline font-weight="bold">Mr. Clerk,</inline> have not yet asked if there are any further nominations. I suggest that you do so. Then, if there are no further nominations, each senator proposed should address himself to the chamber and there can be no further debate. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>9</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CLERK, The</name>
+              <name role="display">The Clerk</name>
+            </talker>
+            <para>- While my opinion coincides largely with that of the honorable senator, it has been the practice on such occasions as this to allow a certain amount of debate, and I have no desire to interfere with the well-established practice of the Senate without its direct instruction. </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>9</page.no>
+            <time.stamp />
+            <name.id>K1Z</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">RAE, Arthur</name>
+            <name role="display">Senator RAE</name>
+          </talker>
+          <para>- I do not desire to speak at much greater length, but I should like to say that, whatever his defects may be, <inline font-weight="bold">Senator Barnes</inline> has a broadmindedness and an appreciation for arguments with which he may not agree, that give the foundation for impartiality. I do not associate myself with all he has backed up politically. To some extent, as a Minister, he may have been responsible for things to which I am strongly opposed and which led to the separation of the group with which I am associated from other honorable senators on this side of the chamber. Nevertheless, I believe, from my long experience of the honorable senator that, in the position of  President,  he would do his best and be absolutely impartial. If he would err at all, it would be on the side of leniency and not of autocracy. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>9</page.no>
+            <time.stamp />
+            <name.id>JYB</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNN, James Patrick Digger</name>
+            <name role="display">Senator DUNN</name>
+          </talker>
+          <para>. - I desire to be brief because, like the journalist, I believe in the maxim, &#34; Be brief or be butchered &#34;. I have already been butchered once to-day; I do not wish to be butchered again. I want to say a few words in support of the nominee of the party on my right. I believe that <inline font-weight="bold">Senator Barnes</inline> is a very worthy candidate for the position of  President.  I have worked with him in the industrial world as a member of the Australian Workers Union, and in the political world as Whip to the Government of which he was a member. In my close contact with bini in that capacity, I found him a monument of courtesy and generosity. He was always prepared to go out of his way to help me in the arduous duties I had to perform. It would be a gracious act on the part of honorable senators to elect him as  President.  He would grace the Chair with great ability. He might be sufficiently democratic to set aside the wig and gown, but if he wore the robes of office I am sure that he would wear them with distinction. At all times he would temper his rulings with mercy. As a good Irish-Australian he would not always feel it necessary to hit a man with a shilleleagh  or a bag of shamrocks. Party feelings run high in politics, but, speaking for this group, I can say that it has no personal animosity towards honorable senators in opposition. I do not think that <inline font-weight="bold">Senator Barnes,</inline> who is a cool, level-headed man, would go out of his way to stretch Standing Orders in order to give <inline font-weight="bold">Senator Rae</inline> and myself political protection. I agree with <inline font-weight="bold">Senator Rae</inline> in regard to the previous occupant of the chair. On numerous occasions when I was called&#39; to order I was convinced that the presiding officer acted hastily and I thought that he interpretated  the Standing Orders in an unjust way. I have always contended that some of our Standing Orders are too drastic. Although I have had occasion to feel that I was unjustly treated by the past  President,  I must say that he carried out his duties efficiently and courteously, and I shall always have a great admiration forhim personally. I believe that another honorable senator representing Western Australia is likely to be elected to the office of  President,  and, if he is successful in defeating <inline font-weight="bold">Senator Barnes,</inline> who has been nominated from this side of the chamber, I trust that he will benefit by the candid criticism which has been offered concerning his predecessor. We are passing through troublous times, and it is reasonable to assume that during the debates that will ensue on the measures to be introduced in this chamber to assist in the rehabilitation of the Commonwealth, some very hard things will be said. I trust, however, that the members of the group with which I am associated will get a &#34;fair spin &#34; from the Chair, and that no preference will be shown to any particular political party. A majority of honorable senators should support the nomination of <inline font-weight="bold">Senator Barnes</inline> who, I am sure, would occupy the chair with dignity and distinction, although, like Senater Rae, on occasions I have felt impelled to oppose proposals put forward by him as the leader of his party. It was never intended that the  President  should be elected by one particular party, but that the Senate should elect him free from all party bias. I appeal to <inline font-weight="bold">Senator Lawson</inline> to withdraw the nomination of <inline font-weight="bold">Senator Lynch.</inline></para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>KQZ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LAWSON, Harry</name>
+              <name role="display">Senator Lawson</name>
+            </talker>
+            <para>- I have just consulted my seconder; he will not agree to the honorable senator&#39;s proposal ! </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>- In those circumstances, I appeal to <inline font-weight="bold">Senator Carroll</inline> to adopt my proposal. If he will not, I appeal to the Leader of the Government in the Senate to use his influence with <inline font-weight="bold">Senator Lawson.</inline> and <inline font-weight="bold">Senator Carroll.</inline> But I am afraid that that honorable gentleman is, to use an Americanism, too &#34; hard boiled &#34; to comply with my request. On one occasion, the members of my party suggested that I should allow myself to be nominated for the office of  President,  but I informed them that I felt that I did not possess the necessary qualifications, dignity and learning to occupy such a distinguished position. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>10</page.no>
+            <time.stamp />
+            <name.id>KRZ</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">LYNCH, Patrick</name>
+            <name role="display">Senator LYNCH</name>
+          </talker>
+          <para>. - I am sensible of the great honour proposed to be conferred upon me, and submit myself to the will of honorable senators. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>10</page.no>
+            <time.stamp />
+            <name.id>K1L</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BARNES, John</name>
+            <name role="display">Senator BARNES</name>
+          </talker>
+          <para>. - I am very grateful indeed to the mover and seconder of my nomination for their eulogistic remarks concerning myself. Their eloquence has been so powerful, and will have such an effect upon honorable senators, that I feel that I shall be their  President.  If the honour should be conferred upon me, it will be my endeavour to live up to the high standard set by previous occupants of the chair. The making of a selection can safely be left in the hands of honorable senators. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CLERK, The</name>
+              <name role="display">The Clerk</name>
+            </talker>
+            <para>- There being no other nominations, and, as the Standing Orders provide that in the event of two nominations being received a ballot shall be held, the Senate will proceed to ballot. The bells will be rung for two minutes. </para>
+          </talk.start>
+        </interjection>
+        <para class="italic">
+          <inline font-style="italic">Thebells having been rung,</inline>
+        </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CLERK, The</name>
+              <name role="display">The Clerk</name>
+            </talker>
+            <para>- In accordance with the Standing Orders, ballot-papers will be distributed to honorable senators, each of whom will mark upon the paper handed to him the name of the candidate for whom he desires to vote. </para>
+          </talk.start>
+        </interjection>
+        <para class="italic">
+          <inline font-style="italic">A ballot having been taken,</inline>
+        </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CLERK, The</name>
+              <name role="display">The Clerk</name>
+            </talker>
+            <para>- I have to announce the result of the ballot as follows: - <inline font-weight="bold">Senator Lynch,</inline> 24 votes; <inline font-weight="bold">Senator Barnes,</inline> 10 votes. AsSenator Lynch has secured a majority of the votes of the whole of the senators present, he is elected to the position of  President. </para>
+          </talk.start>
+        </interjection>
+        <para>
+          <inline font-weight="bold">Senator LYNCH,</inline>having been conducted to the dais, said - I thank honorable senators for the very high honour that they have just conferred upon me. I feel that I shall have the cheerful approval of all honorable senators when I say that my acceptance of this exalted office does not signify that I shall abate in the least my attention to the needs of the people of Western Australia, who elected me to this Senate. Those people have been very good to me over a long period of years, and it would ill become me if I did less than my utmost towards furthering their interests while, at the same time, reconciling with them the interests of the people of the other States. </para>
+        <para>Having crossed from my customary place in this chamber, where for some time I availed myself rather liberally of the privilege accorded to me of freedom of speech, to this honoured dais, may I, with the indulgence of honorable senators, refer briefly to the high and honorable office to which I have been elected, and to matters cognate to it. As all honorable senators are aware, I shall have to administer the rules of debate. I trust that I shall do so justly and impartially. Those rules of debate, which are known as the Standing Orders of the Senate, have a very lengthy history. They came down to us from the mother , of parliaments, the House of Commons, and have been amended and supplemented from time to time to meet the needs of the hour in this legislature. Those Standing Orders make special provision for certain things, a particular one being the rights and privileges of each individual member of this chamber.  His  rights have to be very carefully observed and secured to him ; but they are consistent with and subject to the corporate rights of all other members, and particularly to the supreme right of the Senate itself. There are in this chamber political parties, and not to recognize their existence would be merely to waste time. It may appear to some member or members that he is or they are entitled to certain unwritten rights apart altogether from those that are individually enjoyed, and on that score there may, perhaps, be some misunderstanding in the future. But I do not think that any trouble will arise, especially if we allow the experience of the past &#39; to act as a criterion for the future. In my experience in this connexion, there has been no difficulty&#39;; and I am sure that there will be none if the members of, say, a small political party, forbear to trade upon their slender strength, and if the members of a large political party do not presume to attempt to take advantage of the might of their numbers. I propose, however, to be deliberately blind to the existence of all political parties in this chamber. When an honorable senator rises in his place to address the Senate, and through the Senate the people of this country, I propose to regard him as the appointed mouthpiece of his electors; as a member of this Senate, and to have regard to nothing else whatsoever. </para>
+        <para>We have always to keep in mind the&#34; good name and the standing of this chamber, and if need be stubbornly to defend it anywhere and at any time. Honorable senators cannot have avoided noticing that, for some reason or other, this Senate has not suffered from a surfeit of praise. There have been selfcredentialled authorities who when giving opinions concerning the work of governments and parliaments, have not expressed a friendly opinion of this chamber, but have said that it has failed to achieve the object for which it was constituted. We have to remember, however that the Senate has a long and distinguished pedigree. It has its origin in the free expression of the wishes of a free &#34;people, and derives its sustenance from the same source, so that, as an institution, it has practically no equal in the world. If that be not sufficient, I would remind those who criticize it that, on many occasions, the Senate has proved itself to be the true bulwark of the rights of the&#39; people of this country and that, when appealed to, the people, instead of being behind its &#34;critics, have ranged themselves behind this chamber in overwhelming force. These facts will be in my mind during my occupancy of the Chair. </para>
+        <para>With regard to the Chair itself, as I look upon it, I recall many stirring memories. I recall the high record for impartiality enjoyed by my predecessors, and particularly do I recall the record established by its occupants in the early days of federation, when the respective spheres of each House of the Parliament had to be carefully considered and delicately adjusted. When I think of the problems which confronted them, I appreciate to the full the onerous duties which fell to their lot, and without in any way casting a reflection upon those who followed, I pay my tribute to them. I confess quite freely that I have very little expectation of ever attaining to their high level of excellence. I can promise only to do my level best to imitate their example, since to emulate them would ;be out of the question. </para>
+        <para>Very grave issues confront us. The problems of to-day are no less momentous than were the problems of the days gone by. Indeed it is doubtful if this young country ever faced such serious issues as those of the present moment; but I feel sure that, if we, as the selected counsellors of the nation rise to the occasion and discharge our duties with the same measure of success as that which crowned the efforts of two other worthy elements of our people all will be well. I refer particularly to the fighting sons of Australia who went forth when the occasion demanded and- left an imperishable record on the canvas of time, and also to the pioneers and explorers of Australia who, with supreme courage and iron will, faced and overcame what appeared to be insuperable difficulties. We claim common kinship with them, and if we act as they did we may take hope that all will end well. For my part, I shall, at all times, do my best to uphold the traditions of this high and honorable office, and I feel sure that if honorable senators discharge their duties with their accustomed zeal, our combined efforts will bring closer the fruition of that hope which is daily expressed in the prayer, with which the proceedings of this chamber are opened - namely, the advancement of the true welfare of the people of this dear land of ours. </para>
+        <para>I have to thank <inline font-weight="bold">Senator Lawson</inline> and <inline font-weight="bold">Senator Carroll</inline> for their generous remarks in moving and seconding the motion for my appointment. I can only hope that time will prove that I am deserving of a tithe of the very good things said on my behalf. </para>
+        <para>As to the contest itself, I trembled like an aspen leaf when my old friend <inline font-weight="bold">Senator Barnes</inline> was nominated for the office. I recognized in him a formidable opponent. When I thought of his reputation, of his long service in the political life of this country, of his unsullied character, and his sturdy fighting spirit, I almost quailed. But fortune favoured me in the ballot, and I am sure th-t <inline font-weight="bold">Senator Barnes,</inline> being a good sport, v/ill not complain of the result. In fact, I am pleased that there has been a contest, because never yet has there been a prize worth the winning that has not been con- tested. The fact that the presidency of this chamber was contested gives to the winning of it an enhanced value. In conclusion, I can only repeat that I shall try to do my best to uphold the traditions of this very honorable position. </para>
+        <para>
+          <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE (Western Australia - Vice-President of the Executive Council) &#91;4.50&#93;. - On behalf of honorable senators on this side of the chamber, I offer congratulations to you, <inline font-weight="bold">Mr. President,</inline> and assure you that we shall, at all times, endeavour to support you in the carrying out of the duties of your onerous office. As you have well said, you are following a distinguished line of predecessors, and upon you will rest the responsibility of maintaining the dignity of the procedure of the Senate as hitherto. I cannot help thinking that you, sir, are deserving also of some sympathy.  I  can well imagine that considerable self-sacrifice will be &#176; demanded of you during the stirring debates which you have predicted will take place this session, since you will be forced to listen in silence to the arguments that will be poured into your ears from each side of the chamber. I am sure, however, that if, in the heat of debate, we transcend the Standing Orders we shall be dealt with fairly by you. I must confess to some alarm when I heard you outline your attitude to your future duties, because I am afraid you actually excluded members of the Government from your promise of attention. I trust, however, they will come under the general term of &#34; private members &#34;, and I feel sure that all sections of the chamber will receive fair treatment at your hands. Again I congratulate you, and assure you that we shall always do our best to support you in carrying out the duties of your office. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>12</page.no>
+            <time.stamp />
+            <name.id>K1L</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BARNES, John</name>
+            <name role="display">Senator BARNES</name>
+          </talker>
+          <para>.- I join with the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> in congratulating you, <inline font-weight="bold">Mr. President,</inline> upon your election. I appreciate your remarks concerning me as a candidate for the office. While the ballot was in progress I noticed your face paling as the tension became greater, and relief at the result of the count was adequately expressed by your changed countenance. Your long parliamentary experience and knowledge of procedure will serve you in good stead during your occupancy of the Chair, and I am confident that your term of administration will be noted for its absolute impartiality. Notwithstanding your highly explosive temperament as a private member upon the floor of the chamber, I am sure that nothing in the shape of party feeling will influence your decisions. I am confident that the dignity of this chamber will be quite safe in your keeping, and that all sections of the Senate will receive fair treatment from you. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>13</page.no>
+            <time.stamp />
+            <name.id>JYB</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNN, James Patrick Digger</name>
+            <name role="display">Senator DUNN</name>
+          </talker>
+          <para>. -  I also offer my congratulations to you, <inline font-weight="bold">Mr. President,</inline> upon your appointment. I was interested and intrigued by your remarks with reference to future administration of the Standing Orders of the Senate, and I assure you, on behalf of the group which I have the honour to lead in this chamber, that we shall at all times assist you in carrying out your onerous duties. It is true, as the right honorable the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> has said, that we shall miss your fiery eloquence in debate, but I am sure that you will at all times endeavour to do the right thing, and will allow all honorable senators every reasonable opportunity to state their views. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>13</page.no>
+            <time.stamp />
+            <name.id>KP8</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">JOHNSTON, Edward</name>
+            <name role="display">Senator E B JOHNSTON</name>
+          </talker>
+          <para>. -  The members of the Country party in this chamber wish te join with other honorable senators in congratulating you, <inline font-weight="bold">Mr. President,</inline> on your elevation to your high office. From our knowledge of you, we know that you will carry out the duties of  President  with strict impartiality, and maintain the traditions which have gathered around the office of  President  since the inauguration of the Commonwealth. Should the occasion ever arise that your authority will be questioned - and I hope that it will not - you may always rely on receiving from the members of the Country party the same support that they have extended to your distinguished predecessor. </para>
+        </talk.start>
+        <para>
+          <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE (Western Australia) &#91;4.56&#93;.  -  I desire to intimate to honorable senators that  His Excellency  the Governor-General will be pleased to receive <inline font-weight="bold">Mr. President,</inline> and such honorable senators as desire to accom pany him in the Parliamentary Library, forthwith. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>13</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>- I shall suspend the sitting of the Senate at this stage in order that I may present myself to the Governor-General as the choice of the Senate. I hope that as many honorable senators as can do so will accompany me to the Library. </para>
+        </talk.start>
+        <para class="italic">
+          <inline font-style="italic">Silting suspended at 4.57 p.m.</inline>
+        </para>
+        <para>The <inline font-weight="bold">President (Senator the Hon. P. J.</inline> Lynch) took the chair at 5.17 p.m., and read prayers. </para>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>13</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- I have to announce that, accompanied by honorable senators, I, this day, presented myself to the Governor-General as the person chosen by the Senate as its  President. His Excellency  was pleased to- congratulate me upon my election and to approve of the choice of the Senate. </para>
+          </talk.start>
+        </continue>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF THE HONORABLE SIR JOHN QUICK</title>
+        <page.no>13</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>13</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for Defence</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;5.38&#93;. - <inline font-style="italic">by leave</inline> - I move - </para>
+        </talk.start>
+        <quote>
+          <para>That the Senate expresses its profound regret at the death of &#39;the Honorable <inline font-weight="bold">Sir John</inline> Quick, a former member for- Bendigo in the House of Representatives and Minister of the Crown, places on record its appreciation of his  notable public service, and tenders its deep sympathy to his widow in her bereavement. </para>
+        </quote>
+        <para>The distinguished gentleman to whose memory we are thus paying tribute had a notable career. He was member for Bendigo in the House of Representatives from 1901 to 1913, and PostmasterGeneral in the third Deakin Ministry from 1909 to 1910. Prior to that he had been a member of the Victorian Parliament, representing Sandhurst in the Legislative Assembly from 1880 until his retirement in 1889. He will, however, be chiefly remembered for the work he did in connexion with federation. In truth, and in fact, he was one of the fathers of federation. So far back as 1S93 he originated a plan for a federal convention to. frame an Australian Constitution and he was a member of the Federal Convention of 1897 to 1898. In recognition of his services to federation he was knighted. As honorable senators are well aware he was associated with <inline font-weight="bold">Sir Robert</inline> Garran in the compilation and publication of that monumental work  on  the Federal Constitution, entitled <inline font-style="italic">The Annotated Constitution of the Australian Commonwealth.</inline> Having reached a ripe old age, when many would have thought of retiring from serving the public, he yet rendered a great service to his country from 1922 to 1930 by acting as a Deputy President of the Commonwealth Court of Conciliation and Arbitration. His was a wonderful record of service, and in extending our sympathy to his widow, it  is  well that we pay this testimony to him now that he has passed away. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>14</page.no>
+            <time.stamp />
+            <name.id>K1L</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BARNES, John</name>
+            <name role="display">Senator BARNES</name>
+          </talker>
+          <para>.- I associate myself and the party which I lead with the remarks of the Leader of the Government in the Senate <inline font-weight="bold">(Senator Sir George Pearce). Sir John</inline> Quick was a great Australian, who devoted his mighty brain-power to the service and the benefit of his country. For many years he was prominent in its public life. The constitutional literature which he penned remains as a monument to his great learning and natural abilities. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>14</page.no>
+            <time.stamp />
+            <name.id>K2Z</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BRENNAN, Thomas</name>
+            <name role="display">Senator BRENNAN</name>
+          </talker>
+          <para>. -There is a special reason why I rise to speak to this motion. <inline font-weight="bold">Sir John</inline> Quick and I were fellow-townsmen. What appeals to me most in the career of the late honorable gentleman is the fact that as a boy he started out in life with no natural worldly advantages, yet overcame all obstacles and rose to the position he held in the counsels of his country because of gifts with which he had been endowed.  His  memory will be cherished, not merely because of the great work he did in bringing about federation,  or  because of the literature which he contributed to the elucidation of constitutional problems, but also because his career is an inspiration to the youth  of  Australia, and a kind of beacon light, indicating to them that the success he achieved is open to every son of Australia to-day. </para>
+        </talk.start>
+        <para>Question resolved in the affirmative, honorable senators standing in their places. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAYMENTS DUE BY HUNGARY</title>
+        <page.no>14</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>14</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for Defence</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;5.25&#93;. - <inline font-style="italic">by leave</inline> - A copy of the Protocol signed in London on the 21st January last providing for the suspension, in accordance with the proposal of  President  Hoover, of certain payments due by Hungary under the International Agreements of April, 1930, which was signed on behalf of the Commonwealth by <inline font-weight="bold">Sir Granville</inline> Ryrie, has been placed in the library for the information of honorable senators, </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>14</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers were presented :  - </para>
+      <quote>
+        <para>Conferences of Commonwealth and State Ministers, held at - </para>
+      </quote>
+      <para>Melbourne, April, 1932, </para>
+      <para>Canberra-Sydney, June-July, 1932. </para>
+      <para>Proceedings and decisions of Conferences. </para>
+      <para>International Labour Organization of League of Nations- </para>
+      <para>Reply by International Labour Office to criticisms contained in reports of Australian Delegates on Fifteenth Session (presented to Parliament on 24th February, 1932). </para>
+      <para>Sixteenth Session, held at Geneva, 12th to 30th April, 1932- </para>
+      <para>Draft Conventions and Recommendations. </para>
+      <para>New Guard - Report, by Major-General J. H. Bruche, Chief of the General Staff, in regard to alleged relations between the Defence Department and the &#34;New Guard&#34;. </para>
+      <para>Air Force Act - Regulations amended - Statutory Rules 1932, No. 63. </para>
+      <para>Arbitration (Public Service) Act - Determinations by the Arbitrator, &#38;c. - </para>
+      <para>No. 6 of 1932 - Amalgamated Postal Workers&#39; Union of Australia and the Federated Public Service Assistants&#39; Association of Australia. </para>
+      <para>No. 7 of 1932 - Australian Workers&#39; Union and the Amalgamated Postal Workers&#39; Union of Australia. </para>
+      <para>No. 8 of 1932 - Fourth Division Officers&#39; Association of the Trade and Customs Department and the Commonwealth Public Service Clerical Association. </para>
+      <para>No. 13 of 1932 - Fourth Division Officers&#39; Association of the Trade and Customs Department. </para>
+      <para>No. 15 of 1932-Common Rule <inline font-style="italic">re</inline> Sick Leave. </para>
+      <para>Commonwealth Public Service Act - </para>
+      <para>Appointments - Department of - </para>
+      <para>Interior - A. D. E. Bruce. </para>
+      <para>Treasury - H. G. Collins. </para>
+      <para>Regulations amended - Statutory Rules 1932, No. 53- No. 64- No. 72. </para>
+      <para>Defence Act - Regulations amended - Statutory Rules 1932, No. 46- No. 47- No. 59- No. 80- No. 87. </para>
+      <para>Lands Acquisition Act - Land acquired at Moore Park, New South Wales - For Defence purposes. </para>
+      <para>Naval Defence Act - Regulations amended - Statutory Rules 1932, No. 54- No. 62- No. 65- No. 74- No. 78. </para>
+      <para>New Guinea Act - Ordinances of 1932 - </para>
+      <para>No. 7 - Immigration. </para>
+      <para>No. 8 - Laws Repeal and Adopting. </para>
+      <para>No. 9- Public Health (No. 2). </para>
+      <para>No. 10 - Mining (No. 2). </para>
+      <para>No. 11- Supply (No. 1) 1932-1933. </para>
+      <para>No. 12 - Superannuation (No. 2). </para>
+      <para>Northern Territory Acceptance Act and Northern Territory (Administration) Act- </para>
+      <para>Ordinances of 1932 - </para>
+      <para>No. 11 - Real Property. </para>
+      <para>No. 12 - Maintenance Orders (Facilities for Enforcement). </para>
+      <para>No. 13 - Encouragement of Mining. </para>
+      <para>No. 14 - Mining. </para>
+      <para>No. 15 - Matrimonial Causes. </para>
+      <para>Stock Diseases Ordinance - Regulations amended. </para>
+      <para>Seat of Government Acceptance Act and Seat of Government (Administration) Act- </para>
+      <para>Ordinances of 1932 - </para>
+      <para>No. 15 - Liquor (No. 2). </para>
+      <para>No. 16. - Deserted Wives and Children. </para>
+      <para>No. 17 - Dentists Registration (No. 2). </para>
+      <para>No. 18- Police. </para>
+      <para>Companies Ordinance - Regulations amended. </para>
+      <para>Court of Petty Sessions Ordinance (No. 2) - Rules of the Court of Petty Sessions. </para>
+      <para>War Service Homes Commission - Report of Committee appointed to inquire into the effect of the depression upon purchasers and borrowers under the War Service Homes Act. </para>
+      <para>Australian Soldiers&#39; Repatriation Act - Regulations amended - Statutory Rules 1932, No. 55- No.68. </para>
+      <para>Canned Fruits Export Control Act - Regulations amended, &#38;c. - Statutory Rules T932, No. 57- No. 66. </para>
+      <para>Customs Act and Commerce (Trade Descriptions) Act - Regulations amended - Statutory Rules 1932, No. 48- No.67- No. 77. </para>
+      <para>Dairy Produce Export Charges Act - Regulations amended - Statutory Rules 1932, No. 84. </para>
+      <para>Dairy Produce Export Control Act - Regulations amended - Statutory Rules 1932, No. 82. </para>
+      <para>Export Guarantee Act - Return showing assistance granted, to 30th June, 1932. </para>
+      <para>Patents Act - Regulations amended - Statutory Rules 1932, No. 69. </para>
+      <para>Quarantine Act - Regulations amended - Statutory Rules 1932, No. 52- No. 75- No. 85. </para>
+      <para class="block">Science and Industry Endowment Act - Auditor-General&#39;s Report on the Science and Industry Endowment Fund as at 30th June, 1932. </para>
+      <para class="block">War Service Homes Act - </para>
+      <para>Particulars of an amendment, dated 9th May, 1932, of an arrangement between the War Service Homes Commissioner and the Government of the State of Tasmania of 7th March, 1924, relating to the purchase of land, erection of dwelling houses, &#38;c., in that. State. </para>
+      <para>Regulations amended - Statutory Rules 1932, No. 56- No. 76. </para>
+      <para>Audit Act - Regulations amended - Statutory Rules 1932, No. 45. </para>
+      <para>Cotton Industries Bounty Act - </para>
+      <para>Regulations amended - Statutory Rules 1932, No. 58. </para>
+      <para>Return for 1931-32. </para>
+      <para>Excise Act - Regulations amended - Statutory Rules 1932, No. 51. </para>
+      <para>Commonwealth Bank Act - Regulations amended - Statutory Rules 1932, No. 50. </para>
+      <para>Commonwealth Inscribed Stock Act - Regulations amended - Statutory Rules 1932, No. 71. </para>
+      <para>Flax and Linseed Bounties Act - </para>
+      <para>Regulations amended - Statutory Rules 1932, No.61. </para>
+      <para>Return for 1931-32. </para>
+      <para>Insurance Acts - Regulations - Statutory Rules 1932, No. 73. </para>
+      <para>Navigation Act - Regulations amended - Statutory Rules 1932, No. 70. </para>
+      <para>Papua and New Guinea Bounties Act - Return for 1931-32. </para>
+      <para>Sales Tax Assessment Acts - Regulations amended - Statutory Rules 1932, No. 79. </para>
+      <para>Spirits Act - Regulations amended - Statutory Rules 1932, No. 60. </para>
+      <para>Sulphur Bounty Act- Return for 1931-32. </para>
+      <para>Wine Export Bounty Act - Return for 1931-32. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF SIR JOHN NEWLANDS</title>
+        <page.no>15</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>The <inline font-weight="bold">PRESIDENT (Senator the Hon. P. J. Lynch).</inline> - I have to inform the Senate that a letter has been received from <inline font-weight="bold">Mr. D.</inline> J. Newlands, conveying to the Senate, on behalf of the late <inline font-weight="bold">Hon. Sir John</inline> Newlands&#39; family, his deep appreciation of the resolution of sympathy and condolence passed by the Senate on the occasion of the death of his father. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ASSENT TO BILLS</title>
+        <page.no>15</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Assent to the following bills reported :  - </para>
+      <para>Cotton Industries Bounty Bill. </para>
+      <para>Supply Bill (No. 1) 1932-33. </para>
+      <para>Invalid and Old-Age Pensions Appropriation Bill 1932. </para>
+      <para>War Pensions Appropriation Bill 1932. </para>
+      <para>Supplementary Appropriation Bill 1930-31. </para>
+      <para>Supplementary Appropriation (Works and Buildings) Bill 1930-31. </para>
+      <para>Loan (Unemployment Relief Works) Bill (No. 2). </para>
+      <para>Acts Interpretation Bill. </para>
+      <para>Commonwealth Inscribed Stock Bill. </para>
+      <para>Forestry Bureau Bill. </para>
+      <para>Immigration Bill. </para>
+      <para>Insurance Bill (No. 2). </para>
+      <para>Solar Observatory Fund Bill. </para>
+      <para>Crimes Bill. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>OPPOSITION APPOINTMENTS</title>
+        <page.no>16</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>16</page.no>
+            <time.stamp />
+            <name.id>K1L</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BARNES, John</name>
+            <name role="display">Senator BARNES</name>
+          </talker>
+          <para>
+            <inline font-style="italic">.- by leave</inline>- I desire to announce to the Senate that I have been elected Leader of the Opposition in the Senate, <inline font-weight="bold">Senator O&#39;Halloran, Deputy</inline> Leader, and <inline font-weight="bold">Senator Hoare,</inline> Opposition Whip. <inline font-weight="bold">Senator Dooley,</inline> who was formerly  Deputy  Leader of the Opposition, did not seek re-election. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>16</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>STATEMENT BY MR. BRUCE</title>
+          <page.no>16</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>16</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>- I ask the Leader of the Government in the Senate <inline font-weight="bold">(Senator Pearce)</inline> whether his attention has been directed to the following statement, made by <inline font-weight="bold">Mr. Bruce:</inline> - </para>
+          </talk.start>
+          <quote>
+            <para>Prosperity for Australia and the world will come from international co-operation and creation of higher prices for commodities, and not by a further reduction of standards of living wages. Australia, unhesitatingly, believes in rejecting the reduction idea, and, instead is bending its efforts to secure an increase in commodity prices. </para>
+          </quote>
+          <para class="block">Does that statement represent the declared policy of the Government, and will such a policy be enunciated by it in this chamber when dealing with the allowance or disallowance of arbitral tribunal awards? </para>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.My attention, has not previously been directed to the report, and I am, therefore, not in a position to say whether it is or is not correct. I can only say that the Government&#39;s policy on such questions will be made known to the Senate when the budget and measures arising out of it are introduced. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator Daly</name>
+              </talker>
+              <para>-  Will <inline font-weight="bold">Mr. Bruce</inline> be speaking with one voice and the Government with another? </para>
+            </talk.start>
+          </interjection>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.No. The voice of the Government will be heard throughout the land. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>16</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>IMPERIAL ECONOMIC CONFERENCE AT OTTAWA</title>
+          <page.no>16</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>16</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>- I ask the Leader of the Government in the Senate when the Government intend to release the report of the proceedings of the Imperial Economic Conference at Ottawa, and to inform the Senate of the negotiations that transpired at that conference between the representatives of the British Government and the Commonwealth Government, in connexion with the Australian tariff? </para>
+          </talk.start>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.A statement will be made on the subject by the Assistant Treasurer <inline font-weight="bold">(Senator Greene)</inline> during the present sitting of the Senate. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>16</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SHALE DEPOSITS IN NEW SOUTH WALES</title>
+          <page.no>16</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>16</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>- Has the Minister for Development <inline font-weight="bold">(Senator McLachlan)</inline> seen a statement in the press to the effect that certain shale deposits in New South Wales have been sold by the Commonwealth Government to two citizens in that State for approximately &#163;30,000? Has the Minister also seen a prospectus issued by these two gentlemen in which it is stated that they anticipate being able to reap a reward of approximately &#163;100,000? Is it the intention of the Minister to make a statement to the Senate setting out the reasons for, and the conditions surrounding, the disposal of the deposit and plant to these persons? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>16</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>- If the matter is of sufficient interest to the Senate, I shall be pleased to make a statement on the subject. The report mentioned by the honorable senator is far from being a correct account of what has actually happened. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>16</page.no>
+              <time.stamp />
+              <name.id>K1Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">RAE, Arthur</name>
+              <name role="display">Senator RAE</name>
+            </talker>
+            <para>- Is it not a fact that the persons who have acquired the shale deposits in New South Wales are residents of Victoria and not of New South Wales as mentioned by <inline font-weight="bold">Senator Foll?</inline></para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLACHLAN</name>
+              </talker>
+              <para>- One is a Victorian, and I believe that the other is a resident of Tasmania. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>16</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BANKRUPTCY LEGISLATION</title>
+          <page.no>16</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>16</page.no>
+              <time.stamp />
+              <name.id>JZ6</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;HALLORAN, Michael</name>
+              <name role="display">Senator O&#39;HALLORAN</name>
+            </talker>
+            <para>- I ask the Minister representing the AttorneyGeneral if the Government has decided to submit the Commonwealth Bankruptcy legislation to a committee consisting of members of another place. If that is so, will the Minister bring before that committee a suggestion which I put to him some time ago with respect to a more effective means of affording relief to primary producers such as has been suggested by certain organizations in South Australia ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>16</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>- I understand that the Attorney-General <inline font-weight="bold">(Mr. Latham)</inline> will submit to a committee of members of another place certain matters concerning our bankruptcy legislation that have been referred to him. Whether the Attorney-General will include the question to which the honorable senator refers, which is a very difficult one, I cannot say at present. I shall bring the matter under his notice and advise the honorable senator of the position later. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>17</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PRICE OF BARBED WIRE</title>
+          <page.no>17</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>17</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>- I ask the Minister representing the Attorney-General whether he is aware that, according to reports, the price of barbed wire to the primary producer has recently been increased to the extent of &#163;2 a ton; and whether it is His intention to visit Newcastle in the near future for the purpose of investigating the economic conditions of this industry, along lines similar to his investigation of the sugar industry in Queensland, in order that the price of this commodity may be reduced, not only to the sugar-growers of that State, but also to every other primary producer in Australia ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>17</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>- I was not aware that it was one of the functions of a lawyer or of a former acting AttorneyGeneral to deal in barbed wire.&#39; </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>17</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>LAUSANNE CONFERENCE ON REPARATIONS</title>
+          <page.no>17</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>17</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>UAP</party>
+              <role>Minister for Defence</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;5.46&#93;. - <inline font-style="italic">by leave- I</inline> lay on the table of the Senate the report of the Minister for External Affairs <inline font-weight="bold">(Mr. Latham)</inline> on the conference upon reparations held at Lausanne in June and July last. Annexed to it are the texts of the several agreements that were signed on the 9th July last by <inline font-weight="bold">Sir Granville</inline> Ryrie on behalf of the Commonwealth of Australia. </para>
+          </talk.start>
+          <para>I think I can safely say that there was universal relief, not only throughout Australia but also throughout the world, when the news was received that these agreements had been reached at Lausanne. The world had been watching with anxious eyes what was being transacted there, and agreeable surprise was caused by the different positions taken up, particularly by nations such as France and Germany, which at previous conferences had displayed a somewhat antagonistic attitude towards one another. At  thi3  conference those countries appeared to realize the urgent necessity for reconciliation and agreement. I think it will be agreed, too, that the settlement arrived at was a very satisfactory one. </para>
+          <para>May we express the hope that, now that Germany  i3  relieved as she has been by this settlement, she may be enabled to proceed with such an economic reconstruction as will tend to the stabilization of Europe. With a nation like Germany playing such an important part as she does in the economic structure of Europe, it is obvious that there could be no solid ground for European reconstruction unless she was able to get on her feet. That is the result which this conference achieved. </para>
+          <para>So far as Australia is concerned, those who read the agreement will, I believe, agree that this settlement is not all that we might wish for as a final solution of the whole problem of war debts and reparation payments, by means of an allround  cancellation  of debts. But the attitude of the United States of America, the principal creditor power, had to be considered, and as it was not prepared to take part in the conference at Lausanne it was necessary to restrict the settlement there to reparations and European war debts. A settlement of the reparation problem having been found, its execution depends upon a satisfactory solution of the problem of war debts. Honorable senators will find this subject dealt with in the last series of annexures to the report. Briefly, the position is that the agreements will not come into operation until they are ratified, and that they will not be ratified until the war .debt problem has been satisfactorily disposed of. Should the worst happen, and a satisfactory solution of the war debts problem not be arrived at, a new situation will arise; the agreements at Lausanne will be of no effect, and the whole question will have to be reconsidered. Meanwhile, until the agreements are ratified, or ratification&#39; is decided to be impossible, war debt payments between the parties at Lausanne are regarded as suspended. </para>
+          <para>So much for reparations and war debts. But although the conference believed that this settlement of the reparations problem would substantially help, in the words of the Advisory Committee, &#34; to re-establish the confidence which is the very condition of economic stability and world peace&#34;, they realized that it was also necessary to examine, and endeavour to find a solution for, many other economic problems, and that for that purpose the collaboration of the United States of America was essential. They, therefore, decided to invite the League of Nations to convoke a conference on monetary and economic problems, and appointed a committee of experts to make a preliminary examination of these- problems. The Council of the League has accepted the invitation, and has confirmed the decision to appoint a committee of experts; and the United States of America have agreed to take part in the work of this committee. S;j that those honorable senators who desire te discuss this matter may have an opportunity to do so, I move - </para>
+          <quote>
+            <para>That the paper be printed. </para>
+          </quote>
+          <para>Debate (on motion by <inline font-weight="bold">Senator Barnes)</inline> adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>18</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>IMPERIAL ECONOMIC CONFERENCE AT OTTAWA</title>
+          <page.no>18</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>18</page.no>
+              <time.stamp />
+              <name.id>KNF</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>NAT</party>
+              <role>Assistant Minister</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MASSY-GREENE, Walter</name>
+              <name role="display">Senator GREENE</name>
+            </talker>
+            <para>. - <inline font-style="italic">by leave -</inline> I.  am pleased to inform the Senate that the Ottawa Imperial Economic Conference successfully arranged a series of agreements between the British dominions, the Crown colonies, and the United Kingdom, which definitely assure a substantial measure of Imperial economic co-operation in the future. </para>
+          </talk.start>
+          <para>The basis of the agreements is so wide and so well conceived that upon them the Empire can be developed as an economic unit, while at the same time no part of it need sacrifice legitimate aspirations for the maintenance and. development within its own borders of all local industries for which there are sound economic prospects. A foundation is laid upon which, with further goodwill and cooperation between Empire countries, there can be built the strongest economic unit that history has ever known. </para>
+          <para>The record of earlier conferences proves how immense have been the difficulties encountered. Although the Empire sentiment of previous meetings was genuine enough, it had never been possible to unravel, the tangle of all the conflicting trade policies, and rewind them so as to strengthen them all into a cord that would bind the whole of the Empire closer together. Common adversity has taught all countries to appreciate the problems of their neighbours, and especially of their kinsmen. It has helped the members of the British  Commonwealth, to  reach this great common understanding, based upon the principle of mutual help to each other&#39;s trade, and, therefore, is full of promise and of hope. The infinite variety of Empire products to be considered has, in itself, proved an obstacle in the past. On this occasion, the difficulty which it presented was greatly reduced by preliminary investigation in the countries concerned. In no other dominion was this carried out with thoroughness equal to that displayed in Australia. A committee, consisting of Messrs. F. L. McDougall, A. E. Gough, W. Devereux, and <inline font-weight="bold">Sir James</inline> Cooper, assisting the High Commissioner for Australia in Britain, carried out investigations in London, and- conducted preliminary discussions, under direction of the Australian Government, with British Ministers and departments. In Australia-, a Cabinet sub-committee worked with officers of the Development Branch and of the Departments of Trade and Customs and Commerce. Advice and assistance from the leaders of Australian industries were sought, and willingly made available. Preliminary discussions also took place with the representative of the British Government and with the Senior British Trade Commissioner in Australia. After this preparation, much detail could be dealt with at the conference with the minimum of delay. Even so, the responsibility that was carried by our delegates, and the work which the whole delegation was called upon to perform, can only be described as immense. In numbers, they were almost the smallest of the delegations. Unlike the delegates attending previous Imperial conferences, they had not the staff of Australia House to call upon and available, on short notice, to give any necessary assistance. But what they lacked in numbers was made g*od  by ability and zeal. Australia has good reason to be grateful to the leaders of thedelegation for the consummate skill and devotion with which they maintained the Australian case, and also to the staff of the delegation for the keenness, loyalty and efficiency with which the leaders were supported. </para>
+          <para>Honorable senators are aware that, until this year, out of all Australian products, only wine, sugar, and dried fruits enjoyed any useful fiscal preference in the British market. Valuable as this preference had proved to the industries concerned, it represented help to only a relatively insignificant proportion df Australia&#39;s exports. </para>
+          <para>After more than three generations, the British freetrade policy was changed this year, and the Import Duties Act imposed duties of 10 per cent, upon all imported goods, including foodstuffs other than wheat and meat, but excepting all the principal raw materials. Empire goods were exempted from these duties until the 15th November next; but failing an agreement to the contrary before that date, the duties would automatically have been imposed upon them also. </para>
+          <para>By Article 1 of the new agreement, the British Government undertakes that continuance of free entry will be allowed to all Australian goods now enjoying it under that Import Duties Act. This applies to 53 items of production. The only reservation is with regard to eggs, poultry, butter and cheese; These products are to receive an even more favourable margin of preference. The British Government, however, reserves the right after three years, if it considers it necessary in the interests of the United  King-dom  producers, to review the question of their free entry ; but at the same time, undertakes to maintain the full margin of preference over foreign supplies. This continuance of free entry under the Import Duties Act secures the benefit for all Australian exports concerned and every Australian product for which assistance was asked has obtained at least this assistance. </para>
+          <para>By Articles 2 and 3, the British Government undertakes to give certain specified goods definite margins of preference over similar foreign goods. Among these are some of the most important of Australian exports. The actual list, with the rates, has been published in the press. </para>
+          <para>Article 4 guarantees the maintenance, unless Australia&#39;s consent is obtained for an alteration, of at least the 10 per cent, duty upon foreign goods of a class that would compete with the more important Australian products which are secured free entry under Article 1 of the agreement. </para>
+          <para>Article 5 contains a provision that the preferences accorded to wheat, copper,&#34; lead and zinc are conditional upon these commodities being offered for sale in the United Kingdom at prices not exceeding the world price. </para>
+          <para>This secures to Empire producers the advantage of an assured market for a large proportion of their output of these goods, and, even without the power of raising prices, is a benefit which their representatives indicated was much valued. In any case, the large proportion of the Empire supply which in any event must be sold outside the Empire would inevitably set the price for the whole output and prevent any higher price being charged in the sheltered British market. But the shelter remains valuable. </para>
+          <para>The meat agreement is covered&#39; by Article 6. This will probably prove the most far-reaching and valuable of all the Ottawa achievements, and reflects the greatest credit on the leaders of the Australian Delegation, who persevered with the negotiations until at last agreement was reached. </para>
+          <para>The agreement definitely aims at the raising of the Empire prices of all meats to a level, that will be payable to efficient  producers in both the United Kingdom and the dominions. To accomplish this, the British Government undertakes to restrict the import of all classes of foreign meat, whether chilled beef, frozen beef, mutton, lamb or pig products. </para>
+          <para>If such a price level is attained, the benefit to producers will far exceed any advantage they could have derived from a preferential duty. Unfortunately a glut has already accumulated in stores in England, and until it has been cleared up prices can scarcely improve. The dominions have agreed to co-operate in the clearing of this glut by regulating their exports of meat to the United Kingdom during the calendar year, 1933. This is the only period of the five year currency of the agreement during which the dominions are to be subject to any restriction, unless it is imposed later with their consent. On the other hand, the restriction upon foreign meat is to continue during the whole period of the agreement. The fact that the restriction is to include chilled beef as well as other meats makes it particularly effective, while the datum year ending the 30th June, 1932, upon which restrictions and quotas are based, renders the agreement especially favorable to Australia and New Zealand. The actual plan of meat restriction, like the schedules which concern our own tariff, will not be announced until it is actually instituted. There is a provision to safeguard the British market from undue shortage of supply if, because of drought or other unforeseen causes, Empire production falls short of expectations. If the meat plan is successful, it may well become the model for further agreements between friendly countries upon a world basis for an organization of supply and distribution designed to secure a stable market to the producers and an assured supply to the consumers with the minimum of restriction and interference. Such an organization may be successful in reducing the extremes of booms and slumps with all the excessive dislocations and misery they inflict upon innocent people. These first six articles provide for the concessions to Australian exports. </para>
+          <para>Apart from the meat agreement they may be briefly summarized as conferring upon the dairy group substantial assistance to butter and cheese of which the present export is considerable, and a substantial margin of preference which offers the prospect of enlarged trade in tinned milk and dried milk. </para>
+          <para>In the fruit group, apples, pears, canned fruits and sultanas and raisins have all received further substantial preferences, and the present volume of their export is considerable. </para>
+          <para>The existing preference on currants is confirmed, while oranges, grape fruit, fresh grapes and canned apples all receive a substantial further margin of preference which provides them with opportunities for expansion. </para>
+          <para>Eggs have an increased preference. So also has honey. The preference is doubled upon the lighter strengths of wine. Besides aiding the export of this type of wine, the greater preference will make less profitable the practice of blending several gallons of lighter foreign wine with one gallon of heavy wine by which the previous preferences were to some extent defeated. In addition, 53 other items, including leather, flour, barley, tallow, and tinned meat, are secured in the continuance of the benefit under the Import Duties Act, while the special preference that was previously enjoyed by sugar remains. </para>
+          <para>Articles8 to 14 inclusive define the past preferences to Britain, of which the agreement secures the continuance, and new concessions which Australia now undertakes to make. </para>
+          <para>It has been agreed with the British Government to treat the schedules attached to these articles as confidential until they are presented to Parliament after the return to Australia of the Minister for Trade and Customs, <inline font-weight="bold">Mr. Gullett.</inline></para>
+          <para>In broad principle, Article 8 deals with the margins of preference which will be maintained, or extended, with the object of diverting to Britain foreign trade in articles which Britain can supply. Existing margins of preference are to be maintained, and those which fall short of an agreed formula contained in one of the schedules are to be increased to the margin which is provided in it. Another schedule provides for certain reservations made in the interests of Australian production and Australian trade with countries which have been good customers. </para>
+          <para>In Article 9, the Australian Government undertakes that protection by tariff shall be afforded only to those industries which can reasonably be assured of sound opportunities for success. </para>
+          <para>In Article 10, the Australian Government further undertakes that, during the currency of the agreement, protective duties shall not exceed such a level as will give United Kingdom producers full opportunity of reasonable competition on the basis of relative cost of economical and efficient production, provided that in the application of such a principle special consideration may be given to the case of industries not fully established. </para>
+          <para>In Article 11, the Australian Government undertakes that a review shall be made as soon as practicable by the Australian Tariff Board of the existing protective duties in accordance with the principles  laid  down in Article 10, and that, after receipt of the report and recommendation of the Tariff Board, the Commonwealth Parliament shall be invited to vary, wherever necessary, the tariff on goods of United Kingdom origin in such a manner as to give effect to these principles. </para>
+          <para>Article 12 provides that no new protective duties shall be imposed) and no existing duty be increased on United Kingdom goods to an amount in excess of the recommendation of the Tariff Tribunal. </para>
+          <para>Article 13 secures to United Kingdom producers full rights of audience before the Tariff Board when it has under consideration matters arising out of Articles 11 and 12. </para>
+          <para>In Article 14 the Australian Government undertakes, so far as goods of United Kingdom origin are concerned, to repeal, as soon as it is practicable, the prohibitions which have been imposed during the last two years, to remove the surcharges, and, when Australian finances will allow, to reduce, or remove, primage duty. </para>
+          <para>It  will be noted that these undertakings practically coincide with the tariff policy which was announced by the leader of the United Australia party in his policy speech delivered .before the last federal election. It is particularly gratifying to find that the policy then announced should have so completely met the needs of the time that it has become the basis of the great inter-Empire agreement reached at Ottawa, and that it is incorporated, not only in the Australian agreement, but also in the agreements between Britain and other dominions. </para>
+          <para>In Articles 7 and 14 provision is made for the extension of certain of the preferences on both sides so as to include the Crown colonies in the agreement. The schedules of items appended to these articles are also confidential until action can be taken in Australia and in the various colonies concerned. </para>
+          <para>The final article, No. 16, provides that the agreement shall remain in force for five years, and thereafter is to continue subject to termination upon six months&#39; notice. </para>
+          <para>It is not possible at present to estimate what &#34;will be the benefit to British trade in Australia as the result of these undertakings. In any case, the Australian market is limited by our purchasing power, and that can only be substantially increased by improved prices for our exports. </para>
+          <para>By concessions to Australia that improve the market for our exports, Britain is helping us to help her trade. &#34;Whether by the concession of a duty which merely extends shelter . for dominion products, as in the case of metals and wheat, or whether by definite act directed to raising the price of Empire products, such as meat, the agreement will make possible a greater volume of two-way trade, to which Australia&#39;s concessions will contribute materially. From this agreement, it is hoped, a new prosperity will develop to the benefit of those industries which produce for the home market as well as those that produce for export. </para>
+          <para>Some idea of how extensive the helpful influence of the Ottawa agreement may become can be formed from an analysis of the overseas trade statistics for the year 1930-31, which are the most recent available. In that year the total value of exports of Australian merchandise was &#163;87,103,241. Of that total, &#163;39,317,759 was exported to the United Kingdom. At that time goods to the value of &#163;3,840,751 received some useful preference in the British market. Had the preference now agreed to been then in force, the total of the value of goods receiving assistance would have been about &#163;26,000,000, or more than 65 per cent. of. all Australia&#39;s exports to the Mother Country. But the value of preferences is not limited to that alone, as no estimate is made as to the effect a better market might have had in increasing production. </para>
+          <para>As export parity to the United Kingdom fixes the value in many cases of the total crop, including that part which is exported to other countries or is consumed in Australia, any increase in the price obtained for the proportion exported to Britain would be reflected in a better return to the producer for his whole output. Any such improvement would tend to correct the wide disparity in prices of primary and manufactured products which has destroyed the rural purchasing power until it has become the chief cause of unemployment. No one would suggest that the Ottawa Conference agreements alone can bring about results in a short time to wipe out this disparity or cure the depression, but they are a definite and practical step on the upward track. They lead us forward by the road to better trade, which is the way to general recovery. I lay on the table a copy of this statement and move - </para>
+          <quote>
+            <para class="block">That the paper be printed. </para>
+          </quote>
+          <para>Debate (on motion by <inline font-weight="bold">Senator Barnes)</inline> adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>BANKRUPTCY BILL</title>
+        <page.no>22</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Assent reported. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>FEDERAL CENTRAL ADMINISTRATION</title>
+        <page.no>22</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Transfer to Canberra</title>
+          <page.no>22</page.no>
+        </subdebateinfo>
+        <para>
+          <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.Information is being obtained and replies will be furnished as soon as possible to <inline font-weight="bold">Senator Rae</inline> with reference to Central Administration officers in Melbourne, and their transfer to Canberra. </para>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>22</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SCULLIN GOVERNMENT</title>
+          <page.no>22</page.no>
+        </subdebateinfo>
+        <para>Dismissals and Economies</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>22</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>asked the Minister representing the Prime Minister - <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>How many dismissals in the Commonwealth Public Service were brought about by the previous Government? </para>
+            </item>
+            <item label="2.">
+              <para>What was the total amount in monetary cuts in soldiers&#39; and sailors&#39; pensions and those of dependants of ex-soldiers and sailors of the Australian Imperial Force, made by the previous Government? </para>
+            </item>
+            <item label="3.">
+              <para>What was the total amount in monetary cuts in maternity bonus, made by the previous Government? </para>
+            </item>
+            <item label="4.">
+              <para>What was the total amount of monetary cuts in old-age and invalid pensions made by the previous Government? </para>
+            </item>
+            <item label="5.">
+              <para>What government was in power when the above action was taken? </para>
+            </item>
+          </list>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.I refer the honorable senator to the reply given by me to a question in similar terms asked by him without notice on the 24th May. (See <inline font-style="italic">Hansard</inline> No. 14, page 1230.) </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>22</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SHIPBUILDING</title>
+          <page.no>22</page.no>
+        </subdebateinfo>
+        <para>South Sea Island Trade</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>22</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>asked the Minister representing the Prime Minister - <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>In view of the statements made in the press of New South Wales, that the shipping firm of Burns, Philp and Company are deciding to have two steamers built overseas for the South Sea Island trade, will the Government pay to Burns, Philp and Company the difference in cost in order to enable the ships to be built in Australia? </para>
+          </quote>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>22</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- The Government is not in possession of any information in regard to this matter that would enable it to give consideration to the honorable senator&#39;s suggestion. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>22</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>UNEMPLOYMENT</title>
+          <page.no>22</page.no>
+        </subdebateinfo>
+        <para>Relief Work in New South Wales. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>22</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>asked the Minister representing the Prime Minister - <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Is it the intention of the Federal Government to see-that all relief work done through the Federal Unemployment Council in the State of NewSouth Wales shall be paid for on the basis of present award rates and hours of labour ? </para>
+          </quote>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.When the Commonwealth Government made available &#163;600,000 for the relief of unemployment in New South Wales, it announced that no conditions as to the terms of employment would be laid down by the Commonwealth. The greater part of the &#163;600,000 was allotted by the Employment Council for expenditure by local governing or other statutory authorities. In respect of grants or loans made to such bodies, the conditions as to rates of pay or other industrial conditions have been left for determination by those bodies. Where works recommended by the Commonwealth Employment Council for New South Wales have been carried out by the Department of the Interior, present award rates and hours of labour, subject to the provisions of the Financial Emergency Acts 1931, have been observed. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>22</page.no>
+        <time.stamp>18:15:00</time.stamp>
+      </adjournmentinfo>
+      <para>Senate adjourned at 6.15 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

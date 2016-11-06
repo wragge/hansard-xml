@@ -1,251 +1,1505 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1928-06-14%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1928-06-14%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1928-06-14%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1928-06-14%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1928-06-14%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1928-06-14%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1928-06-14%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1928-06-14/19280614_senate_10_119.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1928-06-14</date>
+    <parliament.no>10</parliament.no>
+    <session.no>1</session.no>
+    <period.no>3</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>6093</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1928-06-14</day.start>
+      <para>The <inline font-weight="bold">President. (Senator the Hon.</inline><inline font-weight="bold">Sir John</inline> Newlands) took the chair at 3 p.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>6093</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BUNDABERG SERUM TRAGEDY</title>
+          <page.no>6093</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6093</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator NEEDHAM</name>
+            </talker>
+            <para>- I ask the Minister representing the Prime Minister if it is the intention of the Government to pay compensation to the parents of those children who unfortunately lost their lives in the Bundaberg serum tragedy. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6093</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- The matter is receiving the attention of the Government and the right honorable the Prime Minister expects to be able to make a statement in another place this afternoon. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>6094</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers were presented :  - </para>
+      <quote>
+        <para>Development and Migration Coin-mission - </para>
+        <para>Report relating to the Gold Mining </para>
+        <para>Industry of Australia. </para>
+        <para>New Guinea - Report to the Council of the League of Nations on the Administration of the Territory of New Guinea from 1st July, 1926, to 30th June, 1927.&#39; </para>
+        <para>Norfolk Island Act - Ordinance No. 3 of 1928 - Plant and Fruit Diseases. </para>
+        <para>Post and Telegraph Act - Regulations amended - Statutory Rules 1928, No. 35. </para>
+        <para>Federal Pastoral Advisory Committee - Report. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PRINTING COMMITTEE</title>
+        <page.no>6094</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>
+        <inline font-weight="bold">Senator THOMPSON</inline>brought up the fifth report of the Printing Committee, and moved, <inline font-style="italic">by leave -</inline></para>
+      <quote>
+        <para>That the report be adopted. </para>
+      </quote>
+      <para>Motion agreed to. </para>
+      <para>Motion (by <inline font-weight="bold">Senator Sir George</inline> Pearce) agreed to - </para>
+      <quote>
+        <para>That <inline font-weight="bold">Senator Graham</inline> be appointed to fill the vacancy existing on the Printing Committee. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>BILLS: THIRD READING</title>
+        <page.no>6094</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>The following bills (on motion by <inline font-weight="bold">Senator Sir George</inline> Pearce) were read a third time :  - </para>
+      <quote>
+        <para class="block">National Debt Sinking Fund Bill. </para>
+        <para class="block">Invalid and Old-age Pensions Appropriation Bill. </para>
+        <para>War Pensions Appropriation Bill.. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>CONCILIATION AND ARBITRATION BILL</title>
+        <page.no>6094</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para class="block">Message received from the House of Representatives intimating that it had agreed to the amendments made by the Senate in this bill. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>WAR PRECAUTIONS ACT REPEAL BILL</title>
+        <page.no>6094</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill received from the House of Representatives. </para>
+      <para>Standing and Sessional Orders suspended and bill (on motion by <inline font-weight="bold">Senator Sir George</inline> Pearce) read a first time. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>GEOPHYSICAL SURVEY BILL</title>
+        <page.no>6094</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill received from the House of Representatives. </para>
+      <para>Standing and Sessional Orderssuspended and bill (on motion by <inline font-weight="bold">Senator Sir George</inline> Pearce) read a first time. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SUPPLY BILL (No. 1) 1928-29</title>
+        <page.no>6094</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Morion (by <inline font-weight="bold">Senator Sir George</inline> pearce) proposed - </para>
+      <quote>
+        <para>That the bill be now read a first time. </para>
+      </quote>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6094</page.no>
+            <time.stamp>15:11:00</time.stamp>
+            <name.id>JXJ</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">NEEDHAM, Edward</name>
+            <name role="display">Senator NEEDHAM</name>
+          </talker>
+          <para>- I tale the opportunity which the motion for the first reading of this bill offers to refer to a matter that has been brought under my notice relating to <inline font-weight="bold">Mr. S.</inline> A. Webb, a returned soldier, of Holbrook, New South Wales. I am advised that <inline font-weight="bold">Mr. Webb</inline> tendered for a plantation in Sopa-Sopa, New Guinea, for the purpose of growing palms and producing copra, and paid two deposits, one of &#163;1,000 and another of &#163;500. The location map accompanying the Expropriation Board&#39;s departmental catalogue, setting out the properties available in the third group of estates, showed that SopaSopa was on an island, whereas it is really mainland country in Manus, and is practically useless for copra production. Those who understand the business state that island land is best suited to this form of production. <inline font-weight="bold">Mr. Webb</inline> tendered for the property in the belief that it was island land, and he was offered 1,000 hectares of virgin land free of all charges provided he took the whole of the property at the tender price of &#163;10,000. Messrs. J. J. Larkin and N. J. Whitley, two officials of the Expropriation Board, who accompanied <inline font-weight="bold">Mr. Webb</inline> on his visit of inspection subsequent to the acceptance of his tender, stated that even with the additional area made available to him the property would be useless for his purpose. They found that a large area of the plantation was swamp land - not indicated in the catalogue - and that the palms growing on it were affected with the disease, <inline font-style="italic">promoccathica antigua,</inline> and were dying out. The following letter which has been handed to me, will give an idea of the position :  - </para>
+        </talk.start>
+        <quote>
+          <para>Noru, 13th October, 1927. </para>
+          <para>To <inline font-weight="bold">Mr. A.</inline> Richards, </para>
+          <para>Branch Manager, Expropriation Board, Subject: Sopa-Sopa Plantation Hand-over. </para>
+          <para>Owing to the above plantation being misrepresented in the third-group catalogue, I have decided not to complete or continue with the taking over of Sopa-Sopa plantation.I consider that, owing to this property being absolutely infested with pests, that the plantation is practically worthless. (Sgd.) S. A. Webb. </para>
+        </quote>
+        <para class="block">The following letter was sent from Mokerang, tinder date the 10th November, 1927, toMr. Wauchope, Lorengau : - </para>
+        <quote>
+          <para>I am in receipt of a radio from the Expropriation Board, Rabaul, as follows: - &#34;Advise Wauchope Attorney for Webb purchaser Sopa-Sopa deposit cannot be refunded. If purchaser declines complete purchase deposit will be forfeited. Refer him regulation 49 conditions of sale.&#34; (Sgd.) A.Richards, Branch Manager. </para>
+        </quote>
+        <para class="block">
+          <inline font-weight="bold">Mr. Wauchope,</inline>the attorney for <inline font-weight="bold">Mr. Webb,</inline> wrote from Manus to the  chairman  of the Expropriation Board, Babaul, on the 18th November, 1927, as follows :  - </para>
+        <para>
+          <inline font-weight="bold">Sir,</inline>
+        </para>
+        <para>A copy of your radio to <inline font-weight="bold">Mr. Richards,</inline> notifyingme as P. A. for S. A. Webb, of the board&#39;s refusal to entertain any application for the refund of the deposit paid on account of the tender for Sopa-Sopa (Lot No. 13), Catalogue No. 3, received. </para>
+        <para>Beyond drawing your attention to the three following reasons why the property in question was refused, comment at this stage, is unnecessary. </para>
+        <list type="decimal-dotted">
+          <item label="1.">
+            <para>The map accompanying Catalogue No. 3 showing the position of Sopa is incorrect. It appears us an Island instead of part of the Manus mainland, which is notoriously unsuitable for the cultivation of copra. </para>
+          </item>
+          <item label="2.">
+            <para>Approximately 7,000 trees, which can never be producers, are planted on worthless swamp-lands embracing approximately onethird of the area. </para>
+          </item>
+          <item label="3.">
+            <para>The balance of the trees, approximately 20,000 are infested with that destructive pest promoccathica antigua. In view of those facts, confirmed by three experts, the writer fails to see in what way Regulation No. 49 (to which you refer me) has to do with the question of misrepresentation and camouflage of facts in the catalogue issued in the name of the Expropriation Board. </para>
+          </item>
+        </list>
+        <para>These facts arc now before my solicitors. </para>
+        <para>Yours faithfully, (Sgd.)J. Andrew Wauchope. </para>
+        <para class="block">The next letter is from Madang, under date the 22nd November, 1927, and reads as follows :  - </para>
+        <para class="block">Dear Webb. </para>
+        <para>I wish that I had known that you intended to settle in the Manus District, particularly on the Mainland of that district, for had I known I would have strongly discouraged the project as all the Mainland plantations are exceedingly poor; the soil being most unsuitable, composed of ill-drained, heavy red clay, which is well-known as being the worst kind of soil for the coconut palms. </para>
+        <para>The island properties of Manus are better, being grown on coral-land, which is the coconut&#39;s natural soil. As you know, I was the Government official stationed on Manus for two years, 1922-23, and during that period I repeatedly inspected all the plantations in my capacity as Administrative Officer, and I assure you that Sopa-Sopa is the last place I could have recommended you to purchase, which more than one-third of the property is swamp, and all of it is exceedingly pest-ridden. </para>
+        <para>The only decent plantations in the district are the small island ones, and it is generally agreed throughout the Territory that the few mainland properties are hopeless and never were or can be profitable. </para>
+        <para>Kind regards, </para>
+        <para>Yours, (Signed) A. Nurton. </para>
+        <para class="block">In a letter which he wrote from Manus on the 8th December, 1927, <inline font-weight="bold">Mr. Hann.</inline> at one time an official of the Expropriation Board, and now a planter of considerable experience at Malay Bay, stated <inline font-style="italic">inter alia -</inline></para>
+        <para class="block">Dear <inline font-weight="bold">Mr. Wauchope,</inline></para>
+        <para>I think <inline font-weight="bold">Mr. Webb</inline> wise in not taking over Sopa-Sopa. The place is now, and always has been a mass of disease. There is also a portion of the planted area a swamp, and this would never return anything, even if it was free from disease. The disease is Promoccathica Antigua, and is most difficult to deal with, and requires drastic treatment to get rid of. My opinion is that if a man got the place for, say, &#163;2,000, and was prepared to wait for a number of years without any return, the place might eventually pay. It would, of course, mean employing a large labour line, and entail a big expenditure. </para>
+        <para class="block">Yours sincerely, (Signed) E. Hann. </para>
+        <para>The following is a report from <inline font-weight="bold">Mr. Kramer,</inline> written from Manus, on the 13th February, 1928- </para>
+        <list type="upperalpha-dotted">
+          <item label="J.">
+            <para>A. Wauchope, </para>
+          </item>
+        </list>
+        <para>Melbourne. </para>
+        <para class="block">Dear <inline font-weight="bold">Sir,</inline></para>
+        <para>I have to thank you for your letter of January 28th last. As I have already wired you I can only repeat to-day that the conditions on Sopa-Sopa are the same as when you. saw it last, if not worse. </para>
+        <para>Sopa-Sopa is a coconut plantation situated on the north-west coast of Manus, and is on the mainland. In front of it is a group of islands which do not belong to Sopa-Sopa. How the board came to show Sopa-Sopa as a group of islands on their map, I do not understand, as it is incorrect. </para>
+        <para>The swamps in Sopa-Sopa take up nearly one-third of the planted area, and are to-day worthless, and will be so for the next several years; even if good drains are put in, these swamps will still be a bad breeding ground for grasshopper and other coconut pests. </para>
+        <para>The other palms in the firmer ground are infested with promoccathica and grasshopper. Even if it be possible to get the pests right out, it would take several years before the palms recover from the disease and before you could look for a payable return. </para>
+        <para>The above facts are well-known to the residents of Manns, and were also known to the board representatives, and, in my opinion, should have received special mention in the catalogue. </para>
+        <para class="block">Yours sincerely, (Signed) W. Kramer. </para>
+        <para>I understand that <inline font-weight="bold">Senator Kingsmill</inline> also has interested himself in this matter. On several occasions he wrote to and interviewed the Treasurer <inline font-weight="bold">(Dr. Earle Page),</inline> whose written reply was to the effect that, as the full particulars were set out in the catalogue, the deposit had been paid, and the contract had been signed, no action could be taken in the direction of returning the deposit. But according to reliable authority the conditions! were not faithfully represented, the plantation is not on our island, but on the mainland, it is pest-ridden, and the tenderer, <inline font-weight="bold">Mr. Webb,</inline> was compelled to sign the contract and pay the deposit before he had had an opportunity to see the location. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6096</page.no>
+              <time.stamp />
+              <name.id>KNF</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MASSY-GREENE, Walter</name>
+              <name role="display">Mr GREENE</name>
+            </talker>
+            <para>- How did that compulsion arise? </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6096</page.no>
+            <time.stamp />
+            <name.id>JXJ</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">NEEDHAM, Edward</name>
+            <name role="display">Senator NEEDHAM</name>
+          </talker>
+          <para>- It is explained in a letter, but I have not a copy of it with me. The board officials who accompanied <inline font-weight="bold">Mr. Webb</inline> on the inspection state that, even with the additional area, the property would be useless. The plantation was allotted on the 27th August, 1927. The inspection on the 20th  October proved that there had been gross misrepresentation. The tender price was &#163;10,000. The first deposit of &#163;500 was paid by <inline font-weight="bold">Mr. Webb</inline> on the 15th July, 1927, and the second deposit of &#163;1,000 on the 22nd September, 1927. Carpenter and Company, Sydney, advanced &#163;1,000, and J. Wauchope, Webb&#39;s attorney, &#163;500. </para>
+        </talk.start>
+        <para>I desire to emphasize the fact that the plantation was not f  faithfully  represented, the map was misleading, and the tenderer had no chance to see the location prior to signing the contract and paying the deposit. Webb is a returned soldier. It will be seen from the correspondence I have read from men who evidently know what they are talking about, that there is no possible chance of making any profit out of this country. <inline font-weight="bold">Mr. Webb</inline> has been put to considerable expense, yet the Treasurer has refused to return the deposit. </para>
+        <para>My object in bringing the matter up on the closing day of the session is so that the Minister representing the Treasurer may bring it before him in the hope that his decision will be  reviewed  The statements that I have read should be investigated, and some credence be given to them. They have been made by gentlemen who at one time were officials of the Expropriation Board. They contend that an unfair advantage has been taken of <inline font-weight="bold">Mr. Webb.</inline></para>
+        <para>I have already said that <inline font-weight="bold">Senator Kingsmill</inline> has very kindly interested himself in the matter. I met <inline font-weight="bold">Mr. Wauchope</inline> in Melbourne, and he asked me if anything could be done. I may be taking an unusual step; but I think it can be safely said that this man has been most unjustly treated. Grievances of this nature should be ventilated in Parliament, particularly when the person concerned is a returned soldier. I leave the matter at that, and I trust the Minister representing the Minister for Home and Territories will state whether there is any possibility of this matter being reviewed, and the deposit returned. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6096</page.no>
+            <time.stamp />
+            <name.id>KPQ</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">KINGSMILL, Walter</name>
+            <name role="display">Senator KINGSMILL</name>
+          </talker>
+          <para>. - I can confirm the statements made by the Leader of the Opposition <inline font-weight="bold">(Senator Needham)</inline> in connexion with the refusal of the department to return the deposit in the case he has just mentioned. I regard it as a very bad case indeed, and as a result of what has hajjpened, the public faith in the authenticity of catalogues published in connexion with the sale of these coconut plantations will suffer very materially. The main point is the mistake made in the catalogue by describing this alleged plantation as being on a coral island off the coast of Manus, whereas it is a portion of the Manus mainland. It is well known in the islands that there are not many places on the mainland that are very suitable for coconut growing. Some persons have the wild idea that the coconut palm will thrive anywhere in the tropics; they grow, but they do not always bear. The plantation to which the Leader of the Opposition has referred is evidently in one of the worst portions known to the producers of copra, and it must be evident that in this instance the Government has accepted a deposit with the view of ultimately taking &#163;10,000 for this plantation. This is a matter concerning which I have endeavoured to see the Treasurer <inline font-weight="bold">(Dr. Earle Page)</inline> on several occasions. In one instance I saw him for a few moments when I was able to make an appointment, which I had great difficulty in keeping, but the interview on that occasion was most unsatisfactory. This matter needs a thorough investigation. I believe that both morally and legally the Government is bound to refund the deposit. The land comprising this alleged plantation, according to the reports read by the Leader of the Opposition, is practically worthless. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6097</page.no>
+              <time.stamp />
+              <name.id>KOJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYS, Herbert</name>
+              <name role="display">Senator Herbert Hays</name>
+            </talker>
+            <para>- Did the man buy it by tender? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>6097</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator KINGSMILL</name>
+            </talker>
+            <para>- I believe so. I do not know if there were any other offers. The gist of the matter is that the plantation was wrongly described in the catalogue. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6097</page.no>
+              <time.stamp />
+              <name.id>KOJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYS, Herbert</name>
+              <name role="display">Senator Herbert Hays</name>
+            </talker>
+            <para>- Did the successful tenderer inspect the plantation before purchase? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>6097</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator KINGSMILL</name>
+            </talker>
+            <para>- It is not always easy or inexpensive to do so. Tenderers for these plantations should be able to place faith in a Government catalogue, and rely upon the description as to the locality, nature of the soil, and general condition. This man placed some faith in such a catalogue, as one should be able to do in any Government publication. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6097</page.no>
+              <time.stamp />
+              <name.id>K8P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">THOMPSON, William</name>
+              <name role="display">Senator Thompson</name>
+            </talker>
+            <para>- He should have inspected the property. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>6097</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator KINGSMILL</name>
+            </talker>
+            <para>- Yes, but as I said, it is not always easy to do so. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6097</page.no>
+              <time.stamp />
+              <name.id>KNF</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MASSY-GREENE, Walter</name>
+              <name role="display">Mr GREENE</name>
+            </talker>
+            <para>- Almost invariably, the islands in that locality are highly suitable for the production of copra. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>6097</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator KINGSMILL</name>
+            </talker>
+            <para>- Yes, but the mainland is not, as the soil consists principally of clay which is unsuitable for the growing of the coconut palm. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6097</page.no>
+              <time.stamp />
+              <name.id>KNF</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MASSY-GREENE, Walter</name>
+              <name role="display">Mr GREENE</name>
+            </talker>
+            <para>- The best crops are obtained from the palms grown on coral atolls. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>6097</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator KINGSMILL</name>
+            </talker>
+            <para>- Exactly. The growing of coaconut palms is not regarded from the aesthetic viewpoint alone. It was not mentioned in the hoard&#39;s cata logue that the palms in this locality are infested with promocathicai antigua, although, in common honesty, it should have been mentioned. It is a very bad case, and I trust that the Minister representing the Minister for Home and Territories will review the matter and see if the deposit paid cannot be returned. I hope the matter will be further considered and that justice will be done. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6097</page.no>
+            <time.stamp />
+            <name.id>KOJ</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">HAYS, Herbert</name>
+            <name role="display">Senator HERBERT HAYS</name>
+          </talker>
+          <para>. - On Tuesday of this week, I asked the Leader of the Government in the Senate <inline font-weight="bold">(Senator Pearce),</inline> whether it was the intention of the Government to establish an aerial service between Tasmania and the mainland, and was informed that reports were being obtained, presumably, I suppose, with the object of establishing a service. I should like to know if anything has been done in this connexion. As a layman, I am, of course, unable to suggest the type of aeroplane most suitable for the service, but . some, whose opinion is worthy of respect, claim that ordinary aeroplanes would be suitable whilst others contend that seaplanes should be used. Honorable senators are all aware of the disabilities at present experienced by Tasmania, owing to its isolation, and I trust this matter will receive earnest consideration. </para>
+        </talk.start>
+        <para>I commend the Government for what it has done in connexion with the demand for an improved steamship service. As the outcome of recommendations by the Public Accounts Committee, I understand the Postmaster-General&#39;s Department is now calling, for tenders for an improved mail service. The result of the tenders will not be known perhaps for some time; but I emphasize the necessity for expediting the matter as much as possible. The present situation is most harassing to the Tasmanian people, as the service is not as good as it was years ago. The passenger service between Hobart and Sydney has been discontinued, and the Tasmanian people are becoming most impatient owing to the lack of adequate shipping and mail services. </para>
+        <para>The Minister representing the PostmasterGeneral said that inquiries were being made into the possibility of establishing a telephonic or wireless service between Tasmania and the mainland; I should like to know if anything has been done in that direction. As the mainland States enjoy the benefits of interstate telephonic communication, and wireless telephony has now reached the stage when it can be used commercially, such a system should be extended to Tasmania. In the opinion of reliable authorities, a wireless telephonic system would be able to handle the work which is now going over the cables. Such a system would bring the Tasmanian people into closer touch with those on the mainland, and also facilitate business between Tasmania and Melbourne and Sydney. The Tasmanian people fully appreciate the assistance which the Government has rendered to that State, but there are still some disabilities which could be removed without the expenditure of a large sum of money. The distance across Bass Strait is only a little over 200 miles, and a land line of that length would have been provided years ago. Improved shipping -and wireless services would add to the attractiveness of the island State. The only shipping service at present in operation is between Melbourne and Launceston, and quite recently the continuance of that service was threatened by an industrial dispute. Frequent representations have been made to the Government on this and other matters, and the Tasmanian people are anxiously awaiting an intimation as to the action proposed to be taken. Efforts have been made to re-establish the Hobart-Sydney service but, so far, they have been  unsucessful </para>
+        <para>I also wish to direct attention to our trade between Australia and eastern countries. Through the efforts of the Development and Migration Commission and the Council for Scientific and Industrial Research the Government is endeavouring to increase production. It is too early to criticize the work which has been done; but I venture to suggest that these bodies should also endeavour to exploit new markets for our products, particularly in the East. I have illuminating figures here showing the amount of trade available and the small proportion enjoyed by  Austra-  Iia. In the case of Japan, of 4,200,000 lb. of vegetables, fruits, and nuts imported in otic year, Australia&#39;s share was only 433 lb. In 1925 Java imported &#163;157,125 worth of preserved and dried vegetables.Australia&#39;s proportion of this trade with Java was only &#163;3,000 in 1924, and &#163;1,240 in 1925. Of 16,875,600 lb. of dried and fresh vegetables, including potatoes, imported into China, excluding Hong Kong, Australia&#39;s share was only 6,800 lb. Australia does not supply fruit and vegetables, dried, salted, or preserved, to India, and although in one year Egypt imported 2,464,416 lb. of dried apricots, none went there from Australia. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6098</page.no>
+              <time.stamp />
+              <name.id>K2X</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ROBINSON, Albert</name>
+              <name role="display">Senator Robinson</name>
+            </talker>
+            <para>- The trouble is that we do not put our products in proper containers. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>6098</page.no>
+              <time.stamp />
+              <name.id>KOJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYS, Herbert</name>
+              <name role="display">Senator HERBERT HAYS</name>
+            </talker>
+            <para>- The bodies that are investigating the matter of production might also do something on the lines indicated by the honorable senator&#39;s interjection. Australia can produce the goods, but it must produce them in such a way that it can compete on equal terms with other countries. If profitable markets were found for our produce, and I am sure they can be, a great many of our present problems would be solved. It certainly should not be beyond the capacity of Australia to supply produce to the countries of the Ea*st to which I have just referred. I trust that the Minister, when he replies, will be able to assure me that attention will be given to the matters I have brought under his notice. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6098</page.no>
+            <time.stamp />
+            <name.id>JXZ</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNCAN, Walter</name>
+            <name role="display">Senator DUNCAN</name>
+          </talker>
+          <para>. - A little while ago tenders were called for a Northern Territory shipping service, and a contract was let to a <inline font-weight="bold">Mr. George,</inline> of- Adelaide, but as a result of representations made to me by interests in Sydney and elsewhere, I was able to show the Minister for Home and Territories not only that the vessel which the contractor proposed to use in the trade was 55 years old, and utterly unsuitable for the service, but also that prominent insurance companies had refused to take any insurance risk, no matter what premium the shippers were willing to pay, on goods forwarded in the vessel. I am now pleased to learn that as a result of the inquiries which the Minister instituted, the successful tender has been withdrawn and the contract annulled. I appreciate the action of the Minister and the department in this respect. I hope that when fresh tenders are called more care will be exercised in obtaining reports as to the suitability or otherwise of the vessels offered for service. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6099</page.no>
+            <time.stamp />
+            <name.id>K8P</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">THOMPSON, William</name>
+            <name role="display">Senator THOMPSON</name>
+          </talker>
+          <para>. - My relations with Ministers are usually very satisfactory; but one matter in connexion with a question I submitted to the Department of Home and Territories I cannot describe as coming within that description. Some time ago I asked the then Minister for Home and Territories <inline font-weight="bold">(Senator Sir William Glasgow)</inline> what route had been recommended by the North Australia Commission for a railway line, running from the Northern Territory into Queensland. He replied that the commission&#39;s report would shortly be made available and that the information I required would probably be found in it. I was satisfied with that reply, but when the report came into my possession I found that it did not answer my question. Thereupon T again addressed a question in this chamber to the Minister for Defence, as representing the Minister for Home and Territories and while I was in Sydney recently I received from the secretary to the Minister for Defence the following letter : - </para>
+        </talk.start>
+        <quote>
+          <para>With reference to the question asked by you on the 17th May regarding railway extension between North Australia and Queensland, I am directed by the Minister for Defence to inform you that he has brought the matter under the notice of the Minister for Home and Territories, and has received the reply that, apart from the information and recommendations contained in the North Australia Commission&#39;s report, nothing definite has yet been determined. </para>
+        </quote>
+        <para class="block">That letter did not answer my question. I did not want to know whether the matter had been determined or otherwise. All that I wanted to know was at what point the commission recommended the railway should enter Queensland from the Northern Territory. <inline font-weight="bold">Mr. G.</inline> Francis, the member for Kennedy, who happened to be in the Federal members&#39; room in Sydney when I received this letter and with whom. I discussed it, told me that he had months previously received a reply in another place that the railway would enter Queensland 40 miles south of Camooweal. This is not the treatment an honorable senator should expect from ti Minister. Of course, I acquit the Min ister for Defence of any blame in the matter, but I think the Government could have been more candid, and at any rate given me the reply that was furnished to an honorable member in another place months ago. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6099</page.no>
+            <time.stamp />
+            <name.id>JZR</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">OGDEN, James</name>
+            <name role="display">Senator OGDEN</name>
+          </talker>
+          <para>. - <inline font-weight="bold">Senator Herbert</inline> Hays has mentioned that the Government is giving effect to the recommendations of the Public Accounts Committee in regard to Tasmanian communications. The honorable senator&#39;s statement is correct in so far as it applies to a number of the recommendations of the committee, but the Government has not yet come to a decision in regard to the most important recommendation, from the standpoint of the people of Tasmania - that dealing with the Navigation Act. The Government says that the proposal to amend the Navigation Act on the lines recommended  is too big a question to decide off hand, and that it is giving the matter full consideration. The people of Tasmania have been waiting very patiently for an announcement of the intentions of the Government in regard to the coasting trade provisions of the act. This measure was placed on the statute-book for the protection of Australian seamen and to encourage the? building up of an Australian mercantile marine. Its effect has been to give a monopoly to the seamen and the local shipping companies. The consumer and the producer are squeezed between the two. It is particularly hard for an island State to distribute its products throughout the Commonwealth when it costs more to send timber from Hobart to the mainland than it does to bring it from the Pacific coast to Australia. The people of Tasmania will not be satisfied until this Government or some other affords them some relief from the provisions of this act. It is monstrous that people who want to board an oversea steamer alongside a wharf in the beautiful harbour of Hobart in order to travel to the mainland are not permitted, under the law, to do so. When we have asked for assistance to establish a shipping service from Hobart to the mainland the Government&#39;s answer has always been : &#34; Despite the enormous protection given to the Australian shipping companies and the monopoly the  enjoy under the Navigation Act, they are asking us&#39; to subsidize them to maintain a service between Hobart and the mainland.&#34; The Government&#39;s reply is a reasonable one, but it emphasizes the need for a revision of the law that permits such a monopoly. Twenty or 30 overseas vessels call at Hobart every summer, but Tasmanians have to be content first with an uncomfortable railway journey, and then a trip across the straits in a small vessel that is often overcrowded. This condition of affairs restricts trade and commerce, and inflicts injury on not only Tasmania, but also Australia as a whole. Control is exercised to-day, not by the shipping companies or the Government, but by the monopoly that has been created under the Navigation Act. That places men like <inline font-weight="bold">Mr. Tudehope</inline> and a few other revolutionaries in the position of being masters of Australia. That is positively wrong. I travelled from Tasmania to the mainland the other day in the steamer <inline font-style="italic">Loongana.</inline> There were no union cooks on board, and I may say that the passengers&#39; fared no worse on that account. It seems to me that cold viands are preferable to meals accompanied by the fumes from a cook&#39;s galley. The seamen and other members of the crew may need hot meals, but the passengers can do without them on such a short run. The chief steward told me that the men, whose duty it was to put coal in the galley fires, would not do so, lest somebody might cook an egg for breakfast! But on Wednesday morning we had hot porridge and bacon and eggs. I noticed, on reading the Melbourne <inline font-style="italic">Herald,</inline> that orders had been given - probably by <inline font-weight="bold">Mr. Tudehope</inline> - that the cook&#39;s galley must be locked, and that there must be no more bacon and eggs for the passengers. Perhaps <inline font-weight="bold">Mr. Tudehope</inline> will retain the key of the galley. I often wonder if we are living in a free country when men like that can dictate such terms. The position is due to the monopoly that has sprung up under the Navigation Act, added, of course, to a few other causes; but the sooner the position is altered the better for the community. It may be thought that honorable senators from Tasmania are everlastingly complaining, but we cannot remain silent under such injustice. Grievances like this must be ventilated. Owing to the absence of an adequate passenger service to the mainland, the vessels now on the line, which are little more than ferry boats are often uncomfortably crowded. Even in winter it is necessary to book a passage weeks ahead in order to obtain a comfortable berth. I have no complaint to make against the existing service across the straits ; it is as good as can be expected I notice that Western Australia has a weekly steamer service, as well as a regular railway service, to the eastern States. I am glad that that is so, but it emphasizes the unfortunate position of Tasmania. I notice that the Government also proposes to make Fremantle the first aerial port. That will give Western Australia three means of communication with the eastern half of the continent, whereas Tasmania has only one small service. I hope that the aerial service to Tasmania, which the Government has promised, will be expedited. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6100</page.no>
+              <time.stamp />
+              <name.id>K2X</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ROBINSON, Albert</name>
+              <name role="display">Senator Robinson</name>
+            </talker>
+            <para>- Was- not the honorable senator&#39;s absence from his place in the Senate yesterday due to Tasmania&#39;s poor communications? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>6100</page.no>
+              <time.stamp />
+              <name.id>JZR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">OGDEN, James</name>
+              <name role="display">Senator OGDEN</name>
+            </talker>
+            <para>- Yes; the boat missed its regular trip. But I must say, in fairness, that this was due not to the strike, but to a fog. To do full justice to the seamen, I wish to point out that the two important unions with which Messrs. O&#39;Neill and Moate are associated, strenuously opposed any interruption of the service by the Cooks&#39; Union. <inline font-weight="bold">Mr. Tudehope</inline> has now classed those two officials as &#34; blacklegs &#34; and &#34; scabs &#34; for refusing to pull their members out of the Tasmanian service. </para>
+          </talk.start>
+        </continue>
+        <para class="block">
+          <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE </para>
+        <para class="block">Western Australia - Vice-President of the Executive Council) &#91;4.8&#93;, - The matter of communication with Tasmania raised by Senators Ogden and Herbert Hays has&#39; been giving the Government serious concern. If Tasmania&#39;s position could be dealt with without relation to the rest of the mainland the problem would be very much simpler than it is. It is easy to say that the provisions of the Navigation Act should be suspended, but it is necessary to consider what theeffect of that would be on all the services round the Australian coast. The Government is giving the subject consideration from every point of view. The Navigation Department is inquiring into what would be the effect on every part of Australia, and I can assure honorable senators from Tasmania that the Government has not lost sight of this important subject. It realizes the desperate position in which Tasmania is often plunged owing to its lack of communication. </para>
+        <para>The Government is also expediting its inquiries into communication with Tasmania by means of aviation and wireless. The Minister for Defence <inline font-weight="bold">(Senator Sir William Glasgow)</inline> authorizes me to say that his department is pushing on with its investigations into this matter. He recently sent the Director of Civil Aviation  (Colonel Brinsmead)  to Tasmania to inspect a site for an aerodrome, and report on various aspects that must be fully considered before the Government can arrive at a decision as to the nature of the air service &#39; to be provided. Inquiries are being made as to the most suitable type of machines to employ; that is of the utmost importance, considering that the aviators would have to fly for 200 miles over the sea.&#39; </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6101</page.no>
+              <time.stamp />
+              <name.id>KOJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYS, Herbert</name>
+              <name role="display">Senator Herbert Hays</name>
+            </talker>
+            <para>- There are intervening islands. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6101</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>- But there is a large expanse of water, and the planes might occasionally have to land between the mainland and Tasmania. Every care must be taken to make the service both safe and dependable. The meteorological conditions have to be considered. <inline font-weight="bold">Senator Ogden</inline> mentioned to-day that a steamer had been held up by fog. Nothing could be more helpless than an aeroplane in a fog. It must be certain that it can land, if necessary, in a place where the land is always visible. Full data must be obtained on all those points. Then there is the matter of telephone communication with Tasmania. In these days we realize how important it is to have this means of communication between all parts of the Commonwealth, and the Postmaster-General is inquiring into the matter of communication by wireless telegraphy and wireless telephony. Obviously it would be unwise to rush into expenditure in the laying of cables or additional apparatus if an effective and better system could be established by means of wireless telephony. The data that the Postmaster-General is having prepared on that aspect of the subject will assist the Government in coming to its decision. </para>
+          </talk.start>
+        </interjection>
+        <para>As to the point raised by <inline font-weight="bold">Senator Thompson,</inline> I regret that information which was supplied to a member of another place was not made available to him in answer to his question. The Minister for Defence will see that the matter is brought under the notice of the Minister for Home and Territories in order to avoid a repetition of the occurrence. </para>
+        <para>The subject of the opening up of trade between Australia and Eastern countries was raised by <inline font-weight="bold">Senator Herbert</inline> Hays, who referred to the Development and Migration Commission and the Council for Scientific and Industrial Research. Of course, he knows that those bodies have nothing to do with the opening up of marrkets. I shall see that his remarks under that head are brought under the notice of the Minister for Markets. I have often thought that we do not avail ourselves as we should do of the Eastern markets. </para>
+        <para>Now I come to the subject raised by Senators Needham and Kingsmill - the sale of certain properties known as the Sopa-Sopa plantation in the Mandated Territory of New Guinea. First of all I take exception to the statement of <inline font-weight="bold">Senator Needham</inline> that the tenderer was compelled to sign the contract before he saw the land. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6101</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator Needham</name>
+            </talker>
+            <para>- I was told that. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6101</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>- The tenderer was not compelled to sign the contract; neither was he prevented from seeing the plantation. The properties were advertised for sale for some months. There was nothing to prevent <inline font-weight="bold">Mr. Webb</inline> from getting a report on the property if if he thought that course necessary. He seems to have had plenty of correspondents in New Guinea, judging by the letters that have been written since then. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6101</page.no>
+              <time.stamp />
+              <name.id>JZR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">OGDEN, James</name>
+              <name role="display">Senator Ogden</name>
+            </talker>
+            <para>- That seems to be the weakness of his case. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6101</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>- A paragraph in the catalogue stated that the properties would be sold subject to all faults, if any, so it cannot be charged against the board that there was misrepresentation. Take, for instance, the risk of pests. Coconut plantations are like any orchard proposition in that respect. Every one knows that where fruit is grown orchardists have to cope with its natural enemies. In some places these pests are more deadly than in others. Certainly, nobody could guarantee that a coconut plantation in Papua would be free from that risk. I have seen the catalogue issued by the board. It describes the properties and gives plans. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>6102</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator Needham</name>
+            </talker>
+            <para>- The location map was incorrect. </para>
+          </talk.start>
+        </interjection>
+        <para>
+          <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.I have been supplied with the following report of the case in question :  - </para>
+        <list type="upperalpha-dotted">
+          <item label="S.">
+            <para>A. Webb - Sopa-Sopa Coconut </para>
+          </item>
+        </list>
+        <para>Plantation. </para>
+        <para class="block">This plantation was advertised as lot 13 in the catalogue of New Guinea properties, third group. The accepted tender for Sopa Sopa was that received from S. A. Webb, of Holbrook, New South Wales, the tender price, which was the highest, being &#163;10,000. </para>
+        <para>On the 13th October, 1927, <inline font-weight="bold">Mr. Webb</inline> advised the Custodian of Expropriated Properties as follows: - </para>
+        <para>I have decided not to complete or continue with the taking over of Sopa-Sopa plantation. I consider that, owing to this property being absolutely infested with pests, the plantation is practically worthless. </para>
+        <para>At a later date it was pointed out to the Custodian, on behalf of <inline font-weight="bold">Mr. Webb,</inline> that Sopa Sopa, although not as described in the catalogue, appeared on the location map which accompanied the catalogue as an island, whereus it was not an island but was located on the mainland of Manus. </para>
+        <para>The Custodian says that no misrepresentations relating to Sopa-Sopa have been made by him in the catalogue advertising the sale, and, whilst it is frankly admitted that, on the location map which accompanied the catalogue to assist inspection. Sopa-Sopa was shown as located on a small island instead of on the mainland of Manns, the point is emphasized that the property was advertised in the catalogue as being located on the northwest coast of the main Admiralty Islands. </para>
+        <para>The full trading accounts for the year ending 30th June, 1925, are shown, as well as the trading account for 1924 and 1926. </para>
+        <para>The Custodian points out that <inline font-weight="bold">Mr. Webb</inline> stated on his tender form that he was prepared to purchase the property with all faults, if any, that he signed a contract of sale after his tender had been accepted, and that he made no objection to the property until he wont to take possession. </para>
+        <para>Sopa-Sopa was in the same position as re- gards pests as several other plantations sold and accepted by the purchasers, and the Custodian holds very strongly that Sopa-Sopa is not worthless, or likely to become so. </para>
+        <para>The question of the refund of deposits paid by successful tenderers who now wish to withdraw has received full consideration by the Government, which has decided that such refunds cannot be made. </para>
+        <para class="block">If we granted <inline font-weight="bold">Mr. Webb&#39;s</inline> application for a refund we should be creating a precedent that would be likely to prove dangerous during the contract period of twenty years. In that time there might come a period of trade depression. One can easily see that if we refunded <inline font-weight="bold">Mr. Webb&#39;s</inline> deposit, other tenderers might at any time during the next twenty years claim that there was misrepresentation inrespect of their plantations,, and ask us for a refund. If we make a refund in the case of <inline font-weight="bold">Mr. Webb,</inline> there is no reason why we should not also make refunds to other tenderers, and properties sold under contract might come again into the hands of the Custodian of Expropriated Properties. </para>
+        <para>There is one other matter, mentioned by <inline font-weight="bold">Senator Needham</inline> in connexion with the consideration of another bill upon which I promised to make a statement on the first reading of this measure - the payments to invalid and old-age pensioners in State Government institutions. The Treasurer has supplied me with the following statement with respect to that matter :  - </para>
+        <para>The question of pensions in respect of invalid and old-age pensioners who become inmates of hospitals is at present under consideration of the Government. </para>
+        <para>When a pensioner enters a hospital his pension is suspended. For the first 28 days ofhis stay in the institution no payment is made. After 28 days the Commonwealth pays the pensioner 4s. per week as a hospital pension, and pays the institution 10s.6d. per week for his maintenance. On his discharge from hospital the pensioner receives payment of ordinary pension for the first 28 days of his stay in the institution. These payments represent the total disbursements by the Commonwealth in respect of pensioners who enter hospitals. </para>
+        <para>With a view to removing the anomaly that the increase of the old-age pension brought into being in regard to those pensioners, the Treasurer stated in his budget speech last year that he would consult the States. The matter was discussed with the States after a Loan Council meeting in December last, and the States undertook to make representations in regard to the best method of correcting the anomaly. These representations have now been received from all States. </para>
+        <para>Representations have also been made on behalf of pensioners that the amount payable to pensioners in hospital . should be increased. </para>
+        <para>The Government is now considering the representations of the States, as well as those made on behalf of pensioners, and expects to reach a decision in the matter at an early date. </para>
+        <para>Question resolved in the affirmative. </para>
+        <para>Bill read a first time. </para>
+        <para class="block">Secondreading. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6103</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>NAT</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;4.23&#93;.- I move - </para>
+        </talk.start>
+        <quote>
+          <para>That the bill be now read a second time. </para>
+        </quote>
+        <para>The purpose of the bill is to appropriate sufficient revenue to carry on the ordinary services of the Commonwealth during the first three months of next financial year. It is anticipated that Parliament will adjourn before the close of this financial year, and willnot resume for some weeks. The amount which the Senate is asked to appropriate is &#163;6,343,635. This sum includes provision for the following services :  - </para>
+        <para class="block">
+          <graphic href="119332192806142_10_0.jpg" />
+        </para>
+        <para class="block">The items in this measure making up the above sums are based on the present year&#39;s estimates, and are slightly less than one-fourth of the amount which was appropriated for the present financial year. No new proposal is included. In addition, the usual provision is made for refunds of revenue - &#163;400,000 - and advance to the Treasurer - &#163;750,000. Immediately Parliament resumes after the adjournment, the financial statement will be submitted for consideration. In the meantime, it is fitting that some indication should be given of the results for the present financial year. </para>
+        <para>As members are aware, Australia generally has experienced, and is still experiencing a period of financial stringency, due mainly to the adverse conditions which were experienced last season. As a result, the customs and excise receipts, which are the main source of Commonwealth revenue, have shown a decline compared with the budget estimate. When the budget was brought down in September last, it was estimated the receipts from this source would amount to &#163;44,800,000. Op till November, receipts from this source continued to be satisfactory, and were slightly above the budget estimate. Collections for December, January, February and March, however, showed appreciable decreases compared with the collections in the corresponding months of the previous year. In April the decline was much more pronounced, and exceeded &#163;500,000. In March the position somewhat improved, but there was still a decrease. For the eleven months ended 31st May, the collections amounted to &#163;38,521,000, or approximately &#163;2,545,000 below the budget estimate. A further decline is  anticipated for June, and the total shortage for the year will probably be about &#163;3,000,000. It is estimated that other transactions, taken as a whole, will produce a result approximately equal to the budget estimate. There will thus be a deficit of about &#163;3,000,000 for the year, due to the decline in customs and excise revenue. </para>
+        <para>The Government, in framing the budget for the present year, fully appreciated the need for economy. In addition, as soon as adverse seasonal conditions were met with, all departments were instructed to review the position of their finances and to take special steps to effect savings where practicable. This economy drive was specially aimed at the ordinary votes and miscellaneous services under Part 1. Apart from these items, the expenditure of the Commonwealth is almost wholly made up of statutory payments authorized by Parliament and the services of business undertakings. No reductions can, of course, be made in the statutory payments, and there&#39; is only limited scope for savings in business undertakings unless services are curtailed. </para>
+        <para>The prospects for the next wool and wheat season are so far very favorable, nevertheless, the need still exists for the strictest economy in Governmental expenditure, The position of the customs and excise revenue emphasizes this fact and is likely to make federal finance  difficult in the coming year. As already indicated, a full statement will be submitted immediately Parliament resumes after the adjournment. </para>
+        <para class="block">Question resolved in the affirmative. </para>
+        <para class="block">Bill read a second time and reported from committee without request or debate. </para>
+        <para>Report adopted. </para>
+      </speech>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Third Reading</title>
+          <page.no>6104</page.no>
+        </subdebateinfo>
+        <para>Motion (by <inline font-weight="bold">Senator Sir George</inline></para>
+        <para>Pearce) proposed - </para>
+        <quote>
+          <para>That the bill be now read a third time. </para>
+        </quote>
+        <para>
+          <inline font-weight="bold">Senator NEEDHAM</inline>(Western Australia &#91;4.32&#93;.  -  I should like to know whether it is possible to obtain particulars of the amount that has been remitted over a period to southern European countries by the natives of those countries who are resident in Australia. It is said that every penny they can manage to save is sent to their native land. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6104</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>NAT</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;4.33&#93;.  -  I shall have the honorable senator&#39;s remarks brought to the notice of the Treasurer <inline font-weight="bold">(Dr. Earle Page)</inline> and shall ask that he be supplied during the recess with the particulars he wishes to obtain. </para>
+          </talk.start>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a third time. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>CUSTOMS TARIFF (NEW ZEALAND PREFERENCE) BILL</title>
+        <page.no>6104</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill received from the House of Repretatives. </para>
+      <para>Standing and Sessional Orders suspended and bill . (on motion by <inline font-weight="bold">Senator Crawford)</inline> read a first time. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>OFFICERS&#39; RIGHTS DECLARATION BILL</title>
+        <page.no>6104</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill returned from the House of Representatives without amendment. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>WAR PRECAUTIONS ACT REPEAL BILL</title>
+        <page.no>6104</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>6104</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6104</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>West ern Australia</electorate>
+              <party>NAT</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;4.36&#93;.  -  I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the bill be now read a second time. </para>
+          </quote>
+          <para>This bill repeals section 8 of the War Precautions Act, which reads -  8. - (1) No company in which more than one-third of the shares are held by aliens shall, without the consent in writing of the Treasurer, acquire any mine or interest in a mine, or carry on any mining or metallurgical business. </para>
+          <list type="decimal">
+            <item label="(2)">
+              <para>No alien shall, without the consent in writing of the Treasurer, acquire any share in any company incorporated in the Commonwealth. </para>
+            </item>
+          </list>
+          <para class="block">Honorable senators will remember that during the war it became necessary for us to pass legislation along those lines. The biggest part of the War Precautions Act has been repealed from time to time, and the stage is now reached at which it is advisable that this particular provision also should be repealed. Inquiries are being made in regard to the utilization of coal for the production of motor spirit, and it is believed that before very long there will be important developments. When they come about there must be nothing in our legislation that will hinder the introduction of capital to Australia for the purpose of developing some of our coal resources. The Government feels that this legislation has served its purpose and that if a national emergency arose, it could always be . re-enacted. It is not considered wise to keep these provisions any longer on the statute-book, as they constitute a hindrance to the formation of companies in which there may be some foreign capital. I believe that already trouble has been experienced in that regard in connexion with the development of the Mount Isa field. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6104</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator NEEDHAM</name>
+            </talker>
+            <para>. - I offer no opposition to the measure. During the war the War Precautions Act prevented aliens from acquiring an interest in any mine or having shares transferred to them. Thus, foreign capital could not be invested in Australia. I understand that experiments have been made in the direction of extracting oil from both black and brown coal. We have huge coal deposits in Australia, and oil is rapidly replacing coal in industry. If the experiments in hand prove commercially successful, Australia will derive much advantage from them. For that reason, I support the second reading of the bill. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6105</page.no>
+              <time.stamp />
+              <name.id>K8P</name.id>
+              <electorate>Queeusland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">THOMPSON, William</name>
+              <name role="display">Senator THOMPSON</name>
+            </talker>
+            <para>. -  I welcome this measure because it deals with a matter in which I take the most intense interest - the extraction of oil from coal. We have immense coal deposits in Queensland and New South Wales, and there are large quantities of brown coal in Victoria. I am hopeful that the repeal of this section of the War Precautions Act will lead to the introduction of foreign capital to exploit those deposits. I believe that in the realm of experiment the Germans occupy the foremost position in the world at the present time. The other day I read a cable message which stated that by the use of the Bergins process they had obtained in one year,  125,000  tons of oil from coal, and they expect to double that quantity in the present year. Furthermore, the oil is being produced on a commercial basis. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6105</page.no>
+                <time.stamp />
+                <name.id>K2X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">ROBINSON, Albert</name>
+                <name role="display">Senator Robinson</name>
+              </talker>
+              <para>-  Can it compete against benzine? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>6105</page.no>
+                <time.stamp />
+                <name.id>K8P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">THOMPSON, William</name>
+                <name role="display">Senator THOMPSON</name>
+              </talker>
+              <para>- It can be marketed at a very much cheaper rate than ordinary petrol. I am disappointed that the Council for Scientific and Industrial Research has not kept this matter more prominently before it. The latest information is that it is relying upon the experiments that are being conducted in England. It would be better advised to watch the experiments in Germany. I do not like to think that our own people are inferior in any respect to those of other countries; but it appears to me that in this particular matter the Germans are in the van. If the rumour is correct that some Germans are prepared to invest a large sum in this country in developing the process, we should welcome them with open arms. I believe that the bill will pave the way to that end. </para>
+            </talk.start>
+          </continue>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time, and passed through its remaining stages without amendment or debate. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>GEOPHYSICAL SURVEY BILL</title>
+        <page.no>6105</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>6105</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6105</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>NAT</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;4.47&#93;. -  I move - </para>
+          </talk.start>
+          <quote>
+            <para>That  the  bill  be  now read a second time. </para>
+          </quote>
+          <para class="block">In this measure we are asking Parliament to vote  &#163;20,000  for the purpose of conducting in Australia a comprehensive test of the various geophysical methods of prospecting for minerals, oil, and water. In this connexion we are associated with the Empire Marketing Board, which has undertaken to provide  &#163;10,000  for the first year, and  &#163;6,000  for the second year, on the condition that the Commonwealth Government contributes similar amounts and that the results obtained will be made available to all parts of the Empire. </para>
+          <para>There is at present in Australia a distinguished scientist and specialist in this particular branch of science in the person of <inline font-weight="bold">Mr. Broughton</inline> Edge, who is organizing a party to conduct a geophysical survey in Australia, and whose activities will be directed by a committee representative of the Development and Migration Commission, the Council for Scientific and Industrial Research, and the Geological Departments of the various States. The application of scientific prospecting for minerals, oils, or water is a comparatively recent development. It has been remarkably successful in indicating the existence of ore bodies, and thus assisting the prospector in search of minerals. It is not suggested that this system, which indicates the existence of ore bodies, can disclose whether they are payable. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6105</page.no>
+                <time.stamp />
+                <name.id>K2L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">REID, Matthew</name>
+                <name role="display">Senator Reid</name>
+              </talker>
+              <para>-  Does it not indicate the quality ? </para>
+            </talk.start>
+          </interjection>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.The quality or grade of the bodies, I understand, is not indicated. That is for the prospector, with this aid that science has given him to demonstrate. I shall not attempt a description of the method, because I am not a scientist, and do not pretend to be one. All I can say is that it is claimed that under this system the existence of ore bodies, oil, and water can be determined. </para>
+          <para>When <inline font-weight="bold">Mr. Gepp,</inline> the  Chairman  of the Development and Migration Commission, accompanied the Prime Minister <inline font-weight="bold">(Mr. Bruce)</inline> to Great Britain on the occasion of the last Imperial Conference, this subject was brought under his notice, and it was in consequence of the information he then acquired that we first became acquainted with and interested in the system, and subsequently took the matter up with the Empire Marketing Board. At that time the board made certain recommendations to the Government, and when I was in England in August of last year, the Prime </para>
+          <para>Minister cabled to me to make inquiries as to the qualifications of <inline font-weight="bold">Mr. Broughton</inline> Edge, and also to obtain the views of practical mining men in England on the value of this means of applying &#39; scientific methods to prospecting. Whilst in London I had the opportunity of conferring with representative men in the mining world, including <inline font-weight="bold">Mr. W.</inline> S. Robinson and various others, mostly Australians, who are associated with mining enterprises. Without exception they strongly recommended the Government to co-operate with the Empire Marketing Board in this regard. It is satisfactory to know that this board, which is charged with the important duty of conducting a geophysical survey of the Empire as a whole, has decided that if the Government will grant financial assistance in this great experiment, and it is an experiment, it will be willing to co-operate with it. </para>
+          <para>I understand certain investigations have already been carried out by <inline font-weight="bold">Mr. Broughton</inline> Edge in Rhodesia and other parts of Africa and that certain ore bodies have been located there. All of which, when opened up, have not proved to be payable propositions; but some consist of payable ore bodies, and are being successfully developed. When we consider the possibilities of mineral development that exist on some of the mining fields which have been properly developed, such as Kalgoorlie, the silver, lead, and tin deposits in Tasmania and also other mining areas, we can easily visualize the results which may follow the application of this system. Valuable ore bodies have been disclosed on some fields, but other valuable mining fields may yet be discovered. </para>
+          <para>Honorable senators who read the first  report of the Development and Migration Commission on the gold mining industry at Kalgoorlie will remember that the report was rather pessimistic. It indicated that these mines were on the decline, and that strong measures would have to be taken if the industry  wa3  to be continued. Since that time a new ore body carrying good values has been discovered in proximity to some of the old mines which we thought to be worked out, but which may now  have a new lease  of life. The way in which the value of the shares has risen is an indication of the possibilities which may follow the opening up of new ore bodies in that locality. That is only an instance of the latent possibilities of some of our existing mining fields, quite &#34;apart from new areas. The Government confidently commends the expenditure of this sum of money which is so to be spent in cooperation with the Empire Marketing Board in order to give this system of scientific prospecting a trial in Australia. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6106</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate>Western Australia [4.55].</electorate>
+              <party />
+              <role>For once at least I find myself on common ground with the Minister (Senator Sir George Pearce</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator NEEDHAM</name>
+            </talker>
+            <para>, in as much as I am not an expert in the. matter of geophysical research. I welcome the introduction of this bill, because I think everything possible should be done to encourage the application of science in all its branches to industry. If by means of a geophysical survey of Australia new finds of minerals, oil, or water can be located the expenditure of &#163;20,000 will be fully warranted. 1 agree with the Minister that there are vast areas in Australia which as yet have not been properly prospected for minerals. Even in some of the localities in which mining operations have been carried on for years there is a good deal of latent wealth, and we should be foolish indeed if we did not encourage science to assist us in prospecting for minerals, oil or water, the last mentioned of which is in some cases of greater importance than minerals. I support thi.1 bill. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6106</page.no>
+              <time.stamp />
+              <name.id>K8P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">THOMPSON, William</name>
+              <name role="display">Senator THOMPSON</name>
+            </talker>
+            <para>. - I am sorry I was not in the chamber when the Leader of the Government <inline font-weight="bold">(Senator Sir George Pearce)</inline> moved the- second reading of this bill: but I gather from subsequent remarks of honorable senators that it is to provide money to assist in conducting a geophysical survey in Australia for the purpose of locating minerals, oil and water. I think we shall all agree that the system proposed is preferable to assisting the gold-mining industry - that  is  the industry to which I wish to refer more particularly - by paying a bonus of  so  much an ounce on gold produced. That system cannot be defended economically. I am hoping that this proposal, which I  intend to support, may eventually be the means of enabling the great Mount Morgan mine in Queensland to resume operations. In that mine minerals valued at &#163;16,000,000 cannot be profitably mined owing to the heavy costs. When new scientific methods are adopted it may be possible to utilize that latent wealth. In the hope that something in that direction may be done, I support the bill. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6107</page.no>
+              <time.stamp />
+              <name.id>K9Y</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">VERRAN, John</name>
+              <name role="display">Senator VERRAN</name>
+            </talker>
+            <para>. - I intend to support this measure because Australia&#39;s extensive mineral fields should be more fully developed. In some instances mining shafts in Australia have been sunk to a depth of 1,200 feet and over and it has been found that the ore is not of sufficient value to mine. The Wallaroo and Moonta copper mines on Yorke Peninsula in South Australia were in operation for over 63 years and during that period produced vast quantities of payable copper ore, but they are now closed down. There are at least five other lodes outside the area already worked, the value of which no one has yet determined. Trial drills have been put down in various places, but in conducting tests of that kind valuable ore . deposits may have been missed. A leading scientist visited Yorke Peninsula a few weeks ago, and, I understand, believes that operations should be conducted there. No one would suggest for a moment that the supply of goldbearing ore in Western Australia has been exhausted. It is only by the application of scientific methods that we can determine Australia&#39;s mineral wealth. I support the Government&#39;s proposal to expend money in this direction, as there are many gold, silver, lead and other mineral deposits that should be exploited. <inline font-weight="bold">Mr. Elford,</inline> a clever young South Australian, has interested himself in the matter of having the mines on the peninsula thoroughly tested. I do not regard the bonus system as satisfactory. The gentlemen who have come to Australia to conduct this survey seem to be very businesslike, and I am satisfied that the money the Government will provide will be spent in the interests of the taxpayers of Australia. </para>
+          </talk.start>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time, and passed through its remaining stages without amendment or debate. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>CUSTOMS TARIFF (NEW ZEALAND PREFERENCE) BILL</title>
+        <page.no>6107</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>6107</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6107</page.no>
+              <time.stamp />
+              <name.id>JRW</name.id>
+              <electorate>Queensland</electorate>
+              <party>NAT</party>
+              <role>Honorary Minster</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRAWFORD, Thomas</name>
+              <name role="display">Senator CRAWFORD</name>
+            </talker>
+            <para>. - I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the bill bc now read a second time. </para>
+          </quote>
+          <para class="block">The purpose of this bill is to increase from 2d. to 6d. per lb. the import duty on butter and cheese the produce of New Zealand. The duty of 2d. per lb. was enjoyed by the producers of New Zealand under our tariff agreement with the dominion. Honorable senators will remember that under the Customs Tariff recently passed, the duty on butter and cheese was increased from 3d. per lb. to 6d. per lb. British, 6&#163;d. per lb. intermediate, and 7d. per lb. general. These duties, however, could not apply to butter and cheese imported from New Zealand because of our tariff agreement with the dominion, which required that six months&#39; notice must be given before any increased duty could be. imposed on goods covered by the schedule of the agreement. The requisite notice to increase the duty on butter and cheese was given on the 14th December last, and expires to-day. The bill provides that the new duty shall take effect from to-morrow. The mea.sure consists of one clause only, as follows : - </para>
+          <quote>
+            <para>Notwithstanding anything contained in the Customs Tariff 1921-1928 or the Customs Tariff (New Zealand Preference) 1922-1926, from and after the fifteenth day of June, One thousand nine hundred and twenty-eight, at nine o&#39;clock in the forenoon, reckoned according to standard time in the Territory for the Seat of Government, there shall be charged, collected and paid to the King for the purposes of the Commonwealth on butter and cheese produced or manufactured in the Dominion of New Zealand and imported direct from that Dominion after the time and date above specified or imported direct from that Dominion before, and entered for home consumption after, that time and date, duty of customs at the rate of sixpence per pound. </para>
+          </quote>
+          <para>In December last these duties were discussed at considerable length. They were imposed because of the large importations of butter and cheese from New Zealand, which last year amounted to &#163;520,000 in the case of butter, and &#163;35,000 in the case of cheese. For the first nine months of this year we have imported from New Zealand &#163;420,000 worth of butter and  &#163;30,000 worth, of cheese. It must be remembered that for every pound of butter or cheese imported a pound of butter or cheese must be exported at a price which does not cover the cost of production. Honorable senators will, I am sure, recognize the urgent need for these increased duties. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6108</page.no>
+              <time.stamp />
+              <name.id>KN7</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GUTHRIE, James</name>
+              <name role="display">Senator GUTHRIE</name>
+            </talker>
+            <para>.- Although I am a very strong protectionist I regret that it has been found necessary to impose such a heavy duty on the produce of our brothers and sisters  in the Dominion of New Zealand. Realizing the tremendous difficulties under which our own overworked dairy farmers have to toil in order to earn something like a fair living wage, I am prepared to do anything to protect them against importations even from another dominion of the Empire; but I am surprised that it has been found necessary to impose a duty of 6d. per lb. on cheese which we import from New Zealand at the rate of about &#163;35,000 worth a year, while the duty on Danish, Dutch, or Swiss cheese is only 7id. per lb. The proportion of the New Zealand rate to the foreign rate is altogether too high. We see quite a lot of Dutch cheese on sale in Australia. We often see Swiss cheese labelled as below the Australian standard. I do notlike these foreign cheeses coming into our country. I am reluctant to support the high duty proposed on New Zealand produce, but because I am a staunch protectionist and am desirous of giving a little assistance to our overworked dairy farmers I propose to do so. At the same time I ask the Government to take into consideration the advisability in the interests of our dairy farmers and of trade within the Empire of doing everything possible to make the duty on Dutch and Swiss cheese and on any other foreign cheese higher than it is at the present time. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6108</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator NEEDHAM</name>
+            </talker>
+            <para>. - A few months ago, when we were considering the tariff, I stated my reasons for opposing the increased duties on butter and cheese. I need not repeat them now. </para>
+          </talk.start>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time, and passed through its remaining stages without request, or debate. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>LOAN BILL (No. 1) 1928</title>
+        <page.no>6108</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill received from the House of Representatives. </para>
+      <para>Standing and Sessional Orders suspended and bill (on motion by <inline font-weight="bold">Senator Sir George</inline> Pearce) read a first time. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>6108</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6108</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>NAT</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;7.31&#93;. - I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the bill be now read a second time. </para>
+          </quote>
+          <para>The purpose of this bill, which is complementary to the Supply BiU, is to enable the loan works and services in progress on 30th June next, to be continued during the first three months of next financial year, pending a full loan programme for 1928-29 being brought forward with the next budget. No new services are included in the bill. It provides for a total sum of &#163;1,920,000. </para>
+          <para>The loan programme approved by Parliament last year totalled &#163;9,000,000. In December last the Loan Council urged the advisability of economy in loan expenditure and suggested a reduction of one-eighth. The Government accordingly decided to restrict the expenditure for the present year where practicable, and it is estimated that the expenditure will amount to about &#163;7,875,000. It will be seen that the bill now before the Senate represents less than one-fourth of the programme approved by Parliament last year, and about one-fourth of the reduced programme decided upon by the Government. </para>
+          <para>The following statement shows the chief items in the measure, together with a comparison of corresponding amounts appropriated by Parliament for the present financial year : - </para>
+          <para class="block">
+            <graphic href="119332192806142_15_1.jpg" />
+          </para>
+          <para class="block">
+            <graphic href="119332192806142_16_0.jpg" />
+          </para>
+          <para class="block">There are certain loan services for which provision is not made in this bill. These comprise migration loans to the States and loans for the Federal Capital Commission and the North Australia Commission. Appropriations have already been made by Parliament for migration loans to the States. In the case of the Federal Capital Commission, there is provision under the Seat of Government (Administration) Act 1924-1926 for the Treasurer to make advances from the Commonwealth public account pending the borrowing of moneys either by the Commission itself or by the Treasurer on behalf of the Commission. It is proposed that the requirements of the Federal Capital Commission and North Australia Commission during the first three months ofnext year shall be made by advances from the Commonwealth public account. In accordance with the usual practice, provision has been made in the measure that unexpended balances on the 30th June, 1928, of appropriations made by the Loan Acts of 1927, shall lapse on that date. The intention is that the loan programme of each year shall be dealt with as a whole by Parliament.When Parliament resumes after the adjournment, the full loan programme for 1928-29 will be submitted for approval. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6109</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator NEEDHAM</name>
+            </talker>
+            <para>. - Realizing that this bill is complementary to the Supply Bill, and makes provision for carrying on works authorized by Parliament, in addition to that made by the Supply Bill for the ordinary services of the Government for the period during which this Parlia ment will be in recess, I do not see any necessity for me to discuss it at length. With the reservation that I intend to refer in committee to an item relating , to the Prime Minister&#39;s Department, I support the second reading </para>
+          </talk.start>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time. </para>
+          <para class="italic">
+            <inline font-style="italic">In committee:</inline>
+          </para>
+          <para>Clauses 1 to 5 agreed to. </para>
+          <para>Schedule - </para>
+          <para>
+            <inline font-weight="bold">Senator</inline>NEEDHAM  (Western Australia &#91;7.40&#93;. - I desire to refer to the item under the Prime Minister&#39;s Department which provides &#163;75,000 for advances of passage money, landing money, and medical fees of assisted migrants. I do not see why that sum should be expended for such a purpose at the present stage, when we have a wave of unemployment from one end of Australia to the other. In every State capital there are vast armies of men out of work. The trouble has been acute for a considerable time past, and, with winter upon us, it is more intense than ever. Every day the newspapers remind us of it. But the fact is not likely to escape our notice. My opposition to this expenditure is not to be construed as an indication that the Labour party objects to immigration. Its policy in that matter is to welcome to Australia&#39;s shores our kith and kin from overseas, and to give them preference over other migrants, provided we are in a position to absorb them, and provided also that we have already placed our own people. So acute is the unemployed problem that a conference of State Premiers is about to be held to grapple with it. It is suggested that they will discuss the advisability of calling a halt in immigration activities in the several States. Surely, in these circumstances, it is not wise for the Commonwealth to embark upon this large expenditure at the present time. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6109</page.no>
+                <time.stamp />
+                <name.id>KOJ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HAYS, Herbert</name>
+                <name role="display">Senator Herbert Hays</name>
+              </talker>
+              <para>-  If the States cease to nominate migrants, this money will not be required. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6109</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator NEEDHAM</name>
+            </talker>
+            <para>- That is the plea behind which the Commonwealth Government always shelters itself when tackled on this subject. It puts the blame for the continuance of imigration upon  r.he State Governments. It is true that the States are mainly responsible for immigration activities; but I claim that this sum of &#163;75,000 could be used for better purposes than promoting migration at the present juncture. The Prime Minister <inline font-weight="bold">(Mr. Bruce)</inline> claims that, during the past year or so, no migrants have been brought to these shores as a result of Commonwealth activities. But surely the expenditure of &#163;75,000 would result in maintaining the flow of migrants. . How can those who may be prepared -o nominate migrants assure them of employment when we cannot find work for large numbers . of men who are in need of it in Australia to-day? Another phase of the matter is that it falls under the control of the Development and Migration Commission, which, judging by the reports one reads of its activities and its suggestions for the development of this country, should be disbanded at the earliest possible moment. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6110</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>NAT</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;7.45&#93;. - There is a considerable amount of humbug talked about migration. The Leader of the Opposition <inline font-weight="bold">(Senator Needham)</inline> is trying to mike it appear that the amount of &#163;75,000 provided in this bill is to be spent by the Commonwealth Government in bringing migrants to Australia. That statement is totally inaccurate. This Government does not bring a single migrant to this country, unless the person introduced has been requisitioned for by the States or nominated by friends or relatives. It does not spend a single penny on the introduction of migrants other than from Great Britain, so that any expenditure under this head is incurred in the interests of our kith and kin in the Mother Country. Persons who nominate British migrants must give an undertaking as to their after care, and see they are placed in employment. These are the facts. The vote is intended for the payment of part of the passage money of British migrants brought to Australia under these arrangements. <inline font-weight="bold">Senator Needham</inline> has also said that the Premiers of the different States are about to meet in conference to consider unemployment in relation to migration. There is no necessity for the Premiers to do that, because every State is in this matter master in its own house. If a particular State does not wish to introduce migrants all it has to do is to cease requisitioning for them. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6110</page.no>
+                <time.stamp />
+                <name.id>JXJ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">NEEDHAM, Edward</name>
+                <name role="display">Senator Needham</name>
+              </talker>
+              <para>- They wish to agree upon a uniform policy. </para>
+            </talk.start>
+          </interjection>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.How can there be uniformity with regard to migration, since the requirements of the several States differ so materially? In certain of the States there has been a bad harvest, and consequently unemployment is more acute in those States than elsewhere. As a result they have practically ceased to requisition for migrants. Western Australia is more fortunate. Tha.t State has had an abundant harvest, and is now going ahead with one of the biggest developmental schemes ever undertaken. It is requisitioning for farm workers. Does <inline font-weight="bold">Senator Needham</inline> suggest that they are not needed, or that, because there is a certain amount of temporary unemployment in South Australia, New South Wales, and Victoria, the Premier of Western Australia should cancel his requisitions for farm workers? If he holds that view I invite him to place it before <inline font-weight="bold">Mr. Collier,</inline> the Premier of Western Australia, and see what he will have to say about it. Notwithstanding the unemployment that prevails .in several of the States there is a strong demand for domestic servants. Every State is prepared to take this class of migrant, and so keen is the demand that every migrant of this class can be given employment immediately upon arrival. A certain number of boy migrants are also being introduced, and all the lads are placed on farms. If <inline font-weight="bold">Senator Needham</inline> does welcome our kith and kin, what nonsense it is for him to talk about endeavouring to check the flow of this class of migrant to Australia. He and other members of his party are forever denouncing the introduction of Southern Europeans. They say that they do not want that class of people in this country, and that they welcome British migrants, but they are always opposing and criticizing anything that is done to bring our kith and kin to Australia. I cannot understand their attitude in this matter. Migration is not responsible for unemployment. The number of migrants being brought to Australia is fewer to-day than it was before the war. It is worthy of note that whenever migrants are coming to this country in considerable numbers there is less unemployment throughout the Commonwealth, and conversely when migrants are few in number, the unemployment problem is more pronounced. Statistics over a period of years, prepared by the Development and Migration Commission, prove conclusively that migration is not a principal factor in unemployment, so that it is idle for the honorable senator to try to humbug the people of Australia in this way. As I have stated, a bad harvest in South Australia, Victoria and New South Wales, is one of the factors. The other, and concerning this <inline font-weight="bold">Senator Needham</inline> never has a word to say, is the constant round of strikes in industry. There are thousands of people out of work to-day as a result of the present shipping strike. The &#39; honorable senator and his colleagues in the Labour party do not denounce these industrial upheavals which are responsible for so much unemployment and distress; but they take every opportunity to assert that the migration policy of the Government is a cause of unemployment. They are totally wrong. </para>
+          <para>Schedule agreed to. </para>
+          <para>Title agreed to. </para>
+          <para>Bill reported without amendment; report adopted. </para>
+          <para>Bill, read a third time. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SUPPLEMENTARY APPROPRIATION BILL 1926-27</title>
+        <page.no>6111</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill received from the House of Representatives. </para>
+      <para>Standing and Sessional Orders suspended and bill (on motion by <inline font-weight="bold">Senator Sir George</inline> Pearce) read a first time. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>6111</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6111</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>NAT</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;7.56&#93;. - I move; - </para>
+          </talk.start>
+          <quote>
+            <para>That the hill be now read a second time. </para>
+          </quote>
+          <para>This bill seeks parliamentary approval for the expenditure out of the Treasurer&#39;s Advance for the year 1926-27. As honorable senators are aware, it is the practice each year for Parliament to provide an advance to the Treasurer, and later a bill is brought down giving the. itemized account of the expenditure. The summarized totals in the bill now before the Senate are : - Departmental expenditure and war services payable from revenue, &#163;973,779 ; additions, new works and buildings, &#163;21,379, making a total of &#163;995,158. The details of this expenditure are also set out in the financial statements published in the Auditor-General&#39;s report for 1926-27. </para>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time and passed through its remaining stages without request or debate. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SUPPLEMENTARY APPROPRIATION (WORKS AND BUILDINGS) BILL 1926-27</title>
+        <page.no>6111</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill received from the House of  Representaties </para>
+      <para>Standing and Sessional Orders suspended, and bill passed through all jits stages without amendment or debate. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SCIENCE AND INDUSTRY APPROPRIATION BILL</title>
+        <page.no>6111</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill received from the House of Representatives. </para>
+      <para>Standing and Sessional Orders suspended and bill (on motion by <inline font-weight="bold">Senator Sir George</inline> Pearce) read a first time. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>6111</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6111</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>NAT</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;8.6&#93;. - I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the bill be now read a second time. </para>
+          </quote>
+          <para>I ask honorable senators to bear with me while I relate some of the problems that have been and are being attacked by the Council for Scientific and Industrial Research. During the two years of its existence considerable progress has been made by it. In particular, a satisfactory and fruitful basis of co-operation has been set up with many other scientific organizations abd institutions in both Australia and the other parts of the Empire. </para>
+          <para>Perhaps the most outstanding and successful instance of co-operation in Australia is in connexion with work on prickly pear. In this activity the Governments of New South Wales and Queensland are financially co-operating with the council on a 1.1.2 basis. </para>
+          <para>There is every indication of this -work being extremely successful and of the ultimate reclamation of millions of acres as a result of the operations of insects found by research to be useful in controlling the pear. Destructive insects are now being distributed in large numbers. It is freely conceded that the spread of the pear, which was estimated a short time ago at 1,000,000 acres per annum, has now been completely checked. Estimating the value of the land so saved at as low as 5s. an acre, the total saving involved is no less than &#163;250,000 per annum. </para>
+          <para>Extensive investigations are being carried out in Adelaide into the nutrition of Australian animals of economic importance. That work is under the direction of Professor Brailsford Robertson, and for many years will be confined to sheep. The ultimate aim is to obtain fundamental information on which to base the feeding of sheep in various parts of Australia, so as to increase the yield of wool, their rate of increase, &#38;c. Allied to this work, investigations are being carried out in co-operation with the Waite Agricultural Research Institute and the Empire Marketing Board on the improvement of Australian pastures. This phase is under the direction of Professor A. E. V. Richardson. This combined investigation is of vital importance to the future well-being of the Australian pastoral industry. Our work has also been linked up with similar operations in other parts of the Empire. In that connexion <inline font-weight="bold">Dr. J.</inline> B. Orr, the director of the well-known Rowett Animal Nutrition Research Institute, who will also he the director of the proposed Imperial Bureau of Animal Nutrition, has recently visited Australia in order to study Australian conditions. </para>
+          <para>After obtaining the advice of leading Australian veterinarians, the Council has initiated investigations into certain diseases and pests of stock, including liver fluke of sheep, stomach worms and lice of sheep, braxy disease, contagious pleuro-pneumonia, and tuberculosis in cattle. </para>
+          <para class="block">The work on the Kimberley horse disease has been brought to a successful conclusion, and a means of controlling the trouble has been evolved. That success, I may say, has been achieved in a period of a little over eighteen months, at a total expenditure of about &#163;2,000. The disease had carried off thousands of horses in the northern parts of Australia. It had been in existence ever since there had been horses there, and was found to be caused by a poisonous plant. </para>
+          <para>The foregoing work on animal diseases is being undertaken by isolated workers in existing laboratories. At the present time, <inline font-weight="bold">Sir Arnold</inline> Theiler, lately the director of the Veterinary Research Institute, Onderstepoort, South Africa, and a world authority on animal diseases, is in Australia, and at a later date he will advise the Council on the whole position. </para>
+          <para>Another large group of national problems that urgently require a solution is entomological in its nature. In order that investigations may be actively undertaken, <inline font-weight="bold">Dr. R.</inline> J. Tillyard, F.R.S., has been appointed chief of the division of economic entomology of the Council of Scientific and Industrial Research. He and a staff that is being appointed will make a thorough examination of the possibilities of controlling noxious weeds and insects by the use of beneficial insects. Special attention will be given to St. John&#39;s wort, ragwort, blackberry, hoary cress, saffron thistle, the burrs and stinkwort among the noxious weeds, and to sheep blowfly, buffalo fly, thrips, lucerne flea and pea mite among the noxious insects. <inline font-weight="bold">Dr. Tillyard</inline> is now on a visit to the United States of America and Europe to arrange for the co-operation of other institutions and for supplies of useful insects. The Council recently formed a division of economic botany, with <inline font-weight="bold">Dr. B.</inline> T. Dickson as its chief. The work on bitter pit in apples, tomato wilt, and various other diseases of plants, has already been commenced. A staff for <inline font-weight="bold">Dr. Dickson</inline> is now being obtained. Ultimately this division will undertake work on smuts and rusts in wheat, mycology in industry, including brewing and wine-making troubles, and a large group of fungus diseases connected with the transport of food, plant genetics, plant physiology, agrostological  problems, weeds, new plants, &#38;c. </para>
+          <para>Another activity of the Council is in connexion with irrigation settlements. Research stations exist at Merbein in Victoria and Griffith in New South &#34;Wales. The station at Merbein has already brought into being many improvements on existing practice, particularly in connexion with the dipping of dried fruits. The Griffith station has not been established for a sufficient time to enable results to be obtained. Closely connected with the work of these stations is the question of soils investigation, which is under the direction of Professor J. A. Prescott. When this work has been completed it will be possible to avoid the placing of vineyard and citrus groves on unsuitable soils, at least in so far as irrigation settlements are concerned. </para>
+          <para>The Council has recently decided to form a division of forest products. It is intended that that division shall concentrate mainly on timber seasoning, timber preservation, and the utilization of forest products, which are now utterly wasted. Work of an allied nature has already been carried out by the Council, namely, on paper pulp. It has proved conclusively that despite the previous adverse opinion of experts, high-grade papers can be produced from Australian timbers. Entirely as a result of the work of the council, private interests have erected an experimental plant in the south of Tasmania as a preliminary to the initiation of a paper-pulp enterprise involving a capital expenditure of between &#163;2,000,000 and &#163;3,000,000. A similar company has been formed more recently to work the forest area in the north of Tasmania. </para>
+          <para>In addition to the work of the above major divisions, the Council is already carrying out, or is proposing to carry out, a number of miscellaneous investigations, such as dairying research, mineragraphic work, radio research, cold storage work, &#38;c. </para>
+          <para>One of &#39; the most important activities of the Council is its work in acting as the central body for Australia and as a link with other similar bodies of the Empire. A particularly fruitful connexion has been established with the Empire Marketing Board, which has been most generousin its financial contributions to Australian research work of an Empire wide interest. Two members of the executive attended recent imperial agricultural research conferences which evolved machinery for the co-ordination of agricultural research and for a united attack upon agricultural problems of the Empire. The decisions of that conference will undoubtedly play an immense part in the future . economic and scientific development of the Empire. The council is concerned in those decisions as effect may be given to them in Australia. </para>
+          <para>Another important phase of the Council&#39;s activities is the training of research workers. A vote of &#163;100,000 agreed to some little time ago has been invested, and the revenue directed towards the training of research workers for Australia. Since the interest from that fund became available two years ago, about a dozen research trainees, all of whom are recent university graduates, have been sent abroad for special training in such subjects as entomology, plant pathology, forest products, &#38;c, in connexion with which their services will be particularly useful to the council after their period of training has been completed. </para>
+          <para>This is a very useful record of work during a period of two years. Parliament has been most generous, in its attitude and appreciates the value of the work done with the money which has been made available. The &#163;250,000 we are now voting is being appropriated from the surplus revenue of last year, and I believe that it could not be spent in a better way. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6113</page.no>
+                <time.stamp />
+                <name.id>KNF</name.id>
+                <electorate>NEW SOUTH WALES</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MASSY-GREENE, Walter</name>
+                <name role="display">Mr GREENE</name>
+              </talker>
+              <para>- What period will that amount cover? </para>
+            </talk.start>
+          </interjection>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.It is difficult to say. The policy of the Government is to have a research fund so that if we should fall upon a series of lean years there shall be some guarantee that this important work will continue. A certain amount is placed on the estimates annually to meet expenditure; but such amounts are in a sense buttressed by this reserve fund upon which we can draw. Honorable senators will see the wisdom of this policy. The Commonwealth commenced this work and carried it to a certain point, at which it was discontinued, with the result that a great deal of its value was entirely lost, because its continuity was broken. If the work is to.be of any value to Australia, it must be continuous. The amount we are now voting is to be placed into a Trust Fund so that over a series of years the scientists engaged in this important work will be able to carry on without interruption. </para>
+          <para>I trust that in future our financial position will enable us to add further to the fund. We are hot spending on scientific research anything approaching the amount per head of population that Great Britain or the United States of America is spending. We have made a valuable start and I trust the good work of the council will continue. I commend the bill to the Senate. </para>
+          <para>
+            <inline font-weight="bold">Senator</inline>FINDLEY  (Victoria) &#91;8.18 J. - The Minister <inline font-weight="bold">(Senator Sir George Pearce),</inline> has supplied the Senate with some valuable information. I am sure honorable senators, irrespective of the party to which they belong, are gratified to learn that substantial progress has been and is being made by the Council for Scientific and Industrial Research. It has set to work on some of the most important problems that confront us to-day, the solving of which will be of considerable moment to Australia. Our finances may be in a somewhat unsatisfactory condition, the Commonwealth being threatened this year with a deficit instead of a surplus as has been the case in recent years, but no one will cavil at the expenditure of money on scientific work. The amount being appropriated appears to be large, but, as the Minister has stated, it is for the purpose of permitting this institution, composed as it is of highly scientific men, to proceed uninterruptedly with its important work. Continuity of effort is essential. It is problematical whether the council will solve some of the difficulties which it has attacked, but in order that it may proceed without interruption funds must be made available to it. </para>
+          <para>I have pleasure in supporting the bill. I wish the council all the success it deserves. If it succeeds in the different spheres of its activities, it will not only be gratifying to those who are associated with it, but also will add much to the progress and prosperity of Australia. </para>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time, and passed through its remaining stages without amendment or debate. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>LEAVE OF ABSENCE</title>
+        <page.no>6114</page.no>
+        <type>leave of absence</type>
+      </debateinfo>
+      <para>Motion  (by <inline font-weight="bold">Senator Sir George</inline> Pearce) <inline font-style="italic">(by leave)</inline> agreed to - </para>
+      <quote>
+        <para>That leave of absence bo granted to every member of the Senate from the determination of the sitting this day, to the day on which the Senate next meets. </para>
+      </quote>
+      <para class="italic">
+        <inline font-style="italic">Sitting suspended from 7.27 to 10.10 p.m.</inline>
+      </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>COMMONWEALTH ELECTORAL BILL</title>
+        <page.no>6114</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill returned from the House of Representatives with a message intimating that it had agreed to the consequential amendments made by the Senate to clauses 3 9, 13 and 14, and that it did not insist on its amendment to clause 14 disagreed to by the Senate. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SPECIAL ADJOURNMENT</title>
+        <page.no>6114</page.no>
+        <type>special adjournment</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator Sir George</inline> Pearce) agreed to - </para>
+      <quote>
+        <para>That the Senate, at its rising, adjourn till a day and hour to be fixed by the  President,  which time of meeting shall be notified to each senator by telegram or letter. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>6114</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>New Guinea Ordinance: Copra - Answers to Questions - Adjournment Period</title>
+          <page.no>6114</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6114</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>NAT</party>
+              <role>Vice-President Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;10.13&#93;. - In moving - </para>
+          </talk.start>
+          <quote>
+            <para>That the Senate do now adjourn, </para>
+          </quote>
+          <para class="block">I take this opportunity to answer the .fol.lowing questions asked by <inline font-weight="bold">Senator Chapman</inline> - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Has the Planters&#39; and Traders&#39; Association of New Guinea been consulted in regard to Ordinance No. 9 of 1928, relating to copra? </para>
+            </item>
+            <item label="2.">
+              <para>Has the association approved of the terms of the ordinance? </para>
+            </item>
+          </list>
+          <para class="block">The answers to the honorable senator&#39;s questions are as follow: - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Before the ordinance was promulgated the Administrator advised that the question of the supervision by the Administration of the quality of New Guinea copra marketed, was discussed with the Planters&#39; Association and that it was agreed that a system of inspection should be instituted. </para>
+            </item>
+            <item label="2.">
+              <para>The draft of the ordinance, which follows the line of a Samoan Ordinance on the same subject, was prepared by the authorities in Rabaul, but the Minister is not aware whether its exact terms were communicated to the Planters&#39; and Traders&#39; Association. The ordinance was made on the 23rdMay and copies were forwarded to the Administrator on the 1st June, and should now be available for the information of planters. </para>
+            </item>
+          </list>
+          <para>I should like to indicate to honorable senators that the probability is that they will be called together again about the end of August or the beginning of September. I also take the opportunity to thank honorable senators for the consideration they have extended to theGovernment during the session. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6115</page.no>
+              <time.stamp />
+              <name.id>JXZ</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNCAN, Walter</name>
+              <name role="display">Senator DUNCAN</name>
+            </talker>
+            <para>, - This morning I asked the Leader of the Senate a series of important questions dealing with certain aspects of the financial position. I should like to know if the answers are yet forthcoming. If not, will it be possible for them to be forwarded to me at an early date? </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6115</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>-  The answers to the questions have not come to hand, but they will be forwarded to the honorable senator. </para>
+            </talk.start>
+          </interjection>
+          <para>Question resolved in the affirmative. </para>
+          <para>Senate adjourned at 10.15 p.m. till a day and hour to be fixed by the  President. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+  </chamber.xscript>
+</hansard>

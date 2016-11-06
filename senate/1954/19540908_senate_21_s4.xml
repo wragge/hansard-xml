@@ -1,251 +1,1776 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #010214; } body { background-image: url(/images/body-home-dusk-blurred.jpg); background-color: #010214; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1954-09-08%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1954-09-08%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1954-09-08%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1954-09-08%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1954-09-08%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1954-09-08%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1954-09-08%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1954-09-08/19540908_senate_21_s4.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.04");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1954-09-08</date>
+    <parliament.no>21</parliament.no>
+    <session.no>1</session.no>
+    <period.no>1</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>226</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <business.start>
+      <day.start>1954-09-08</day.start>
+      <para>The <inline font-weight="bold">PRESIDENT (Senator the Hon. A. M. McMullin)</inline> took the chair at 3 p.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>THE PRESIDENT</title>
+        <page.no>226</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>226</page.no>
+            <time.stamp />
+            <name.id>JZI</name.id>
+            <electorate>QueenslandMinister for Trade and Customs</electorate>
+            <party>LP</party>
+            <role>Minister for Trade and Customs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">O&#39;SULLIVAN, Neil</name>
+            <name role="display">Senator O&#39;SULLIVAN</name>
+          </talker>
+          <para>- I am sure that all honorable senators will be keen to associate themselves with me in extending to you, <inline font-weight="bold">Mr. President,</inline> a very cordial welcome home. Although you were away from Australia for some months, you actually missed only three or four sitting days of the Senate. Your friends here travelled with you in spirit, and they are confident that you have learned a lot overseas that will be of great advantage to yourself personally and to your country. We are equally confident that, while you were away, you were an&#39; excellent ambassador for Australia in the countries which you visited and among the people whom you met. Undoubtedly, with this wider experience and broadened vision, you will add still further lustre to the position which, up to date, you have filled with great credit to yourself and satisfaction to the Senate. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>226</page.no>
+            <time.stamp />
+            <name.id>KTN</name.id>
+            <electorate>TasmaniaLeader of the Opposition</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCKENNA, Nicholas</name>
+            <name role="display">Senator McKENNA</name>
+          </talker>
+          <para>- I join very cordially with the Minister for Trade  and Customs <inline font-weight="bold">(Senator O&#39;sullivan)</inline> in extending to you, <inline font-weight="bold">Mr. President,</inline> on behalf of the Opposition, a warm welcome back to the Chair in this chamber. We are particularly glad to see you back here undiminished in stature, both mentally and physically. I agree with the Minister that the trip will have been of great advantage to yourself personally, and I am confident that that advantage will, in due course, be passed on to us in the Senate. We of the Opposition look forward to a resumption of the tolerance and firm guidance you have always shown to us during your very distinguished term in the Chair. On behalf of the Opposition, I offer you a sincere welcome back to the Senate. </para>
+        </talk.start>
+        <para>The <inline font-weight="bold">PRESIDENT (Senator the Hon.</inline></para>
+        <list type="upperalpha-dotted">
+          <item label="A.">
+            <para>M. McMullin).- <inline font-weight="bold">Senator O&#39;sullivan, Senator MeKenna,</inline> and honorable senators, I thank you for your words of welcome. As honorable senators are aware, my overseas trip was not official but private. Nevertheless, I did take every opportunity during my travels to become better informed on parliamentary institutions and public affairs generally. The countries I visited included the United States of America, Canada, Great Britain, Ireland, France, Switzerland, Holland, and Italy. I do not propose  on this occasion to recount to the Senate my experiences in those countries, but I should like to express in a general way some of my impressions. One of the most enduring impressions I have is of the very real interest now being taken in Australia by people overseas. Our leading statesmen are universally known and respected. Great national projects like the Snowy Mountains hydro-electric scheme, and the Woomera rocket range, have evoked international interest. The newspapers of the world report the exciting quest for oil in Western Australia, and the discovery and development of uranium fields. In the field of sport, too, the performances of our athletes, swimmers, tennis players, golfers, and others are world news. All these matters bring much credit to, and publicity for Australia, and I feel that they play no small part in the success of our immigration programme. </para>
+          </item>
+        </list>
+        <para>Naturally enough, much of my time was spent on visits to overseas parliaments. At Washington, senators accorded me the signal honour of interrupting their proceedings in order that I might meet the members. Here there was much to interest an Australian senator, because our own Senate was fashioned on thu model of the second chamber of the United States of America. I found much familiar ground, including the same principle of equal representation of the States and six-year terms for senators. Regarding simultaneous elections for both Houses, a matter which is of some interest to us at the moment, I found that the Federal Constitution calls for the election of all members of the House of Representatives and one-third of the senators at the regular election every second year. Congress, however, is not subject to the double dissolution in the way in which our Parliament is. Therefore, there is a certain rhythm about their elections. There is, I think, no great objection in the United States of America to frequent elections. In my research into the matter I found one authority who claimed - </para>
+        <quote>
+          <para>If the money is spent efficiently, we should not begrudge the expense  because  elections are the insurance premiums we pay on our right to bc free and to make our own decisions. </para>
+        </quote>
+        <para class="block">I think that is at least some answer to those who may criticize the frequency of elections in Australia. </para>
+        <para>I suggest that there is much to be learnt from a study of the American Senate, and I am sorry that I did not have more time in Washington. It is true that the presidential form of government differs from our cabinet system of government, yet there is much which our Senate has in common with its American counterpart. Our Senate, of course, has not the same exclusive power to approve treaties and appointments in the executive branch. Perhaps it is these exclusive powers which have resulted in the great influence of the United States Senate - an influence and prestige which seemed to me during my visit to be greater than that of their House of Representatives. Perhaps, too, it stems from the relatively smaller number of Senators, their attitude to the party system, and such other matters as their highly developed committee system. These are matters which are full of interest to Australian senators. </para>
+        <para>In Canada, it was my honour to be made a guest of the Senate at an evening sitting. At the request of the  Speaker,  I was escorted into the chamber between the Leader of the Government in the Senate and the Leader of the Opposition, and presented to <inline font-weight="bold">Mr. Speaker,</inline> who made a short speech of welcome. I was privileged then to address my thanks to the Senate. It was a most impressive way  of welcoming a guest. That is one direction in which I think our own practice in relation to distinguished visitors might be reviewed. </para>
+        <para>My visits to the Palace of Westminster were very happy. On different occasions I was the guest of the Lord Chancellor, the Right Honorable Lord Simonds, and of the  Speaker  of the House of Commons, the Right Honorable W. S. Morrison, M.C., Q.C., both of whom entertained me at lunch and provided me with opportunities to see the Parliament of the United Kingdom in session. I found Westminster full of fascination, and I am sure no one could visit those historic buildings without experiencing feelings of humility and reverence. I found members to be keenly interested in the opening of our Parliament by  Her  Majesty the Queen in February. I think they took some pride in hearing that our opening procedure closely follows their model. For my part, it gave me much pleasure to speak of  Her  Majesty&#39;s visit to Australia and the very great pride taken by all Australians in their young Queen. </para>
+        <para>While in London, I attended the annual meeting of the United Kingdom branch of the Commonwealth Parliamentary Association. I found it to be a most active branch, with a very keen interest in the Dominions and the promotion of Commonwealth ties. The members md officers did much to assist me  in  my search for information, and I look forward to opportunities to return their kindness. Later I visited the Senates of Northern Ireland, Holland and Italy, where I was welcomed with many courtesies. </para>
+        <para>I have spoken mainly of my experiences on visits to overseas  parlia-  ments, and 1 have not dealt with <inline font-style="italic">my</inline> impressions on such matters as relationsbetween East and West, rural industriesand Australian trade with other countries. Such subjects found a place in my inquiries, but they present too broad a canvas for this occasion. I shall content myself by saying that, in all the countries I visited, I found the same strong desire for peace that we feel in Australia, and I think that in this regard we can all make our best contribution to the peace of the world by an unswervingsupport of the United Nations and itf purposes and principles. I have said that my overseas tour was largely one of inquiry, in order to become better informed. In addition, I tried to be an. ambassador for my country. That, I think, is the duty of all Australians whotravel abroad, and I hope that I succeeded in that role. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADDRESS-IN-REPLY</title>
+        <page.no>228</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Presentation to the Governor-Genera i.. </para>
+      <para>The <inline font-weight="bold">PRESIDENT (Senator the Hon. A. M. McMullin).</inline> - I have ascertained that  His Excellency  the GovernorGeneral will be pleased to receive the Address-in-Reply to his opening Speech at Government House at 4.30 p.m. on  Tuesday next. I invite as many honorable senators as can make it convenient to do so to accompany me. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ROYAL COMMISSION ON ESPIONAGE BILL 1954</title>
+        <page.no>228</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Assent reported. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>228</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>UNDESIRABLE LITERATURE</title>
+          <page.no>228</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>228</page.no>
+              <time.stamp />
+              <name.id>JSB</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRITCHLEY, John</name>
+              <name role="display">Senator CRITCHLEY</name>
+            </talker>
+            <para>- Has the attention of the Minister for Trade and Customs been directed to a report in the Adelaide <inline font-style="italic">Advertiser</inline> of the 31st August, attributing to <inline font-weight="bold">Mr. Playford,</inline> the Premier of &#39;South Australia, the statement that the best means of preventing the distribution of undesirable literature was on the lines of Commonwealth and State action? <inline font-weight="bold">Mr. Playford</inline> was also reported to have stated - </para>
+          </talk.start>
+          <quote>
+            <para>This can be done by  each  State examining printed matter originating within its borders and the Commonwealth taking far more care of the type allowed to come to Australia  . . There is much coming in, passed by the Commonwealth, and distributed from one State to another, which portrays the most undesirable features of life abroad. </para>
+          </quote>
+          <para>Because of the continued sale and publication of salacious literature in this country, and the apparent lack of cooperation between the Commonwealth and the States in connexion with this matter, will the Minister arrange for a conference between the Commonwealth and the State governments to be held at an early date, for the purpose of considering the introduction of uniform legislation to deal effectively with this pernicious problem ? </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>229</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- I have not had an opportunity to peruse the newspaper report mentioned by the honorable senator. However, on many previous occasions I have informed the Senate - and I think this goes without contradiction - that the Commonwealth is as keen as are the State governments to prevent undesirable literature from being distributed, or made available in any way to the youth of our country. I point out that the power of the Commonwealth in this connexion is extremely limited. It applies only to the point of entry into this country of undesirable literature. In many instances, it has been found that this kind of literature enters Australia in private correspondence or in films and is re-published here. No matter how eager or enthusiastic the Australian Government may be to police this matter thoroughly, it is physically impossible for us to do so, because the Commonwealth&#39;s power ends there. Whilst not attempting to pass the buck to the States, I point out that they have complete power in relation to the sale of undesirable literature. It is quite within the province of the State governments to introduce appropriate legislation to deal with the matter. </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>229</page.no>
+                <time.stamp />
+                <name.id>JSB</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CRITCHLEY, John</name>
+                <name role="display">Senator CRITCHLEY</name>
+              </talker>
+              <para>- South Australia has already done so. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>229</page.no>
+                <time.stamp />
+                <name.id>JZI</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">O&#39;SULLIVAN, Neil</name>
+                <name role="display">Senator O&#39;SULLIVAN</name>
+              </talker>
+              <para>- The objective of legislation which has been enacted by Victoria and Queensland is the prevention and distribution of this kind of literature. It is quite within the powers of the States to make it an offence to offer undesirable literature for sale. The </para>
+            </talk.start>
+          </continue>
+          <para class="block">Commonwealth would be only too pleased to give whatever assistance lies within its power in this respect. But if the matter is to be attacked efficiently it must be attacked by State legislation. The Prime Minister has already indicated that the Commonwealth would be only too pleased to give whatever co-operation it could along those lines. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>229</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>NATIONAL DEVELOPMENT</title>
+          <page.no>229</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>229</page.no>
+              <time.stamp />
+              <name.id>KAC</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">VINCENT, Victor</name>
+              <name role="display">Senator VINCENT</name>
+            </talker>
+            <para>- I wish to ask the Minister for National Development a question which relates to a press notice which appeared in the <inline font-style="italic">West Australian</inline> on Saturday, the 14th August, concerning a national development programme of about &#163;640,000,000. The press notice gives the impression that the Government has prepared a new scheme of development in which rural areas will get priority. I ask the Minister whether the &#163;64)0,000,000 national development programme that was referred to in the <inline font-style="italic">West Australian</inline> of the 14th August is a new scheme. Docs it involve the raising of &#163;040,000,000 of new money? Could the Minister indicate the basic features of the scheme? To what extent is Western Australia to participate in thi3 programme ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>229</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>LP</party>
+              <role>Minister for National Development</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- I did not see the press report to which the honorable senator has referred. However, I have received correspondence from various sources which indicates that there has been some misapprehension concerning a press statement that I made. I think that I had better recapitulate the circumstances. My department prepared a summary of all the developmental works in Australia, either in being or in immediate contemplation. This is a useful little summary which shows the works under construction or in contemplation in the various States and in various categories. I think that there has been some confusion on the part of some people concerning that publication. The Government does not contemplate commencing, <inline font-style="italic">de novo,</inline> a &#163;640,000,000 programme nor does it contemplate raising money to that extent. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>229</page.no>
+              <time.stamp />
+              <name.id>KSL</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MAHER, Edmund</name>
+              <name role="display">Senator MAHER</name>
+            </talker>
+            <para>- Can the Minister for National Development say whether the summary of developmental works has been circulated to honorable senators? I have not received a copy. &#34;Will he be kind enough to send one to me? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>230</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>- I cannot say offhand whether the summary has been circulated, but I shall have great pleasure in making a copy available to the honorable senator. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>230</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PARLIAMENT HOUSE</title>
+          <page.no>230</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>230</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator FRASER</name>
+            </talker>
+            <para>- I wish to ask a question of the Minister for Trade and Customs. I do not want the Minister to regard this question as a criticism of parliamentary officials. When I returned to the Parliament after the recess I found that a letter addressed to me had been in my box since the 12th August. I am informed by a company on whose behalf I made representations to the Minister- </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>230</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- Order ! What is the honorable senator&#39;s question? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>230</page.no>
+                <time.stamp />
+                <name.id>KKR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FRASER, James</name>
+                <name role="display">Senator FRASER</name>
+              </talker>
+              <para>- Will the Minister endeavour to ensure that, when the Senate is in recess, correspondence for honorable senators is stamped, so that it can be forwarded on to them ? The information to which I have referred was conveyed to me by a responsible firm in Perth, and the letter has been in my box since the 12th August last. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>230</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- I think that the request made by the honorable senator is a most reasonable one. It is a matter for some regret that he has been put to inconvenience. I shall certainly mention the matter to my colleagues with a view to having letters, which arrive at Parliament House during recess, stamped, so that they may be forwarded on to honorable senators. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>230</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>NATIONAL SERVICE</title>
+          <page.no>230</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>230</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>- Is the Minister for Trade and Customs in a position to inform the Senate and the people whether the statement made by the Minister for Defence, that the Government intended to introduce control of finance and materials, represents the views of the Government? Was this statement made with the approval of the Menzies Government, or was it made with a view to its acting as a sounding board to gauge public reaction? Was the statement to be elaborated in an announcement which was to have been made by the Minister for Defence last evening, and which also would have suggested curtailment of national service training? Is it a fact that the Minister for Defence was denied the opportunity to express his views on these important matters because of protests from Government supporters on the back benches who hold borderline seats and who feared political disadvantages from such a course? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>230</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- The Leader of the Government, on a matter of policy. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>230</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- I feel very encouraged by the interest which the honorable senator is taking in our welfare. I hope that, if he continues to take such an interest, he will learn a lot. I did not see the statement to which the honorable senator referred, but if it was an accurate report of a statement made by my colleague, the Minister for Defence, I commend it to the attention of the honorable senator, because it would be well worth reading. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>230</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CIVIL AVIATION</title>
+          <page.no>230</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>230</page.no>
+              <time.stamp />
+              <name.id>KOW</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENTY, Norman</name>
+              <name role="display">Senator HENTY</name>
+            </talker>
+            <para>- I preface a question to the Minister representing the Minister for Civil Aviation by stating that the Department of the Interior, as disposal agent for the Department of Civil Aviation, has advertised for sale by public tender the airstrip at Umbrella Flats, in northern Tasmania. Before this airstrip is disposed of, will the Minister investigate the desirability of retaining it, owing to its proximity to the aluminium industry and the possible development of an aircraft industry in the vicinity? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>230</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>LP</party>
+              <role>Minister for Shipping and Transport</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- I shall take the first opportunity to refer this matter to my colleague, the Minister for Civil Aviation, and obtain a reply for the honorable senator. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>230</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>HOUSING</title>
+          <page.no>230</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>230</page.no>
+              <time.stamp />
+              <name.id>K4S</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SANDFORD, Charles Walter</name>
+              <name role="display">Senator SANDFORD</name>
+            </talker>
+            <para>- As the Minister representing the Minister for Social Services is no doubt aware, applicants for loans from the War Service Homes Division, for the purpose of building homes, are kept waiting for twelve months to eighteen months before such loans are approved. This inordinate delay causes great inconvenience and, in many instances, financial loss to applicants for such assistance. Will theMinister make representations to the Government with a view to having this period of delay greatly reduced ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>231</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- The financial arrangements concerning war service homes come before the Parliament each year when thenecessar y appropriations are being made. It is then open to the Senate and the House of Representatives to debate those proposals. I have not the exact figures inmy possession, but I believe there is no doubt that the funds that have been made available by this Government for war service homes exceed by many millions of pounds the funds that were made available by the previous Labour Government. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>231</page.no>
+                <time.stamp />
+                <name.id>K4S</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SANDFORD, Charles Walter</name>
+                <name role="display">Senator Sandford</name>
+              </talker>
+              <para>- That is just a silly answer. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>231</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>- It was a silly question. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>231</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>RICE</title>
+          <page.no>231</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>231</page.no>
+              <time.stamp />
+              <name.id>JQN</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOKE, Joseph</name>
+              <name role="display">Senator COOKE</name>
+            </talker>
+            <para>- I direct a question to the Minister for Trade and Customs as the Leader of the Government in the Senate because I believe that it concerns two departments. In what circumstances did the Government enter into negotiations with a group of investors from the United States of America to develop the plains along the AdelaideRiver in the Northern Territory for ricegrowing? Is it beyond the capacity of the Government to develop that area as a national project? Did the Government approach the American investors reagarding the development of that valuable potential rice-growing area or was the approach made by the American investors to the Government? Has the Department of National Development or any other government department made any surveys of the area or do they hold any reports in connexion with that Australian asset? If so, will the Minister arrange to have the papers tabled in the Senate? Has any opportunity been given to Australian investors to take up this developmental project? If not, what opportunity will be afforded to Australian people and capital to develop the project? Will the Minister give an assurance that before the asset is disposed of to American investors, the Parliament will have an opportunity to discuss any agreement that the Government may contemplate for the development of the area? Failing the Government&#39;s ability to carry out the developmental scheme as an Australian national development project will all possible endeavours bo made to have Australian capital and investors take over and carry out the scheme? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>231</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- I cast no persona&#93; aspersions on the honorable senator, but I believe that inherent in his question is what I might term small Australianism. The Government hopes that Australia will be so attractive to our friends overseas, particularly in the United Kingdom and in the great democracy of the United States of America, that substantial overseas investments in Australia will result. The Government believes that Australia will become great by the encouragement of such investment and the development that will follow. Naturally, in the first instance, every opportunity and encouragement is given to our own Australian people. If the honorable senator had an elementary idea of economics, he would know that we have not in Australia now sufficient savings of our own to develop our country fully, at least not in the way we would like to see it developed. In any event, overseas investment in this country is encouraged. However, paramount in the mind of the Government are the welfare, well-being and prosperity of Australia, and those considerations will continue to be paramount, but I hope that nothing inherent or implicit in the honorable senator&#39;s question will make anybody outside this country feel that we do not want our friends to come here with their money and know-how. On the contrary, we welcome them. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>231</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CORNSACKS</title>
+          <page.no>231</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>231</page.no>
+              <time.stamp />
+              <name.id>KNR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HANNAFORD, Douglas</name>
+              <name role="display">Senator HANNAFORD</name>
+            </talker>
+            <para>-Can the Minister representing the Minister for Commerce and Agriculture say whether it is a fact that control of the importation of cornsacks will remain with the Australian Wheat Board, whereas the procurement of other jute products will  revert to ordinary trade channels? If, as reported in the press, this is so, can the Minister give any reason for this decision ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>232</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- The Government is eager to remove all control as soon as possible. It has decided that controls on the importation of jute goods, except cornsacks, will cease on the 31st December. The position of cornsacks is complicated by the fact that wheat is all acquired by the Australian Wheat Board. The price of jute is exceptionally high, and the Government is not sure that adequate supplies of cornsacks will be available unless the present system is continued for a further year. In brief, cornsacks will be controlled for a further year in order to make sure that there will be adequate supplies of them in Australia, to assist storage problems, and because it would not be fair to ask private enterprise to finance the purchase of the great quantity of cornsacks that will be necessary, particularly in view of the high cost and the uncertainty of the future market. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>232</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SHIPPING</title>
+          <page.no>232</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>232</page.no>
+              <time.stamp />
+              <name.id>KBW</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WRIGHT, Reginald</name>
+              <name role="display">Senator WRIGHT</name>
+            </talker>
+            <para>- When does the Minister for Shipping and Transport expect to have the report that is being prepared by <inline font-weight="bold">Mr. Strahan</inline> on shipping problems in Tasmania? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>232</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- The investigation is being made by a high ranking official of the Australian Shipping Board who has had very wide practical experience. As he completes his investigation of the shipping problems at the various ports, he will forward his reports to the manager of the Australian Shipping Board and the Department of Shipping and Transport. Honorable senators will be pleased to know that already a report has been received on King Island snipping. If any honorable senator ia interested in that report I shall be pleased to discuss the matter with him at his and my convenience. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>232</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>POSTAL DEPARTMENT</title>
+          <page.no>232</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>232</page.no>
+              <time.stamp />
+              <name.id>KOU</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENDRICKSON, Albion</name>
+              <name role="display">Senator HENDRICKSON</name>
+            </talker>
+            <para>- Twenty or 30 years ago, it was the practice of the Postal Department to have the laying of underground cables, the erection of tele phone lines, and telephone line maintenance work, done by private contract. Can the Minister representing the PostmasterGeneral inform me whether the Government intends to revert to that system ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>232</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party>CP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>- I shall be pleased to bring the honorable senator&#39;s question to the notice of the Postmaster-General and obtain a considered reply as soon as possible. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>232</page.no>
+              <time.stamp />
+              <name.id>K6W</name.id>
+              <electorate>through Senator Critchley</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLE, George</name>
+              <name role="display">Senator COLE</name>
+            </talker>
+            <para>asked the Minister representing the Postmaster-General, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>When will an automatic telephone exchange be installed at Devonport, Tasmania? </para>
+            </item>
+            <item label="2.">
+              <para>When will new post offices be built al Ulverstone, Burnie and Smithton to replace the crowded premises now in use? </para>
+            </item>
+          </list>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>232</page.no>
+                <time.stamp />
+                <name.id>JQP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COOPER, Walter</name>
+                <name role="display">Senator COOPER</name>
+              </talker>
+              <para>- The PostmasterGeneral has furnished the following answers : - </para>
+            </talk.start>
+          </continue>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Conversion of the Devonport  telephone  area to automatic working provides for thi.1 establishment of two exchanges, one at Devonport Hast and the other at Devonport. The Devonport East automatic exchange will bc opened on . the 24th August with equipment for 300 subscribers&#39; lines. Installation of the Devonport automatic equipment will be commenced when the new exchange building,  which  has been given a high priority, is completed  towards  the end of 1955. 2. <inline font-style="italic">(a )</inline> The existing accommodation at  Ulver  stone is satisfactorily meeting requirement,and there is no proposal at present being developed for a new post office building. (6) The Burnie post office building is to be extensively remodelled and extended after the establishment of the telephone exchange in a new building, the location for which is being determined, (c) It is proposed to erect a newpost office building at Smithton during the next financial year. </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>232</page.no>
+              <time.stamp />
+              <name.id>K3I</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">RYAN, John</name>
+              <name role="display">Senator RYAN</name>
+            </talker>
+            <para>asked the Minister representing the Postmaster-General. <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that at Bed Hill, South Australia, the public are required to conduct all types of postal business through a very small window which is on the street alinement, and that customers have no privacy or protection from the weather? </para>
+            </item>
+            <item label="2.">
+              <para>If so, will the Postmaster-General, as soon as possible, provide better and modern facilities for the conduct of postal business at that town? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>232</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- The PostmasterGeneral has furnished the following  answers to the honorable senator&#39;s questions : - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>The post office at Red Hill is a very old type of building abutting the street  alinement  and transactions with the public are conducted through a hatch in the front wall. A verandah is provided over the footpath to give prolection from inclement weather. </para>
+            </item>
+            <item label="2.">
+              <para>The question of providing improved post  office  accommodation has been under consideration for some time and steps are being taken to expedite the completion of suitable plans with a view to eliminating the existing unsatisfactory features at the earliest date possible. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>233</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PIG RAISING</title>
+          <page.no>233</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>233</page.no>
+              <time.stamp />
+              <name.id>K5T</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SEWARD, Harrie</name>
+              <name role="display">Senator SEWARD</name>
+            </talker>
+            <para>- Some time ago, I wrote to the Minister representing the Minister for Commerce and Agriculture about the granting of assistance to the pig-raising industry. I should like to know whether the Government has considered assisting pig-raisers in their difficulties occasioned by the fall in the price of pig meats ? If so, can the Minister say what assistance is to be given to the industry? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>233</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- This matter has been under active consideration by the Department of Commerce and Agriculture, but so far a decision has not been, reached on it. The Department has been giving attention not only to the special claims of the pig raising industry for assistance, but also to the claims of other industries in which wheat is used for stock feed. I hope that a decision will be reached soon. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>233</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>OIL AND PETROL</title>
+          <page.no>233</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>233</page.no>
+              <time.stamp />
+              <name.id>JYA</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;BYRNE, Justin</name>
+              <name role="display">Senator O&#39;BYRNE</name>
+            </talker>
+            <para>- When the Treasurer was asked in the House of Representatives recently whether the Government would consider protecting investors in oil exploration companies from exploitation on the stock exchange, he replied that birds and possums are protected but the mugs who speculate on the stock exchange are not. In view of the preliminary research that was carried out by the Department of National Development, mainly through <inline font-weight="bold">Dr. Raggatt,</inline> on the oil fields, particularly in the Exmouth Gulf area of Western Australia, will the Minister consider having ft monthly report made available to the Australian public on the progress that is being made on those oil fields and con taining authentic information on the results of drilling operations? Such a report would, I consider, give some measure of protection to investors in oil shares and so eliminate wildcat speculation and violent fluctuations of oil share prices on the stock exchange. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>233</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- It is rather difficult to answer such a request offhand. I shall give consideration to the honorable senator&#39;s proposal. Even if the issuing of such information were considered desirable, I do not know whether the Australian Government would have the power to ensure that it was made available. My impression is that the licensing and control of oil exploration companies is under the jurisdiction of the State governments. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>233</page.no>
+                <time.stamp />
+                <name.id>JYA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">O&#39;BYRNE, Justin</name>
+                <name role="display">Senator O&#39;Byrne</name>
+              </talker>
+              <para>- The Department of National Development made all its information available to the companies. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>233</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>- That is so, but it is a question of the legal position. Speaking subject to correction, the control of drilling operations is vested in the State Governments who, should oil be found, will draw royalties from the production of it. In any case, I doubt whether the honorable senator&#39;s proposal would be effective. In matters such as this, the reputation and the standing of company promoters and directors are the best protection that an investor can have. It is generally recognized, too, that many of the transactions of the kind the honorable senator has in mind are not investments. They are straight out speculation, and advice to that effect is usually given by brokers. The inverter has to take the risk. We must not overlook the fact either that this speculation has had some good results. For many years we could not get the capital necessary to carry out oil drilling operations in Australia. This speculative element, which is characteristic of most mining operations, has resulted in money becoming freely available to carry out an oil search programme on a scale that we did not envisage even a short time ago. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>233</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SOCIAL SERVICES</title>
+          <page.no>233</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>233</page.no>
+              <time.stamp />
+              <name.id>K2S</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ROBERTSON, Agnes</name>
+              <name role="display">Senator ROBERTSON</name>
+            </talker>
+            <para>- My question is addressed, to the Minister representing the Minister for Social Services. Is it a fact that the allowance for the funeral expenses of a pensioner is still &#163;10? Is it a fact also that the funeral benefit paid to members of the Returned Sailors, Soldiers and Airmen&#39;s Imperial League of Australia has been raised to &#163;25? If the allowance for a pensioner is still &#163;10, will the Minister ask his colleague to examine the possibility of increasing it to &#163;25? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>234</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- This matter was examined recently, and the Government&#39;s decision is contained in the budget proposals. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>234</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>MEAT</title>
+          <page.no>234</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>234</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- On the 12th August, <inline font-weight="bold">Senator Seward</inline> asked me the following question : - </para>
+          </talk.start>
+          <para>I preface a question to the Minister representing the Minister for Commerce and Agriculture by stating that a  paragraph  appeared in the newspaper <inline font-style="italic">West Australian</inline> on the 3rd August, purporting to have  been  sent from Sydney, to the effect that a firm was seeking 50.000 Australian pigs for despatch to Great Britain in the form of pig meat to fill a &#163;5,000.000 contract. The firm concerned was reported to be  Westgoods  Proprietary Limited and the meat was to sell at 3s. per lb. sterling, undercutting Eire, Denmark and Holland. I have made inquiries from wool and meat producing firms in Sydney and Western Australia, and none of them can give me any information about Westgoods Proprietary Limited. Has the Minister any information about its identity and if so will he supply it to <inline font-style="italic">&#171;i&#60;i</inline> so that T can inform pig-raisers in Western Australia? </para>
+          <para class="block">The Minister for Commerce and Agriculture has supplied the following information : - </para>
+          <para>This company is not a licensed meat exporting firm nor is there any export processing works registered in that name. I am, therefore, not in a position to give any information about this company. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>234</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>HEALTH AND MEDICAL SERVICES</title>
+          <page.no>234</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>234</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>- As the Medical Benefits Fund of Australia Limited has admitted that in 1952-53 its surplus revenue was over &#163;150,000, will the Minister representing the Minister for Health lay on the table the balance-sheet of the organization for 1953-54, for which, it is alleged, the surplus revenue was more than double that for 1952-53? Is not it imperative to submit such balancesheets to the Parliament when the organizations concerned are paying Commonwealth benefits in connexion with their own benefit schemes? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>234</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate />
+              <party>CP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>- I shall be pleased to bring the honorable senator&#39;s question to the notice of the Minister for Health and ask him to give a decision on the matter raised in it. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>WAR NEUROSIS</title>
+        <page.no>234</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>234</page.no>
+            <time.stamp />
+            <name.id>JQP</name.id>
+            <electorate />
+            <party>CP</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COOPER, Walter</name>
+            <name role="display">Senator COOPER</name>
+          </talker>
+          <para>- On the 11th August, <inline font-weight="bold">Senator Critchley</inline> asked whether J. was in a position to inform the Senate of the progress that had been made with the building of a suitable ward at the Dawes-road Military Hospital in South Australia for the treatment of exservicemen suffering from war neurosis. In reply to the honorable senator, I advise him that, to date, it has not been possible to put the work in hand. Preliminary drawings of a psychiatric block for Springbank have benn examined by architects of the Department of Works and the consultant (psychological medicine) of the head-quarters of the Repatriation Department. It is hoped to have this project included in a design list, of works proposals for which funds will be sought in the financial year 1955-56. However, I take this opportunity to mention that in South Australia, a full-time specialist of high standing in psychiatric medicine is in charge of the Repatriation Commission&#39;s psychiatric service. Not only is his work of a superior standard, but he is fulfilling an important need in the department&#39;s medical requirements. </para>
+        </talk.start>
+        <para>At Keswick, in South Australia, the department maintains an out-patient clinic, which provides excellent treatment for the unfortunate ex-servicemen mentioned by the honorable senator. The out-patient clinic is equipped on modern lines and the furnishings are equal to those found in any up-to-date consulting room. By arrangement with the South Australian Government, in-patient treatment, where necessary, is provided at present in special sections built and equipped by the Repatriation Department at the State mental institutions, and the psychiatric attention given is of a very high standard. The accommodation is also of a high standard and the furnishings have been designed to eliminate any tendency to an &#34;institutional&#34; atmosphere. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>235</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>IMPORTS</title>
+          <page.no>235</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>235</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- On the 11th August, <inline font-weight="bold">Senator Guy</inline> asked the following questions: - </para>
+          </talk.start>
+          <quote>
+            <para>In view of the effective utilization of Scotch tape in Australia on bicyles and motor vehicles in minimizing traffic accidents, will the Minister for Trade and Customs consider favorably the issue of import licences for the importation of that tape? Is it a fact that Scotch tape is not manufactured in Australia and has only recently bwiu made in the United Kingdom, and that the British product will not be available in Australia for about two years? As the number of dollars required for thu purchase of this material in the meantime would be exceedingly small, will the Minister approve the request for import licences? </para>
+          </quote>
+          <para>The answers to the honorable senator&#39;s questions are as follows - </para>
+          <quote>
+            <para>
+              <inline font-style="italic">I</inline>have made inquiries into the points raised in the honorable senator&#39;s question regarding the licensing of Scotch tape from the dollar area and I desire to furnish the following information. Scotchlite tape is not at present manufactured in Australia, but certain grades Of Scotchlite tapes are manufactured in Germany and will be manufactured in the United Kingdom early next year. licences to import Scotchlite tape from non-dollar sources are issued without restriction. The Scotchlite tape of the type required for use on bicycles and motorcycles is not yet available from non-dollar sources and licences are being issued to import this material from the dollar area. The quantities being licensed are not sufficient to meet all demands, owing to the shortage of dollar exchange. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>235</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CHILD WELFARE</title>
+          <page.no>235</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>235</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate />
+              <party>CP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>- On the 12th August, <inline font-weight="bold">Senator Wedgwood</inline> asked me the following question: - i nsk the Minister representing the Minister for Health whether it is a fact that when the Lady Gowrie Child Centres were established in 1940, the Commonwealth grant for them was &#163;20,000, and that to-day, despite the great increase of prices, the grant is only &#163;30,000? Has the Minister&#39;s attention been directed to the fact, that, in addition to exploring and demonstrating the best methods of child care and the education of children of pre-school age, the Lady Gowrie centres are used for study, and observation by students from university faculties of education, psychology, medicine, physical education and social studies, by teachers in training at teaching colleges and kindergarten training coileges, by nurses from nursing colleges, by committees associated with various types of child welfare work, and by individual parents seeking advice? In view of the difficulties in financing those centres, will the Minister consider increasing the Commonwealth  giant  to &#163;50,000 to enable them to carry out the programme originally planned ? </para>
+          </talk.start>
+          <para class="block">The Minister for Health has now furnished the following reply : - </para>
+          <quote>
+            <para>Consideration has been given to a proposal to increase the amount of the Commonwealth grant, but it ia felt that the future of the centres is primarily a matter of State interest. Cabinet has approved the continuation of  a  grant of &#163;30,000 for each of the next two years. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>235</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TAXATION</title>
+          <page.no>235</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>235</page.no>
+              <time.stamp />
+              <name.id>JQN</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOKE, Joseph</name>
+              <name role="display">Senator COOKE</name>
+            </talker>
+            <para>asked the Minister representing the Treasurer, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>ls it a fact that disabled ex-servicemen who suffered the loss of a leg as a result of war, enjoy a total remission of sales tax when purchasing a motor car, or motor car parts, for their own use? </para>
+            </item>
+            <item label="2.">
+              <para>If so, can such tax concession be extended to ex-servicemen who suffered the loss of  an  arm or a hand while in the armed forces? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>235</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- The answer to the first question- is &#34;Yes&#34;. In answer to the second question, I inform the honorable senator that the exemption of <inline font-style="italic">motor</inline> vehicles for ex-servicemen who have lost a leg has been in force since the 20th. September, 1947. It was designed to grant relief to persons who were obliged to use motor cars for personal transport, because of the physical difficulties involved in coping with artificial legs or crutches in public transport conveyances such as trams and trains. There are, unfortunately, many classes of disability which are suffered by ex-servicemen in varying degrees. Whilst the Government is in full sympathy with such persons, it is impracticable to grant to all of them relief from sales tax on motor cars. Representations for the allowance of exemption to persons who have lost a hand, or an arm, were among the many requests considered by the Government in the course of the review of taxation for the purposes of the budget. It was concluded that these representations could not be acceded to, without giving equal consideration to persons with other forms and degrees of disability. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>236</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ROYAL AUSTRALIAN NAVY</title>
+          <page.no>236</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>236</page.no>
+              <time.stamp />
+              <name.id>KBU</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WORDSWORTH, Robert</name>
+              <name role="display">Senator WORDSWORTH</name>
+            </talker>
+            <para>asked the Minister representing the Minister for the Navy, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Will the Minister consider extending to Navy ratings the privilege of wearing civilian clothes while on shore leave, thus bringing them into line with the lower ranks of the Army and Air Force? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>236</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- I now inform the honorable senator that all naval ratings on shore leave may wear plain clothes. Eatings are required to leave and return to their ships in uniform, as discipline must be maintained in ships&#39; boats going to and from shore. Furthermore, there is no room on board to stow civilian clothing. In shore establishments, chief petty officers and petty officers have, for some years, been allowed to leave and return to their establishments in civilian clothes. This is a privilege for the more senior ratings; I consider it should remain J unior ratings, as already stated, may wear plain clothes outside the establishment. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>236</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>GOVERNMENT PRINTER</title>
+          <page.no>236</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>236</page.no>
+              <time.stamp />
+              <name.id>KQQ</name.id>
+              <electorate>through Senator Mattner</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LAUGHT, Keith</name>
+              <name role="display">Senator LAUGHT</name>
+            </talker>
+            <para>asked the Minister representing the Treasurer, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Has an appointment yet been made to the vacant position of Commonwealth Government Printer? </para>
+            </item>
+            <item label="2.">
+              <para>If not, what steps are being taken to obtain a suitable person? </para>
+            </item>
+            <item label="3.">
+              <para>What is the salary being offered for the post? </para>
+            </item>
+            <item label="4.">
+              <para>Is the Treasurer hopeful that, on the appointment of a suitable person, a speeding-up of work from the Government Printing Office will take place? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>236</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- The answers to the honorable senator&#39;s questions are as follow :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>No. </para>
+            </item>
+            <item label="2.">
+              <para>Inquiries for a suitable person are continuing. </para>
+            </item>
+            <item label="3.">
+              <para>The salary of the position was &#163;1,936 per annum minimum, with annual increments of &#163;62 to a maximum of &#163;2,122 per annum. Thy position is being reviewed. </para>
+            </item>
+            <item label="4.">
+              <para>An increase in the output of the Government Printing Office is primarily dependent upon the recruitment of additional skilled tradesmen. This has been the constant concern of the Government Printer, and is a problem which is shared by the industry. Every effort is being made to obtain additional staff; the present staff are working to the limit of their capacity. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>236</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>LAND SETTLEMENT OF EX-SERVICEMEN</title>
+          <page.no>236</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>236</page.no>
+              <time.stamp />
+              <name.id>K5T</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SEWARD, Harrie</name>
+              <name role="display">Senator SEWARD</name>
+            </talker>
+            <para>asked the Minister representing the Minister for the Interior, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that settlers on the Tootra estate in Western Australia have not yet received their leases? </para>
+            </item>
+            <item label="2.">
+              <para>If so, will the Minister take the matter up with the State Government with the object of having the leases issued without further delay ? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>236</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- The Minister for the Interior has supplied the following answer :  - </para>
+          </talk.start>
+          <quote>
+            <para>I do not know whether any particular group of settlers in Western Australia has not received leases. However, the general position in that State is that the legislation under which a lease could be issued, and the lease itself, do not comply with the conditions under which the Commonwealth is making grants of financial assistance to Western Australia for war service land settlement. A draft of a new lease document has been drawn up and agreed to by the Commonwealth. The necessary amending legislation was presented to the State Parliament last year, but was not passed. I recently drew the attention of the State Minister for Lands to the irregularity of the present situation, and he has assured me that amending legislation will again be presented to Parliament shortly. Once this legislation is passed there will be no obstruction to settlers obtaining their leases. </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>236</page.no>
+              <time.stamp />
+              <name.id>KOW</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENTY, Norman</name>
+              <name role="display">Senator HENTY</name>
+            </talker>
+            <para>asked the Minister representing the Minister for the Interior, <inline font-style="italic">upon notice, -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What has been the cost to date of the development of the soldier settlement area in north-eastern Tasmania known as the Waterhouse estate? </para>
+            </item>
+            <item label="2.">
+              <para>Has an allocation been made of any blocks on this area to ex-servicemen? </para>
+            </item>
+            <item label="3.">
+              <para>Were any experiments carried out to test this area before approval was given for its development ? </para>
+            </item>
+          </list>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>236</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLEAY</name>
+              </talker>
+              <para>- The Minister for the Interior has supplied the following answers to the honorable senator&#39;s questions :  - </para>
+            </talk.start>
+          </continue>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>To the 30th June, 1954- &#163;199,725. </para>
+            </item>
+            <item label="2.">
+              <para>No. </para>
+            </item>
+            <item label="3.">
+              <para>Yes. The Tasmanian Department of Agriculture had established and maintained trial plots on the two main soil types-Thorpe Band and Tomahawk sand - for six years prior to approval of the area. As a result of those experiments, development is largely confined to the Thorpe sand areas. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>237</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>COMMONWEALTH BANK</title>
+          <page.no>237</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>237</page.no>
+              <time.stamp />
+              <name.id>K3R</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party>ALP; QLP from 1957; DLP from 1968</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BYRNE, Condon</name>
+              <name role="display">Senator BYRNE</name>
+            </talker>
+            <para>asked the Minister representing the Treasurer, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Will the Treasurer make a statement on the attitude of the Commonwealth Bank Board to the wage claims of employees of the bank, in view of the fact that the unusual step was recently taken by the bank&#39;s officers of holding a mass meeting to consider the wageinjustice to which they consider they are subject. </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>237</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- The Treasurer&#39;s reply to the honorable senator&#39;s question is as follows: - &#62; </para>
+          </talk.start>
+          <para>It is not my practice to make statements about the attitude of the Commonwealth Bank Board on such matters. I do know, however, that the Commonwealth Bank keeps the level of remuneration of its officers under review in the light of relevant circumstances both within and outside the bank, and I have no doubt that the claims of Commonwealth Bank officers to which the honorable senatorhas referred have received, and will from time to time receive, due consideration. As recently as February last, I was informed by the bank that the staff of the bank receives salaries and other conditions of employment which compare favorably with other institutions and industry generally. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>237</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>AUSTRALIAN MILITARY FORCES</title>
+          <page.no>237</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>237</page.no>
+              <time.stamp />
+              <name.id>KQQ</name.id>
+              <electorate>through Senator Annabelle Rankin</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LAUGHT, Keith</name>
+              <name role="display">Senator LAUGHT</name>
+            </talker>
+            <para>asked the Minister representing the Minister for the Army, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that members of the Citizen Military Forces, who have volunteered for service beyond the territories of the Commonwealth, are issued with a distinctive badge, which many of them proudly wear with their civilian clothes? </para>
+            </item>
+            <item label="2.">
+              <para>Is it a fact that national servicemen of the Citizen Military Forces may not have a badge, even if they have volunteered for overseas service, unless they belonged to the Citizen Military Forces before doing national service training? </para>
+            </item>
+            <item label="3.">
+              <para>If so, will the Minister consider making available the Citizen Military Forces badge to all personnel in the Citizen Military Forces who have volunteered for overseas service? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>237</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- I have received the following answers to the honorable senator&#39;s questions from the Minister for the Army: - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. </para>
+            </item>
+            <item label="2.">
+              <para>No (see answer to question No. 3). </para>
+            </item>
+            <item label="3.">
+              <para>Under current instructions, any member of the Citizen Military Forces including national servicemen who have been posted to a Citizen Military Force unit at the completion of their full-time training, may be issued with the &#34; C.M.F. Badge &#34; on acceptance of an obligation to serve abroad. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>237</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>UNIVERSITIES</title>
+          <page.no>237</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>237</page.no>
+              <time.stamp />
+              <name.id>K7Y</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">TANGNEY, Dorothy</name>
+              <name role="display">Senator TANGNEY</name>
+            </talker>
+            <para>asked the Minister representing the Prime Minister, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>In view of the increasing industrial development of Western Australia and of the restrictions placed by eastern States&#39; universities on the admission of medical students from Western Australia, will the Prime Minister reconsider hie previous decision not to give financial aid to the Government of Western Australia for the specific purpose of establishinga medical school at the University of Western Australia? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>237</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- I have received the following information in reply to the honorable senator&#39;s question :  - </para>
+          </talk.start>
+          <quote>
+            <para>The honorable senator will be aware that an offer of financial assistance for the construction of a. medical school within the University of Western Australia was made in 1947, but subsequently the Premier of Western Australia indicated that his Government would not be justified in commencing the big building programme necessary to establish a medical school at this stage. The offer was therefore withdrawn. Since that time the State Grants (Universities) Act has been passed providing for the Commonwealth to make grants to the States for the purpose of meeting portion of the running costs of State universities. There is no provision under the Act for grants of a capital nature. At the same time the States have been placed in the most favorable position to make funds available to their own universities by the receipt of the whole of the loans raised in Australia for the purposes of their works programme, whilst the Commonwealth finances its works programme from revenue. The Government is not prepared at present to vary the form of assistance to enable grants of a capital nature tohe made. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>RELIEF FOR THE PRESIDENT</title>
+        <page.no>237</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator McLeay)</inline> -by <inline font-style="italic">leave</inline> - agreed to - </para>
+      <quote>
+        <para>That, during the unavoidable absence of the  Deputy President,  the  President  be authorized to call upon any one of the temporary Chairmen of Committees to relieve him temporarily in the Chair, without any formal communication to the Senate. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SOUTH-EAST ASIA</title>
+        <page.no>237</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Debate resumed from the 10th August, <inline font-style="italic">(vide</inline> page 113), on motion by <inline font-weight="bold">Senator Spicer</inline> - </para>
+      <quote>
+        <para>That the following paper be printed :  - </para>
+      </quote>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>South-East Asia - Ministerial Statement, 10th August, 1954</title>
+          <page.no>237</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>237</page.no>
+              <time.stamp />
+              <name.id>K1T</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BENN, Archibald</name>
+              <name role="display">Senator BENN</name>
+            </talker>
+            <para>.- If we wish to understand the situation in South-East Asia, we must cast our minds <inline font-style="italic">buck</inline> a  few decades and consider the history of Soviet Social Republics and its achievements in the years that have passed. We know that Soviet communism was established in Russia and that it extended westward to Europe. First of all, it engulfed some of the weaker and smaller nations and, later on, it firmly established itself in other countries. Finally, in its progress throughout the world, it established itself in China. Therefore, it was not a case of a strong and powerful nation conquering another nation. There is <inline font-style="italic">a</inline> big difference between the population of Russia and that of China. The population of Russia is approximately 193,000,000, whereas that of China is &#39; approximately 463,000,000. There you have a nation which absorbed Soviet communism without any resistance on the part of its people. The conclusion must be reached that the Chinese people were quite willing to accept the principles of Soviet communism. </para>
+          </talk.start>
+          <para>From that point, we can allow our minds to consider the real situation in South-East Asia to-day, and to analyse that situation for ourselves. There is the probability, which we must keep in our minds, that some of the countries of South-East Asia may h&#187; willing to accept Soviet communism as a form of government. They may not resist the extension of Soviet communism in their countries. At the present time, it appears that the Australian Government has in mind two matters iti dealing with the spread of communism in South-East Asia. The statement which the Senate is considering makes it plain that we will assist in preventing the spread of communism and also strengthen our physical defences. When it comes to the problem of preventing the spread of Soviet communism in South-East Asia, exactly what field is open to this Government? We know that communism is spreading rapidly in various parts of the world. It was only in 1950 that the Korean war commenced. We saw it commence, we saw it waged, and we saw it end. As soon as it was over, the war in Indo-China was stepped up and did not last very much longer. Any one who analyses the war in Indo-China must come to the conclusion that communism actually won the day. </para>
+          <para>At  the present time, we are seeking, as a means of preventing the spread of communism in South-East Asia, to do something in respect of the countries which, so far, have not absorbed Soviet communism. Any endeavours we make will be matched by Soviet communism to spread its doctrines in that area. The Communists have promised the natives of those countries an era of abundance. We, for our part, and the Australian Government in particular, must match what the Soviet Communists are doing to spread their form of government. Since it is contended that the question is mainly an economic one, the problem of food supplies must enter into our considerations. A review of the food supplies of the world indicates that they are ample America, for instance, cannot sell ro the countries which require and normally consume wheat, all the wheat that it produces. Production is expanding in other countries as well. The food supplies of the world are more than adequate. It would be surprising if they were not so, having regard to the means at our disposal for the production of foodstuffs. The field which is op-n to us in the matter of food production is a. wide one. It is possible, willi the means at our disposal, to produce sufficient food to feed the world adequately. </para>
+          <para>From time to time, one hears laudatory references to the Colombo plan, but what does that plan do? Surely, at best, it is a scheme to relieve only slightly the plight of the people whom it was designed  to  benefit.  It  is inadequate.  In  order to be adequate, it would have  to  be extended perhaps a thousandfold. The principles which we in Australia have followed for the past 50 or 60 years would have to be followed in respect  of  all the countries which have not yet accepted communism, if we wished  to  prevent the spread of communism in those countries. We would have  to  provide the people of those countries with a measure of economic security. There would have to be adequate health schemes of which the people could avail themselves at all times.  As in Australia, there would have to he means for preventing the spread of disease and a proper system of education. Perhaps it is not  the province of this country to suggest to another country, particularly an Asiatic country, that it should adopt certain educational standards, but it  apears  that there is a definite need in Asian countries for the widening of educational facilities. We say that that is necessary and, indeed, most essential if those people are to reach the level of understanding which exists in other countries of the world. In my opinion, without such facilities it would be impossible for such people to understand the aims and aspirations of the white races and to mingle successfully with the people of Australia and other countries. </para>
+          <para>Perhaps this matter would not have been discussed at all had it not been for the fact that the war in Indo-China ended recently. When I opened my remarks, I referred to the path that had been taken by Soviet communism throughout the world. Any one who had analysed the way in which it operated and the pattern which it followed would have realized that, sooner or later, South-East Asia would be well and truly within the range of communism. No sooner was the war in Korea over than the war in IndoChina flared up. As I indicated a little while ago, that war did not last very long because the equipment which was provided by the forces of Soviet communism was far superior to that which France could put into the field. It is necessary, I think, to survey briefly the history of Indo-China. The Union of Indo-China was formed as far back as 1887. For the past 67 years France has been in occupation of Indo-China, and has been the governing force in the land. At the time of union, Indo-China consisted of Cochin China, Annam and Tonking, the total population being 23,000,000, whilst Cambodia and Laos, had populations of 3,000,000 and 1,000,000 respectively. I understand that the five states or provinces had no form of self government, so that there was no political unity. The people who occupied that area had no mutual aims or objectives. However, for the period of 67 years to which I have referred, they were spared the horrors of war. One might conclude from that fact that considerable development would have taken place, and it is true that </para>
+          <para class="block">France did develop Indo-China. However, the natives contended that France had developed the country purely for purposes of self-aggrandisement. France dredged millions of acres of rich coastal plains, and the cultivation of rice was encouraged to such a point that IndoChina became the third largest exporter of rice in the world. In other fields, France was not backward. Railways were constructed, coal mines were developed, rubber plantations were formed and much was clone to improve the country. However, notwithstanding all that was achieved by France, the development was totally insufficient for the population. Is it any wonder that when another power offered the people of Indo-China a land of plenty, they yielded and sacrificed the government of the day. From 1940 to 1945, French administration was missing from Indo-China. The Japanese forces occupied and governed the country. Having tasted Asiatic government, perhaps the people of Indo-China now prefer it to any other. </para>
+          <para>The Australian Government has two proposals to put forward in. connexion with the situation in South-East Asia. One is to endeavour to curtail the spread of communism in the South-East Asian countries by assisting the people there as much as possible in a co-operative way and, secondly, by strengthening Australia&#39;s defences. For some years, a sum of &#163;200,000,000 has been allocated each year for the defence of Australia. Merely because the Parliament approved that expenditure, there has been a tendency to claim smugly that something is being done about defence. But the Parliament has dealt only with the allocation of the money. I meet many people who tell me that they have seen no evidence of the expenditure in Australia of &#163;200,000,000 on defence. I know that it is not always possible to see the result of expenditure on defence, particularly in view of the type of equipment that is required for modern warfare, but it is possible to see whether there has been some defence expenditure. </para>
+          <para>I do not wish to be parochial in this matter, but I remind honorable senators that, in World War II., the railway that stretches 1,000 miles between Brisbane and Cairns was used more for the transport of personnel and war material than was any other similar length of railway in Australia. Along that railway line there are many low-level bridges over coastal rivers. The current cost of constructing steel bridges is enormous. If it were necessary to-morrow for Australia to transport men and material for defence purposes hurriedly from southern Australia to the Atherton Tableland or to the Cairns district, it would be practically impossible to do so. Good fortune was on our side in World War II. Some persons may believe that we shall always be lucky, but we cannot rely on that prospect. Some bridges along that railway line could be strengthened. Others could be duplicated. I can see no reason why the railway line should not be duplicated from Brisbane to Cairns. There should be a double line with high-level bridges over the rivers. I know that these matters are related directly to Australia&#39;s defence. That line was important in World War II., and it may be important again if another war should break out. From time to time, reference is made to a mobile defence system in connexion with airfields. That system relates to the air defences. Units of the Royal Australian Air Force can be shifted about from State to State and from place to place as they are required. Therefore, no strategic airfields are being constructed in the proper way. The opinions of the experts may be well founded, but I believe that many civil airfields could be developed so that in the event of war they would be available for the Air Force. In peace-time they could be used for civil purposes, but they would be available if required for the protection of the people. </para>
+          <para>A conference is now being held in Manila in connexion with the proposed South-East Asia Treaty Organization. That organization will deal with the treaties that various powers hope to se. completed. I believe that the treaties will not be satisfactory because of the nature of the countries that are represented at the convention. I cannot see how they will strengthen our defences in the Pacific area. Malaya is a Crown colony with a population of 6,000,000 people. There are 7S.000.000 people in </para>
+          <para class="block">Indonesia, 20,000,000 in the Philippines, about <inline font-style="italic">20,000,000</inline> in Siam and 19,000,000 in Burma. What can they bring to the common pool of resources in the event of war ? They have been deprived for years of the opportunity to establish heavy industries. They have no means of manufacturing war equipment and even if a treaty organization is established in connexion with South-East Asia, it will not be possible for one solid force to be welded there. I do not look forward with hope to the future of Seato. </para>
+          <para>When considering South-East Asia, we look to the United States of America, but that nation has its obligations to its own people and because of the distance between Australia and America, there i* a limit to anything that the United States of America can do to assist Australia, just as there ls a limit to the help that Great Britain can give Australia in this sphere. Therefore, the necessity devolves upon us to do as much as we can in our own defence. We must keep in mind that Indo-China is only 2,320 miles from Darwin. It is possible now to fly by aeroplane 3,000 miles in less than six hours. In effect, therefore, IndoChina is less than six hours flight from Darwin, but for practical purposes the southern line of Soviet communism isthe southern border of Indonesia. That, is the front line of Soviet communism in relation to Australia. When we consider national safety, we find little to make usconfident. In the past we have alwaysfelt safe nationally. For years we had the assurance of the might of Great Britain and its allies in addition to our own substantial war potential. We had little need to fear for our safety and in that feeling of security we were able togo ahead with our social programme. The Australian Labour party has always stood&#39; for social reform. It has fought for improved social conditions and decent livingstandards for the people. It has fought for better housing, for economic security, and for all the other things that it considers to be worthwhile. Until now there has been no great fear in our minds about the safety of Australia. We havenever thought in terms of national peril. But there has been a great change in the picture. In our approach to our social&#39; problems we shall have to bear in mind&#39;. always the fact that there is a hostile force which could engulf us in a matter of hours. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>241</page.no>
+              <time.stamp />
+              <name.id>KT8</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCCALLUM, John</name>
+              <name role="display">Senator McCALLUM</name>
+            </talker>
+            <para>. - I disagree with very little of what <inline font-weight="bold">Senator Bonn</inline> has said, but there are one or two points on which I may express my disagreement before I sit down. I shall address myself particularly to the negotiations that are going on now in the Philippines. It is a very happy augury that these discussions are taking place in the Philippines, because fears have been expressed here and in some Asian countries that there was an attempt to revive what the people of Asia call imperialism or colonialism. It should be quite apparent that it is nothing of the sort. We begin on the ground that any attempt on the part of any European nation to re-assert sovereignty over any of the countries of South-East Asia from which sovereignty has departed is completely out of the question. It is not being discussed or even thought of and any one who attempts to revive the story that there is something of that kind in the negotiations is simply mischievous. As I said three weeks ago in my speech on foreign affairs in this chamber, what is called Western imperialism is completely finished. The one dangerous imperialism in Asia to-day is that of Soviet communism. Of that there can be no doubt. It is admitted by the Asians themselves. The only unfortunate part of the story is that the great republican Dominion of India is not represented at the Manila conference. I refused to criticize India when speaking on this subject previously and I shall not criticize that country now. The Indian Government has a perfect right to determine its own policy. That policy, I believe, is based on two things. It is based, first, on a continued suspicion of European countries - a suspicion which I hope will ultimately disappear as the grounds for it aro found to have no basis. Secondly, it is based on the belief that India is one of two great countries which could become great powers within a measurable time. If the present form of government continues in. India, and if <inline font-weight="bold">Mr. Nehru</inline> and his party remain in control, India may become one of the great powers of the world. It has a big population - a population which unfortunately is rather impoverished, which needs to have its standard of living raised, and which needs to learn many new crafts; but nevertheless a population which is very intelligent and which can learn new ways of life. India has the basic resources for a great industrial nation. It already has a highly developed steel industry. It has coal. It has a textile industry, and it is rapidly becoming, next to Japan, the most highly industrialized power of Asia. For that reason, whatever India does about theproposed pact, we are determined to remain on friendly terms with it, but we shall, if we can, induce India to come intoschemes such as this. </para>
+          </talk.start>
+          <para>It is necessary that we should remind ourselves of the countries that are participating in the negotiations in the Philippines because some people are inclined to talk rather loosely about SouthEast Asia and to include in their minds countries which are refusing to take part in the conference. The participating nations are the United States of America, Great Britain, France, Australia, the Philippines, Pakistan, and Thailand. Indo-China, of course, is not one country. The only unity it ever had was that given to it by the French Government, and even then it was not by any means completely unified. The Republic of Viet Nam has been divided temporarily according to an arrangement. We hope that arrangement will be adhered to, but from what we know of previous arrangements made with Communist countries, we are entitled to have  some  doubts about what will happen in this instance and what perhaps is already happening to the northern part of Viet Nam. However, we hope that at least the southern part of Viet Nam will be saved and that it will form the basis of a strong Asian country. The two other countries, Cambodia and Laos, aro very different in history, tradition, and way of life from the rest of Indo-China. It is not proposed to bring them into any scheme under which they will have any obligations. I believe that ultimately they will be given a guarantee by the other countries. That seems to be the only way to handle their particular problem. It is something like the problem that Belgium and Switzerland presented for many years in Europe. They must be kept at all costs out of the firing line. </para>
+          <para>Honorable senators have no doubt read in the press queries about whether the agreement will be what is called a strong one or a weak one; whether it will be watered down or not. I gathered from <inline font-weight="bold">Senator Benn</inline> that he feared that the treaty would be weak and therefore valueless. I point out to the Senate that the value of a treaty does not depend upon the language in which it is couched. Sometimes an agreement which appears to be weak, and seems nothing more than a proposal to get together and talk certain things over, can lead to firm action. In 1914, for instance, there was no treaty whatever between Great Britain and Prance. There was only what was called the <inline font-style="italic">Entente</inline><inline font-style="italic">Cordiale</inline> which wa3 a friendly agreement that the two countries would consider one another&#39;s interests, and that in the event of aggression there would be some consultation and some action. Yet, although Britain had no binding agreement to go to the aid of France, and still less did Australia have any such agreement, the entire British Empire as one man stood shoulder to shoulder with France and repelled German aggression. 1 do not propose to say what should or should not be done at the Philippines conference because at this moment the proposed treaty is being debated - it may even now have been concluded - and it would be very foolish for me to be saying something here when quite possibly our Minister for External Affairs is saying something slightly different - I am sure it would not be very different - in Manila. What we need is an agreement that will give the promise of security, and the promise of action against aggression, to all the Asian countries concerned. </para>
+          <para>There is one good reason why the United States of America cannot be a party to any agreement automatically to go to war without first consulting the legislature of that country. Article 8 of the Constitution of the United States o&#163; America provides definitely that the power to declare war belongs to Congress alone, and not to the  President  or to the executive government. No treaty can bind Congress to declare war. Therefore, the American people cannot be bound by any agreement made by their Secretary of </para>
+          <para class="block">State, their President, or any other official, because Congress could repudiate such an undertaking. We do not believe for a moment, of course, that Congress would repudiate an undertaking provided that it respected the right of Congress. Therefore, the fact that, solely because of the provision in the American Constitution, the United States of America will not sign a firm contract that it will automatically go to war, does not mean that any treaty signed with America cannot be strong. Such a treaty would be weaker if it purported to bind Congress to do something that it cannot be bound to do. So, do not let us be deceived by any newspaper headlines which talk of an agreement as being weak because it does not make this specific promise to go to war automatically in the event of aggression. The treaty will have to be worded in such a way that it respects the right of Congress. It will provide, in effect, that the nations will consult and determine what they will do. Perhaps that may take a good deal of explaining to the people who are nearest the firing line and may be overrun immediately. But I submit that no paper promise could save them. The only thing that can save them is the determination of the people of the other countries to go to their aid if they are attacked. </para>
+          <para>Another point that has been stressed by the press, and that may have disturbed some people is that the American representatives appear to be insisting that the promise should be only against Communist aggression whereas the people of Pakistan and others apparently are asking that the treaty shall be aimed at any kind of aggression. According to the latest press report our own Minister is supporting the latter view. One reason that appears patent to me for a difference of opinion between the people of Pakistan and the people of other countries, including the United States of America, is the Kashmir dispute which has been going on between India and Pakistan for about five or six years. I think it was in existence a year or so before I became a member of this chamber, so I know it is a longstanding dispute. People have been afraid for a long time that the Kashmir dispute might lead to open war, and perhaps the people of Pakistan want an, agreement aimed at any kind of aggression because of their fear that there may be a war over Kashmir. On the other hand, other people may not favour an agreement against all types of aggression because they do not want to be embroiled in what they consider to be a local con.dict between India and Pakistan. Personally, I do not believe that India and Pakistan will go to war over Kashmir. <inline font-style="italic">I</inline> think the tolerance that has been shown on both sides, and the peaceful intervention by British officers and by our own Chief Justice, <inline font-weight="bold">Sir Owen</inline> Dixon, who acted as arbiter, will prevent open warfare. There may be a little unnecessary fear about whether these countries should be guaranteed against only Com.munist aggression or aggression of any bind. I believe that is a matter with which we need not concern ourselves greatly at this moment. I have no doubt the Minister for External Affairs is giving his attention to it and that he is considering, not only our interests hut also the interests of the other countries concerned. Undoubtedly, the major thing to provide against is Communist aggression, coming primarily from Moscow but through Communist China. </para>
+          <para>It appears that this conference has progressed much more rapidly than was expected. Therefore, I was rather surprised to hear <inline font-weight="bold">Senator Benn</inline> say that he had little faith in it and suggest that the treaty would be weak or ineffective. I do not believe it will be weak. I believe it will be effective. In considering our own defence, an alteration of the attitude of mind of people throughout Australia is necessary. Most of us grew up with the idea that defence meant rushing down to the beaches and trying to push the enemy back into the water - something like the Saxons did when William the Conqueror landed in England in 1066, or the two aboriginals who opposed Captain Cook tried to do with their spears. That is not the modern concept of defence. I should be more pessimistic than I am if I thought the barrier against communism would be fixed in Indonesia. I want it to be as far north as possible. If we could have it just south of Peking, so much the better for us. But I should be content if it were in Indo-China, or what used to be known as Indo-China. If we can firmly guarantee the independence of Viet Nam, Laos, Cambodia, Thailand and Malaya, and if India and Pakistan can stand firm, that line of defence will be better for us than one in Indonesia. However terrible some modern weapons may be, the further from Australia is the enemy&#39;s base, the better it is for us. I have no sympathy with the view that a defensive war is simply a war fought in our own country. A defensive war is fought to keep an intruder from our own country. If we can borrow some one else&#39;s country to do the fighting in, so much the better for us. </para>
+          <para>I wish to stress that in this matter military protection, although necessary, is not the only thing to be borne in mind. It has been stated in the press that the less developed countries are saying that they want firm and fast agreements for economic aid. I think they should have them, because I believe that such agreements, together with armed defence, are the way to beat communism. I have heard some people advance the theory - a very selfish theory but also, I think, a very foolish one - that if we can keep the peoples of southern Asia and other parts of Asia permanently poor, that will be a guarantee of our own security. Nothing could be more foolish than that idea. We shall not be able to keep t&#39;.ie peoples of Asia in that condition and, as <inline font-weight="bold">Senator Benn</inline> has said, if they were kept in that condition, the vacuum would be filled by Russian or Chinese communism or some other communism. Communism offers attractive baits to the peoples of underdeveloped countries. It is one of the means by which backward countries can be industrialized, and by which powerful aggressive nations can be built up. But we do not think it is the best means to develop under-developed countries, and it is not the one we want. We believe that we can enter into friendly relations with the peoples of Asia, help them to retain their old cultures, customs and ways of life, and still gradually improve their standards of living. </para>
+          <para>The Colombo plan is a very sensible plan. At the beginning, I entertained a little doubt about it, because I thought a good deal of the money spent on it might be thrown away. But, as it is being administered at present, we are learning techniques and ways in which we can not only give assistance to the Asian peoples, but also let them know that we are assisting them. I believe that the part of the plan that relates to the training&#39; in this country of students or embyro technicians is wholly good. I have met a good many of these people here. Those that I have met are highly intelligent. Indeed, as far as I know, all of them are highly intelligent. They are learning a great deal. I believe that when they go back to their own countries they will carry with them goodwill to Australia. I think it is wise to give the Asian countries technical equipment and capital goods, and I think it is wise also to let them know that those goods are coming from here. In that way, we can do a great deal of good. The Colombo plan is a joint plan. We an? only one of the partners, and a small partner at that. It is well for honorable senators and the Australian people to know that the United States of America and the United Kingdom are contributing something too. The great Dominion of Canada, in proportion to its population and importance in the world, possibly is doing more than any other participating nation. I am happy to know that when the Canadian Minister responsible for the Colombo plan was asked some time ago - incidentally, by an Australian - whether Canada could possibly do a little more than it was doing, he replied sweetly, &#34; Of course we can. We shall do as much as we can &#34;. Yet the Colombo plan is far more our concern than it is the concern of Canada. We are much closer to the scene than are the Canadians, and we shall suffer more than they will if the volcano erupts and the lava boils over. It is well for the unity of the British Commonwealth and the goodwill between us and our great sister dominion to know that our friends the Canadians are supporting us loyally in this matter. </para>
+          <para>I turn to a matter that needs a great deal of elucidation and . even what is called propaganda. We must let the people of Australia know that this is the parting of the ways. If we sign any kind of agreement at Manila, whether it be what the press call3 a weak agreement or a strong agreement, we shall have left behind forever that period of our history when most of us believed that isolation was our best policy, that we had no concern with and no interest in the rest of the world, and that this country could be developed on its own. We know now that that idea belongs to the past. We know now that we cannot continue to develop this country in isolation, and that there will be no future for ourselves and those who will come after us unless we have firm friends, not only in Europe and North America but also in Asia. Such friendship demands friendship in return. It does not demand gifts, because there is <inline font-style="italic">no</inline> suggestion that w should seek the support of Asian nations by just trying to be good fellows. Such friendship demands real understanding and real knowledge of what these peoples are, their places in the world and how we can help them as equal partners with us in a free world. Above all, we must avoid any feeling of panic. I believe as firmly as anybody that the menace of communism is the greatest menace in the world to-day, but I hate fanaticism on that subject as much as I bate it on any other. I think fanaticism breeds, at the worst, cruelty, and at the best, a mood of panic. We must be optimistic. We must believe that we can earn the goodwill and co-operation of the free peoples, and prevent a great part of the world from coming under the domination of this new and modern tyranny. </para>
+          <para>These remarks seem to me to be a little premature. I should have preferred <inline font-style="italic">thu</inline> debate to take place in a day or two, when we shall have full information about what has happened at Manila. I hope that while I have been speaking the treaty has been signed, that all the basic agreements have been made, and that from now on we can look forward to cooperation with the other peoples concerned. I hope, <inline font-weight="bold">Mr. President,</inline> you will not consider me to be presumptuous when I say that for those reasons I regard what I have said this afternoon merely as preliminary remarks, and that I hope the debate will be resumed later when we know what engagements the Minister for External Affairs has entered into at </para>
+          <para class="block">Manilla. I emphasize that those arrangements will not commit this Parliament in any way, and that we shall beas free as the Congress of the United States of America to reject them if we think lit. Every country that enters into the agreement at Manila will ask its legislature to ratify the agreement. I hope that at a later stage I shall be able to speak with some knowledge of what has happened at Manila, and with a full assurance that everything that has taken place there is in the interests of the peoples of Asia and in our interests. In that spirit, I ask for leave to continue my remarks at a later stage. </para>
+          <para>Leave granted; debate adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>245</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers were presented :  - </para>
+      <para>Apple and Pear Organization Act - Regulations - Statutory Rules 1954, No. 90. </para>
+      <para>Customs Act and Commerce (Trade Descriptions) Act - Regulations - Statutory Rules 1954, No. 91. </para>
+      <para>Defence Transition (Residual Provisions) Act - National Security (Industrial Property ) Regulations - Orders - Inventions and designs (7). </para>
+      <para>Explosives Act - Regulations - Order directing the Berthing of a Vessel. </para>
+      <para>Lands Acquisition Act - Land, &#38;c, acquired for- </para>
+      <para>Department of Civil Aviation purposes - </para>
+      <para>Lymington (near), Tasmania. </para>
+      <para>Redland Bay (Brisbane), Queensland. </para>
+      <para>St. Mary&#39;s, New South Wales. </para>
+      <para>Department of Supply purposes - </para>
+      <para>Williamstown (Fort Gellibrand) , Victoria. </para>
+      <para>Postal purposes - </para>
+      <para>Agery, South Australia. </para>
+      <para>Dartbrook (Muswellbrook), New </para>
+      <para>South Wales. </para>
+      <para>Edinglassie (Muswellbrook), New South Wales. </para>
+      <para>Keppoch, South Australia. </para>
+      <para>Louth, New South Wales. </para>
+      <para>Millaa Millaa (Bradley&#39;s Hill), Queensland. </para>
+      <para>Naracoopa, King Island, Tasmania. </para>
+      <para>National Health Act - Regulations - Statutory Rules 1954, No. 93. </para>
+      <para>Naval Defence Act - Regulations - Statutory Rules 1954, No. 92. </para>
+      <para>Northern Territory (Administration) Act - Crown Lands Ordinance - Reasons for resumption of recreation reserve, Finke. </para>
+      <para>Ordinances - 1954 - </para>
+      <para>No. 5 - Petroleum (Prospecting and Mining.) . </para>
+      <para>Public Service Act - Appointments - Department - </para>
+      <para>Civil Aviation - J. M. McRae. </para>
+      <para>Commerce and Agriculture - E. J. </para>
+      <para>Davies, F. J. Lesock. </para>
+      <para>Defence Production - R. A. S. Bywater, A. F. J. Johnston, J. T. Moroney. </para>
+      <para>Health - E. R. Manson. </para>
+      <para>National Development - A. T. Wells. </para>
+      <para>Postmaster-General&#39;s - S. J. Chuck, </para>
+      <para>R. J. Conlin, P. L. Cumming, H. R. Harant, R. A. Hume, S. Minz, J. H. Morgan, W. H. Otto, E. H. Rumpelt, A. J. Seyler, K. D. Vawser. </para>
+      <para>Repatriation - J. M. Aitken, M. E. Briggs, L. J. W. Hayes, J. P. Higgin, R. K. Lyons, J. C. S. Officer, R. G. Painter, C. Radeski, J. Stockdale, C. D. Swaine, J. 0. Ward, W. J. P. </para>
+      <para>Woolcock. </para>
+      <para>Social Services - M. P. Smith. </para>
+      <para>Supply - J. H. L. Cohen, D. HemsleyHooker, B. M. Smythe. </para>
+      <para>Territories- W. B. Hitchcock. </para>
+      <para>Works - M. L. Bellairs, R. Clark, M. L. </para>
+      <para>Connick, L. <inline font-style="italic">A.</inline> Knox, M. Leonard, C. E. Miller, K. F. Proposch, D. P. Smith. </para>
+      <para>Public Service Arbitration Act - Determinations by the Arbitrator, &#38;c. - 1954 - No. 34 - Austral ian Workers&#39; Union. </para>
+      <para>Repatriation Act - No. 2 War Pensions Entitlement Appeal Tribunal - Report for 1953-54. </para>
+      <para class="block">Science and Industry Endowment Act - Report by the Auditor-General on the Accounts of the Science and Industry Endowment Fund 1953-54. </para>
+      <para class="block">Seat of Government Acceptance Act and Seat of Government (Administration) Act - Regulations - 1954 - </para>
+      <para class="block">No. 8 - (Building and Services Ordinance) . </para>
+      <para class="block">Wool Products Bounty Act - Fourth Annual Report on Operation of Act for year 1953. </para>
+      <para class="block">Senate adjourned 4.56 p.m. </para>
+    </debate>
+  </chamber.xscript>
+</hansard>

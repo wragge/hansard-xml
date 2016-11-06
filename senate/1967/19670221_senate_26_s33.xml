@@ -1,251 +1,781 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #060606; } body { background-image: url(/images/body-home-evening-blurred.jpg); background-color: #060606; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1967-02-21%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1967-02-21%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1967-02-21%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1967-02-21%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1967-02-21%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1967-02-21%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1967-02-21%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1967-02-21/19670221_senate_26_s33.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.03");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1967-02-21</date>
+    <parliament.no>26</parliament.no>
+    <session.no>1</session.no>
+    <period.no>1</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>5</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">COMMONWEALTH OF AUSTRALIA </para>
+    <para>PARLIAMENTARY DEBATES (HANSARD) </para>
+    <para>First Session of the Twenty-sixth Parliament (First Period) </para>
+    <para class="block">SENATE </para>
+    <para>Honourable senators were, by proclamation, discharged from attendance on 31 October 1966 until the day appointed for the commencement of the next session of the Parliament. The Parliament was convened for the despatch of business on 21 February 1967 and the First Session commenced on that day. </para>
+    <business.start>
+      <day.start>1967-02-21</day.start>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>OPENING OF THE PARLIAMENT</title>
+        <page.no>5</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>The Senate met at 1 1 a.m., pursuant to the proclamation of His Excellency the Governor-General. </para>
+      <para>The  Clerk  read the proclamation. </para>
+      <para>The  Deputy  appointed by  His Excellency  the Governor-General for the opening of the Parliament - the Right Honourable <inline font-weight="bold">Sir Garfield</inline> Edward John Barwick, G.C.M.G., Chief Justice of the High Court of Australia - having been announced by the Usher of the Black Rod, entered the chamber and took his seat on the dais. </para>
+      <para>The  Deputy,  through the  Clerk,  directed the Usher to desire the attendance of the members of the House of Representatives, who being in attendance, </para>
+      <para>The DEPUTY said: </para>
+      <para>Members of the Senate and Members of the House of Representatives: </para>
+      <para>
+        <inline font-weight="bold">His Excellency</inline>the Governor-General, not thinking fit to be present in person at this time, has been pleased to cause letters patent to be issued under the Great Seal of the Commonwealth, constituting me his  deputy  to do in his name all those things which are necessary to be performed in declaring this Parliament open, as will more, fully appear from the letters patent which will now be read. (The letters patent having been read by the  Clerk) </para>
+      <para>The DEPUTY said: </para>
+      <para class="block">Members of the Senate and Members of the House of Representatives: </para>
+      <para class="block">I have it in command from the GovernorGeneral to let you know that after members of the House of Representatives shall have been sworn, the causes of His Excellency calling this Parliament will be declared by him in person at this place; and it being necessary that first a Speaker shall be chosen for the House of Representatives, you, members of the House of Representatives, will retire to the place where you are to sit, and there proceed to the choice of some proper person to be your Speaker; and later this day you will present to His Excellency the person whom you shall have chosen at such time and place as His Excellency shall appoint. Meanwhile I will attend in the House of Representatives for the purpose of administering the oath or affirmation of allegiance to honourable members of that House. (The Deputy and members of the House of Representatives then retired. The . President took the Chair) </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>NEW SENATORS SWORN</title>
+        <page.no>6</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para class="block">The <inline font-weight="bold">PRESIDENT (Senator the Hon. Sir Alister McMullin)</inline> - I inform the Senate that 1 have received certificates of the choice at the election held on 26th November 1966 of senators to fill casual vacancies in the representation of the States of New South Wales, Queensland, Victoria and Western Australia. The certificates will be laid on the table and read by the  Clerk.  -The  Clerk  then laid on the table the certificates of election of Robert Carrington Cotton for- the State of New South Wales, William Clarence Heatley for the State of Queensland, James Joseph Webster and Arthur George Poyser for the State of Victoria, and John Peter Sim and Lawrence Degenhardt Wilkinson for the State of Western Australia. </para>
+      <para>Senators Robert Carrington Cotton, William Clarence Heatley, James Joseph Webster, Arthur George Poyser and John Peter Sim made and subscribed the oath of allegiance. </para>
+      <para>
+        <inline font-weight="bold">Senator Lawrence</inline>Degenhardt Wilkinson made and subscribed an affirmation of allegiance. </para>
+      <para class="block">Sitting suspended from 11.23 a.m. to 3 p.m. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>GOVERNOR-GENERAL&#39;S SPEECH</title>
+        <page.no>6</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>
+        <inline font-weight="bold">His Excellency</inline>the Governor-General entered the chamber, and, being seated, with the  President  on his right hand, commanded that a message be sent to the House of Representatives intimating that  His Excellency  desired the attendance of honourable members in the Senate chamber forthwith, who being come with their  Speaker, </para>
+      <para>His Excellency was pleased to deliver the following speech: </para>
+      <para>Members of the Senate and Members of the House of Representatives: </para>
+      <para>This - the 26th Parliament - assembles at a time when Australia is enjoying a sustained period of stability and economic progress. It is also a time of swift movement and transition amongst the countries of </para>
+      <para class="block">South East Asia and the Pacific, and of Asia generally. Developments in these areas bulk large in the array of external problems and responsibilities which compete with domestic programmes of economic and social development for the nation&#39;s attention and resources. </para>
+      <para>At home, my Government is committed to policies aimed at maintaining economic stability and furthering welfare and economic growth. I shall refer later in some detail to these important matters. </para>
+      <para>I make special reference to the bushfires which have destroyed lives, homes, farms and other property in Tasmania. To those who have suffered loss, the whole Australian community has responded and still responds with sympathy and help. Warm and generous messages and practical help from beyond Australia have been greatly appreciated. My Government entered into immediate discussions with the Government of Tasmania concerning ways in which assistance can best be given. It promptly made a contribution of money for the alleviation of distress. </para>
+      <para>In the fields of foreign policy and defence, my Government is taking important measures. </para>
+      <para>We border on a changing Asia. This is in large part still an area of want, insecurity and great political tension. Since we are necessarily and increasingly involved in the future of Asia, my Government has felt it important to define clearly its objectives in relation to the area. </para>
+      <para>In this connection, the principles which Australia has upheld and on which we base our hopes for future peace and progress in the region were given fresh expression recently at Manila, where my Prime Minister, on behalf of my Government, met in conference with the Heads of Government of six other Asian and Pacific region countries, and joined in the historic </para>
+      <para class="block">Goals of Freedom declaration. The significant part which Australia can play in the affairs of the region is now widely acknowledged by its neighbours. Recent visits to Australia underline this - notably those of the  President  and Vice-President of the United States, the British Ministers for Defence and Commonwealth Affairs, and the Prime Ministers of Thailand, New Zealand and South Vietnam. </para>
+      <para>To meet defence needs, and for its responsibilities towards the security of the region. Australia is undertaking its heaviest defence expenditures since World War IT. Also, it has substantially enlarged its programme of international economic assistance through such channels as the International Development Association, the United Nations agencies, the Colombo Plan, the SEATO aid programme and the new Asian Development Bank. Australia played a leading role in the establishment of the Asian Development Bank and has agreed to contribute SUS85 million to its capital. The Bank, which was inaugurated in December 1966, has been widely hailed as an outstanding example of economic co-operation among countries in the region. </para>
+      <para>My Government is aware of the need for flexibility in its external policies, and will take new opportunities as they arise for contributing to the stability and well-being of the region, lt has developed closer relations with the countries of Asia, both bilaterally and through regional organisations and associations such as the Economic Commission for Asia and the Far East, the Asian and Pacific Council, the Manila Conference, and the South East Asia Treaty Organisation. </para>
+      <para>Vietnam remains of critical importance to Australia and to the cause of freedom. My Government has progressively increased Australia&#39;s military and civil aid contribution to the combined help .by friendly countries to the Government and people of South Vietnam in their resistance to terrorism and aggression - terrorism and aggression which are Communist inspired and directed. My Government will persist with its search for the attainment of a just and enduring peace. </para>
+      <para>My advisers are closely watching developments in China. The outcome of the crisis there will have profound implications reaching far beyond Asia. The greatest impediment to any general relaxation of existing tensions in Asia, and indeed throughout the world, is the attitude of the Communist regime in China. </para>
+      <para>A development which we have welcomed has been the ending of Indonesia&#39;s confrontation of Malaysia. The change of outlook and policy in Indonesia has provided opportunity for constructive consultation. </para>
+      <para>Rhodesia causes continuing concern. My Government has supported the British Government in its efforts to achieve a constitutional settlement in Rhodesia - a settlement which would allow for orderly political change on a basis of justice and equal opportunity in the future to all sections of the Rhodesian community. My Government has taken the additional steps necessary to put into effect the Security Council decision calling for certain economic sanctions against Rhodesia. My Government has consistently opposed resort to force for the solution of the Rhodesian problem. </para>
+      <para>Australia&#39;s expanding role in the international community has required a steady growth in the range of countries in which we have diplomatic missions. My Government intends to introduce legislation during this session of Parliament designed to give effect to the Vienna Convention on Diplomatic Relations. </para>
+      <para>My Government has consistently fostered our special links wilh Britain, the Commonwealth and the United States, of America, and played its part in maintaining the effectiveness of Australia&#39;s alliances. It will develop still further the close relationship with its co-operation over many fields between Australia and New Zealand. </para>
+      <para>In addition, it pledges its continued adherence to the purposes and principles of the United Nations and will continue to work for its effective functioning within the terms of the Charter. </para>
+      <para>My Government is assisting developing countries by working towards the removal of impediments to their trade. It is participating actively in the work of the United Nations Conference on Trade and Development. </para>
+      <para>Under the planned expansion of the Government&#39;s defence programme, the strengths of the forces will continue to increase and major new equipment will be taken into service. </para>
+      <para>The total strength of our regular forces, including national servicemen, is of the order of 73,500. The national service scheme, introduced to supplement voluntary recruiting in order to achieve an Army strength of 40.000 by this year, will complete its first full cycle in June. The forthcoming deployment of additional ground, air and naval forces to Vietnam, as announced late last year, will increase the number of Australian servicemen engaged in the fighting in Vietnam to more than 6,000. </para>
+      <para>An active defence research and development programme, and an efficient defence production organisation, support these forces. Provision has been made in the three year programme for new capital construction and for modernisation of existing facilities in these production and research establishments. </para>
+      <para>In the Navy two new Charles F. Adams destroyers, whose equipment includes the anti-submarine guided weapon Ikara and the Tartar sea-to-air guided missile, have joined the Fleet. A third will be added this year. The first of the four Oberon submarines, which will form a new branch of our Navy, is now undergoing sea trials, and will commission towards the end of this year. New Tracker and Skyhawk aircraft will replace the Gannet and Sea Venoms on the aircraft carrier H.M.A.S. &#39;Melbourne&#39; later this year. Beginning this year twenty fast patrol boats, to be built in our own shipyards, will gradually be added. </para>
+      <para>In the Army, $48m will be spent in this financial year on additional capital equipment, including modern conventional weapons and ammunition, vehicles and light aircraft. </para>
+      <para>In the Air Force, more than half the total  order of 100 Mirage supersonic jet fighters has been delivered. These are being brought into operational service. The development of the revolutionary variable wing strikereconnaissance aircraft, the Fill, is progressing favourably, and deliveries in 1968 are planned. Also In 1968, ten Orion P3Bs - the latest maritime reconnaissance aircraft - will replace the Neptunes, and deliveries are scheduled of the first of the 1 08 Macchi jet trainers. Twelve new C130E Hercules have been ordered to reinforce air transport capacity, and deliveries of these aircraft are now being received. </para>
+      <para>My Government will continue its policies of vigorous economic growth and development of resources. Most economic indicators point to a high and increasing level of economic activity. </para>
+      <para>New mineral discoveries have opened up wider vistas of national development. The expansion of the mineral industry has been spectacular. In 1966, the value of output of the mining and quarrying industry was $800m, with exports of $330m. These compare with an output of S470m and exports of $190m five years ago. New discoveries and development projects relating to oil and gas, bauxite and alumina, tin, nickel and phosphate are likely to prove of particular importance in reducing or even eliminating basic deficiencies in the range of production of needed raw materials. Over the last decade, the mineral industry has achieved a growth rate of <inline font-style="italic">5%</inline> per annum, and in the next five years this expansion rate is likely to double. </para>
+      <para>Legislation to govern exploration for oil and natural gas, and production, within the area of the continental shelf of Australia is being prepared in conjunction with the Governments of the States. Substantial progress has already been made, and it is expected that the legislation will be brought before Parliament this year. </para>
+      <para>In all the ventures where great new resources are being brought into play, my Ministers will see to it that the Government&#39;s role is actively and imaginatively performed. My Government favours an Australian participation in the ownership and control of these resources. It looks to Australian investment and management being joined in these developments. It is working towards new arrangements and facilities for the provision of capital for these purposes. </para>
+      <para>With the easing of drought conditions in certain areas, grain production has recovered and a record wheat harvest of 448m bushels is now estimated. The effects of the drought will continue to be felt on the livestock industry in New South Wales and Queensland but the overall volume of rural production in 1966-67 is expected to bc 13% higher than in 1965-66, and the value of exports of rural origin $60m above 1965-66 figures. </para>
+      <para>My Government recognises that if desired rates of growth are to be attained without undue restraints or balance of payments difficulties, Australia&#39;s export income must greatly enlarge over the next ten years. To this end, it will intensify its existing programme of export promotion, using such media as market surveys, trade missions, trade displays, exhibitions, store promotions and export journals. </para>
+      <para>My Government is closely interested in the work of the commodity groups, which have been set up within the Kennedy Round, to negotiate improved conditions of access to world markets for the major primary products. With the renewal of efforts on the part of the British Government to establish a basis for possible entry to the European Economic Community, the Kennedy Round has assumed added importance for Australia. It is expected that the Kennedy Round negotiations will be concluded by mid-1967. </para>
+      <para>The legislation authorising the present export incentives is due to expire in June 1968. These incentives have stimulated exports of manufactures and my Government has decided to continue them. It will introduce legislation to give effect to this decision, and to provide for any changes in the form of the incentives which are deemed desirable. </para>
+      <para>In its Budget of last August my Government announced that it intended to introduce a system of grants to encourage Australian industry to undertake more work on research and development. My advisers are pressing ahead with preparation of the necessary legislation. </para>
+      <para>My Government intends to introduce legislation to establish an Australian Tourist Commission to co-operate with State and other bodies. This Commission will undertake the promotion overseas of Australia&#39;s tourist attractions, and will work to stimulate increases in the already substantial flow of tourists to Australia and the consequent foreign exchange earnings. </para>
+      <para>Recent changes in the British taxation system, in particular the introduction of Corporation Tax, make it necessary to renegotiate the Double Taxation Agreement between Australia and the United Kingdom. It is expected that these negotiations will commence in April of this year. </para>
+      <para>The sugar industry, although attaining high production levels, is experiencing serious difficulties through the depressed international price for sugar, and faces an uncertain world outlook. My Government, in close co-operation with the Queensland Government and the industry, is actively seeking acceptable international arrangements which will ensure Australian sugar producers access to world markets at remunerative prices. It will confer with the Government of Queensland regarding a renewal of the existing domestic sugar agreement. </para>
+      <para>The present five-year dairy industry stabilisation plan expires this year. Consultations are being held with the industry with a view to its continued stabilisation. </para>
+      <para>My Government stands willing to increase the scale of its contributions for wool research and promotion when the present arrangements expire next June. </para>
+      <para>Recent drought experience emphasises the importance of water conservation in our programme of national development. My Government has announced its intention to set up a national water resources development programme with the object of increasing water conservation. </para>
+      <para>Progress wilh other major development projects has continued. The Snowy Mountains Authority should complete the major works of the Snowy-Murray development by the winter of 1969, and the final Tumut development some five years later. Since 1961, the Commonwealth has provided $28.9m for the construction of beef roads in Queensland and Western Australia and has approved expenditure of $28m for this work in the Northern Territory. It proposes to discuss with State Governments a new seven-year beef roads programme estimated to cost some $50m. </para>
+      <para>Under various railway standardisation agreements made with State Governments, approximately 420 route miles of standard gauge track have been completed since 1956. A further 680 route miles should be completed by the end of 1968. These will cost in all some $240m. . Thus, by the end of 1968, the standard gauge should span Australia,, linking capital cities of the east with Perth and Fremantle. </para>
+      <para>The Territories of the Commonwealth continue to advance. My Government is greatly encouraged by the prospects for further expansion of production in the Northern Territory and in Papua and New Guinea. In the Northern Territory, practical measures are being taken to assist the social and economic advancement of the Aboriginal people. My Government looks forward to increasing participation of the people of Papua and New Guinea in their own government as they move towards the point at which they are ready to choose their own future. Further discussions on the future of Nauru will shortly take place between representatives of the people of Nauru, and of the administering governments - Britain, New Zealand and Australia. </para>
+      <para>Increasing population is an essential element in Australia&#39;s programme of national development. Currently, migration is contributing 40% of the annual increase in the work force. There is a valuable flow of migrants from Britain, and my Government aims to stimulate assisted migration from other European countries. </para>
+      <para>In this financial year, my Government will spend more than $150m on education, of which over $80m will be in the form of special purpose grants to the States. A record number of 52,000 students will hold various Commonwealth scholarships during 1967, compared with 41,500 in 1966. </para>
+      <para>Legislation will be introduced by my Government to authorise additional payments totalling $2,668,000 a year to independent schools for science laboratories and equipment. Legislation will also be introduced for the payment of $24m over three years for the construction of teacher training colleges for State Governments. At least 10% of places in these will be reserved for students who are not bonded to State Education Departments. </para>
+      <para>In view of the establishment of the Department of Education and Science, the Parliament will be invited to repeal the Education Act and to approve a new Act governing the administration of Commonwealth scholarships. The new Department will also administer Commonwealth university scholarships. </para>
+      <para>Shortages of skilled labour continue within industry, and my Government has fostered apprenticeships and promoted industrial training schemes in its efforts to overcome these shortages. These efforts will continue. </para>
+      <para>My Government has been active in promoting greater productivity in industry. Progress has been made in many industries, working co-operatively with government, to exchange information on relative efficiency in the use of their resources. A large and growing number of productivity groups have been established. They are operated mainly by industry itself and have already resulted in considerable reduction of costs. </para>
+      <para>During 1965 my Government initiated a conference of all interested parties on the waterfront to work towards a new and better era in employer/employee relations. The progress being achieved should assist the stevedoring industry to handle successfully the introduction of new systems and methods. </para>
+      <para>Australia&#39;s technological progress is being aided by a number of projects involving cooperation with other nations. We now have in Australia the biggest complex outside the United States of communication stations engaged on United States space and scien tific satellite programmes. Co-operation with Britain in the operation of the Woomera Rocket Range continues and the European Launcher Development Organisation will spend an additional $20m at Woomera on operations directed to establishing its ability to place satellites into orbit for peaceful purposes. </para>
+      <para>The introduction of satellite communications represents a major development in the field of international telecommunications. Australia has hastened to take advantage of this development. The Overseas Telecommunications Commission has built a station at Carnarvon in Western Australia, and has commenced the construction of a second station near Moree in New South Wales. </para>
+      <para>My Government believes that home ownership is in the interests of both the individual and the community. It wishes to encourage more young people to save so as to own their own homes after marriage, and will assist them to do this by liberalising the Home Savings Grant Scheme. It will introduce legislation to give the Department of Housing discretionary powers to deal with certain cases of hardship that have arisen since the start of the Scheme. The amending legislation will also extend the Scheme to widowed persons aged less than thirty-six years who have one or more dependent children, and will raise from $14,000 to $15,000 the limitation on the value of the home, including land. </para>
+      <para>The Housing Loans Insurance Scheme is now operating to increasing effect in all States. My Government&#39;s offer to guarantee the repayment, with interest, of high ratio housing loans is enabling more and more families to acquire their own homes with a minimum deposit and without resort to costly second mortgages. </para>
+      <para>My Government has decided to introduce legislation to liberalise the means test for age, invalid and widows pensions. The amount of allowable means will be increased by $156 per annum for both single persons and married couples. </para>
+      <para>Legislation will also be introduced to expand the scope of the Aged Persons Homes Act by making local governing bodies eligible for subsidy. Further aid to the disabled in the community will be provided by capital assistance for sheltered workshops, and by a special allowance to disabled persons employed in those workshops. New grants will be made to certain national voluntary agencies working in the field of social welfare. </para>
+      <para>Bills of exchange, copyright, and patents will be amongst the matters affected by legislation which my Government proposes to introduce. Rules under the Bankruptcy Act will be circulated for the information of the public in the near future and the new Act will be brought into operation this year. </para>
+      <para>My Government is taking the necessary steps to enable the Trade Practices Act to be proclaimed. </para>
+      <para>Large changes in the number of electors in constituencies have made necessary a redistribution of electorates. My advisers took the view that because of the rapid growth of Australia&#39;s population and the burden of representation, a redistribution without some increase in the size of the House of Representatives would not produce a satisfactory outcome. To this end, both Houses of Parliament passed a Constitution Alteration Bill at the end of 1965. This was to permit increases - designed to be modest - in the size of the House of Representatives without requiring corresponding increases in the size of the Senate. Another Constitution Alteration Bill passed in 1965 related to the counting of Aboriginals in censuses. On the advice of my Ministers, I did not proceed to issue the necessary writs for these referendum proposals, but it was announced that the Government would take up the matter again early in the life of this new Parliament. Its intentions will be made known in the near future. </para>
+      <para>I now leave you to the discharge of your high and important duties, in the faith that Divine Providence will guide your deliberations and further the welfare of the people of the Commonwealth. (His Excellency the Governor-General and members of the House of Representatives retired.) </para>
+      <para>Sitting suspended from 3.40 to 5 p.m. </para>
+      <para>The <inline font-weight="bold">PRESIDENT (Senator the Hon. Sir Alister McMullin)</inline> look the Chair at 5 p.m., and read prayers. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>GOVERNOR-GENERAL&#39;S SPEECH</title>
+        <page.no>12</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>12</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>- I have to inform the Senate that f have received a copy of the Opening Speech delivered by His Excellency the Governor-General to both Houses of the Parliament this day. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>MINISTERIAL ARRANGEMENTS</title>
+        <page.no>12</page.no>
+        <type>ministerial arrangements</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>12</page.no>
+            <time.stamp />
+            <name.id>KOW</name.id>
+            <electorate>Tasmania</electorate>
+            <party>LP</party>
+            <role>Minister for Supply</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">HENTY, Norman</name>
+            <name role="display">Senator HENTY</name>
+          </talker>
+          <para>- by leave - &#93; inform the Senate of the constitution of the new Ministry and of ministerial representation in the Senate. The list of Ministers, which I shall now read, is dependent upon the Parliament&#39;s acceptance of a Bill to amend the Ministers of State Act. With the passage of that Bill, the Ministry will be constituted as follows: </para>
+        </talk.start>
+        <para>Prime Minister - the Right Honourable Harold Holt </para>
+        <para>Minister for Trade and Industry - the Right Honourable J. McEwen </para>
+        <para>Treasurer - the Right Honourable W. McMahon </para>
+        <para>Minister for External Affairs - the Right Honourable P. M. C. Hasluck </para>
+        <para>Minister for Defence - the Honourable A. Fairhall- </para>
+        <para>Minister for the Interior - the Honourable J. D. Anthony </para>
+        <para>Minister for Supply - <inline font-weight="bold">Senator the</inline> Honourable N. H. D. Henty </para>
+        <para>Minister for Primary Industry - the Right Honourable C. F. Adermann </para>
+        <para>Postmaster-General and Vice-President of the Executive Council - the Honourable A. S. Hulme </para>
+        <para>Minister for National Development - the Honourable D. E. Fairbairn, D.F.C. </para>
+        <para>Minister for Education and Science - <inline font-weight="bold">Senator the</inline> Honourable J. G. Gorton </para>
+        <para>Minister for Labour and National Service - the Honourable L. H. E. Bury </para>
+        <para>Minister for Shipping and Transport - the Honourable G. Freeth </para>
+        <para>Minister for Territories - the Honourable C. E. Barnes </para>
+        <para>Minister for Civil Aviation - the Honourable R. W. C. Swartz, M.B.E., E.D. </para>
+        <para>Minister for Immigration - the Honourable B. M. Snedden, Q.C. </para>
+        <para>Minister for Health - the Honourable A. J. Forbes, M.C. </para>
+        <para>Minister for Air - the Honourable P. Howson </para>
+        <para>Minister for Customs and Excise - <inline font-weight="bold">Senator the</inline> Honourable K. McC. Anderson </para>
+        <para>Minister for Repatriation - <inline font-weight="bold">Senator the</inline> Honourable G. C. McKellar </para>
+        <para>Minister for Social Services - the Honourable I. McC. Sinclair </para>
+        <para>Minister for Housing - <inline font-weight="bold">Senator the</inline> Honourable Dame Annabelle Rankin, D. B.E. </para>
+        <para>Minister for the Army - the Honourable J. M. Fraser </para>
+        <para>Minister for Works - the Honourable C. R. Kelly </para>
+        <para>Attorney-General - the Honourable N. H. Bowen, Q.C. </para>
+        <para>Minister for the Navy - the Honourable D. L. Chipp </para>
+        <para class="block">The first twelve Ministers will constitute the Cabinet. The Minister for Social Services will assist the Minister for Trade and Industry, and the Minister for Air will assist the Treasurer, in general matters relating to their portfolios. The Minister for the Navy will assist the Minister for Trade and Industry in matters relating to tourist activities. </para>
+        <para>To put into effect the proposals relating to the Ministry, it will be necessary to increase the number of Ministers by one to twenty-six. As mentioned previously, this will require amendment to the Ministers of State Act which at present provides for the appointment of only twenty-five Ministers. Until the Parliament has had time to consider this matter, <inline font-weight="bold">Senator Gorton</inline> will be Minister for Works. I shall be Leader of the Government in the Senate, <inline font-weight="bold">Senator Gorton</inline> will be  Deputy  Leader of the Government and <inline font-weight="bold">Senator Scott</inline> will be Government Whip. </para>
+        <para>In the Senate, I shall represent the Prime Minister, the Minister for Trade and Industry, the Treasurer and the Minister for National Development. My representation will also include matters relating to tourist activities. <inline font-weight="bold">Senator Gorton</inline> will represent the Minister for External Affairs, the Minister for Defence, the Minister for Labour and National Service, the Minister for Territories and the Attorney-General. <inline font-weight="bold">Senator Anderson</inline> will represent the Postmaster-General, the Minister for Shipping and Transport, the Minister for Works and the Minister for Civil Aviation. </para>
+        <para>
+          <inline font-weight="bold">Senator McKellar</inline>will represent the Minister for the Interior, the Minister for Primary Industry, the Minister for Air, the Minister for the Army and the Minister for the Navy. <inline font-weight="bold">Senator Dame</inline> Annabelle Rankin will represent the Minister for Immigration, the Minister for Health and the Minister for Social Services. Associated with the appointment of a Minister for Education and Science, there has been established a new Department of Education and Science. The principal matters dealt with by this Department are education, scientific research and support of research. The new Department has taken over a number of the enactments previously administered by the Prime Minister&#39;s Department. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>LEADERSHIP OF THE OPPOSITION</title>
+        <page.no>13</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>13</page.no>
+            <time.stamp />
+            <name.id>1L5</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MURPHY, Lionel</name>
+            <name role="display">Senator MURPHY</name>
+          </talker>
+          <para>- by leave - <inline font-weight="bold">Mr President,</inline> I desire to inform the Senate that on the 9th of this month the Federal Parliamentary Labor Party appointed me as Leader of the Party in this chamber. <inline font-weight="bold">Senator Cohen</inline> was elected as  Deputy  Leader, <inline font-weight="bold">Senator O&#39;Byrne</inline> as Whip and <inline font-weight="bold">Senator Poke</inline> as  Deputy  Whip. </para>
+        </talk.start>
+        <para>
+          <inline font-weight="bold">Senator Willesee,</inline>my predecessor, became Leader of the Opposition in the Senate on 17th August 1966. He ceased to hold that office on 9th February this year. On behalf of members of the Opposition, I wish to place on record our appreciation of his services as Leader during that period. On behalf of the Opposition I also place on record our appreciation of the services of <inline font-weight="bold">Senator Kennelly</inline> as  Deputy  Leader of the Opposition in the Senate from 13 th February 1956 till his retirement from that office on 9th February this year. </para>
+        <para>
+          <inline font-weight="bold">Senator Kennelly</inline>has given life long service to the Australian Labor Party. He has served as a Minister in the Victorian Parliament. He was secretary of the Federal Executive of the Australian Labor Party for many years as well as being secretary of the Victorian branch of the ALP. I trust that we shall have an opportunity on a later occasion to deal more particularly and fully with the services of <inline font-weight="bold">Senator Kennelly</inline> to this and the other Parliament and to the nation. My colleagues and I trust that his retirement from office as  Deputy  Leader of the Opposition in the Senate will enable him to enjoy the well earned leisure that so far he has denied himself in the interests of his Party and of the nation. We trust that his retirement from this office will enable him to give more time to his devotion to Albert Park which will remain a living monument to his dedicated public service. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>14</page.no>
+            <time.stamp />
+            <name.id>KOW</name.id>
+            <electorate>Tasmania</electorate>
+            <party>LP</party>
+            <role>Minister for Supply</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">HENTY, Norman</name>
+            <name role="display">Senator HENTY</name>
+          </talker>
+          <para>- by leave - <inline font-weight="bold">Mr President,</inline> 1 wish to associate myself with the remarks of the Leader of the Opposition concerning <inline font-weight="bold">Senator Willesee</inline> and <inline font-weight="bold">Senator Kennelly. Senator Willesee</inline> was the Leader of the Opposition in the Senate from 17th August 1966 till 9th February of this year. I have known <inline font-weight="bold">Senator Willesee</inline> since 1 have been a member of the Senate. 1 have found him a keen fighter for the beliefs of the Opposition. I have found him also to be a sound and solid worker. I had great pleasure in accompanying him overseas on two missions. On those occasions I found him to be a man of intelligence who interested himself in the problems of the countries that we visited. He was certainly an acquisition to the Opposition. On behalf of the LiberalCountry Party Government I wish to congratulate <inline font-weight="bold">Senator Willesee</inline> on his career and 1 associate myself with what the Leader of the Opposition has said about the honourable senator&#39;s services as Leader of the Opposition. </para>
+        </talk.start>
+        <para>When <inline font-weight="bold">Senator Kennelly</inline> came to the Senate in 1953 we were warned that wc were getting a really tough guy. Instead of that, he proved to be a friendly fighter. He has never spared us or anybody else in argument. He is a powerful debater who can quickly pick up an argument. I know of no-one better able to make a bad argument sound good. </para>
+        <para>I would like to say on behalf of honorable senators on this side of the chamber that we have enjoyed his debating and his friendship. I have always admired his stand as a great fighter for the underdog, while always being fair. 1 can say that with great sincerity on behalf of Government supporters. We have always found <inline font-weight="bold">Senator Kennelly</inline> to be fair, and fairness is a great attribute. I congratulate him on what he has done. No doubt we will have another opportunity to pay a further tribute to him. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>14</page.no>
+            <time.stamp />
+            <name.id>KPK</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">KENNELLY, Patrick</name>
+            <name role="display">Senator KENNELLY</name>
+          </talker>
+          <para>- by leave  -  I wish first to thank the Leader of the Opposition <inline font-weight="bold">(Senator Murphy)</inline> for his remarks about me. 1 also wish to thank the Leader of the Government in the Senate <inline font-weight="bold">(Senator Henty)</inline> for what he has said. When one has been a member of a political party for nearly fifty-two years, the spots are hard to wipe off. Unfortunately, it is true that through certain circumstances and stupid mistakes we have been kept on this side of the chamber. The mistakes have not all been made by people outside the Australian Labor Party. Let us hope that the time will come when the Labor Party will put its house in order, lt is my great wish that in the few years 1 have left here I will see our present leaders leading the government here. I think everyone knows that once my term is up as a senator, T have no intention of coming back again. </para>
+        </talk.start>
+        <para>
+          <inline font-weight="bold">Mr President,</inline>1 want to thank you sincerely for your courtesy to me. It has been more than could be expected from one man to another. I want also to thank my political opponents. We have certainly pitched into the ring together, but that is what the parliamentary debates are for - to state a belief and to state it without any hesitation. I have enjoyed it here. For a few years you will not hear me as often as you have in the past, I can assure you. However, at times I am liable to pitch in again. I again express my very sincere thanks for the words that have been spoken. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF THE HONOURABLE GEORGE LAWSON</title>
+        <page.no>15</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>15</page.no>
+            <time.stamp />
+            <name.id>KOW</name.id>
+            <electorate>Tasmania</electorate>
+            <party>LP</party>
+            <role>Minister for Supply</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">HENTY, Norman</name>
+            <name role="display">Senator HENTY</name>
+          </talker>
+          <para>- <inline font-weight="bold">Mr President,</inline> it is with regret that I have to inform the Senate of the death of the Honourable George Lawson, former member of the House of Representatives for the electorate of Brisbane. He died on 25th November 1966 at the age of eightyfive years. George Lawson left school at the age of thirteen years. He had a number of jobs until he was eighteen when he enlisted to fight in the South African war, during which he was mentioned in dispatches. After his return to Australia he helped to form the Carters Union. He was elected to the Queensland Legislative Council in 1919 and held his seat until the abolition of the Council in 1922. </para>
+        </talk.start>
+        <para>In 1931 George Lawson was elected to Federal Parliament as the Australian Labor Party member for the electorate of Brisbane. He held his seat for thirty years until his retirement. He was Opposition Whip from 1934 to 1941, and from 1941 to 1943 he was Minister for Transport and Assistant Minister to the Postmaster-General. He was a member of the Australian delegations to the sessions of the International Labour Organisation in 1925 and 1945 and represented Australia on the Commonwealth Immigration Advisory Committee which toured Europe in 1945. In 1941 and from 1943 to 1946 he was a member of the Parliamentary Joint Committee on War Expenditure. I move - </para>
+        <quote>
+          <para>That the Senate expresses its deep regret at the death of the Honourable George Lawson, former member of the House of Representatives for the Division of Brisbane, places on record its appreciation of his long and meritorious public service and tenders its sincere sympathy to his widow in her bereavement. </para>
+        </quote>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>15</page.no>
+            <time.stamp />
+            <name.id>1L5</name.id>
+            <electorate>New South WalesLeader of the Opposition</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MURPHY, Lionel</name>
+            <name role="display">Senator MURPHY</name>
+          </talker>
+          <para>- On behalf of the Opposition I second the motion. George Lawson lived a full and active life. He left school at the age of thirteen years. He fought in the Boer War. He worked actively in the Labor movement and participated in the establishment of the Carters Union. He played  a  prominent part in the bitter struggle for the establishment of wages boards in Queensland and actually served on those boards. He pioneered the fight for an eighthour working day and other industrial benefits which exist in that State today. He was appointed to the Legislative Council in Queensland in 1919 and was one of those members who, in accordance with the policy of the Australian Labor Party, voted to abolish the Council and thus to terminate his own office. </para>
+        </talk.start>
+        <para>As a representative of the trade union movement he went to the meeting of the International Labour Organisation in 1925. He became a member of the House of Representatives for the Division of Brisbane in 1931 and held the seat for thirty years before he retired. During his period in this Parliament he occupied many high posts and served with distinction as Minister for Transport, Assistant Minister to the Postmaster-General, and as a member of the Parliamentary Joint Committee on War Expenditure. He was again a representative at the meeting of the International Labour Organisation in 1945. He helped to inaugurate the great immigration programme by representing the Government on the Commonwealth Immigration Advisory Committee which visited Europe in 1945. </para>
+        <para>George Lawson is well remembered in this Parliament as a man who dedicated himself to the service of the public and who conducted himself with honour and dignity in all his affairs. On behalf of the Opposition I extend to his widow deep sympathy in her loss. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>15</page.no>
+            <time.stamp />
+            <name.id>KKP</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role>Leader of the Australian Democratic Labor Party</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GAIR, Vincent</name>
+            <name role="display">Senator GAIR</name>
+          </talker>
+          <para>- On behalf of the Australian Democratic Labor Party I desire to be associated with the motion which has been proposed by the Leader of the Government in the Senate <inline font-weight="bold">(Senator Henty)</inline> and seconded by the Leader of the Opposition <inline font-weight="bold">(Senator Murphy),</inline> and to join with them in their tributes to the late George Lawson and their expressions of sympathy to the widow and other members of his family in their sorrow. </para>
+        </talk.start>
+        <para>Question resolved in the affirmative, honourable senators standing in their places. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF THE HONOURABLE GORDON BROWN</title>
+        <page.no>15</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>15</page.no>
+            <time.stamp />
+            <name.id>KOW</name.id>
+            <electorate>Tasmania</electorate>
+            <party>LP</party>
+            <role>Minister for Supply</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">HENTY, Norman</name>
+            <name role="display">Senator HENTY</name>
+          </talker>
+          <para>- It is with regret that I have to inform the Senate of the death of a former senator, the Honourable Gordon Brown, who died on 12th January 1967 at the age of eighty-one years. Gordon Brown was born in England. He came to Australia in 1912 after spending some years in Canada and America, arriving in Brisbane shortly before the start of the First World War. Within a few days he was arrested for holding a meeting without a permit. Already he was showing a determination to fight for what he believed were the rights of the workers - an attitude that was to mark his entire political career. On one occasion during his early days in Queensland he chained himself to the steps of the State Treasury Building in Brisbane to make his certain arrest more difficult. </para>
+        </talk.start>
+        <para>He took a job as a shop assistant, became an organiser for the Shop Assistants Union and joined the Australian Labor Party. This in turn led him to the Brisbane Trades Hall Council and the Queensland Central Executive of the Australian Labor Party and other official positions in the Labor movement. He was elected a senator for Queensland in 1931 and served the Senate well and continuously for thirty-three years. He retired in .1965. Gordon Brown achieved the highest office in the Senate when he became  President  of the Senate, an office he held from 1943 to 1951. During his service in the Parliament he served at various times on many committees. He was a colourful and forceful personality respected by all parties and acknowledged to have been a great fighter for the workers of Australia in the early days of unionism. Gordon Brown had a long and honourable career and he served this country well. <inline font-weight="bold">Mr President,</inline> T move: </para>
+        <quote>
+          <para>That the Senate expresses its deep regret at the death of the Honourable Gordon Brown, former senator for the State of Queensland and  President  of the Senate, places on record its appreciation of his long and meritorious public service, and tenders its sincere sympathy to his widow and family in their bereavement. </para>
+        </quote>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>16</page.no>
+            <time.stamp />
+            <name.id>1L5</name.id>
+            <electorate>New South WalesLeader of the Opposition</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MURPHY, Lionel</name>
+            <name role="display">Senator MURPHY</name>
+          </talker>
+          <para>- On behalf of the Opposition I second this motion. Former <inline font-weight="bold">Senator Gordon</inline> Brown was one of the most colourful men ever to come into the Senate.  His  language was picturesque.  His  behaviour was sometimes unorthodox. He hated hypocrisy. He fought for justice and for the under-privileged. He believed that institutions were made for men and not men for institutions. Accordingly, he was somewhat irreverent towards the Senate, over whose proceedings he presided for many years. </para>
+        </talk.start>
+        <para>Gordon Brown had a happy childhood. He was involved in many scrapes which set the pattern of his life.  His  first job was delivering hand bills to the crowds that came off the trains on market day in Chesterfield, England. He later worked as a pattern maker, printer and carpenter and in a host of other jobs, including that of farm labourer. He was a door to door salesman and sold insurance, pianos, boots, fruit, furniture and soft drinks. He was in turn a waiter and a wood turner. Early in life he was greatly affected by the widespread poverty in England and the pitiable conditions of those in the workhouses.  His  early contacts wilh Socialist thinkers began the development of his lifelong political philosophy. Whilst still a young man he left England for Canada and joined up with the Socialist Party of Canada. There he entered into political debates with great energy and assurance. He returned to England but had a yearning to come to Australia where he landed in 1912 with exactly ten shillings in his pocket. </para>
+        <para>Here he became engaged in trade union activities and politics which involved him in several clashes with the police. He was always extremely proud that in his early career he had served several short sentences in gaol, all for defending his political beliefs and asserting freedom of speech and the right of peaceful demonstration. So long was he in the Australian Labor Party that the Queensland branch of the Party is not quite certain when he joined, but it is known that he was a member some short time after he arrived in Australia and he was actively a member of the Party for the rest of his life. Despite his often humorous references to Parliament and its ways, he had a great regard for the institution of Parliament as a pillar of democracy. As he expressed it, the parliamentary system rests on free expression and the right of every citizen to individual and personal freedom. He believed that our system of government, despite its faults, is infinitely superior to any dictatorship. All his writings show a great love for Parliament together with a dislike of the pomposity of some who sit in it. </para>
+        <para>Gordon Brown served long and well as  a  senator for the State of Queensland. He served with distinction as  President  of the Senate for nearly eight years.  His  attitude to life was best expressed in the story of his own lite entitled &#39;My Descent from Soap Box to Senate&#39;, which he dedicated:   . not to the pompous humbugs or all walks of life, nor to the dominating and dictatorial  do-littles  who claim superiority over the working plugs but to those cheerful mcn and women who render service and who love life and laughter and who seek human happiness and peace among the peoples of the world. </para>
+        <para class="block">This was the spirit of <inline font-weight="bold">Senator Gordon</inline> Brown. He enriched our lives as well as (hose of his wife and children. We of the Opposition share with them a sense of loss and extend our sympathies to the in the passing of this vigorous and lovable man. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>17</page.no>
+            <time.stamp />
+            <name.id>KTL</name.id>
+            <electorate>New South Wales</electorate>
+            <party>CP</party>
+            <role>Minister for Repatriation</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCKELLAR, Gerald</name>
+            <name role="display">Senator McKELLAR</name>
+          </talker>
+          <para>- The Australian Country Party wishes to be associated wilh the motion of condolence proposed by the Leader of the Government in the Senate and seconded by the Leader of the Opposition. Those of us who knew <inline font-weight="bold">Senator Gordon</inline> Brown realised what a very staunch fighter the Australian Labor Party had throughout his existence. We have just heard the record of the long service that he rendered to his fellow men and women not only in this Senate but also in other places. So, we join in this expression of condolence to the relatives of the late former <inline font-weight="bold">Senator Gordon</inline> Brown. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>17</page.no>
+            <time.stamp />
+            <name.id>KKP</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role>Leader of the Australian Democratic Labor Party</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GAIR, Vincent</name>
+            <name role="display">Senator GAIR</name>
+          </talker>
+          <para>- On behalf of the Party which 1 lead, I wish to be associated with the remarks of the previous speakers and particularly with the expressions of sympathy to the sorrowing widow and family of former <inline font-weight="bold">Senator Brown.</inline></para>
+        </talk.start>
+        <para>Question resolved in the affirmative, honourable senators standing in their places. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>17</page.no>
+              <time.stamp />
+              <name.id>KOW</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENTY, Norman</name>
+              <name role="display">Senator Henty</name>
+            </talker>
+            <para>- <inline font-weight="bold">Mr President,</inline> I suggest that, as a mark of respect to the memory of the deceased former members of the Parliament, the sitting of the Senate be suspended until 8 p.m. </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>17</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>- 1 am sure that that suggestion meets with the approval of the Senate. </para>
+        </talk.start>
+        <para>Sitting suspended from 5.26 to 8 p.m. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>AUSTRALIAN SENATE PRACTICE</title>
+        <page.no>17</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>17</page.no>
+            <time.stamp />
+            <name.id>KOW</name.id>
+            <electorate>Tasmania</electorate>
+            <party>LP</party>
+            <role>Minister for Supply</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">HENTY, Norman</name>
+            <name role="display">Senator HENTY</name>
+          </talker>
+          <para>- I present the following paper: </para>
+        </talk.start>
+        <quote>
+          <para>Australian Senate Practice, Third Edition, by the  Clerk  of the Senate. </para>
+        </quote>
+        <para class="block">The first edition of this work was published in 1953 and the second in 1959. Both those first two editions were ordered to be printed by the Senate. This third edition represents a complete revision of earlier editions and, in addition, the work has been brought up to date. </para>
+        <para>Ordered to be printed. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>17</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>GOVERNOR-GEN ER A L&#39;S SPEECH</title>
+          <page.no>17</page.no>
+        </subdebateinfo>
+        <para class="block">Address-in-Reply </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>17</page.no>
+              <time.stamp />
+              <name.id>JQR</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COTTON, Bob</name>
+              <name role="display">Senator COTTON</name>
+            </talker>
+            <para>- 1 move: </para>
+          </talk.start>
+          <quote>
+            <para>That the following Address-in-Reply io iiia Speech of  His Excellency  the Governor-General be agreed to: </para>
+            <para class="block">May It Please Your Excellency: </para>
+            <para>We, the Senate of the Commonwealth of Australia in Parliament assembled, desire to express our loyalty io our Most Gracious Sovereign, and Lo thank your  Excellency  for the Speech which you have been pleased to address to Parliament. lt is an honour to be given the opportunity of moving the motion for the adoption of the Address-in-Reply to the Speech made by the Governor-General on the occasion of the opening of the 26th Parliament of the Commonwealth of Australia and I thank the Leader of the Government <inline font-weight="bold">(Senator Henty)</inline> for giving me that opportunity. On this formal occasion we reaffirm our loyalty to  Her  Gracious Majesty, Queen Elizabeth the Second. We also confirm the strength of our support for the Commonwealth of Nations - that diverse range of peoples throughout the world, united under the rule of law, ever changing in their character but withal a great respect for the institution of Parliament. </para>
+          </quote>
+          <para>The Queen&#39;s Speech at the opening of each session of Parliament is a custom descended from an address made by the Chancellor in medieval times. In this speech an explanation was given to the Parliament of the cause for its summons, but since the establishment of the Cabinet system the Speech from the Throne has been used to announce the programme of legislation for the session and to set out the Government&#39;s policy. As is the case with most other important questions of parliamentary procedure, the motion for the Address-in-Reply originated at Westminster. With the creation of political parties, it provides an opportunity for the Government to set out its programme and policy and for the Opposition to criticise this programme and suggest amendments to it. </para>
+          <para>Today  His Excellency  the GovernorGeneral, Lord Casey, presided at the opening of an Australian Parliament for the first time. We assure  His Excellency  of our warm regard for him and of our loyal support. We are pleased to see him in the exalted position that he holds on behalf of  Her  Majesty the Queen, and indeed on behalf of all of us. The Governor-General is a great Australian, with a proud record in war and peace and in the public life of Australia. With all this, he has shown himself to be a very good and kindly man. </para>
+          <para>At the beginning of my speech I should like to say to honourable senators representing Tasmania how sorry we are that disaster by fire befell that island recently. Representing various States as we do, we recognise that this must be a sad occasion for honourable senators from Tasmania. This event is typical of Australia. We get great disasters on our continent from time to time. It is sad that Tasmania has had to experience these horrible and dreadful bush fires. The people of that State probably will gain some comfort from the support, encouragement and sympathy that they have received, not only in terms of expressions but also in terms of real support in the form of money and goods, from people on the mainland of Australia and from overseas countries who are friends and allies of ours. I hope that honorable senators from Tasmania will go back to their State and say that the people of the Commonwealth of Australia, through this Senate, express sympathy and understanding for them and the hope that their lives will soon be returned to normality. </para>
+          <para>We have heard from the GovernorGeneral, on behalf of Her Majesty&#39;s Government, a genuine statement about the past and an assessment of intent for the future: </para>
+          <quote>
+            <para>At home, my Government is committed to policies aimed at maintaining economic stability and furthering welfare and economic growth. </para>
+          </quote>
+          <para class="block">We understand that abroad we are involved more and more in the affairs of the world at large, more particularly in the currents, difficulties and problems of the region of the world in which we live. We have shown that we are determined to protect ourselves, to do that adequately and to see that we have the necessary security and protection for our people. </para>
+          <para>It is impossible for one to cover all of the matters referred to in the GovernorGeneral&#39;s Speech. So I propose to deal with one or two matters that interest me particularly and to leave the other matters in the Speech to other speakers, of whom I am sure there will be very many. I am equally sure that this debate will not proceed without disagreement. One of the things in the Speech that interest me is the statement of broad intent to the effect that the Government has policies that are aimed at maintaining economic stability and furthering welfare and economic growth. I believe that that is a fair view to take at this stage of our history. The attitude of the people on their involvement in overseas affairs has been fairly clearly and definitely determined. We should not have to argue this matter out again. A defence pattern has been set and is proceeding. It represents a heavy drain on our resources. That has been mentioned in previous parliaments. </para>
+          <para>The fact that all those factors are known allows us to turn our consideration to Australia&#39;s domestic progress. This does not deny the need for us to increase our security measures when they are called for. But a major decision has been taken on our involvement overseas, and I suggest that the Australian people will now be interested to learn from us all what are our plans for a greater, stronger and more prosperous Australia. </para>
+          <para>I believe that we will see a dynamic period of growth in this country. That is what I would be working for. I am sure that the Government is working for it. That is why the words in the statement that I read from the Governor-General&#39;s Speech are important. It is necessary for us to have such policies. Nothing in the world stands still. People do not stand still; corporations do not stand still; companies do not stand still. In the present world situation, Australia should have a dynamic view of its own responsibilities, its own needs for growth and its own need for progress. In the end this will come back to the Australian people. It will not come back only to governments. </para>
+          <para>It is for governments to lead and to express views and for parliaments to debate and to indicate a course that the Australian people could pursue for their own ultimate profit and benefit. But, in the end, it is for the Australian people to wish so to proceed. 1 believe it can fairly be said that good legislation Hows only out of good public opinion. My very strongly held view is that the Australian people today are looking al themselves, having made a great decision on involvement overseas, and arc saying to themselves: &#39;Where will this country go in the next tcn years?&#39; I believe that that is a reasonable statement of what the people in the broad ranks of the community are thinking. So I come back lo the words that I quoted earlier - &#39;. . . policies aimed at maintaining economic stability and furthering welfare and economic growth&#39;. This is not easy to achieve. In a country like Australia three areas of problem must be considered when discussing a subject such as this. First of all, I think we are all dedicated lo full employment. We on this side of the chamber are. and I know honourable senators on the other side are. In fact, this is true of the people of Australia as a whole. Wc require a situation where there is useful employment for those who want to work. In effect, we all subscribe to a policy of full employment. </para>
+          <para>We also believe inherently in growth. We all believe that our country should be bigger and better that it is. Whether we understand the obligations this imposes and the fact that it sometimes calls for sacrifices is another matter, but I think we all want to see Australia grow. In addition, we want stability. These three areas - full employment, growth and stability - are the three areas of economic management in which the Government, the Parliament and the people must engage if Australia is to make the kind of progress we all want to see. I suggest that this Government has demonstrated a very considerable ability to reconcile these three rather difficult aims. I suggest that they are not easy to reconcile, but \ believe we have done our best to reconcile them and that the result is something of which we can be quite proud. </para>
+          <para>When we talk about the problem of how to do these things in Australia we say to ourselves: &#39;Wc want this to bc a bigger, better and more prosperous country, giving better opportunities to more people&#39; and so on, but wc must have regard to the kind of country that this is and to the way in which it has to bc managed. We have in Australia the Commonwealth Government and the State governments. We operate under a Federal system. Not all Australians believe in a Federal system of government. I do.  1  am a great believer in the dispersal of power, but it is true to say that not ali Australians believe in a Federal system of government.  1  believe in it, and this Government believes in it. In order so to manage the country as to achieve its ultimate pattern of growth, stability and full employment, we must have regard to two arms of responsibility. Firstly, there is the Commonwealth - superior, having the power to raise funds and the power of economic management in terms of defence and so on - and then there are the States, which are charged very largely with spending money on what might be called the ground level - in effect, acting as the second line of control and expenditure. The ability of the States and the Commonwealth to work together in solving our problems is of paramount importance. That must always be borne in mind. It is no good saying on some occasions that the States want too much money. It is no good saying on other occasions that the Commonwealth does not do enough in this or that field. The real point is that Australia&#39;s resources are got together by parliaments and dispersed by parliaments. When I refer to parliaments I mean the Parliament of the Commonwealth, with superior power and economic control, and the Parliaments of the States, which are concerned very largely with dispersal of revenue. </para>
+          <para>We must remember that we are dealing with two important questions. Firstly what are the needs of the Australian people? Secondly what are the means of the Australian people to meet those needs? When we speak of needs we are confronted with the great problem of the order of priorities. How do we reach a situation in which the Commonwealth and the States somehow or other can determine orders of priority fairly, equitably and sensibly? One of the great unresolved difficulties in the operation of a Federal system has been our inability to manage a division of needs in terms of priorities so that we can say: &#39;It is fair that this should go before that&#39;. Until this is managed; until we can work as a team in solving this problem, we will not get the most sensible utilisation of our resources. We may bc sure of that. </para>
+          <para>Then we are confronted with this question: Where do the means and the resources come from? They come from two places. Firstly, they come from our internal savings, which, as I have said, are at a very high level, and from taxation, to which I will refer later. Secondly, they come from external loan raisings. These are the avenues from which we obtain our resources - internally from taxation and savings, externally from people overseas taking up Australian Government bonds and from overseas capital coming to Australia. Some people choose to suggest that wc should not have overseas capital in Australia, but we must consider the consequences of that. There would be a slower growth rate. Would anyone be prepared to accept that? For my part, I am in favour of Australia achieving the maximum possible growth rate and the fastest use of its resources, consistent with stability, full employment and sensible growth. We talk about Australia being able to borrow money overseas, and it is interesting to note a recent example in this field. I have spoken about the ability of this Government to manage the Australian economy fairly well. 1 think that can be said quite fairly. Australia is able to borrow money overseas today at an interest rate of <inline font-style="italic">5i%.</inline> The latest loan floated by New Zealand was at an interest rate of 7i%. This is an interesting comparison between two countries situated close together. I do not use that example in order to make an invidious comparison against New Zealand. I draw the comparison to show to the Senate that, affairs cannot have been particularly bad in the economic management of Australia if the Australian Government can raise loan moneys overseas at an interest rate of <inline font-style="italic">5i%.</inline> This is the prime rate for the very best operators in the United States of America. We have not done badly to arrive at that position. I believe as I am sure other honourable senators do that resources are needed to develop a country. The country cannot use only its own resources. It must have overseas resources. Our ability to borrow at these low, prime rates of interest is a major consequence of this. </para>
+          <para>The recent decision by the Treasurer <inline font-weight="bold">(Mr McMahon)</inline> to remove nominal targets in Commonwealth bond raisings was a good idea. It is better to say at any given time that we will borrow at this rate and on these terms and that we will take what money the market has to supply. We will not say that we want to raise $100 million and then declare, when we receive $150 million, that we are very clever, or be faced with the position where we seek to raise $80 million and fall short of the target by $20 million. The better way is to remove the nominal limit. We say that we are in the market for what is offering in the way of loan moneys. </para>
+          <para>Interest rates are tending to come down slightly overseas. This is important to Australia. Our country does depend to some degree upon overseas capital. The tendency last year for overseas interest rates to begin to harden was a matter for some concern. Interest rates are a very potent factor in national growth, and particularly in the long term developments with which we in this country are concerned. </para>
+          <para>I turn now to the vexed question of Federal and State financial relations. This is a subject on which even the best of friends can differ. In this regard, I refer again to my opening remarks on the Federal system. Under its Federal system, Australia has a Commonwealth Government and six State governments. The responsibilities of these governments are fairly clearly defined although they overlap in some areas and underlap in others. For quite a marked time a sternness has existed in the management of Federal-State financial relations. Every year Premiers&#39; conferences are held. The Premiers become upset at these meetings and say that they are not getting a fair deal. </para>
+          <para>My own very strong feeling is that the time is long overdue for a mature consideration of Federal-State financial relations with a view to trying to establish them on a basis which removes forever this potent yearly argument, which I do not think serves a useful purpose for the Commonwealth, the States or the Australian people. I should like some attempt to be made to establish a basis from which some responsibility would be accepted for the expenditure of money. After all, this is an important matter, particularly for those who have the odium of raising this money. At the same time, I should like to have this basis for agreement patterned on the growth factor so that the yearly claim that the Commonwealth was doing a particular State a disservice - or one State a disservice in comparison with another State - could be dismissed, and the contribution to the public purse supplied by taxpayers and lenders for the processes of government would be pretty well known. </para>
+          <para>I think that the States would be fairly happy with this arrangement. In fact I think such a service would benefit the Australian people because it would remove these matters from argument, bargaining and counter bargaining. For instance, my own State of New South Wales is claiming that the costs of its services are rising by 9% per annum while its revenue is rising by only 7% per annum. I imagine that other States could make a similar claim. This is the kind of situation that, in the end, does not really serve the people well. I am keen that we should try to see whether we can find some better method of arriving at decisions in this regard. </para>
+          <para>The Premiers on many occasions are driven to raising taxes in order to balance their State budgets. This is perhaps not as good a method as some of the more direct methods by which the Commonwealth is able to raise taxes. On page 6 of a Supplement to a Treasury information bulletin of December 1966 is a very interesting set of figures on this matter. It shows the receipts and outlays of the State budgets. It refers to the receipts by the States from various sources. Reference is made to liquor taxes, lottery taxes and racing taxes. The reference shows how effective and important these sorts of taxes are to State budgeting. More and more the finances of the States have to be left in their own hands, organised on the basis of taxes of various kinds. In the end, I do not think it is really the best way for resource development to proceed in a country like Australia. 1 referred earlier to the importance of the growth factor. It is true that in this country if we do not continue to grow we will not hold our place in this region or in our living standards. I think it is true to say that Australia&#39;s ability to grow is considerably greater than its present growth rate reflects. The growth rate in some </para>
+          <para class="block">Asian countries close to us has over the last five years averaged 5.5%. I refer to Pakistan, South Korea, Thailand, Malaya, Singapore and Japan. Australia&#39;s average growth rate has been below that figure, but only because the droughts in 1965-66 reduced our yearly growth rate to .9%. In 1964-65 the growth rate was 6.6%. A fall in the growth rate from an average of about 6% to less than 1% would be cause for quite some alarm in the community and in the Parliament if it were to continue. It will not continue but this demonstrates how vulnerable Australia is to national disaster and how dependent we are on primary and mining industries. This point was shown up most dramatically last year. </para>
+          <para>According to the projections of income for mining and the primary industries for the current year the Australian growth rate should return to about 6%. That is a very good rate. In a country like Australia there is need for consolidating periods. From time to time, the growth rate is justifiably slowed down a little by public reaction. People get into a consolidating frame of mind and the result is a slower rate of growth. In all kinds of growth patterns, consolidating periods are necessary. In the last year a consolidating period was imposed by drought, so that I imagine we are now fairly well poised to go ahead and continue to grow rather solidly for a time. </para>
+          <para>The three aims to which I referred earlier - full employment, growth and stability - are not easy to achieve. They are not fully achieved yet anywhere in the world. The United Kingdom, the United States of America and Japan, even with advanced and highly developed economies have not achieved fully those three aims. Pressure always comes from one section or another. If the growth rate proceeds too quickly the stage of over employment is reached. An era of inflation is approached. The workers are deprived of their real earnings and people on fixed incomes begin to suffer as money loses its value. Less output is achieved by the workers and the country is in trouble. A delicate problem of management is involved. As is the case in other developed countries where room to manoeuvre in management of these three functions is much more restricted than it is in lesser developed countries, the problem becomes more complex. </para>
+          <para>Interesting figures are available on taxation in Australia which may be contrasted with taxation rates in other countries. Australians paid $A381.65 a head per annum, taking into account all kinds of taxation. It is a very long list of taxes. People in the Federal Republic of Germany paid SA577. In Japan $A81 was paid, in the United Kingdom $A398, and in the United States $A611. They are valid figures, but I have tried to put them on a comparative basis because regard must be had to the fact that Japan is not as wealthy a country as Australia. I have made some calculations, using as a factor the gross national product of each country. On this basis, Australians pay 24i% of their gross national product in taxation. In the Federal Republic of Germany the people pay 47%; in Japan 18%; in the United Kingdom 32%; and in the United States 27%. So it is clear that we pay at a higher rate than in some countries and at a lower rate than in others. It is not of much consequence that we pay at a higher rate than the Japanese because Japan is less developed than Australia in real terms of social services. Our general rate is below the rate of comparable countries such as the United Kingdom and the United States of America. </para>
+          <para>For those who wish to follow the matter further, I point out that a very good review was published by the Department of the Treasury in its White Paper of December 1966. Set out on the first page was an Introduction to the General Australian Economy&#39; as it stood at that particular time. 1 shall not quote the relevant parts; they can be read by any honourable senators who want to follow the matter. The statement demonstrated that at the end of December the economy was in fairly good shape, that things were moving well, that the indicators were showing good forward development and, generally speaking, that there were not many flat spots in the economy. The comments that I made were these: all in all, the economy is buoyant; the indications of a return to growth are very good; money is available for use; some inflation is beginning to show up; the nation is poised for expansion but this depends on decisions by private and public authorities. The public programme has been running very strongly, but the private programme has been tending to run not as strongly as the public one. One of the documents that I have states that investment has been maintained at a high level for the past few years but that private investment has been increasing at a decreasing rate. I do not know if honourable senators can follow that. However, it is fair to comment that today the buoyancy of the economy has been sustained more by public expenditure than by private expenditure, and that the flat spots in the economy are the result of private expenditure not being at the level that one would think the economy and liquidity would warrant. This leaves us with some excess manufacturing capacity and a tendency perhaps for money as money to be unemployed. </para>
+          <para>As we look at the position we may ask: should we give a stimulus to private investment? Would this be sensible? Would it be wise? No doubt this matter will be debated further as the months pass, because I think this is the area of the economy where there is a tendency for there to be flat spots. Labour is still scarce, excess manufacturing capacity exists and credit is freely available but private borrowing has been tending to slow down. As against this, the effects of the deficit Budget of August last are now beginning to show up, and they will be of quite some consequence. There have been further advances of money by the Commonwealth to the States, and export income is running at high levels and is showing a tendency to expand even further. There has been no great rise in credit imports. In these circumstances it is hard to make an economist&#39;s argument - I am not an economist myself - for a stimulus to be given to private investment, but I am sure that we will be looking at this area with some concern. </para>
+          <para>Some things that are happening to Australia are of interest. The latest review of the Australian Agricultural Council shows that in 1965-66 the overall volume of rural production was 15% higher than in the previous year, being 3% above that of the record year. The gross value was 10% above that of 1964-65 and at $3,592m was 4% above the record. The volume of exports in 1966-67 will be approximately 5% above that of last year. The dramatic aspect of all this is that nearly all the </para>
+          <para class="block">Increase comes from wheat. This illustrates one of the great virtues of the Australian character. Most of this wheat came from the two States where the drought was the worst and where, to say the least, great human misery was being experienced. The people of New South Wales and Queensland who had lost their stock put. the last of their money into the production of wheat. Australia&#39;s extra export income was largely earned by people who were prepared to try to make something out of the disaster that befell them. </para>
+          <para>Wc have had a very good pattern of growth, lt slipped last year, but it recovered very quickly indeed, principally as a result of the efforts of the wheat growers. This has demonstrated the versatility, vigour and elasticity of the primary industries, their capacity for dramatic and quick recovery and their potential, referred to earlier, for huge expansion. Throughout the world food surpluses are beginning to pass ofl&#39;. Those things that bedevilled us some years ago are no longer the real problems that they were. The American and Canadian surpluses have nearly gone now. People in other countries arc showing a great interest in Australia&#39;s capacity to increase its production of grain and other foodstuffs from the land. They think that we have the resources, and surveys of our capacity in this regard are being made in Australia by overseas countries. We ought not to be unmindful of the fact that we have demonstrated in the last twelve months Australia&#39;s capacity to pull itself out of trouble. We have demonstrated a capacity to produce for export many more products, primarily of primary industry origin. </para>
+          <para>Primary industries certainly can earn wealth. They can earn it quickly and in great lumps, but they do employ fewer people - expressed as a percentage of the population - than they used to do, and this is likely to continue. Secondary industries certainly employ more people but it is only partially true to say that they can continue to do so in ever increasing volume. The tendency for them to employ people in ever increasing volume to take up those who lose employment because of increased efficiency in primary industry is passing off rapidly. If we seek to continue the high employment rate in secondary industries by having tariff barriers that perhaps become a little artificial, we have secondary effects to consider. We may be maintaining unreal employment and we may have increased cost problems to deal with all through our industrial structure, and we may have retaliation to consider in our overseas markets. </para>
+          <para>So I make the case that what we ara looking for in this country is a consideration of the opportunities for employment in tertiary and service industries, in tha areas in which overseas and developed economies have shown that employment capacity is generated in rising terms. The figures show quite clearly that in the last twenty years Australia&#39;s increased capacity to employ people - this is expressed as a percentage of the whole population - is more and more to be found in the tertiary industries, the service industries, education, the professions, commerce, etc. They employ more people and they continue to do so. I feel, therefore, that we need to consider at this stage of Australia&#39;s life a fairly dynamic programme of expansion designed to build up the productivity of our land and primary industries, to improve our output of processed minerals, to make greater use of education, utilising the dual streams available in Australian society today, and to look at the ability of this country to reduce costs. We must look at our transport systems, in which nearly 30% of our gross national product is absorbed. We must look at this capacity and ask ourselves whether we could do something with a massive programme of growth, developed largely by government influences, but contracted substantially out to the private sector. This would seem to me the way in which Australia ought to be looking, that is, for a massive investment programme designed to build a large new platform for greater production of primary industries, greater production of processed minerals, and higher education, together with reduced costs. This is something that we must try to do in concert as between the governmental responsibilities referred to earlier. </para>
+          <para>When we talk of these responsibilities we talk about the role of the Parliament, naturally, and its position of increased responsibility. As society becomes more complex life becomes, if anything, more difficult. The place of the Parliament in all this is of transcending importance. This is the place where all the viewpoints in the end come into focus, where all the pressures finally meet, where leadership has to be shown and great decisions must be taken. So the need for a critical review of legislation becomes of increasing importance, with the task increasing in complexity. </para>
+          <para>I have felt for quite some time that the role of the Senate is going to be, and can be, of increasing importance. The Senate does not publicise itself and perhaps it is not sufficiently understood, but its capacity to make a contribution to problems of this character is of very great importance indeed. We all know the Senate&#39;s position. It is directly elected by the people on universal suffrage. It has very great responsibility and very great authority within certain limits, but they are not very much less than the authority limits of the House of Representatives. The Senate represents the original States. Adding all these things together, we find that this is the strongest Upper House in terms of ability to perform in the British Commonwealth. It provides a forum for the studying of important public questions. This is a forum not always available in other parts of the community. </para>
+          <para>I suggest that the Senate has an increasingly important job. While the problems that I have mentioned tonight may be a little heavy and boring to some people, I have tried to make them as light as I can because they touch on the real heart of Australia&#39;s affairs. How do we manage the great growth of which we are capable and which we have to make? How do we do this and keep full employment and stability? How do we manage the problems of the complex field of Federal and State financial relations? These are problems which call for the widest exercise of statesmanship. They are problems which really call for the maximum ability of the Australian people, as expressed in this Parliament. The question of how to marshal the best of these abilities on behalf of the Australian people is my fundamental concern. That is why 1 enjoy being in the Senate and why I hope that we shall be able to do more of this kind of thing in the future. </para>
+          <para>Speaking from the political beliefs that I hold, I believe that the country develops to the greatest possible extent and that the greatest progress ensues when we get as much as we can from dynamic enterprise as opposed to centralised control. I was interested to read a while ago a new view expressed by the Labour Party in the United Kingdom. This view was given to us in Australia by <inline font-weight="bold">Mr Robert</inline> Maxwell, a Labour member of Parliament in the House of Commons, who came to this country recently. This is what he had to say: </para>
+          <quote>
+            <para>The central purpose in politics, certainly mine and of Socialists in the United Kingdom and, over the next few years of Socialists everywhere, must be to maximise the freedom of the individual. </para>
+            <para>We are no longer interested in the fight for equality, because equality has been won, by and large in the United Kingdom. </para>
+            <para>There are still some pockets of inequality that must be tackled and are being tackled. </para>
+            <para>The only way you can maximise individual freedom is to increase the number of decision points in the economy. That means you must have a healthy, private enterprise system. </para>
+            <para>The theme of old fashioned Socialists used to be that you had to centralise everything - you have to plan and you have to plan everything. But we have found, as have the Russians, that in a sophisticated economy, this is impossible and leads to deprivation of the individual. </para>
+            <para>Until the Socialists in Australia or the old fashioned ones grasp this central fact they will remain in the wilderness. </para>
+          </quote>
+          <para class="block">I think that those are sensible views. Looking at them and believing that there is a lot of sense in them, my political problem is really: where does the Australian Labor Party go? These views have been fundamental to the Liberal Party&#39;s policy since its inception. While 1 have a lot of friends on the other side of the chamber, it seems to me that they are rather finding themselves left without a philosophy. </para>
+          <para>Speaking for ourselves, we believe that Australia is about to embark on the greatest period in its history. We believe that what we are looking for in this country is a dynamic approach to growth and destiny. In conclusion, I express the hope that the Twenty-sixth Parliament will continue, like the parliaments of the past, to lead the people of this country to security, prosperity and contentment. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>24</page.no>
+              <time.stamp />
+              <name.id>KAS</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WEBSTER, James</name>
+              <name role="display">Senator WEBSTER</name>
+            </talker>
+            <para>- It is an honour to be given the opportunity to second the motion for the adoption of the Address-in-Reply to the Speech made by  His Excellency,  Lord Casey. I hasten to endorse the expressions of loyalty to  Her  Majesty the Queen and to express my ever ready assistance to see that the British </para>
+          </talk.start>
+          <para class="block">Commonwealth of Nations expands. Australia, as an important part of the Commonwealth, will do all that it can to build the Commonwealth so that it may become a great influence for peace in our time. I congratulate <inline font-weight="bold">Senator Cotton</inline> on the excellent address which he has given to the Senate this evening. I. believe that a rereading of his speech will result in great credit being given to him for his outline of the future economic policies that this country must follow. </para>
+          <para>The opening of the Twenty-sixth Parliament is of particular note. The occasion marks another step in Australia&#39;s progress towards the position she will occupy in the future - a very great nation in the world. The people of Australia have shown that they have a vigorous and resilient attitude to great catastrophes such as the recent fires in Tasmania and the drought which was experienced on the mainland during the past twelve months. Both these were mentioned in the Governor-General&#39;s Speech. Australians have shown characteristics which are not demonstrated in countries with a much longer history, and it ls to the credit of the people of Australia that our economic position is so sound and that generally Australia shows more stability probably than any other nation. </para>
+          <para>We witnessed with pride the opening of the Twenty-sixth Parliament today by  His Excellency  the Governor-General. Lord Casey is the third Governor-General of the Commonwealth born in Australia, and his appointment to this high office met the wishes of many Australians. Honourable senators on both sides of the chamber recognise  His Excellency  as a man who has contributed greatly to Australia&#39;s progress. In his youth he attained high educational qualifications. He became leader of one of the great political parties and held high ministerial office.  His Excellency  has been Minister for Works and Housing and Minister for National Development. He has shown interest in science and research and was Minister in Charge of the Commonwealth Scientific and Industrial Research Organisation. For some time he was Minister for External Affairs and also Assistant Treasurer. In the Parliament he showed great qualities as a  speaker.  In civilian life he is an accomplished pilot. The work that has been undertaken by  His Excellency  has gained the approbation of all of us. 1 speak for all honourable senators when I say we were proud lo sec  His Excellency  open the Parliament today. </para>
+          <para>This Parliament meets at a time when (he strain is no less than that which has faced any Parliament of the Commonwealth in the past twenty years. The people of Australia are faced with external and internal problems. The Government which is now charged with the administration of the country was returned after a most vigorously contested election. The circumstances surrounding the election of this Government probably can be compared with only two previous occasions in the history of Federation. In 1929 the Government in which (he Party I support was a partner was removed from office on the controversial question of the establishment of the arbitration system. The people showed clearly their views on (bis mailer when they set aside the Government of the day. In 1949, following the years of stringent restrictions that were necessarily imposed during the Second World War, one political party offered freedom from restrictions, while the Government of the day considered it best that restrictions should bc retained. The outcome of that election showed that Australians are freedom loving people. They demonstrated great strength of purpose when, somewhat to the surprise of many people, the\&#39; removed the Labour Government from office. </para>
+          <para>In the recent election the vote was equally surprising and momentous. Few in the community would have been brave enough to have predicted the actual outcome of the recent election. In the election campaign (he Government showed that it viewed Australia&#39;s external position seriously. It had taken strong though unpopular action on our commitment in Vietnam and in deciding that national servicemen should serve in that area. The proposition put forward by the Opposition in the election campaign was an easier way out for the people of Australia if they wished to follow it. That was that our Vietnam commitment would be reduced; that there would be no national service training; and that following that there would be less burden on the people than there would be in finding the great amount of money that we must find for our defence. The proposition put to the people was that they could look either way. </para>
+          <para>I believe that the policies that the Government put forward in the last election campaign were unique in their absence of election promises. The main decision for the people to make in the last election was on the maintenance of a close alliance with the United States. The decision that the people made was opposed to the easy way out. They saw that this decision concerned the future setting of this great nation. The decision required serious and calculated thought. Although in these times we may think that there is a lack of moral fibre in certain areas of the community and we may debate the strength of character thai lies in some sections of the community, in the last election the people expressed themselves very forcibly and look the attitude that they should burden themselves with some liabilities immediately so that in the future they would be secure as. citizens of ti free country. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>26</page.no>
+                <time.stamp />
+                <name.id>JYA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">O&#39;BYRNE, Justin</name>
+                <name role="display">Senator O&#39;Byrne</name>
+              </talker>
+              <para>-  We are committed to an immoral war by fear. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>26</page.no>
+                <time.stamp />
+                <name.id>KAS</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WEBSTER, James</name>
+                <name role="display">Senator WEBSTER</name>
+              </talker>
+              <para>-  We must have heard that a thousand and four times during the election campaign. 1 believe that the portion of His Excellency&#39;s Speech that is devoted to external affairs amply demonstrates the Government&#39;s attitude to Australia&#39;s external relationships. Whilst he spelt out the investment that this country makes in defence training and equipment thai we are providing for our future defence, I believe that underlying that statement, which reflects the Government&#39;s view, is an earnest wish to see the Vietnam conflict come to an end at an early date. However, Australia and its people will resist resolutely any aggression that may take place in the South East Asian area. </para>
+            </talk.start>
+          </continue>
+          <para>There are great problems at this time. The problem of China, as expressed by  His Excellency,  is a continuing threat to world peace. The position in Communist China today is that there is no room for opposition. This is something that we, in the future, undoubtedly will be forced to contest on some ground. 1 believe that the Government&#39;s policy has been amply demonstrated. But it was well expressed by  His Excellency  when he used these words, which are worth considering: </para>
+          <quote>
+            <para>My Government is aware of the need for flexibility in its external policies . . . </para>
+          </quote>
+          <para class="block">I place great weight on those words, because over the few years that I have been in the Senate I have seen the Government take and continue strong action in relation to external policies, which has not been to the liking either of the Opposition or of many members of the Government Parties but which has proved correct in the end. One example of this was our continuing friendship and support for Indonesia. Great opposition was expressed by honourable senators on both sides of the chamber to our commitments there, but how right the Government&#39;s view of our relationship wilh Indonesia proved to be. The phrase &#39;flexibility in external policies&#39; seems to me to be quite a profound comment. </para>
+          <para>Australia&#39;s commitment externally, other than in the field of defence, is of course predominantly to Papua and New Guinea. I am particularly confident of the future. I am delighted to be a member of this Parliament at a time when Australia has the obligation of developing the Territory wilh the resources that we can make available for this purpose. The position in relation to New Guinea at present is most interesting. The Australian Government has accepted the programme of development outlined in the report of the World Bank mission to the Territory, and we are pleased to see the rapid expansion that has taken place in the field of agricultural and forestry development. A massive education programme has now been undertaken. We can feel confident that New Guinea will reflect great credit on Australia. </para>
+          <para>I do not doubt that we will be criticised, but it is well to view what those who criticise us are doing in their own areas by way of assistance. In the last three years the Commonwealth&#39;s allocation to Papua and New Guinea has increased from &#167;50m to S70m. Agricultural production there has increased substantially. The production of coffee has increased by 116% and of cocoa by some 20%. Forestry production has almost doubled. Excellent consultants are being called in to advise on the utilisation of timber products and of timber resources which are estimated to be in the vicinity of 2,000 million super feet. There has been a 100% increase in reafforestation work. All these things will add greatly to the development of that country. Secondary industry has come to the Territory. Companies there are now manufacturing soap, industrial gases, flour, tiles and terazzo. The first commercial tea factory has been established. The Territory has a wonderful future, for which we in this Parliament and the people of Australia are responsible. </para>
+          <para>We should be pleased that a favourable report on New Guinea was received from the Trusteeship Council. I believe that the assistance we have given New Guinea, as well as other overseas countries, will be recognised to an even greater extent in the very near future. Travellers from lesser developed countries will come to realise that although Ausralia is an enormous country in area it has only eleven and a half million people. Probably our population is much smaller than the populations of countries we are endeavouring to assist. I think these travellers will come to realise that we have done great things. 1 believe their attitude will be this: &#39;Australia is a country which, because of its size, is no threat to us. lt has no particular interest in dominating our political philosophy. Here is a country which urgently needs finance for its own development, and every dollar that it makes available to assist others externally is a dollar it can ill afford.&#39; 1 believe that our activities in stabilising the economy of the Territory will attract goodwill to Australia. 1 was particularly interested in comparing the economic position today with that which existed when this coalition Government took office. It is obvious that our internal economy and ability to assist others is dominated by our production and trading achievements. I am particularly proud that I am associated with this Government. I believe that at the last Federal election the Australian electorate reaffirmed its confidence in the type of administration that we have had over these past seventeen years. But let us look at a few facts on development since the 1948-49 era particularly relating to trade and our balance of payments position. Since 1948-49 substantial changes have taken place in the volume and nature of Australian trade and in our balance of payments situation. Recorded imports rose from $830m in 1948-49 to $2,939m in the past year. Of all that we import, about 80% consists of materials and equipment for Australian industry. Another factor regarding our imports in the last few years has been the enormous growth in imports for defence equipment. </para>
+          <para>Our exports have been likewise momentous. Recorded exports rose from .&#171;l,085m in 1948-49 to $2,72 lm last year Exports have more than doubled in terms  V  volume and the composition of our export trade has undergone a heartening change. For instance, in 1949 manufactured goods accounted for 5% of our total export production compared with 15% for 1965- 66. Exports of manufactured goods have increased approximately eightfold in value in comparison with the figures in 1948-49. Last year these exports were valued at $420m. This change in the composition of exports is favourable as it relieves to some extent our dependence on primary produce exports which have a history of uncertainty regarding price movements overseas. This change in the composition of our exports indicates further that Australian manufacturing industry is now capable of playing a much greater role in the development of Australia. The current growth in export prospects for minerals will add to our overall export potential. The widening range of our major export trade shows a notable change in direction of our exports to various countries. Britain&#39;s share of our exports declined from 42% of the total in 1948-49 to 17% in 1965-66 whilst Japan&#39;s share of these exports rose from 1% in 1948-49 to 17% Inst year. This means that we are not so dependent on any single market. </para>
+          <para>The rising foreign exchange bill for imports and invisible items such as transport, dividends, interest commitments overseas, insurance and foreign aid has been met by the greater export performance plus the high level of overseas capital which has been attracted to our growing economy. It is no longer necessary to restrict the growthgenerated demands for imports by such measures as import licensing which was required during the 1950s. Currently, our holdings of international currency are adequate for our immediate needs. But when we compare the position in 1949 with the situation in 1966 we find that by present day standards the economy in that earlier year was at a fairly low level. This was the era of postwar shortages. Australia&#39;s balance of payments position required the maintenance of import licensing. Those restrictions were virtually removed in 1960. Levels of primary and secondary production were unspectacular by comparison wilh present day- performances and with the steady and impressive progress that has been made. This result has been achieved under the solid administration of a Liberal and Country Party coalition. Again I express my pleasure at being connected with the performances of this Government over the years. </para>
+          <para>Our population has now reached about eleven and a half million, reflecting a growth rate since 1948-49 of 2.1%, one of the fastest growing population rates in any industrial economy. Our gross national product has virtually doubled in real terms, despite substantial population increases. The real per capita income has risen by approximately 40%. Public and private investment has continued at a very high rate, averaging more than 25% of the gross national product in each of those years. This is a higher percentage than is obtained in many more advanced countries than Australia. The volume of rural production has increased by about 60% despite a 10% decline in the workforce during that period. Outstanding productivity has been obtained by the wool industry as production has increased by 57% since 1.948-49. Beef and veal production has increased by 60%; mutton and lamb production by 83%; and sugar production by 107% in the past seventeen years. The production of apples has increased by .132% and canned fruits production has increased by over 200% . Wheat production has more than doubled, as has the volume of mineral output. Further dramatic prospects are undoubtedly in view. </para>
+          <para>The production figures for the period since 1948-49 are of outstanding note and have been brought about through the imaginative nature of the guidance and policies laid down by this Government. We may ask of comparable countries why they have not achieved a similar growth rate. Some of our policies have been most imaginative. In respect of production benefits, machinery for the protection of economic and efficient industries has been overhauled and enlarged. The Tariff Board has made quicker examinations recently of the requests of industries for protection. </para>
+          <para class="block">Temporary protection has been made available by the Special Advisory Authority. </para>
+          <para>Last year an Office of Secondary Industry was established more effectively to handle all aspects of Australia&#39;s industrial development. Special depreciation allowances on plant, structural improvements and housing for primary industry were introduced as far back as 1952. An investment allowance of 20% on new plant and equipment was made&#39; available for manufacturers and was extended to primary producers in 1963. His Excellency the GovernorGeneral referred in his Speech to grants and other financial assistance to encourage industry in research and development. The Commonwealth Development Bank, the Term Loan Fund and the Farm Development Loan Fund have been created for the specific purpose of gaining increased production. Commonwealth financial assistance has been provided for the development of water resources, transport and harbours. These imaginative policies have meant a great deal to Australia. The policy outlined by the Governor-General shows that the ensuing years will be of equal benefit to the population. One important aspect with respect not only to our external relationships but also to our trade has been the development of the Trade Commissioner Service. It is interesting to note that in 1949 there were thirty-two officers in fifteen posts. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>28</page.no>
+                <time.stamp />
+                <name.id>K1T</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BENN, Archibald</name>
+                <name role="display">Senator Benn</name>
+              </talker>
+              <para>-  Does the honourable senator intend to tell us anything about the 80,000 unemployed people in the Commonwealth? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>28</page.no>
+                <time.stamp />
+                <name.id>KAS</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WEBSTER, James</name>
+                <name role="display">Senator WEBSTER</name>
+              </talker>
+              <para>-  I do not have the figures which show the exact position, but undoubtedly we will hear from <inline font-weight="bold">Senator Benn</inline> about that aspect. I think it&#39; is important to look at our external trade. If we protect our manufacturing industries perhaps we will not need to look at the poor side but will be attracted to suggest imaginative policies to capitalise upon. Under new leadership, the Australian Labor Party may be able to offer some suggestions. Today there are eighty-seven officers in forty-three overseas posts, as well as an internal pool of Australian based trade commissioners working on special projects such as fairs and trade missions. </para>
+            </talk.start>
+          </continue>
+          <para>Government expenditure on trade publicity and promotion has risen from $32,000 in 1949 to an appropriation of $3,099,000 for the past year. In regard. to international relationships, I direct the attention of honourable senators to the International Wheat Agreement, the British Commonwealth Sugar Agreement, and the meat agreement with Britain. These agreements provide a good basis for a feeling of confidence that Australia will continue to enjoy prosperity such as if has not previously known. </para>
+          <para>When <inline font-weight="bold">Senator Benn</inline> addresses the Senate he may be able to compare the percentage of unemployed people in this country with the percentages in other nations. 1 believe that it compares very favourably with any other country in the world today. There are matters of great importance on the home scene. The Government&#39;s administration of social services is a most important aspect, lt has concentrated on assisting those aged in the greatest need, progressively paying higher pensions to more people. Since 1949 pension rates have trebled and property and income limits lo eligibility have been doubled. Old age, widows and invalid pensions now include a whole range of extra benefits such as telephone rental concessions, lower television and radio licence fees and automatic admission to the Pensioner Medical Service which provides free medical treatment and free hospital care. These Commonwealth concessions are worth an average of at least $1.15 a week to the average pensioner. In addition, State governments and local government bodies give to pensioners concessions in transport and rates. </para>
+          <para>His Excellency referred to intended extensions to the means test. 1 am delighted to see that this involves extending the limit of permissible earnings by an additional $156 a year for single and married pensioners. The means test on widows pensions is to be eased by a similar amount. The Government, through the Aged Persons Homes Act&#39;, has provided nearly 25,000 aged people with accommodation. Amounts totalling about $65m have been granted by the Commonwealth and the total expenditure on homes for aged people is about $100m. The Act was extended last year - and I believe that this is excellent legislation - to allow one-third extra bed space. The Governor-General referred to the extension of the Act to include local government bodies. It is anticipated that where local government bodies make donations of land, the value of those donations will be included in the amount on which Commonwealth subsidy is paid. </para>
+          <para>
+            <inline font-weight="bold">His Excellency</inline>also referred to subsidies for sheltered workshops. This subject has been referred to in the Senate on many occasions. Sheltered workshops provide employment for physically and mentally handicapped people. Capital contributions to establish and equip sheltered workshops will be notable extensions to the Disabled Persons Accommodation Act, which already provides assistance through residential accommodation for disabled persons employed in sheltered workshops. I believe we can do more in many areas of social services. 1 believe that as the economy expands not only will we be able to provide greater facilities for those who are not able to provide for themselves but also that various social services to the less fortunate members of the community will be increased. I have stated in the Senate on a number of occasions that the housing industry is the thermometer of our whole economy. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>29</page.no>
+                <time.stamp />
+                <name.id>CJO</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WHEELDON, John</name>
+                <name role="display">Senator Wheeldon</name>
+              </talker>
+              <para>-  Does the honourable senator mean thermometer or barometer? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>29</page.no>
+                <time.stamp />
+                <name.id>KAS</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WEBSTER, James</name>
+                <name role="display">Senator WEBSTER</name>
+              </talker>
+              <para>-  It is both. The housing industry is of great, importance. We have been very fortunate in having a lady in the person of <inline font-weight="bold">Senator Dame</inline> Annabelle Rankin to follow <inline font-weight="bold">Mr Bury</inline> in the administration of the Department of Housing. In establishing this portfolio the Government displayed its interest in housing. Figures I have before me show that the housing loans insurance scheme has led to the provision of more than $14m extra for the provision of housing. Nearly 1,800 contracts have been underwritten. Under the homes savings grant scheme, which the Senate debated at length not many months ago, a total of 71,469 grants have been made. Not only have approximately 71,000 young people been able to obtain a grant from the Commonwealth, but in all probability a similar number are saving with a view to getting the grant. The total amount paid in grants u, date is &#167;32,138,229. This is something of which the Government can be proud. It is indicative of the imaginative policies that have been pursued by this Government, </para>
+            </talk.start>
+          </continue>
+          <para>I believe that industry generally has benefited very greatly from the policy of the Government in having consultations with representatives of industry. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>30</page.no>
+                <time.stamp />
+                <name.id>JZU</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">ORMONDE, James</name>
+                <name role="display">Senator Ormonde</name>
+              </talker>
+              <para>- Does the honourable senator really believe that? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>30</page.no>
+                <time.stamp />
+                <name.id>KAS</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WEBSTER, James</name>
+                <name role="display">Senator WEBSTER</name>
+              </talker>
+              <para>- 1 really believe it. I believe that over the last seventeen years this Government has laid the foundation for progress. As indicated today in His Excellency&#39;s Speech, the Government is creating the climate for continued progress and even greater prosperity than exists at the present time. Further. I believe that with the mineral resources that we have and with our industries maintaining the rate of growth that has been established over recent years we can confidently look forward to an expansion of our economy in the next three years. </para>
+            </talk.start>
+          </continue>
+          <para>Ai ibis stage I should like to pay a tribute to l he new Leader of the Opposition <inline font-weight="bold">(Senator Murphy)</inline> and me  Deputy  Leader of the Opposition <inline font-weight="bold">(Senator Cohen).</inline> They and iiic Leader of the Opposition in another place are Queen&#39;s Counsel. This must be the first time that three Queen&#39;s Counsel have led the Australian Labor Party. Doubtless the Leader of the Opposition in this place and his  Deputy  wish to join with the Government in ensuring that we have purposeful debate in this chamber and that wc pursue policies that will lead to the raising of the standard of living of members of the community. </para>
+          <para>I have great pleasure in supporting the remarks of <inline font-weight="bold">Senator Cotton</inline> and in seconding the motion for the adoption of the AddressiiReply. </para>
+          <para>Debate (on motion by <inline font-weight="bold">Senator Murphy)</inline> adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ASSENT TO BILLS</title>
+        <page.no>30</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Assent to the following Bills reported: </para>
+      <quote>
+        <para>High Commissioner (United Kingdom) Bill 1966. Broadcasting and Television Bill 1966. Commonwealth Banks Bill 1966. Maintenance Orders (Commonwealth Officers) </para>
+        <para>Bill 1966. Matrimonial Causes Bill 1966. States Grams  (Drought  Assistance) Bill (No. 2) </para>
+        <para>1966. </para>
+        <para>Sales Tax (Exemptions and Classifications) Bill (No. 2) 1966. Senate Elections Bill 1966. Conciliation and Arbitration Bill 1966. National Debt Sinking Fund Bill 1966. Poultry Industry Assistance Bill 1966. Poultry Industry Levy Collection Bill 1966. Poultry Industry Levy Bill 1966. Superannuation Bill 1 966. Defence Forces Retirement Benefits Bill 1966. Parliamentary Retiring Allowances Bill .1966. States Grants (Special Assistance) Bill 1966. Canned Fruits Export Charges Bill 1966. Dried Vine Fruits Stabilization Bill 1966. Extradition (Commonwealth Countries) Bill 1966. Extradition (Foreign States) Bill 1966. Stevedoring Industry Bill 1966. Nitrogenous Fertilizers Subsidy Bill 1966. Sulphate of Ammonia Bounty Bill (No. 2) 1966. Cellulose Acetate Flake Bounty Bill 1966. Urea Bounty Bill 1966. Agricultural Tractors Bounty Bill 1966. Income Tax Assessment Bill (No. 2) 1966. Papua and New Guinea Bill 1966. Public Service Bill (No. 2) 1966. Superannuation Bill (No. 2) 1966. Defence (Parliamentary Candidates) Bill 1966. Customs Tariff Validation Bill (No. 2) 1966. States Grants (Advanced Education) Bill 1966. Universities (Financial Assistance) Bill 1966. Universities (Financial Assistance) Bill (No. 2) </para>
+        <para>1966. </para>
+        <para>Stales Grants (Research) Bill 1966. Statute Law Revision (Decimal Currency) Bill 1966. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>HOUR OF MEETING</title>
+        <page.no>30</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para class="block">Motion (by <inline font-weight="bold">Senator Henty)</inline> agreed to: </para>
+      <quote>
+        <para>That he : Senate, at its rising, adjourn until tomorrow at 3 p.m. </para>
+      </quote>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>30</page.no>
+        <time.stamp>21:16:00</time.stamp>
+      </adjournmentinfo>
+      <para class="block">Senate adjourned at 9.16 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

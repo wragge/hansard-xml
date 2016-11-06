@@ -1,251 +1,1906 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1939-09-07%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1939-09-07%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1939-09-07%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1939-09-07%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1939-09-07%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1939-09-07%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1939-09-07%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1939-09-07/19390907_senate_15_161.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1939-09-07</date>
+    <parliament.no>15</parliament.no>
+    <session.no>1</session.no>
+    <period.no>4</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>97</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1939-09-07</day.start>
+      <para>ThePresident <inline font-weight="bold">(Senator the Hon. J. B. Hayes)</inline> took the chair at 3 p.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>CONTROL OF PRICES AND PREVENTION OF PROFITEERING</title>
+        <page.no>97</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>97</page.no>
+            <time.stamp />
+            <name.id>KUA</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for Commerce</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLEAY, George</name>
+            <name role="display">Senator McLEAY</name>
+          </talker>
+          <para>- <inline font-style="italic">by leave -</inline> The Commonwealth Government has decided to adopt measures for the control of prices and the prevention of profiteering. Its planwill make provision for - </para>
+        </talk.start>
+        <list type="loweralpha">
+          <item label="(a)">
+            <para>Long-term price control. </para>
+          </item>
+          <item label="(b)">
+            <para>Immediate control, pending the appointment of a Commonwealth authority to put into operation the long-term price control. </para>
+          </item>
+        </list>
+        <para>Under the long-term plan, the Commonwealth willtake power to control the prices of all commodities. There will be a central Commonwealth controlling authority, consisting of a commissioner and two assessors. It is desired that, as far as possible, the existing machinery of the State governments, amplified or modified where necessary, should be used for giving effect to the decisions of the Commonwealth authority. The Prime Minister <inline font-weight="bold">(Mr. Menzies)</inline> will confer with the States about this matter on Saturday. Trade organizations will be used as advisory bodies as far as practicable. As a matter of urgency, pending the apppointment of a commissioner, immediate action is being taken to deal with price exploitation in the sale of existing stocks. </para>
+        <para>Prices of proclaimed goods, or classes of goods, will be fixed at the prices current on the 31st August, 1939. The Minister for Trade and Customs will be the authority under this plan to decide whether or not price increases are justified. In the event of refusal to sell at the prices current on the 31st August, and where the Commonwealth Government considers the circumstances justify it, power will be taken to acquire goods compulsorily for re-sale to purchasers. In respect of proclaimed goods, the order will be made retrospective to the 31st August, 1939. Price control and prevention of profiteering will form a part of the functions of the Department of Trade and Customs, and will be under the control of the Minister for that department. </para>
+        <para>The whole subject of price control will be discussed at a meeting of Commonwealth and State Ministers this week, with a view to ensuring the greatest possible co-operation, the utilization of existing State machinery, and the adoption of uniform principles and procedure in order to avoid undue disturbance to the business community. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>97</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>WHEAT INDUSTRY</title>
+          <page.no>97</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>97</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator CAMERON</name>
+            </talker>
+            <para>asked the Minister for Commerce, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>How many wheat-growers are there in Australia holding acreages between 500 and 1,000 acres; between 1,000 and 2,000; between 2,000 and 3,000; between 3,000 and 4,000; between 4,000 and 5,000; between 5,000 and 6,000; between6,000 and 7,000; between 7,000 and 8,000; be ween 8,000 and 9,000; and between 9,000 and 10,000 acres? </para>
+            </item>
+            <item label="2.">
+              <para>To what extent have wheat-growers in Australia been subsidized or assisted financially by the Federal and State Governments each year since 1932, and upon what basis?  3. How many wheat-growers are there in Australia holding an acreage of 1,000 acres and more who also grow wool? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>97</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- Considerable research will be necessary in order to obtain the information asked for by the honorable senator. I hope to be able to supply a reply within a few days. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>97</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PRICEOF GOLD</title>
+          <page.no>97</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>97</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator CAMERON</name>
+            </talker>
+            <para>asked the Minister representing the Treasurer, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it correct, as reported in the daily press of the 29th and 30th August, that the price of gold was fixed by the Commonwealth Bank at &#163;106s. 7d. a fine ounce? </para>
+            </item>
+            <item label="2.">
+              <para>If not, what is the price which has been fixed and is now being paid by the Commonwealth Bank? </para>
+            </item>
+            <item label="3.">
+              <para>
+                <inline font-style="italic">To</inline>what extent has the purchasing power of the &#163;1 note been depreciated as compared with that of a sovereign up to date? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>97</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- The Treasurer has supplied the following answers: - 1 and 2. The price for gold lodged with the Mint during the week ended the 25th August, for sale to the Commonwealth Bank, was fixed at  &#163;106s. 7d. per ounce of line gold. The pricefor gold lodged with the Mint during t he period  from  the26th August  to  the 5th September, inclusive, for sale  to the Commonwealth  Bank, wasfixed at &#163;10 12s.1&#189;d.  per  ounce offine gold. The Commonwealth Bank price  is  fixed periodically, and is based  on the London  price. </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="3.">
+              <para>The  sovereign has not been in active circulation for many years. Any comparison of the purchasing power of a sovereign (based  on  the present value  of  gold  in  terms  of Australian  currency) with that of the &#163;.1 note, has therefore no significance. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>98</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SUPERANNUATION</title>
+          <page.no>98</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>98</page.no>
+              <time.stamp />
+              <name.id>KE4</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KEANE, Richard</name>
+              <name role="display">Senator KEANE</name>
+            </talker>
+            <para>asked the Minister representing the Treasurer, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What  is  the number of officers employed by the Repatriation Commission, the War Service Homes Commission and the High Commissioner&#39;sOffice, London, who were admitted to Commonwealth superannuation benefits in  1937? </para>
+            </item>
+            <item label="2.">
+              <para>What  is  the number of officers continuously employed since or before the 20th November, 1922, by theRepatriation Commission. War Service Homes Commission  and  High Commissioner&#39;s Office, London, who received the &#34; age30 &#34;&#39; concession,  and  what is the annualcost to the Government  of  such concession? </para>
+            </item>
+            <item label="3.">
+              <para>What  isthe  number of officers continuously employed  in  classified positions in the Repatriation Commission, War Service Homes Commission and the High Commis  sioner&#39;sOffice,  London, since prior to the20th November, 1922.  who did  not benefit by the &#34;age 30 &#34; concession notwithstanding such long service? </para>
+            </item>
+            <item label="4.">
+              <para>What would bethe annual cost to the Government of granting the&#34; age 30 &#34;  concession  to the officers specified in question No. 3? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>98</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- Inquiries are being made, and a reply will be furnished as soon as possible. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>98</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>RIVERINA FLYING SCHOOL</title>
+          <page.no>98</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>98</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Defence, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that land was bought from Brunskill Estate (283 acres), Lyons Estate (417 acres), and R. H. Blake (87 acres) for the establishment of a Royal Australian Air Force flying school at Wagga Wagga. New South Wales? </para>
+            </item>
+            <item label="2.">
+              <para>If  so,what  are the names of the owners of each block? . </para>
+            </item>
+            <item label="3.">
+              <para>What was the original price asked by vendors? </para>
+            </item>
+            <item label="4.">
+              <para>What  was the  price finally agreed upon? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>98</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party>UAP</party>
+              <role>Minister for the Interior</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>- The Minister for Defence has supplied the following answers :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. 2.  (a)  Estate of A. Brunskill (deceased): </para>
+              <list type="loweralpha">
+                <item label="(b)">
+                  <para>Sackville Proprietary Limited (W. R. Lyons) ; (c) R. H. Blake. 3.  (a)  &#163;23 per acre; (b) &#163;25 per acre: </para>
+                </item>
+                <item label="(c)">
+                  <para>&#163;25 per acre. 4. (a) &#163;14 per acre; (b) &#163;17 10s. per acre; (c) &#163;15 per acre. The actual area acquired is as follows: - (a) 280 acres  1  rood 10 perches; (6) 417 acres  0  rood  10  perches; (c) 87 acres . 1 rood 13 perches. </para>
+                </item>
+              </list>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>98</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>AUSTRALIAN CAPITAL TERRITORY</title>
+          <page.no>98</page.no>
+        </subdebateinfo>
+        <para class="block">BuildingOperations. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>98</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>asked the Minister for the Interior, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that within the last few days 180 single men have been discharged from employment in building operations in Canberra by the Department of the Interior? </para>
+            </item>
+            <item label="2.">
+              <para>If so, is this to be accepted as a declaration of the policy of the Government regarding building operations generally in the Territory? and </para>
+            </item>
+            <item label="3.">
+              <para>Does it accord with the Prime Minister&#39;s appeal for business as usual? </para>
+            </item>
+          </list>
+          <para>SenatorFOLL. - The answers to the honorable senator&#39;s questions are as follows :  -  1, 2 and 3. Owing to the necessity for finding funds for defence purposes, it has not been possible to allocate funds to the Australian Capital Territory&#39; to enable all single men to be given continuous employment. The single men have therefore been given one week&#39;s work in each four weeks. Married men have retained full time employment. Inquiries are being made with a view to ascertaining whether additional funds can bo made available to increase the amount of work for single men. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>98</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>POSTAL DEPARTMENT</title>
+          <page.no>98</page.no>
+        </subdebateinfo>
+        <para>Surplus : Increased Facilities : Broadcastingservices</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>98</page.no>
+              <time.stamp />
+              <name.id>K5X</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SHEEHAN, James</name>
+              <name role="display">Senator SHEEHAN</name>
+            </talker>
+            <para>asked the Minister representing the Postmaster-General, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Will the Government give consideration to the utilization of the surplus of the Postal Department for the purpose of reducing postal, wireless and telephone charges </para>
+            </item>
+            <item label="2.">
+              <para>What consideration has been given to extending postal facilities to areas where such services are not now operating? </para>
+            </item>
+            <item label="3.">
+              <para>What steps, if any, have been taken to ascertain if the services of the Broadcasting Commission are in keeping with the desires of the people who pay wireless licence-fees? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>99</page.no>
+              <time.stamp />
+              <name.id>KOL</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>UAP</party>
+              <role>Minister without portfolio assisting the Minister for Commerce</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCBRIDE, Philip</name>
+              <name role="display">Senator McBRIDE</name>
+            </talker>
+            <para>- The PostmasterGeneral has supplied the following answers :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>It is regretted that this cannot be done in present circumstances. </para>
+            </item>
+            <item label="2.">
+              <para>A continuous review is being made of the necessities in all parts of the Commonwealth so that justifiable services may be provided as opportunity offers. </para>
+            </item>
+            <item label="3.">
+              <para>There is a continuous effort on the part of the Broadcasting Commission and its whole organization to sense the wishes of the listening public and there is no reason to suppose, that in general the desires of the licenceholders are not reasonably met. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>99</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>DEFENCE OF TASMANIA</title>
+          <page.no>99</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>99</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator AYLETT</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Defence, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Does the Minister for Defence consider that the defences at present in Tasmania are adequate to meet any emergency in the case of an invasion? . </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>99</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>- A reply will be furnished to the honorable senator as early as possible. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SYDNEY GENERAL POST OFFICE CONTRACT</title>
+        <page.no>99</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>99</page.no>
+            <time.stamp />
+            <name.id>JZD</name.id>
+            <electorate>Queensland</electorate>
+            <party>UAP</party>
+            <role>Minister for the Interior</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">FOLL, Hattil</name>
+            <name role="display">Senator FOLL</name>
+          </talker>
+          <para>. - I lay on the table the report of the Royal Commission on the Contract for the Extensions to the General -Post Office, Sydney. As a result of the findings of the royal commission, the Permanent Head of the Department of the Interior charged <inline font-weight="bold">Mr. M.</inline> W. Mehaffey, Director-General of Works, under the Commonwealth Public Service Act with being negligent or careless in the discharge of his duties, and <inline font-weight="bold">Mr. J.</inline> Orwin, Works Director, New South Wales, with improper conduct and being negligent or careless in the discharge of his duties. Both officers were suspended from duty. </para>
+        </talk.start>
+        <para>These charges were considered by a Board of Inquiry consisting of <inline font-weight="bold">Mr. R.</inline> Lawson, chief engineer, Postmaster-Gene ral&#39;s Department, <inline font-weight="bold">chairman, Mr. H.</inline> F. Morris, Assistant Comptroller-General, Department of Trade and Customs, and <inline font-weight="bold">Mr. G.</inline> A. Watson,  Deputy  Crown Solicitor, Sydney. </para>
+        <para>The Board of Inquiry found that the charge against <inline font-weight="bold">Mr. Mehaffey</inline> had been proved, and that the charge against <inline font-weight="bold">Mr. Orwin</inline> of being negligent and. careless in the discharge of his duties had been proved. </para>
+        <para>On the recommendation of the Public Service Board of Commissioners, the Governor-General, acting with the advice of the Federal Executive Council, made the following Orders on 25th August, 1939 : - </para>
+      </speech>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Mr. M. W. Mehaffey</title>
+          <page.no>99</page.no>
+        </subdebateinfo>
+        <list type="loweralpha">
+          <item label="(a)">
+            <para>that Maurice William Mehaffey be removed from the office of Director-General of Works, Department of the Interior ; </para>
+          </item>
+          <item label="(b)">
+            <para>that the said Maurice William Mehaffey be placed as an assistant Director-General of Works with salary of ?1,300 per annum (subject to cost of living adjustment under Public Service Regulation 106a) to take effect on and from the date of the Order hereunder mentioned; and </para>
+          </item>
+          <item label="(c)">
+            <para>that the suspension of the said Maurice William Mehaffey be removed on the said date. </para>
+          </item>
+        </list>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Mr. J. Orwin</title>
+          <page.no>99</page.no>
+        </subdebateinfo>
+        <list type="loweralpha">
+          <item label="(a)">
+            <para>that James Orwin be removed from the office of Works Director, New South Wales, Department of the Interior; </para>
+          </item>
+          <item label="(b)">
+            <para>that the said James Orwin be transferred to the Works and. Services Branch, Central Staff, Department of the Interior, Canberra, at a salary of ?950 per annum (subject tocost of living adjustment under Public Service Regulation 106a) to take effect on and from date of the Order hereunder mentioned ; and </para>
+          </item>
+          <item label="(c)">
+            <para>that the suspension of the said James Orwin be removed on the said date. </para>
+          </item>
+        </list>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>CASE OF CAPTAIN T. P. CONWAY</title>
+        <page.no>100</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Final Report of Select Committee</title>
+          <page.no>100</page.no>
+        </subdebateinfo>
+        <para>
+          <inline font-weight="bold">Senator BRAND</inline>brought up the final report of the select committee appointed to inquire into and report upon the discharge of Captain T. P. Conway from the Australian Military Forces. </para>
+        <para>Ordered to be printed. </para>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>WAR IN EUROPE</title>
+        <page.no>100</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Commonwealth Proclamation : Citizen Forces : War Service - Ministerial Statement: Paper</title>
+          <page.no>100</page.no>
+        </subdebateinfo>
+        <para>Debate resumed from the 6th September <inline font-style="italic">(vide</inline> page 26), on motion by <inline font-weight="bold">Senator McLeay</inline> - </para>
+        <para>That the paper be printed. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>100</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>. -  I agree with the view that has been expressed by honorable senators on both sides of the chamber that this is indeed a solemn moment, because the action that has been taken for the reasons given in the White Paper placed before us involves the future of European civilization. One could not help being struck by the inspiring and eloquent address delivered yesterday by the Leader of the Opposition <inline font-weight="bold">(Senator Collings)</inline> on the higher &#39;ideals which should actuate the work of mankind generally. While the honorable gentleman was speaking I could not help taking my mind back to  1918,  when similar ideals were propounded by that great idealist, the late <inline font-weight="bold">Mr. Woodrow</inline> Wilson, then  President  of the United States of America, to which partial effect was given, but unfortunately they were bungled by the incorporation of the covenant of the League of Nations in the treaty of Versailles We, with all our human frailties, endeavoured to provide some tribunal which would determine the reign of force. That idealist aimed to set up a world organization that would prevent cataclysms such as that which has just commenced, but the frailties of human nature have defeated the magnificent objective we had in view. I stood in Paris at the great Quai d&#39;Orsay when the Kellogg Pact was signed to further buttress that principle. I heard the cheers of the French people when <inline font-weight="bold">Dr.</inline></para>
+          </talk.start>
+          <para class="block">Stresemann came forward to sign the pact on behalf of the German Republic. In the hearts of the people - the most martial nation in Europe - there was no desire for war. There was a fervent desire for the rule of law, and the only word one heard was &#34;security&#34; and it was echoed over and over again. When the head of the German Government came forward to sign the pact the assembled thousands stood and cheered him repeatedly as he walked down the chamber to execute the document which was for ever to outlaw war. One is justified in re-echoing the conviction expressed in this chamber that in the hearts of mankind there is no desire for war. That being so, how does it happen that wars occur and recur? How can we devise any means, with human nature as it is, to prevent the recurrence of events which are so costly to humanity, causing frightful carnage and deluging the world with blood ? In addition to the loss of human life, war involves the destruction of millions of pounds worth of material wealth, as <inline font-weight="bold">Senator Collings</inline> pointed out yesterday. Consider the agony of bereaved widows and mothers, fatherless children, and the brothers and sisters of those who fall in the fight. Our people should be saved from the haunting fear of war, and the ceaseless grief that follows the loss of loved ones. Year after year we see the mothers of the young men who died in the  1914-18  war visiting war memorials on which they place floral tributes. However bellicose we may be in our private lives, however prepared we are to fight the everyday battles, engage in arguments and resist physical chastisement, one&#39;s mind rebels at wholesale carnage as a means of settling disputes between nations. During the last  100  years a tremendous body of international law, public and private, has been evolved for the settlement of international disputes by legal means. In other words, an attempt has been made to establish the rule of law as opposed to the rule of force. The League of Nations was created and it was buttressed by the Kellogg Pact, which I had the honor to sign on behalf of the Commonwealth. That document was subscribed to by scores of nations, but like many other pacts has been violated by some of its signatories. </para>
+          <para class="block">But imperfect human nature has been unable to contrive effective machinery for the preservation of peace, and to-day after 2,000 years of civilization, we see a reversion to the ruthlessness of the jungle. </para>
+          <para>One aspect has been overlooked in this very excellent debate. Those of us who had gone through studies at the university and had examined .the principles of international law, both public and private, received a rude shock in 1914. As I have said, a vast body of law has been  built  up, in the development of which the British Commonwealth of Nations and Great Britain itself have had a great share. &#39; Yet in 1914 Germany regarded an international treaty providing against the violation of Belgium as a &#34; mere scrap of paper &#34;. When we read the White Paper now before us and recall the history of violated pacts and treaties and broken promises and pledges during the last few years, we cannot but think that deep down in the psychology of certain people, there is an element of dishonesty. Can any one justify the treatment of a solemn agreement between nations on any basis other than that on which an agreement between individuals would be treated? I know thousands of Germans who, although they come from the country where this sort of thing is being done constantly, would repudiate with horror any suggestion that they would fail to honour any agreement into which they had entered. Yet the German Chancellor to-day makes no secret of the violation of one treaty after another, and then behaves in a manner - I hesitate to <inline font-style="italic">upu</inline> language of the sort - characteristic of the three-card trickster. Document No. 13 contained in the White Paper before us reproduces a voluminous statement by the German Chancellor regarding the terms upon which he would settle the controversy over the Polish corridor. No one suggests that the terms of the Versatile? Treaty leave no room for improvement, or that the conditions prevailing in the Polish Corridor and in the Free City of Danzig were satisfactory. Each of the nations concerned was prepared to examine the position in order to see what could be done to rectify those conditions, just as they negotiated to see what could he done to rectify the grievances of the </para>
+          <para class="block">Sudeten Germans in Czechoslovakia. On page la of this document we find the British commentary on this difficulty, lt is pointed out that at the time when the German conditions for settlement were broadcast as having been rejected by the Poles no copy of those terms had been communicated either to the Polish Government or the British Government. Yet because of the alleged rejection of that proposal by Poland, the head of the German people has launched his people into what may be a long war, and certainly a war that will cause untold suffering, not only to his own people, but also to other peoples <inline font-style="italic">in</inline> Europe <inline font-style="italic">and</inline> possibly elsewhere. Then on the following morning, the 1st September, the Gorman Chancellor issued a proclamation to the German army stating that Poland had. refused a settlement; and the war was on. The German troops were on the inarch and there was no saving of the position.  Such  behaviour can only recall to our mind the attitude adopted by Germany in 1914 that the treaty providing for the nonviolation of Belgian territory, which Germany had solemnly signed, was only a scrap of paper. To-day the same casuistry is happening, only to a greater degree. The position probably could not be worse. The German Chancellor pointed to the terms upon which Germany was prepared to negotiate a settlement and declared that they had been communicated to Poland and Britain whereas, in point of fact, the British Government had never received them whilst the Polish Government had no knowledge of them whatever. Yet the rejection of those terms is the excuse offered to the German people for the German Chancellor&#39;s action in waging this war on Poland ; although, judging by what has happened in recent years, he could have achieved his objective without resorting to such barbarity as will be practised before this war ends. Whilst I, and probably all honorable senators, believe, that the Germans themselves are a peace-loving people and do not desire to embark on any war hut are prepared to live in amity with their immediate neighbours, the French, and their neighbours across the English Channel, as well as with other nations, it is a curious fact that at intervals throughout  history  men have arisen in </para>
+          <para class="block">Germany and other lands to fan info flames the embers of age-old hatreds and jealousies between neighbouring countries. Of this tendency I witnessed an illustration when I was at Geneva in 1928 as leader of the Australian Delegation. One day we travelled by car into France. Our passports were examined at the border. We were returning in the evening. We had a Swiss chauffeur, who on re-entering France veered his car to the side of the road in order to give way to some cattle. It was market day. Our chauffeur drove our car round the cattle and did everything to avoid disturbing them. Yet a Frenchman who was in charge of the cattle used the most violent language to him ; he not only used abusive language, but picked up some loose metal off the road and hurled it at our car. This is an example of the old animosities which die hard in those countries. We know nothing of such hatreds here. We are one people, and we have assimilated those not of our own race who came to&#39; live amongst us. But international borders and barriers like those in Europe breed bad feeling. At  Geneva I saw the manoeuvring that occurred for place and power between the representatives of the countries, regardless of the welfare of humanity, and my heart, which had been given to the peace movement for the sake of ail peoples, sank within me. We can secure peace only if we are honest to the core and place peace above everything else. Only then can the ideal which the Leader of the Opposition has expressed, and which all of us in our hearts desire, be attained. But if representatives of a country manoeuvre for position and advantage for their own country without paying any regard to the welfare of civilization in general, these efforts will be doomed to failure. At Geneva I was amazed to see the extraordinary delicacy with which the representatives of each country had to touch every subject in order to avoid giving umbrage to some other country. When Briand threw down his notes and used a word which the press misconstrued as giving offence to Germany, he told me that never again would he speak from the tribune at Geneva without adhering closely to his notes. A chance word had been picked up by the press and circulated throughout Europe, and it gave offence to the German people who had shown themselves anxious to make a gesture for world peace. </para>
+          <para>It has been suggested that the regeneration of human nature is required, in order to bring about a better condition of affairs, and I am inclined to share that view. What is needed is the inoculation of the human mind with a desire for peace. The combative instinct is strong in all of us. As individuals, we resent insults and physical punishment, and, when masses of people ave concerned, such resentment results in catastrophes such as we are enduring to-day. It has been suggested that Christianity has failed, but I prefer to say that human nature has failed Christianity. I have little to add. although there is much that could be said., Our duty, as voiced by the Leader of the Opposition, is plain. We should help Australia to support the Motherland, which is our shield -and buckler. We should support our sister dominions in upholding right against wrong, for we believe that our cause is a righteous one. We should support the rule of law a? against the rule of force, and assist the British Empire to police the world, as it has often done in the past. It is gratifying to know that the people of Britain and France realize the principles for which we stand. Britain and its dominions have taken upon themselves a heavy burden. But if we believe in any of the ideals of which the  Leader  of the Opposition spoke yesterday, they can be realized only through a bloody Gethsemane. We must assert ourselves at this time in an endeavour to see that in future no such violation of international obligations shall be possible. I believe that there is a growing  desire  among mankind - although the League of Nations may have failed - to end war as a means of settling international disputes. Until that aim is realized, these catastrophes will occur. From time to time the world produces some leader of men who is capable of inciting the people, and leading them down the wrong path, when they could have obtained justice without recourse to the sword. </para>
+          <para>
+            <inline font-weight="bold">Senator AYLETT</inline>(Tasmania) &#91;3.35J. - Some of us may differ as to what are r tie fundamental causes of war, but, at this stage, our country is at war, and in the opinion of most honorable senators, war was .practically inevitable. &#34;We all are aware of what happened to Austria and Czechoslovakia, and what would happen, i f it has not already occurred, to Poland, if the German dictator were not checked, lie aspires to be the dictator of Europe, if not of the whole world. If he had two spans of life instead of one he might have resorted to diplomacy to a greater extent than to the sword and thus have achieved more than he is now likely to accomplish. It is our duty as Australian citizens to do all wc possibly can, within reason, to help Britain and its allies to victory. We art; agreed that a dictatorship is a detestable thing, because a dictator always becomes vindictive and rules only by force. It&#39; was stated yesterday that Australia is thousands of miles from the scene of war tike operations, but we do not know whata tomorrow or the near future may bring forth. Much needs to be done in Australia for the defence of this country. :md I  am  sure that every member of this Senate will do all he can to assist the, Government in the task confronting it. I do not imply that the Opposition will agree to the formation of a government representative of all parties in the Parliament. It believes that it can best assist i he Government by remaining in opposition, instead of being merged in a national ministry. If the Parliament be not kept in session, the Opposition will bc deprived of an opportunity to assist the Government as it desires to do. When T interjected, in the course of the debate yesterday, that the opinions of the Opposition were freely available to the Government, one honorable senator stated That the Government needed, not the opinions, but the help of the Opposition. ! can assure that honorable senator that help will be given, if the Government keeps the Parliament open, and keeps the Opposition advised regarding- its actions and also listens to any helpful suggestions which we may be able to advance. The coolness and determination of the Aus.tralian people should assist materially in this time of crisis. But I entirely disagree with the honorable senator who advocated the calling up for training of juveniles instead of men. The adult manhood should first be called upon to defend this country instead of expecting juveniles of the age of eighteen years to do the job. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>103</page.no>
+                <time.stamp />
+                <name.id>KBH</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WILSON, Keith Cameron</name>
+                <name role="display">Senator Wilson</name>
+              </talker>
+              <para>-  There has been no such suggestion. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>103</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator AYLETT</name>
+            </talker>
+            <para>- The honorable gentleman yesterday made pointed reference to the necessity for the compulsory training of Australian youths of eighteen years of age. If that were adopted, and if, unfortunately, the necessity arose for the mobilization- of the armed forces of the Commonwealth, the majority of those to be sent into the firing line would be youths who had received some training. I differ from the honorable senator. I claim that it is the duty of the adult manhood to defend Australia. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>103</page.no>
+                <time.stamp />
+                <name.id>K7M</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLETT, Herbert</name>
+                <name role="display">Senator Collett</name>
+              </talker>
+              <para>-  What makes the honorable senator think that lads of eighteen years of age would be the first to be sent into the firing line? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>103</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator AYLETT</name>
+              </talker>
+              <para>- I have in mind the remarks made by <inline font-weight="bold">Senator Wilson</inline> yesterday regarding the need for the compulsory training of juveniles. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>103</page.no>
+                <time.stamp />
+                <name.id>KBH</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WILSON, Keith Cameron</name>
+                <name role="display">Senator Wilson</name>
+              </talker>
+              <para>-  The honorable senator is misleading the Senate. My suggestion is that if we start with the youths, eventually every adult male in the Commonwealth will have been trained. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>103</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator AYLETT</name>
+              </talker>
+              <para>- There is not yet the necessity for the compulsory military training of Australian youths. If the Government advertised in the newspapers, as it does in respect of other Commonwealth requirements, that the country was in danger, the adult manhood of Australia would rush to the colours and relieve the youths of the obligation to be the first to be sent into the firing line. Those who advocate the compulsory military training of Australian youths should show their sincerity by themselves volunteering for military service. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>103</page.no>
+                <time.stamp />
+                <name.id>KBH</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WILSON, Keith Cameron</name>
+                <name role="display">Senator Wilson</name>
+              </talker>
+              <para>-  Large numbers of them volunteered twelve months ago. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>103</page.no>
+                <time.stamp />
+                <name.id>K7M</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLETT, Herbert</name>
+                <name role="display">Senator Collett</name>
+              </talker>
+              <para>-  Compulsory military training is being carried out at the present moment. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>104</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator AYLETT</name>
+              </talker>
+              <para>- I am well aware that with a stroke of the pen, the Government has invoked certain provisions of the Defence Act for the purpose of calling up all adult males between the ages of IS and 60 years. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>104</page.no>
+                <time.stamp />
+                <name.id>K7M</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLETT, Herbert</name>
+                <name role="display">Senator Collett</name>
+              </talker>
+              <para>- The men now in camp are being trained compulsorily under the law. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>104</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator AYLETT</name>
+              </talker>
+              <para>- But my point is that when they volunteered for military service they gave an undertaking that they would be willing to go into camp at any time when called upon. Now they are in camp compulsorily. Some months ago the Commonwealth Government made an appeal for 70,000 volunteers for the defence of Australia. As we all know, there was a magnificent response. The Government enlisted about 78,000 men. Many thousands more were rejected because units could not be set up for them in the more remote centres, but the services of those men may still be utilized if provision can be made for their training. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>104</page.no>
+                <time.stamp />
+                <name.id>KBH</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WILSON, Keith Cameron</name>
+                <name role="display">Senator Wilson</name>
+              </talker>
+              <para>- The men who are now in camp could have been called out for training even if they had not volunteered. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>104</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator AYLETT</name>
+              </talker>
+              <para>- I am well aware of that. I know that eventually all of the men who volunteered will be required to do their period of continuous training. But they are in camp now because some months ago they volunteered for military service. Why has the Government chosen these young volunteers for compulsory training instead of calling upon the adult manhood of the country? </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>104</page.no>
+                <time.stamp />
+                <name.id>K7M</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLETT, Herbert</name>
+                <name role="display">Senator Collett</name>
+              </talker>
+              <para>- The honorable senator knows the answer to that. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>104</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator AYLETT</name>
+              </talker>
+              <para>- As for myself, my services are freely offered to the Government in any capacity for the defence of Australia. I sincerely believe that if Australia were menaced it would not be necessary to apply compulsion. The manhood of this country would readily volunteer to defend it. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>104</page.no>
+                <time.stamp />
+                <name.id>KBH</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WILSON, Keith Cameron</name>
+                <name role="display">Senator Wilson</name>
+              </talker>
+              <para>- Unfortunately they would not be of much value without a reasonable period of training. What period does the honorable senator think will be necessary? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>104</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator AYLETT</name>
+              </talker>
+              <para>- That is a difficult question to answer. The honorable senator himself told us yesterday that in twelve months of training he had not learned anything. I am concerned with what will happen when the conflict is over. I hope that honorable senators on the Government side will then be willing  to give effect to the views expressed by them during this debate. Following the termination of the present war, I predict that a depression, even worse than that of 1931 and 1932, will overtake us. In that event, I hope that honorable senators on the Government benches will be as willing to provide millions of pounds for reproductive purposes as they are now to provide huge sums for  destructive purposes. One honorable senator said yesterday that he would like to see the present prosperity continued after the war. What caused that prosperity ? Was it not due to the nations of the world arming to the teeth? Had ir not been that the policy pursued by Hitler forced other nations to arm in their own defence, there would have been no prosperity under our present economic system. I assure the Senate that members on this side are determined to defend Australia and the British Commonwealth of Nations. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>104</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>. - At this late stage of the debate, few words from me are necessary. I share the universally expressed regret that the efforts of Great Britain and France to maintain peace in Europe have failed. For the second time in 25 years, the British Empire finds itself reluctantly forced to fight for the cause of honour by engaging in a war with Germany. The historic document that we are now considering contains correspondence between the British Government and the German Chancellor, and shows how earnestly and sincerely <inline font-weight="bold">Mr. Chamberlain</inline> worked to maintain peace with honour. Before the bar of the world Great Britain stands with a clear conscience. But the invasion of Poland, following the absorption of Austria and the rape of Czechoslovakia, rendered war inevitable for Britain and France. Practically every Australian approves of the declaration of the Prime Minister <inline font-weight="bold">(Mr. Menzies)</inline> that, as Britain was at war with Germany, </para>
+          </talk.start>
+          <para class="block">Australia, as a member of the British Commonwealth of Nations, was also at war with that country. It is almost needless to say that I, as a member of the Senate, applaud that statement and the broadcast speeches of <inline font-weight="bold">Mr. Menzies</inline> in connexion with the war. I believe that he has truly represented the sentiments of the people of the Commonwealth. I hope and believe that the present Prime Minister will prove a great leader of the Australian nation during the tragic and fateful times that may be ahead of us. Once more, the British Empire has placed justice and right before its material and present interests. We in Australia are fortunate in that, for the time beingat least, we are far removed from the actual theatre of war, but no one knows how the nations will align themselves. I hope that the conflict will not extend beyond the nations now engaged in it, but no one knows for how long Australia&#39;s comparative security will last, or whether the war will extend to the Pacific Ocean and even to our own shores. </para>
+          <para>I entirely approve of the action of the Prime Minister in endeavouring to form a national government for the duration of the war. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>103</page.no>
+                <time.stamp />
+                <name.id>K5X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SHEEHAN, James</name>
+                <name role="display">Senator Sheehan</name>
+              </talker>
+              <para>-  What portfolio does the honorable senator want? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>103</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B JOHNSTON</name>
+              </talker>
+              <para>- I want nothing. I desire only to serve in any capacity in which I can be helpful, and I would like to see the Australian nation present as united a front as possible to any enemy. I congratulate the Leader of the Opposition <inline font-weight="bold">(Senator Collings)</inline> on the praiseworthy and patriotic speech which he delivered in this chamber yesterday. Having heard his remarks, and also a part of the speech of the Leader of the Opposition in the House of Representatives <inline font-weight="bold">(Mr. Curtin),</inline> I regret all the more that the great Labour party has found itself unable to accept the invitation of the Prime Minister to join in forming a national government for the period of the war. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>103</page.no>
+                <time.stamp />
+                <name.id>K5X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SHEEHAN, James</name>
+                <name role="display">Senator Sheehan</name>
+              </talker>
+              <para>-  Is the honorable senator sure that an invitation was issued ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>103</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B JOHNSTON</name>
+              </talker>
+              <para>- I have no definite knowledge on the subject, but </para>
+            </talk.start>
+          </continue>
+          <para class="block">I understand from press reports that such an invitation was issued, and refused by the Labour party. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>103</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>-  We hope to render far better service where we are. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>103</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B JOHNSTON</name>
+              </talker>
+              <para>- I believe that the honorable senator and his party are sincere in their assurances that they will stand behind Australia and the Empire in this crisis. </para>
+            </talk.start>
+          </continue>
+          <para>SenatorCourtice.  -  We have done so before. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>103</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B JOHNSTON</name>
+              </talker>
+              <para>-I am not questioning the party&#39;s loyalty. </para>
+            </talk.start>
+          </continue>
+          <para>SenatorCameron.  -  The honorable senator suggested that something was lacking. He reflected on the sincerity of the Labour party. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>103</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B JOHNSTON</name>
+              </talker>
+              <para>- I am always careful of my words, and have been particularly careful since the honorable senator, with his incisive mind, became a member of the Senate. It appears to me that a national ministry would be the strongest possible safeguard of the Australian people, and would enable the nation to put forward its best efforts, free from any party criticism. The speech of the Leader of the Opposition yesterday proved that there is no basic principle which would prevent him or any other member of the Labour party from sharing in the work of a national ministry for the period of the war. </para>
+            </talk.start>
+          </continue>
+          <para>As a member of the Country party, I agree with the remarks of the Leader of the Opposition regarding the necessity to prevent profiteering, the increase of interest rates, or the exploitation of the Australian people in any way during these times of trouble, or, indeed, at any time. No person should be permitted to make profits out of a national calamity in which great sacrifices may be demanded and made by many of our citizens. It is the duty of the Government to protect the interests of the whole of the Australian people during the difficult and dangerous times which we, although at present removed from the scenes of the fighting, may yet experience. In this connexion I congratulate the Government upon its decision, as announced by  the Leader of the Senate <inline font-weight="bold">(Senator McLeay)</inline> this afternoon, to protect the public in regard to the prices of necessary commodities. </para>
+          <para>SenatorSheehan. - What is the opinion of the honorably senator in regard to wheat prices? </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>106</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B JOHNSTON</name>
+              </talker>
+              <para>- I stand for fair prices and a proper standard of living for every Australian wheat-grower. I urge that the interests of the primary producers of the Commonwealth be protected in respect of all sales of Australian products overseas by the Government, or by pools or boards operating on its behalf. No doubt, pools will be established for the sale of our staple products, including wheat and wool, to the Mother Country and our allies. The producers should be given full representation on such bodies, and should be protected by fair prices compatible with the restoration to them of a proper standard of living. I do not want to see a repetition of the happenings of the last war period in this respect. I recall that many of our products, particularly wheat, were sold by the then Prime Minister <inline font-weight="bold">(Mr. Hughes)</inline> to the Mother Country, and other countries, at prices which, although they gave a fair return to the producers, were far below the prices at which such commodities were resold. In many instances, resales took place at prices 300 per cent. or 400 per cent. above the rates paid to the Australian producers. If resales are made during the continuance of the present war, the producers who, for a number of years, have received low prices for their products, should participate in any resale profits. They should be paid in either British or Australian currency, and not be asked to accept in payment foreign bonds, some of which were accepted during the last war and were never honoured. The primary producers should be protected to a greater degree than they were during the previous war. I have referred with regret to the fact that the Prime Minister&#39;s proposals for a national government were not accepted by the Labour party. Personally, I contend that the past differences between the Country party and the United Australia party, and particularly those between the leaders of those parties, should. in a national emergency, be forgotten. The Australian Country party has expressed its desire and intention to assist the British Empire, the Australian people, and the Government throughout the war period, and if there is any criticism it should be entirely of a constructive nature. If a national government should not be formed, the Australian Country party should take its full share of national responsibility, and continue to support the Government loyally in its desire to assist to attain victory. To-day party feelings must be subordinated to national interests and safety. If the United Australia party should so desire the Country party should assist in the formation of a composite ministry during the period of the war and ifthere should be such a re-union, it shouldbe with a desire on the part of both parties to serve and co-operate on a fair basis, without haggling or bargaining. As the conflict proceeds the Government may have to undertake unpleasant and unpopular tasks. The Prime Minister to-dayhas the country behind him, but it is without precedent in Australia for a war-time ministry to be without a solid majority in both Houses for any length . of time. As the United Australia party is without a majority in either House the Country party should join a composite ministry a t least for the duration of the war. </para>
+            </talk.start>
+          </continue>
+          <para>SenatorCollings. - I suppose the honorable senator is aware that there is a great difference between a composite government and a national government? </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>106</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B JOHNSTON</name>
+              </talker>
+              <para>- Yes,I have referred to the fact that as a national government is apparently unobtainable,we should, as an alternative, form a composite government. If that is impracticable, it is due probably to the fact that it would mean some dislocation of the present team. That, however, should not prevent the Country party from serving where it can best assist the nation in the war. In the absence of a composite government, I support the declaration made yesterday by the Leader of the Country party <inline font-weight="bold">(Sir Earle Page)</inline> that we shall stand behind the present Government in supporting Great Britain in defending Australia and the </para>
+            </talk.start>
+          </continue>
+          <para class="block">Empire from aggression and the horrors of war. in conclusion, I mention with pride that the Australian Country party has always stood for the effective defence of Australia, and its co-operative work in this respect is evidenced by its actions during the past few years. . Our defences may be regarded by some as inadequate, but they will be of considerable help in meeting the emergency with which we are now faced. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>107</page.no>
+              <time.stamp />
+              <name.id>K2F</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRAND, Charles</name>
+              <name role="display">Senator BRAND</name>
+            </talker>
+            <para>.- There seems to be some misapprehension concerning the calling up of the militia. Possibly some honorable senators are confusing Part XII. of the Defence Act, which deals with compulsory or universal military service in time of peace, with Part IV. of the Defence Act, which was passed in  1903,  section  59  of which reads - </para>
+          </talk.start>
+          <quote>
+            <para>All mule inhabitants of Australia (excepting those who are  exempt  from service in the Defence Force) who have resided therein for six months and are British subjects and are between the ages of IS and CO years shall, in time of war, bc liable to serve in the Citizen Forces. </para>
+          </quote>
+          <para class="block">On Sunday last, when a state of war was officially declared, Section  59  of the Defence Act became operative, and it affects the three defence services. Statistics disclose that there are approximately  1,250,000  male inhabitants of Australia between the ages of  18  and  60  years. The Government does not, of course, propose to call up that number immediately, but like a sheep farmer who has  20,000  sheep to shear, to handle them in drafts. The first  10,000  of the militia forces have already been called up for sixteen days training, which, no doubt, will be extended as circumstances demand. Commanding officers have been instructed to get in touch with the militiamen&#39;s employers, and to prepare a schedule showing their civil avocations. If these men are employed in key industries their names are placed at the bottom of the list or are exempted, as only a certain number can be released from industry. <inline font-weight="bold">Senator Aylett</inline> appeared to object to young men of eighteen being ca led upon to serve. Although there are quite a number of militiamen of that age, the majority n&#34;&#62;&#39;o much older. Had the Leader of the Opposition <inline font-weight="bold">(Senator Collings)</inline> been in </para>
+          <para class="block">Townsville a fortnight ago, he would have seen at Kissing Point a fine battalion of men of mature age, ali of whom came from the far western districts of Queensland. The only criticism I have to offer is that the Government should call up more than  10,000  at a time for a longer period. According to the reports which appeared in to-day&#39;s newspapers something serious might happen at any time. The Government must not lay itself open to a charge of simply paddling along. It is the responsibility of the Government to get men into intensive training as rapidly as possible. We must remember that for every army in the field two-fifths of its number is required to keep the other three-fifths in operation, and therefore, if an army numbered  70,000,  we would have only about  40,000  for combined active operations. Moreover, the States will demand the retention of certain units within the States. Therefore, the sooner we have  400,000  properly trained men the better it will be for our sense of security. At present it is difficult to say what may happen before the end of the year. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>107</page.no>
+              <time.stamp />
+              <name.id>JUD</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DEIN, Adam</name>
+              <name role="display">Senator DEIN</name>
+            </talker>
+            <para>. -  I am glad that the Government has provided the Senate with an opportunity to debate the circumstances leading up to this terrible catastrophe, and has placed at our disposal the communications which passed between the British Government and the German Government. A perusal of the White Paper convinces me of two things : First of the valiant efforts made by the British Government to avert a calamity, and, secondly, the determination of the Nazi party, led by Hitler, to precipitate a crisis. If we examine the position even briefly we must admit that a life and death struggle is confronting us, the successful conclusion of which demands that every ounce of effort should and must be thrown into the conflict. The crisis having arisen we in Australia must now do what is necessary to bring the war to a successful conclusion. The first essential in this direction is complete unity in order that the maximum of effort may be thrown into the conflict. That means, of course, that all sectional and party interests should, during the currency of the war, be completely subjugated. The lead in this direction  should come from the National Parliament, which alone is charged with the responsibility of conducting the war, and to which authority the people of Australia are unanimously looking. In this hour of need it is distinctly encouraging to find that all parties have promised their unqualified support, but effort is needed in two directions. Unfortunately some do not look at the two sides. Administrative assistance is needed to conduct a war. &#34;War is carried on by administration, not by legislation, and therefore an assurance of legislative assistance is worth very little. What laws can we pass in this or any other parliament to win a war ? We can do little in that respect, but we can win by successful administration. While other political parties may say that they are prepared to assist the Government, where is their co-operation in the big job of administration? I regret sincerely that in the field which provides scope for constructive thought, the Labour party will not be represented. Although I rejoice in the legislative assistance that has been offered, I deplore the fact that the administration is to be so much worse, shall I say, because of the non-co-operation of the Labour party. Legislation can be assisted from without and administration from within. Within a few days certain legislation will be introduced vesting the Government with wide powers, and the party which refuses to co-operate will be powerless to assist. In consequence of the legislation shortly to be introduced, the rights of the people will be safeguarded or endangered by administration and not by legislation. The very livelihood of the people will be governed by administrative acts. Yet we find that the Government is to be denied the assistance and co-operation of at least one great party in this Parliament. The people of Australia will be dismayed by such a decision. I do not know just yet what the attitude of the Country party will be in this respect. I have no knowledge of whether the Labour party was asked definitely to participate in the formation of a national government. I believe that it was; but whether that be so or not, the fact remains that that party resolved not to participate in a </para>
+          </talk.start>
+          <para>National Government. It certainly agreed to assist the Government in the passage of essential legislation, hut assistance in that direction is comparatively valueless in comparison with tha t which the Labour party could give by joining the administration because then it would be able to share in the big job ahead of this country. The welfare of a country is bound up directly with its administration. In spite of its attitude in this respect, however, the Labour party claims to hold a special brief to serve the interests of a large section of the community. Why, then, does it decline in this hour of our need to participate in the formation of a national government? If it does not do so, it can do practically nothing on behalf of the interests which it claims directly to protect. </para>
+          <para>It has been suggested both here and in the House of Representatives that Parliament should sit continuously for the duration of the war. if Parliament could do anything effective by meeting every day and every night J should be prepared to see it meet continuously, but can we win a war simply by talking in Parliament? The&#39; real job will fall to the Government. After the necessary legislation has been enacted, members of the Government will be charged with the responsibility of implementing it and in order to do so effectively they need to concentrate upon it to a far greater degree than would be possible were Parliament, kept continuously in session. I agree that should it he necessary to assemble Parliament at any juncture, such action should be taken without delay, but it is simply ludicrous to suggest that .Parliament should sit continuously ; verbosity will not win a war. We must get on with the real job which devolves upon the administration, and we must not interfere in any way with those who are charged with the responsibility of implementing emergency legislation. </para>
+          <para>Much has been sa id concerning military training. A good deal of misunderstanding and confusion appear to exist in the minda of some honorable senators on this subject. All of us should be aware that the Defence  Act provides  that every man between the ages of 18 and &#169;0 years can be compelled to serve for home defence. I cannot imagine that any one in Australia will deliberately fall foul of that law. However, in June last the Leader of the Opposition stated that the Labour party was prepared to repeal that compulsory provision. I hesitate to believe that such is the view of the Labour party. I feel certain that the great majority of Australians will respond to any call to service in defence of their country, but the fact remains that in a time of emergency, or attack, we need not 75 per cent., but 100 per cent., of our man-power, and the only possible way of securing 100 per cent. response is by compulsion. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>109</page.no>
+                <time.stamp />
+                <name.id>K5X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SHEEHAN, James</name>
+                <name role="display">Senator Sheehan</name>
+              </talker>
+              <para>- That is a slander in the Australian people. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>109</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator DEIN</name>
+              </talker>
+              <para>- Apparently the Australasian Council of Trade Unions does not think so, because when they were discussing the NationalRegister a little while ago, delegates to the conference were anxious to make special provision in respect of conscientious objectors. Does such action indicate that the Australasian Council of Trade Unions believes that 100 percent. of Australians wish to respond to the call to fight for their country should it be attacked? The honorable senator knows very well that, although the great majority of Australians would readily respond to such a call, some in our midst are not true Australians. The honorable senator is well aware of that fact, and, consequently,I object to his statement thatI am slandering the Australian people when I say that we must resort to compulsion in order to secure 100 percent. response to a call for soldiers in an emergency. However, the point I emphasize is that, as the Government has the right to call on every able-bodied man to defend his country in a time of emergency, it has the further responsibility to train him to defend himself effectively. There can be only one way of doing that. At the moment I am referring particularly to home defence. I can see no objection, therefore, to commencing the military training of youths at the age of eighteen years. This does not mean that at that age they will be put in the firing line. They might not be required to shoulder arms until they have reached mature years, or no occasion at all might arise for them to do so. The problem of mili- tary training is treated verylightly by some people, and, unfortunately, attempts are made sometimes to make political capital out of the subject of compulsory training. </para>
+            </talk.start>
+          </continue>
+          <para>SenatorCollings. - The honorable senator is making a most ill-advised speech. </para>
+          <para>SenatorDEIN. - Perhaps the Leader of the Opposition was ill advised when he said that the Labour party was prepared to repeal the provisionin the Defence Act which compels every able-bodied man to serve for home defence. Of course, on the question of defence, we always fall foul of honorable senators opposite, but I compare the attitude of the Labour party in respect of defence with its refusal to participate in the formation of a national government in the present emergency. In this time of crisis members of the Labour party believe, apparently, in what one might call apolicy of segregation; they refuse to give to the Government that cooperation which the people expect of them. Every party in this Parliament at such a time as the present should rise above party politics and show the people to whom we are appealing for unity that we are prepared to sinkall of our differences in the hour of our country&#39;s need. </para>
+          <para>SenatorFRASER (Western Australia) &#91;4.30&#93;. - Like other honorable senators, I feel very keenly the position which confronts us to-day. All of us who lived through the last world conflict and played some small part in it know something of the horrors of war. I pay a. tribute to my leader for the speech which he delivered yesterday. At one time I commended the policy implemented by the late <inline font-weight="bold">Mr. Ramsay</inline> MacDonald when he was Prime Minister of Great Britain. I am now obliged to change my attitude. I pay a tribute to the present Prime Minister of Great Britain for his endeavours to maintain the peace of the world, not only during the crisis in September last but also within the last few months. As in September last, he has done everything possible more recently to preservepeace. The following extract from <inline font-style="italic">Current Notes onInternational A ffairs,</inline> dated the 1st September,1939, clarifies to some extent the documents set out in the White Paper now before us. Replying to M. </para>
+          <para>Deladier, Herr Hitler, on the 26th August, wrote - </para>
+          <quote>
+            <para>I make a clear demand that Danzig and the Corridor must bo returned. </para>
+            <para>If fate should force us to fight again, I should be fighting to right a wrong. I am aware of the consequences, the heaviest of which would fall on Poland, because, however the fight ended, Poland would not exist as the same State. ... </para>
+            <para>The Macedonian condition on Germany&#39;s eastern frontier must be eliminated. I see no means of moving Poland, who feels herself unassailable under the protection of nev guarantors, to a peaceful solution of the situation. </para>
+            <para>But I would despair of an honorable future for my people if, in such circumstances, wc wore not determined to solve the question one wry or another. </para>
+          </quote>
+          <para class="block">That letter, I suggest, offers an explanation of the present war. Now that war has commenced, Australia is prepared to play its part in defence of the principles for which we stand.. I was pleased to hear my leader put forward the official view of the Labour party concerning the present crisis. Further, in. view of the failure of the Leader of the Senate <inline font-weight="bold">(Senator McLeay)</inline> yesterday to give any indication of the steps contemplated by the Government for the control of prices, I was pleased to hear his statement this afternoon that the Government intends to take action immediately to prevent profiteering, thus giving effect to one of the principles enunciated in the Labour party&#39;s declaration. My party holds that in a time of emergency there must be a rigid control of commodity prices and house rents in. order that profiteering shall be impossible. Furthermore, interest rates must be. kept down and the monetary system readjusted so that the national debt may bo kept as low as possible. </para>
+          <para>Representations have been made to me on behalf of occupants of war service homes in &#34;Western Australia who have been called up for active service, and I t.&#39;ike it that they have been prompted to make these representations because their earning capacity will probably be reduced. They ask for a review of their contracts with the War Service Homes Commission. Some of them have been called up for naval service, and I urge that their requests be given immediate eons-&#39; deration. </para>
+          <para>
+            <inline font-weight="bold">Senator Johnston</inline>stated that he heartily applauded <inline font-weight="bold">Mr. Menzies</inline> for his effort to. obtain a national government. I do not know that the Labour party has yet received an official- invitation to join such a government during this crisis; but we have made clear that we shall retain our position as the Opposition and serve a good purpose. The Opposition is prepared to give to the Government every support in carrying out the necessary defence  measures. <inline font-weight="bold">Senator .</inline> Dein stated, &#34; The party that does not co-operate will have no voice, because the work of the Government will be done by. means of administrative acts &#34;. I heard an eloquent speech in the House of Representatives yesterday, in which Australia was described as a perfect example of a democratic country, and I remind <inline font-weight="bold">Senator Dein</inline> that the Labour party, being the largest party in this Parliament, represents, one-half of the electors of the. Commonwealth. Surely this vast body of people is entitled to a voice in regard to the government of the country! </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>110</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>-  Why did the Opposition turn down the. invitation to cooperate ? </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>110</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator FRASER</name>
+            </talker>
+            <para>-  I have already said that, as far as I am aware, my party was not officially invited to do so. We have said that we are prepared to assist the Government in the defence of Australia, but we shall not necessarily follow the Government blindly in. all of its actions. We may offer suggestions and even advice, but no intimation, was received, as to the intentions of the Government in regard to its policy. A suggestion was made concerning the necessity for the regulation- of prices. <inline font-weight="bold">Senator Brown</inline> mentioned that Great Britain was prepared to purchase practically the whole of Australia&#39;s surplus of primary produce, and this should lead to an improvement of prices. </para>
+          </talk.start>
+          <para>This Parliament should be kept in session during the present crisis. The direction of our defence activities should not depend entirely on administration. I was wondering whether <inline font-weight="bold">Senator Dein</inline> was displeased because of the- fact that the Labour party had offered its  wholehearted co-operation inconnexion with the defence measures necessary in Australia. Apparently, he was ruffled this afternoon becausethe Labour party had stolen his thunder. The hope was expressed by <inline font-weight="bold">Senator Johnston</inline> that on the boards that will have to be established in connexion with the disposal of Australia&#39;s primary products, the primary producers should have representation. I hope that representatives of the consumers, also, will be appointed to these boards. </para>
+          <para>I do not agree with <inline font-weight="bold">Senator Dein&#39;s</inline> remarks about compulsory military service. When the time comes for Australia to be defended, the people of this country will make all necessary sacrifices. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>111</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>- That time has now arrived. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>111</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator FRASER</name>
+            </talker>
+            <para>- If the honorable senator desires military training, he has had ample opportunity in the past to do so. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>111</page.no>
+              <time.stamp />
+              <name.id>K5X</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SHEEHAN, James</name>
+              <name role="display">Senator SHEEHAN</name>
+            </talker>
+            <para>. -I support the remarks made yesterday by the Leader of the Opposition <inline font-weight="bold">(Senator Collings),</inline> but I regret that in the closing hours of this debate a discordant note has been struck. In the great crisis that now confronts Australia, as a member of the British Commonwealth of Nations, an aspersion has been cast upon the valour of Australian manhood, because, atthis early stage of the war, a clamour is made for the introduction of compulsory military service. </para>
+          </talk.start>
+          <para>SenatorDein. - I did not advocate that. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>111</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- The honorable senator is a disgrace to the Senate. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>111</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>- I rise to a personal explanation. I did not say that. 1 believe in compulsory military service. I have been grossly misrepresented by <inline font-weight="bold">Senator Sheehan.</inline></para>
+            </talk.start>
+          </interjection>
+          <para>SenatorCooper. - And insulted by the Leader of the Opposition. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>111</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>-I ask for a withdrawal and an apology. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>111</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- The honorable senator cannot take his gruel. He is a coward. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>111</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>-Idonot shelter behind grey hairs. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>111</page.no>
+                <time.stamp />
+                <name.id>K5X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SHEEHAN, James</name>
+                <name role="display">Senator SHEEHAN</name>
+              </talker>
+              <para>-I understood from SenatorDein&#39;s remarks that, in his opinion, the only way in which Australia could be adequately defended was by the institution of compulsory militaryservice. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>111</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>- That is entirely wrong. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>111</page.no>
+                <time.stamp />
+                <name.id>K5X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SHEEHAN, James</name>
+                <name role="display">Senator SHEEHAN</name>
+              </talker>
+              <para>-The debate in this chamberand in the House of Representatives regarding the present crisis has been conducted generally on a high plane. The Leader of the Senate <inline font-weight="bold">(Senator McLeay)</inline> outlined the circumstances that have impelled the British Government to declare that a state of war exists between Britain and Germany. The Leader of the Opposition in this chamber and the Leader of the Opposition in the House of Representatives have presented to the Parliament and the people of Australia our considered opinion as to the manner in which this crisis should be met. No one who reads that statement will cavil at the attitude of our party. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>111</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>- The honorable sena tor&#39;s party was not game to shoulderits responsibility by joining a national ministry. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>111</page.no>
+                <time.stamp />
+                <name.id>K5X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SHEEHAN, James</name>
+                <name role="display">Senator SHEEHAN</name>
+              </talker>
+              <para>- I shall deal with that matter later. We have stated, in as clear terms as is possible, that we abhor war, and believe that international disputes should be settled by arbitration. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>111</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>- So does everybody else. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>111</page.no>
+                <time.stamp />
+                <name.id>K5X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SHEEHAN, James</name>
+                <name role="display">Senator SHEEHAN</name>
+              </talker>
+              <para>- We deny that. Though we deplore the fact that arbitration failed to prevent this catas- trophe from overtaking the civilized world we still pin our faith to the principle. It might be argued and perhaps with some justification, that arbitration in international disputes has failed hitherto because of the non-observance of decisions reached. </para>
+            </talk.start>
+          </continue>
+          <para>It has been suggested that in this crisis we should not worry over or take cognizance of events prior to the outbreak of war. I think, however, that in view of the sentiments <inline font-style="italic">expressed</inline> by honorable senators and the hopes entertained that eventually in some way we may be able to devise a new world order in which, there will not appear the awful spectre of war, it might be just as well to examine the position in order to discover, if possible, the reasons for the failure of previous efforts to prevent international disputes from developing into wars. The idea of settling international differences by arbitration is not new. The history of Europe discloses many attempts to avert wars by prior negotiations between the disputant nations; but always there was some imperfection in the plan which prevented it from being wholly successful. I call to mind the conference at Vienna in 1815, at the close of the Napoleonic wars. It was then hoped that since the great powers as they were then termed - England, Prussia, Austria and Russia  - had agreed to meet in conference, it would be possible to devise ways and means of preventing future conflicts. But a fatal mistake was made, for France was not represented. Napoleon was then regarded as the mad dog of Europe, and his. ambition was said to be to conquer the world. France was admitted at a later stage to the proceedings, but I believe that it is generally agreed that the failure of the Congress of Vienna was due largely to the fact that France did not take part in the earlier negotiations. Since then there have been various arrangements, such as the Concert of Europe, to preserve the balance of power with a view to preventing wars; but as we know, all these efforts did not prevent the catastrophe of 1914. After the Great War another attempt was made to readjust the political difficulties of Europe and there was created that instrumentality, the League of Nations, to which <inline font-weight="bold">Senator A.</inline> J. McLachlan referred this afternoon. Again the plan was imperfect. Germany, the conquered enemy nation, was not admitted to the conference. As a result, slowly but surely, the power of the League has been abrogated by Germany and other powers. The &#34;White Paper that was presented to the Senate yesterday contains a record of the exchanges between the British Government and the German Chancellor from the 22nd August of this year. The opening paragraphs read as follows : - </para>
+          <quote>
+            <para>The documents contained below have been selected to illustrate the main stages of the critical period in the German-Polish dispute, culminating in the outbreak of war. They cover the period from Tuesday, 22nd August, 1939, to Sunday, 3rd September, 1939, and consist for the most part of official communications exchanged between the Governments of the United Kingdom and the German Reich The texts have been linked for the sake of clearness by consecutive narrative. </para>
+            <para>The German-Polish dispute had been in thu forefront of European politics since March of this year and for the same period it carried a direct British interest by reason of the guarantee given to Poland by the United Kingdom Government. This guarantee, binding the United Kingdom to support Poland in the event of a threat to her independence or integrity which she felt bound to resist, was announced on 31st March, at a time when there was reason to fear that the German Government was contemplating the use of force in pressing upon Poland demands regarding Danzig and the Polish Corridor. </para>
+            <para>In a preliminary agreement concluded in London on Oth April the British guarantee was reciprocated by corresponding assurances from the Polish Government towards Great Britain. This arrangement was made formal in the Anglo-Polish Agreement of Mutual Assistance signed in London on 25th August. In the interval, the British obligation had beer affirmed on several occasions by spokesmen of the United Kingdom Government in the clearest terms. It was in recognition of this obligation and of the consequent direct British interest in German-Polish relations that on 22nd August, when the signature was impending of the German pact of non-aggression with Soviet Russia, <inline font-weight="bold">Mr. Chamberlain</inline> addressed the following letter to the German Chancellor: - </para>
+          </quote>
+          <para>The letter referred to, and others which followed, suggest that the present position is a consequence of the signing by Russia of a non-aggression pact with Germany. Much as we regret that  unlooked  for agreement, the fact remains that the German-Polish dispute existed long prior to the period covered by the letters contained in this &#34;White Paper. As a matter of fact the quarrel had been simmering since the conclusion of the Great &#34;War and the signing of the Treaty of Versailles. We know that Germany has always regarded Danzig as vital to its security. It is an accepted .axiom that whoever controls Danzig controls Poland more effectively than that country was controlled by its king when it was a kingdom. Bismarck emphasized the importance of Danzig to Germany&#39;s future. Frederick the Great held the same view. Military strategists are agreed that control of the watershed of the  Vistula  is of vital importance to Germany. Poland also appreciated its strategic advantage, and realized, that without control of Danzig and the Vistula, as a nation it would slowly bleed to death. Danzig as a city of importance dates from mediaeval times, and has been the scene of many sanguinary conflicts. it is deplorable that with all the experience of the last conflict, when millions of people were killed and millions more were maimed, something was not done to prevent a recurrence of that terrible tragedy - a world war. Now Australia is involved in a critical conflict. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>113</page.no>
+                <time.stamp />
+                <name.id>KS7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MACDONALD, Allan</name>
+                <name role="display">Senator Allan MACDONALD</name>
+              </talker>
+              <para>- Does the honorable senator think that any human agency could have checked the megalomaniac who is at present controlling Germany? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>113</page.no>
+                <time.stamp />
+                <name.id>K5X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SHEEHAN, James</name>
+                <name role="display">Senator SHEEHAN</name>
+              </talker>
+              <para>- Many international tragedies have been attributed to megalomaniacs lustful for more power. As I reminded the Senate earlier in my remarks, Napoleon, in the years preceding 1815, was looked upon as the mad dog of Europe. A century later the German Kaiser was similarly spoken of. To-day Hitler is the menace. I mention these facts because I believe that it is necessary for every man, woman and child of school age to be informed and to take cognizance of world events. It is of supreme importance that the people of this country should understand the changes in international relations that have taken place in recent years. The time has passed when wars could be conducted with only a few participants on each  side.  To-day, not only are the armed forces of a nation employed, but the civilian population is also endangered. </para>
+            </talk.start>
+          </continue>
+          <para>I now come to the third point in the declaration of the Labour party - that it will stand by its platform for the maintenance of Australia as an integral part of the British Commonwealth of Nations, and, therefore, will do all possible to safeguard Australia and to maintain the integrity of the Empire. That brings me to the conduct of Australian affairs. Some honorable senators have cavilled at the intimation that the Australian Labour party as represented in this Parliament has decided to maintain its separate entity while pledging assistance to the Government in the prosecution of the war. That stand has been taken for good and sufficient reasons. The Labour party knows that when nations are at war governments are apt, perhaps unintentionally, to disregard the civil rights and liberties of the people. We </para>
+          <para>On this side believe that we can render a great service to the Government, and to the people of Australia, by keeping a watchful eye on happenings, and trying to ensure the sane and just administration of legislation passed by this Parliament. We remember that during the war of 1914-1918 things were done that would not have been done had people retained their senses. For that reason the Labour party has intimated to the Government that it will retain its separate entity. So far as I know there has not been any invitation to the Labour party to assist in forming a national ministry; the party has intimated that it could not accept such an invitation if it were received. That docs not mean, however, that the Labour party will not play its part. As has been pointed out this afternoon, the Labour party even in its darkest hour has represented nearly one-half of the people of Australia. To-day in this chamber it represents more than 50 per cent, of the electors. I emphasize the statement made by the Leader of the Opposition in view of the criticism of the Labour party by <inline font-weight="bold">Senator Dein</inline> this afternoon. We on this side have said that there must be rigid control of commodity prices; therefore, T was pleased to hear the Leader of the Senate say this afternoon that the Government proposed to control profiteering, as far as possible. Last June I said that the exploitation of the British people by British shipowners during the last war had called forth wholesale condemnation. I also referred to the profiteering that took place in Germany during the same period. It would appear that wars and profiteering go hand in hand; when a country is in danger, profiteers take advantage of the situation and demand their last pound of flesh. T shall be pleased if the Government can effectively control prices and prevent profiteering, but I know that great difficulties will attend any such attempt. I remember when the Hughes Government endeavoured to fix prices during the last war and certain matters were referred to the Inter-State Commission* A decision of the High Court, notwithstanding the great powers conferred on the Commonwealth Government under the War Precautions Act, made it difficult for the Government to control prices. I understand that similar legislation will come before this Parliament shortly; and, therefore, I believe that it is vitally necessary that the Prime Minister shall consult with the Premiers of the States, in order to ascertain whether the States will be willing to surrender certain powers to the Commonwealth, in order to protect the people of Australia. </para>
+          <para>The Labour party has suggested that interest rates be controlled, and that the monetary system be re-adjusted, in order to keep the national debt as low as possible. We remember that in the last war general charges amounted to &#163;393,000,000. that the interest billhas totalled &#163;297,000,000, and that up to June of this year &#163;171,000,000 has been paid in respect of repatriation and pensions, the total cost of the war to that date being &#163;861,000,000. We have not yet finished paying for that war, and we are not likely to do so for many years. Now we have to face the cost of another war. How the present conflict will end we do not know. It may even engulf the whole of our civilization; before it is over, we may have to throw into the national pool everything that wo possess. The young manhood of the opposing nation?, many men of middle age, and possibly some who arc older, will be involved in it. If they are prepared to offer their most priceless possession - their lives - those whose money will be used for war purposes should receive only low rates of interest. The wage of the soldier will be determined ; the rate of interest also should be fixed. The suggestion that the credit of the nation should he used is well worth considering. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>114</page.no>
+                <time.stamp />
+                <name.id>L8E</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CAMERON, Donald</name>
+                <name role="display">Senator Cameron</name>
+              </talker>
+              <para>- What about using the wealth of the nation? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>114</page.no>
+                <time.stamp />
+                <name.id>K5X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SHEEHAN, James</name>
+                <name role="display">Senator SHEEHAN</name>
+              </talker>
+              <para>- We must see that the nation&#39;s wealth plays its part in this conflict. Members of all parties have expressed their determination to see the war through; but a discordant note was struck by the . Minister for External Affairs <inline font-weight="bold">(Sir Henry Gullett)</inline> in his speech in the House of Representatives. The impression his remarks left on me was that Great Britain had entered this -conflict not because of its solemn promise to Poland, or because the German hordes had invaded that country, but because of the fear that the conquest of Poland would enable Germany to interfere with British trade interests. I should be sorry to think that that was the motive behind Britain&#39;s entry into this war. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>114</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator Foll</name>
+              </talker>
+              <para>- I think that the  Minister referred to the conquest and absorption of other countries by Germany. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>114</page.no>
+                <time.stamp />
+                <name.id>K5X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SHEEHAN, James</name>
+                <name role="display">Senator SHEEHAN</name>
+              </talker>
+              <para>- I believe that a higher motive actuated Britain&#39;s leaders. When the present struggle come.? to an end, as it must, the warring nations will have to negotiate the peace. I hope that, when that time comes, the leaders of the nations will endeavour to bring about such a state of affairs that. 25 years later, it will not be possible to say, as can now be said although the war of 1914-18 was to end war and make the world safe for democracy, that millions of men, women and children throughout the world do not know where their next meal is to come from. Even in this young country, with all of its wealth and potentialities, the spectre of unemployment and starvation faces many thousands of its inhabitants. When genuine efforts were made to solve the problem of unemployment we were told that there was insufficient money available for the purpose. Some of our primary producers are on the brink of ruin, and it would appear that only the destruction of human life, &#34;which is likely to cause the cost of the commodities they arc producing to increase, will give them the assistance they so urgently need. Having entered this conflict, from which we trust that we shall emerge successfully, we can only hope that a brighter and better world will result from the destruction which is now taking place.I support the remarks of the Leader of the Opposition, and I believe that his speech will be an inspiration to every honorable senator regardless of the party &#39;to which he belongs. Those who to-day are governing this country should be guided by the high ideals which  he expressed, and should use every endeavour to protect those liberties which  we  hold so dear, and for which many are prepared to sacrifice their lives. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>115</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate>New SouthWales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>. -  I followed with considerable interest the speech delivered by the Leader of the Senate <inline font-weight="bold">(Senator McLeay)</inline> yesterday, and also the eloquent utterances of the Leader of the Opposition <inline font-weight="bold">(Senator Collings).</inline> I am sure that the remarks of my leader raised the debate to a very high plane, which was maintained until the last  speaker  on the opposite side of the chamber addressed the Senate. The declaration read by the Leader of the Opposition was agreed to unanimously at a meeting attended by every member of the Labour party in this chamber and in the House ofRepr esentatives, but it seems to have perturbed some honorable senators opposite. The only discordant note was the suggestion by <inline font-weight="bold">Senator A.</inline> J. McLachlan that the Labour party should join a national government. The members of the Labour party have often assured the people of Australia that they are prepared to govern Australia in times of peace or when the nation is at war, and its decision to remain as a separate entity during this unfortunate conflict is similar to that reached by the Labour party in Great Britain. To take advantage of the present unfortunate circumstances to attain office would not be in keeping with our platform pledges. No such suggestion was made by any member of the Labour party who attended the meeting at which the declaration was drawn up. Although the Opposition has declined to be associated with a national government, it does not desire to shirk its responsibilities as a political party in this Parliament. A portion of the Labour party&#39;s declaration reads - </para>
+          </talk.start>
+          <quote>
+            <para>The democratic rights of the people must be safeguarded to the maximum. The very minimum of interference with the civic liberties of the people should be the objective of the Government in carrying through its measures for national security. To ensure that this be done it is essential that the Parliament of the Commonwealth should remain ia session. </para>
+          </quote>
+          <para class="block">We merely ask that the Parliament shall remain in session so that the members of the Opposition, who represent a very large section of the Australian people who will be affected by this unfortunate struggle, will be able to express the views of their constituents. We contend that we have a right to voice our opinions concerning legislation or regulations which will affect the welfare of the Australian people. I do not agree with one honorable senator opposite who suggested this afternoon that there is no need for this Parliament to be in session during an emergency. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>115</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>-  I did not say that. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>115</page.no>
+                <time.stamp />
+                <name.id>K0W</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">ASHLEY, William</name>
+                <name role="display">Senator ASHLEY</name>
+              </talker>
+              <para>- Surely the honorable senator does not suggest that there is no need for Parliament to discuss matters of&#39; national importance ! The honorable senator also said that there is a greater need for co-operation in administrative matters than in legislative effort. If the Government, through its supporters, admits that there is need for administrative assistance, it can be regarded only as an admission of its own incompetence. In endeavouring to make the position of the Labour party clear the declaration specifically provides that in the opinion of the party there should be no profiteering or exploitation, and I welcome the statement of the Leader of the Senate this afternoon that definite action will be taken in that regard. I do not claim that the Opposition is responsible for the steps which the Government proposes to take in this respect, but I direct attention to the fact that although similar action was supposed to have been taken during the previous war, it was ineffective. On Monday last I was informed by a man in the country who had ordered some newsprint six weeks ago, and also a. further quantity last week before war was declared, that he had been told that the price had been withdrawn and that the cost has now increased by from 25 per cent. to 50 per cent. In such cases, the Government should act promptly. Stocks in hand should be made available at the prices ruling on the 31st August as the Government proposes. Although the Government has tabled a White Paper containing the text of the communications which have passed between the Government of the United Kingdom and the German Government, the contents of these communications have already apneared in the press and portions were broadcast in New South Wales on Monrlav last. The Government should also supply the </para>
+            </talk.start>
+          </continue>
+          <para>Opposition with copies of the documents embodying the commitments into which this Government has entered on behalf of the Commonwealth. I do not suggest that we should be supplied with details of all negotiations which have passed between the two governments, but as the Opposition has some responsibility it is entitled to more information than is in its possession at present. </para>
+          <para>
+            <inline font-weight="bold">Senator James</inline>McLachlan remarked that if it were possible for Nazi Germany and Soviet Russia to conclude a pact for the destruction of democracy and humanity, surely the Labour party could find a way to accept the Government&#39;s invitation to join in the formation of a national ministry at a time like the present. 1. resent the analogy which the honorable senator apparently wished to draw; it is most unfair to the Opposition. We are prepared at all times, but especially in a time of national distress, to do our best for the defence of Australia and the British Commonwealth of Nations. We cannot be justly accused of disloyalty in any way. However, we object to the expenditure <inline font-style="italic">of. huge sums oi</inline> money on defence - an expenditure which, in itself, I do not criticize - when the Government, at the same time, neglects to develop this country. Side by side with expenditure on defence, our duty is to provide the funds necessary to improve our national life by the building of homes, railways and .roads, by extending educational facilities, and, above all, by relieving our unemployed, particularly the youths. The Government cannot overlook these problems. Of course, it will he said that these are matters for the State governments. It is the duty of the National Government to see that our youths are efficiently trained, not only for military service, but also for industry. Certainly its duty is to provide work for unemployed youths. The men and youths of this country will respond only too willingly for the defence of their country should it be attacked. </para>
+          <para>I commend to the people of Australia the statement made this afternoon by the Leader of the Senate <inline font-weight="bold">(Senator McLeay)</inline> regarding the steps which the Government contemplates in order to prevent profiteering during the present. crisis. Legislation to give effect, to those proposals should be enacted as soon possible. We remember only too well what happened in this respect during the last war. While our men were giving their lives in Flanders and on other battlefields fortunes were made almost over-night in Australia and other parts of the British Empire, and were invested in war loans free of income tax. On those loans we shall continue to pay interest for the rest of our lives. There should be no repetition of that state of affairs. Members of the Country party seem to be very concerned that the primary producers shall be assured of a fair price for their products. I agree, with them in that respect, and it is reassuring to hear that the British Government has decided to take the surpluses of our main primary products. That should allay any fears entertained by <inline font-weight="bold">Senator Johnston,</inline> who seems to be concerned mostly with the price which will be obtained for wheat. The Leader of the Senate intimated that the prices to be agreed upon would probably give to our producers the benefit of the rise of prices. We know that during the last war many of our primary products were sold abroad at prices from three to four times greater than those for which they were purchased in this country. The primary producer is entitled to participate to some degree at least in any rise of price caused by war conditions. On this point I remind honorable senators that during the last war the Commonwealth Government, in order to prevent our primary producers from being exploited, purchased a line of steamers to transport our products to Great Britain. If this Government be sincere in its desire to protect our producers now from the exploitation to which they have been subjected since that line of steamers was disposed of, it will charter, or even purchase, vessels for this purpose. It is useless to give to primary producers a fair price for their products if, at the same time, we do not protect them from exorbitant freight charges. </para>
+          <para>I hope that as far as possible we shall finance our commitments in this war through the Commonwealth Bank. Interest charges should be kept as low as possible. All of the suggestions made in this debate by honorable senators on this  side are constructive, and arise out of our desire to help the Government in. the present crisis. Therefore, &#91; fail to see that the Government has any cause for complaint because the Opposition declines to participate in the formation of a national government. For myself I can only say that whatever service I can render in the defence of my country I shall render willingly. I regret that our young manhood may be called upon to make great sacrifices in the present catastrophe. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>117</page.no>
+              <time.stamp />
+              <name.id>K6N</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CLOTHIER, Robert</name>
+              <name role="display">Senator CLOTHIER</name>
+            </talker>
+            <para>. - In a debate of this kind it is natural that an honorable senator should steal the ammunition of another. Much of my ammunition has already been stolen by my colleagues, and, therefore, I regret my failure to speak earlier. It is pleasing to note that all parties are willing to help the Government in every way possible in &#39;this crisis. Such unanimityis not only encouraging but also proper, because as Britishers all of us wish to crush dictatorship. The sooner Hitler is defeated the better. I appreciate the wonderful endeavours of the Prime Minister of Great Britain to maintain peace. No doub&#39;t he has suffered many sleepless nights in this heroic work.  His  efforts, however, have been in vain. I hope that now  that  war has commenced it will sound the doom of dictatorship. However, it will bc regrettable if when the war is ended we ave obliged to suffer as we did after the last war. <inline font-weight="bold">Senator Brown</inline> said that he could never understand why money could bo found in abundance for munitions in wartime, although none could be found for the essential development of the country in pence. That has always perplexed me. However, I believe that to-day the nations are gradually learning a lesson in this respect. Dealing with the present crisis, a public  speaker  at Cairns said &#34; The less disturbance there is in industry the better it will be for every body &#34;. I agree entirely with that view. </para>
+          </talk.start>
+          <para>I endorse every word in the Labour party&#39;s declaration read yesterday by the Leader of the Opposition <inline font-weight="bold">(Senator Collings).</inline> One paragraph of the declaration was - </para>
+          <quote>
+            <para>We take the view that these measures should include the immediate control by the Commonwealth Government of all essential raw materials, and the resumption by the Government of the factories associated with the production of munitions and war equipment. </para>
+          </quote>
+          <para class="block">It seems to me that there should be added to that paragraph the words &#34; and food for the people &#34;. I have previously advocated that the Government should purchase the whole of the wheat grown in the Commonwealth, and hold it in reserve so that both Britain and Australia may satisfy their needs. Every member of the community has the right to live, and, we should recognize our duties to our fellow creatures. When I was a boy I was taught by my parents that people should not be selfish, but should consider the rights of others. I believe that the various parliaments throughout the Commonwealth will adopt that attitude during the present crisis. </para>
+          <para>I support many  of the  remarks of <inline font-weight="bold">Senator Darcey</inline> about, the financial problems  of the  Commonwealth. He said yesterday that Australia is the only country in  the  world where  the  people have a bank of their  own.  I say that as  the  Commonwealth Bank is backed by the nation, and has control of the note issue, Australia should never borrow from private financiers overseas. With the credit  of  the nation behind it, this bank is in a position to finance all measures necessary to meet the needs of the people. It is refreshing  to  note the unanimous determination of speakers on both sides of the Senate and the House of Representatives  to  assist  the  Empire in this time of crisis. When travelling in Queensland recently I read the following paragraph in one of  the  newspapers: - </para>
+          <quote>
+            <para class="block">&#34;WE WILL HAVE NO WAR.&#34; </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>German Demonstrations</title>
+          <page.no>117</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>London, 27th Aug</title>
+          <page.no>117</page.no>
+        </subdebateinfo>
+        <para>An Associated  Press  correspondent ut Copenhagen states that a Danish woman wlm arrived from Berlin to-day reported  having  witnessed a series of anti-war demonstrations. She said she saw police draw their batons against a crowd which was shouting, &#34;We will have no war.&#34; </para>
+        <para class="block">The time has arrived when dictatorships should be done away with, and I am convinced that the Government will receive support from every_ quarter in taking all necessary measures for the defence of thi.country. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>118</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for the Interior</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>.  - I desire, on behalf of the Government, to express my appreciation of the tone of the remarks throughout this debate. I particularly thank the Leader of the Opposition <inline font-weight="bold">(Senator Collings)</inline> for the promise of support offered to the Government in the trying period ahead of us.I also thank honorable senators on both sides of the chamber for their assurances of assistance. A careful note will be made of the various suggestions put forward by honorable senators. It is the desire of the Government to assist the rest of the Empire in seeing this conflict through to a successful conclusion, so that the rights and privileges of the people may be upheld. We all hope that victory will soon be achieved. Already steps have been taken to prevent undue advantage being taken of the nation&#39;s difficulties by profiteering. The Government intends to introduce legislation to deal with this matter. It. is, indeed, gratifying to the Government to have at this early stage of the conflict, assurances of support from all parties in the Parliament. </para>
+          </talk.start>
+          <para>Question resolved in the affirmative. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>HOUR OF MEETING</title>
+        <page.no>118</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator McLeay)</inline> agreed to- </para>
+      <quote>
+        <para>That the Senate, at its rising, adjourn till 3 p.m. to-morrow. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>118</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <para class="block">Business of the Senate: Defence of Tasmania. </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>118</page.no>
+            <time.stamp />
+            <name.id>KUA</name.id>
+            <electorate>South AustraliaMinister for Commerce</electorate>
+            <party>UAP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLEAY, George</name>
+            <name role="display">Senator McLEAY</name>
+          </talker>
+          <para>. - I move - </para>
+        </talk.start>
+        <quote>
+          <para>That the Senate do now adjourn. </para>
+        </quote>
+        <para class="block">I intimate to honorable senators that the Government is anxious that the National Security Bill and the Trading with the Enemy Bill shall be passed not later than Saturday next. If those measures are not received from the House of Representatives to-morrow, I shall be compelled to ask the Senate to sit on Saturday. I point out that, as these bills have been circulated, honorable senators will have an opportunity to peruse them to-morrow prior to the meeting of the Senate. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>118</page.no>
+            <time.stamp />
+            <name.id>K0Z</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">AYLETT, William</name>
+            <name role="display">Senator AYLETT</name>
+          </talker>
+          <para>. - The Government has stated that it is willing to receive any advice or cooperation offered by the Opposition. In fulfilment of a promise I made to the Premier of Tasmania, I shall refer to a matter which has become a burning question inthat State. I am aware that the Government has its expert advisers on defence matters, and I make no claim to knowledge of all that the Government is doing to provide for the security of Australia. I remind honorable senators, and also the people of Victoria and New South Wales, particularly the residents of Melbourne and Sydney, that if an enemy were to invade Australia he would require a base from whichto operate. In my opinion, and in the opinion also of experts, the only effective base would be the island of Tasmania. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>118</page.no>
+              <time.stamp />
+              <name.id>KS7</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>UAP; LP from 1944</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, Allan</name>
+              <name role="display">Senator ALLAN MACDONALD</name>
+            </talker>
+            <para>- What about New Guinea? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>118</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator AYLETT</name>
+            </talker>
+            <para>- I am speaking of a base that would suit an enemy desirous of attacking Sydney or Melbourne. The majority of Australia&#39;s defence works seem to be concentrated in New South Wales and Victoria. In the Great War, Germany did not always attack at ports which our expert military advisers described as the most likely ones, but many surprise attacks were made. It was also claimed that an aggressor would know where our defences were strong, and where they were weak, and that the enemy&#39;s base would be established at a weak spot. Our defences in Tasmania are definitely weak. </para>
+          </talk.start>
+        </continue>
+        <para>SenatorMcBride. - At some points there are no defence works. </para>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>118</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator AYLETT</name>
+            </talker>
+            <para>- I had not intended to be so bold as to state that there are no defence works in Tasmania, but the Minister has practically said that for me. The enemy would certainly select for a base a. weak spot. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>118</page.no>
+              <time.stamp />
+              <name.id>KAY</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIBSON, William</name>
+              <name role="display">Senator Gibson</name>
+            </talker>
+            <para>- Does not the honorable senator think that the Defence authorities have considered the matter from that aspect? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>118</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator AYLETT</name>
+            </talker>
+            <para>- If the expert advisers of the Government have taken all possibilities into consideration, perhaps. some explanation will be given later. As far as I am aware, the defences of Tasmania are confined to a few small works. If an enemy were about to invade Australia, it would seek to establish a base, as I have said, at a weak spot, and, in my opinion, one of the weakest places is the island of Tasmania, which possesses great natural resources, including raw materials and water power, which would enablean invader to become selfsupporting. Tasmania also has one of the best aerodromes in Australia. An invader would not be deterred by the distance of Tasmania from the mainland, because a bombing plane could fly in an hour from Western Junction to Victoria. Tasmania would provide  an  enemy with an ideal base from which to attack Sydney and Melbourne. I notice that some Government supporters are smiling at this suggestion. They would view it  in  a different light if, unfortunately, enemy forces established themselves in Tasmania and sent bombing aeroplanes over Melbourne and Sydney. Once an enemy secured control of Tasmania, little could be done to prevent devastating raids on mainland military positions, and it would not bo long before drastic ultimatums were issued. Need I remind the Senate that Tasmania has been, so to speak, a breeding ground for mainland States? Members of many Tasmanian families have migrated to the mainland States in the development of whichthey have played a part. I bring this matter before the Senate because there is considerable uneasiness in Tasmania at the apparent neglect of the military authorities to take adequate measures for the protection of the island State. If the Defence Department has been active in this matter it would be as well to let the people know that, and thus remove anxiety. The Tasmanian Government is deeply concerned over probable future developments, and <inline font-weight="bold">Sir Ernest</inline> Clarke, the Governor of that State, a man with wide experience in military affairs, has issued a note of warning concerning the position of Tasmania in the Government&#39;s defence scheme. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>119</page.no>
+            <time.stamp />
+            <name.id>KS7</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MACDONALD, Allan</name>
+            <name role="display">Senator ALLAN MacDONALD</name>
+          </talker>
+          <para>. - I direct the attention of the Minister forCommerce <inline font-weight="bold">(Senator</inline></para>
+        </talk.start>
+        <para class="block">McLeay) to the necessity for preventing congestion in Commonwealth ports during this crisis. I understand that  ; a  Naval Control Board has been appointed and will supervise the movements of ship; in the principal harbours of Australia. During the last war a certain amount  of  confusion took place in the control of merchant shipping, due, no doubt, to lack of experience on the part of certain naval officers. I suggest, therefore, tha! the services of the Director of Navigation and the Deputy Directors in the various States,men well qualified to control tbc movements of merchant vessels in the principal State ports should be co-opted in order to ensure the efficiency of the arrangements in the various harbours. </para>
+        <para>The Government should also issuea statement with regard to the internment of enemy aliens. We have been informed thatthe defence authorities rounded up a large number of aliens concerning whom therehas been some suspicion. It is desirable that a statement should bc made as to whether any enemy aliens have not yet been interned and the progress made in the internments in the various States. </para>
+        <para>I should also like some information concerning the recent inquiry into the letting of the contract for the General Post Office in Sydney. I hope that the Minister for the Interior will be able to inform the Senate at an early date what was the cost of the inquiryfrom beginning to end, because I am inclined te think that if the Government had adopted the course advocated in the Senate, namely, an inquiry by a select committee of the Senate, that body would probably have reached the same conclusion more quickly and the cost to the taxpayers of Australia would have been considerably less. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>119</page.no>
+            <time.stamp />
+            <name.id>JZD</name.id>
+            <electorate>Queensland</electorate>
+            <party>UAP</party>
+            <role>Minister for the Interior</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">FOLL, Hattil</name>
+            <name role="display">Senator FOLL</name>
+          </talker>
+          <para>. - The remarks of <inline font-weight="bold">Senator Aylett</inline> will be brought under the. notice of the Minister for Defence. I assure the honorable senator that thp defence authorities have not overlooked the needs of Tasmania. Measures for ite protection have received earnest consideration in the Government&#39;s threeyears plan. The remarks of <inline font-weight="bold">Senator Allan</inline> MacDonald concerning the operationsoftheNavalControlBoardwillbe conveyed to the proper authorities. If it Ls possible for a statement to be made relating to the internment of enemy aliens, I have <inline font-style="italic">w&#62;</inline> doubt that Cabinet will authorize me to make it. The Government is active in this matter. Aliens who are likely to l&#62;e a danger to the community have been either interned or are being watched carefully. The honorable senator&#39;s remarks with reference to the contract for the Sydney General Post Office have also boon noted. If he will place on thu notice-paper some questions relating to the cost of the inquiry, I shall obtain the information for him. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>120</page.no>
+            <time.stamp />
+            <name.id>KUA</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for Commerce</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLEAY, George</name>
+            <name role="display">Senator McLEAY</name>
+          </talker>
+          <para>. - <inline font-style="italic">in reply</inline> - I inform <inline font-weight="bold">Senator Allan</inline> MacDonald that the Director of Navigation has been appointed to the Naval Control Board. The honorable senator can rest assured that the experience of the  Deputy  Directors will be availed of if necessary. </para>
+        </talk.start>
+        <para>Question resolved in the affirmative. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>120</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para class="block">The following papers were presented : - </para>
+      <quote>
+        <para>Commonwealth Public Service Act - Appointments- Department of Civil Aviation - F. B. Martin, J. A. Mccormack, and C. S. Wiggins. </para>
+        <para>National Debt Sinking Fund Act - National Debt Commission - Sixteenth Annual Report for year ended 30th June, 1939. </para>
+        <para>Defence Act - Royal Military College - Report for 1938. </para>
+        <para>Lands Acquisition Act - Land acquired at - Bairnsdale, Victoria - For Defence purposes. </para>
+        <para>Frankston, Victoria-r-For Defence purposes. </para>
+      </quote>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>120</page.no>
+        <time.stamp>18:15:00</time.stamp>
+      </adjournmentinfo>
+      <para>Senate adjourned at 6.15 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

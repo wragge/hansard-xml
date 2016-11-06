@@ -1,251 +1,2622 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #000000; } body { background-image: url(/images/body-home-night-blurred.jpg); background-color: #000000; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1976-10-07%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1976-10-07%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1976-10-07%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1976-10-07%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1976-10-07%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1976-10-07%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1976-10-07%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1976-10-07/19761007_senate_30_s69.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.05");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1976-10-07</date>
+    <parliament.no>30</parliament.no>
+    <session.no>1</session.no>
+    <period.no>2</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>1089</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <business.start>
+      <day.start>1976-10-07</day.start>
+      <para>The <inline font-weight="bold">PRESIDENT (Senator the Hon. Condor Laucke)</inline> took the chair at 10.30 a.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>MINISTERIAL ARRANGEMENTS</title>
+        <page.no>1089</page.no>
+        <type>ministerial arrangements</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1089</page.no>
+            <time.stamp />
+            <name.id>DV4</name.id>
+            <electorate>Western AustraliaLeader of the Government in the Senate</electorate>
+            <party>LP</party>
+            <role>Minister for Administrative Services</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">WITHERS, Reg</name>
+            <name role="display">Senator WITHERS</name>
+          </talker>
+          <para>- I inform the Senate that the Prime Minister, <inline font-weight="bold">Mr Malcolm</inline> Fraser, leaves Australia today to visit Indonesia. He is expected to return on 1 1 October. During his absence the  Deputy  Prime Minister, <inline font-weight="bold">Mr J.</inline> D. Anthony, will act as Prime Minister. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PETITIONS</title>
+        <page.no>1089</page.no>
+        <type>petition</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1089</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CLERK, The</name>
+            <name role="display">The Clerk</name>
+          </talker>
+          <para>- Petitions have been lodged for presentation as follows: </para>
+        </talk.start>
+      </speech>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Tertiary Education Assistance Scheme</title>
+          <page.no>1089</page.no>
+        </subdebateinfo>
+        <para class="block">To the Honourable the  President  and Members of the Senate in Parliament assembled. The humble petition of the undersigned citizens of Australia respectfully showeth that the recent budgetary allocations endanger the quality of Australian education, especially for disadvantaged groups, and, in particular, for migrants, Aboriginals and tertiary students from poor backgrounds. </para>
+        <para>Your petitioners believe that all persons admitted to institutions of tertiary education in Australia have a right to adequate living conditions and that it is the responsibility of Government to ensure that sufficient funds are allocated to protect that right. </para>
+        <para>Your petitioners therefore humbly pray: </para>
+        <list type="decimal-dotted">
+          <item label="1.">
+            <para>That the quality of education in schools and tertiary institutions be not eroded but extended through the provision of adequate funds. </para>
+          </item>
+          <item label="2.">
+            <para>That in view of the sub-standard living conditions forced upon many tertiary students as a consequence of a totally inadequate student assistance scheme, there is an urgent need for a substantial increase and indexation of grants provided under the Tertiary Education Assistance Scheme to the level of a living wage, and, further, that the needs-based grants scheme be in no way jeopardised by any other program of student assistance. </para>
+          </item>
+          <item label="3.">
+            <para>That in order to preserve the quality of higher education in Australia and so as to prevent discrimination against disadvantaged groups there should be no introduction of fees for overseas students, second degree students, higher degree students or any students. </para>
+          </item>
+        </list>
+        <para>And your petitioners as in duty bound will ever pray. by <inline font-weight="bold">Senator Chaney.</inline></para>
+        <para>Petition received. </para>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Petrol Price Equalisation Scheme</title>
+          <page.no>1089</page.no>
+        </subdebateinfo>
+        <para class="block">To the Honourable the  President  and Members of the Senate in the Parliament assembled. The petition of the undersigned citizens of Australia respectfully showeth: </para>
+        <para>That the Commonwealth Government restore the Petrol Price Equalisation Scheme immediately for the benefit of those people who live away from the seaboard. </para>
+        <para>Your petitioners believe that the matter is urgent and your petitioners as in duty bound will ever pray. by <inline font-weight="bold">Senator Sheil.</inline></para>
+        <para>Petition received. </para>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1089</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>QUESTIONS WITHOUT NOTICE</title>
+          <page.no>1089</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1089</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>EXPORT OF CEMENT</title>
+          <page.no>1089</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1089</page.no>
+              <time.stamp />
+              <name.id>KPG</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KEEFFE, James</name>
+              <name role="display">Senator KEEFFE</name>
+            </talker>
+            <para>- My question is directed to the Minister representing the Minister for National Resources. I preface my question by reminding the Minister of the proposed mining of limestone and clay in the Mount Larcom district by the Darra mining company. I ask the Minister whether that company has made an application or has advised the Government that it will apply for a licence to export cement. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1089</page.no>
+              <time.stamp />
+              <name.id>DV4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WITHERS, Reg</name>
+              <name role="display">Senator WITHERS</name>
+            </talker>
+            <para>-I am afraid that I just do not carry that knowledge with me, but I shall seek it from my colleague in the other place. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1089</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>VISITORS TO PARLIAMENT HOUSE</title>
+          <page.no>1089</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1089</page.no>
+              <time.stamp />
+              <name.id>0V4</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BONNER, Neville</name>
+              <name role="display">Senator BONNER</name>
+            </talker>
+            <para>- My question is directed to the Minister for Industry and Commerce who has as part of his responsibilities the tourist industry. Is the Minister aware that the annual report of the Australian Capital Territory Advisory Board on Tourism reveals that the number of visitors to Parliament House fell from 250 705 in 1972 to 208 705 in 1975, a drop of almost 20 per cent? Can the Minister, who no doubt has his finger firmly on the pulse in regard to all the matters covered by his portfolio, tell the Senate whether any departmental or any other sort of inquiry has been held to establish the cause of that drastic reduction in the number of visitors and whether it is perhaps an indication of the disgust of the Australian population at the activities of the Labor Government during that period? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1089</page.no>
+              <time.stamp />
+              <name.id>JQR</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>LP</party>
+              <role>Minister for Industry and Commerce</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COTTON, Bob</name>
+              <name role="display">Senator COTTON</name>
+            </talker>
+            <para>-I am indebted to the honourable senator for giving me that information, which I did not have at my fingertips even though he was kind enough to think that I might have. The explanation that he suggests is more than possible. It could well be that what he is saying is true. I notice, for instance, that there is a heavy fall off in the number of visitors in the Senate public gallery once we move that the Senate be adjourned and an adjournment debate follows. That seems to me to be a fair indication that people are not all that enthusiastic about the way in which members of Parliament are going on all the time. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1090</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ADVISORY COUNCIL FOR INTER-GOVERNMENT RELATIONS</title>
+          <page.no>1090</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1090</page.no>
+              <time.stamp />
+              <name.id>PF4</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLSTON, Malcolm</name>
+              <name role="display">Senator COLSTON</name>
+            </talker>
+            <para>-Is the Minister Assisting the Prime Minister in Federal Affairs aware that in the <inline font-style="italic">Courier-Mail</inline> of 28 September 1976 the  President  of the Queensland Local Government Association and Stanthorpe Shire  Chairman,  Councillor Rogers, was reported to have warned that Australian local governments may boycott the proposed new Advisory Council for InterGovernment Relations if their representation on that council is limited to 3 members? In the light of the Queensland Government&#39;s refusal to take part in the Council if local government representation remains at the current proposed level of six, simply because of claims that local government is overrepresented, will the Minister assure the Senate that the Federal Government has no intention of giving in to the Queensland Government&#39;s unreasonable demands and that local government will continue to hold six of the 19 positions on the Council? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1090</page.no>
+              <time.stamp />
+              <name.id>2U4</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>LP</party>
+              <role>Minister Assisting the Prime Minister in Federal Affairs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CARRICK, John</name>
+              <name role="display">Senator CARRICK</name>
+            </talker>
+            <para>- Honourable senators will be aware that there is at the moment in another place a piece of legislation to establish an Advisory Council for Inter-government Relations on which the local government representation will be six. It is the intention of the Government to proceed with that legislation. In due course it will come before the Senate and I hope it will be greeted favourably by honourable senators on both sides. I. take it from <inline font-weight="bold">Senator Colston&#39;s</inline> remarks that he reflects support for the idea and therefore it will pass into legislation with local government having representation of six on the Council. I am not aware of the specific newspaper reference. I have met Councillor Rogers on quite a number of occasions in meetings with the federal body of local government. I have had many discussions with the Local Government Association on its representation on the Council. The Commonwealth Government appreciates the enormous difficulty of local government in electing fewer than 6 people to represent it on the Council because local government has stressed that it is really structured on a State basis rather than on a federal basis, and to have representation of fewer than one per State would impose enormous difficulties upon local government. I am sorry that there should be any controversy in this regard. </para>
+          </talk.start>
+          <para>I want to stress that the Advisory Council is in no sense a numbers game, that is, whether one organisation should have more representation than another. The whole basis of the legislation is to bring around the table the 4 elements of government- Federal, State, and local government and the community itself- so that with a balance of interests they can look at the whole structure of finance and functions of government and get some rationalisation, some intelligent approach. I am hopeful that people of Australia and indeed the States themselves will seek to make this Advisory Council work. It is entirely in the hands of those concerned whether it works or not. The opportunity for the first time in Australia&#39;s history for all elements of the community to meet together in continuous dialogue is one that we all ought to take in a bipartisan way to make this Council work, and I hope that we will do so. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1090</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>NUCLEAR TESTING IN CHINA</title>
+          <page.no>1090</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1090</page.no>
+              <time.stamp />
+              <name.id>K69</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SIM, John</name>
+              <name role="display">Senator SIM</name>
+            </talker>
+            <para>- I direct my question to the Minister representing the Acting Minister for Foreign Affairs. I refer to a recent report of a nuclear test conducted by the People&#39;s Republic of China and a further report of heavy radioactivity fall-out in the United States following the reported test. I ask the Minister: Has the Government any indication whether the reported test was conducted in the atmosphere or underground? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1090</page.no>
+              <time.stamp />
+              <name.id>DV4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WITHERS, Reg</name>
+              <name role="display">Senator WITHERS</name>
+            </talker>
+            <para>-According to the briefing note I have, China has announced that it conducted a further nuclear test in the atmosphere on 26 September and our Ambassador in Peking has been asked to express again our concern to the Chinese authorities about nuclear testing and in particular about the latest Chinese test. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1090</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TELEPHONE DIRECTORIES</title>
+          <page.no>1090</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1090</page.no>
+              <time.stamp />
+              <name.id>9V4</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GRIMES, Don</name>
+              <name role="display">Senator GRIMES</name>
+            </talker>
+            <para>- My question is directed to the Minister representing the Minister for Post and Telecommunications. Is it a fact that Telecom Australia is purchasing or intends to purchase from Canada for the production of the next series of telephone directories large quantities of paper which could be supplied by the Associated Pulp and Paper Mills Ltd at Wesley Vale in north-western Tasmania. As unemployment in north-western Tasmania is much higher than the national average, will the Minister consider asking Telecom to reconsider its Canadian order to protect the jobs of people in northwestern Tasmania? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1090</page.no>
+              <time.stamp />
+              <name.id>2U4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CARRICK, John</name>
+              <name role="display">Senator CARRICK</name>
+            </talker>
+            <para>- I am not aware that Telecom is seeking paper from Canada but I certainly will make inquiries into whether that is so. </para>
+          </talk.start>
+          <para>I am very well aware of the unhappy unemployment situation throughout Tasmania, particularly on the north-west coast, and my Government would be highly sensitive to any opportunities that could be taken to provide and sustain real employment in the industry to which the honourable senator refers. I am aware of the need to sustain the paper industry on the northwest coast. I will direct the question to the attention of my colleague immediately to ascertain the facts, whether it is possible to use Australian paper and whether there are any particular reasons why it is necessary to purchase paper from abroad. Of course, my colleague will be highly sensitive to the need to create employment opportunities for the Tasmanian people. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1091</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>IMPORTED WINES AND BRANDY</title>
+          <page.no>1091</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1091</page.no>
+              <time.stamp />
+              <name.id>KKD</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JESSOP, Donald</name>
+              <name role="display">Senator JESSOP</name>
+            </talker>
+            <para>- My question is directed to the Minister for Science who will recall that some time ago I questioned the effectiveness of measures taken by the Government to ensure that imported wines and brandies complied with Australian health and quality standards. Is it a fact that the Minister has agreed to send an officer of his Department to the United States of America to examine analytical techniques used in that country? Can the Minister give details of the officer&#39;s itinerary? If his itinerary does not include consultations with the Wine Institute of California, which is the counterpart of the Australian Wine Research Council, will the Minister see that the itinerary is extended to enable the officer to have talks with members of that body? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1091</page.no>
+              <time.stamp />
+              <name.id>KAS</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>NCP/NP</party>
+              <role>Minister for Science</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WEBSTER, James</name>
+              <name role="display">Senator WEBSTER</name>
+            </talker>
+            <para>- The honourable senator&#39;s knowledge of this matter is correct. I acknowledge that <inline font-weight="bold">Senator Jessop</inline> has been a constant inquirer about the problems that the Australian Government Analytical Laboratories have discovered in some imported wines and brandies. It is correct that the Director of the Analytical Laboratories at Adelaide will visit the United States of America for approximately 3 weeks commencing about 1 8 October this year. <inline font-weight="bold">Mr Brian</inline> Bates is the Director in South Australia. The prime purpose of his visit will be to attend the United States Association of Official Analytical Chemists. I understand that the visit will bring <inline font-weight="bold">Mr Bates</inline> into contact with United States chemists who are responsible for analytical procedures used in the enforcement of standards and regulations applicable in the United States. In order to obtain the full benefit from that meeting, especially in areas of concern to the Laboratories generally, and specifically with regard to wines and spirits, I understand <inline font-weight="bold">Mr Bates</inline> also will visit the establishments that have been mentioned by <inline font-weight="bold">Senator Jessop.</inline> At this stage I am not able to say whether <inline font-weight="bold">Mr Bates</inline> will derive additional benefits from an extension of his itinerary such as <inline font-weight="bold">Senator Jessop</inline> has suggested. Nevertheless, I can assure the honourable senator that the matter will be examined by me and if it is considered that this extension will be of benefit to the purposes of <inline font-weight="bold">Mr Bates&#39;</inline> visit, for my part I will be pleased to authorise extension. It would then be a matter for my Department to seek the approval of the Overseas Visits Committee to any variation of <inline font-weight="bold">Mr Bates&#39;</inline> itinerary. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1091</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>COMMONWEALTH ROLLS ROYCE</title>
+          <page.no>1091</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1091</page.no>
+              <time.stamp />
+              <name.id>K3A</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, William</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>- My question is directed to the Minister for Administrative Services and it follows the question I asked yesterday. I take this opportunity of thanking the Minister for his expeditious response to my question. I am sure that the Minister has not deliberately misled the Senate but my information does not accord with his reply, in part anyway. I asked among other things why one of the many available LTD cars in the Victorian pool was not used to avoid the necessity of transporting a Rolls Royce from Sydney to Melbourne for the purpose of the Governor-General attending the grand final of the Victorian Football League. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1091</page.no>
+              <time.stamp />
+              <name.id>DV4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WITHERS, Reg</name>
+              <name role="display">Senator WITHERS</name>
+            </talker>
+            <para>-The judgment was made by officers in the section concerned. I knew nothing about it, nor did the Department here, until the honourable senator asked his question yesterday. A booking was made for a car for that date. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1091</page.no>
+                <time.stamp />
+                <name.id>7V4</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GEORGES, George</name>
+                <name role="display">Senator Georges</name>
+              </talker>
+              <para>- A Rolls Royce? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1091</page.no>
+                <time.stamp />
+                <name.id>DV4</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WITHERS, Reg</name>
+                <name role="display">Senator WITHERS</name>
+              </talker>
+              <para>-No. The GovernorGeneral requested that a car be made available. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1091</page.no>
+                <time.stamp />
+                <name.id>7V4</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GEORGES, George</name>
+                <name role="display">Senator Georges</name>
+              </talker>
+              <para>- He requested a Rolls Royce. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1091</page.no>
+                <time.stamp />
+                <name.id>DV4</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WITHERS, Reg</name>
+                <name role="display">Senator WITHERS</name>
+              </talker>
+              <para>-If the honourable senator would be patient and not interrupt he might get some information. I am trying to answer <inline font-weight="bold">Senator Brown</inline> who was courteous enough to ask a question. The office in Melbourne received a booking from Government House for a vehicle for the day in question. The office had no idea for what purpose it would be used or for how long it would be used, etc. The decision was made there that because a Rolls Royce was not available one would be brought down from Sydney. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1091</page.no>
+                <time.stamp />
+                <name.id>TJ4</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WALSH, Peter</name>
+                <name role="display">Senator Walsh</name>
+              </talker>
+              <para>- No austerity. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1091</page.no>
+                <time.stamp />
+                <name.id>DV4</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WITHERS, Reg</name>
+                <name role="display">Senator WITHERS</name>
+              </talker>
+              <para>-If the honourable senator would stop his friends from Rent-a-crowd bashing up our property there would have been no need to bring the Rolls Royce from Sydney. If the honourable senator likes to go out and incite people, as he has done in the past and as he did in Perth, to attack Commonwealth property which is conveying the Governor-General and which costs taxpayers money to fix, he should not come in here and complain afterwards. He should tell his friends from Rent-a-crowd to stop bashing up Commonwealth property because it belongs to the taxpayer. Everyone knows Rentacrowd. You can rent a crowd for any purpose you like. Rent-a-crowd is about as genuine as some of the speeches heard here. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1092</page.no>
+                <time.stamp />
+                <name.id>TJ4</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WALSH, Peter</name>
+                <name role="display">Senator Walsh</name>
+              </talker>
+              <para>- I take a point of order, <inline font-weight="bold">Mr President. Senator Withers</inline> has alleged that I incited people to attack Commonwealth property. I ask him to either substantiate that allegation or withdraw it. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1092</page.no>
+                <time.stamp />
+                <name.id>DV4</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WITHERS, Reg</name>
+                <name role="display">Senator WITHERS</name>
+              </talker>
+              <para>-I will substantiate it all right. When the Governor-General visited the Parmelia Hotel some months back, who was outside with Rent-a-crowd? It was the honourable senator. What were people in the group saying? Were they saying: &#39;Cheer the GovernorGeneral&#39;? Were they saying: &#39;Good on you, <inline font-weight="bold">Sir John,</inline> you did the right thing&#39;? Oh, no. The group crowded around the vehicle and tried to prevent it coming and going. If it was not for the actions of the police the vehicle would have been damaged. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1092</page.no>
+                <time.stamp />
+                <name.id>KTZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLAREN, Geoffrey</name>
+                <name role="display">Senator McLaren</name>
+              </talker>
+              <para>- The honourable senator did not damage it. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1092</page.no>
+                <time.stamp />
+                <name.id>DV4</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WITHERS, Reg</name>
+                <name role="display">Senator WITHERS</name>
+              </talker>
+              <para>- I said that the honourable senator goes around inciting people. If the honourable senator would like me to rephrase the statement I will say that he goes around inciting people as a result of which taxpayers&#39; property is damaged. If the honourable senator wants to prevent the situation where we have to transport a car from one city to the other, he should tell his friends from Rent-a-crowd to leave our property alone. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1092</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>EDUCATION</title>
+          <page.no>1092</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1092</page.no>
+              <time.stamp />
+              <name.id>K8D</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>NCP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">TEHAN, Thomas</name>
+              <name role="display">Senator TEHAN</name>
+            </talker>
+            <para>- My question is directed to the Minister for Education. I refer to criticism from the Victorian Universities and Schools Examination Board Sub-committee on Migrant English to the effect that some Higher School Certificate English essay questions discriminate against migrant and under-privileged children. Such questions involve issues such as the generation gap, women&#39;s liberation and censorship. The Sub-committee states that these questions disadvantage migrant children because the questions are not recognised as issues in their cultures. Will the Minister investigate the problem with a view to seeing whether some uniform curricula throughout Australia could be adopted which would place the migrant and under-privileged children mentioned in the Victorian report on an equal basis with other students? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1092</page.no>
+              <time.stamp />
+              <name.id>2U4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CARRICK, John</name>
+              <name role="display">Senator CARRICK</name>
+            </talker>
+            <para>- I have not as yet had the opportunity to study the report. I will certainly study the report to see whether there is substance in the claim that migrants and under-privileged children are being disadvantaged. If such disadvantage is occurring I will give consideration to methods that ought to be adopted to rectify the matter. Whether the methods the honourable senator suggests would be the correct ones would be, of course, a matter for study. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1092</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>FRASER ISLAND</title>
+          <page.no>1092</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1092</page.no>
+              <time.stamp />
+              <name.id>KVK</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MULVIHILL, James</name>
+              <name role="display">Senator MULVIHILL</name>
+            </talker>
+            <para>- I direct a question in relation to Fraser Island to either the Minister representing the Minister for the Environment, Housing and Community Development or the Minister responsible for export licences. My question is based on a telegram which I received this morning and which refers to the annual report of a mining company. The telegram implies that a dispute exists in respect of an export contract approved on 13 December regarding Fraser Island mineral sands and that alternative marketing arrangements are being pursued. In effect this abrogates the initial agreement for export. In view of those comments, 1 ask the Minister to refer the matter to the Minister for Environment, Housing and Community Development or to the Minister for Primary Industry for examination. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1092</page.no>
+              <time.stamp />
+              <name.id>2U4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CARRICK, John</name>
+              <name role="display">Senator CARRICK</name>
+            </talker>
+            <para>-It looks as though this question involves a demarcation principle between 2 ministries. I will refer it to my colleagues in another place to examine the matter for <inline font-weight="bold">Senator Mulvihill.</inline></para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1092</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SOUTH AUSTRALIA: HOUSING</title>
+          <page.no>1092</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1092</page.no>
+              <time.stamp />
+              <name.id>9I4</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MESSNER, Tony</name>
+              <name role="display">Senator MESSNER</name>
+            </talker>
+            <para>- I direct my question to the Minister representing the Minister for Environment, Housing and Community Development. I refer to recent estimates that there are 800 unsold new homes in the Adelaide metropolitan area and to the decision of the State Bank of South Australia not to grant loans to persons earning more than $15 1 a week. As the average wage has now reached $ 1 80 a week, will the Minister use his good offices with the South Australian authorities in connection with the Commonwealth-State Housing Agreement to remove this unrealistic constraint? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1092</page.no>
+              <time.stamp />
+              <name.id>2U4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CARRICK, John</name>
+              <name role="display">Senator CARRICK</name>
+            </talker>
+            <para>-I think the honourable senator&#39;s question is important. It is true that a substantial backlog exists in satisfying the demand for homes in South Australia as well as elsewhere. It is equally true that the imposition of an earnings ceiling of $ 1 5 1 a week would remove the capacity to purchase from most people since the average weekly wage, as <inline font-weight="bold">Senator Messner</inline> pointed out, is above that amount. I will certainly invite my colleague in another place, the responsible Minister, to examine this question to see whether it merits discussion at State level and whether a solution could be found which would enable both a widening of the virtual means test and a capacity, therefore, to take up any homes that are available at present and are not being acquired. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1093</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>MARRIAGE CELEBRANTS</title>
+          <page.no>1093</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1093</page.no>
+              <time.stamp />
+              <name.id>4F4</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BUTTON, John</name>
+              <name role="display">Senator BUTTON</name>
+            </talker>
+            <para>-My question is to the Minister representing the Attorney-General. I refer to a letter dated 25 August from the Attorney-General to members of Parliament relating to the appointment of marriage celebrants in which the Minister, at page 2, stated: </para>
+          </talk.start>
+          <quote>
+            <para>I am anxious that the program should be completely apolitical. I have therefore taken the view that members of the Parliament, State or Federal, should not be appointed. </para>
+          </quote>
+          <para class="block">I ask the Minister whether he takes the view that that is a firm view of the Government and that members of Parliament should not be marriage celebrants? </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1093</page.no>
+              <time.stamp />
+              <name.id>8G4</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>LP</party>
+              <role>Minister for Veterans' Affairs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DURACK, Peter</name>
+              <name role="display">Senator DURACK</name>
+            </talker>
+            <para>- I should be surprised if a statement made by the Attorney-General and circulated to all members of Parliament were not a firm view of the Attorney-General and of the Government. If <inline font-weight="bold">Senator Button</inline> is making any suggestions about any existing member of Parliament who may be a marriage celebrant, I should like to remind the Senate that such appointments were made by the then <inline font-weight="bold">Senator Murphy,</inline> when he was Attorney-General in the previous Government. I do not understand that the Attorney-General has suggested that the policy that he has outlined in his letter should be retrospective. I think it may be of interest to note, for instance, that when legislation has been passed to set the age of retirement of judges at 70 years, the principle has never been adopted that it should apply to those already commissioned. Therefore I would expect the same principle to apply to such an important office as that of marriage celebrant. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1093</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>NORTHERN TERRITORY: HOUSING</title>
+          <page.no>1093</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1093</page.no>
+              <time.stamp />
+              <name.id>KPO</name.id>
+              <electorate>NORTHERN TERRITORY</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KILGARIFF, Bernard</name>
+              <name role="display">Senator KILGARIFF</name>
+            </talker>
+            <para>- I direct my question to the Minister representing the Minister for the Northern Territory. Like <inline font-weight="bold">Senator Messner,</inline> I am concerned about home sales. In the Northern </para>
+          </talk.start>
+          <para class="block">Territory, for instance, the home sales scheme has been cut out for some time. I understand that it has been cut out for the same reason mentioned by <inline font-weight="bold">Senator Messner.</inline> My question this morning relates to another form of housing which the Territory has not had available to it during the last few years. Whilst the Territory has had available to it all sorts of housing finance and housing home finance, housing commission, and other types of community housing, it has not had strata title housing available until now. The question is: What is the present situation in regard to this strata title legislation passed by the Northern Territory Legislative Assembly some 10 months ago and not yet commenced? When is it anticipated that people of the Northern Territory might be able to avail themselves of this type of home development? </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1093</page.no>
+              <time.stamp />
+              <name.id>KAS</name.id>
+              <electorate />
+              <party>NCP/NP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WEBSTER, James</name>
+              <name role="display">Senator WEBSTER</name>
+            </talker>
+            <para>-The concept of strata titles, which will be a new measure in the Northern Territory, is covered basically by 3 pieces of legislation- the Unit Title Ordinance, the Real Property Unit Title Ordinance and the Freehold Title Ordinance. The main features of the legislation provide for subdivision of suitably zoned land, vertically as well as horizontally; conversion of leasehold rights into freehold upon completion of the construction; the creation and issue of individual freehold titles in respect of each strata unit; detailed procedures for application to the Administrator; and the establishment of a body corporate comprising individual unit owners within each block. These provisions are in all respects similar to the enactments dealing with the rights and obligations of strata title owners in the States. My understanding is that there is a slight difference in the legislation in the Northern Territory compared with the legislation in the States with respect to conversion of a title from leasehold to freehold upon registration of an approved unit plan. This method arises from the basic leasehold system which operates in the Northern Territory. </para>
+          </talk.start>
+          <para>The honourable senator will be pleased to know that the principle legislation has been assented to but has not yet been commenced. The reason is that there are administrative defects in the legislation which require amendment before it can operate. Executive members of the Legislative Assembly have agreed to 2 exceptions to departmental recommendations for amendment. The 2 exceptions are the unrestricted conversion of residential leasehold to commercial freehold where no planning scheme exists and unrestricted sales of units prior to the issue of unit titles. The amendments referred to have been passed through the Assembly and a recommendation concerning assent is now being prepared by the Department. If there is further information that I can obtain for the honourable senator I shall do so during the day. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1094</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>AIR POLLUTION</title>
+          <page.no>1094</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1094</page.no>
+              <time.stamp />
+              <name.id>5V4</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLEMAN, Ruth</name>
+              <name role="display">Senator COLEMAN</name>
+            </talker>
+            <para>- I preface my question, which also is directed to the Minister for Science, by reminding the Minister of the recent review of the report of the Senate Select Committee on Air Pollution. I ask: How many of the recommendations have been adopted by the Government to date? If none, and in view of the obvious dangers of air pollution especially in our major urban regions, how does the Minister equate this lack of positive action by his Government with his Government&#39;s policy of &#39;science working towards social goals&#39;? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1094</page.no>
+              <time.stamp />
+              <name.id>KAS</name.id>
+              <electorate />
+              <party>NCP/NP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WEBSTER, James</name>
+              <name role="display">Senator WEBSTER</name>
+            </talker>
+            <para>-The implementation of legislation relating to the environment is not one for my Department. It would be a matter for the Department of Environment, Housing and Community Development, which is under the supervision of another Minister. However, the Commonwealth Scientific and Industrial Research Organisation is quite a part of the research into environmental matters and indeed it is part of the world investigation into this problem of air pollution and pollution of the environment generally. There is available a great deal of information which I shall be anxious to obtain and to forward to the honourable senator if she wishes. But I think that a question relating to the implementation of legislation concerning the environment should be addressed to another Minister. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1094</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BUTTER</title>
+          <page.no>1094</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1094</page.no>
+              <time.stamp />
+              <name.id>IE4</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARCHER, Brian</name>
+              <name role="display">Senator ARCHER</name>
+            </talker>
+            <para>-Can the Minister for Science advise what research is being carried out, either in Australia or overseas, to improve the spreadability of butter, either with or without additives? Can the Minister advise also when such improved product may be expected to be available on the market? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1094</page.no>
+              <time.stamp />
+              <name.id>KAS</name.id>
+              <electorate />
+              <party>NCP/NP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WEBSTER, James</name>
+              <name role="display">Senator WEBSTER</name>
+            </talker>
+            <para>-The spreadability of butter has been the subject of intensive investigation by the industry. Indeed, it has been used by the industy &#39;s competitors to harm the industry. There is a process used in Sweden for enhancing the spreadability of butter. The product is known as bregott. This is a butter which is made from a mixture of cream and some vegetable oils. It has been on the market in Sweden for a number of years. Research is being done in New Zealand, I understand, at the moment on the fractionation of butterfat, using acetone. From this fractionation process a butter of improved speadability has been produced. It is not as yet on the market and is unlikely to be, I understand, for some years. </para>
+          </talk.start>
+          <para>In Australia, and in the State of Victoria at the Gilbert Chandler Institute of Dairy Technology at Werribee, work has been carried out on fractionation of butter into hard and soft fractions by a process similar to that in New Zealand. At the present time this process has been demonstrated to be uneconomic and is unsatisfactory for Australian conditions. Quite a deal of information is available relating to this matter. I realise that the honourable senator, coming from the State of Tasmania, is vitally interested in increasing sales of butter. Great harm has been caused to the dairy industry over the past few years by unfair publicity. A great industry has been placed in jeopardy. One of the questions which the honourable senator raised is related to that fact. The honourable senator can be assured that advertising aimed at harming the interests of a pure product such as butter by producers of a product which is basically a copy of butter will not succeed in the long run. I think we can see the dairy industry having a very great future in Australia. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1094</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>MONSTER SEA SPONGES</title>
+          <page.no>1094</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1094</page.no>
+              <time.stamp />
+              <name.id>KTJ</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCINTOSH, Gordon</name>
+              <name role="display">Senator McINTOSH</name>
+            </talker>
+            <para>-Has the Minister for Science read a report that monster sea sponges have been found recently some 64 kilometres off the coast of San Francisco? Is the Minister aware that these sponges are of a new genus and are thriving in water at depths in excess of 900 metres? Can the Minister enlarge upon the significance of this discovery and say whether it has anything to do with radioactive leakage from the drums of nuclear waste to which the sponges are attached? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1094</page.no>
+              <time.stamp />
+              <name.id>KAS</name.id>
+              <electorate />
+              <party>NCP/NP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WEBSTER, James</name>
+              <name role="display">Senator WEBSTER</name>
+            </talker>
+            <para>- I noticed in the news some few weeks ago the report which the honourable senator mentioned. It was suggested in the report that some growth had been found in areas where nuclear waste had been deposited. On my reading of the article the growth did not seem to be unusual. The size of the sponges which was noted seemed to me to be commonplace in the Great Barrier Reef and other areas the wonders of which we as Australian citizens are most anxious to see. I know of no substance in the report that there is anything unusual about the growth of sponges at that depth or that it may have been the result of some reaction from atomic waste fall-out. However, if I can obtain any information on that matter for the honourable senator I shall forward it to him. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1095</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PROGRAMS FOR ABORIGINAL ADVANCEMENT</title>
+          <page.no>1095</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1095</page.no>
+              <time.stamp />
+              <name.id>KPV</name.id>
+              <electorate>ACT</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KNIGHT, John</name>
+              <name role="display">Senator KNIGHT</name>
+            </talker>
+            <para>- I direct a question to the Minister representing the Minister for Aboriginal Affairs. I refer to the recent announcement of an additional $2 5 m for programs to assist the Aboriginal people. Can the Minister say whether funds will be available from this amount to commence the urgently needed construction of housing for the Aboriginal community of Wreck Bay? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1095</page.no>
+              <time.stamp />
+              <name.id>C7D</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role>Minister for Social Security</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GUILFOYLE, Margaret</name>
+              <name role="display">Senator GUILFOYLE</name>
+            </talker>
+            <para>- I am able to advise that, as a result of the review of the programs for Aboriginal advancement and the additional funds that the Minister for Aboriginal Affairs announced this week, there will be a substantial increase in funds available for housing associations in New South Wales. It may be anticipated that a substantial increase will be available for the Wreck Bay Housing Association. However, details of final allocations to associations will not be determined before mid-October at the earliest. There may be some further impediment to a release to Wreck Bay pending negotiations with the Department of the Capital Territory regarding leasing matters. I will see that the honourable senator is given the information as soon as it is available. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1095</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>RURAL SECTOR</title>
+          <page.no>1095</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1095</page.no>
+              <time.stamp />
+              <name.id>TJ4</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WALSH, Peter</name>
+              <name role="display">Senator WALSH</name>
+            </talker>
+            <para>- I preface my question to the Minister representing the Minister for Primary Industry by saying that in the Budget Speech in August the Treasurer asserted that last year- I use his words- &#39;the farm sector was in a state of collapse&#39;. Precisely the same words were used by the Prime Minister in his Committee of Economic Development of Australia lecture last month. Does he know that the Bureau of Agricultural Economics released in late July an estimate that net real farm income will fall by 27 per cent this financial year? If, as alleged, the farm sector is collapsing, how will it survive a 27 per cent reduction in net farm income this year? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1095</page.no>
+              <time.stamp />
+              <name.id>JQR</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COTTON, Bob</name>
+              <name role="display">Senator COTTON</name>
+            </talker>
+            <para>-I think most people are expecting the farm sector to show a decline in total income because of seasonal problems. No Treasurer or Prime Minister- past, present or future- can be held responsible for acts of God. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1095</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>INTERNATIONAL RECIPROCITY OF PENSIONS</title>
+          <page.no>1095</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1095</page.no>
+              <time.stamp />
+              <name.id>JYA</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;BYRNE, Justin</name>
+              <name role="display">Senator O&#39;BYRNE</name>
+            </talker>
+            <para>- My question is directed to the Minister for Social Security. By way of preface I observe that the concept of international reciprocity of pensions is one of enlightened and humane advancement in human relations, particularly to the generation that was so drastically displaced and disturbed by the Second World War and its aftermath of migration. What is the current status of negotiations with European countries for reciprocity of pensions? Are negotiations proceeding? Can the Minister state the order of priority given to this matter by her Department? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1095</page.no>
+              <time.stamp />
+              <name.id>C7D</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GUILFOYLE, Margaret</name>
+              <name role="display">Senator GUILFOYLE</name>
+            </talker>
+            <para>- I am unable to supply accurately the information that has been sought in this question. Negotiations are being undertaken with some countries. I will obtain an uptodate report for the honourable senator and advise him accordingly. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1095</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ALCOHOL CONSUMPTION</title>
+          <page.no>1095</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1095</page.no>
+              <time.stamp />
+              <name.id>ME4</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BAUME, Peter</name>
+              <name role="display">Senator BAUME</name>
+            </talker>
+            <para>- My question is directed to the Minister for Industry and Commerce. I refer him to the fact that the growth of wine sales in Australia last year, as revealed in the interim annual report of the Australian Wine Board, was only 5 per cent and that some concern was expressed about this. In view of published figures showing that each Australian consumes annually more that 140 litres of beer and more than 1 1 litres of wine, and in view of current concern about the abuse of alcohol, would the Minister not agree that many Australians will see the stabilisation of sales and consumption as a source of comfort and reassurance rather than one for concern, and that we need to work to encourage a whole series of measures to help to limit the ever-increasing rate of increase in the levels of alcohol consumption which has been apparent in the last 10 years. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1095</page.no>
+              <time.stamp />
+              <name.id>JQR</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COTTON, Bob</name>
+              <name role="display">Senator COTTON</name>
+            </talker>
+            <para>-I have long been of the view that this country cannot drink itself into a state of prosperity. The relativity between wine sales and beer sales is a matter of tremendous fascination to me. I look at the statistics with great embarrassment because of my low personal contribution. I am really being asked to involve myself in an area that is equivalent to the question: What would you rather watch- a game of Australian rules, a game of rugby union or a game of rugby league? There is just no answer to that. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1095</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>AUSTRALIAN HELICOPTERS IN THE MIDDLE EAST</title>
+          <page.no>1095</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1095</page.no>
+              <time.stamp />
+              <name.id>K1Y</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BISHOP, Reginald</name>
+              <name role="display">Senator BISHOP</name>
+            </talker>
+            <para>- My question is directed to the Minister representing the Minister for Defence. I refer to a report that the contingent of Royal Australian Air Force pilots presently with the United Nations peace-keeping force in the Middle East considers that its helicopters are inadequately equipped for night flying because their instruments are not satisfactory. Is this report true? Is it also true that Navy pilots will be sent to use either those helicopters or other helicopters in such circumstances? Why cannot the necessary adjustments to equipment be made to make the aircraft available for emergency calls 24 hours a day? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1096</page.no>
+              <time.stamp />
+              <name.id>DV4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WITHERS, Reg</name>
+              <name role="display">Senator WITHERS</name>
+            </talker>
+            <para>-The briefing note I have says that in certain circumstances there is a limitation to the flying of Iroquois helicopters in the Middle East at night. This is related to the nature of the terrain, the requirement for precise navigation and the navigation aids in the Iroquois themselves. Of course, the limitation relates to the equipment and not to the pilots. These limitations exist, and to that extent only I think that the newspaper report is reasonably accurate. </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1096</page.no>
+                <time.stamp />
+                <name.id>K1Y</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BISHOP, Reginald</name>
+                <name role="display">Senator BISHOP</name>
+              </talker>
+              <para>- I wish to ask a supplementary question. Can the Minister say whether it is true that the Royal Australian Navy is sending other pilots or other equipment to overcome this situation? </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1096</page.no>
+                <time.stamp />
+                <name.id>DV4</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WITHERS, Reg</name>
+                <name role="display">Senator WITHERS</name>
+              </talker>
+              <para>-My instructions are that it is under consideration that some Royal Australian Navy pilots will join the United Nations helicopter detachment, but this is in no way due to the inadequacies of the Royal Australian Air Force pilots. I imagine that this is a very much sought after posting and that the Navy pilots feel that they also would like a piece of the action. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1096</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ASSISTANCE TO CANNING FRUIT INDUSTRY</title>
+          <page.no>1096</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1096</page.no>
+              <time.stamp />
+              <name.id>JTT</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DAVIDSON, Gordon</name>
+              <name role="display">Senator DAVIDSON</name>
+            </talker>
+            <para>- My question is to the Minister for Industry and Commerce. I refer to an Australian Broadcasting Commission news item in Adelaide last evening in which it was announced that the State Government was planning assistance to the fruit industries in South Australia and was prepared to write off an existing big loan to the Riverland Cannery, converting the same to a grant. As this loan of some $545,000 was made by the State and Commonwealth governments, has the Minister received any communication from Adelaide seeking the Commonwealth Government&#39;s agreement? If there is any agreement would the Minister expect that such a grant which would eventuate would involve the acceptance of some form of day to day supervision? If necessary, will the Minister obtain further information on the negotiations and advise the Senate? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1096</page.no>
+              <time.stamp />
+              <name.id>JQR</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COTTON, Bob</name>
+              <name role="display">Senator COTTON</name>
+            </talker>
+            <para>-As it happens, today in Canberra the regular meeting of the Commonwealth and State officials involved in industry, commerce and general development matters will be held. I know no more about this matter than the honourable senator related in his question. If it is a firm proposal and not just a rumor no doubt it will be discussed at the officials&#39; meeting. If a Commonwealth write off of funds is involved, without any doubt it will call for a Commonwealth position to be taken. In due course no doubt the Senate will ask how it happened that about $250,000 of public money was lost. The matters raised in the honourable senator&#39;s question are proper matters to be observed by the Senate. After question time I will telephone the Department and ascertain whether or not the officials from South Australia have been in touch with us about this matter. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1096</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TERTIARY EDUCATION ALLOWANCES</title>
+          <page.no>1096</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1096</page.no>
+              <time.stamp />
+              <name.id>GD5</name.id>
+              <electorate>ACT</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">RYAN, Susan</name>
+              <name role="display">Senator RYAN</name>
+            </talker>
+            <para>- My question is directed to the Minister for Education. I refer to the Minister&#39;s statement yesterday regarding the new tertiary allowance provisions in which he said: </para>
+          </talk.start>
+          <list type="lowerroman-dotted">
+            <item label=".">
+              <para>. the main thrust of such assistance should be towards the most needy. </para>
+            </item>
+          </list>
+          <para class="block">In view of that statement, can the Minister explain to the Senate and to the student community who are very interested in this matter why he has introduced a new category- &#39;dependent student away from home&#39;- with a maximum allowance of $38, or $5 a week less than the new &#39;independent student&#39; maximum allowance of $43, when the families of students qualifying for the maximum &#39;dependent away from home&#39; allowance will already have been means tested quite rigidly? I refer to the low income families who are unlikely to be able to assist students in this category. Will the Minister agree that this new discrepancy between independent students and dependent students from poor families living away from home may force poorer students to delay their studies for 2 years while they acquire eligibility for the independent student&#39;s allowance, either by working full time for 2 years or- as is more likely in the present circumstancesby spending 2 years on the dole? </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1096</page.no>
+              <time.stamp />
+              <name.id>2U4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CARRICK, John</name>
+              <name role="display">Senator CARRICK</name>
+            </talker>
+            <para>-No, I would not agree. The honourable senator asks why there are now 3 categories where before there were two. The simple situation is that there always were 3 categories in that there always were 2 different kinds of people living away from home. There were those living away from home with independent status, whether 25 years of age, married, wards of the State or able to satisfy a particular circumstance. That is a particular category and those students have always been so categorised. There is also a second category of those people who live away from home- those who are still dependent and who are categorised as such. </para>
+          </talk.start>
+          <para class="block">They live away from home of necessity because there is no immediate offering of an institution to which they can go. The only difference is that whereas previously there have been 2 categories which have attracted the same rate, those 2 categories now attract different rates. So let us make the position clear. There were always 3 categories. The question which arises is related to the rates and not to other things. </para>
+          <para>I say quite clearly that we have very substantially increased the amounts to be paid to those who are living away from home. Indeed, I was very interested to hear what the Deputy Leader of the Opposition in the Senate said yesterday in setting a bench mark. I refreshed my memory this morning as to what he said. I shall use his words: </para>
+          <quote>
+            <para>There is probably no case to be made out for making the basic living allowance for tertiary students greater than the unemployment allowance except that in addition to a sum at least equal to the unemployment allowance there should be a certain incidental allowance for costs that students must meet above their cost of living. This includes the provision of necessary text books, etc. </para>
+          </quote>
+          <para class="block">I remind the Senate and the people of Australia that the basic rate of allowance has been fixed at 50c a week below what the unemployment benefit will be as from I November. So apparently the Opposition and the Government are reasonably in tune as to what ought to be the bench mark test. There are those who are not independent, who are not 25 years of age, who are not married, and who are not wards of the State, and so on, but who are dependent students living away from home. There is, of course, a fundamental difference, and that is that it is recognised in the first place that some dependence is accepted by the family. There is also the fact that very recently the Federal Government did something which the Whitlam Government declined to do; it took the student allowance component of the previous child endowment rate which stood, I think, at $1.50. It substantially upgraded the rate so that the student, in his or her position in the family, now attracts a substantially greater student allowance. At the same time the Government indexed taxation. So a second substantial increase has been granted to help the poor and the under-privileged families who are maintaining students away from home. It is with those factors in mind that a differential in fees has been created. I suggest to the honourable senator that, taking the bench mark that the Opposition has agreed to, it is a reasonable amount. However, I want to stress to the Senate that we have increased the independent rate by 40 per cent compared with the rate fixed by the </para>
+          <para class="block">Whitlam Government and unchanged as from 1 January 1975. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1097</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>AUSTRALIAN LEGAL AID OFFICE, DARWIN</title>
+          <page.no>1097</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1097</page.no>
+              <time.stamp />
+              <name.id>K2U</name.id>
+              <electorate>NORTHERN TERRITORY</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ROBERTSON, Edward</name>
+              <name role="display">Senator ROBERTSON</name>
+            </talker>
+            <para>-My question, which is directed to the Minister for Administrative Services, refers to the office accommodation provided for the Australian Legal Aid Office in Darwin. On 23 June the Attorney-General, in reply to a letter from me, wrote in these terms: </para>
+          </talk.start>
+          <quote>
+            <para>I agree that the present accommodation is inadequate and unsuitable. </para>
+          </quote>
+          <para class="block">He advised that the Minister for Administrative Services was having the matter investigated as a matter of urgency. In view of the fact that an additional staff member is to be appointed next week, I ask the Minister: What provision has been made for alternative accommodation for the office? </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1097</page.no>
+              <time.stamp />
+              <name.id>DV4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WITHERS, Reg</name>
+              <name role="display">Senator WITHERS</name>
+            </talker>
+            <para>-I shall seek the information for the honourable senator. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1097</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>FOREST DISEASE: THYTOPHTHORA CINNANOM&#93;</title>
+          <page.no>1097</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1097</page.no>
+              <time.stamp />
+              <name.id>KKD</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JESSOP, Donald</name>
+              <name role="display">Senator JESSOP</name>
+            </talker>
+            <para>-I ask the Minister for Science whether he has seen a Press report in which it is alleged that an officer of the Commonwealth Scientific and Industrial Research Organisation accused the Victorian Forestry Commission of a cover up with respect to the forest disease thytophthora cinnanomi If the Minister finds it difficult to pronounce the name he can use the initials TC. Can the Minister give me any information on this matter? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1097</page.no>
+              <time.stamp />
+              <name.id>KAS</name.id>
+              <electorate />
+              <party>NCP/NP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WEBSTER, James</name>
+              <name role="display">Senator WEBSTER</name>
+            </talker>
+            <para>-The honourable senator raises quite an important question in relation to statements made by public servants and certainly in relation to a disease which the CSIRO scientists suggested was threatening forests in Victoria. <inline font-weight="bold">Dr French</inline> is a senior research scientist with the CSIRO Division of Building Research in Victoria. I understand that on this occasion he was speaking as a private citizen on conservation matters. On occasions public servants who speak publicly are alleged to be speaking on behalf of an authority such as CSIRO and this promotes difficulties for both the public servants and the organisation. During my ministry this matter has come up on a number of occasions. My understanding is that <inline font-weight="bold">Dr French</inline> made a statement relating to tree root disease dieback and suggested that there had been some cover up- at least that was the headline in one of the Melbourne papers- and some blame was attributed to the Forests Commission in Victoria. Apparently the news reporter telephoned <inline font-weight="bold">Dr French</inline> and in discussion, just as an aside, asked him where he was employed and so learned that <inline font-weight="bold">Dr French</inline> was a CSIRO officer. The news release which came out stated that the CSIRO was in actual fact making these allegations. My understanding is that on 27 September French made a statement in the Melbourne <inline font-style="italic">Herald</inline> in these terms: </para>
+          </talk.start>
+          <quote>
+            <para>In a report published in the final extra edition of the <inline font-style="italic">Herald</inline> on Thursday, <inline font-weight="bold">Dr J.</inline> R. French, a forest entomologist, was quoted as saying that the State Forests Commission was failing to alert the public about a serious tree disease. </para>
+            <para>
+              <inline font-weight="bold">Dr French</inline>was speaking in a private capacity as a member of the Native Forests Action Council, not in his capacity as a senior research scientist with the Division of Building Research, CSIRO. </para>
+          </quote>
+          <para class="block">I think there is difficulty for public servants who speak in a private capacity and one has sympathy for them. As far as the CSIRO is concerned, if a CSIRO officer seeks to speak publicly and to have his views accepted as being representative of a part of the CSIRO or of the Organisation as a whole, clearly that statement must have the endorsement of the Organisation. On the other hand, every member of the CSIRO has the same rights as any other employee in statutory authorities or government departments, and that is that if they speak as private citizens their comments must be accepted in that light. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1098</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>AUSTRALIAN ECONOMY</title>
+          <page.no>1098</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1098</page.no>
+              <time.stamp />
+              <name.id>7V4</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GEORGES, George</name>
+              <name role="display">Senator GEORGES</name>
+            </talker>
+            <para>- I direct a question to the Minister for Industry and Commerce. I am pleased to hear that in answer to a question from <inline font-weight="bold">Senator Walsh</inline> he is now blaming God and not the Labor Government for the decline in the economy. If I recall correctly the criticism Government supporters have been making over the past 6 months, they have blamed the Labor Government for every one of this Government&#39;s errors and they seem to continue to do so. I remind <inline font-weight="bold">Senator Cotton</inline> of an answer he gave to a question on 15 September 1976 in which he stated: </para>
+          </talk.start>
+          <quote>
+            <para>On evidence that has been accumulating over the last 6 weeks, the construction industry in New South Wales, which has been an area of concern, shows signs of beginning to improve. </para>
+          </quote>
+          <para class="block">In view of this statement I ask the Minister: On what information did he base his statement of 1 5 September? Further, how does the Minister reconcile his conclusion on the New South Wales construction industry with the figures released on 28 September which show a decrease in the value of total buildings approved in August compared with the June and July figures? </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1098</page.no>
+              <time.stamp />
+              <name.id>JQR</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COTTON, Bob</name>
+              <name role="display">Senator COTTON</name>
+            </talker>
+            <para>-I think it would be best to clarify the situation by saying that what I was making clear was that seasons are seasons and they come under the influence of other than human beings, but incompetence is incompetence wherever you may find it and we found a lot of it during the time of the previous Government. That clears that away. The general position about the construction industry in New South Wales is this: There is a very good group of people called the Economic Consultative Group which advises the Government. At its last meeting the Group was rounding out all the advice it could put together on the whole Australian scene. The indicators then- that was in September, I think- were that the industry in New South Wales was beginning to improve. If honourable senators opposite turn up one of the newspapers from a while ago they will find that <inline font-weight="bold">Mr J.</inline> K. Campbell of L. J. Hooker Ltd, a company which is not unknown in the home building area, was making similar comments. They are there to be read. When one thinks about those things and is then asked how they relate to the actual figures in July and August, one is fascinated by the obtuseness of some people&#39;s minds. </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1098</page.no>
+                <time.stamp />
+                <name.id>7V4</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GEORGES, George</name>
+                <name role="display">Senator GEORGES</name>
+              </talker>
+              <para>
+                <inline font-weight="bold">-Mr President,</inline>I have a supplementary question. How does the Minister explain that in August 1975 the amount was $120m, in June 1976 it was $1 18m, in July 1976 it was $137m and in August 1976 it was $107m? That is a dramatic drop. How can the Minister reconcile those figures? </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1098</page.no>
+                <time.stamp />
+                <name.id>DV4</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WITHERS, Reg</name>
+                <name role="display">Senator Withers</name>
+              </talker>
+              <para>- Figures for what? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1098</page.no>
+                <time.stamp />
+                <name.id>7V4</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GEORGES, George</name>
+                <name role="display">Senator GEORGES</name>
+              </talker>
+              <para>-Figures for the construction industry in New South Wales. That is a substantial drop and it just does not support what the Minister is indicating in his answer, that is, that there is an improvement in New South Wales and throughout Australia. Is it not clear that the figures deny the information that the Minister has been giving? </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1098</page.no>
+                <time.stamp />
+                <name.id>JQR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COTTON, Bob</name>
+                <name role="display">Senator COTTON</name>
+              </talker>
+              <para>-Of course they do not deny anything of the kind. What we are looking at is the overrun effect of the previous Government&#39;s disastrous reign in office. It takes 12 months at least for economic indicators to show through in final figures. What I have been saying all the time is that the indications we are getting are that things will improve. It is natural that we will still be seeing downturns in figures in July which are the result of previous actions. I do not think we will see a substantial improvement for a while yet but the indications are that it is on the way. The Opposition has a while to wait before the next election. Let us wait till then to see how smart the Opposition is. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1099</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>FEMALES IN HEALTH PROFESSIONS</title>
+          <page.no>1099</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1099</page.no>
+              <time.stamp />
+              <name.id>ME4</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BAUME, Peter</name>
+              <name role="display">Senator BAUME</name>
+            </talker>
+            <para>- My question to the Minister representing the Minister for Health relates to the continuing unacceptably high loss of trained women graduates and diplomates from the health professions. I remind the Minister that only 50 per cent of nurses are in practice 5 years after graduation while similar drop-out rates apply to other women health professionals. Is the Minister aware of the scheme started in New South Wales by the former Liberal Government to offer flexible working hours for up to 20 women medical graduates to be retained in practice on a part-time basis? Since this arrangement is a start towards better retention schemes for women and is consonant with views expressed by the Women&#39;s Electoral Lobby and other women&#39;s groups, I ask whether in the Australian Capital Territory or the Northern territory there are any similar schemes in the helping professions such as medicine, nursing, social work or physiotherapy offering flexible part-time employment to the pool of trained women whose skills at present are lost to society? If so, can the Minister outline the schemes? Can she also indicate the extent to which the Commonwealth is moving to expand or extend such employment opportunities in the States? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1099</page.no>
+              <time.stamp />
+              <name.id>C7D</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GUILFOYLE, Margaret</name>
+              <name role="display">Senator GUILFOYLE</name>
+            </talker>
+            <para>- I am not aware of the specific scheme in New South Wales which granted flexible working hours to 20 doctors but I am able to say that in the Australian Capital Territory the Health Commission does not have an overall scheme although it does have a number of flexible schemes applying to different professions not only to assist members to re-enter the work force on a part-time basis but also to remain employed in their profession in line with their personal commitments. This includes the policy of employment of professionals on a parttime basis with hours negotiated which are suitable to the individual and the Commission. Formal refresher training courses and courses at local educational bodies relate basically to the nursing area and include both in-service training and other courses. The majority of training offered is on an informal or on an on-the-job basis and extends over the whole spectrum of paramedical services, including those mentioned by the honourable senator. The Health Commission in the Australian Capital Territory also operates a casual relief pool system for persons wishing to work on a part-time or casual basis, especially in hospitals. With regard to the Northern Territory, every endeavour is made to utilise health professionals on a sessional or part-time basis. Although hours of duty for part-time professionals are not flexible in the sense that parttime professionals can please themselves about the hours during which they work, every effort is made to tailor the hours to the needs of the individual. For example, 53 part-time nursing sisters are employed at Darwin Hospital and 1 14 part-time nursing sisters are employed in the whole of the Northern Territory. Without this flexibility the Territory would be unable to provide the services that are required. So far as the Commonwealth extending its activities into the States on such arrangement is concerned, I believe that this is a matter for the States themselves. I think in common with the Commonwealth and those flexible schemes which I have mentioned, the States are using qualified people in whatever way they see fit and are arranging flexibility that suits both the health commissions or the institutions concerned and the individuals. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1099</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>FOREIGN CURRENCY REGULATIONS</title>
+          <page.no>1099</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1099</page.no>
+              <time.stamp />
+              <name.id>KTZ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLAREN, Geoffrey</name>
+              <name role="display">Senator McLAREN</name>
+            </talker>
+            <para>- I direct my question to the Minister representing the Attorney-General. Has the Attorney-General received a report in recent days from the Solicitor-General on his investigations into the alleged violation of foreign currency regulations by a <inline font-weight="bold">Mr Wiley</inline> Fancher and the Premier of Queensland last year? If the report has been received, is it the intention of the Government to table it? If not, why not? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1099</page.no>
+              <time.stamp />
+              <name.id>8G4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DURACK, Peter</name>
+              <name role="display">Senator DURACK</name>
+            </talker>
+            <para>- I have no information at hand in relation to the question asked by <inline font-weight="bold">Senator McLaren.</inline> I will pass the question to the Attorney-General and seek an early reply from him. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1099</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>YOUTH EMPLOYMENT TRAINING SCHEME</title>
+          <page.no>1099</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1099</page.no>
+              <time.stamp />
+              <name.id>6H4</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HARRADINE, Brian</name>
+              <name role="display">Senator HARRADINE</name>
+            </talker>
+            <para>- My question, which is directed to the Minister representing the Minister for Employment and Industrial Relations, deals with the special incentive for the youth employment training scheme. Whilst that scheme has been applauded and everybody wishes it success, I ask: What steps are being taken by the department concerned to ensure that existing workers will not be replaced by trainees under the scheme, that there will be some guarantee of continuity of employment for trainees under the scheme and that the overall result of the scheme will be a net increase in employment within the participating undertakings, whether they be pub- . lie or private. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1100</page.no>
+              <time.stamp />
+              <name.id>8G4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DURACK, Peter</name>
+              <name role="display">Senator DURACK</name>
+            </talker>
+            <para>
+              <inline font-weight="bold">- Senator Harradine</inline>asks me what steps are being taken by another department. I do not have such information at hand but I will try to obtain a reply for the honourable senator from my colleague the Minister for Employment and Industrial Relations as soon as possible. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PERSONAL EXPLANATIONS</title>
+        <page.no>1100</page.no>
+        <type>personal explanation</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1100</page.no>
+            <time.stamp />
+            <name.id>KUU</name.id>
+            <electorate>VICTORIA</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MISSEN, Alan</name>
+            <name role="display">Senator MISSEN</name>
+          </talker>
+          <para>- (Victoria)- I ask leave to make a personal explanation. I claim to have been misrepresented. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1100</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>-Is leave granted? There being no objection, leave is granted. </para>
+        </talk.start>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>1100</page.no>
+              <time.stamp />
+              <name.id>KUU</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MISSEN, Alan</name>
+              <name role="display">Senator MISSEN</name>
+            </talker>
+            <para>- I desire to draw to the attention of the Senate misrepresentations and gross libels which have occurred, so far as I am concerned, in newspapers in the last 2 days. I refer in particular to the <inline font-style="italic">Age</inline> and the <inline font-style="italic">Australian</inline> of 6 October 1976 and to the <inline font-style="italic">Age,</inline> the <inline font-style="italic">Australian</inline> and the <inline font-style="italic">Sydney Morning Herald</inline> of 7 October. Because the misrepresentations occurred 2 days in a row I think it is necessary to bring them to the attention of the Senate. </para>
+          </talk.start>
+        </continue>
+        <para>In dealing with the first matter I will have to read the question which I asked on 5 October 1976. Both matters arise out of questions which I asked on Tuesday and Wednesday of this week. The first question, which I must read to show the way in which it has been misrepresented in at least 3 and possibly 4 ways, relates to East Timor. My question read: </para>
+        <quote>
+          <para>My question is addressed to the Minister representing the Minister for Foreign Affairs. I refer to the recent action by Telecom officials and other Government officers at Darwin in confiscating the transmitter which provided communication with the resisting Fretilin forces in Timor. Does the Government agree that such government action may well lead to the false assumption - </para>
+        </quote>
+        <para class="block">I emphasise &#39;false assumption&#39;- by the Indonesian authorities that the Australian Government desires to suppress the disclosure, to Australians and the world, of continued fierce resistance by the East Timorese and of continued Indonesian atrocities in East Timor? What does the Government intend to do - </para>
+        <para class="block">I emphasise those words- to ensure that the Australian public has full access to facts relating to the Timor situation and is not dependent on Indonesian propaganda for news of the war in East Timor? </para>
+        <para class="block">The reports are identical except in one respect. The <inline font-style="italic">Australian</inline> and the <inline font-style="italic">Age</inline> obviously have taken them from the usual news service. The Australian account- which, as I said, is identical with that of the <inline font-style="italic">Age-</inline> made this comment: </para>
+        <quote>
+          <para>In the Senate, the Fretilin radio transmitter issue was raised at question time by a Victorian Liberal backbencher, <inline font-weight="bold">Senator Alan</inline> Missen. </para>
+          <para>He asked the Government Leader in the Senate, <inline font-weight="bold">Senator Withers,</inline> if confiscation of the radio meant the only information Australians would get on the East Timor situation would come from Indonesia. </para>
+          <para>He also asked if the Indonesians could assume from the action that the Australian Government had departed from its previous position of wanting an act of self-determination for the East Timorese. </para>
+        </quote>
+        <para class="block">The report goes on to give, in part, <inline font-weight="bold">Senator Withers&#39;</inline> reply- a reply which I found very satisfactorybut, in view of the misinterpretation of the question, it puts it into a completely different context. I will come to that later. </para>
+        <para>There are 3 falsities in that account and in the account of the <inline font-style="italic">Age.</inline> In the first place, it suggests that I was asking whether the confiscation of a radio &#39;meant the only information Australians would get about East Timor&#39;, and so on. Of course, that was not the question at all. The question has been reversed in its order. The question I was asking was what action the Government intends to take to ensure that the Australian public did get the other information. It was a positive question. It has been turned into a negative assumption that this is the only source where information would come from. That is the first falsity that appears in the account. </para>
+        <para>The second falsity appears in the <inline font-style="italic">Australian</inline> when it was stated: </para>
+        <quote>
+          <para>He also asked if the Indonesians could assume from the action . . . </para>
+        </quote>
+        <para class="block">The word &#39;falsely&#39; was left out of the report so that the appearance of a false assumption which I was asserting and with which the Minister agreed, did not appear. It turns it into a naivety, as though I was intending to presume that result and expecting that to be the result. That word false&#39; has been left out and I find it a gross misinterpretation of my question. The reports in the <inline font-style="italic">Australian</inline> and <inline font-style="italic">Age</inline> complete it by stating that I asked whether this assumption was that the Government has departed from &#39;its previous position of wanting an act of self-determination for the East Timorese&#39;. Nowhere in my question is any reference whatsoever made to the policy in relation to any act of self-determination. That is the imagination of the person who took down my question. What I asked was whether information would come out of East Timor and how we were going to get it. I said nothing about the policy of the Government in regard to an act of selfdetermination. </para>
+        <para>The fourth mistake in these reports arises when the <inline font-style="italic">Australian</inline> alone, refers to the answer of <inline font-weight="bold">Senator Withers-</inline> after completely mangling the question- and states: </para>
+        <quote>
+          <para>
+            <inline font-weight="bold">Senator Withers</inline>said: &#39;Merely because something is being done unlawfully and because the Government enforces the law, people should not make assumptions from it. &#39; </para>
+        </quote>
+        <para class="block">When that is read in relation to the mangled question one gets the impression that <inline font-weight="bold">Senator Withers</inline> was reproving me or suggesting that I was making some assumption. I point out that it was a false assumption. That was the basis of my question and that is the fourth gross libel in regard to that particular report. The article in the <inline font-style="italic">Australian</inline> not only turned a positive question into a negative question but also turned it into a naivety which, I suggest, it was not. Those articles were the result of the question I asked in this place on Tuesday. I turn now to the question I asked on Wednesday. It was a question to <inline font-weight="bold">Senator Guilfoyle</inline> and related to petrol sniffing in the Northern Territory. I must say that the reports once again are identical so far as I can see. I must say to the Minister for Social Security <inline font-weight="bold">(Senator Guilfoyle)</inline> that so far as I can see there is not any misinterpretation of her answer. She is terribly lucky, I think. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>1101</page.no>
+              <time.stamp />
+              <name.id>C7D</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GUILFOYLE, Margaret</name>
+              <name role="display">Senator Guilfoyle</name>
+            </talker>
+            <para>- I claim a misrepresentation of that, too. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>1101</page.no>
+              <time.stamp />
+              <name.id>KUU</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MISSEN, Alan</name>
+              <name role="display">Senator MISSEN</name>
+            </talker>
+            <para>- I have not studied the report of <inline font-weight="bold">Senator Guilfoyle</inline> &#39;s answer. Perhaps I was looking at my own situation rather too closely. The only reference in the reports appearing in the <inline font-style="italic">Australian,</inline> the <inline font-style="italic">Age</inline> and the <inline font-style="italic">Sydney Morning Herald</inline> to which I am objecting is the reference indicating that I am a Labor senator. After referring to <inline font-weight="bold">Senator Guilfoyle</inline> &#39;s answer, the Melbourne <inline font-style="italic">Age</inline> states: </para>
+          </talk.start>
+        </continue>
+        <quote>
+          <para>She was answering a question without notice from <inline font-weight="bold">Senator Missen</inline> (Lab., Vic). </para>
+        </quote>
+        <para class="block">To call me a Labor senator from Victoria was the grossest of libels. Let me make it clear; that report was in the Melbourne <inline font-style="italic">Age.</inline> The <inline font-style="italic">Australian</inline> says: </para>
+        <quote>
+          <para>She was answering a question without notice from <inline font-weight="bold">Senator Missen</inline> (Australian Labor Party, Victoria). </para>
+        </quote>
+        <para>The <inline font-style="italic">Sydney Morning Herald</inline> preferred to say: </para>
+        <quote>
+          <para>She told the Victorian Labor <inline font-weight="bold">Senator A.</inline> Missen . . . </para>
+        </quote>
+        <para class="block">This is the third time I have complained about this particular libel in the <inline font-style="italic">Australian</inline> in 18 months. On the first occasion I made an explanation in this chamber and the <inline font-style="italic">Australian</inline> took no action. When it happened again a fortnight later I threatened to sue the newspaper. It printed an article which it thought would indirectly completely overcome the situation. Staff of the <inline font-style="italic">Australian</inline> showed me notes indicating that they had correctly reported me here in the Parliament as a Liberal senator but some bright person in the Sydney office apparently changed it carefully each time. They were past performances. But I am referring now to performances today which I regard as a shocking libel. The mere fact that there may not be a strong Opposition here is no reason to try to import people into the Labor Party in this way. </para>
+        <para>One could comment further on the poor reporting of the Senate and the way in which newspapers are relying upon very single news coverage and the duplication of mistakes of this nature that this causes. I do not put it down as any sort of conspiracy but I do put it down to gross negligence, not only by the news service which supplied the information but also by the newspapers who ought to know better and who ought to check their facts. </para>
+        <para>I shall await the action the newspapers take to correct these 2 particular examples. In the event of no action I shall consider what action I should take outside this chamber, including reference to the Press Council of these particular matters. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1101</page.no>
+            <time.stamp />
+            <name.id>C7D</name.id>
+            <electorate>Victoria, Minister for Social Security</electorate>
+            <party>LP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GUILFOYLE, Margaret</name>
+            <name role="display">Senator GUILFOYLE</name>
+          </talker>
+          <para>- by leave- I wonder if I may take the opportunity for just one moment to refer to the reporting of the question and answer with regard to Aborigines and petrol sniffing. It is not my practice to claim misrepresentation where this is unnecessary but I do believe that as <inline font-weight="bold">Senator Missen</inline> has drawn attention to this matter I should mention the headline attached to a newspaper report which read as follows: </para>
+        </talk.start>
+        <quote>
+          <para>Guilfoyle backs exile for petrol sniffers. </para>
+        </quote>
+        <para class="block">I think that this is an extension of the imagination when read in conjunction with the very careful answer which I gave on the matter that was raised by <inline font-weight="bold">Senator Missen.</inline> This only highlights the points that have been made by <inline font-weight="bold">Senator Missen.</inline> I think it is to be regretted that careless reporting of matters that are important should be undertaken by the Australian Press. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>AUSTRALIAN ATOMIC ENERGY COMMISSION</title>
+        <page.no>1101</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1101</page.no>
+            <time.stamp />
+            <name.id>DV4</name.id>
+            <electorate>Western AustraliaMinister for Administrative Services</electorate>
+            <party>LP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">WITHERS, Reg</name>
+            <name role="display">Senator WITHERS</name>
+          </talker>
+          <para>- Pursuant to section 31 of the Atomic Energy Act 1953, I present the annual report of the Australian Atomic Energy Commission for the year ended 30 June 1976. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DRIED FRUITS RESEARCH COMMITTEE</title>
+        <page.no>1101</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1101</page.no>
+            <time.stamp />
+            <name.id>JQR</name.id>
+            <electorate>New South WalesMinister for Industry and Commerce</electorate>
+            <party>LP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COTTON, Bob</name>
+            <name role="display">Senator COTTON</name>
+          </talker>
+          <para>- Pursuant to section 18 of the Dried Fruits Research Act 1971, I present the annual report of the Dried Fruits Research Committee for the year ended 30 June 1976. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>INSURANCE COMMISSION</title>
+        <page.no>1102</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1102</page.no>
+            <time.stamp />
+            <name.id>JQR</name.id>
+            <electorate>New South WalesMinister for Industry and Commerce</electorate>
+            <party>LP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COTTON, Bob</name>
+            <name role="display">Senator COTTON</name>
+          </talker>
+          <para>- Pursuant to section 125 of the Insurance Act 1973, I present the annual report of the Insurance Commissioner for the year ended 30 June 1976. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>FACILITIES IN INDEPENDENT SECONDARY SCHOOLS</title>
+        <page.no>1102</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1102</page.no>
+            <time.stamp />
+            <name.id>2U4</name.id>
+            <electorate>New South WalesMinister for Education</electorate>
+            <party>LP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CARRICK, John</name>
+            <name role="display">Senator CARRICK</name>
+          </talker>
+          <para>- For the information of honourable senators I present the final report, dated 1976, of the Commonwealth Advisory Committee on Standards for Science Facilities in Independent Secondary Schools. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1102</page.no>
+            <time.stamp />
+            <name.id>KPG</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">KEEFFE, James</name>
+            <name role="display">Senator KEEFFE</name>
+          </talker>
+          <para>
+            <inline font-weight="bold">-Mr President,</inline>I seek leave to move a motion. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1102</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>-Is leave granted? There being no objection leave is granted. </para>
+        </talk.start>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>1102</page.no>
+              <time.stamp />
+              <name.id>KPG</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KEEFFE, James</name>
+              <name role="display">Senator KEEFFE</name>
+            </talker>
+            <para>- I move: </para>
+          </talk.start>
+        </continue>
+        <quote>
+          <para class="block">That the Senate take note of the Paper.  I seek leave to continue my remarks later. Leave granted; debate adjourned. </para>
+        </quote>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>AUSTRALIAN BROADCASTING COMMISSION</title>
+        <page.no>1102</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1102</page.no>
+            <time.stamp />
+            <name.id>2U4</name.id>
+            <electorate>New South WalesMinister for Education</electorate>
+            <party>LP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CARRICK, John</name>
+            <name role="display">Senator CARRICK</name>
+          </talker>
+          <para>- Pursuant to section 78 of the Broadcasting and Television Act 1972, I present the annual report of the Australian Broadcasting Commission for the year ended 30 June 1976. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>NATIONAL DAIRY HERD IMPROVEMENT SCHEME</title>
+        <page.no>1102</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1102</page.no>
+            <time.stamp />
+            <name.id>8G4</name.id>
+            <electorate>Western AustraliaMinister for Veterans&#39; Affairs</electorate>
+            <party>LP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DURACK, Peter</name>
+            <name role="display">Senator DURACK</name>
+          </talker>
+          <para>- For the information of honourable senators I present the benefitcost study of the Industries Assistance Commission of the National Dairy Herd Improvement Scheme. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>1102</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Senate Estimates Committees</title>
+          <page.no>1102</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1102</page.no>
+              <time.stamp />
+              <name.id>DV4</name.id>
+              <electorate>Western AustraliaLeader of the Government in the Senate</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WITHERS, Reg</name>
+              <name role="display">Senator WITHERS</name>
+            </talker>
+            <para />
+          </talk.start>
+          <para>That the Senate do now adjourn. </para>
+          <para class="block">I have so moved to enable Estimates committees to meet. Estimates Committee A will meet in the Senate chamber; Estimates Committee C will meet in Senate committee room No. 1; and Estimates Committee D will meet in Senate committee room No. 5 </para>
+          <para>Question resolved in the affirmative. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1102</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- Order! The Senate stands adjourned until Tuesday next at 2.30 p.m. The bells will be rung for 2 minutes prior to the sitting of the Estimates committees. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>1102</page.no>
+        <time.stamp>11:45:00</time.stamp>
+      </adjournmentinfo>
+      <para class="block">Senate adjourned at 11.45 a.m. </para>
+    </adjournment>
+  </chamber.xscript>
+  <answers.to.questions>
+    <debate>
+      <debateinfo>
+        <title>ANSWERS TO QUESTIONS</title>
+        <page.no>1103</page.no>
+        <type>ANSWERS TO QUESTIONS</type>
+      </debateinfo>
+      <para>The following answers to questions were circulated: </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Department of Overseas Trade: Statutory Authorities (Question No. 940)</title>
+          <page.no>1103</page.no>
+        </subdebateinfo>
+        <question>
+          <talk.start>
+            <talker>
+              <page.no>1103</page.no>
+              <time.stamp />
+              <name.id>ISW</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WRIEDT, Ken</name>
+              <name role="display">Senator Wriedt</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Overseas Trade, upon notice: </para>
+          </talk.start>
+          <list type="decimal">
+            <item label="(">
+              <para>1 ) Which statutory authorities come under the control of the Department of Overseas Trade. </para>
+            </item>
+            <item label="(2)">
+              <para>What is the name, occupation, date and term of appointment, and remuneration of each holder of public office of each authority. </para>
+            </item>
+          </list>
+        </question>
+        <answer>
+          <talk.start>
+            <talker>
+              <page.no>1103</page.no>
+              <name.id>JQR</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COTTON, Bob</name>
+              <name role="display">Senator Cotton</name>
+            </talker>
+            <para>- The Minister for Overseas Trade has provided the following information in answer to the honourable senator&#39;s question: </para>
+          </talk.start>
+          <list type="decimal">
+            <item label="(">
+              <para>1 ) There are two statutory authorities that fall within my area of responsibility. They are the Export Finance and Insurance Corporation and the Export Development Grants Board. </para>
+            </item>
+            <item label="(2)">
+              <para>Information requested in regard to each office holder of these authorities is set out in the attached schedule. The remuneration payable to each of the office holders (other than public servants) is that determined in the Remuneration Tribunal &#39;s 1976 Review. </para>
+            </item>
+          </list>
+        </answer>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Australian Capital Territory Legal Aid Office (Question No. 988)</title>
+          <page.no>1104</page.no>
+        </subdebateinfo>
+        <question>
+          <talk.start>
+            <talker>
+              <page.no>1104</page.no>
+              <time.stamp />
+              <name.id>GD5</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">RYAN, Susan</name>
+              <name role="display">Senator Ryan</name>
+            </talker>
+            <para>asked the Minister representing the Attorney-General, upon notice: </para>
+          </talk.start>
+          <list type="decimal">
+            <item label="(">
+              <para>1 ) How much of the total allocation for the Australian Capital Territory Legal Aid Office for 1975-76 was allocated for staff salaries. </para>
+            </item>
+            <item label="(2)">
+              <para>How much was allocated for payment to the private legal profession. </para>
+            </item>
+          </list>
+        </question>
+        <answer>
+          <talk.start>
+            <talker>
+              <page.no>1104</page.no>
+              <name.id>8G4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DURACK, Peter</name>
+              <name role="display">Senator Durack</name>
+            </talker>
+            <para>- The Attorney-General has provided the following answer to the honourable senator&#39;s question: </para>
+          </talk.start>
+          <quote>
+            <para>Of the total expenditure of the Australian Capital Territory Legal Aid Office for 1975-76- </para>
+            <list type="decimal">
+              <item label="(1)">
+                <para>approximately $213,000 was expended on staff salaries; and </para>
+              </item>
+              <item label="(2)">
+                <para>approximately $167,000 was expended on payments to the private legal profession. </para>
+              </item>
+            </list>
+          </quote>
+        </answer>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Australian Information Service (Question No. 1025)</title>
+          <page.no>1104</page.no>
+        </subdebateinfo>
+        <question>
+          <talk.start>
+            <talker>
+              <page.no>1104</page.no>
+              <time.stamp />
+              <name.id>KTA</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCCLELLAND, Douglas</name>
+              <name role="display">Senator Douglas McClelland</name>
+            </talker>
+            <para>asked the Minister for Administrative Services, upon notice: </para>
+          </talk.start>
+          <list type="decimal">
+            <item label="(">
+              <para>1 ) How many women were employed by the Australian Information Service in December 1972. </para>
+            </item>
+            <item label="(2">
+              <para>) How many women are now employed by the Service. </para>
+            </item>
+            <item label="(3)">
+              <para>How many women have been appointed to overseas information posts. </para>
+            </item>
+            <item label="(4)">
+              <para>What are their names and the dates of their appointment. </para>
+            </item>
+            <item label="(5)">
+              <para>Can the Minister provide a list of the names, gradings, and language qualifications, including period of study, of all journalists in the Service who are eligible for overseas posting. </para>
+            </item>
+            <item label="(6)">
+              <para>Can the Minister give an assurance that women in the Service will not be discriminated against for overseas posts. </para>
+            </item>
+          </list>
+        </question>
+        <answer>
+          <talk.start>
+            <talker>
+              <page.no>1104</page.no>
+              <name.id>DV4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WITHERS, Reg</name>
+              <name role="display">Senator Withers</name>
+            </talker>
+            <para>- The answer to the honourable senator&#39;s question is as follows: </para>
+          </talk.start>
+          <list type="decimal">
+            <item label="(">
+              <para>1 ) In December 1972, 52 women were employed in those areas of the then Australian News and Information Bureau which later became the Australian Information Service. Four were journalists. </para>
+            </item>
+            <item label="(2">
+              <para>) Seventy-seven ( 1 5 journalists). </para>
+            </item>
+            <item label="(3)">
+              <para>Three. </para>
+            </item>
+            <item label="(4)">
+              <para>
+                <inline font-weight="bold">Mrs Patricia</inline>Newby, Media Liaison Officer, Australian High Commission, London, in May 1975; </para>
+            </item>
+          </list>
+          <para>Miss Barbara Whiteman to become Second Secretary (Information), Australian Embassy, Bangkok, in October 1976; </para>
+          <para>Miss Robin Smith to become First Secretary (Information), Australian Embassy, Tehran, in October 1976. </para>
+          <list type="decimal">
+            <item label="(5)">
+              <para>Proficiency in a foreign language is one of the desirable qualifications for officers who are considered for duty with AIS in non-English speaking countries. </para>
+            </item>
+          </list>
+          <para>I am not prepared to provide personal information of the type requested, however, the number of journalists eligible to be posted overseas includes many who speak one or more foreign languages to varying degrees of proficiency. This may be summarised as: </para>
+          <para>Number of journalists eligible to be posted overseas............... 109 </para>
+          <para>Number who have some foreign language proficiency............ 96 </para>
+          <para>Foreign languages: Arabic, Czech, Dutch, French, German, Greek, Indonesian, Italian, Japanese, Malay, Mandarin Chinese, Persian, Pidgin, Polish, Russian, Serbo-Croat, Spanish, Swedish, Thai. </para>
+          <list type="decimal">
+            <item label="(6)">
+              <para>Yes. </para>
+            </item>
+          </list>
+        </answer>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Department of National Resources: Journalists (Question No. 1027)</title>
+          <page.no>1104</page.no>
+        </subdebateinfo>
+        <question>
+          <talk.start>
+            <talker>
+              <page.no>1104</page.no>
+              <time.stamp />
+              <name.id>KTA</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCCLELLAND, Douglas</name>
+              <name role="display">Senator Douglas McClelland</name>
+            </talker>
+            <para>asked the Minister representing the Minister for National Resources, upon notice: </para>
+          </talk.start>
+          <list type="decimal">
+            <item label="(">
+              <para>1 ) How many journalists were employed in the Minister&#39;s Department, and in commissions and statutory bodies under the Minister&#39;s control, when the administrative arrangements of 22 December 1 975 were made. </para>
+            </item>
+            <item label="(2)">
+              <para>How many journalists were employed in the Department of National Resources, and in commissions and statutory bodies under the Minister&#39;s control, at 1 September 1976. </para>
+            </item>
+          </list>
+        </question>
+        <answer>
+          <talk.start>
+            <talker>
+              <page.no>1104</page.no>
+              <name.id>DV4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WITHERS, Reg</name>
+              <name role="display">Senator Withers</name>
+            </talker>
+            <para>- The Minister for National Resources has provided the following answer to the honourable senator&#39;s question: </para>
+          </talk.start>
+          <list type="decimal">
+            <item label="(1)">
+              <para>Four. </para>
+            </item>
+            <item label="(2)">
+              <para>Four. </para>
+            </item>
+          </list>
+        </answer>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Department of Overseas Trade: Journalists (Question No. 1028)</title>
+          <page.no>1104</page.no>
+        </subdebateinfo>
+        <question>
+          <talk.start>
+            <talker>
+              <page.no>1104</page.no>
+              <time.stamp />
+              <name.id>KTA</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCCLELLAND, Douglas</name>
+              <name role="display">Senator Douglas McClelland</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Overseas Trade, upon notice: </para>
+          </talk.start>
+          <list type="decimal">
+            <item label="(">
+              <para>1 ) How many journalists were employed in the Minister&#39;s Department, and in commissions and statutory bodies under the Minister&#39;s control, when the administrative arrangements of 22 December 1975 were made. </para>
+            </item>
+            <item label="(2)">
+              <para>How many journalists were employed in the Department of Overseas Trade and in commissions and statutory bodies under the Minister&#39;s control at 1 September 1 976. </para>
+            </item>
+          </list>
+        </question>
+        <answer>
+          <talk.start>
+            <talker>
+              <page.no>1104</page.no>
+              <name.id>JQR</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COTTON, Bob</name>
+              <name role="display">Senator Cotton</name>
+            </talker>
+            <para>- The Minister for Overseas Trade has provided the following information in answer to the honourable senator&#39;s question: </para>
+          </talk.start>
+          <list type="decimal">
+            <item label="(">
+              <para>1 ) Twenty-five. </para>
+            </item>
+            <item label="(2)">
+              <para>Twenty-three. </para>
+            </item>
+          </list>
+        </answer>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Department of Defence: Journalists (Question No. 1037)</title>
+          <page.no>1104</page.no>
+        </subdebateinfo>
+        <question>
+          <talk.start>
+            <talker>
+              <page.no>1104</page.no>
+              <time.stamp />
+              <name.id>KTA</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCCLELLAND, Douglas</name>
+              <name role="display">Senator Douglas McClelland</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Defence, upon notice: </para>
+          </talk.start>
+          <list type="decimal">
+            <item label="(">
+              <para>1 ) How many journalists were employed in the Minister&#39;s Department, and in commissions and statutory bodies under the Minister&#39;s control, when the administrative arrangements of 22 December 1975 were made. </para>
+            </item>
+            <item label="(2)">
+              <para>How many journalists were employed in the Department of Defence, and in commissions and statutory bodies under the Minister&#39;s control, at 1 September 1976. </para>
+            </item>
+          </list>
+        </question>
+        <answer>
+          <talk.start>
+            <talker>
+              <page.no>1105</page.no>
+              <name.id>DV4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WITHERS, Reg</name>
+              <name role="display">Senator Withers</name>
+            </talker>
+            <para>- The Minister for Defence has provided the following answer to the honourable senator&#39;s question: </para>
+          </talk.start>
+          <list type="decimal">
+            <item label="(">
+              <para>1 ) Fourteen. </para>
+            </item>
+            <item label="(2)">
+              <para>Fifteen. </para>
+            </item>
+          </list>
+        </answer>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Attorney-General&#39;s Department: Journalists (Question No. 1039)</title>
+          <page.no>1105</page.no>
+        </subdebateinfo>
+        <question>
+          <talk.start>
+            <talker>
+              <page.no>1105</page.no>
+              <time.stamp />
+              <name.id>KTA</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCCLELLAND, Douglas</name>
+              <name role="display">Senator Douglas McClelland</name>
+            </talker>
+            <para>asked the Minister representing the Attorney-General, upon notice: </para>
+          </talk.start>
+          <list type="decimal">
+            <item label="(">
+              <para>1 ) How many journalists were employed in the Minister&#39;s Department, and in commissions and statutory bodies under the Minister&#39;s control, when the administrative arrangements of 22 December 1975 were made. </para>
+            </item>
+            <item label="(2)">
+              <para>How many journalists were employed in the AttorneyGeneral&#39;s Department, and in commissions and statutory bodies under the Minister&#39;s control at 1 September 1 976. </para>
+            </item>
+          </list>
+        </question>
+        <answer>
+          <talk.start>
+            <talker>
+              <page.no>1105</page.no>
+              <name.id>8G4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DURACK, Peter</name>
+              <name role="display">Senator Durack</name>
+            </talker>
+            <para>- The answer to the honourable senator&#39;s question is as follows: </para>
+          </talk.start>
+          <list type="decimal">
+            <item label="(1)">
+              <para>and (2) On 22 December 1975 and at 1 September 1976, 3 journalists were employed by the AttorneyGeneral&#39;s Department. No journalists were employed in commissions and statutory bodies under the AttorneyGeneral &#39;s control. </para>
+            </item>
+          </list>
+        </answer>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Defence: D Notices (Question No. 1057)</title>
+          <page.no>1105</page.no>
+        </subdebateinfo>
+        <question>
+          <talk.start>
+            <talker>
+              <page.no>1105</page.no>
+              <time.stamp />
+              <name.id>K6F</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAVANAGH, James</name>
+              <name role="display">Senator Cavanagh</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Defence, upon notice: </para>
+          </talk.start>
+          <quote>
+            <para>Has the Government an arrangement with the media of Australia that by issuing what has been called a D Notice the media will give no public disclosures of the matter which is the subject of the notice. </para>
+          </quote>
+        </question>
+        <answer>
+          <talk.start>
+            <talker>
+              <page.no>1105</page.no>
+              <name.id>DV4</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WITHERS, Reg</name>
+              <name role="display">Senator Withers</name>
+            </talker>
+            <para>- The Minister for Defence has provided the following answer to the honourable senator&#39;s question: </para>
+          </talk.start>
+          <quote>
+            <para>The D Notice system has operated continuously in Australia since 1952. </para>
+            <para>A D Notice is a communication issued to the media on the authority of the Defence Press and Broadcasting Committee. The Committee is chaired by the Minister for Defence and consists of a majority of media members. D Notices outline subjects which bear upon defence or national security. The Notice requests the media to refrain from publishing particular information about those subjects. </para>
+            <para>Only four D Notices are in operation and these are unclassified. The system is entirely voluntary. </para>
+          </quote>
+        </answer>
+      </subdebate.1>
+    </debate>
+  </answers.to.questions>
+</hansard>

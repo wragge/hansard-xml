@@ -1,251 +1,1720 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #010214; } body { background-image: url(/images/body-home-dusk-blurred.jpg); background-color: #010214; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1952-02-26%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1952-02-26%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1952-02-26%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1952-02-26%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1952-02-26%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1952-02-26%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1952-02-26%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1952-02-26/19520226_senate_20_216.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1952-02-26</date>
+    <parliament.no>20</parliament.no>
+    <session.no>1</session.no>
+    <period.no>3</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>299</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1952-02-26</day.start>
+      <para>The <inline font-weight="bold">President (Senator the Hon. Edward Mattner)</inline> took the chair at 3 p.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF SENATOR RICHARD HARRY NASH</title>
+        <page.no>299</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>299</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>- It is with very great regret that I have to announce to the Senate the death of <inline font-weight="bold">Senator Richard</inline> Harry Nash, which occurred on the 12th December last. On behalf of honorable . senators, I conveyed an expression of sympathy to <inline font-weight="bold">Mrs. Nash,</inline> pending the more formal resolution of tho Senate. A reply has been received from <inline font-weight="bold">Mrs. Nash</inline> expressing her appreciation and thanks for the message of sympathy. </para>
+        </talk.start>
+      </speech>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Later:</title>
+          <page.no>300</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>300</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate>QueenslandMinister for Trade and Customs</electorate>
+              <party>LP</party>
+              <role>Minister for Trade and Customs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- <inline font-style="italic">by leave</inline> - Honorable senators will have heard willi deep regret of the sudden and tragic death of a member of the Senate, <inline font-weight="bold">Senator R.</inline> H. Nash, who died in his home State, Western Australia, on the 12th December last. <inline font-weight="bold">Senator Nash</inline> was first elected to the Senate for Western Australia in 1943. He always exhibited a high sense of responsibility and discharged his parliamentary duties with keenness and sincerity. Soon after he entered the Parliament, he was appointed to the Regulation and Ordinances Committee and was a member of that committee at the time of his death, for some years he was its  chairman.  From 1944 to 1946 he was a member of the Broadcasting Committee, and from December, 1946, to October, 1949, he served on the Public Works Committee. He was a Temporary  Chairman  of Committees from September, 1948. He waa also a member of the Select Committee appointed by the Senate to .consider and report upon the Constitution Alteration (Avoidance of Double Dissolution Deadlocks) Bill in 1950. He was a member of the Australian delegation to the United Nations conference on International Organization in San Francisco, in 1945. </para>
+          </talk.start>
+          <para>Before his election to the Senate, our late colleague had made a very long and creditable contribution to the public life of the State which he represented in this chamber with much zeal. He served on the Advisory Committee of the Perth Hospital and was a representative on the Man-power Appeal Tribunal in Western Australia. In that State he also did important work as a member of the Advisory Committee for the Army Education Service. Like so many others who, over the years, have served this chamber, <inline font-weight="bold">Senator Nash</inline> had a long and proud association with the great Australian trade union  movement, proceeding from the far away year of 1904, when he was on the staff of the Kalgoorlie <inline font-style="italic">Miner,</inline> through the intervening years. His various appointments included, in more recent times, the position of secretary of the Perth Trades Hall. </para>
+          <para>There was another and more persona) side of the character of <inline font-weight="bold">Senator Nash.</inline> During World War IT. he and <inline font-weight="bold">Mrs. Nash</inline> lost two gallant sons on active service. He bore these cruel blows with quiet resignation and without a trace of bitterness,, and continued his . public . work with unremitting devotion. To his widow - his frequent companion.here in Canberra - and his children will flow a feeling of profound sympathy. I move - </para>
+          <quote>
+            <para>That the Senate expresses its deep regret at the death of <inline font-weight="bold">Senator Richard</inline> Harry Hash,, places on record its appreciation of his meritorious public service, and tenders its sinceresympathy to his widow and the members of his family in their bereavement. </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>300</page.no>
+              <time.stamp />
+              <name.id>KTN</name.id>
+              <electorate>TasmaniaLeader of the Opposition</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCKENNA, Nicholas</name>
+              <name role="display">Senator McKENNA</name>
+            </talker>
+            <para>- I second the motion. I thank the Minister for Trade and Customs <inline font-weight="bold">(Senator O&#39;sullivan)</inline> for hiskindly references to <inline font-weight="bold">Senator Nash.</inline> The Minister has given details of <inline font-weight="bold">Senator&#39; Nash&#39;s</inline> life and service and I shall not repeat them. I merely add the fact that <inline font-weight="bold">Senator Nash</inline> served also in municipal government in Western Australia. To his record of service, I and my colleagues of the Labour Opposition make our acknowledgments, .and pay our unqualified tributes. <inline font-weight="bold">Senator Nash&#39;s</inline> service extended through municipal, governmental,, national and international fields. He served Western Australia well and his death will be a loss- to that State. I pay a tribute to <inline font-weight="bold">Senator Nash</inline> as a most wholesome man, and a loyal, able, earnest and hard-working colleague, who could be depended upon in every emergency. He was a great friend, and a cheery and kindly one. He brought credit to himself, his State, his party and the nation. We who knew him will never forget him. </para>
+          </talk.start>
+          <para>When we parted with <inline font-weight="bold">Senator Nash</inline> at the end of the pre-Christmas sessional period, there was not one of us who did not look forward with lively and pleasant expectation to meeting him again in the New Year. But that waa not to be. The news of his death came as a great shock to all of us, and it made more acute our sorrow at his passing. We join with honorable senators opposite in expressing our deepest sympathy with his sorrowing family, who were privileged to know him very- much better than even we in this chamber did. It is clear now that <inline font-weight="bold">Senator Nash,</inline> who never spared himself in the discharge of his parliamentary duties, often took up heavy burdens in this chamber which, if he had considered himself alone, he would not have undertaken. We are the better for having known him, and the Senate is poorer for his passing. We of the Labour party will ever keep his memory fresh in our minds. May he rest in peace. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>301</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate>Queensland</electorate>
+              <party>CP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>. - I associate the members of the Australian Country party with the motion of condolence and sympathy that has been proposed by the Minister for Trade and Customs <inline font-weight="bold">(Senator O&#39;Sullivan)</inline> and seconded by the Leader of the Opposition <inline font-weight="bold">(Senator McKenna).</inline> My colleagues and myself were deeply shocked to learn of the sudden death of one of our associates in the Senate. We can all say that, with the passing of <inline font-weight="bold">Senator Nash,</inline> we have lost a very good friend, for Dick, as we knew him, was not a man to make enemies. He had principles in which he believed strongly, and he was at all times prepared to fight to the last to uphold them. He had a wealth of experience. Doubtless that helped him a great deal in his outlook on life, which was always a. humane one. I had the pleasure of knowing him for many years. I learnt that the more one knew of him, the more one respected him. The members of the Australian Country party feel deeply the loss of <inline font-weight="bold">Senator Nash,</inline> and extend their deepest sympathy to his widow and family. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>301</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator FRASER</name>
+            </talker>
+            <para>-It was a great shock to me when I received a telephone message that <inline font-weight="bold">Senator Nash</inline> had passed away. On the previous Monday I had attended with him a conference with the Perth City Council. I was associated with <inline font-weight="bold">Senator Nash</inline> for 30 years, and I suppose that I knew him better than did anyone else in this chamber. He was a great family man. Because of his integrity, he was a man whom one could trust. Although at times we had disagreements with him about industrial and political policy, he always accepted the decisions that were made. I regret his passing. I have already conveyed my sympathy to his sorrowing widow and family. He will always be remembered in Western Australia as a man who did his best for his country and his family. I support the motion. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>301</page.no>
+              <time.stamp />
+              <name.id>JQN</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOKE, Joseph</name>
+              <name role="display">Senator COOKE</name>
+            </talker>
+            <para>- I associate myself with this sad motion. <inline font-weight="bold">Senator Nash</inline> - Dick Nash as we knew him - was a sincere man who took his duties very seriously. He applied himself assiduously .and well on behalf of the people of this nation and showed a complete loyalty to his party and his principles. It was with great regret that I learned of his passing. I know, too, the deep sense of loss that was felt by his party in Western Australia and throughout Australia at his death. I associate myself with the motion and express my deep sympathy to his relatives. </para>
+          </talk.start>
+          <para>Question resolved in the affirmative, honorable senators standing in their places. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>REPRESENTATION OF WESTERN AUSTRALIA</title>
+        <page.no>301</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Senator J. A. Cooke Sworn</title>
+          <page.no>301</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>301</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- I desire to advise the Senate that, pursuant to the provisions of the Constitution, I notified the Governor of the State of Western Australia of the vacancy caused in the representation of the State by the death of <inline font-weight="bold">Senator Nash.</inline> I have received, through  His Excellency  the Governor-General, a certificate from the Governor of Western Australia advising that Joseph Alfred Cooke was appointed to the vacancy by the Executive Council of the State of Western Australia, on the 7th February, 1952. </para>
+          </talk.start>
+          <para>Certificate laid on the table by the  Clerk. </para>
+          <para>
+            <inline font-weight="bold">Senator Cooke</inline>made and subscribed the oath of allegiance. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF MR. ELDRED JAMES EGGINS, M.P</title>
+        <page.no>301</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>301</page.no>
+            <time.stamp />
+            <name.id>JZI</name.id>
+            <electorate>QueenslandMinister for Trade and Customs</electorate>
+            <party>LP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">O&#39;SULLIVAN, Neil</name>
+            <name role="display">Senator O&#39;SULLIVAN</name>
+          </talker>
+          <para>- <inline font-style="italic">by leave</inline> - It is also with great regret that I convey to the Senate the fact that an honorable member of the House of Representatives has gone from us, <inline font-weight="bold">Mr. Eldred</inline></para>
+        </talk.start>
+        <para class="block">James Eggins, the honorable member for Lyne, having died recently in Sydney. <inline font-weight="bold">Mr. Eggins</inline> had not been very long a member of this Parliament, but he had a very notable record of public service. He was Mayor of Lismore for four or five years during the 1930&#39;s and a member of the Legislative Council in New South W ales for nine years. Among many other public activities he was a member of the Council of the Hoya&#93; Agricultural Society in Sydney for about eleven years and was  chairman  of the New South Wales Division of the Australian Country party from 1944 to 1949 in which year he entered the Commonwealth Parliament. That is a remarkable record of unselfish public service. </para>
+        <para>The late <inline font-weight="bold">Mr. Eggins</inline> was a member of this Parliament long enough for those of us who had previously known him only in a sketchy way to appreciate his great qualities of mind, heart and character. He was a very fine man of great public spirit, strong views and a great determination. He came to the House of Representatives, as his record indicates, remarkably equipped in an all round way to approach the task of government in the National Parliament. I move - </para>
+        <quote>
+          <para>That the Senate expresses its deep regret at the death of <inline font-weight="bold">Mr. Eldred</inline> James Eggins, who, at the time of his death was a member for the division of Lyne in the House of Representatives, and was formerly a member of the New South Wales Legislative Council, places on record ite appreciation of his meritorious public service, and tenders its profound sympathy to his widow and family in their bereavement. </para>
+        </quote>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>302</page.no>
+            <time.stamp />
+            <name.id>KTN</name.id>
+            <electorate>TasmaniaLeader of the Opposition</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCKENNA, Nicholas</name>
+            <name role="display">Senator McKENNA</name>
+          </talker>
+          <para>- The death of <inline font-weight="bold">Mr. Eggins</inline> in the prime of life during the recess was a matter of deep regret to all Labour senators.  His  death, to our finite minds, was most untimely. It ended a life of outstanding public service which gave promise of great parliamentary achievement. We extend to members of the Government parties, in particular to our colleagues of the Country party, our sympathy at the loss of an able and loyal colleague. In the terms of the motion, we of the Opposition respectfully tender our sympathy to his sorrowing family in their bereavement. May the deceased member enjoy an eternal reward. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>302</page.no>
+            <time.stamp />
+            <name.id>JQP</name.id>
+            <electorate>Queensland</electorate>
+            <party>CP</party>
+            <role>Minister for Repatriation</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COOPER, Walter</name>
+            <name role="display">Senator COOPER</name>
+          </talker>
+          <para>. - The members of the Australian Country party associate themselves with the motion that has been moved by the Minister for Trade and Customs <inline font-weight="bold">(Senator O&#39;Sullivan),</inline> and seconded by the Leader of the Opposition <inline font-weight="bold">(Senator McKenna).</inline> The death of our colleague, <inline font-weight="bold">Mr. Jim</inline> Eggins, no doubt came as a very sad blow and a shock to all of us. The late <inline font-weight="bold">Mr. Eggins,</inline> who was possessed of outstanding qualities, devoted the greater part of his life to public service. He was a resident of the north coast of New South Wales, and at an early age took a keen interest in local government. It was not long before he became the Mayor of Lismore, He was the youngest man ever to hold that position in the municipality. Subsequently he entered the New South Wales Parliament, and in 1949, he resigned from that position in order to contest the Lyne seat in this Parliament. He represented the division of Lyne until his death. He maintained an uninterrupted association with the Australian Country party from the time that that party was formed. He was  chairman  of the New South Wales branch. <inline font-weight="bold">Mr. Eggins</inline> had a very wide knowledge of rural subjects, and he was always willing to give freely of his knowledge and experience. He served with the Australian Imperial Force in World War I. During World War II. he was  chairman  of both the Commonwealth Fodder Conservation Board and the Commonwealth Stock Disposal Committee. He had a kindly nature, and made friends wherever he went.  His  passing was a great blow not only to the Parliament but to the community as a whole. We join with the Minister for Trade and Customs in sending our deepest sympathy to his widow and family. </para>
+        </talk.start>
+        <para>Question resolved in the affirmative, honorable senators standing in their places. </para>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>302</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>
+              <inline font-weight="bold">- I s Mr. President,</inline>that, as a mark of respect to the memory of the deceased honorable member of this Parliament, the sitting of the Senate should be suspended until 8 o&#39;clock. </para>
+          </talk.start>
+        </continue>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF HIS MAJESTY KING GEORGE VI</title>
+        <page.no>303</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>303</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>
+            <inline font-weight="bold">- (Senator the Hon. EdwardMattner).</inline>I desire to advise the Senate that I have received through  His Excellency  the Governor-General, the following reply from  Her  Majesty Queen Elizabeth the Second to  the resolution of sympathy passed by the Senate on the death of His Majesty King George VI. :  - </para>
+        </talk.start>
+        <quote>
+          <para>I send my sincere thanks to the members of the Senate in the Parliament of the Commonwealth of Australia for their kind message of sympathy to myself and family which I deeply appreciate. </para>
+        </quote>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ASSENT TO BILLS</title>
+        <page.no>303</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Assent to the following bills reported :  - </para>
+      <para>Appropriation Bill 1951-52. </para>
+      <para>Appropriation (Works and Services) Bill 1951-52. </para>
+      <para>Beer Excise Bill 1951. </para>
+      <para>Broadcasting Bill 1951. </para>
+      <para>Coal Industry Bill 1951. </para>
+      <para>Commonwealth Employees&#39; Furlough Bill 1951. </para>
+      <para>Commonwealth Grants Commission Bill 1951. </para>
+      <para>Conciliation and Arbitration Bill (No. 3) 1951. </para>
+      <para>Cotton Bounty Bill 1951. </para>
+      <para>Customs Tariff (Export Duties) Bill 1951. </para>
+      <para>Customs Tariff Validation Bill (No. 2) 1951. </para>
+      <para>Customs Bill 1951. </para>
+      <para>Defence Bill (No. 2) 1951. </para>
+      <para>Defence (Transitional Provisions) Bill 1951. </para>
+      <para>Excise Tariff Validation Bill 1951. </para>
+      <para>Hospital Benefits Bill 1951. </para>
+      <para>Income Tax and Social Services Contribution Assessment Bill 1951. </para>
+      <para>Income Tax and Social Services Contribution Bill 1951. </para>
+      <para>National Debt Sinking Fund (Special Payment) Bill 1951. </para>
+      <para>National Service Bill (No. 2) 1951. </para>
+      <para>Public Accounts Committee Bill 1951. </para>
+      <para>Public Service Bill (No. 2) 1951. </para>
+      <para>Public Works Committee Bill 1951. </para>
+      <para>Re-establishment and Employment Bill 1951. </para>
+      <para>Sales Tax Bill (No. 1 ) 1951. </para>
+      <para>Sales Tax Bill (No. 2) 1951. </para>
+      <para>Sales Tax Bill (No. 3) 1951. </para>
+      <para>Sales Tax Bill (No. 4) 1951. </para>
+      <para>Sales Tax Bill (No. 5) 1951. </para>
+      <para>Sales Tax Bill (No.6) 1951. </para>
+      <para>Sales Tax Bill (No. 7) 1951. </para>
+      <para>Sales Tax Bill (No. 8) 1951. </para>
+      <para>Sales Tax Bill (No. 9) 1951. </para>
+      <para>Sales Tax (Exemptions and Classifications) Bill 1951. </para>
+      <para>Snowy Mountains Hydro-electric Power Bill 1951. </para>
+      <para>States Grants (Universities) Bill 1951 </para>
+      <para>Stevedoring Industry Charge Bill 1951. </para>
+      <para>Superannuation Bill 1951. </para>
+      <para>Superannuation Bill (No. 2) 1951. </para>
+      <para>Tea Importation Bill 1951. </para>
+      <para>Transferred Officers&#39; Allowances Bill 1951. </para>
+      <para>War Service Homes Bill 1951. </para>
+      <para>Wheat Bounty Bill 1951. </para>
+      <para>Wool (Contributory Charge) Assessment Bill 1951. </para>
+      <para>Wool (Contributory Charge) Bill (No.1) 1951. </para>
+      <para>Wool (Contributory Charge) Bill (No. 2) 1951. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPUA AND NEW GUINEA</title>
+        <page.no>303</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>303</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>- I have received a letter from the  President  of the Legislative Council of the Territory of Papua and New Guinea asking me to convey to honorable senators the following resolution of the council: - </para>
+        </talk.start>
+        <quote>
+          <para>That we, the &#39;members of the Legislative Council of the Territory of Papua and New Guinea, thank the Senate most sincerely for itsResolution of Congratulation which was presented to the Council on the occasion of its First Meeting. </para>
+        </quote>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>LIAQUAT ALI KHAN</title>
+        <page.no>303</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>303</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>- I have been advised by His Excellency the GovernorGeneral that the following message has been received from His Excellency the Governor-General of Pakistan: - </para>
+        </talk.start>
+        <quote>
+          <para>The Government and the people of Pakistan have been deeply touched by the feeling references made in the Senate and in the House of Representatives on the death of the late Prime Minister of Pakistan, <inline font-weight="bold">Mr. Liaquat</inline> Ali Khan. It is tous no small consolation that our loss is shared by a sister Dominion which has shown keen and practical interest in sharing our difficulties and our griefs. </para>
+          <para>May I request you to convey to the members of the Senate and the House of Representatives the grateful thanks of the Government and the people of Pakistan for the sentiments expressed in the Senate and the House of Representatives in our national loss? </para>
+        </quote>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ACCESSION OF HER MAJESTY QUEEN ELIZABETH THE SECOND</title>
+        <page.no>303</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>303</page.no>
+            <time.stamp />
+            <name.id>JZI</name.id>
+            <electorate>QueenslandMinister for Trade and Customs</electorate>
+            <party>LP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">O&#39;SULLIVAN, Neil</name>
+            <name role="display">Senator O&#39;SULLIVAN</name>
+          </talker>
+          <para>- Upon the occasion of the accession to the Throne of Her Majesty Queen Elizabeth the Second, there is no need for me to repeat the sentiments expressed in this chamber recently with such affectionate and respectful cordiality. Sensing the feeling of the chamber, I deem it appropriate to, and do now, move - </para>
+        </talk.start>
+        <quote>
+          <para>That the following resolution be transmitted through His Excellency the Governor-General to Her Majesty the Queen: - </para>
+          <para>We, the members of the Senate in the Parliament of the Commonwealth of Australia, offer our congratulations on your Majesty&#39;s accession to the Throne. We desire to assure Your Majesty of our loyalty and allegiance, and to express our earnest hope that Your Majesty&#39;s reign may be a long and successful one, marked by the prosperity and progress of the countries of the Commonwealth. </para>
+        </quote>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>304</page.no>
+            <time.stamp />
+            <name.id>KTN</name.id>
+            <electorate>TasmaniaLeader of the Opposition</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCKENNA, Nicholas</name>
+            <name role="display">Senator McKENNA</name>
+          </talker>
+          <para>- I second the motion. On behalf of the Opposition, let me say that the motion admirably expresses the feelings of affectionate loyalty entertained by members -of the Opposition towards Her Majesty, Queen Elizabeth the Second. Her Majesty comes to the throne at a time of intense personal sorrow to herself. It is the belief and the hope of the Opposition that great responsibilities courageously undertaken and nobly discharged, as we are confident they will be, will in due course bring to Her Majesty their own consolation. </para>
+        </talk.start>
+        <para class="block">Question resolved in the affirmative. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>304</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>COAL</title>
+          <page.no>304</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>304</page.no>
+              <time.stamp />
+              <name.id>JYA</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;BYRNE, Justin</name>
+              <name role="display">Senator O&#39;BYRNE</name>
+            </talker>
+            <para>- Last year, the Government announced that the Joint Coal Board would sell about &#163;9.000,000 worth of equipment to private companies and open-cut contractors. Will the Minister for National Development say how much equipment has already been sold, how much has been ordered by companies and open-cut contractors, and what is the present position regarding the sale of the equipment ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>304</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>LP</party>
+              <role>Minister for National Development</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- Honorable senators will remember that the sales were to be made on terms by arrangement with the Treasurer. Recently, I asked the Joint Coal Board what progress had been made, and was told that the procedure had only just been decided on. Therefore, no sales of plant had so far been made on terms, but some plant, to the value of about &#163;500,000, had been sold for cash. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>304</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BROADCASTING</title>
+          <page.no>304</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>304</page.no>
+              <time.stamp />
+              <name.id>KPI</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KENDALL, Roy</name>
+              <name role="display">Senator KENDALL</name>
+            </talker>
+            <para>- Until fairly recently, the <inline font-style="italic">ABC Weekly</inline> used to publish information about short-wave programmes, but that practice has been discontinued. Will the Minister representing the Postmaster-General consider resuming the publication of information relating to times, frequencies, &#38;c, in connexion with British Broadcasting Corporation short-wave programmes? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>304</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate />
+              <party>CP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>- I shall be pleased to bring the honorable senator&#39;s request to the notice of the Postmaster-General, who will furnish a reply in due course. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>304</page.no>
+              <time.stamp />
+              <name.id>KVB</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MORROW, William</name>
+              <name role="display">Senator MORROW</name>
+            </talker>
+            <para>asked the Minister representing the Postmaster-General, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that since the dismissal of the Australian Broadcasting Commission Military Band by the Australian Broadcasting Commission half-hour recorded programmes of foreign military bands are being broadcast by the Australian Broadcasting Commission and that the cost of such programmes is an infinitesimal amount when compared with the wages which were being paid to members of the Australian Broadcasting Commission Military Band? </para>
+            </item>
+            <item label="2.">
+              <para>What amount has been paid for the halfhour transcription of the programme by the Netherlands Marines Military Band which was broadcast by an Australian Broadcasting Commission station in Sydney, on the 1.9th November ? </para>
+            </item>
+            <item label="3.">
+              <para>As broadcast listeners&#39; fees have been doubled under recent legislation, will the Government take steps to ensure that the Australian Broadcasting Commission gives more employment to Australian artists and reduces the amount of time given to imported transcribed programmes? </para>
+            </item>
+          </list>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>304</page.no>
+                <time.stamp />
+                <name.id>JQP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COOPER, Walter</name>
+                <name role="display">Senator COOPER</name>
+              </talker>
+              <para>- The PostmasterGeneral has furnished the following answers to the honorable senator&#39;s questions : - </para>
+            </talk.start>
+          </continue>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>It is not a fact that since the dismissal of the Military Band, half-hourly recorded programmes of foreign military bands have been substituted for broadcasts by the former Australian Broadcasting Commission band. For the most part, these programme spaces are filled by the Australian brass bands. </para>
+            </item>
+            <item label="2.">
+              <para>The half -hour transcription of the programme by the Netherlands Military Band broadcast on the 19th November was presented to the Australian Broadcasting Commission through the Dutch Embassy and no payment was involved. </para>
+            </item>
+            <item label="3.">
+              <para>The Australian Broadcasting Commission is giving engagements to Australian artists to the limit of its financial resources. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>305</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>HEARING AIDS</title>
+          <page.no>305</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>305</page.no>
+              <time.stamp />
+              <name.id>JSB</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRITCHLEY, John</name>
+              <name role="display">Senator CRITCHLEY</name>
+            </talker>
+            <para>- The many thousands of pensioners who have to use hearing aids are finding, it increasingly expensive to replace the batteries. &#34;Will the Minister representing the Minister for Social &#39;Services consider favorably a proposal that some, assistance be granted to age pensioners with no other income in the purchase of batteries for hearing aids? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>305</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- I shall convey the honorable member&#39;s suggestion to the Minister for Social Services. I point out, however, that the policy of the Government, has been to help pensioners by adjusting the quantum of the pension rather than by giving, aid in the manner suggested. It will be realized that many pensioners need such things as optical appliances, dentures, &#38;c, but the policy is to provide them, with medical and pharmaceutical services only. Whether my colleague will consider a variation of this policy is for him to decide. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>305</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SHIPPING</title>
+          <page.no>305</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>305</page.no>
+              <time.stamp />
+              <name.id>K0L</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARSON, Rex</name>
+              <name role="display">Senator PEARSON</name>
+            </talker>
+            <para>- I desire to ask the Minister representing the Minister for Labour and National Service a question relating to the congestion of shipping, at Port Adelaide. I understand that theChairman of the Australian Wheat Board <inline font-weight="bold">Sir John</inline> Teasdale, has told the Premier of South Australia that unless labour can be obtained for the loading of the SS. <inline font-style="italic">Sunnabris</inline> with flour there is danger that several flour mills in South Australia will have to close down. Will the Minister confer with his colleague with a view to making arrangements for the immediate loading of the flour? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>305</page.no>
+              <time.stamp />
+              <name.id>K6Z</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role>Attorney-General</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPICER, John</name>
+              <name role="display">Senator SPICER</name>
+            </talker>
+            <para>- I know nothing of the circumstances to which the honorable senator has referred. I shall confer with the Minister for Labour and National Service upon the matter at the earliest opportunity. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>305</page.no>
+              <time.stamp />
+              <name.id>KOW</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENTY, Norman</name>
+              <name role="display">Senator HENTY</name>
+            </talker>
+            <para>asked the Minister for Shipping and Transport, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that two interstate freighters, <inline font-style="italic">Loatta</inline> and <inline font-style="italic">Lanena,</inline> are held up at Devonport and Launceston, respectively? </para>
+            </item>
+            <item label="2.">
+              <para>Is it a fact, as reported in the Tasmanian press, that acts of sabotage have been carried out in the wireless room of <inline font-style="italic">Lanena</inline> which was broken open and. the batteries in it destroyed ? </para>
+            </item>
+            <item label="3.">
+              <para>Is it a fact that. Conciliation Commissioner Knight- has heard evidence on these disputes, and. has reported that no basis exists for them? </para>
+            </item>
+            <item label="4.">
+              <para>Will the Minister, investigate, these  reports  in the light of their relevancy to the Crimes Act? </para>
+            </item>
+          </list>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>305</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate>SOUTH AUSTRALIA</electorate>
+                <party>UAP; LP from 1944</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLEAY</name>
+              </talker>
+              <para>- The following are the answers to the honorable senator&#39;s questions : - &#93;. 1 have had inquiries made into these matters and have- been informed that although it was reported in the press that acts of sabotage had been carried out, in the wireless room  of <inline font-style="italic">Lanena,</inline> the Tasmanian police are satisfied that there was no evidence of any sabotage. It was found that the damage to the batteries had resulted from a short circuit in the radio. 2 and 3. After hearing the <inline font-style="italic">Lanena</inline> dispute <inline font-weight="bold">Mr. Conciliation</inline> Commissioner Knight stated that it was unfortunate that matters had reached such a stage because he was quite satisfied that the dispute was not justified on industrial grounds. Regarding <inline font-style="italic">Loatta,</inline> he considered that as far as industrial conditions which come within the jurisdiction of the arbitration tribunal were concerned this dispute was also unjustified. There were, however, complicating circumstances in both cases, contributed to by the seamen or their unions, some of which come within the scope of the Maritime Industry Commission, and on which Commissioner Knight concluded that he was not competent to comment. These matters are being examined at present by the Maritime Industry Commission. </para>
+            </talk.start>
+          </interjection>
+          <list type="decimal-dotted">
+            <item label="4.">
+              <para>I have given consideration to the suggestion that these reports should be investigated in their relation to the Crimes Act, but in view of the above facts it is not thought that any such action is called for in these cases. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>305</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PUBLIC SERVICE</title>
+          <page.no>305</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>305</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator FRASER</name>
+            </talker>
+            <para>- My question, which is directed to the Minister representing the Prime Minister, relates to the announced policy of the Government to retrench 10,000 public servants. On the 23rd February, the <inline font-style="italic">Daily News,</inline> a Western Australian publication, published a report that 250 typists are to be brought by the Commonwealth to Canberra to work as typists in the Public Service. Will the Minister inform the Senate whether that report is correct ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>305</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- I have not seen the report to which the honorable senator has referred. Therefore, I cannot say whether it is accurate. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>306</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ARMED FORCES</title>
+          <page.no>306</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>306</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- On the 22nd November,Senator Wordsworth asked a question about the strengths of the Australian forces serving at home and abroad, and the number of civilians directly employed by the armed forces. The Minister for Defence has furnished the following information in reply to. the honorable senator&#39;s question - </para>
+          </talk.start>
+          <list type="loweralpha">
+            <item label="(a)">
+              <para>The strengths of the Australian Defence Forces on full-time duty at home and abroad as at 1st October, 1951, were - </para>
+            </item>
+          </list>
+          <para class="block">
+            <graphic href="216332195202266_7_0.jpg" />
+          </para>
+          <list type="loweralpha">
+            <item label="(b)">
+              <para>In addition, the Citizen and Reserve Forces and the National Servicemen in training at the 1st October, 1951, totalled - </para>
+            </item>
+          </list>
+          <para class="block">
+            <graphic href="216332195202266_7_1.jpg" />
+          </para>
+          <list type="loweralpha">
+            <item label="(c)">
+              <para>The number of civilians employed by the Service Departments were: - Navy, 8,050 at the 1st October, 1951; Army, 4,665 at the 15th September, 1951 ; Air, 2,540 at the 1st October, 1951. The majority of these personnel were employed in dockyards, ordnance and other stores, equipment depots, factories and other establishments. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>306</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TRACTORS</title>
+          <page.no>306</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>306</page.no>
+              <time.stamp />
+              <name.id>K0C</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARMSTRONG, John Ignatius</name>
+              <name role="display">Senator ARMSTRONG</name>
+            </talker>
+            <para>- I direct the attention of the Minister for Trade and Customs to the action of the British Board of Trade in declining to agree to the entry into Australia under tariff item 449 (a) (2) during 1951 of class 2 American crawler tractors with a rating of approximately 81 drawbar horse-power. Is the Minister aware that only a few tractors of this type were exported by the United Kingdom to Australia in 1951? Is he aware also that last year the United Kingdom coal authorities imported a large number of these tractors from the United States of America? Will he review the matter in the light of actual availability from the United Kingdom of tractors of this type ? If the position is as I have stated it to be, will he use his endeavours to have these crawler tractors admitted into Australia under tariff item 449 (a) (2) ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>306</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- I shall not restrict my assurance to crawler tractors. <inline font-weight="bold">Senator Courtice</inline> knows that when he was Minister for Trade and Customs the problem of the admission into this country, free of duty, of goods that were claimed to be not available from manufacturers in Australia or the United Kingdom was the subject of constant representations between the United Kingdom Government and the Australian Government. Although every application and representation made by the Australian Government was not then, and is not now, readily acceded to, on the whole we have been, and are being, treated with the utmost consideration by the British Board of Trade. In some cases, the facts given to us have not tallied with those supplied by British manufacturers to the British Board of Trade, but, generally speaking, we are being treated with remarkable fairness by the British authorities. I assure <inline font-weight="bold">Senator Armstrong</inline> that we shall continue to make representation when we feel that we are entitled to a waiver of the duty. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>306</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>COTTON WASTE</title>
+          <page.no>306</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>306</page.no>
+              <time.stamp />
+              <name.id>KBC</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WILLESEE, Don</name>
+              <name role="display">Senator WILLESEE</name>
+            </talker>
+            <para>- Is the Minister for Trade and Customs aware that a cotton waste factory in Western Australia has been closed and its staff dismissed owing to a flooding of the market by Japanese imports? Is he aware also that the main customer of this factory was the Western Australian Government, which, by purchasing Japanese cotton waste, rendered the closing of the factory necessary? If the Minister is not aware of those matters, will he take steps to inform himself upon them, and to use the good offices of the Australian Government to ensure that priority will be given to Australian manufacturers when orders for cotton waste are placed? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>307</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- <inline font-weight="bold">Senator Paltridge</inline> and other honorable senators from Western Australia have already spoken to me about this matter, which is receiving the consideration of the Government. At this stage, I am not in a position to state precisely what&#39; action, if any, the Government will be able to take. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>307</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CAPITAL ISSUES</title>
+          <page.no>307</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>307</page.no>
+              <time.stamp />
+              <name.id>KTN</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCKENNA, Nicholas</name>
+              <name role="display">Senator McKENNA</name>
+            </talker>
+            <para>- Will the Attorney-General make a considered statement to the Senate about attacks that are pending in the High Court upon the validity of the Capital Issues Regulations ? Will he say when and by whom each of such proceedings was instituted? If there is delay in the hearing of any of the proceedings, will he explain the cause of the delay? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>307</page.no>
+              <time.stamp />
+              <name.id>K6Z</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPICER, John</name>
+              <name role="display">Senator SPICER</name>
+            </talker>
+            <para>- I do not think that the Leader of the Opposition expects me to supply him now with the detailed information for which he has asked. I shall consider the preparation of a statement upon the matter. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>307</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BUSH FIRES</title>
+          <page.no>307</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>307</page.no>
+              <time.stamp />
+              <name.id>K0N</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARNOLD, James</name>
+              <name role="display">Senator ARNOLD</name>
+            </talker>
+            <para>- In view of the fact that disastrous bush fires have ravaged the eastern States of Australia during the last few months, will the Minister representing the Prime Minister ask the right honorable gentleman to convene a conference of State Premiers to discuss the institution of a nationwide campaign against bush fires? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>307</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- I think that the matter that the honorable senator lias raised is one for the States. We bear far too often that the Commonwealth is intruding into the realm of State control and administration. This Government would be loath at any time to infringe the independence and sovereignty of the States, or to intrude into matters that are the function of .the States. However, the sufferings of any people in Australia are a matter of great concern to the Commonwealth, and, therefore, I shall be happy to bring the question to the notice of the Prime Minister. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>307</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PLYWOOD</title>
+          <page.no>307</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>307</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator FRASER</name>
+            </talker>
+            <para>- I preface my question, which is directed to the Minister for Trade and Customs, by saying that representations have been made, not only by myself but also by other honorable senators, about the importation of plywood from overseas. Recently I sent to the Minister a copy of a telegram upon the matter that I had received. Doubtless other honorable senators received similar telegrams. The Minister has often told me that, as an ex-Minister for Trade and Customs, I should know certain things. I do not want to make a personal attack upon the Minister, hut I say that when honorable senators raise matters of this kind they should receive a reply to their representations. The first intimation that I had that this matter was being dealt with was a statement in a radio broadcast that the honorable member for Moore had been informed that certain restrictions had been imposed upon the importation of plywood from overseas. Will the Minister say what steps have been taken by the Government to safeguard the interests of the  plywood  industry in Western Australia ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>307</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- I am not only hurt but also amazed to be told that the honorable senator did not. receive a reply to the communication that he sent to me. I shall take the matter up with the Postmaster-General. The honorable senator knows that I am most prompt in answering questions directed to me by honorable senators on either side of the chamber. I shall give him a copy of the communication that I have already sent to him. </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>307</page.no>
+                <time.stamp />
+                <name.id>KKR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FRASER, James</name>
+                <name role="display">Senator FRASER</name>
+              </talker>
+              <para>- Will the Minister say what steps he has taken to protect the Western Australian plywood industry? Have licences been granted to overseas companies or their agents in this country for the importation into Australia of plywood, to the detriment of the Australian plywood industry? </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>307</page.no>
+                <time.stamp />
+                <name.id>JZI</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">O&#39;SULLIVAN, Neil</name>
+                <name role="display">Senator O&#39;SULLIVAN</name>
+              </talker>
+              <para>- The appropriate steps have been taken. The matter to which the honorable senator has referred has been under review. I have not the full details at my fingertips. If the honorable senator has not received my communication to him, I shall let him have a copy at the earliest possible moment. I do not recollect having received a communication from him, but if he says that he sent one to me, at is probable that I received it. If I received it, probably I answered it. Although I do not remember having received a communication from the honorable senator, I remember that the general question of the by-law admission of plywood was raised, not only in regard to Western Australia but also in regard to Australia as a whole. The matter was reviewed immediately. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>308</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CIVIL AVIATION</title>
+          <page.no>308</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>308</page.no>
+              <time.stamp />
+              <name.id>JYA</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;BYRNE, Justin</name>
+              <name role="display">Senator O&#39;BYRNE</name>
+            </talker>
+            <para>- An assurance was given recently &#39;by the Government that full information upon any merger of Trans-Australia Airlines and Australian National Airways Proprietary Limited would be presented to the Senate. Will the Minister representing the Minister for Civil Aviation say whether negotiations for a merger of the two organizations have been re-opened? Is there any truth in a report in to-day&#39;s Melbourne <inline font-style="italic">Sun</inline> that a merger of the organizations will take place? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>308</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>LP</party>
+              <role>Minister for Shipping and Transport</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- I shall refer the question to the Minister for Civil Aviation, and obtain a reply for the honorable senator. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>308</page.no>
+              <time.stamp />
+              <name.id>KUH</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCMULLIN, Alister</name>
+              <name role="display">Senator McMULLIN</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Civil Aviation, <inline font-style="italic">upon notice -</inline> -1. Is it a fact that Australian National Airways Proprietary Limited applied some months ago for permission to use the Williamtown aerodrome, near Newcastle, New South Wales? </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="2.">
+              <para>Is it a fact that such application was refused, thereby giving Trans-Australia Airlines a. monopoly of air traffic to this important centre  V </para>
+            </item>
+            <item label="3.">
+              <para>If so, will the Minister arrange for Australian National Airways Proprietary Limited to be given permission to operate from Williamtown, if it still desires to do so, thereby placing competition between the two airlines on a more equitable basis in this respect, and improving air transportation to Newcastle? </para>
+            </item>
+          </list>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>308</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLEAY</name>
+              </talker>
+              <para>- The Minister for Civil Aviation has supplied the following answers to the honorable senator&#39;s questions : - </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>In June, 1D49, Australian National Airways Proprietary Limited requested permission to  viall  at Newcastle, but this application was refused because the only available aerodrome at Williamtown and the amount of use by civil aircraft had to be strictly limited. This decision resulted in Trans-Australia Airlines being the only airline calling at Newcastle. Recently, Australian National Airways Proprietary Limited renewed their request and the matter was referred to the .&#39;Department of Civil Aviation to ascertain whether the nature and scope of the Royal Australian Air Force operations at Williamtown would now permit any increase in the amount of use by civil aircraft. My department  has  now been informed that no increase in the amount of civil airlines use can be permitted. However, the honorable senator will be aware that a Cabinet committee is engaged in working out ways and means of securing fair competition between Australian National Airways Proprietary Limited and Trans-Australia Airlines and consideration will be given by the committee to the possibility of sharing the calls at Newcastle equitably between the two airlines. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>308</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CANBERRA</title>
+          <page.no>308</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>308</page.no>
+              <time.stamp />
+              <name.id>JSB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRITCHLEY, John</name>
+              <name role="display">Senator CRITCHLEY</name>
+            </talker>
+            <para>asked the Minister representing the Minister for &#39;the Interior, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1">
+              <para>. What method is adopted in the Australian Capital Territory in the issue of motor drivers&#39; licences? </para>
+            </item>
+            <item label="2.">
+              <para>Are inquiries made from and about applicants for such licences as to whether they have been disqualified in other States? </para>
+            </item>
+            <item label="3.">
+              <para>If not, will the Minister take the necessary action to ensure that people disqualified in other States will not secure drivers&#39; licences in the Australian Capital Territory &#39;during the period of their disqualification? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>308</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- The Minister for the Interior has furnished -the following answers to the honorable senator&#39;s questions : - 1, 2 and 3. An applicant for a driver&#39;s licence in the Australian Capital Territory is required to complete a form of questionnaire over a statutory declaration. This requires the applicant to indicate whether he has been refused a licence or has been disqualified from obtaining a licence elsewhere. Where considered necessary, inquiries arc made from the State authority concerned and the licence is granted or refused according to the circumstances. Where an applicant has not previously held a licence he is granted a permit to learn to drive. At the requisite time he is required to undergo a practical driving test .by a police testing officer. Where the test has been satisfactory a new licence is not granted until the testing officer completes the certificate of competence. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>308</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>EMPLOYMENT</title>
+          <page.no>308</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>308</page.no>
+              <time.stamp />
+              <name.id>K1T</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BENN, Archibald</name>
+              <name role="display">Senator BENN</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Labour and National Service, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Does the number of persons registered for unemployment .relief in a State reliably indicate the employment position in that State? </para>
+            </item>
+            <item label="2.">
+              <para>Is it a fact that information .given in the Brisbane <inline font-style="italic">Couricr-Ma.il</inline> of the 24th November, regarding the unemployment position in </para>
+            </item>
+            <item label="3.">
+              <para>Is it a fact, asreported in the Brisbane Courier-Mail of 24thNovember (a)that 6,000 vacancieswerelisted with theCommonwealth Employment Service in Brisbane on the3 lst October last;(b) that the number of persons registered for unemployment in Queensland had increased from l,600 on the 3rd October to 1,881on the 3rd November, and that of the latter number 580 were unemployed in Brisbane, 300 in Rockhampton, 200 in Townsville, and 300 in Toowoomba; (c) that job opportunitieswere morelimited now than at any time since thewar, and that one of the causes contributing to this situation was the Government&#39;s selective credit policy&#39;? </para>
+            </item>
+            <item label="4.">
+              <para>Ifso, will the Ministerexplain why 1 , 881 personsin Queensland arein receipt of unemployment benefits when there were6,000 vacancies listed with the Commonwealth Employment Service on the 31st October last? </para>
+            </item>
+            <item label="5.">
+              <para>If the number of unemployed persons includes adult females and new Australians, does the Govern men t propose to pay unemploymentbenefits to them indefinitely or to provide relief work of a suitable nature in order to ensure their gainful employment? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>309</page.no>
+              <time.stamp />
+              <name.id>K6Z</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPICER, John</name>
+              <name role="display">Senator SPICER</name>
+            </talker>
+            <para>- The Minister for Labour and National Service has furnished the following answers to the honorable senator&#39;s questions: - 1.. Generally speaking, the number of persons registered for unemployment relief is a reliable index of the employmentsituation within the State. It should be remembered,however, that of the1, 881 persons quoted in the report in the Brisbane <inline font-style="italic">Courier-Mail</inline> as having registered for unemployment relief only 262were actually in receipt of unemployment benefits, the remaining 1,619 were persons registered with the Commonwealth Employment Service as disengaged and seeking employment. The majority of these disengaged persons would probably obtain employment within a few days and thus would not be eligible for unemployment benefits. </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="2.">
+              <para>As pointed out in paragraph 1, thefigures quoted in the Brisbane <inline font-style="italic">Courier-Mail</inline> included persons registered as disengaged with the Commonwealth Employment Service, whereas the figures used in my earlier reply to you related to unemployment benefit recipients. 3. (a) There were 10,009 vacancies registered with the Commonwealth Employment Service in Queenslandon the 31st October, 1951. Thefigure quoted in the <inline font-style="italic">Courier-Mail</inline> was an early estimate made before the final returns from district offices were received. 3. (b) The figures are correct as to registrations for employment. 3. (c) Job opportunities arc more limited at present than in recent months. There is, as you know, a seasonal trend always in Queensland at this time ofthe year and ithas been accentuated by thedrought conditions which have led to the earlier than usual cessation of the sugar harvesting and a heavy </para>
+            </item>
+          </list>
+          <para class="block">
+            <graphic href="216332195202266_10_0.jpg" />
+          </para>
+          <list type="decimal-dotted">
+            <item label="4.">
+              <para>AsI mentioned in paragraph 1.,the number of persons actually in receipt of unemployment benefits numbered 262 (211 males and 51 females). As you will be aware, problems of matching applicants to jobs sometimes make the placement of some individuals more difficult. Every endeavour, of course, is made to obtain suitable employment for persons who seek the services of the Commonwealth Employent Service. This isevidenced by the fact that during November, the Commonwealth EmploymentService placed 4,304 males and 1,112 females in employment. </para>
+            </item>
+            <item label="5.">
+              <para>Onthe 3rd November, 1951, therewere no new Australians subject to employment obligations, willing and fit to work, who were in receipt of unemployment benefit. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>309</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>KOREA</title>
+          <page.no>309</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>309</page.no>
+              <time.stamp />
+              <name.id>KAW</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WEDGWOOD, Ivy</name>
+              <name role="display">Senator WEDGWOOD</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Defence, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Will the Minister investigate reports concerning delays in the delivery of parcels airfreighted to servicemen in Korea? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>309</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- The Minister for Defence has furnished the following answers to the honorable senator&#39;s question :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>The Postmaster-General&#39;s Department has advised that its practice is to despatch parcel mails from Australia for servicemen in Korea bysurface mail only, and that there is no delay in the despatch of such mails so faras that department isconcerned. From the end of July to the 26th November there have been thirteen sailings of ships from Australia to Japan. </para>
+            </item>
+            <item label="2.">
+              <para>It is reported, however,that on occasions a very small number of parcels which have been stamped for carriage by ordinary parcel post, i.e., by sea, have actually been carried by air. It is thought that possibly this has occurred when some aircraft space reserved for aspecial purpose has not been required eventually, and a few parcels despatched by the Returned Soldiers League and similar bodies have been carried to occupy suchspace. It might so happen in these circumstances that two parcels posted about the same time would arrive in Japan about a month apart, and itis concei vable that such an occurrencecould give rise to complaints of delays in the delivery of parcels. </para>
+            </item>
+            <item label="3.">
+              <para>It has linen ascertained that the airline company which operates to Japan receives very few requests for the carriage of parcels as air cargo because of the extremely high cost of air freight. </para>
+            </item>
+            <item label="4.">
+              <para>The Head-quarters of the British Commonwealth Occupation Force in Japan states that all parcels received in Japan are forwarded on to Korea by air and as a general rule this movement is carried out within 24 hours. It is possible that very occasionally adverse flying conditions, or the arrival of a ship at a port other than Kure involving rail transport of parcels to Kure, might cause some slight delay in Japan. Normally, mail, including parcels, for Australian personnel in Korea, is delivered to units on thesame day as it is despatched from Japan. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PARLIAMENTARY AND MINISTERIAL ALLOWANCES</title>
+        <page.no>310</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>310</page.no>
+            <time.stamp />
+            <name.id>JZI</name.id>
+            <electorate />
+            <party>LP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">O&#39;SULLIVAN, Neil</name>
+            <name role="display">Senator O&#39;SULLIVAN</name>
+          </talker>
+          <para>- Honorable senators will be aware that, in November last, the Government referred the matter of parliamentary and ministerial allowances to a committee of three responsible men who were requested to conduct an independent and impartial inquiry into the problem and make their recommendations to the Government. I now have pleasure in laying on the table a report of that committee of inquiry and I should like to place on record the thanks of the Government and of all honorable senators to the members of the committee who have made a thorough and impartial review of the problem and who, moreover, have rendered their services in an honorary capacity. Subject to further consideration of minor points in the report relating to administrative matters, the Government has decided to accept the recommendations of the committee. The one constitutional point that was raised affecting parliamentary undersecretaries is under investigation. I lay on the table the following paper :  - </para>
+        </talk.start>
+        <quote>
+          <para>Parliament of the Commonwealth - Salaries and Allowances of Members - Report of Committee of Enquiry. </para>
+        </quote>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>INTERNATIONAL AFFAIRS</title>
+        <page.no>310</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Order of the Day No. 1 - Egypt and the Middle East - Ministerial Statement - &#39;Resumption of Debate; and Order of the Day No. 2 - Foreign Affairs - Ministerial Statement - Resumption of Debate - discharged. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>FOREIGN AFFAIRS COMMITTEE</title>
+        <page.no>310</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Consideration resumed from the 31st October, 1951 <inline font-style="italic">(vide</inline> page 1311, Vol. 214), on message received from the House of Representatives requesting the concurrence of the Senate in the following resolutions :  - </para>
+      <quote>
+        <list type="decimal-dotted">
+          <item label="1.">
+            <para>That a joint committee be appointed to consider such matters concerning foreign affairs as are referred to it by the Minister for External Affairs. </para>
+          </item>
+          <item label="2.">
+            <para>That twelve members of the House of Representatives be appointed to serve in such committee. </para>
+          </item>
+          <item label="3.">
+            <para>That the Minister for External Affairs shall make available to the committee information within such categories or on such conditions as he may consider desirable. </para>
+          </item>
+          <item label="4.">
+            <para>That, nothwithstanding anything contained in the Standing Orders - </para>
+            <list type="loweralpha">
+              <item label="(a)">
+                <para>the committee have power to appoint sub-committees consisting of four or more of its members; and to refer toany such sub-committee any of the matters which the committee is empowered to examine; </para>
+              </item>
+              <item label="(b)">
+                <para>the committee or any sub-committee have power to sit during any adjournment of the Parliament and during the sittings of either House of the Parliament; </para>
+              </item>
+              <item label="(c)">
+                <para>the committee and its sub-committees will sit <inline font-style="italic">in camera</inline> and their proceedings shall be secret; </para>
+              </item>
+              <item label="(d)">
+                <para>seven members of the committee constitute a quorum of the committee and three members of a subcommittee constitute a quorum of that sub-committee; </para>
+              </item>
+              <item label="(e)">
+                <para>the committee shall, for considerations of national security, in all cases forward its reports to the Minister for External Affairs, but on every occasion when the committee forwards a report to the Minister, it shall inform the Parliament that it has so reported: </para>
+              </item>
+              <item label="(f">
+                <para>) the committee shall have no power to send for persons, papers or records without the concurrence of the Minister for External Affairs and all evidence submitted to the committee shall be regarded as confidential to the committee; and (g) a messagebe sent to the Senate requesting its concurrence and asking that seven members of the Senate be appointed to serve on such committee. </para>
+              </item>
+            </list>
+          </item>
+        </list>
+      </quote>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>310</page.no>
+            <time.stamp />
+            <name.id>K6Z</name.id>
+            <electorate>Victoria</electorate>
+            <party>LP</party>
+            <role>AttorneyGeneral</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">SPICER, John</name>
+            <name role="display">Senator SPICER</name>
+          </talker>
+          <para>. - The message received from the House of Representatives conveyed to the Senate the terms of resolutions adopted by the House for the appointment of a joint committee on foreign affairs in which it asked for the concurrence of the Senate. The resolutions proposed that there should he appointed a joint committee on foreign affairs to consider such matters as were referred to it by the Minister for External Affairs; that the committee should consist of nineteen members, twelve to be chosen by the House of Representatives and seven by the Senate; the committee to have the usual powers enjoyed by a committee of that kind, such as appointing sub-committees and dealing with some of its work through subcommittees. It would differ, perhaps, from other joint committees which one might call to mind, because provision has been made, in the resolutions that its proceedings shall be conducted <inline font-style="italic">in camera,</inline> and that its reports shall be submitted to the Minister for External Affairs. The resolutions also provide that whenever the committee makes a report it shall acquaint both Houses of the Parliament of the fact that it has made such a report, and deliver the report to the Minister for External Affairs. I should be very happy indeed if the Senate adopted the resolutions that have been submitted to it by the House of Representatives, but unfortunately, up to date, the Labour party has indicated that it is not prepared to take part in the activities of the proposed committee. Although that is very unfortunate, I shall not abandon the proposal merely because the Opposition does not see fit to co-operate with the Ministry in launching this new and very important committee in relation to foreign affairs. </para>
+        </talk.start>
+        <para>So that there can be no difficulty  in  the matter, I propose that we should adopt the resolutions, with some modifications. The first modification that I propose is that the persons appointed for the time being to serve on the committee should constitute the committee, notwithstanding any failure by the Senate or the House of Representatives to appoint the full number of senators or members referred to in the resolutions, which .contemplated a committee of nineteen. If the Opposition does not co-operate in the undertaking it will not be a committee of nineteen but a committee of a lesser number than nineteen. </para>
+        <para>In order that it shall not be said that the proposed committee would not be a committee at all in terms of the resolutions, I propose that we should amend the resolutions to make it clear that whatever the number of members  appointed  to the proposed committee, even though it falls short of nineteen, the committee could function, and a continuing opportunity would be present for the Opposition to come in and play its part on the .committee whenever it saw fit to do so. Because the number of members of the proposed committee may not reach nineteen - depending upon the decision of the Opposition - I propose that there should be a slight alteration of the terms of the resolutions with regard to quorums. The resolutions propose that there should be a fixed quorum of seven. If the Opposition does not nominate its members to the proposed committee it will comprise less than nineteen members, and we shall accordingly make provision that the quorum shall consist of one-third of the members for the time being of the committee. My fervent hope is that the Opposition will indicate that it is prepared to appoint members to the proposed committee, and that we shall have a full committee of nineteen members. </para>
+        <para>I doubt whether there could be appointed by the Parliament a committee that would be capable of rendering more useful service than the one that is proposed. .Some honorable senators may take objection to the fact that the resolutions provide that its proceedings shall be conducted <inline font-style="italic">in camera.</inline> I suggest quite seriously that it is likely that a committee of this kind, dealing with external affairs, would do much more useful work if its proceedings were conducted <inline font-style="italic">in camera</inline> than if they were held in public. I am perfectly certain that the Minister for External Affairs would be able to provide for the members of the proposed committee, sitting <inline font-style="italic">in camera,</inline> far more useful information than he could if the committee were sitting in public. 1 think it is rather a recognition of the importance of the functions that it is hoped the proposed committee will perform that provision has been made that the proceedings shall be conducted <inline font-style="italic">in camera.</inline></para>
+        <list type="upperalpha-dotted">
+          <item label="I.">
+            <para>have no desire to encourage a lengthy debate, because I hope- that honorable senators- will acquiesce in the resolutions. In the course- of debate, however, I would not be: at all surprised if references were made; for example, to a similar committee that operates in the United States of America,, known as the Senate Foreign Affairs. Committee, which is a very important body. There are differences in the American constitutional parliamentary position of very great importance, which explains the nature of that body, and also, why an exactly similar body would not be the apt kind of organization to- have under our parliamentary system. It is often overlooked that there are- not in. th&#38; American Congress, as we have1 in this Parliament, Ministers who are responsible to the Parliament for the administration of their departments.. In the United States of America the Executive is kept completely distinct- from the parliamentary institution, and members of the- American Congress do not have an opportunity daily, as have honorable members of our Parliament, to question Ministers in the Parliament about the administration of the departments for which they are directly responsible to the Parliament. Because of that, the American constitutional and political development has manifested trends which we do not find in this country. Far be it for me to. belittle the activities of a committee such as we propose to establish. I suggest that, in accordance with the constitutional usages that operate in this country, the proposed committee will be far more useful to those members who have the privilege to serve on it, and to the Minister, in his exchange of views with: the members of the committee, by reason of the fact that its functions are to be carried on <inline font-style="italic">in camera,</inline> and if it submits its report to the responsible Minister. At the same: time, of course, it will quite properly acquaint the Parliament of the fact, that reports have been made and are in the possession of the Minister. If members desire to obtain information from those reports, they will be able to d.o&#62; so by questioning the responsible Minister in &#39; the Parliament. In. the exercise of his very grave responsibility in the administration of his department, the Minister will be. in a. position to determine: whether a particular report that may contain, important confidential information, should be released to the public gaze. I suggest that far too. much has been made, of the limitations; - if they could be called such - that have been imposed on the. proposed committee. Th is is a new undertaking on the. part of this Government,, which wishes, to have the assistance of,, and to learn about the ideas and views of all parties in this chamber in relation, to. the administration of the Department of External Affairs. I hope that the members of the Opposition will give serious consideration to the proposal that; I now put before this chamber, and that they will combine, with, honorable senators chosen, from this side of the chamber to make, this a new and successful venture in the realm of external affairs. Accordingly, I move - </para>
+            <list type="decimal-dotted">
+              <item label="1.">
+                <para>That the Senate concurs, in the resolutions transmitted- to the. Senate by the. House of Representatives for the appointment of a joint committee to consider such matters concerning foreign affairs as are referred to it: by the Minister for External Affairs, subject, to the following modifications : - (.a) That after resolution No.. 2 the. following resolution, be inserted: - &#34; That the persons appointed for the time being to serve, on the. Committee, shall constitute the Committee notwithstanding, any failure by the Senate or the House of Representatives to appoint the full number of Senators or Members referred to in these resolutions.&#34; </para>
+                <list type="lowerroman">
+                  <item label="(6)">
+                    <para>That the following provision for quorums be substituted for. resolution No. 4 (d) :- &#34; (&#60;f) (1) one-third of the number of members appointed to the Committee for the time being constitute a quorum of the Committee, save that where the number of members is not divisible by three without remainder the quorum shall be the number next higher than one-third of the number of members for the time being: </para>
+                  </item>
+                  <item label="(ii)">
+                    <para>three members of a subcommittee constitute a quorum of that sub-committee.&#34; 2; That these resolutions be communicated, to the- House, of Representatives, by Message, with a request for the concurrence of that House in the Senate&#39;s modifications of the resolutions transmitted to the Senate by the House. </para>
+                  </item>
+                </list>
+              </item>
+            </list>
+          </item>
+        </list>
+        <para>Debate (on motion by- <inline font-weight="bold">Senator McKENNA)</inline> adjourned. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>INTERNATIONAL AFFAIRS</title>
+        <page.no>313</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>313</page.no>
+            <time.stamp />
+            <name.id>K6Z</name.id>
+            <electorate>Victoria</electorate>
+            <party>LP</party>
+            <role>Attorney- General</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">SPICER, John</name>
+            <name role="display">Senator SPICER</name>
+          </talker>
+          <para>- <inline font-style="italic">by leave</inline> - read a copy of the statement made in the House of Representatives <inline font-style="italic">by</inline> the Minister for External Affairs <inline font-weight="bold">(Mr. Casey)</inline><inline font-style="italic">(vide</inline> page 274), laid on the table the following paper :  - </para>
+        </talk.start>
+        <quote>
+          <para>International affairs - Ministerial statement, 26th February,1 952, and moved - </para>
+          <para>That the paper be printed. </para>
+        </quote>
+        <para>Debate (on motion by <inline font-weight="bold">Senator Armstrong)</inline> adjourned. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEFENCE</title>
+        <page.no>313</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>SenatorO&#39;SULLIVAN (Queensland- </para>
+      <para>Minister for Trade and Customs) &#91;9.45&#93;. - I lay on the table the following paper :  - </para>
+      <quote>
+        <para>Defence Programme - Ministerial Statement, and move - </para>
+        <para>That the paper be printed. </para>
+      </quote>
+      <para>Debate (on motion by <inline font-weight="bold">Senator McKenna)</inline> adjourned. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>313</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers were presented :  - </para>
+      <para>Banking Act - Regulations - Statutory Rules 1951, No. 147. </para>
+      <para>Broadcasting Act - Nineteenth Annual Report and Financial Statements of the Australian Broadcasting Commission, for year 1950-51. </para>
+      <para>Commerce (T rade Descriptions) Act - Regulations - Statutory Rules 1951, No. 154. </para>
+      <para>Commonwealth Railways Act - Report on Commonwealth Railways operations for year 1950-51. </para>
+      <para>Conciliation and Arbitration Act - Regulations - Statutory Rules 1951, No. 155. </para>
+      <para>Customs Act - Regulations - Statutory Rules 195&#93;, Nos. . 14.1, 159. </para>
+      <para>Customs Act and Commerce (TradeDescrip- tions) Act - Regulations - Statutory Rules 1951. Nos. 145, 140. </para>
+      <para>Customs Tariff (Export Duties) Act - Regulations - Statutory Rules 1951, No. 163. </para>
+      <para>Dairy Produce Export Control Act - Regulations - Statutory Rules 1952, No. 3. </para>
+      <para>Defence Act - Regulations - Statutory Rules- 1951, No. 148, 149, 150, 151, 152, 158. 1952, No. 8. </para>
+      <para>Defence (TransitionalProvisions) Act - National Security (Industrial Property) Regulations - &#39;Orders - Inventions and designs (19). </para>
+      <para class="block">Dried Fruits Export Control Act - Regulations - Statutory Rules 1951, No.142. </para>
+      <para class="block">Elections, 1949 - Statistical Returns showing the voting within each Subdivision in relation to the Senate Election and the General Elections for the House of Representatives, 1949, viz.: - </para>
+      <para class="block">New South Wales. </para>
+      <para class="block">Queensland. </para>
+      <para>South Australia. </para>
+      <para>Tasmania. </para>
+      <para>Victoria. </para>
+      <para>Western Australia. </para>
+      <para>Egg Export Control Act - Regulations - Statutory Rules 1952, No. . 4. </para>
+      <para>Income Tax and Social Services Contribution Assessment Act - Regulations - Statutory Rules 1951, No. 157. </para>
+      <para>Jury Exemption Act- Regulations - Statutory Rules 1951, No. 164. </para>
+      <para>Lands Acquisition Act - Land acquired for - Defence purposes - </para>
+      <para>Bendigo, Victoria. </para>
+      <para>Bullsbrook (Pearce Aerodrome), Western Australia. </para>
+      <para>Garbutt, Queensland. </para>
+      <para>Mareeba, Queensland. </para>
+      <para>Port Pirie, South Australia. </para>
+      <para>Puckapunyal, Victoria. </para>
+      <para>Department of &#39;Civil Aviation purposes - </para>
+      <para>Adelaide, South Australia. </para>
+      <para>Bankstown, New South Wales. </para>
+      <para>Coen, Queensland. </para>
+      <para>Marble Bar, Western Australia. </para>
+      <para>Roma, Queensland. </para>
+      <para>Immigration purposes at Helensburgh, New South Wales. </para>
+      <para>Postal purposes - </para>
+      <para>Ballarat, Victoria. </para>
+      <para>Bool Lagoon, South Australia. </para>
+      <para>Burnie, Tasmania. </para>
+      <para>Chullora, New South Wales. </para>
+      <para>Cressy, Tasmania. </para>
+      <para>Dandenong, Victoria. </para>
+      <para>Exton, Tasmania. </para>
+      <para>Geeveston, Tasmania. </para>
+      <para>Gum Creek, South Australia. </para>
+      <para>Harden, New South Wales. </para>
+      <para>Hemmant, Queensland. </para>
+      <para>Lithgow, New South Wales. </para>
+      <para>Majorca, Victoria. </para>
+      <para>Mansfield, Victoria. </para>
+      <para>Moltema, Tasmania. </para>
+      <para>Mount McIntyre, South Australia. </para>
+      <para>Portarlington, Victoria. </para>
+      <para>Tharbogang, New South Wales. </para>
+      <para>Toorak, Victoria. </para>
+      <para>Whyalla, South Australia. </para>
+      <para>Meat Export Control Act - Regulations - </para>
+      <para>Statutory Rules 1952, No. 5. </para>
+      <para>National Service Act - Regulations - Statutory Rules 1951,Nos. 156, 162. </para>
+      <para>Nauru - </para>
+      <para>Ordinance - 1951 - No. 5 - Lands. </para>
+      <para>Report to the General Assembly of the United Nations on Administration of Nauru for year 1950-51. </para>
+      <para>New Guinea - Report to General Assembly of the United Nations on Administration of New Guinea for year 1950-51. </para>
+      <para class="block">Naval Defence Act - Regulations - Statutory Rules 1951, Nos. 140, 165. </para>
+      <para class="block">Navigation Act - Regulations - Statutory Rules 1051, No. 138. </para>
+      <para class="block">Papua and New Guinea Act - </para>
+      <para class="block">Ordinances - 195 1 - </para>
+      <para class="block">No. 42 - Criminal Code Amendment (New Guinea) . </para>
+      <para class="block">No. 43 - Criminal Code Amendment (Papua) . </para>
+      <para>No. 44 - Native Administration (New Guinea). </para>
+      <para>No. 45 - Native Regulation (Papua). </para>
+      <para>No. 46 - Arbitration. </para>
+      <para>No. 47 - Commissions of Inquiry. </para>
+      <para>No. 48 - Judicial Proceedings (Regulation of Reports). </para>
+      <para>No. 49 - Life Policies Protection. </para>
+      <para>No. 50 - Sea-Carriage of Goods. </para>
+      <para>No. 51 - Town Boundaries. </para>
+      <para>No. 52 - Goods. </para>
+      <para>No. 53 - Hire-purchase Agreements. </para>
+      <para>No. 54 - Partnership. </para>
+      <para>No. 55- Sale of Meat. </para>
+      <para>No. 56 - Slaughtering. </para>
+      <para>No. 57 - Standard Time. </para>
+      <para>No. 58 - Statutes of Frauds and of Limitations. </para>
+      <para>No. 59 - Administrative Districts. </para>
+      <para>No. 60 - Bills of Exchange. </para>
+      <para>No. 61 - Criminal Code Amendment (New Guinea) (No. 2). </para>
+      <para>No. 62 - Criminal Code Amendment (Papua) (No. 2). </para>
+      <para>No.63 - Defamation. </para>
+      <para>No. 64 - Insolvency. </para>
+      <para>No. 65 - Insolvency (New Guinea) (No. 2). </para>
+      <para>No. 66 - Land (Corrected Titles). </para>
+      <para>No.67 - Noxious Plants. </para>
+      <para>No. 68 - Pounds. </para>
+      <para>No. 69 - Private Tramways. </para>
+      <para>No. 70 - Transfer of Land Control. </para>
+      <para>No. 71 - Weights and Measures. </para>
+      <para>No. 72 - Customs. </para>
+      <para>No. 73 - Laws of the Territory (Proof and Printing). </para>
+      <para>No. 74 - Ordinances Revision. </para>
+      <para>No. 75 - Ordinances Interpretation. </para>
+      <para>Regulations - Statutory Rules 1951, No. 160. </para>
+      <para>Post and Telegraph Act - Regulations - Statutory Rules 1952, No. 6. </para>
+      <para>Public Service Act - Appointments - Department - </para>
+      <para>Attorney-General&#39;s - O. Beran, J. C. Braund, A. W. Cowie, H. Warner. </para>
+      <para>Civil Aviation - H. P. Acocks, G. E. Archibald, K. M. Goodson, C. K. I. Hosken. </para>
+      <para>Defence - E. T. Robinson. </para>
+      <para>Interior - B. S. Courtenay, W. M. Tweedie. </para>
+      <para>Labour and National Service - J. G. Carroll. </para>
+      <para>National Development - A. D. M. Bell, G. A. M. Taylor. </para>
+      <para>Postmaster-General&#39;s - P. R. L. Badham, R. A. R. Brown, J. S. L. Clements, D. F. Collins, L. K. Curran, P. Glick, A. H. H. Griffiths, K. C. Hendy, K. Herzog, A. D. Lang, F. R. Fry, G. D. Ross, R. H. Shergold, A. B. Wych. </para>
+      <para>Prime Minister&#39;s - T. S. Hepworth, P. McCarthy. </para>
+      <para>Repatriation - J. M. Bostock, M. M. Ferguson, L. A. Langley. </para>
+      <para>Supply - I. R. Angus, D. A. Arnold, R. P. Bonnell, V. J. M. Bosher, B. C. Hind, S. B. Jackson, G. C. Lowenthal, F. H. McColl. K. N. McFarlane, D. C. Mills. J. McK. Nobbs, J. L. Stanier, R. F. Treharne, W. R. Watson, W. K. Wood. </para>
+      <para>Trade and Customs- S. R. Burns, D. E. Fenwick. </para>
+      <para>Worksand Housing - E. C. Foss, A.J). Frost.P.R. Gilmour, J. D. Hipper, E. A. Ingram, W. V. Mason, K. W. McDonald, R. M. J. Nowak, L. Tully. </para>
+      <para>Public Service Arbitration Act - Determinations - 1951 - </para>
+      <para>No. 117 - Peace Officer Guard Association. </para>
+      <para>No. 118 - Federated Clerks&#39; Union of Australia. </para>
+      <para>No. 119 - Common Rule <inline font-style="italic">re</inline> Sick Leave. </para>
+      <para>No. 120 - Australian Federated Union of Locomotive Enginemen. </para>
+      <para>No. 121 - Professional Officers&#39; Association, Commonwealth Public Service. </para>
+      <para>No. 122 - Postal Overseers&#39; Union of Australia. </para>
+      <para>No. 123 - Australian Journalists&#39; Association. </para>
+      <para>No. 124 - Hospital Employees&#39; Federation of Australasia. </para>
+      <para>No. 125 - Commonwealth Public Service Artisans&#39; Association. </para>
+      <para>No. 126 - Amalgamated Engineering Union and others. </para>
+      <para>No. 127 - Musicians&#39; Union of Australia. </para>
+      <para class="block">No. 128 - Commonwealth Public Service Clerical Association. </para>
+      <para class="block">Repatriation Act - Regula tions - Statu tory Rules 1952, No. 7. </para>
+      <para class="block">Sales Tax (Exemptions and Classifications) Act - Regulations - Statutory Rules 1951, No. 161. </para>
+      <para class="block">Science and Industry Endowment Act - Report by Auditor-General on Accounts of Science and Industry Endowment Fund for year 1950-51. </para>
+      <para class="block">Seat of Government Acceptance Act and Seat of Government (Administration) Act- </para>
+      <para class="block">Ordinances - </para>
+      <para class="block">1951- </para>
+      <para>No. 12 - Court of Petty Sessions (No. 2). </para>
+      <para>No. 13 - Registration of Births, Deaths and Marriages. </para>
+      <para>No. 14 - Crimes. </para>
+      <para>No. 15 - Juries. </para>
+      <para>No. 16 - Rural Workers Accommodation. </para>
+      <para>No. 17 - Motor Traffic. 1952 - No. 1 - Careless Use of Fire. </para>
+      <para>Regulations- 1952 - </para>
+      <para>No. 1  - (Juries  Ordinance). </para>
+      <para>No. 2  -  (Education Ordinance). </para>
+      <para>No. 3 - (Building and Services Ordinance). </para>
+      <para>No. 4  -  (Adoption of Children Ordinance and Court of Petty Sessions Ordinance). </para>
+      <para>Seat of Government (Administration) Act -Statement of Receipts and Expenditure of the Australian Capital Territory for year 1950-51. </para>
+      <para>Supply and Development Act - Regulations - Statutory Rules 1951, No. 139. </para>
+      <para>Wine Grapes Charges Act - Regulations - Statutory Rules 1932, No. 2. </para>
+      <para>Wool Products Bounty Act- Regulations - Statutory Rules 1951, No. 144. </para>
+      <para>Wool (Reserve Prices) Fund Act - Regulations - Statutory Rules - 1951, No. 153. 1952, No. 1. </para>
+      <para>Wool Use Promotion Act - Regulations - Statutory Rules 1951, No. 143. </para>
+      <para>Senate adjourned at 9.47 . p.m. </para>
+    </debate>
+  </chamber.xscript>
+</hansard>

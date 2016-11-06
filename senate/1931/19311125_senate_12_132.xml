@@ -1,251 +1,2176 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1931-11-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1931-11-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1931-11-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1931-11-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1931-11-25%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1931-11-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1931-11-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1931-11-25/19311125_senate_12_132.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1931-11-25</date>
+    <parliament.no>12</parliament.no>
+    <session.no>1</session.no>
+    <period.no>5</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>1867</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1931-11-25</day.start>
+      <para>The  President <inline font-weight="bold">(Senator the Hon. W. Kingsmill)</inline> look the chair at 3 p.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>PERSONAL EXPLANATION</title>
+        <page.no>1867</page.no>
+        <type>personal explanation</type>
+      </debateinfo>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>1867</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>- <inline font-style="italic">by leave</inline> - Last night during the discussion of an item of the tariff in committee, I understood <inline font-weight="bold">Senator Herbert</inline> Hays to say that he hoped to get government assistance for Tasmanian hops and potatoes as well as for fruit-growers from this tariff, and I subsequently said, &#34; If the honorable senator expects a <inline font-style="italic">quid pro quo</inline> in the form of assistance for Tasmanian potatoes andhop-growers in return for the vote hewill give on this item, the Government may have to pay a heavy price for these duties.&#34; To-day I saw <inline font-weight="bold">Senator Hays,and</inline> showed him a <inline font-style="italic">Hansard</inline> proof ofmy remarks, and he was good enough to show me a proof of his.I find that what the honorable senator didsay was that he had asked for and obtained government assistance for the products mentioned. He was thus clearly referring to something obtained in the past, and not to something he was expectingor asking for in the present tariff. My remarks were, therefore, made under amisapprehension, and I express my regret, athaving made them. </para>
+        </talk.start>
+      </interjection>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1867</page.no>
+            <time.stamp />
+            <name.id>KOJ</name.id>
+            <electorate>TASMANIA</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">HAYS, Herbert</name>
+            <name role="display">Senator HERBERT HAYS</name>
+          </talker>
+          <para>- <inline font-style="italic">by leave</inline> - I accept the explanation of the right honorable senator in the spirit in which it hasbeen made and his assurance that his remarks were made under a misapprehension.For my own part, if last night, in the heat of the moment, I said anything offensive to the right honorable senator, I regret it; but I spoke because the right honorable senator was declaring that I was expecting something in return for my vote on the item under consideration. That I had correctly interpreted his remarks is borne out by a perusal of the <inline font-style="italic">Hansard</inline> proof which the right honorable senator was good enough to make available to me. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1867</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>EMPIRE DAY</title>
+          <page.no>1867</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1867</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>asked the President,without notice - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that addresses were presentedby both Houses of the Commonwealth Parliament,and by various citizens in the Commonwealth, to  His  Majesty the King on the occasion of his coronation? </para>
+            </item>
+            <item label="2.">
+              <para>Is it a fact that in certain of these addresses reference was made to the establishment of Empire Day as a symbol of the unity of the Empire? </para>
+            </item>
+            <item label="3.">
+              <para>Is it a fact that Empire Day was originated in Australia in1807? </para>
+            </item>
+            <item label="4.">
+              <para>Is it a fact that the establishment of Empire Day was first suggested by <inline font-weight="bold">Mr. F.</inline> Lyon Wise, an Australian citizen? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1867</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- The answers to the honorable senator&#39;s questions are as follow :  - 1 and 2. Iunderstand that such was the case. 3 and 4. These are matters altogether outside the jurisdictionof the  President  of the Senate, and I can give no answer to them. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1868</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>NEW SOUTH WALES</title>
+          <page.no>1868</page.no>
+        </subdebateinfo>
+        <para>Default Proceedings Withdrawn</para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>1868</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>asked the Leader of the Government in the Senate, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+        </interjection>
+        <list type="decimal-dotted">
+          <item label="1.">
+            <para>In referenceto the report appearing in yesterday&#39;s press to the effect that the Commonwealth Government has given notice of the withdrawal of two actions against the State of New Month Wales, claiming &#163;557,519 end &#163;220,875 respectively, what are the reasons for such withdrawal, if any! </para>
+          </item>
+          <item label="2.">
+            <para>What undertakings, if any, have been given by the Government of New South Wales in this matter? </para>
+          </item>
+          <item label="3.">
+            <para>Have any guarantees in respect of future liabilities been given by the State Government of New South Wales which will protect the interests of theCommonwealth and the other States? </para>
+          </item>
+        </list>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1868</page.no>
+              <time.stamp />
+              <name.id>K1L</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>ALP</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARNES, John</name>
+              <name role="display">Senator BARNES</name>
+            </talker>
+            <para>- The actions have been withdrawn us a settlement has been effected in respect of the indebtedness of New South Wales to the Commonwealth, arising out of the failure of New South Wales to pay its oversea interest and certain interest due to the Commonwealth. The Government of New South Wales has givenan undertaking to accept responsibility for the payment of interest on New South Wales public debt, and has rejoined the Loan Council, and the representative of New South Wales on the Loan Council has advised that the State has effected a reduction of 20 per cent. in its adjustable expenditure in accordance with the Premiers&#39; plan. These are the conditions under which the Loan Council approved the issue of treasury-bills to cover the cash requirements of New South Wales for the month of July, 1931. Subsequently, the Loan Council agreed to the issue of treasury-bills to provide for payment of the moneys owing by New South Wales to the Commonwealth, and on the 7th October, the Treasurer, in reply to a question in the House of Representatives <inline font-style="italic">{Hansard,</inline> page 479), stated the terms of the settlement and the intention of the Commonwealth to discontinue the legal action. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1868</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TARIFF BOARD</title>
+          <page.no>1868</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1868</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>- The information is being obtained with reference to questions asked by <inline font-weight="bold">Senator Pearce</inline> relative to Tariff Board reports. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1868</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TOBACCO INQUIRY</title>
+          <page.no>1868</page.no>
+        </subdebateinfo>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>1868</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Trade and Customs, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+        </interjection>
+        <quote>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that the TariffBoard is at present engaged in an inquiry into the incidence of the tobacco duties! </para>
+            </item>
+            <item label="2.">
+              <para>If so, when is it especial that this inquiry willbe completed and the report presented ? </para>
+            </item>
+          </list>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1868</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>- The answers to the right honorable senator&#39;s questions are as follow :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. </para>
+            </item>
+            <item label="2.">
+              <para>The information is being obtained. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1868</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PRICE OF SUPERPHOSPHATE</title>
+          <page.no>1868</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1868</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator LYNCH</name>
+            </talker>
+            <para>asked the Loader of the Government in the Senate, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is ita fact that the price of superphosphate is, as per theAustralianDiary <inline font-style="italic">Review</inline> of16th November,1931, &#163;3 17s.6d. per ton in New Zealand as against&#163;410s. per ton cash with order in Western Australia? 2.If so, will the Government as a party interested in the supply of raw material to superphosphate-makers in both places inquire why there issuch a marked difference in the priceand, if so, use its influence in the direction of an adequate reduction? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1868</page.no>
+              <time.stamp />
+              <name.id>K1L</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARNES, John</name>
+              <name role="display">Senator BARNES</name>
+            </talker>
+            <para>- The answers to the honorable senator&#39;s questions are as follow :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. </para>
+            </item>
+            <item label="2.">
+              <para>The Australian Commissioner, British Phosphate Commissioners, has reported that the New Zealand Government, in view ofthe falling off in consumption, is making available &#163;100,000 for the purpose of subsidizing sales of fertilizers within the dominion. It is understood that an arrangement has been made for payment by the Government of a subsidy equivalent to l1s. per ton of superphosphate sold, subject to the manufacturers and distributors reducing the selling price by a further sum of6s.6d. per ton, making a total reduction or 17s.6d. per ton. North island manufacturers have reduced the cash price from &#163;415s to&#163;3 17s.6d. per ton, to be effective from 12th October,1931., until 30th June, 1932. The cash price in the south island is &#163;3 17s.6d. per ton including the cost of transport to certain main distributing centres. The position is being examined with a view to ascertaining whether any reduction in Australian selling prices can be secured in connexion with the coming season. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF GENERAL SIR JOHN MONASH</title>
+        <page.no>1868</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>The  PRESIDENT  reported the receipt of a letter from <inline font-weight="bold">Mrs. G.</inline> Bennett, daughter of the late General <inline font-weight="bold">Sir John</inline> Monash, thanking the Senate for its resolution of sympathy. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1869</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CUSTOMS TARIFF</title>
+          <page.no>1869</page.no>
+        </subdebateinfo>
+        <para>
+          <inline font-style="italic">In committee:</inline>Consideration -resumed  from the 24th November <inline font-style="italic">{vide</inline> page 1866). </para>
+        <para class="block">DIVISION  IV.-  AgriculturalProducts andGroceries. </para>
+        <para>Item 38-</para>
+        <quote>
+          <para>By omitting the whole item and inserting in its stead the following item: - &#34;38. Biscuits, per lb.- British, 3d.; intermediate, 4d.; general, 4d.&#34; </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1869</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator LYNCH</name>
+            </talker>
+            <para>. - I have endeavoured to find out if there is any good reason for the increase in the duty on biscuits from11/2d. to 3d. per lb., an increase of 100 per cent., and I notice that, in the first place, no report by the Tariff Board has been presented in regard to this matter. Biscuits  are On  the prohibited list. The total consumption of biscuits in the Commonwealthis about &#163;2,814,000 worth, and the imports amount in  value  to only &#163;37,000, or  a  little over 1 per cent., yet the Government has considered it necessary to  place  an embargo on the trifling quantity of imports and to raise the duty by 100 per cent. I am  very  glad to be able to  say  that this protected  industryisbeginning  to give  a  good account of itself,  being  able not only to stand up against world competition, but also, like the primary producers, creditably to hold its own in the world&#39;s markets. In 1928-29, Australia exported biscuits to the value of &#163;141,000. Therefore, this industry commends itself to me as an ideal one. We have given it moderate protection, and it has availed itself of that assistance to such an extent that it is now able to satisfy the needs of the Commonwealth in the matter of biscuits, by providing a fine article. Ithas shown the spirit that should animate every industry by going into the open market and doing what many  other  protected industries should long  since  have done. The primary producers of this country have gone out into districts where there are  light  and dry  soils,  they arc producing  cereal  crops for export, and they are sending  their  product 12,000  miles  to the  great  emporiums  of  Europe, whereas the manufacturing industries of Australia  have  been standing practically still for the last 30  years.  It seems to me unnecessary, however, to double the duty of11/2d. per lb., which enabled the industry to  succeed.  It was sufficient protection to hold the field in Australia for an article of local manufacture, and that is about as much as should be expected. Then why double the duty, and impose an embargo on imported biscuits? This industry complies with the three requirements mentioned by the Minister in charge of the tariff as to the protective incidence of the duty, the rate imposed, and the balance of trade. I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the House of Representatives be requested to make the duties, perlb. British, 11/2d., intermediate, 2d. ; general, 2d. </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1869</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>South Australia</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>. - I suggest seriously that this duty should be allowed to remain. If we survey the real position, we shall discover the necessity for the Government&#39;s action, and the possibility of the Senate doing something to destroy the good work accomplished by the Ministry in fostering this industry. We can all agree that biscuits comprise a commodity which Australians can well manufacture to suit every taste. In 1927-28 we imported into this country biscuits to the value of &#163;36,704, and in the following year the importations increased in valueto &#163;39,000. In 1929-30 the value dropped to &#163;37,000, and in 1930-31 to &#163;2,846. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1869</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator Payne</name>
+              </talker>
+              <para>-  How did those get in. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1869</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- The Government, in the administration of its prohibitions, has always attempted to do justice to persons dealing in the goods involved. A certain period had to elapse to enable contracts to be completed, and in other instances it was necessary to ensure a continuity of supplies until the Australian product could be manufactured. The value of the Australian production in 1926-27 was &#163;5,174,934, but on account of the depression it fell to &#163;2,663,976 in 1929-30. During the same period the exports depreciated from &#163;147,306 to &#163;82,244. Viewing the matter from the point of view of giving to the United Kingdom a fair share of our trade, what was the Government to do in those circumstances? Biscuit factories were dotted throughout Australia ; three of them, I believe, in Western Australia. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1869</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>-  Did any of the Western Australian manufacturers ask for this additional duty? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1870</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- I do notthink that any manufacturer asked for it; the Government took action before the necessity arose for them to do so. Honorable senators have only to carry their minds back to the position that existed two or three years ago. Walking along the streets of Sydney or Melbourne then, one would see displayed for sale beautifullypacked overseas biscuits. The Australian people had acquired a taste for them, and would not eat those that were produced in their own country. The time arrived, however, when this Government had to face stern realities. The industry was established in Australia, yet the production was falling off, and the obligation rested upon the Government to keep in employment the maximum number of our own people. There is a better test to apply than that of whether any request for the additional dutyhas been made by the Australian manufacturers. We have in Australia to-day a number of organizations, such as chambers of manufactures, chambers of commerce, housewives associations, taxpayers associations, freetraders, and so on. Not one protest has been lodged with any honorable senator by any of those organizations concerning the imposition of this duty. On the other hand, however, many hundreds of men who but for it would have been thrown out of employment, have been kept in work. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1870</page.no>
+                <time.stamp />
+                <name.id>K3L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SAMPSON, Burford</name>
+                <name role="display">Senator Sampson</name>
+              </talker>
+              <para>-  As a result of the stoppage of importations to the extent of only &#163;37,000? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1870</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- A good deal of labour is involved in connexion with the manufacture of biscuits. In the first place, they are made by Australian workmen from Australian flour, sweetened with Australian sugar, and packed in Australian packages, the printing on which is done by Australian printers. The ovens in which they are cooked are made by Australian workmen. While &#163;37,000 may seem an infinitesimal sum, importations to that extent may affect, directly and indirectly, the employment of 200 or 300 men. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1870</page.no>
+                <time.stamp />
+                <name.id>K7F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLEBATCH, Hal</name>
+                <name role="display">Senator Sir Hal Colebatch</name>
+              </talker>
+              <para>-  What request did the Government receive for the extra duty? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1870</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- There was no direct request. But the Government has kept its finger on the trade pulse ever since it has been in power. The honorable senator may make a peculiar noise to signify disapproval of that statement; but I remind him that if he were in the Ministry and saw that production was declining while the imports were increasing, he would not need a report by the Tariff Board to convince him that there was something wrong. Will any honorable senator suggest that it is necessary for us to import biscuits? There are many other commodities that we can obtain in exchange for our wool and wheat, without taking biscuits, confectionery, perfumery, French costumes and the like, and building up an adverse balance that has to be corrected by the use of borrowed money on whichinterest has to be paid. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1870</page.no>
+                <time.stamp />
+                <name.id>KLU</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GLASGOW, William</name>
+                <name role="display">Senator Sir William Glasgow</name>
+              </talker>
+              <para>-  Was the tariff responsible for the decline in the Australian production ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1870</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- I do not think that it was. What honorable senators have to realize is that, depression or no depression, a certain section of our community can afford to pay for whatever they feel inclined to buy. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1870</page.no>
+                <time.stamp />
+                <name.id>K3X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CARROLL, William</name>
+                <name role="display">Senator Carroll</name>
+              </talker>
+              <para>-  Does the Government wish to &#34;get at&#34; them? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1870</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- If we have to use our wheat and wool to pay for such commodities, and face the possibility of having to default with the British investor, I say &#34; Yes &#34; a thousand times. Why should the funds at our disposal be used to pander to the taste of these persons for English biscuits, while the banks are at their wits end marshalling credits so as to enable us to meet our commitments on account of import&#39;s and interest on borrowed money? I have no objection to any man spending his money as he likes in Australia; but so long as we have interest commitments overseas, and only wool and wheat with which to meet them, we should not interfere with the policy that has been adopted by this Government. I hope that the committee will pass the item quickly so that it may proceed to the consideration of other aspects of the Government&#39;s tariff policy. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1870</page.no>
+                <time.stamp />
+                <name.id>K2L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">REID, Matthew</name>
+                <name role="display">Senator Reid</name>
+              </talker>
+              <para>-  Did the Government impose these duties without requests from biscuit manufacturers, and in order to find employment for Australian workers? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1871</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- I do not see why the Government should have waited for requests from Australian manufacturers before it imposed the duties. As honorable senators know, it was faced with a difficult financial position when it took office, and had to frame its tariff policy with a view to safeguarding our financial position overseas. </para>
+            </talk.start>
+          </continue>
+          <para>
+            <inline font-weight="bold">Senator Sir</inline>HAL COLEBATCH  (Western. Australia) &#91;3.32&#93;.  -  I intend to support the request submitted by <inline font-weight="bold">Senator Lynch.</inline> During the last year or two,I have received a number of letters from correspondents in different parts of Australia, and from places outside the Commonwealth, with regard to Western Australian biscuits. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1871</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>-  They are a most popular commodity. Who are the makers? </para>
+            </talk.start>
+          </interjection>
+          <para>
+            <inline font-weight="bold">Senator Sir HAL</inline>COLEBATCH.Because of the quality of the product, the manufacturers - Messrs. Mills and Ware - I do not wish to give them an advertisement, and I neither know nor care whether they are political supporters of mine - have built up a considerable trade in the East. This was made possible, because the moderate tariff then in force permitted of healthy competition. Biscuit manufacturers had to produce a really good article and sell it at a competitive price. This Government, without any request from biscuit manufacturers in Australia, doubled the tariff and imposed a prohibition, all for the sake of securing about 1 per cent. of the Australian trade, which was then being done by importers. It is probable that the whole of the imported biscuits were of a particular and fancy type, suited for social afternoons and parties. To secure this portion of the trade for Australian manufacturers, the Government has encouraged outside manufacturers to establish factories in Australia, with the result that before long the Australian market will be flooded, with a production in excess of local requirements, and an erstwhile prosperous industry will be brought to ruin. This high tariff will thus be directly responsible for more unemployment in Australia. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1871</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>South Australia</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>. - <inline font-weight="bold">Senator Colebatch</inline> should be a little more careful of his facts. The official figures disclose that the export of biscuits from Western Australia in 1928-29, in which year, according to the honorable senator, the industry was in a healthy condition,was only &#163;14, and in the following year &#163;401, while the imports were, respectively, valued at &#163;5,016, and &#163;5,642. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1871</page.no>
+                <time.stamp />
+                <name.id>K7F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLEBATCH, Hal</name>
+                <name role="display">Senator Sir Hal Colebatch</name>
+              </talker>
+              <para>-  The Minister is speaking of direct exports. Figures supplied by the Customs Department are not a true index of the position. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1871</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- The honorable senator has assured us that, prior to the imposition of these duties, the biscuit manufacturing trade in Western Australia was in a healthy condition, and had built up a considerable trade in the East. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1871</page.no>
+                <time.stamp />
+                <name.id>K7F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLEBATCH, Hal</name>
+                <name role="display">Senator Sir Hal Colebatch</name>
+              </talker>
+              <para>-  That is so . </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1871</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- And yet the export trade in 1928-29 was worth only &#163;14. Probably, also, that represents sales on account of ships&#39; stores. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1871</page.no>
+                <time.stamp />
+                <name.id>K7F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLEBATCH, Hal</name>
+                <name role="display">Senator Sir Hal Colebatch</name>
+              </talker>
+              <para>-  The principal export trade is done from Sydney. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1871</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- In view of the figures which I have quoted, I feel that I need offer no apology for the Government&#39;s action. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1871</page.no>
+                <time.stamp />
+                <name.id>K7F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLEBATCH, Hal</name>
+                <name role="display">Senator Sir Hal Colebatch</name>
+              </talker>
+              <para>-  The Minister&#39;s figures are misleading because the export trade in Western Australian biscuits is done from Sydney, and there would be no record of it in the Customs Department. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1871</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator PAYNE</name>
+            </talker>
+            <para>.- The Minister has just reminded <inline font-weight="bold">Senator Colebatch</inline> that he should be careful of his facts. This admonition does not corns well from the honorable senator who stated just now that, because of the increase in the duties, our import trade in biscuits last year had decreased to &#163;2,000. That is not an accurate statement of the position. In April of last year the Government prohibited the importation of biscuits, and yet the Minister had the audacity to say that the decline in imports was due to the tariff, when, as  a  matter of fact, it was not, because importations were prohibited. The Minister, I suggest, should himself be more careful, otherwise, statements which he may make throughout the tariff debate will carry  no  weight. Honorable senators will recall that, while the Minister was speaking, I questioned him about the decline in imports, and he replied that the &#163;2,000 worth of biscuits imported last year were probably in fulfilment of trade contracts. I am speaking upon  a  matter of which I have some knowledge, because at one time I was employed in a biscuit factory, and at the present time I happen to be  a  shareholder in an Australian biscuit manufacturing company. I intend to support the request moved by <inline font-weight="bold">Senator Lynch</inline> because, in my opinion, the tariff on this item is  a  farce. It is intended to destroy altogether the trade in imported biscuits. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1872</page.no>
+              <time.stamp />
+              <name.id>KOZ</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HOARE, Albert</name>
+              <name role="display">Senator HOARE</name>
+            </talker>
+            <para>-  Of course it is. What is wrong with that? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1872</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- This action, also, has been taken by the Government without any request from Australian biscuit manufacturing companies. Practically  the  only biscuits imported are manufactured by Peek, Frean and Company, London. They produce  a  type of biscuit not manufactured in Australia. It would not pay Australian biscuit manufacturers to install the necessary plant to produce biscuits similar to those which were imported. From the figures available it would appear that the purchases of imported biscuits total only  a  little over 1 per cent, of the Australian consumption of biscuits. The Australian biscuit industry has captured the Australian market to  a  greater degree than  any  other industry. We are now asked  to  support the Government in imposing considerably higher duties than those ratified by Parliament  a  few years ago, and which have not been recommended by  the  Tariff Board, or requested by  the  biscuit manufacturers of Australia. In the circumstances, I feel justified in supporting the request moved by <inline font-weight="bold">Senator Lynch.</inline></para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1872</page.no>
+              <time.stamp />
+              <name.id>K3X</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CARROLL, William</name>
+              <name role="display">Senator CARROLL</name>
+            </talker>
+            <para>. -  I advise the Assistant Minister <inline font-weight="bold">(Senator Daly),</inline> who said he had not received one complaint with respect to the duties now imposed on imported biscuits, to get into conversation with the, housewives of Australia, when lie will immediately find that they have very serious complaints to  rn,a ke  concerning the prices charged for the Australian biscuits. </para>
+          </talk.start>
+          <para class="block">Those whose responsibility it is to purchase the necessities of life find that, owing to the prices charged for essential commodities, they cannot make ends meet with &#39; the funds at their disposal. Throughout the tariff debate, we have heard the viewpoint of only the manufacturers and the suppliers, while the poor unfortunate consumer has never been mentioned. My principal complaint is that the price of biscuits has not been decreased in the slightest degree. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1872</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator Daly</name>
+              </talker>
+              <para>-  But more Australian flour is being used. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1872</page.no>
+                <time.stamp />
+                <name.id>K3X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CARROLL, William</name>
+                <name role="display">Senator CARROLL</name>
+              </talker>
+              <para>- The flour has been purchased at about half the price at which it could be obtained twelve months ago. These wonderful employers whom the Government appears to be so anxious to protect, have reduced the wages of their employees. However, while the price of the raw material used in the manufacture of biscuits lias been considerably lower than it has been for some time, the price of biscuits has not been reduced. I intend to support the request moved by <inline font-weight="bold">Senator Lynch.</inline></para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1872</page.no>
+              <time.stamp />
+              <name.id>JXZ</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNCAN, Walter</name>
+              <name role="display">Senator DUNCAN</name>
+            </talker>
+            <para>. - <inline font-weight="bold">Senator Carroll</inline> said that his chief reason for opposing these duties is that the price of the Australian product is too high. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1872</page.no>
+                <time.stamp />
+                <name.id>K3X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CARROLL, William</name>
+                <name role="display">Senator Carroll</name>
+              </talker>
+              <para>-  The price of the raw material has been reduced by 50 per cent. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1872</page.no>
+                <time.stamp />
+                <name.id>JXZ</name.id>
+                <electorate>NEW SOUTH WALES</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN, Walter</name>
+                <name role="display">Senator DUNCAN</name>
+              </talker>
+              <para>- The price of Australian biscuits has not varied to any extent over a long period. Biscuits can be purchased very cheaply in this country, and when one compares their price with the cost of bread, it will* easily be seen that the rates charged for biscuits are .not unreasonable. No complaints have been received from the consumers of Arnott&#39;s milk arrowroot or similar biscuits, a fortnight&#39;s supply of which could be obtained for about one shilling. Some honorable senators are apparently anxious to assist those who manufacture a particularly fancy type of biscuit such ar are used at special afternoon functions, and concerning which some persons like to say, &#34; These cannot be made in Australia&#34;. The biscuits manufactured in Australia are quite good enough for all purpose*. I do not altogether agree with the Assistant Minister <inline font-weight="bold">(Senator Daly&#39;! who said these duties are imposed for protective purposes. Duties of this character are collected to increase the revenue. Those who can afford to pay for imported biscuits should contribute to the revenue in this form.</inline></para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1873</page.no>
+                <time.stamp />
+                <name.id>K3L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SAMPSON, Burford</name>
+                <name role="display">Senator Sampson</name>
+              </talker>
+              <para>-  But importations are prohibited. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1873</page.no>
+                <time.stamp />
+                <name.id>JXZ</name.id>
+                <electorate>NEW SOUTH WALES</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN, Walter</name>
+                <name role="display">Senator DUNCAN</name>
+              </talker>
+              <para>-If the prohibitions were to stand indefinitely, there would be no need to impose these duties.  1  belong to a party which advocates the removal of all prohibitions as quickly as possible; but when they are removed, we must have a tariff to protect our industries, and so benefit the revenue. Although the revenue derived from this source may not be large, it is contributed by a section of the community that can afford to pay. I support the retention of the existing duties. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1873</page.no>
+              <time.stamp />
+              <name.id>KOZ</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HOARE, Albert</name>
+              <name role="display">Senator HOARE</name>
+            </talker>
+            <para>.  - <inline font-weight="bold">Senator Payne</inline> said that, although he is a shareholder in a biscuit manufacturing concern,he wishes to encouragethe importation of biscuits. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1873</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator Payne</name>
+              </talker>
+              <para>-  I did not say anything of the kind. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1873</page.no>
+                <time.stamp />
+                <name.id>KOZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HOARE, Albert</name>
+                <name role="display">Senator HOARE</name>
+              </talker>
+              <para>- Apparently the honorable senator is sufficiently philanthropic to encourage competition, and disregard the possibilities of receiving big dividends. <inline font-weight="bold">Senator Carroll</inline> condemned the biscuit manufacturing companies for exploiting the public. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1873</page.no>
+                <time.stamp />
+                <name.id>K3X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CARROLL, William</name>
+                <name role="display">Senator Carroll</name>
+              </talker>
+              <para>-  I complained of the way in which the manufacturers had treated their employees and the public. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1873</page.no>
+                <time.stamp />
+                <name.id>KOZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HOARE, Albert</name>
+                <name role="display">Senator HOARE</name>
+              </talker>
+              <para>- There may be something in that. It is the responsibility of the manufacturers to pay good wages, and provide fair working conditions, particularly when their operations are protected by high duties. The building up of Australian industries gives employment to our own people, and provides a market for Australian produce. For example, biscuit-making provides a market for Tasmanian flour, which is said to be the best flour in the world for the purpose. I wonder at <inline font-weight="bold">Senator Payne</inline> attempting to prevent the greater use of Tasmanian flour. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1873</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator Payne</name>
+              </talker>
+              <para>-  Prohibiting the importation of biscuits does not lead to any greater consumption of Australianmade biscuits. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1873</page.no>
+                <time.stamp />
+                <name.id>KOZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HOARE, Albert</name>
+                <name role="display">Senator HOARE</name>
+              </talker>
+              <para>- It has led to the establishment in Australia of biscuitmaking factories by overseas firms. As <inline font-weight="bold">Senator Duncan</inline> has pointed out, one firm has already commenced in Sydney. An increase of Australian manufacturers means an increase of employment in Australia. Honorable senators talk about retaliation. It is a fact that if people want fancy biscuits, they will buy them, no matter what price they have to pay. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1873</page.no>
+                <time.stamp />
+                <name.id>K3L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SAMPSON, Burford</name>
+                <name role="display">Senator Sampson</name>
+              </talker>
+              <para>-  But the honorable senator would not allow those biscuits to come into the country? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1873</page.no>
+                <time.stamp />
+                <name.id>KOZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HOARE, Albert</name>
+                <name role="display">Senator HOARE</name>
+              </talker>
+              <para>- Personally I do not care whether they are absolutely prohibited by an embargo or practically prohibited by a high tariff. In the latter case, the biscuits imported would be consumed by people prepared to pay a high price for them. Australian biscuits are good enough for anybody. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1873</page.no>
+                <time.stamp />
+                <name.id>K3L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SAMPSON, Burford</name>
+                <name role="display">Senator Sampson</name>
+              </talker>
+              <para>- They have already captured 99 per cent. of the Australian market. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1873</page.no>
+                <time.stamp />
+                <name.id>KOZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HOARE, Albert</name>
+                <name role="display">Senator HOARE</name>
+              </talker>
+              <para>- Let them have 100 per cent of it. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1873</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>. -  This item serves to illustrate the principle for which I contended during my speech on the second-reading. The duties under discussion are not imposed to foster the biscuit-making industry, as the Minister put it, or to build up that industry as <inline font-weight="bold">Senator Hoare</inline> put it. The industry is already so well established that its annual production is worth &#163;2,777,912. I yield to no one in my admiration for the quality of some of the Australian biscuits, particularly those produced by the firm of Mills and Ware, of Western Australia. In the East, the demand for Mills and Ware&#39;s biscuits is second only to that for Peek Freans&#39;. In 1928-29, Australia exported biscuits worth &#163;141,000; in the following year, the export of biscuits was worth &#163;116,000. It cannot be said by any stretch of the imagination that the rates of duty under the old tariff failed to build up or foster the biscuit-making industry in Australia. <inline font-weight="bold">Senator Daly</inline> spoke as if high duties were intended to rectify the trade balance, but in another place the Minister for Trade and Customs <inline font-weight="bold">(Mr. Forde)</inline> said that the Government was rectifying the trade balance by prohibitions. The latter course is the proper one for any country to take in a time of financial distress, but exceptionally heavy duties are dangerous. The country runs- the infinite risk of destroying its already established industries. Biscuit-making is an industry in which Australia should engage to the utmost limit of its capacity, particularly when it is producing biscuits of the highest quality and exporting them. But what has happened to-day? Peek Frean have set up a factory in Sydney. The biscuits made by Mills and Ware arc of undoubted high quality, but in the public estimation they rank second to the product of Peek Frean. If Peek Frean are to produce in Australia the biscuit they are already supplying to the market in the East, what is to happen to the Western Australian firm? The quantity of biscuits consumed in Australia is limited. It is another of those cases referred to by <inline font-weight="bold">Mr. Foletta</inline> in the Tariff Board&#39;s report. High duties are really opposed to the best interests of Australian industry. The importation of a few biscuits of a high class quality is of advantage to the Australian manufacturer. It keeps up the quality of the local product. As a matter of fact, there has been no complaint by the local manufacturer against the importations. He is pleased to have the competition of these high-class biscuits, and I have no doubt he would prefer the importation of a few of Peek Frean&#39;s biscuits rather than the establishment by Peek Frean of a factory in Sydney. If we keep out &#163;37,000 worth of biscuits, how many more people will get employment; how much more flour will be used; how much more sugar? The quantity of biscuits imported is so trifling as to be unworthy of consideration. The Minister is putting up a fight on this item as if it were something really material to the tariff. He is actually fighting for something in the nature of a boomerang. I have had representations made to me in Melbourne as to the effect of these prohibitive duties. The overseas manufacturer does not worry about an embargo; he knows that it is a passing phase ; but when he sees prohibitive rates of duty laid on the table of the Commonwealth Parliament, and realizes that there is every likeli- hood of them being accepted by the Parliament, he knows that he cannot secure the Australian trade without establishing himself in Australia. That has happened in connexion with biscuit-making, and if other firms who are manufacturing an even more delicate class of biscuit than Peek Frean choose to establish themselves in Australia, it-will be to the undoing of those who have been endeavouring to build up the biscuitmaking industry in this country. I believe in this industry; it is a good industry; it is capable of exporting its output. But an increase in the tariff will lead to the undoing of the men already established in the industry. The Minister should see that it is not worth while persisting in these high duties for the protection of an industry that has already been built up. Whilst the trifling importations do not affect &#39;the position materially, they are useful as a protection to the public. They are a guarantee that the Australian manufacturer will keep up the quality of his product, and that his employees will maintain the standard of their work. Most important of all the permission of imports avoids the grave risk of competition being set up within Australia to the damage of those already engaged in the industry. The biscuit-making industry seems to need no further fostering at our hands; it has prospered under duties which are half those now proposed. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1874</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>South Australia</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>- -  When &#163;37,000 spent on imported biscuits is devoted to the purchase of Australian biscuits, a market is provided for &#163;18,000 worth of raw products, and &#163;19,000 is distributed in wages among Australian workmen. Primary producers benefit to the extent of &#163;18,000 a year, and 100 men are. provided with employment for 52 weeks in each year. </para>
+          </talk.start>
+          <para class="block">
+            <inline font-weight="bold">Senator Sir WILLIAM</inline>GLASGOW (Queensland) &#91;4.3&#93;.  -  Listening to <inline font-weight="bold">Senator Daly,</inline> one would think that the biscuit-making industry was providing a market for primary producers. The raw material for biscuit-making has now to find an overseas market, and the primary producer gets no higher price for his product through the consumption of an extra &#163;37,000 worth of Australian- made biscuits. A large proportion of the biscuits imported from overseas are required for dietary purposes. Many medical practitioners ordertheir patients to eat certain biscuits. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1875</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator Daly</name>
+              </talker>
+              <para>-  No complaint has been received from any doctor or hospital in that regard. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1875</page.no>
+                <time.stamp />
+                <name.id>KLU</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GLASGOW, William</name>
+                <name role="display">Senator Sir WILLIAM GLASGOW</name>
+              </talker>
+              <para>- What would be gained by complaining? Honorable senators must know that biscuits, for the weight, occupy considerable bulk, and so enjoy considerable natural protection, because firms importing them from abroad have to pay a great deal for packing, and the freight is charged according to measurement. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1875</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator Payne</name>
+              </talker>
+              <para>-  The packing would cost more than the freight. </para>
+            </talk.start>
+          </interjection>
+          <para>
+            <inline font-weight="bold">Senator Sir WILLIAM</inline>GLASGOW.Therefore, this commodity has a much higher natural protection than most other articles. Under the previous tariff, the value of the imports amounted to only 11/3 per cent. of the value of the total quantity consumed in Australia, so the local manufacturers had practically a monopoly of the Australian market. The only biscuits imported were a few fancy sorts, and a considerable quantity required for invalids. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1875</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator Daly</name>
+              </talker>
+              <para>-No biscuits were imported for invalids. </para>
+            </talk.start>
+          </interjection>
+          <para>
+            <inline font-weight="bold">Senator Sir WILLIAM</inline>GLASGOW.To my personal knowledge, doctors have on many occasions prescribed certain biscuits for their patients. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1875</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator Daly</name>
+              </talker>
+              <para>- They are made in Aus- </para>
+            </talk.start>
+          </interjection>
+          <para>
+            <inline font-weight="bold">Senator Sir WILLIAM</inline>GLASGOW.No; they are always imported. Biscuitsfrom overseas have to be packed in hermetically sealed containers which are notreturnable, while all the biscuits made in Australia are packed in tins which are returnable. This means an additional cost to the importer. Having regard to the facts that this commodity has a high natural protection, and that the local manufacturer had the market practically to himself under the previous tariff, I intend to support the request proposed by <inline font-weight="bold">Senator Lynch.</inline></para>
+          <para>
+            <inline font-weight="bold">Senator Sir</inline>GEORGE PEARCE  (Western Australia) &#91;4.8&#93;. - Senators from Western Australia cannot be accused, in this instance, of being geographical pro tectionists, because ours is the, third largest biscuit-manufacturing State in the Commonwealth, New South Wales being the largest, and Victoria the second largest. We support the proposed reduction of the duty, because the industry in Western Australia was built up, and became healthy, under the old tariff. It has proved itself capable of standing up to competition, and we are prepared to allow it to continue under fair competition. An additional reason why this duty should be brought down to the old rate is that while the previous- tariff was quite sufficient to enable the industry to thrive, if it dared reduce the quality of its product, or increase its price, there was always a potential competitor waiting to come in, and that is the best spurto efficiency. I understood <inline font-weight="bold">Senator Daly</inline> to say that if the &#163;37,000 worth of biscuits that were imported were manufactured annually in Australia, 100 men would be kept in employment, and &#163;19,000 would be circulated annually in wages. On referring to bulletin No. 24, I find that the value of the output per employee was &#163;742, and, dividing &#163;37,000 by &#163;742, the result is not 100, but 50. The salary and wages per employee were given as amounting to &#163;147, but 50 employees at &#163;147 each is not &#163;19,000, but &#163;7,350. So much for the Minister&#39;s calculation. The issue in regard to this item involves a choice between sane protection and prohibition, and, because of that, I intend to support <inline font-weight="bold">Senator Lynch.</inline></para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1875</page.no>
+              <time.stamp />
+              <name.id>JZ6</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;HALLORAN, Michael</name>
+              <name role="display">Senator O&#39;HALLORAN</name>
+            </talker>
+            <para>.- I am surprised at the discussion that this item has provoked, in view of the soundness of the case for the retention of thepresent duty. Some honorable senators who favour the proposal of <inline font-weight="bold">Senator Lynch</inline> would have us believe that the present protection is prohibitive, but let us consider the ad valorem equivalent of the present tariff. We find that the British preferential duty of 3d. per lb. and the intermediate and general tariff of 4d. per lb., amount to approximately 20 per cent. and 28 per cent. respectively. The factors mentioned by <inline font-weight="bold">Senator Pearce</inline> are not permanent. Prohibition has been imposed for a specific purpose, and will disappear long after tariff protection will be required to shield the local manufacturer from t4ho possible dumping of biscuits from abroad. During the period for which figures have been quoted in this discussion, the local production of biscuits was reduced from approximately &#163;5,000,000 to a little over &#163;2,000,000 per annum, and, in the same period the imports increased by &#163;3,000 per annum. The demand for imported biscuits increased slightly while, owing to the depression, the inquiry for locallymanufactured biscuits was reduced by over 50 per cent. I venture the opinion that if the duty had not .been raised by the present Government, the imports would have continued to increase to the detriment of the local industry. </para>
+          </talk.start>
+          <para>I cannot understand the attitude of <inline font-weight="bold">Senator Payne,</inline> who comes from a State which produces the finest quality wheat for biscuit-flour in the Southern Hemisphere. I understand that practically the whole of the wheat grown in Tasmania, owing to the peculiar climatic conditions of that State, is sold for the purpose of biscuit manufacture. Any diminution in the production of biscuits in this country, no matter how small, must have some effect on the primary producers in Tasmania. <inline font-weight="bold">Senator Glasgow</inline> states that the primary producer is at a disadvantage in having to sell his wheat at world&#39;s parity, but that does not apply to the Tasmaniangrown wheat which is used for biscuitmaking purposes. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1876</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- That wheat is sold at practically the same price as other Australian wheat. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1876</page.no>
+                <time.stamp />
+                <name.id>JZ6</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">O&#39;HALLORAN, Michael</name>
+                <name role="display">Senator O&#39;HALLORAN</name>
+              </talker>
+              <para>- No; the Tasmanian producers obtain an advantage of a few pence per bushel for their particular type of wheat. If the local biscuit trade were reduced by lowering the present duty, the farmers of Tasmania would be at a disadvantage in having to seek a market abroad for the portion of their crop not used for biscuit-flour. <inline font-weight="bold">Senator McLachlan,</inline> apparently, is of the opinion that there is a danger of the Australian biscuit industry being subjected to increased competition as the result of the encouragement afforded to firms formerly manufacturing overseas and exporting biscuits to Australia to come to this country and produce within the tariff wall. I do not accuse the honorable senator of not believing in Aus tralian industries, but I consider that many of our industries are reaching a stage of organization and efficiency at which they have nothing to fear from overseas competition, or from overseas firms who become domiciled in Australia. That, I think, has been proved by the marked strides made in nearly all our industries in the last few years. Dealing with the figures that were quoted by the Minister in relation to the employmentcreating capacity of this industry as affected by this schedule, the Leader of the Opposition <inline font-weight="bold">(Senator Pearce)</inline> gave other figures which I find it very difficult to understand. I do not think that he understood their real purport, because he set out to show that the production per employee in the industry was approximately &#163;740, while the wages paid amounted to only &#163;147.. Those figures represent only a proportion of the employment created, and the wages paid, in connexion with the production of biscuits. The right honorable senator evidently has given no consideration to the employment provided in transporting wheat from the farms to the rail head or the shipping port, or to any of the other costs involved. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1876</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>-  That employment would be given whether the flour was used for biscuit-making or was sent overseas. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1876</page.no>
+                <time.stamp />
+                <name.id>JZ6</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">O&#39;HALLORAN, Michael</name>
+                <name role="display">Senator O&#39;HALLORAN</name>
+              </talker>
+              <para>- I am sure that the same volume of employment would not be provided. If Tasmanian flour were being sent overseas, it would be loaded into overseas vessels at some Tasmanian port, and the wages would be drawn by the men employed on those foreign vessels. But when transported to the mainland, it is shipped in vessels that are manned by Australian seamen, and handled by Australian waterside, workers^ carriers, and others from the point of discharge to the place where it is required for the manufacture of biscuits. To that extent, therefore, the employment of Australian workmen is materially increased. </para>
+            </talk.start>
+          </continue>
+          <para>I make this final point: Honorable senators apparently consider that as only a small amount is involved, and the additional direct employment which the shutting out of imports would provide would bo confined to approxi- mately  100 persons, the item is not worth consideration. I ask them to realize that this tariff schedule is made up of a multiplicity of such small items, and that if we were to accept the advice of some honorable senators, instead of 100 men being thrown out of employment probably 100,000 would be added to the already huge army of unemployed in this country. Because I do not desire to do that, because 1 am satisfied of the soundness of the Government&#39;s policy, and because the percentage protection in relation to the value of the item is not excessive, I support strongly the duties that have been imposed. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1877</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator PAYNE</name>
+            </talker>
+            <para>.- The honorable senator who has just resumed his seat repeated at the conclusion of his speech a remark with which he began it, namely, that the protection rel)resented by this proposed flat rate was equivalent to only 20 per cent. I remind him and -ethers who think as he does, that many other charges have to be met when biscuits are imported. In the first place, there are the dock charges in the Old Country. Then there is casing, which is a very heavy item indeed, lai all probability, a case that was invoiced at about &#163;1 would contain approximately twenty tins of biscuits, and the cost of each tin, at the lowest estimate, would be ls. 6d. Then there is the freight to Australia, which is considerable, because it is based on the cubic measurement of the commodity; the wharfage and other charges, and the ad valorem duty charged on the containers and the case by the Customs Department. To those costs have to be added 10 per cent, for primage duty. On the assumption that, on the average, each tin contains S lb. of biscuits, these costs represent 7-Jd. per lb. If the biscuits were invoiced at ls. 3d. per lb., that would be equivalent to 50 per cent., quite apart from the duty. Yet it is proposed to add a further 3d. per lb. to the landed cost! It is monstrous! The duty is imposed with one object, and that is to prohibit the importation of biscuits into Australia and to give effect to the exclusive policy that, has made this Government infamous in the eyes of the people of Australia. The act of prohibiting the importation of biscuits and other goods from the Old </para>
+          </talk.start>
+          <para class="block">Country must recoil on our own heads. We have to trade with other countries. The amount involved in this case is comparatively small, but this is only one of the many pin-pricks administered by the present Government to manufacturers abroad. There is no need for additional protection for the Australian biscuit industry. It has progressed excellently for many years, and now commands 98f per cent, of the Australian trade. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1877</page.no>
+              <time.stamp />
+              <name.id>K1L</name.id>
+              <electorate>Victoria</electorate>
+              <party>ALP</party>
+              <role>VicePresident of  the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARNES, John</name>
+              <name role="display">Senator BARNES</name>
+            </talker>
+            <para>1  4.28&#93;. - It has been claimed by several honorable senators that no request has been made for this additional duty. The request has come to the Government from many quarters, but chiefly from the Opposition itself. When the Government came into power it was faced with the necessity of finding employment for a very large section of the people, and it has since been at its wits end to discover the means of doing so. One of the means adopted was the imposition of this duty. The amount involved may bc only &#34;  a  drop in the bucket,&#34; but it is by conserving this and. other drops that our trade has been balanced.- our budget squared, and a greater volume of employment provided. <inline font-weight="bold">Senator Carroll</inline> has referred to the case of the housewife who does her own marketing, and has said that she is the one who grumbles when the prices of commodities are high. Would she rather that her husband should be out of work, in which case she would have nothing with which to buy biscuits, butter and other commodities, or that he should be in employment, thus enabling her to buy to the limit of his earning capacity, even though she had to pay slightly higher prices? That is the situation all over Australia, but particularly in connexion with a commodity like this. Why should we send 13,000 miles across the seas for biscuits, when we grow in this country every ingredient and can employ our own people in making them? It would be just as sensible to send for a  shipload of bread that had been baked in English ovens. The item has been characterized by many honorable senators as one that is hardly worth the scrap that has been put up over it. That was my opinion, and I wondered why honorable senators were offering such  determined opposition toit. It seemed to me that, although it was only a minor matter, the manufacture of biscuits in Australia was so advantageous to this country that no objection could be offered to the duty. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1878</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator LYNCH</name>
+            </talker>
+            <para>. -  I did not think that the Government would so stubbornly resist my proposed request, considering that the object merely is to reduce the rate to that which obtained in 1928. It is out after the last one per cent., so that the local manufacturer will have the whole market, but it has not advanced 1 per cent. argument in support of its proposal. Is it of any use to remind the Government of the folly of trying to pile on the last straw? It is a dangerous policy at any time to attempt to exact the full pound of flesh. That has been demonstrated over and over again. Just as we observe the imposition by other countries of tariffs against our products, so we cannot prevent those countries from observing the tariffs that we impose against them. Our exports of biscuits total the respectable amount of &#163;140,000. Where are they going? As <inline font-weight="bold">Senator Colebatch</inline> has pointed out, they go from Hong Kong to Peru, including India, New Zealand, French Indo-China, the Netherlands East Indies, New Caledonia, the Philippine Islands and Siam. I do not begrudge the time occupied in discussing this item, if that discussion will draw attention to this one Australian industry that has given a good account of itself, and induce other protected industries to follow in its footsteps. It has carried on with a moderate tariff, and has placed itself in an unassailable position, the reason being that it was established on the sound bedrock of economic stability. It is now able to stand up against allcomers, and defy competition. I again warn the Government, however, against piling on the last straw. We send to the Netherlands East Indies &#163;51,000 worth of biscuits, and import from the Netherlands only &#163;2,000 worth. Therefore there is a credit balance in our favour with that country in connexion with biscuits alone of &#163;49,000. If <inline font-weight="bold">Senator Barnes</inline> were Premier of Holland, and learned that a Labour government in Australia was prohibiting the importation of &#163;2,000 worth of Dutch biscuits, at a time when it was sending &#163;51,000 worth of Australian biscuits to Dutch territory in the South Seas, would he regard that as fair treatment by one government to another? <inline font-weight="bold">Senator Barnes</inline> knows quite well that it is not fair play in tariff legislation for this Government to direct all its energies to the securing of this 1 per cent. of trade in imported biscuits. The continuance of this policy will undoubtedly antagonize countries which otherwise would be friendly to Australia. If the Australian policy is to grab all the trade for itself, and to make no concession to other countries, the day will come when Australia will realize that she is paying dearly for it. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1878</page.no>
+                <time.stamp />
+                <name.id>KPQ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">KINGSMILL, Walter</name>
+                <name role="display">Senator Kingsmill</name>
+              </talker>
+              <para>-  Naboth&#39;s vineyard policy ! </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1878</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator LYNCH</name>
+              </talker>
+              <para>- Yes. Why should we begrudge the manufacturers of other countries, which are good customers of ours, a small share of our import trade ? We complained of the action of the Government of the United States of America in imposing a duty of1s. per lb. upon Australian wool, because we feltthat we were not getting fair treatment. For the same reason, we should not be surprised if other countries adopt retaliatory action against Australia. Our policy should be to live and let live. Let up drop this huxtering about the 1 per cent. of import trade. Let us adopt a policy of fair dealing between Australia and other countries. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <division>
+          <division.header>
+            <time.stamp />
+            <para>Question- That the request (Senator Lynch&#39;s) be agreed to - put. The committee divided. (Chairman - Senator Plain.)</para>
+          </division.header>
+          <division.data>
+            <ayes>
+              <num.votes>18</num.votes>
+              <title>AYES</title>
+            </ayes>
+            <noes>
+              <num.votes>10</num.votes>
+              <title>NOES</title>
+            </noes>
+          </division.data>
+          <para>Majority . .  . . 8 </para>
+          <para>AYES</para>
+          <para class="block">
+            <graphic href="132332193111252_11_0_1_A.jpg" />
+          </para>
+          <para>NOES</para>
+          <para class="block">
+            <graphic href="132332193111252_12_0_2_N.jpg" />
+          </para>
+          <division.result>
+            <para>Question so resolved in the affirmative. </para>
+          </division.result>
+          <para>Request agreed to. </para>
+          <para>Item agreed to, subject to a request. </para>
+        </division>
+        <para>Item 43-</para>
+        <quote>
+          <para>By omitting the whole item and inserting in its stead the following item: - &#34;.43. Coffee and chicory. - </para>
+        </quote>
+        <list type="loweralpha">
+          <item label="(a)">
+            <para>Raw and kiln dried, per lb., </para>
+          </item>
+        </list>
+        <para>British, 4d.; intermediate, 4d. ; general, 4d. </para>
+        <list type="loweralpha">
+          <item label="(b)">
+            <para>Roasted, or ground: in liquid form; or mixed with milk or other. substance, per lb., British, 7d. ; intermediate, 7d. ; general, 7d. </para>
+          </item>
+          <item label="(c)">
+            <para>Substitutes, per lb., British, 7d. ; intermediate, 7d. ; general, 7d. </para>
+          </item>
+        </list>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1879</page.no>
+              <time.stamp />
+              <name.id>K3L</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SAMPSON, Burford</name>
+              <name role="display">Senator SAMPSON</name>
+            </talker>
+            <para>. - I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the House of Representatives be requested to make the duties, sub-item (a), per lb., British, 3d. ; intermediate, 3d.; general, 3d. </para>
+          </quote>
+          <para class="block">This is another item in respect of which the Tariff Board was not instructed to make a report. As coffee is not produced in Australia, the duties may be regarded as imposed merely for revenue purposes, and since the purchasing power of the people has been substantially reduced, I consider that there should be a reduction in the tariff on this item. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1879</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>South Australia</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>. - In reply to the argument adduced by <inline font-weight="bold">Senator Sampson</inline> in support of his request, I invite an opinion from the right honorable the Leader of the Opposition <inline font-weight="bold">(Senator Pearce)</inline> who has had considerable ministerial experience. I am instructed by the Customs Department that the Tariff Board has always resolutely set its face against making any recommendation in respect of duties of a purely revenue character. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1879</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- That is so. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1879</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- As these duties touch Government policy, this is an item which we can discuss without reference to the absence of a report from the Tariff Board. The duties on coffee are not intended for the protection of an Australian industry, in the sense that Franceimposes a duty on tea in order to increase the consumption of French wine. The Government, being obliged to look for sources of increased revenue considered that an additional duty on this item was not inequitable,, because coffee may be regarded as a semi-luxury commodity- </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1879</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>- No ; a necessity like beer. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1879</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>-I accept the suggestion and invite honorable senators to compare the relative burdens imposed upon beer and coffee-drinkers. The business man who is in the habit of. leaving his office at 4 o&#39;clock in the afternoon to have a glass of ale as a stimulant, contributes 3d. per pint to the revenue of the country ; but the man who prefers a cup of coffee pays an additional sum so infinitesimal that it is almost impossible to estimate it. If <inline font-weight="bold">Senator Sampson&#39;s</inline> request is adopted, the revenue will suffer to the extent of &#163;12,000 a year. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1879</page.no>
+                <time.stamp />
+                <name.id>K7F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLEBATCH, Hal</name>
+                <name role="display">Senator Sir Hal Colebatch</name>
+              </talker>
+              <para>- Is the Government receiving a higher revenue under these higher duties? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1879</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- I am not in a position to say, but there has been a substantial decline in the consumption of this beverage. In 1928-29 our imports of raw and kiln-dried coffee totalled 3,807,039 lb., and in 1928-29 they were 3,046,342 lb. In 1929-30, for some unaccountable reason, imports rose to 4,245,096 lb., but last year they dropped to 2,619,237 lb. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1879</page.no>
+                <time.stamp />
+                <name.id>K7F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLEBATCH, Hal</name>
+                <name role="display">Senator Sir Hal Colebatch</name>
+              </talker>
+              <para>- Those figures do not suggest that the higher duties are helping the revenue. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1879</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- I do not think that they are really responsible for the decline in the consumption of coffee, because as I have explained, an increase in the duty of1d. per lb would not be felt by the average coffee drinker. The reduction in the consumption is due largely to the depression. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1879</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>- Singularly enough, taking the four years mentioned by the Assistant Minister, and grouping the two two-year periods, the average consumption is about the same, showing that there must have been a heavy clearance in anticipation of the imposition of higher duties. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1880</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- That is not the explanation ; the duties did not become operative until November, 1930. Possibly the consumers used some substitute, but oven the importations of coffee substitutes decreased from 61,000 to 6,000 lb. The committee has to decide whether on this sub-item an extra impost of Id. per lb. is unfair in relation to other forms of indirect taxation raised expressly for revenue purposes. It is not suggested that these duties are imposed for protective purposes; they are essentially revenue duties. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1880</page.no>
+                <time.stamp />
+                <name.id>K3L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SAMPSON, Burford</name>
+                <name role="display">Senator Sampson</name>
+              </talker>
+              <para>- Do we produce chicory? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1880</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- Yes. In 1927-28, the importations were 393,000 lb., but supplies from overseas are not coming in to-day. The importations of coffee and chicory, roasted or ground, in 1927-2S, were 93,710 lb., and in 1930-31, 37,750 lb. Parliament has imposed certain duties for revenue purposes, and I appeal to honorable senators opposite to consider the difficult financial position with which the Government is confronted. We have a huge army of unemployed and heavy commitments to meet. Honorable senators opposite must decide whether it is unfair to ask a person who can afford to purchase a cup of coffee to pay an additional Id. per lb. for coffee, which would be equivalent to only about onefiftieth of a Id. per cup. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1880</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator PAYNE</name>
+            </talker>
+            <para>. - The Assistant Minister <inline font-weight="bold">(Senator Daly)</inline> has appealed to honorable senators to deal with this sub-item from a revenue view-point. Whatever force there may have been in his argument was destroyed by his concluding statement, that a person who can afford to buy a cup of coffee should not mind paying an additional Id. per lb. Coffee is in general use by all sections of the community; it is essential &#39; alike to the workman and the millionaire. The Assistant Minister suggests that the person who can afford to pay for a cup of coffee will have to contribute to the extent of only an additional Id. per lb., but there is also an ad valorem duty of 10 per cent., which increases the cost by another I4d. per lb., and on this higher cost the distributors will expect  a  higher profit. Eventually the consumers will have to pay approximately 3d. per lb. more for coffee. The Minister further said that this is an item which need not necessarily be referred to the Tariff Board. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1880</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator Daly</name>
+              </talker>
+              <para>- The Leader of the Opposition agreed with me on that point. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1880</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- That may be so; but the Tariff Board Act provides thai all increases in duty shall be referred to that body before they are imposed. That act does not discriminate between revenue duties and those imposed for protective purposes. The Tariff Board, in its annual reports, has made frequent references to the increase in the cost of living, and some time ago suggested that the consumers should have an opportunity to place their views before the board. In view of these facts the request should be supported. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1880</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator MCLACHLAN</name>
+            </talker>
+            <para>. - The figures quoted by the Assistant Minister are somewhat confusing. I am not quite clear as to when these duties were first imposed, but <inline font-style="italic">1</inline> think it was in November, 1930. It would appear that for the two years prior to the imposition of these duties, the aggregate of importations was 6,S00,000 lb. For the year 1930, during a portion of which these duties were not operative, the importations totalled 4,230,000, and in the succeeding .year they were 2,600,000 lb. Hie aggregate for the two years was. therefore, 6,S30,000 lb., or practically the same as during the previous two-year period. The merchants are sufficiently astute to realize that when the country&#39;s finances are drifting it is to their advantage to increase importations as higher duties are likely to&#39; be imposed. If the figures quoted by the Minister are correct. I am at a loss to understand what benefit will be derived by a continuance of these duties. Apparently, the Government w&#39;ill obtain more revenue if they are reduced. </para>
+          </talk.start>
+        </speech>
+        <division>
+          <division.header>
+            <time.stamp />
+            <para>Question - That the request (Senator Sampson&#39;s) be agreed to - put. The committee divided. (Chairman - SENATOR Plain. )</para>
+          </division.header>
+          <division.data>
+            <ayes>
+              <num.votes>20</num.votes>
+              <title>AYES</title>
+            </ayes>
+            <noes>
+              <num.votes>9</num.votes>
+              <title>NOES</title>
+            </noes>
+          </division.data>
+          <para>Majority . . . . 11 </para>
+          <para>AYES</para>
+          <para class="block">
+            <graphic href="132332193111252_14_0_3_A.jpg" />
+          </para>
+          <para>NOES</para>
+          <para class="block">
+            <graphic href="132332193111252_14_0_4_N.jpg" />
+          </para>
+          <division.result>
+            <para>Question so resolved in the affirmative. </para>
+          </division.result>
+          <para>Request agreed to. </para>
+          <para>Request (by <inline font-weight="bold">Senator Sampson)</inline> proposed - </para>
+          <para>That the House of Representatives be requested to make the duties,sub-itemb. per lb. British,6d. ; intermediate,6d,; and general, 6d. </para>
+        </division>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1881</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>South Australia</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>. - I do not propose to delay the committee by discussing this sub-item, as it is obvious from the division just taken that a majority of honorable senators are of the opinion that these duties should also be reduced. I enter my protest against a reduction in what are obviously revenue duties, particularly as no attempt has been made to show how the loss can be made up. I shall vote against the request. </para>
+          </talk.start>
+          <para>Request agreed to. </para>
+          <para>Request (by <inline font-weight="bold">Senator Sampson)</inline> agreed to- </para>
+          <quote>
+            <para>That the House of Representatives be requested to make the duties, sub-item  (c),  per II).. British, (id.; intermediate, (id.; general, (id. </para>
+          </quote>
+          <para>Item agreed to, subject to requests. item 44- </para>
+          <quote>
+            <para>By omitting the wholeof sub-item (e) and inserting in its stead the following sub-item: - &#34; (e) Confectionery,n.e.i., including </para>
+            <para>Cocoa and Chocolate prepared for edible use, or potable use (not in powdered or granulated form ) : Bon-bons and mixed packets of Confectionery containing trinkets (gross weights) : Sugar Candy: Medicated Confectionery; Caclious; and Crystallized or Candied Fruits, per lb., British, 3d.; intermediate, 31/2d.: general,31/2d.; or ad val., British, 43 per cent.; intermediate,55 per cent. : general,55 percent. whichever rate returns the higher duty.&#34; </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1881</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator LYNCH</name>
+            </talker>
+            <para>. - I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the House of Representatives be requested to make the ad val. duties, sub-item (e), British,35 per cent.; intermediate, 45 per cent.; general, 45 per cent. </para>
+          </quote>
+          <para class="block">This Government has increased the ad valorem rates by 10 per cent. on the 1928 rates. The position of the confectionery industry in Australia is very sound. The annual value of its output is about &#163;7,000,000, and it is exporting a fair quantity of confectionery toother countries, the sale value of the quantity exported in 1928-29 being &#163;128,000. The value ofthe confectionery imported in that year was only &#163;90,000. There was therefore a balance of &#163;40,000 in favour of Australia. There is no justification for this increase. By means of reasonable rates of duty, the biscuit-making and confectionerymaking industries have advanced to the proud position of being able to export, and I have therefore no compunction in asking the Senate to revert to a moderate rate of duty in the case of confectionery. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1881</page.no>
+                <time.stamp />
+                <name.id>K3L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SAMPSON, Burford</name>
+                <name role="display">Senator Sampson</name>
+              </talker>
+              <para>-  Have the manufacturers of confectionery asked for increased duties? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1881</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator LYNCH</name>
+              </talker>
+              <para>- No, but curious things are happening nowadays in regard to tariff -making. The time was when an increase of duty was given in response to an appeal by some manufacturer, but apparently nowadays the Government tells the manufacturers that they do not know their own business. It seems to regard the fact that there has been no request for an increase of duty as solid proof that an increase is needed. In this case, the manufacturers of confectionery have not asked for an increase. <inline font-weight="bold">Mr. MacRobertson,</inline> the  president  of the Victorian Confectionery Manufacturers Association, is reported in the <inline font-style="italic">Argus,</inline> of the 24th February, 1929, as having said - </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>The association would use its influence to obtain the rejection of the increased duties when the schedule was being discussed in Parliament. </para>
+          </quote>
+          <para>Need we go any further! We shall soon be imposing duties on Australian wheat, merino wool, Newcastle coal. We have reached such an insane stage in political affairs that we are offering duties where they are not wanted, andpulling off their mettle  the people engaged in local industries. If there is to be a race between the manufacturer and the importer, it should be a real race, and not an affair in which one sideis unduly handicapped. Under this schedule we are unduly militating against Australian welfare, enabling people inside the tariff wall to rest on their oars for an almost indefinite period without having to do their utmost to make a success of their businesses. Our primary industries are able to hold their own in the markets of the world, and I am glad to see that our confectionery and biscuitmakers are not only able to supply the whole of Australia&#39;s requirement&#39;s, but also to hold their own in the markets of the world. Yet the Government says that they must have additional duties. Surely it is time to get down to a commonsense basis, and ask ourselves why these duties are required. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1882</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>South Australia</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>. - <inline font-weight="bold">Senator Lynch</inline> has overlooked the important fact that,as a result of the present depression, the consumption of chocolates and other brands of confectionery in Australia has decreased to the extent of about &#163; 1,000,000 a year. The Government found itself obliged to take measures to protect, an industry already established in Australia. If it had gone out of existence, the result would have been further unemployment. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1882</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>- What are the importations? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1882</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- The value of importations of chocolate has been &#163;31,747 in 1927-28, and &#163;410 in 1930-31, and of other confectionery &#163;90,412 in 1927-28, &#163;121,406 in 1929-30, and only &#163;9,000 in 1930-31. In 1928-29 the value of the Australian production was &#163;7,455,428. It fell to 6,567,759 in 1930-31. The actual falling off in Australian production was &#163;900,000. To this must be added the &#163;100,000 decrease of importations. The actual consumption in Australia has thus been reduced by approximately &#163;1,000,000. The Australian manufacturer of confectionery has to pay the price of Australian sugar. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1882</page.no>
+                <time.stamp />
+                <name.id>KLU</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GLASGOW, William</name>
+                <name role="display">Senator Sir William Glasgow</name>
+              </talker>
+              <para>- In regard to confectionery exported, the sugar issupplied at the world&#39;s parity. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1882</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- The Australian price for Queensland sugar has to be paid for that used in the manufacture of the confectionery consumed in Australia. The manufacturer of Australian confectionery has also to pay the extra cost of glucose, brought about by the vote of the Senate last night; and, in addition, has to suffer a depleted market to the extent of &#163;1,000,000 per annum. In the circumstances, we should give the maximum amount of protection to our own manufacturers. If the local market for Australian confectionery were reduced to the extent of &#163;1,000,000 per annum, and we allowed &#163;100,000 worth of confectionery to come into Australia yearly from overseas, it would mean a loss to the Queensland sugar-growers, the glucose manufacturers, and the manufacturers or producers of the other Australian commodities used in the production of confectionery. </para>
+            </talk.start>
+          </continue>
+          <para>Request agreed to. </para>
+          <para>Item agreed to, subject to a request. </para>
+          <para>Item 51 agreed to. </para>
+          <para>Item 53- </para>
+          <quote>
+            <para>By omitting the whole item and inserting in its stead the following item: - &#34; 53. Fruits, dried, viz. :  - </para>
+            <list type="loweralpha">
+              <item label="(b)">
+                <para>Dates, perlb. - British, 3d.; intermediate, 3d.; general, 3d. </para>
+              </item>
+            </list>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1882</page.no>
+              <time.stamp />
+              <name.id>K3L</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SAMPSON, Burford</name>
+              <name role="display">Senator SAMPSON</name>
+            </talker>
+            <para>. - I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the House of Representatives be requested to make the duties, sub-item (b), British,1d.; intermediate,1d.; and general,1d. </para>
+          </quote>
+          <para class="block">I understand that this subject has been discussed by the Senate on numerous occasions. We have a report regarding it by the Tariff Board dated the 27th November, 1929, and this terrific impost was placed on dates by a tariff resolution of the21st November, 1929. The Tariff Board took a great deal of evidence regarding the increased duty. Those in favour of it were mostly persons connected with the Australian Dried Fruits Association and fruit-growers in New South Wales, Victoria, and other States, while various merchants opposed the duty. </para>
+          <para>Progress reported. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>1883</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Sales Tax: Application to Tasmanian Importers</title>
+          <page.no>1883</page.no>
+        </subdebateinfo>
+        <para>Motion (by <inline font-weight="bold">Senator Barnes)</inline> proposed - </para>
+        <quote>
+          <para>That the Senatedo now  adjourn. </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1883</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>. -  During the course of the answer to the challenge made  in  another place, by the honorable member for &#34;West Sydney <inline font-weight="bold">(Mr. Beasley),</inline> the Leader of the Lang group, the Treasurer <inline font-weight="bold">(Mr. Theodore)</inline> said that 1 had submitted lists to the management at Cockatoo Island Dockyard. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1883</page.no>
+                <time.stamp />
+                <name.id>JZ6</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">O&#39;HALLORAN, Michael</name>
+                <name role="display">Senator O&#39;Halloran</name>
+              </talker>
+              <para>-  Is the honorable senator referring to a statement made inanother place? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1883</page.no>
+                <time.stamp />
+                <name.id>JYB</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNN, James Patrick Digger</name>
+                <name role="display">Senator DUNN</name>
+              </talker>
+              <para>- Yes. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1883</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">The PRESIDENT (Senator the Hon W Kingsmill</name>
+            </talker>
+            <para>- The honorable senator is not entitled to do that. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1883</page.no>
+              <time.stamp />
+              <name.id>K1L</name.id>
+              <electorate>Victoria</electorate>
+              <party>ALP</party>
+              <role>VicePresident ofthe Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARNES, John</name>
+              <name role="display">Senator BARNES</name>
+            </talker>
+            <para>. -  It has been complained -by <inline font-weight="bold">Senator Herbert</inline> Hays, I believe - that importers of goods in Tasmania are at a disadvantage as compared with importers of goods on the mainland, in that the former have to pay more by way of sales tax on imported goods. This is said to be due to the fact that the law requires payment of tax on a value which, in the case of Tasmanian importers, must cover transhipping charges in addition to ordinary freight.In the case of persons who are not registered under the sales tax assessment acts, or who, although registered, are not permitted to quote their certificates of registration when importing goods, the position is that tax is payable at the time of importation of goods on a sale value consisting of the value for duty, plus all duties, plus 20 per centum. As the value for duty would not he affected by the transhipping charges, Tasmanian importers of the class referred to are on exactly the same footing as those in other States. It is apparent, therefore, that the complaints emanate from persons who are registered under the sales tax assessment acts, and who are entitled to quote their certificates&#39; when importing goods. Such persons are required to pay sales tax on the wholesale sale price of their wholesale sales, or, in the case of any retail sales, on a wholesale market value. In fixing the sale price of the goods, the merchant naturally must have regard to all  costs  of transport, including  transhipping from the mainland.  It  is not possible to provide any remedy  for  this position. It  would  be incorrect  to state  that Tasmanian taxpayers are the only ones who suffer disadvantage in this respect. There are numerous taxpayers <inline font-style="italic">who</inline> carry on business in inland towns on the mainland. These persons have  to  pay  tax  on sale prices which include a considerable proportion attributable  to  the freights payable for the transport  of  their goods from the capital cities. </para>
+          </talk.start>
+          <para class="block">Question resolved in the affirmative. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>1883</page.no>
+        <time.stamp>17:32:00</time.stamp>
+      </adjournmentinfo>
+      <para class="block">Senate  adjourned at  5.32 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

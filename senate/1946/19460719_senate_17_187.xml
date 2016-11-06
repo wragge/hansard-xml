@@ -1,251 +1,3056 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #010214; } body { background-image: url(/images/body-home-dusk-blurred.jpg); background-color: #010214; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1946-07-19%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1946-07-19%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1946-07-19%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1946-07-19%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1946-07-19%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1946-07-19%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1946-07-19%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1946-07-19/19460719_senate_17_187.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1946-07-19</date>
+    <parliament.no>17</parliament.no>
+    <session.no>3</session.no>
+    <period.no>2</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>2810</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1946-07-19</day.start>
+      <para>The <inline font-weight="bold">President (Senator the Hon. Gordon Brown)</inline> took the chair at 10.30 a.m.; and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2810</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PANEL STEEL</title>
+          <page.no>2810</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2810</page.no>
+              <time.stamp />
+              <name.id>JZ8</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FINLAY, Alexander</name>
+              <name role="display">Senator FINLAY</name>
+            </talker>
+            <para>- Has the attention of the Minister for Supply and Shipping been drawn to an article appearing in this morning&#39;s <inline font-style="italic">Canberra Times</inline> dealing with the acute shortage of panel steel in Australia and its probable effect on employment in the motor-body building industry? In view of the statement that only 40,000 tons of panel steel is available to the industry, and that its requirements in 1947 are estimated at 100,000 tons, is it the intention of the&#39; Government to agree to the importation of panel steel until the steel mills in Australia can supply the requirements of the industry? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2810</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>ALP</party>
+              <role>Minister for Supply and Shipping</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>- I have seen the press statement referred to by the honorable senator, but I have not had  time  to make any inquiries in the matter. I shall do so, and will furnish the information <inline font-style="italic">to</inline> the honorable senator as early as possible. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2810</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>APPLES AND PEARS</title>
+          <page.no>2810</page.no>
+        </subdebateinfo>
+        <para class="block"> <inline font-weight="bold">Senator ALLAN</inline> M*oDONALD.In view of the unsettled future of the apple and pear industry, can the Minister representing the Minister for Commerce and Agriculture Bay whether the Governments of Western Australia and Tasmania have made representations to. the Commonwealth Government for a renewal of the apple and pear acquisition scheme? If so, will the Minister, or the Government, negotiate with those two State governments for the introduction of complementary legislation in the Commonwealth and State parliaments concerned so as &#34; to organize adequately for the stabilization of the apple and pear industry until such time as refrigerated shipping space is available for the free marketing of apples and pears? Is the Minister aware that, in the event of such legislative action being taken by the Commonwealth and the State governments mentioned, there will be no need to await the result of the referendum, which, I&#34; think, will be against the transfer of powers to the Commonwealth? </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2810</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator J M FRASER</name>
+            </talker>
+            <para>- It is true that the Governments of Western Australia and Tasmania have made representations to the Commonwealth&#39; Government on the subject matter of the honorable senator&#39;s, question, but it is not true that the referendum will have no effect, on any decision that the Commonwealth or State &#39; governments concerned may make. To-day, we are acquiring apples and pears in two States, but that acquisition is being made under the Commonwealth&#39;s defence powers. The Government&#39;s future policy will depend entirely upon the result of the referendum. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>2810</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLeay</name>
+              </talker>
+              <para>- Is the Government frightened to make a decision before the general elections? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>2810</page.no>
+                <time.stamp />
+                <name.id>KKR</name.id>
+                <electorate>WESTERN AUSTRALIA</electorate>
+                <party>ALP</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FRASER, James</name>
+                <name role="display">Senator J M FRASER</name>
+              </talker>
+              <para>- We are nowusing our defence powers for this purpose. Whether we shall continue to do so after the end of the year is a matter of government policy. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2810</page.no>
+              <time.stamp />
+              <name.id>KOJ</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYS, Herbert</name>
+              <name role="display">Senator HERBERT HAYS</name>
+            </talker>
+            <para>- In view of the reply given to <inline font-weight="bold">Senator Allan</inline> MacDonald,  regarding the apple and pear industry that the policy of the Government towards the industry will depend on whether &#39;the proposals to be submitted to (he people at the forthcoming referendum regarding alterations of the Constitution are accepted or rejected, and in view of the likelihood of a deputation from Tasmania visiting Canberra next week for the purpose of making representations to the Minister for. Commerce and Agriculture regarding the future of the industry,&#39; will the Minister representing the Minister for Commerce and Agriculture intimate to members of the deputation that, as the Government has not reached a decision in the matter, they would be wasting time and money in making the proposed trip to Canberra? Will the deputation be advised that the Government is unlikely to make a decision concerning the future of the industry until the result of the referendum is known? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>2811</page.no>
+                <time.stamp />
+                <name.id>KKR</name.id>
+                <electorate>WESTERN AUSTRALIA</electorate>
+                <party>ALP</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FRASER, James</name>
+                <name role="display">Senator J M FRASER</name>
+              </talker>
+              <para>- It is not unusual for persons to come to Canberra to interview Ministers, but they do not always get what they want. I take it that the purpose of such visits is to discuss matters with the responsible Minister. A lot has been said regarding a decision in respect of apples and pears, but I point out that in other years decisions regarding the acquisition of fruit have been made about October. There is still ample time for the Government to give sympathetic consideration to the representations of growers of apples and pears in Western Australia and Tasmania. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2811</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SCRAP BRASS</title>
+          <page.no>2811</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2811</page.no>
+              <time.stamp />
+              <name.id>K0N</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARNOLD, James</name>
+              <name role="display">Senator ARNOLD</name>
+            </talker>
+            <para>- Is the Minister for Trade . and Customs aware that speculators in Australia are buying up all available scrap brass and exporting it at greatly enhanced prices? Is he aware that brass forms the raw material for plumbers&#39; supplies, and that if they are forced to use new material their costs will rise from 100 to 150 per cent.? Will the Minister examine the position with a view to placing an embargo upon the exportation of scrap brass? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2811</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator J M FRASER</name>
+            </talker>
+            <para>- Brass is included among a number of items which are now subject to export licences. I have already taken action to ensure the retention of supplies in Australia of certain components essential to industry, particularly in the manufacture of household fittings. Either a partial, or complete, embargo has been placed upon the exportation of such components. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2811</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>DIVISION OF IMPORT PRO- CUREMENT</title>
+          <page.no>2811</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2811</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>-Is the Minister for Trade and Customs aware that the Division of Import Procurement is in a hopeless muddle and that importers are obliged to wait for from two to six months before they can obtain decisions? Does the Minister know whether sheet-steel is available in the United Kingdom?Is any embargo placed upon the importation of sheet steel from the United Kingdom. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2811</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator J M FRASER</name>
+            </talker>
+            <para>- I have no knowledge of the honorable senator&#39;s allegation that the Division of Import Procurement is in a state of chaos. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>2811</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLeay</name>
+              </talker>
+              <para>- The Minister must go around blindfolded. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>2811</page.no>
+                <time.stamp />
+                <name.id>KKR</name.id>
+                <electorate>WESTERN AUSTRALIA</electorate>
+                <party>ALP</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FRASER, James</name>
+                <name role="display">Senator J M FRASER</name>
+              </talker>
+              <para>- All applications for import and export licences must be examined, and such examination, probably, causes a little delay; but, by and large, the Division of Import Procurement played a very prominent part in Australia&#39;s war effort. I shall ascertain what is the position in regard to sheetsteel. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2811</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>DISPOSAL OF FRUIT</title>
+          <page.no>2811</page.no>
+        </subdebateinfo>
+        <para>Allegations against Tasmanian Legislative Councillors. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2811</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator AYLETT</name>
+            </talker>
+            <para>- I ask the Minister representing the Acting AttorneyGeneral whether any action has been taken to give to two members of the Legislative Council in Tasmania the opportunity to clear themselves of . allegations that they stole two trucks of fruit, the property of the Apple and Pear Acquisition Board?Should grounds exist for prosecuting these men will such action be taken as would be taken against any other citizen? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2811</page.no>
+              <time.stamp />
+              <name.id>KTN</name.id>
+              <electorate>TASMANIA</electorate>
+              <party>ALP</party>
+              <role>Minister for Health</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCKENNA, Nicholas</name>
+              <name role="display">Senator McKENNA</name>
+            </talker>
+            <para>- On the 26th June, <inline font-weight="bold">Senator Aylett</inline> asked me, as the Minister representing the Acting Attorney-General, whether any action is contemplated against the Tasmanian Legislative Councillors who took fruit reported to be the property of. the Apple and Pear Acquisition Board and distributed it to all and sundry. In reply,I now inform the honorable senator, that, provided the Crown Solicitor is satisfied that there is sufficient evidence to establish a prima facie case against them, proceedings will be instituted against the two Legislative Councillors in question. Considerable difficulty has been encountered in obtaining the necessary evidence to establish a case owing to the fact that, if the fruit were the property of the board, the suppliers and transporters of the fruit would be equally guilty with those who purchased or acquired it without proper authority and disposed of it. In those circumstances, it is only natural thatthere should be a conspiracy of silence amongst those concerned. The Government would Welcome any information that would enable the facts to be ascertained and, in the event of an offence being disclosed, will unhesitatingly proceed to prosecution as the law can, of course, be no respecter of persons. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2812</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>MEAT INDUSTRY</title>
+          <page.no>2812</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2812</page.no>
+              <time.stamp />
+              <name.id>K7Y</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">TANGNEY, Dorothy</name>
+              <name role="display">Senator TANGNEY</name>
+            </talker>
+            <para>- Has the Minister for Trade and Customs seen a report in to-day&#39;s <inline font-style="italic">Canberra Times</inline> relating to the lifting of meat quota restrictions, and stating that a price margin to cover delivery costs - probably1d. per lb. - will be decided upon next week? If so, in view of the fact that deliveries were made without charge before the war, and that such a charge will bear most heavily upon the mothers of large families in the lower income groups who have already borne such a heavy burden of inconvenience during the war, will the Minister prohibit the imposition of a delivery surcharge? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2812</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator J M FRASER</name>
+            </talker>
+            <para>- I have not seen the report to which the honorable senator refers, but I shall have the position examined to see whether it is possible to comply with the honorable senator&#39;s suggestion.. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2812</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>FORTY-HOUR WEEK</title>
+          <page.no>2812</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2812</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- Has theMinister representing the Acting AttorneyGeneral, noticed a report in the press to-day that <inline font-weight="bold">Mr. Crofts,</inline> a union secretary, has stated publicly that within a fortnight the Chifley Government will declare itself in favour of a 40-hour week, and that up to date this Administration has been only sham fighting? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2812</page.no>
+              <time.stamp />
+              <name.id>KTN</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCKENNA, Nicholas</name>
+              <name role="display">Senator McKENNA</name>
+            </talker>
+            <para>- Neither <inline font-weight="bold">Mr. Crofts</inline> nor any other person outside of the Government can claim to be a spokesman for the Government. I am not aware of the origin of the report to which the honorable senator has drawn my attention. Only yesterday I made a statement in this chamber in regard to this matter, </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2812</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BREAD RATIONING IN GREAT BRITAIN</title>
+          <page.no>2812</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2812</page.no>
+              <time.stamp />
+              <name.id>K0N</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARNOLD, James</name>
+              <name role="display">Senator ARNOLD</name>
+            </talker>
+            <para>- Has the Minister for Supply and Shipping seen a report in to-day&#39;s press statingthat master bakers in Great Britain are on strike because of the Government&#39;s bread rationing proposals ? Can he inform the Senate whether the master bakers&#39; organization in Great Britain is Communist controlled, and if so, whether the corresponding body in this country is subject to a similar influence ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2812</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>- I have seen the newspaper report of the strike by British master bakers, but I have no knowledge of the political affiliations of their organization or of any similar organization in this country. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2812</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>IRON AND STEEL PRODUCTS</title>
+          <page.no>2812</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2812</page.no>
+              <time.stamp />
+              <name.id>KKJ</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, Alexander</name>
+              <name role="display">Senator A J FRASER</name>
+            </talker>
+            <para>- Is the Minister for Supply and Shipping in a position to inform honorable senators what stocks of galvanized iron, barbed wire, plain wire, wire netting, piping and other steel products were available at Newcastle for shipment to Victoria on the 11th of this month, and also on the 18th ofthis month? Also, can the Minister say what quantities of these goods have been shipped to Victoria in the last seven days? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2812</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>- This question follows upon similar inquiriesmade by the honorable senator on Wednesday. It will be recalled that the honorable senator stated, when he asked his earlier questions, that 50,000 tons of housing materials were awaiting shipment at Newcastle. I asked him to indicate which State he had in mind. He later modified his question and said that 20,000 tons of materials were awaiting shipment to Victoria. I have had inquiries made, and I find that steel and housing materials awaiting shipment to Melbourne at Newcastle on the 11th July totalled 15,636 tons. The shipping space allocated to load this quantity was sufficient for 16,000 tons, so that only the current week&#39;s production of about 4,000- tons of materials is now to be catered for. This indicates that the information supplied to the honorable senator was not correct. I assure him that Victoria is receiving an equitable allocation of the shipping space available, not only for housing materials, but also for other requirements. </para>
+          </talk.start>
+          <para class="italic">
+            <inline font-style="italic">Later:</inline>
+          </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2812</page.no>
+              <time.stamp />
+              <name.id>KKJ</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, Alexander</name>
+              <name role="display">Senator A J FRASER</name>
+            </talker>
+            <para>- Is the Minister for Supply and Shipping aware that on or about the 11th July the <inline font-style="italic">Iron Warrior</inline> was at Newcastle to load 5,000 tons of steel products for Victoria and was still at that port on the  18th  July? If so, will he say whether-that 5,000 tons of steel products was additional to the 15,636 tons that the Minister has acknowledged was at Newcastle on the 11th July? Oan he confirm information which I received yesterday from a reliable source that on the 18th July, 16,000 tons of steel products was at Newcastle awaiting shipment to Victoria? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2813</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>- It is not improbable that a vessel was at Newcastle from the 11th to the 18th July loading 5,000 tons of steel products. That quantity could not be loaded in a day, or even in 48 hours. As to the information which, the honorable senator says he has received from a. reliable source, I assert that the information which . I gave to the Senate this morning was absolutely, correct. Since I have been a member of the Senate I have never given information which was not correct, and I do not intend to. depart from that practice in the future. The honorable senator has evidently been misinformed. I assure him that the information that I gave to the Senate came from a more reliable source than that from which the information in his possession emanated. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>2813</page.no>
+                <time.stamp />
+                <name.id>KKJ</name.id>
+                <electorate>VICTORIA</electorate>
+                <party>LP</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FRASER, Alexander</name>
+                <name role="display">Senator A J FRASER</name>
+              </talker>
+              <para>- I ask leave to make a personal explanation. </para>
+            </talk.start>
+          </interjection>
+          <para>Leave not granted. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2813</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>THE PARLIAMENT</title>
+          <page.no>2813</page.no>
+        </subdebateinfo>
+        <para>Broadcasting of Proceedings</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2813</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator AYLETT</name>
+            </talker>
+            <para>- Has the PostmasterGeneral seen a statement in today&#39;s Sydney <inline font-style="italic">Daily Telegraph</inline> attributed to <inline font-weight="bold">Mr. R.</inline> J. F. Boyer,  chairman  of the Australian Broadcasting Commission, that, if demands for the right of reply by outsiders to statements made by members of Parliament ;become urgent, the suspen-  sion of parliamentary broadcasts may have to be considered? Has the commission the right to suspend such broadcasts? If so, could the suspension take effect without being ratified by the Parliament? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2813</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>ALP</party>
+              <role>Postmaster-General</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator CAMERON</name>
+            </talker>
+            <para>- My attention has been directed to a statement which appeared in &#39;to-day&#39;s issue of the Sydney <inline font-style="italic">Daily Telegraph.</inline> I am not prepared to judge <inline font-weight="bold">Mr. Boyer,</inline> or anybody else on an <inline font-style="italic">ex parte</inline> statement. I am not in a position to say whether the statement is correct or not. In any case, any decision to suspend the broadcasts&#39; of parliamentary proceedings would be made by the Government, and by nobody else. </para>
+          </talk.start>
+          <para>
+            <inline font-weight="bold">Senator ALLAN</inline>MacDONALD.;Has the PostmasterGeneral seen the report in this morning&#39;s <inline font-style="italic">Sydney Morning Herald</inline> to the effect that the concert being given by Joan Hammond had to be put off the air at 9.15 o&#39;clock last night because of the broadcasting of proceedings in the Senate? As proceedings in this chamber were not being broadcast at that hour, and as members of this chamber have sufficient sins on their heads, will he correct that report and ensure that this particular offence is justly laid at the door of the House of Representatives ? </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>2813</page.no>
+                <time.stamp />
+                <name.id>L8E</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CAMERON, Donald</name>
+                <name role="display">Senator CAMERON</name>
+              </talker>
+              <para>- I have not seen the report to which the honorable senator refers. I shall peruse it. I am perfectly aware that honorable senators opposite are guilty of many sins, -birt I shall do my best to ensure that they are not accused unjustly. I shall advise the honorable senator of the result of my inquiries, and should he deem it necessary, he can repeat his question. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2813</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SALES OF AUSTRALIAN SHIPS</title>
+          <page.no>2813</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2813</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>- Is the Minister for Supply and Shipping prepared to make a statement on sales of Australian ships to overseas buyers, and the reported attempt by certain unions to. prevent such, ships being taken out of Australian waters? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2813</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>- If the honorable senator will be specific and state which ships he has in mind, I shall supply him with the information. I assume that his question relates to <inline font-style="italic">Katoomba.</inline></para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>2813</page.no>
+                <time.stamp />
+                <name.id>KR9</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LECKIE, John</name>
+                <name role="display">Senator Leckie</name>
+              </talker>
+              <para>- Yes. <inline font-style="italic">Katoomba</inline> has been sold. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>2813</page.no>
+                <time.stamp />
+                <name.id>K0W</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">ASHLEY, William</name>
+                <name role="display">Senator ASHLEY</name>
+              </talker>
+              <para>- This vessel is 33 years old. It was on Navy charter during the war, and was to be returned from that service this month. Before the vessel could recommence its pre-war passenger and cargo operations, extensive alterations to crew accommodation and reconditioning would have been necessary. It? certificate will expire in February, 1947, when large-scale repairs must be undertaken. It will be clear that there would be little likelihood of <inline font-style="italic">Katoomba</inline> being used for any substantial period before the genera&#93; return of requisitioned ships to owners occurs. To put the vessel in thorough order would require the use of repair facilities needed for more urgent work and would involve the Government in heavy expenditure, which would not be justified having regard to the limited contribution which the ship could make to Australia&#39;s needs. Upon consideration of the circumstances, the Australian Shipping Board approved of <inline font-style="italic">Katoomba&#39;s</inline> sale and transfer overseas. The engagement of a crew to take the ship overseas is a matter for the owners, who must make their own arrangements with the men they  engage.  There is no Commonwealth law dealing with the registration of ships. The Imperial Merchant Shipping Act 1894 is the relevant authority. Section 1 of the act sets out the qualifications for owning a British ship, which exclude foreigners. Section 21 provides that registration shall be closed immediately a ship is sold to a person not qualified to own a British ship. The registration of <inline font-style="italic">Katoomba,</inline> as a British vessel, therefore, automatically ceased when the sale by Mcllwraith McEacharn Limited was effected, as it is understood that the purchasers are not persons who are qualified to own a British ship. In Australia tho Collector of Customs at each capital city port is the registrar of British ships, and marine branch surveyors carry out the actual measuring of ships and determine the tonnage. </para>
+            </talk.start>
+          </continue>
+          <para class="italic">
+            <inline font-style="italic">Later:</inline>
+          </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2814</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>- I am afraid that the Minister has not answered the second part of my question. Evidently, the sale of <inline font-style="italic">Katoomba</inline> was a perfectly wise and legitimate transaction. Having regard to the fact that the unions will not allow the ship to leave Australian waters, what action does the Minister propose to take in order to ensure that the transaction can be implemented? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2814</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>- I indicated that <inline font-style="italic">Katoomba</inline> had been sold to foreign interests, and that it is a matter for the purchasers to obtain a crew to man the vessel. That aspect is no concern of the Government. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2814</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>COMMONWEALTH DISPOSALS COMMISSION</title>
+          <page.no>2814</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2814</page.no>
+              <time.stamp />
+              <name.id>JZH</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AMOUR, Stanley</name>
+              <name role="display">Senator AMOUR</name>
+            </talker>
+            <para>- Will the Minister for Supply and Shipping make a statement to the Senate at an early date showing the progress made in disposing of huts, motor cars, and motor trucks declared surplus by the Army and the Air Force authorities? How many of the vehicles are at present held by those authorities, and when is it expected that all conventional motor vehicles and huts declared surplus&#39; by them will be made available for sale to the general public? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2814</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>- A great deal of investigation is necessary to enable the question to be  answered,  and I shall make a statement on the matter at a later date. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2814</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PUBLIC SERVICE</title>
+          <page.no>2814</page.no>
+        </subdebateinfo>
+        <para class="block">Status of  ex-Servicemen. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2814</page.no>
+              <time.stamp />
+              <name.id>K2F</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRAND, Charles</name>
+              <name role="display">Senator BRAND</name>
+            </talker>
+            <para>- As the deletion of section S4 (9) (c) of the Commonwealth Public Service Act has prejudiced the chances of ex-servicemen obtaining permanent status, will the Minister representing the Minister for Post-war Reconstruction a.&#171;k the Prime Minister to reconsider the reply given by him to a question asked by me on the 2nd April last, with the object of re-inserting that provision in the act? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2814</page.no>
+              <time.stamp />
+              <name.id>KTN</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCKENNA, Nicholas</name>
+              <name role="display">Senator McKENNA</name>
+            </talker>
+            <para>- I have no particular knowledge, of the section referred to, nor am I aware of the nature of the Prime Minister&#39;s reply to the honorable senator&#39;s question. If he will place the question on the notice-paper, I shall have inquiries made and endeavour -to supply an answer at an early date. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2814</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TOBACCO AND CIGARETTES</title>
+          <page.no>2814</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2814</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator AYLETT</name>
+            </talker>
+            <para>- In view of the complaints made to the Government about the shortage of tobacco and cigarettes, will the Minister for Trade and Customs state whether the Government has any control over the production of tobacco and the distribution of tobacco and cigarettes? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2815</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator J M FRASER</name>
+            </talker>
+            <para>- The regulations controlling the distribution of tobacco were revoked as from the 31st March last, and since that date it has been the responsibility of the tobacco manufacturers themselves to arrange the distribution of available supplies, without being subject to control by departmental officers. Applicants for supplies should address their applications to the secretary of the Retail Tobacco Trade Distribution Committee in their respective States. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2815</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>WHEAT INDUSTRY</title>
+          <page.no>2815</page.no>
+        </subdebateinfo>
+        <para>Licences</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2815</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- Will the Minister representing the Minister for Commerce and Agriculture ask his colleague to come to an early decision regarding the licensing of wheat-growers and the registration of farms for the production of wheat? Farmers complain that the restrictions which were &#39; previously in force have been lifted for only one yeal&#39;. As the Minister knows, fallowing for the next season&#39;s crop takes place in .Tune or July. Will he arrange for an announcement to be made that all restrictions on the sowing of wheat will be removed until the close of the 1948-49 season, so&#39; that farmers may be able to plan ahead? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2815</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator J M FRASER</name>
+            </talker>
+            <para>- I shall draw the attention of the Minister for Commerce and Agriculture to the honorable senator&#39;s request. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2815</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>MAN-POWER</title>
+          <page.no>2815</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2815</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- In view of the serious shortages of essential materials, and the repeated statements by Ministers that, despite the demobilization of 500,000 men-from the Army, there is still an acute shortage of man-power; will the Government seriously consider drawing the attention of the Arbitration Court to that fact and, in this time of emergency, urge that body not to reduce the number of hours worked, but rather that it should stress that what is necessary is more work and more pay? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2815</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>- I am&#39; aware tha t the Arbitration Court is dealing with what is known as the 40-hour week case, but the Government has no intention to give any direction whatever to the court. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2815</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>AUSTRALIAN CAPITAL &#39;  TERRITORY</title>
+          <page.no>2815</page.no>
+        </subdebateinfo>
+        <para>Football Codes</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2815</page.no>
+              <time.stamp />
+              <name.id>KS7</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, Allan</name>
+              <name role="display">Senator ALLAN MacDONALD</name>
+            </talker>
+            <para>- Is the Minister representing the Minister for the Interior aware that complaints have been received from the Australian Football League regarding the tendency in the Australian Capital Territory, especially in schools, to discountenance the playing of Australian national rules football? -Has a complaint on this subject been received from <inline font-weight="bold">Mr. W.</inline> R. Orr, secretary of the Western Australian National Football League, and will the Minister tell the Senate what is the attitude of the persons in charge of Canberra schools towards fostering a love of footballplayed in accordance with the Australian national code? . </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2815</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party>ALP</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- The honorable senator&#39;s question appears to indicate that; he desires a measure of control to be exercised over the code of football to be played in the Australian Capital Territory. I am astonished that such a question should be asked by an honorable senator who is congenitally opposed to control of any kind. During portion of my term of office as Minister for the Interior there was a clash of interests between football codes. Personally, I prefer the national game; but, at the same time, I am patron of a rugby union club. However, I do not suppose that the honorable senator suggests that any Minister, either the Minister for the Interior or I, should take official action in this matter.  </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SANDSHOES</title>
+        <page.no>2815</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2815</page.no>
+            <time.stamp />
+            <name.id>JQY</name.id>
+            <electorate>QUEENSLAND</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COURTICE, Benjamin</name>
+            <name role="display">Senator COURTICE</name>
+          </talker>
+          <para>- Since the Government relinquished control of the distribution of sandshoes, workers engaged on the sugar cane-fields in Queensland are experiencing great difficulty in obtaining sandshoes which are &#39;essential to them in their work. Will the Minister for Supply and Shipping endeavour to persuade- those who are now responsible for the distribution of sandshoes to make supplies available to workers in the sugar cane-fields. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2815</page.no>
+            <time.stamp />
+            <name.id>K0W</name.id>
+            <electorate />
+            <party>ALP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">ASHLEY, William</name>
+            <name role="display">Senator ASHLEY</name>
+          </talker>
+          <para>- The shortage to which the honorable senator refers indicates, as is the case with respect to other commodities over which the government has relinquished control, that sand- &#39; shoes are not being distributed as equitably as they might be. If the honorable senator will give me details of the centres in which shortages exist, I shall endeavour to have supplies forwarded to those areas. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2816</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TELEPHONE DIRECTORIES</title>
+          <page.no>2816</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2816</page.no>
+              <time.stamp />
+              <name.id>K3L</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SAMPSON, Burford</name>
+              <name role="display">Senator SAMPSON</name>
+            </talker>
+            <para>asked the PostmasterGeneral, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Will the Postmaster-General consider the advisability, (for the convenience of the general public) of printing larger figures in the next telephone directories and also revert to the pre-war practice of including postal information on the front pages, e.g., postage rates (internal and external), air mail, trunk calls, &#38;c? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2816</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator CAMERON</name>
+            </talker>
+            <para>- The answer to the honorable senator&#39;s question . is as follows : - </para>
+          </talk.start>
+          <quote>
+            <para>In reply to the honorable senator&#39;s question, it is desired to state that the matter of adopting a larger type for subscribers&#39; entries in the telephone directories and the inclusion of additional postal . telegraph and telephone information in the front pages of the publications concerned is being examined, and it is hoped to reach a decision at an early date. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2816</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>HOUSING</title>
+          <page.no>2816</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2816</page.no>
+              <time.stamp />
+              <name.id>JXE</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NASH, Richard</name>
+              <name role="display">Senator NASH</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Works and Housing, <inline font-style="italic">upon</inline><inline font-style="italic">notice-</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>When&#39;&#34; was the Commonwealth State Housing Agreement ratified by the State Government of Western Australia? </para>
+            </item>
+            <item label="2.">
+              <para>How many houses have been built in Western Australia under that agreement? </para>
+            </item>
+            <item label="3.">
+              <para>How many houses are under construction in Western Australia under that agreement? </para>
+            </item>
+            <item label="4.">
+              <para>What amount of money lias been advanced by the Commonwealth to the State of Western Australia under the agreement to date? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2816</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- The Minister for Works and Housing has supplied the following answers: - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>January, 1946, but the agreement is effective from the 3rd December, 1943. </para>
+            </item>
+            <item label="2.">
+              <para>Two hundred and ninety-three houses completed as at the 30th June, 194G. </para>
+            </item>
+            <item label="3.">
+              <para>Three hundred and twenty-seven houses under construction as at the 30th June, 194G. </para>
+            </item>
+            <item label="4.">
+              <para>&#163;460,000. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2816</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>DEHYDRATION OF VEGETABLES</title>
+          <page.no>2816</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2816</page.no>
+              <time.stamp />
+              <name.id>KOF</name.id>
+              <electorate>TASMANIA</electorate>
+              <party>NAT; UAP from 1931; LP from 1944</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYES, John</name>
+              <name role="display">Senator J B HAYES</name>
+            </talker>
+            <para>-HAYES asked the Minister representing the Minister for Commerce and Agriculture, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Is it  the  intention of the Government to let any contracts for the production of vegetables this season which will enable the dehydration factories to be kept working in the production of good food and provide the continuance of a profitable avenue of employment for farmers? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2816</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator FRASER</name>
+            </talker>
+            <para>-The Minister for Commerce and Agriculture states that it is not intended to let further Commonwealth contracts for vegetables other than potatoes. It is not considered that this will involve any lack of profitable employment for farmers. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>2816</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>VALLEY FIELD AERODROME</title>
+          <page.no>2816</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2816</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator AYLETT</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Civil Aviation, <inline font-style="italic">upon notice - .</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What was the cost of laying&#39; down the Valley Field aerodrome near Launceston? </para>
+            </item>
+            <item label="2.">
+              <para>Will the Minister . inform the Senate (&#171;) whether the aerodrome now belongs to the Government or to a private owner, and (6) who owns the heaps of fine crushed metal left near the runways on the aerodrome? </para>
+            </item>
+            <item label="3.">
+              <para>Is it a fact that on the 13th July&#39; all northern passengers had to travel over 100 miles past Valley Field  aerodrome  to Cambridge aerodrome because the owner of the property at Valley Field would not allow the aerodrome to be used in an emergency? </para>
+            </item>
+            <item label="4.">
+              <para>If so, and in view of the heavy cost of making the Valley Field aerodrome out of taxpayers money, will the Minister secure it for an emergency landing aerodrome for the north of Tasmania to save a repetition of what happened on the 13th July? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>2816</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator CAMERON</name>
+            </talker>
+            <para>- The Minister for Civil Aviation has supplied the following answers : - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>The landing ground was constructed at the direction of the Department of Air, which department reports that the cost was &#163;49,077. 2. (n.) The land is owned by a private owner. (6) The Department of Air reports that the heaps of fine crushed metal have been sold through % the Commonwealth Disposals Commission. </para>
+            </item>
+            <item label="3.">
+              <para>Yos. </para>
+            </item>
+            <item label="4.">
+              <para>The Department of Civil Aviation has secured rights to land at Valley Field as required. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>OVERSEAS TELECOMMUNICATIONS BILL 1946</title>
+        <page.no>2817</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>
+        <inline font-style="italic">In committee:</inline>Consideration resumed from the 18th July <inline font-style="italic">(vide</inline> page 2725). </para>
+      <para>New clause 18b. </para>
+      <para>Motion (by <inline font-weight="bold">Senator Cameron)</inline> proposed - </para>
+      <quote>
+        <para>That, after clause 18a, the following new clause be. inserted :  - &#34; 18b. The Commission may transfer or promote an officer to fill a vacant position in the service of the Commission.&#34; </para>
+      </quote>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2817</page.no>
+            <time.stamp />
+            <name.id>KS7</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MACDONALD, Allan</name>
+            <name role="display">Senator ALLAH MacDONALD</name>
+          </talker>
+          <para>. - I take this opportunity to ask the PostmasterGeneral <inline font-weight="bold">(Senator Cameron)</inline> why he ignored my suggestion that instead of creating an expensive commission to handle the Australian side of overseas telecommunications, the Government did not vest control ofthe whole matter in the Postmaster-General&#39;s Department? </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2817</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator Cameron</name>
+            </talker>
+            <para>-  I rise to order. Clause 18, to which the honorable senator is referring, has already been agreed to. </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2817</page.no>
+            <time.stamp />
+            <name.id>JQY</name.id>
+            <electorate>QUEENSLAND</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COURTICE, Benjamin</name>
+            <name role="display">The CHAIRMAN (Senator Courtice</name>
+          </talker>
+          <para>- The Postmaster-General&#39;s point of order is justified. Clause18 was agreed to last night. We are now discussing new clause 18b. </para>
+        </talk.start>
+        <para>New clause agreed to. </para>
+        <para>New clause 18c. </para>
+        <para>Motion (by <inline font-weight="bold">Senator Cameron)</inline> proposed - </para>
+        <quote>
+          <para>That, after clause 18b, the following new clause be inserted: - &#34; 18c. - (1.) In the selection of an officer for promotion to a vacant position, consideration shall be given first to the relative efficiency of the officers available for promotion and&#39;, in the event of equality of efficiency of two or more officers, then to the relative seniority of these officers. &#34; (2.) For the purposes of this section - (a)efficiency&#39; means special qualifications and aptitude for the discharge of the duties of the position to be filled, together with merit, diligence and good conduct, and, in the case of an officer who has at any time been engaged on war -service, includes such efficiency as, in the opinion of the commission, the officer would have attained but for his absence on war service; and </para>
+          <list type="loweralpha">
+            <item label="(b)">
+              <para>the seniority of officers shall be determined as prescribed.&#34; </para>
+            </item>
+          </list>
+        </quote>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2817</page.no>
+            <time.stamp />
+            <name.id>KR9</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">LECKIE, John</name>
+            <name role="display">Senator LECKIE</name>
+          </talker>
+          <para>.- Amendments and new clauses covering five printed pages were presented to. the Senate at a late hour last night, and obviously honorable senators have not had sufficient time to consider them. This seems to me to be an extraordinary way in which to conduct the business of this Parliament. A short examination of the amendments and new clauses before the Senate met this morning has resulted in a decision by the Opposition to move at least seven or eight amendments of our own. Probably if we had more time, we would be moving many more. In fairness to the committee, and also to the PostmasterGeneral <inline font-weight="bold">(Senator Cameron)</inline> himself, more time should be allowed to consider these important proposals. I have only had time to notify the PostmasterGeneral of one of the amendments that the Opposition will move. We have at least seven others, and in the circumstances I suggest the postponement of consideration of this measure until the next day of sitting. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2817</page.no>
+            <time.stamp />
+            <name.id>L8E</name.id>
+            <electorate>Victoria</electorate>
+            <party>ALP</party>
+            <role>PostmasterGeneral</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CAMERON, Donald</name>
+            <name role="display">Senator CAMERON</name>
+          </talker>
+          <para>. - <inline font-weight="bold">Senator Leckie</inline> is one of the ablest men in this chamber and is capable of grasping the significance of any proposed amendment almost at a glance. As in the first instance, he made no protest against the&#39; procedure now being followed, or any request for further time to consider the proposal&#39;s, I am compelled reluctantly to refuse his request now for a postponement of consideration of the measure. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2817</page.no>
+            <time.stamp />
+            <name.id>KKJ</name.id>
+            <electorate>VICTORIA</electorate>
+            <party>LP</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">FRASER, Alexander</name>
+            <name role="display">Senator A J FRASER</name>
+          </talker>
+          <para>. - I should have preferred the course suggested by <inline font-weight="bold">Senator Leckie,</inline> but as the Postmaster-General has said that we must proceed, I move - </para>
+        </talk.start>
+        <quote>
+          <para>That, in proposed new sub-clause (1,), after the word &#34; officers&#34; second occurring, the following words be inserted :  - &#34; preference shall first be given to an officer who has at any time been engaged on war service or serving- as an employee of Cable and Wireless Limited in any combat area&#34;. </para>
+        </quote>
+        <para class="block">I think that the meaning of the amendment is clear. The clause will then read -  (1.) In the selection of an officer for promotion to a vacant position, consideration shall be given first to the relative efficiency of the officers available for promotion and, in the event of equality of efficiency of two or more officers, preference shall first be given to an officer who has at any time been engaged on war service or serving as an employee of Cable and Wireless Limited in any combat area, then to the relative seniority of those officers. </para>
+        <para>This week honorable&#39; senators discussed at length what had been done already for the re-establishment of ex-servicemen. Everybody acknowledges that the people want ex-servicemen, and others who served in combat areas, to be granted reasonable preference in employment. However, even if all of the Government&#39;s claims be true, its achievements fall far short of the promises that were made to these men. I appeal to the Minister to accept, the amendment. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2818</page.no>
+            <time.stamp />
+            <name.id>L8E</name.id>
+            <electorate>Victoria</electorate>
+            <party>ALP</party>
+            <role>PostmasterGeneral</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CAMERON, Donald</name>
+            <name role="display">Senator CAMERON</name>
+          </talker>
+          <para>. - In my judgment the proposed amendment is redundant. Preference is already provided for in the Re-establishment and Employment Act. Therefore, it is unnecessary to include provision for preference to exservicemen in this legislation and perhaps cause a great deal of confusion and conflict. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2818</page.no>
+              <time.stamp />
+              <name.id>KKJ</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, Alexander</name>
+              <name role="display">Senator A J FRASER</name>
+            </talker>
+            <para>- My proposal, relates to preference in promotion, not preference in employment. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2818</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator CAMERON</name>
+            </talker>
+            <para>- All that the honorable senator desires is provided for in the Re-establishment and Employment Act. It is unnecessary to include preference clauses in every bill. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2818</page.no>
+            <time.stamp />
+            <name.id>KR9</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">LECKIE, John</name>
+            <name role="display">Senator LECKIE</name>
+          </talker>
+          <para>.- The Minister has cut the ground from under his own feet. If the ^preference sought by <inline font-weight="bold">Senator A.</inline> J. Fraser is already provided for in the Reestablishment and Employment Act, what objection can there be to accepting his amendment? The Minister has -made a rocky bed for himself by providing for the establishment of a new commission to conduct the telecommunication services, instead of having the work done by the Postal Department, which would be the natural authority to do the job. If the services were conducted by the Postal Department, the employees concerned would be public servants. Under this bill, they will not be subject to the terms of the Commonwealth Public Service Act. The Minister did not say whether he favoured the principle of the amendment; he merely said that it might be redundant in view of the fact that the Reestablishment and Employment Act provides for preference to ex-servicemen. I cannot emphasize too strongly the desire of honorable senators on this side of the chamber to provide a fair deal for the men who fought for their country. The Minister&#39;s statement is not sufficient. Furthermore, we do not agree with it, because, we do not believe that the Reestablishment and Employment Act provides for preference in promotion, which is the object of the proposed amendment. T cannot understand the Minister&#39;s refusal to safeguard the welfare of the employees concerned by accepting the amendment. I ask him to be reasonable and, to change his mind. If he will accept the amendment, he will help to create in the minds of ex-service; nien a firm belief that the Senate is alive <inline font-style="italic">to</inline> their needs and is anxious to reward them for their services to the nation. </para>
+        </talk.start>
+        <para>
+          <inline font-weight="bold">Senator FINLAY</inline>.(.South Australia) 1 11 .31&#93;. - One would think, after hearing <inline font-weight="bold">Senator A.</inline> J. Fraser and <inline font-weight="bold">Senator Leckie,</inline> that the promotion rights of exservicemen are entirely neglected in this chamber. Honorable senators opposite should give, closer attention to the measures that come before them. If they did so. they would find that this bill protects  ex-servicemen&#39;s rights in relation to promotion. The Government&#39;s proposed new clause 18c (2) (a) states - &#34; efficiency &#34; means special qualifications mid aptitude for the discharge of the duties of the position to he filled, together with merit, diligence and good conduct, and, in thi? case&#39; of an officer who has at any time been  engaged  on war service, includes such efficiency us, in the opinion of the Commission, the officer would have attained but for his absence on war service. </para>
+        <para class="block">It is apparent that this new clause provides for preference to ex-servicemen. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2818</page.no>
+              <time.stamp />
+              <name.id>KKJ</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, Alexander</name>
+              <name role="display">Senator A J FRASER</name>
+            </talker>
+            <para>- What will happen if the qualifications of two men are equal? </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2818</page.no>
+            <time.stamp />
+            <name.id>JZ8</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">FINLAY, Alexander</name>
+            <name role="display">Senator FINLAY</name>
+          </talker>
+          <para>- An ex-serviceman will be given preference. That is specified. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2818</page.no>
+            <time.stamp />
+            <name.id>L8E</name.id>
+            <electorate>Victoria</electorate>
+            <party>ALP</party>
+            <role>PostmasterGeneral</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CAMERON, Donald</name>
+            <name role="display">Senator CAMERON</name>
+          </talker>
+          <para>.- The Reestablishment and Employment Act, if correctly interpreted, will achieve -the purpose desired by <inline font-weight="bold">Senator A.</inline> J. Fraser. In the event of any doubt arising about the matter, the proper way to clarify the position would be to amend that act so that it would cover the Government&#39;s intentions regarding the granting of preference to ex-servicemen in all respects, including promotion. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2819</page.no>
+            <time.stamp />
+            <name.id>KSS</name.id>
+            <electorate>South Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MATTNER, Edward</name>
+            <name role="display">Senator MATTNER</name>
+          </talker>
+          <para>-. - The proposed amendment could very well be accepted by the Minister. The definition of &#34; efficiency &#34; which <inline font-weight="bold">Senator Finlay</inline> quoted goes reasonably far. It almost creates the opinion that complete preference will be given to exservicemen. I believe that to be the intention of the Government, and I know that the Postmaster-General is sincere and has ensured that, within his department, the true spirit of the Re-establishment and Employment Act shall be observed. I believe it is the Minister&#39;s intention to protect the rights of ex-servicemen. The clause provides that the efficiency and war service shall be considered, but the Opposition desires to know whether, if it came to a question of equality of efficiency, the ex-serviceman would be given preference. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2819</page.no>
+            <time.stamp />
+            <name.id>L8E</name.id>
+            <electorate>Victor iaPostmaster</electorate>
+            <party>ALP</party>
+            <role>General</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CAMERON, Donald</name>
+            <name role="display">Senator CAMERON</name>
+          </talker>
+          <para>. - When the last Government was in power, and a billwas before the Parliament to amend, the Australian Soldiers&#39; Repatriation Act, a provision was included giving preference in employment to ex-servicemen, and at that time I opposed the insertion of the provision in the act because I considered that it would be out of place there. Subsequently, it was repealed, and full provision was made for preference . in the Re-establishment and Employment Act. The object was to have preference, whether it applied to ex-servicemen or to applicants for promotion, dealt with in one measure, in order to avoid confusion and conflict and provide uniformity of -procedure. Otherwise there would be* protracted litigation and unnecessary appeals to tribunals. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2819</page.no>
+              <time.stamp />
+              <name.id>KKJ</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, Alexander</name>
+              <name role="display">Senator A J FRASER</name>
+            </talker>
+            <para>- Does the act apply to private employees, as well as public servants, in the matter of preference in promotion? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2819</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator CAMERON</name>
+            </talker>
+            <para>- In my judgment the <inline font-style="italic">net,</inline> interpreted as it should be by a sympathetic person administering it, would provide for preference in that matter. If the point were tested, and assuming an adverse decision were made, the proper course to follow would be to amend the . act. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2819</page.no>
+            <time.stamp />
+            <name.id>JZ8</name.id>
+            <electorate>South Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">FINLAY, Alexander</name>
+            <name role="display">Senator FINLAY</name>
+          </talker>
+          <para>. - Ex-servicemen will have every protection under the Minister&#39;s proposals. </para>
+        </talk.start>
+        <para>Proposed new clause 18d provides, <inline font-style="italic">inter alia -</inline></para>
+        <quote>
+          <para>An j&#39; officer . . . may appeal to the Promotions Appeal Board on the ground of superior efficiency or equal efficiency and seniority. . . . </para>
+          <para>Upon any such appeal being made, the . Promotions Appeal Board shall make full inquiry. . . . </para>
+          <para>Where the appeal is upheld the appellant shall be promoted to the vacant position and the provisional promotion shall be cancelled. </para>
+        </quote>
+        <para class="block">If any ex-serviceman has a grievance in such a matter, the commission has not the final voice regarding it. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2819</page.no>
+            <time.stamp />
+            <name.id>KR9</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">LECKIE, John</name>
+            <name role="display">Senator LECKIE</name>
+          </talker>
+          <para>.- That sounds well as far as it goes, but the Promotions Appeal Board decides appeals in accordance with the conditions laid down. by the Parliament. It is bound to carry out the provisions of the act. When <inline font-weight="bold">Senator Finlay</inline> states that exservicemen are completely protected, I ask him to read again paragraph o of proposed new clause 18c (2), which states - &#34; efficiency &#34; means special qualifications and aptitude for the discharge of the duties of the position to be  filled, together with merit, diligence and good conduct, and, in the case of an officer who ha3 at any time been engaged on war service, includes such efficiency, as, in the opinion of the Commission, the officer would have attained but for his absence on war service. </para>
+        </talk.start>
+        <para class="block">The effect of that, is that, if an exserviceman had been absent at the war&#39; for five years, when his efficiency and aptitude were being considered it would be necessary to determine to what position he would have been promoted had he not rendered that Avar service- </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2819</page.no>
+              <time.stamp />
+              <name.id>JZ8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FINLAY, Alexander</name>
+              <name role="display">Senator Finlay</name>
+            </talker>
+            <para>- What is wrong with that? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2819</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>- Nothing, except that it does not give him preference as an ex-servicemen. If the intention of the bill is that he shall have preference, that is what the Opposition desires, hut, under this bill, he has no protection at all. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2820</page.no>
+              <time.stamp />
+              <name.id>JZ8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FINLAY, Alexander</name>
+              <name role="display">Senator Finlay</name>
+            </talker>
+            <para>-  I am quite satisfied with the measure. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2820</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>- The honorable senator must be easily satisfied. Because of the ambiguity of the . proposal, I. appeal to the Minister to postpone this discussion until next week. Confusion has arisen in the minds of honorable senators because a casual glance indicates that one thing is meant, whereas more mature consideration reveals an entirely different meaning.&#39; I ask the Minister to give careful consideration to the remarks of honorable senators on this side. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2820</page.no>
+            <time.stamp />
+            <name.id>K2F</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BRAND, Charles</name>
+            <name role="display">Senator BRAND</name>
+          </talker>
+          <para>.- I listened carefully to the remarks of <inline font-weight="bold">Senator</inline> Finlay who, I believe, is concerned that justice shall be done to the men who went overseas, but  in  the light of what <inline font-weight="bold">Senator Leckie</inline> has said about the amendment giving added protection to exservicemen I  shall  support it. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2820</page.no>
+            <time.stamp />
+            <name.id>KKJ</name.id>
+            <electorate>VICTORIA</electorate>
+            <party>LP</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">FRASER, Alexander</name>
+            <name role="display">Senator A J FRASER</name>
+          </talker>
+          <para>.- To say that I am disappointed with the views expressed by the PostmasterGeneral <inline font-weight="bold">(Senator Cameron)</inline> and <inline font-weight="bold">Senator Finlay</inline> is to express my thoughts mildly indeed. During recent months I have had experience of the operation of the act referred to by the Minister, and it is because of that experience that I am concerned -that the proposed amendment shall be included in the bill. I know of instances of returned soldiers -with five years&#39; service having been passed over, thereby losing seniority rights and other privileges. That happened, not in private employment, but. under administrations functioning under a State law. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2820</page.no>
+              <time.stamp />
+              <name.id>JXE</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NASH, Richard</name>
+              <name role="display">Senator Nash</name>
+            </talker>
+            <para>-  Could the honorable senator cite an instance? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2820</page.no>
+              <time.stamp />
+              <name.id>KKJ</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, Alexander</name>
+              <name role="display">Senator A J FRASER</name>
+            </talker>
+            <para>- Yes. Nearly every ex-serviceman is at some disadvantage when he again resumes life as a civilian. Notwithstanding what <inline font-weight="bold">Senator Finlay</inline> has said, men who have had war service may experience difficulty in establishing their claim to efficiency. We on this side say that, if other things are considered to be equal, these men should not be required to state their case to an appeal - board; they have earned their right to preference. This is a matter of more than ordinary importance, because the Government is a partner in the com pany in which employment will be offered. It is not only our duty, but also our privilege, to set an example in this matter. We should let the people of Australia know where we stand in regard to preference to ex-servicemen. If as the Minister has said, there are some doubts about the matter let us remove them and establish the principle of preference clearly. Had the things we know now been known to the Parliament when legislation relating to ex-servicemen was under consideration, action which would have rendered the proposed amendment unnecessary might have been taken. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2820</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator Aylett</name>
+            </talker>
+            <para>-  What is wrong with the other legislation? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2820</page.no>
+              <time.stamp />
+              <name.id>KKJ</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, Alexander</name>
+              <name role="display">Senator A J FRASER</name>
+            </talker>
+            <para>- It does not go far enough. I ask the Minister to give serious consideration to the amendment, because it is quite possible, for his action to be misunderstood. I think that he desires to make it clear that he stands for preference to ex-servicemen. If that is so, he should accept the amendment and make the position clear beyond any doubt. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2820</page.no>
+              <time.stamp />
+              <name.id>JXE</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NASH, Richard</name>
+              <name role="display">Senator Nash</name>
+            </talker>
+            <para>-  There is no necessity for the amendment. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2820</page.no>
+              <time.stamp />
+              <name.id>KKJ</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, Alexander</name>
+              <name role="display">Senator A J FRASER</name>
+            </talker>
+            <para>- There is. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2820</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator Aylett</name>
+            </talker>
+            <para>-  Does the honorable senator want a debate on preference in connexion with every bill that comes before the Senate? </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2820</page.no>
+            <time.stamp />
+            <name.id>KKJ</name.id>
+            <electorate>VICTORIA</electorate>
+            <party>LP</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">FRASER, Alexander</name>
+            <name role="display">Senator A J FRASER</name>
+          </talker>
+          <para>- As long as I have the privilege of being a member of the Senate - and I believe that I shall enjoy that privilege for many years - I shall raise my voice in the cause of preference to returned servicemen every time a measure of this kind is under consideration. Moreover, I do not care how much of the time of the Senate I shall occupy dealing with the subject. We should reproach ourselves that such a discussion is necessary. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2820</page.no>
+              <time.stamp />
+              <name.id>JZ8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FINLAY, Alexander</name>
+              <name role="display">Senator Finlay</name>
+            </talker>
+            <para>-  Is the honorable senator a returned soldier? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2820</page.no>
+              <time.stamp />
+              <name.id>KKJ</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, Alexander</name>
+              <name role="display">Senator A J FRASER</name>
+            </talker>
+            <para>- I have had the privilege of serving my country in the front line, although I do not proclaim that fact by wearing any badge. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2820</page.no>
+              <time.stamp />
+              <name.id>KSS</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MATTNER, Edward</name>
+              <name role="display">Senator Mattner</name>
+            </talker>
+            <para>-  The honorable senator has a record of which any man should be proud. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2821</page.no>
+              <time.stamp />
+              <name.id>KKJ</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, Alexander</name>
+              <name role="display">Senator A J FRASER</name>
+            </talker>
+            <para>- I am embarrassed by <inline font-weight="bold">Senator Mattner&#39;s</inline> interjection. I do not speak on this subject merely because I had war service, or even because close blood relatives of mine made the supreme sacrifice in the war of  1939-45.  I am concerned not so much about them, as for those who stood shoulder to shoulder with them in the face of the enemy to keep Australia free. I do not want it said that the representatives of the people in this Parliament ^refuse to acknowledge their debt of gratitude to the men who fought. I appeal to the Minister in the strongest possible &#34;terms to accept the amendment, and thus place beyond doubt where we stand on the subject of preference to returned servicemen. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2821</page.no>
+            <time.stamp />
+            <name.id>JZH</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">AMOUR, Stanley</name>
+            <name role="display">Senator AMOUR</name>
+          </talker>
+          <para>. -  One gets tired of this -stupidity; that is what I term it. <inline font-weight="bold">Senator A.</inline> J. Fraser comes&#39; into this chamber and tells other honorable senators that -as .they do not know much about the subject that he can tell them something. I listened to him on another occasion when he was speaking of people who had become redundant in their employment, and he became a little mixed. He has shown this morning that again he is somewhat mixed. There is on the -statute-book legislation, introduced by the present Government, providing for preference to ex-service men and women. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2821</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator Leckie</name>
+            </talker>
+            <para>-  Why does not the Government implement that legislation? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2821</page.no>
+              <time.stamp />
+              <name.id>JZH</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AMOUR, Stanley</name>
+              <name role="display">Senator AMOUR</name>
+            </talker>
+            <para>- The Government will see that ex-servicemen receive preference in employment. It will not do what &#39;previous governments did; it will not give preference to them only at the end of a pick, while appointing nonreturned soldiers to more lucrative positions. The honorable senator should keep in mind what previous governments did in. this connexion. <inline font-weight="bold">Senator A.</inline> J. Fraser talks with tears in his eyes. Any one would think that he was the only soldier who had left these shores and had shown &#39; courage in the face of <inline font-style="italic">the</inline> enemy. To hear this twaddle-- </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2821</page.no>
+              <time.stamp />
+              <name.id>KKJ</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, Alexander</name>
+              <name role="display">Senator A J FRASER</name>
+            </talker>
+            <para>-  I rise to order. Is the honorable senator in order in making a persona) attack on me? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2821</page.no>
+              <time.stamp />
+              <name.id>JZH</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AMOUR, Stanley</name>
+              <name role="display">Senator AMOUR</name>
+            </talker>
+            <para>- I am not making a personal attack on the honorable senator. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2821</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CHAIRMAN, The</name>
+            <name role="display">The CHAIRMAN</name>
+          </talker>
+          <para>- I hope that no honorable senator will become heated and make a. personal attack on another honorable senator. If <inline font-weight="bold">Senator A.</inline> -J, Fraser will indicate what his point of order is, I shall endeavour to give a ruling. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2821</page.no>
+              <time.stamp />
+              <name.id>KKJ</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, Alexander</name>
+              <name role="display">Senator A J FRASER</name>
+            </talker>
+            <para>-  The honorable senator said that I spoke with tears in my eyes, and that I thought that I was the only one who had any respect for preference to returned soldiers, and the only one who had shown courage. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2821</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator Ashley</name>
+            </talker>
+            <para>- <inline font-weight="bold">Senator Amour</inline> did not suggest that the- honorable senator was the only one who had shown courage. He said that the honorable senator was not the only one who had done so. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2821</page.no>
+              <time.stamp />
+              <name.id>KKJ</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, Alexander</name>
+              <name role="display">Senator A J FRASER</name>
+            </talker>
+            <para>- <inline font-weight="bold">Senator Amour</inline> should confine his remarks to the subject before the Chair. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2821</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CHAIRMAN, The</name>
+              <name role="display">The CHAIRMAN</name>
+            </talker>
+            <para>- Any honorable senator who regards the remarks of another honorable senator as offensive has the right to object. I hope that in our discussions &#39;personalities will be avoided. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2821</page.no>
+              <time.stamp />
+              <name.id>JZH</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AMOUR, Stanley</name>
+              <name role="display">Senator Amour</name>
+            </talker>
+            <para>-  It would appear that <inline font-weight="bold">Senator A.</inline> J. Fraser does not understand the rules of debate. He introduced this subject. I did not. -The  CHAIRMAN.  - I ask <inline font-weight="bold">Senator Amour</inline> to deal with the amendment before the Chair. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2821</page.no>
+              <time.stamp />
+              <name.id>JZH</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AMOUR, Stanley</name>
+              <name role="display">Senator AMOUR</name>
+            </talker>
+            <para>- The amendment is not necessary, because the preference which&#39; it seeks to grant is provided for in legislation already on the statute-book. That legislation may yet affect those who to-day clamour that preference .shall always be given to returned servicemen. It has been said that men have lost their lives on the battle-fields. That did happen in both world wars. It is also true that many of the men who gave their lives in the cause of freedom had sons who, when they grew up and sought employment, could not obtain it because of legislation providing for - preference to returned soldiers. Other men who fought were maimed, or have ill health as the result of their war service. Some of them also had sons. But although those men suffered greatly and had made tremendous sacrifices their sons could not get employment because they were not returned soldiers. I arn mindful of these things when people try to make a political football of preference to ex-servicemen. Others in the community are victims of infantile paralysis, and could not serve with the armed forces. They cannot obtain employment because they are not. returned soldiers. Are not these people also entitled to sympathetic treatment? I know many soldiers and I associate with ex-servicemen. From the genuine soldiers I have learned lessons in perseverence and courage. Many returned servicemen would scorn to think that the positions to which they have been appointed had been handed to them on a plate because of some law entitling them to preference for appointment to positions which they could not obtain by reason of their a-bility and fitness to occupy them. A- man of valour cannot take pride in anything gained in that way. The Government will ensure that employment is provided for ex-servicemen, but I earnestly , Dray that it will be mindful also of the sons of soldiers, cripples and their sons, and boys and girls growing up in the community, who, in the years ahead, will be called upon to do many things for their nation, either in war or in peace. I hope that nothing will be done to interfere with their chances to become  capable technicians or professional men. 1 hope that all those things will be done. T do not like to see the ex-servicemen made a political football. That is what happened to the invalid and old-age pensioners. We should not treat the exserviceman in that fashion. The Government has made provision for preference in employment to ex-service personnel for a period of seven years, and that fully meets their requirements. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2822</page.no>
+            <time.stamp />
+            <name.id>L8E</name.id>
+            <electorate>Victoria</electorate>
+            <party>ALP</party>
+            <role>PostmasterGeneral</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CAMERON, Donald</name>
+            <name role="display">Senator CAMERON</name>
+          </talker>
+          <para>. - I &#39; agree with <inline font-weight="bold">Senator A.</inline> J. Fraser when he says that the Government should set an example to the people of Australia. That is exactly what it intends to do. It has vividly in mind the gross injustices to which exservicemen were subjected after World War I. It has vividly in mind the fact that both Commonwealth and State Governments at that time were remiss in their duty to ex-service personnel. I shall  cite two examples. In 1924 many returned soldiers, picked men who were highly decorated, were dismissed from the Victorian police force because they had the temerity to protest against what were admittedly unjust conditions. All of those men were discharged, but their places were not filled by returned soldiers.. In 1928, approximately 2,800 returned soldiers of World War I. were deprived; of the means of earning a livelihood on. the waterfront in Victoria and South Australia. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2822</page.no>
+              <time.stamp />
+              <name.id>K7M</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLETT, Herbert</name>
+              <name role="display">Senator Collett</name>
+            </talker>
+            <para>-  Did they break the law? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2822</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator CAMERON</name>
+            </talker>
+            <para>- No ; they rightly protested against the unjust reduc-tion of their wages when the reduction was made arbitrarily and they were not admitted to the negotiations. They were simply told that. they had to submit to that injustice. And who were employed in their places? - Germans, Italians and other foreigners. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2822</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator Ashley</name>
+            </talker>
+            <para>-  What Government was in office then? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2822</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator CAMERON</name>
+            </talker>
+            <para>- That happened in 1928. Included among the supporters of the Government are ex-servicemen with distinguished records who remember all those things. It is not my desire to hold any post mortems, but it is necessary for me to direct attention to those facts in order to convince honorable senators opposite, if that be possible, of the sincerity of the Government in its resolve to see that experiences of the kind I have mentioned shall not be repeated in the future. The Government has already enacted the Reestablishment and Employment Act, which in my judgment provides all that is required. If necessary, that legislation can be amended to meet any development in the future. The. amendment, if carried, would place the commission&#39;s officers in a more favorable position than members of the Commonwealth Public Service, and officers of other Commonwealth authorities, such as, the Commonwealth Bank. If preference is to be applied to promotions as well as to new appointments the proper course to take would be to amend the Re-establishment and Employment Act, in order that the amendment shall operate generally and not be limited to officers of the commission. If there be any doubt about how far we can go in that respect under this measure it is quite competent to prescribe by regulation that war service shall be taken into account in determining seniority. The last clause of the bill empowers the Minister to make regulations for such purposes. The Government has given convincing evidence that it stands solidly behind ex-service personnel, and that it will ensure that ex-service personnel receive justice and the consideration to which they are entitled. Therefore, it can be taken for granted that should the commission do anything which, in the opinion of the Government, constitutes an injustice to ex-service personnel, the Government has power by regulation to instruct the commission to act in accordance with the requirements contained in the amendment. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2823</page.no>
+            <time.stamp />
+            <name.id>KKJ</name.id>
+            <electorate>VICTORIA</electorate>
+            <party>LP</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">FRASER, Alexander</name>
+            <name role="display">Senator A J FRASER</name>
+          </talker>
+          <para>. -Whilst  some of the statements made by the Postmaster-General <inline font-weight="bold">(Senator Cameron)</inline> astonish me, I welcome others that he has made. But if he believes all he said to be correct he robs the submissions of <inline font-weight="bold">Senator Finlay</inline> and <inline font-weight="bold">Senator Amour</inline> of all value; because earlier in the debate he indicated that his only objection to my amendment was that it was redundant as such provision was already made elsewhere. Now, he says that if the amendment be carried it would place other public servants at a disadvantage. I have no doubt that he is sincere when he says thathe desires to ensure that the fullest degree of preference shall be given to ex-service personnel. That being so, the Minister should either accept my amendment, or go further than he has yet been prepared to go and give a definite undertaking on behalf of the Government that a full measure of preference will be provided for by regulation. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2823</page.no>
+            <time.stamp />
+            <name.id>L8E</name.id>
+            <electorate>Victoria</electorate>
+            <party>ALP</party>
+            <role>PostmasterGeneral</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CAMERON, Donald</name>
+            <name role="display">Senator CAMERON</name>
+          </talker>
+          <para>. -  If I were called upon to interpret the preference provisions of the Re-establishment and Employment Act, I should say that they applied to -promotions. However, it does not necessarily follow that anybody else, acting in the capacity of a judge in the matter, would interpret those provisions as I do. The same approach is not made by every judge in such matters. Holding that view I consider that the amendment is redundant. If the clause be passed as drafted the commission shall be placed in exactly the same position as the Commonwealth Bank and other similar authorities. I repeat that, in my judgment, every provision is made to meet the wishes of the honorable senator. Therefore, I cannot accept the amendment. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2823</page.no>
+            <time.stamp />
+            <name.id>KR9</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">LECKIE, John</name>
+            <name role="display">Senator LECKIE</name>
+          </talker>
+          <para>.- The attempt of the Postmaster-General <inline font-weight="bold">(Senator Cameron)</inline> to justify his attitude in this matter, is on a par with his state-  mentthat  he does not believe in postmortems. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2823</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator Cameron</name>
+            </talker>
+            <para>-  I believe in them, but in this case they are not necessary. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2823</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>- The Minister, after saying that he does not believe in post-mortems, proceeded to disinter the corpses of 25 years ago. He also said that the proper way to deal with this matter is by amending the Re-establish- ment and Employment Act. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2823</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator Cameron</name>
+            </talker>
+            <para>-  If that be necessary. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2823</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>- And the Government is the only authority that can amend the act. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2823</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator Cameron</name>
+            </talker>
+            <para>-  We can issue a regulation under this measure. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2823</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>- The Minister has already said that; but the purpose of the regulation-making power is something quite different from the principle involved in this matter. The Minister will remember that under the Reestablishment and Employment Act preference in employment to ex-service personnel is limited to a period of seven years. Of that period one year has already expired, and I have no doubt that a couple of years will elapse before this proposal is implemented, because the negotiations with Amalgamated Wireless (Australasia) Limited and other companies involved in the proposals will continue for a considerable period. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2823</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator Cameron</name>
+            </talker>
+            <para>-  No act is necessarily the last word on the subject with which it deals. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2824</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>- Of course not The Government has the last word, and the present Government is not the last government that will be in power. The next government will be composed of members of the present Opposition parties and we shall have a say in this sort of thing. One thing we shall alter if we are elected is the present very limited preference in employment to exservice personnel. Although, in many cases, members of the fighting services served for six years they are to be given preference in- employment for only a similar period. That is small recompense to such men who have fought for so long in defence of the country. The Minister said that this measure does not represent the last word on the subjectThank God that that is so. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2824</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator Cameron</name>
+            </talker>
+            <para>- Well, what is the honorable senator afraid of? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2824</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>- I am afraid that during the short time this Government is in office - the shorter the better - it may do a lot of damage and. injustice to ex-service personnel. <inline font-weight="bold">Senator Amour</inline> said that we should not make a political football of ex-servicemen, but he then proceeded to kick them as hard as he could. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2824</page.no>
+              <time.stamp />
+              <name.id>K6N</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CLOTHIER, Robert</name>
+              <name role="display">Senator Clothier</name>
+            </talker>
+            <para>- He is a returned soldier. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2824</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>- I know; but it is only lip service to say that there is a rehabilitation act on the statute-book and then provide that everybody else in the community shall be placed on the same footing as ex-service personnel. The Government&#39;s action abnegates the statement by honorable senators opposite that they support preference in employment to ex-service personnel. Much still remains to be said on this measure. Therefore the Minister would be wise to accept my earlier suggestion to postpone its consideration. If he does so, the bill will be clarified and will be passed much more quickly. </para>
+          </talk.start>
+        </continue>
+        <para>Question put - </para>
+        <quote>
+          <para>That the words proposed to be inserted <inline font-weight="bold">(Senator A. J. Fraser&#39;s amendment)</inline> be inserted. </para>
+        </quote>
+      </speech>
+      <division>
+        <division.header>
+          <time.stamp />
+          <para>The committee divided. (The Chairman - Senator B. Courtice.)</para>
+        </division.header>
+        <division.data>
+          <ayes>
+            <num.votes>13</num.votes>
+            <title>AYES</title>
+          </ayes>
+          <noes>
+            <num.votes>16</num.votes>
+            <title>NOES</title>
+          </noes>
+        </division.data>
+        <para class="block">Majority 3 </para>
+        <para class="block">
+          <graphic href="187332194607191_14_1_3_P.jpg" />
+        </para>
+        <para>AYES</para>
+        <para class="block">
+          <graphic href="187332194607191_14_1_1_A.jpg" />
+        </para>
+        <para>NOES</para>
+        <para class="block">
+          <graphic href="187332194607191_14_1_2_N.jpg" />
+        </para>
+        <division.result>
+          <para>Question so resolved in the negative. </para>
+        </division.result>
+        <para>New clause agreed to. </para>
+        <para>New clause 18d. </para>
+        <para>Motion (by <inline font-weight="bold">Senator Cameron)</inline> proposed </para>
+        <para>That, after clause 18c, the following new clause be inserted:- &#34; 18d. - (1.) The promotion of an officer to a vacant position shall be provisional and without increased salary pending confirmation of the promotion, and shall be notified in the prescribed manner, and shall be subject to appeal as provided by this section. &#34; (2.) Any officer who considers that he should have been promoted to a vacant position in preference to the officer provisionally promoted, may appeal to the Promotions Appeal Board on the ground of superior efficiency or equal efficiency and seniority.&#34; &#34; (3.) The regulations may prescribe the manner in which, and the time within which, appeals may be made under this section. &#34; (4.) Upon any such appeal being made, the Promotions Appeal Board shall make full inquiry into the claims of the appellant and those of the officer provisionally promoted and shall determine the appeal. &#34; (5.) Where the appeal is upheld the appellant shall be promoted to the vacant position and the provisional promotion shall be cancelled. &#34; (6.) Where the appeal is disallowed, or where no appeal is lodged within the prescribed time, the provisional promotion shall be confirmed. &#34; (7.) Notwithstanding anything contained in this section, the Commission may, at any time after notification has been made of a provisional promotion to a vacant position, -and before the promotion has been confirmed, cancel the provisional promotion if the Commission is satisfied that the position is unnecessary or can be filled by the transfer of another officer, or that in the circumstances notification or further notification of the vacant position is desirable. &#34; (8.) Hie powers of the Commission under the last preceding sub-section may be exercised whether an appeal has been made or not.&#34;. </para>
+      </division>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2825</page.no>
+            <time.stamp />
+            <name.id>KR9</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">LECKIE, John</name>
+            <name role="display">Senator LECKIE</name>
+          </talker>
+          <para>. - There would appear to be an anomaly in proposed new sub-clause 1, which states - </para>
+        </talk.start>
+        <quote>
+          <para>The promotion of an officer to a vacant position shall be provisional and without increased salary ... </para>
+        </quote>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2825</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator Cameron</name>
+            </talker>
+            <para>-  That is qualified by the words &#34; pending confirmation &#34;. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2825</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>-  Yes ; but an appointment may not . be confirmed for twelve months or more. We believe that the commission should be empowered to pay an increased salary pending confirmation of a .promotion. Otherwise, an officer may be doing an important job for many months, and receiving an inadequate remuneration for his work. This is a matter that could be left to the commission itself. I ask the Minister to examine this matter. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2825</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator Cameron</name>
+            </talker>
+            <para>-  I consider that the provision as worded is adequate. </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2825</page.no>
+            <time.stamp />
+            <name.id>KSS</name.id>
+            <electorate>South Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MATTNER, Edward</name>
+            <name role="display">Senator MATTNER</name>
+          </talker>
+          <para>.- I move- </para>
+        </talk.start>
+        <quote>
+          <para>That, in proposed new sub-clause (2.), after the word &#34; may &#34;, the following words be inserted: - &#34; within twenty-one days &#34;. </para>
+        </quote>
+        <para class="block">I believe that a time limit should be set for appeals against promotions. Otherwise, many months may elapse before appeals are lodged. A time limit should be imposed to protect the commission. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2825</page.no>
+            <time.stamp />
+            <name.id>L8E</name.id>
+            <electorate>Victoria</electorate>
+            <party>ALP</party>
+            <role>PostmasterGeneral</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CAMERON, Donald</name>
+            <name role="display">Senator CAMERON</name>
+          </talker>
+          <para>. -  The point that the honorable senator seeks to cover is adequately met in sub-clause 3, whichstates - </para>
+        </talk.start>
+        <quote>
+          <para>The regulations may prescribe the manner in which, and the time within which, appeals may be made under this section. </para>
+        </quote>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2825</page.no>
+            <time.stamp />
+            <name.id>KR9</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">LECKIE, John</name>
+            <name role="display">Senator LECKIE</name>
+          </talker>
+          <para>. - Apparently it is the intention of the Government that all the shortcomings of this measure should be remedied by regulations. The commission may make regulations covering the points to which honorable senators, on this side of the chamber have referred, but then it may not. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2825</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator Collings</name>
+            </talker>
+            <para>-  It has power to make regulations. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2825</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>- Yes, but it is not compelled to do so. The PostmasterGeneral <inline font-weight="bold">(Senator Cameron)</inline> seeks to place the onus upon the commission. He assures us that we need not have any fear because the Government will ensure that regulations shall be made; but how do we know that that is so. We believe that it is the duty of the Parliament to ensure the adequacy of the legislation that it passes. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2825</page.no>
+              <time.stamp />
+              <name.id>JZH</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AMOUR, Stanley</name>
+              <name role="display">Senator Amour</name>
+            </talker>
+            <para>-  Does the honorable senator believe that a limit of 21 days should be imposed? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2825</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>- I am not concerned with the exact number of days, but a limit should be imposed. When an officer is promoted he should not be kept on tenter-hooks for perhaps twelve months awaiting appeals against his promotion. Obviously such a state of affairs would not make for efficient service. This matter is much more serious than the Postmaster-General would have  us believe. I ask the honorable gentleman to remember that the acceptance by the committee of the Government&#39;s proposals will not be the end of this legislation so far as the Parliament is concerned. The Senate&#39;s amendments will have to be considered by the House of Representatives. It would be wise, therefore, for the Postmaster-General to ensure that the measure .is as near perfect as possible when it leaves this chamber. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2825</page.no>
+            <time.stamp />
+            <name.id>JZH</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">AMOUR, Stanley</name>
+            <name role="display">Senator AMOUR</name>
+          </talker>
+          <para>. -  Apparently honorable senators opposite will never be satisfied with what they are told by Ministers in charge of bills. Sub-clause 1 provides that after a position has been declared vacant and an appointment made to it, the officer promoted shall serve in a temporary capacity without increased pay until his appointment has been confirmed. Subclause 3 provides that the manner in which, and the time within which appeals may be made against promotions, may be prescribed by regulations. I point&#39; outthat some employees of the commission may be working outside Australia. If a position which such an employee is competent to . fill by reason of his seniority and efficiency becomes vacant, he should have equal opportunity with employees working within the Commonwealth, to be promoted to that position. Each employee should have the right to apply for a vacancy, provided that he has had the &#39; requisite length of service and possesses the ability to fill the position. The honorable senator&#39;s proposal leads me to believe that he does not understand the bill. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2826</page.no>
+            <time.stamp />
+            <name.id>KSS</name.id>
+            <electorate>South Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MATTNER, Edward</name>
+            <name role="display">Senator MATTNER</name>
+          </talker>
+          <para>. -  I believe that <inline font-weight="bold">Senator Amour</inline> would be .the last person to be deliberately offensive, but I object to his suggestion that I do not know what is in the bill. When I made my proposal, I said that, if the period of 21 days were not acceptable to the committee, I would agree to accept any .better proposal. That does not disclose any ignorance on my part, and I do not deserve the honorable senator&#39;s castigation. I ask him to suggest u time limit. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2826</page.no>
+              <time.stamp />
+              <name.id>JZH</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AMOUR, Stanley</name>
+              <name role="display">Senator Amour</name>
+            </talker>
+            <para>-  Sub-clause 3 covers the situation. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2826</page.no>
+              <time.stamp />
+              <name.id>KSS</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MATTNER, Edward</name>
+              <name role="display">Senator MATTNER</name>
+            </talker>
+            <para>- The honorable senator should distinguish between the meaning of &#34;may&#34; and the meaning of &#34;shall&#34;. If &#34;shall&#34; replaced &#34;may&#34; in the sub-clause, I should agree with the honorable senator&#39;s interpretation of it. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2826</page.no>
+              <time.stamp />
+              <name.id>JXE</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NASH, Richard</name>
+              <name role="display">Senator Nash</name>
+            </talker>
+            <para>-  What is the difference between &#34;shall&#34; and &#34;may&#34;? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2826</page.no>
+              <time.stamp />
+              <name.id>KSS</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MATTNER, Edward</name>
+              <name role="display">Senator MATTNER</name>
+            </talker>
+            <para>- There is a great difference, and I believe the honorable senator knows it. I ask <inline font-weight="bold">Senator Amour</inline> what period he would suggest in lieu of 21 days. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2826</page.no>
+              <time.stamp />
+              <name.id>JZH</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AMOUR, Stanley</name>
+              <name role="display">Senator Amour</name>
+            </talker>
+            <para>-  There would probably be a different set of circumstances in each case. </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2826</page.no>
+            <time.stamp />
+            <name.id>KKJ</name.id>
+            <electorate>VICTORIA</electorate>
+            <party>LP</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">FRASER, Alexander</name>
+            <name role="display">Senator A J FRASER</name>
+          </talker>
+          <para>. -  Ministers and their supporters are not fully seised of the importance of the amendment proposed by <inline font-weight="bold">Senator</inline></para>
+        </talk.start>
+        <para class="block">Mattner. As the result of the rejection Of proposals made by honorable senators in opposition, officers of the commission who are prompted to fill senior positions- will he only provisionally promoted and will undertake extra responsibility and duties without any increase of remuneration. Therefore, it would -be proper to protect their interests by imposing a time limit. A promotion might involve a change of residence for the employee concerned, and other circumstances might make it imperative, in the interests of all parties, to have the appointment confirmed or otherwise within a reasonable period. <inline font-weight="bold">Senator Mattner</inline> is not insistent upon, a period of 21 days. He seeks only to have a reasonable period fixed by the bill. The Minister should state definitely that regulations will be prescribed, and he should also indicate what period of time he intends to prescribe in them. This matter is of more than ordinary importance. A principle is involved, and it should not be overlooked or dealt with lightly. &#39; </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2826</page.no>
+            <time.stamp />
+            <name.id>L8E</name.id>
+            <electorate>Victoria</electorate>
+            <party>ALP</party>
+            <role>PostmasterGeneral</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CAMERON, Donald</name>
+            <name role="display">Senator CAMERON</name>
+          </talker>
+          <para>. -  The word &#34; may &#34; has been unduly emphasized. The appeals board will be bound to hear appeals. Therefore, it will be necessary to issue regulations setting out conditions, including a time limit, for the hearing of appeals. This involves a discretionary power, which should be retained by the Government, the responsible Minister, or the commission. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2826</page.no>
+            <time.stamp />
+            <name.id>KKJ</name.id>
+            <electorate>VICTORIA</electorate>
+            <party>LP</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">FRASER, Alexander</name>
+            <name role="display">Senator A J FRASER</name>
+          </talker>
+          <para>.- The only reference in the bill to a period of time is to a period of twelve months. This would be too long for cases such as we have in mind. Tie rights of officers should be protected. A man should not be called upon to carry out higher duties indefinitely withoutextra remuneration. It is equally important that officers who appeal against a promotion should have their claims dealt with within a reasonable period. I again ask the Minister to state definitely that regulations will be issued and to indicate what period will be specified- in them. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>2826</page.no>
+            <time.stamp />
+            <name.id>K0W</name.id>
+            <electorate>New South Wales</electorate>
+            <party>ALP</party>
+            <role>Minister for Supply and Shipping</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">ASHLEY, William</name>
+            <name role="display">Senator ASHLEY</name>
+          </talker>
+          <para>. -  The honorable senator is under  a misapprehension. The regulations to be promulgated under -this clause will be based on those which at present apply to appeals within- the Commonwealth Public Service. The- usual period specified is 21 days, but provision will be made, if necessary, for exceptional .circumstances&#39;. 1 see no need to worry about this matter. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2827</page.no>
+              <time.stamp />
+              <name.id>KKJ</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, Alexander</name>
+              <name role="display">Senator A J FRASER</name>
+            </talker>
+            <para>- We are indebted to the Minister for his explanation. If he gives that assurance on behalf of the Government, it will be acceptable to us. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>2827</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>- The Postmaster.General has already given such an assurance. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>2827</page.no>
+              <time.stamp />
+              <name.id>KKJ</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, Alexander</name>
+              <name role="display">Senator A J FRASER</name>
+            </talker>
+            <para>- I apologize -to the Postmaster-General. His explanation was not clear to me. I thank the Minister for Supply and Shipping for his explanation. , </para>
+          </talk.start>
+        </interjection>
+        <para>Amendment negatived. </para>
+        <para>Progress reported. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>2827</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers were presented : - </para>
+      <quote>
+        <para>Commonwealth Public Service Act - Appointment - Department of External Affairs - F. J.  Blakeney. </para>
+        <para>Defence- Act - Regulations - Statutory Rules 1046, Nos. 112, 113,- 114, 115, 116. </para>
+        <para>National Security Act - National Security  (Industrial. Property) Regulations - Orders - Inventions and designs (120). </para>
+      </quote>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>2827</page.no>
+        <time.stamp>12:41:00</time.stamp>
+      </adjournmentinfo>
+      <para>Senate adjourned at 12.41 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

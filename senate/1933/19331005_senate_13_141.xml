@@ -1,251 +1,1920 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1933-10-05%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1933-10-05%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1933-10-05%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1933-10-05%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1933-10-05%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1933-10-05%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1933-10-05%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1933-10-05/19331005_senate_13_141.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1933-10-05</date>
+    <parliament.no>13</parliament.no>
+    <session.no>1</session.no>
+    <period.no>4</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>3266</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1933-10-05</day.start>
+      <para>The <inline font-weight="bold">President (Senator the Hon. P. J. Lynch)</inline> took the chair at 3 p.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3266</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>WHEAT INDUSTRY</title>
+          <page.no>3266</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3266</page.no>
+              <time.stamp />
+              <name.id>K3X</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CARROLL, William</name>
+              <name role="display">Senator CARROLL</name>
+            </talker>
+            <para>- In view of the very serious position of those engaged in the wheat industry, will the Leader of the Senate be in a position to make a statement of the Government&#39;s proposals for their assistance before the discussion on the budget is proceeded with? </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3266</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- It is the intention of the Government to make a statement on the subject mentioned by the honorable senator at an early date, but not necessarily before the discussion on the motion for the printing of the budget papers. At this moment I am unable tofix the date of such announcement, but certainly it will be before the budget is disposed of. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3266</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>GREAT BRITAIN AND ARGENTINE</title>
+          <page.no>3266</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3266</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>- Has the Leader of the Senate noticed the report of an agreement having been entered into between the Government of Great Britain and the Argentine with reference to the export of </para>
+          </talk.start>
+          <para class="block">Argentine meat to the United Kingdom at certain concessional rates? If so, willhe procure copies of the agreement for the information of honorable senators? </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3267</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- I  understand that a number of copies of agreements entered into between Great Britain and foreign countries have been laid on the table of the Senate. I shall make inquiries concerning the one mentioned by the honorable senator and let him have an answer later. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SHALE OIL</title>
+        <page.no>3267</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>SenatorDUNN - Has the attention of the Vice-President of the Executive Council been directed to the following report which appeared in the <inline font-style="italic">Sydney Morning Herald</inline> of the 5th October?: - </para>
+      <quote>
+        <para>Addressing a meeting of the council of the Miners&#39; Federation yesterday, the  president  of the western miners <inline font-weight="bold">(Mr. Campbell Roy),</inline> condemned the Federal Government for its alleged failure to develop the shale oil deposits of the State. </para>
+        <para>He complained that although reports had been submitted to the Minister in charge of Development (SenatorMcLachlan ) by the shale oil committee, no action had been taken. &#34; Rumours are current that the Government is refraining from developing this Australian enterprise until shortly before the next federal elections,&#34; said <inline font-weight="bold">Mr. Campbell</inline> Roy. &#34;The Government should realize that hundreds of miners in the western district have been unemployed for a considerable time, and should not be made the plaything of politicians.&#34; </para>
+      </quote>
+      <para>What is the Minister&#39;s answer to the statement that the report of the shale oil committee is being withheld from honorable senators? </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3267</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>SOUTH AUSTRALIA</electorate>
+            <party>UAP</party>
+            <role>Minister in charge of Development and Scientific and Industrial Research</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>- No reports are being withheld.Reports which have been furnished to me by the Newnes Investigation Committee are tentative in character. They indicate the work that has been done and the nature of the inquiries being made by <inline font-weight="bold">Mr. L.</inline> J. Rogers overseas. It is hoped that a full report will be made available after Mr.Rogers&#39; return to Australia on the 4th November. So far as the Government is concerned, the development of the Newnes shale oil deposits is not a political matter. It is the wish of the Government to have the project developed onsound lines in. order that, if the work is resumed, it will be on a permanent basis. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3267</page.no>
+            <time.stamp />
+            <name.id>JYB</name.id>
+            <electorate>NEW SOUTH WALES</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNN, James Patrick Digger</name>
+            <name role="display">Senator DUNN</name>
+          </talker>
+          <para>- In view of statements made recently by the ministerial head of the&#34; Council for Scientific and </para>
+        </talk.start>
+        <para class="block">IndustrialResearch with regard to the reports of the Commonwealth Oil Investigation Committee and <inline font-weight="bold">Mr. Soger&#39;s</inline> work overseas, will the Minister take honorable senators on this side of the chamber into his confidence concerning the work being done by Mr.Rogers in connexion with the extraction of oil from shale by the hydrogenation and low temperature carbonization processes? </para>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>3267</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>- I shall consider the advisability of taking honorable senators into my confidence; but the difficulty is that although one day favorable reports may be received regarding work that is being done in England, later detailed advices may show that the earlier reports painted rather too glowing a picture of the prospects. My desire is to give to honorable senators as much information as possible and to tell them exactly what is the position as Mr.Rogers and the Newnes Shale Oil Investigation Committee see it. When the time is opportune, I shall be only too pleased to disclose all the information available. </para>
+          </talk.start>
+        </continue>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3267</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TASMANIAN COMMUNICATIONS</title>
+          <page.no>3267</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3267</page.no>
+              <time.stamp />
+              <name.id>KOJ</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYS, Herbert</name>
+              <name role="display">Senator HERBERT HAYS</name>
+            </talker>
+            <para>- I ask the Minister representing the PostmasterGeneral when it is proposed to commence laying the proposed cable for telephonic communication between Tasmania and the mainland, and what period will be required for carrying out the work? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3267</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>- I canonly say that the work will not be proceeded with until Parliament has authorized the necessary financial provision. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPEES</title>
+        <page.no>3267</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>The following papers were presented: - </para>
+      <quote>
+        <para>National Debt Sinking Fund Act - National Debt Commission - Tenth Annual Report, year ended 30th June, 1933. </para>
+        <para>Tariff Board Act - Tariff Board - Annual Report for 1932-33, together with schedule of recommendations. </para>
+        <para>Service and Execution of Process Act - Regulations amended - Statutory Rules 1933, No. 108. </para>
+      </quote>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Shipping Act - Australian Commonwealth Shipping Board -</title>
+          <page.no>3267</page.no>
+        </subdebateinfo>
+        <para>Australian Commonwealth Line of Steamers - Treasury Loan Account, and Liquidation Account, 30th April, 1933, certified to by the AuditorGeneral. </para>
+        <para>Cockatoo Island Dockyard - Balancesheet as at 28th February, 1933, certified to by the Auditor-General. </para>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3268</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TRADE WITHRUSSIA</title>
+          <page.no>3268</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3268</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Commerce, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What was the balance of trade between Soviet Russia and Australia during the year ended 30th June, 1933 ? </para>
+            </item>
+            <item label="2.">
+              <para>What were the chief items of trade between Russia and Australia in the above year ; and what were the values of such items in sterling? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3268</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>- The Minister for Commerce has supplied the following answers to the honorable senator&#39;s questions :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>The balance of trade in favour of Australia during the year ended 30th June, 1.933,  was  &#163;93,238. </para>
+            </item>
+            <item label="2.">
+              <para>The preliminary figures obtained from the Commonwealth Statistician are - </para>
+            </item>
+          </list>
+          <para class="block">
+            <graphic href="141332193310055_2_0.jpg" />
+          </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3268</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>LEAGUE OF NATIONS</title>
+          <page.no>3268</page.no>
+        </subdebateinfo>
+        <para>Australia&#39;s Membership</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3268</page.no>
+              <time.stamp />
+              <name.id>KNZ</name.id>
+              <electorate>through Senator Millen</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HARDY, Charles</name>
+              <name role="display">Senator HARDY</name>
+            </talker>
+            <para>asked the Leader of the Government in the Senate, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Will the election of Australia to the position of a non-permanent member of the Council of the League of Nations incur additional expense beyond the amount now annually contributed by Australia? </para>
+          </quote>
+          <para>
+            <inline font-weight="bold">Senator Sir GEOEGE</inline>PEARCE.The annual contribution of Australia towards meeting the expenses of the League of Nations will not be affected by the election of Australia as a nonpermanent member of the council. The additional expense expected will be for transport between London and Geneva, and allowances for the Commonwealth representative, and such staff as is necessary, when attending meetings. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3268</page.no>
+              <time.stamp />
+              <name.id>JYH</name.id>
+              <electorate>through Senator Plain</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ELLIOTT, Robert</name>
+              <name role="display">Senator ELLIOTT</name>
+            </talker>
+            <para>asked the Leader of the Government in the Senate, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that Australia&#39;s membership of the League of Nations has to date cost the Commonwealth f 558,000 ? </para>
+            </item>
+            <item label="2.">
+              <para>Is it a fact that Commonwealth expenditure in connexion with the League of Nations amounted to &#163;69,000 for theyear 1932-33? </para>
+            </item>
+          </list>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3268</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- The answers to the honorable senator&#39;s questions are as follow: - </para>
+            </talk.start>
+          </interjection>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>The cost to the Commonwealth to the 30th June, 1933, of membership of the League of Nations was &#163;458,363 sterling. </para>
+            </item>
+            <item label="2.">
+              <para>The amount of the contribution for 1932-33 was &#163;50,323 sterling, or approximately &#163;63,000 in Australian currency. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3268</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>OIL AND PETROL</title>
+          <page.no>3268</page.no>
+        </subdebateinfo>
+        <para>Extraction From Coal</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3268</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>asked the VicePresident of the Executive Council, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What information, if any, does the Government possess in relation to the extraction of crude oil from coal and shale oil in other countries ? </para>
+            </item>
+            <item label="2.">
+              <para>Is it a fact that crude oil and petrol extracted from coal are being used in the British Navy and Royal Air Force? </para>
+            </item>
+            <item label="3.">
+              <para>Is it a fact that oil extracted from coal is a commercial success in England? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3268</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>- The answers to the honorable senator&#39;s questions are as follow :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>The Government is in possession of the fullest information regarding processes adopted in other countries for the production of oil from coal and shale. Through the Council for Scientific and Industrial Research and its fuel adviser, <inline font-weight="bold">Mr. L.</inline> J. Rogers, who is at present visiting Great Britain, the Continent and the United States of America in this regard, the Government maintains continuous contact with the British Fuel Research Station at Greenwich, and with the general world position. </para>
+            </item>
+            <item label="2.">
+              <para>Information is available which shows that the British Navy entered into a contract early this year with a company known as Low Temperature Carbonisation Limited for the supply of a small quantity monthly of tar oil for fuelling purposes. Petrol produced from coal is being used experimentally by the Royal Air Force. </para>
+            </item>
+            <item label="3.">
+              <para>It has not yet been demonstrated either in England or in any other country that the production of oil as a primary product of coal is a commercial success. Any success attained by Low Temperature Carbonisation Limited, the most important firm in Great Britain engaged in the production of oil from coal by the low temperature carbonization process, is attributed to the production of what is known as &#34; coalite,&#34; a smokeless coke fuel. Petrol and oil are produced by that company as by-products. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>NORTHERN TERRITORY, (ADMINISTRATION) BILL</title>
+        <page.no>3269</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill (on motion by <inline font-weight="bold">Senator Sir George</inline> Pearce) read  a  third time. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>OFFICERS&#39; RIGHTS DECLARATION BILL</title>
+        <page.no>3269</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill (on motion by <inline font-weight="bold">Senator Sir George</inline> Pearce) read a third time. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SEAT OF GOVERNMENT SUPREME COURT BILL</title>
+        <page.no>3269</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>3269</page.no>
+        </subdebateinfo>
+        <para class="block">Debate resumed from 4th October <inline font-style="italic">(vide</inline> page 3175), on motion by <inline font-weight="bold">Senator McLachlan</inline> - </para>
+        <quote>
+          <para class="block">That the bill be now read a second time. </para>
+        </quote>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3269</page.no>
+              <time.stamp />
+              <name.id>K1L</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARNES, John</name>
+              <name role="display">Senator Barnes</name>
+            </talker>
+            <para>-  I offer no opposition to this measure. </para>
+          </talk.start>
+        </interjection>
+        <para>Question resolved in the affirmative. </para>
+        <para>Bill read a second time. </para>
+        <para class="italic">
+          <inline font-style="italic">In committee:</inline>
+        </para>
+        <para>Clauses 1 and 2 agreed to. </para>
+      </subdebate.1>
+      <para>Clause 3- </para>
+      <quote>
+        <para>This act shall commence on the first day of October, One thousand nine hundred and thirtythree, or on an earlier date to be fixed by Proclamation. </para>
+      </quote>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3269</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>. - The Government anticipated that this bill would be passed at a much earlier date. As this clause provides that the act shall commence on the 1st October, 1933, I move - </para>
+        </talk.start>
+        <quote>
+          <para>That the word &#34; October &#34; be left out, with a view to insert in lieu thereof the word &#34; January,&#34; and that the word &#34; three &#34; be left out, with a view to insert in lieu thereof the word &#34;four.&#34; </para>
+        </quote>
+        <para class="block">Amendment agreed to. </para>
+        <para class="block">Clause, as amended, agreed to. </para>
+        <para class="block">Clauses 4, 5 and 6 agreed to. </para>
+        <para class="block">Clause 7 (Constitution of Supreme Court.) </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3269</page.no>
+            <time.stamp />
+            <name.id>K6P</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BROWN, Gordon</name>
+            <name role="display">Senator BROWN</name>
+          </talker>
+          <para>. I understand from the Minister in charge of the bill that Judge Lukin is to be the judge of this court. Is he to be paid a separate salary for this work? He is already drawing a pension from the State of Queensland as a retired judge, and he is also paid for his services as judge of the Commonwealth Bankruptcy Court. In such circumstances, even if he is not to receive an additional salary as judge of the Supreme Court in Canberra, it would be wrong to give another job to this gentleman. Some other judge should be appointed. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3269</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>. - I deprecate the honorable senator&#39;s references to the judiciary; I understand that they are forbidden by the Standing Orders. I mentioned yesterday that it was proposed to appoint Judge Lukin to be a judge  of  the Supreme Court in the Federal Capital Territory.If the honorable senator had read the next succeeding clause, he would have seen that it is competent for the Governor-General to appoint Judge Lukin, or any judge of the Commonwealth Court of Conciliation or Arbitration, or of the Bankruptcy Court, to the position. The only cost to the Commonwealth will be any travelling expenses incurred by the judge and his associate. </para>
+        </talk.start>
+        <para>The <inline font-weight="bold">CHAIRMAN (Senator the Hon. Herbert Hays)</inline> .  - Honorable senators will be in order in referring to  a  member of the judiciary so long as they do not reflect on him or his work, or the judiciary generally. </para>
+        <para>Clause agreed to. </para>
+        <para>Clause8 (Judges who may be appointed Judge or Acting Judge of the Supreme Court). </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3269</page.no>
+            <time.stamp />
+            <name.id>KS9</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MACDONALD, John Valentine</name>
+            <name role="display">Senator MacDONALD</name>
+          </talker>
+          <para>. - I do not propose to reflect on judge Lukin as a man, or as a barrister or a judge, and I remember that I am indebted to a member of his family. That fact, however, does not prevent me from voicing what the people of Queensland, and, indeed, of Australia generally, regard as a grievance, namely, that a&#39; judge who has been retired from the Queensland judiciary on  the  substantial pension of &#163;1,000 a year, should afterwards be appointed a judge by the Commonwealth  Government  and paid a handsome salary from the Commonwealth. Now he is to be appointed a judge of the Supreme Court of the Territory for the Seat of Government. I do not say that Judge Lukin is not an  able  judge; but why should he be appointed to  this  position and allowed to continue in it when  there  are numbers of capable barristers in the country practically  unemployed?  I am as  much  opposed to a superannuated judge being appointed to  such  a position as I would be to the appointment of a superannuated journalist to a position which could as  well be filled by an unemployed member of the profession. Unfortunately, 25 per cent, of the workers of Australia are still unemployed notwithstanding the Government&#39;s claim that during its term of office unemployment has decreased. I hope that the many members of the Barrister&#39;s Union on the Government side will support <inline font-weight="bold">Senator Brown</inline> and myself in protesting against the appointment of Judge Lukin to this position. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3270</page.no>
+            <time.stamp />
+            <name.id>K2Z</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BRENNAN, Thomas</name>
+            <name role="display">Senator BRENNAN</name>
+          </talker>
+          <para>. - It is necessary that any judge who may be appointed to exercise the judicial powers of the Commonwealth shall have a life tenure. Consequently, if a judge were appointed solely for the Supreme Court of the Territory for the Seat of Government, he would have to be given a life tenure, and I assume a reasonable salary also, notwithstanding that he would be called upon to exercise his judicial functions probably only once or twice a year in Canberra. No doubt the Government recognized that fact when it decided to designate for this work a judge who already enjoys a life tenure. I was not aware that the Minister said yesterday that Judge Lukin would be asked to undertake this work, and while not wishing to make comparisons, I would say that, of those available, no one has had a wider experience or is more fitted to undertake the duties of the office, than he is. I shall not enter into a discussion with <inline font-weight="bold">Senator MacDonald</inline> regarding the wisdom or otherwise of appointing to this position a judge who already draws a pension from the Queensland Government, and is in receipt of a salary from the Commonwealth Government, because that question does not now arise. I am somewhat surprised that the honorable senator has failed to realize that this appointment really means that Judge Lukin will do more work for the same salary. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3270</page.no>
+              <time.stamp />
+              <name.id>KS9</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, John Valentine</name>
+              <name role="display">Senator MacDonald</name>
+            </talker>
+            <para>- Is he to be sweated ? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>3270</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator BRENNAN</name>
+            </talker>
+            <para>- Thereis no danger of that. The honorable senator can rest assured that the only practicable proposal, having regard to the requirements of the Constitution, is to appoint to this position a judge who already holds a life tenure. That is why the Government has asked one of these judges to do the little extra work involved in the holding of Supreme Court sittings in Canberra. </para>
+          </talk.start>
+        </continue>
+        <para>Clause agreed to. </para>
+        <para>Clauses 9 to 13 agreed to. </para>
+        <para>Clause 14 (Trial without jury). </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3270</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator Brown</name>
+            </talker>
+            <para>- Is the provision for trial without a jury in conformity with the usual judicial procedure? </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3270</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>. - This is the practice which obtains at present under the Judiciary Act. A litigant will not be prevented from applying to the judge for a trial by jury, but it will rest with the judge to determine whether the application shall be granted. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3270</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator Brennan</name>
+            </talker>
+            <para>- The provision does not apply in criminal cases. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>3270</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>- No. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3270</page.no>
+              <time.stamp />
+              <name.id>K3L</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SAMPSON, Burford</name>
+              <name role="display">Senator Sampson</name>
+            </talker>
+            <para>- Have all judges the right to determine such matters ? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>3270</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>- Under the High Court Procedure Act of the Commonwealth judges are given that power. </para>
+          </talk.start>
+        </continue>
+        <para>Clause agreed to. </para>
+        <para>Clause 15 (Costs). </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3270</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>. - I move - </para>
+        </talk.start>
+        <quote>
+          <para>That the following sub-clause be added: - &#34; (3) Nothing in this section shall alter the practice which would otherwise be followed in any criminal cause or matter or in proceedings on the Crown side of the court&#34;. </para>
+        </quote>
+        <para>The section as drawn is capable of being interpreted as applying to costs in all proceedings - both civil and criminal. As it is unusual to award costs in a criminal proceeding, and as it is not proposed that there should be any alteration in this respect, it is deemed desirable to make the position clear by express enactment. </para>
+        <para>Amendment agreed to. </para>
+        <para>Clause, as amended, agreed to. </para>
+        <para>Clauses 16 and 17 agreed to. </para>
+        <para>Clause 18- </para>
+        <list type="decimal-dotted">
+          <item label="8.">
+            <para>If a plaintiff or petitioner claims to be entitled to any equitable estate or right, or to relief on any equitable ground against any deed, instrument or contract, or against any right, title or claim whatsoever asserted by any defendant or respondent in the cause or matter, or to any relief founded upon a legal right, which, if the cause or matter had been a suit or proceeding properly instituted in the English Court of Chancery, could immediately before the commencement of the Judicature Act only have been given by that court, the Supreme Court or the judge shall give to the plaintiff or petitioner the same relief as ought then to have been given by the English Court of Chancery in a suit or proceeding for the like purpose properly instituted. </para>
+          </item>
+        </list>
+        <para>Amendments (by <inline font-weight="bold">Senator McLachlan)</inline> agreed to - </para>
+        <quote>
+          <para>That the following words be left out: - &#34;, if the clause or matter had been a suit or proceeding properly instituted in the English Court of Chancery, could &#34; with a view to insert in lieu thereof the words &#34; could in England &#34;. </para>
+          <para>That the words &#34;that court&#34; be left out, with a view to insert in lieu thereof the words &#34; a Court of Equity &#34;. </para>
+        </quote>
+        <para>Clause, as amended, agreed to. </para>
+        <para>Clauses 19 to <inline font-style="italic">23</inline> agreed to. </para>
+        <para>Clause 24 (Determination of matter completely and finally). </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3271</page.no>
+            <time.stamp />
+            <name.id>JY7</name.id>
+            <electorate>South Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNCAN-HUGHES, John</name>
+            <name role="display">Senator DUNCAN-HUGHES</name>
+          </talker>
+          <para>.- I take it that this clause is meant to prevent simultaneous proceedings in the same cause in different courts, but the clause reads as if it might interfere with a litigant&#39;s right of appeal. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3271</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>. -  This clause was taken from the Supreme Court Act of Victoria. The honorable senator knows that we cannot deprive litigants of the right of appeal. It is an omnibus clause to enable the court to grant relief in cases where it appears that the parties are entitled to relief, and is designed to avoid multiplicity of actions. Its purpose is to make the order of the court final and put an end to disputes and differences between the parties, which otherwise might be the subject of fresh litigation. </para>
+        </talk.start>
+        <para>Clause agreed to. </para>
+        <para>Clauses 25 to 27 agreed to. </para>
+        <para>Clause 28 (Rules of Court). </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3271</page.no>
+            <time.stamp />
+            <name.id>K2Z</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BRENNAN, Thomas</name>
+            <name role="display">Senator BRENNAN</name>
+          </talker>
+          <para>. - This clause appears to give a great deal of power to a single judge who will preside over this court, though it provides that all rules of court shall be notified in the <inline font-style="italic">Gazette,</inline> and copies forwarded to the Attorney-General within fourteen days. There is the further provision that the Attorney-General may, by notification in the <inline font-style="italic">Gazette,</inline> disallow any rule of court, and thereupon the rule so disallowed shall cease to have effect. There ought to be some right in this Parliament, as in the case of regulations made by other lawmaking bodies, to disallow a rule of the court made under this legislation. The provision in its present form entrusts to the Attorney-General exclusively the right of modifying a law, because that is what, in effect, all rules of court will be, and I suggest that the right of disallowance should be vested in the Parliament. No single judge in any Australian court has the power to make rules. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3271</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>. - Ordinarily, the rulemaking power is exercised, not by an individual judge, but by the bench of a particular State or the full bench of the High Court. This provision is certainly a departure from the existing practice in the States, but it should be remembered that there will be only one judge exercising jurisdiction at the Seat of Government. While the rule-making power is limited, it is tolerably wide and rules cannot be altered by the Parliament except by special legislation introduced for that purpose. I realize how undesirable it is that the disallowance of these rules should be in the hands of a single individual, but I remind the honorable senator that the Attorney-General will be exercising a judicial and not a political power, and that the intention is to use this power as a speedy means of dealing with rules that might operate harshly or improperly. As we are embarking upon a new jurisdiction, I suggest that the committee should allow the provision to stand. In view of the fact that the power to make rules will be vested in one judge, whereas in the States it is exercised by the full bench, the Attorney-General believes that there should be the power of disallowance for whichthe clause provides. </para>
+        </talk.start>
+        <para>Clause agreed to. </para>
+        <para>Clause 29 (Suits against the Commonwealth in the Territory). </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3272</page.no>
+            <time.stamp />
+            <name.id>JYB</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNN, James Patrick Digger</name>
+            <name role="display">Senator DUNN</name>
+          </talker>
+          <para>. - I should like the Minister to explain how thisclause may affect unemployed shearers or bushworkers who may be engaged in the development of some mining proposition in the Northern Territory or elsewhere in the Commonwealth. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3272</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>. -  The clause enacts that any person making a claim against the Commonwealth, whether in contract or in tort, in respect of a matter arising under the law of the Territory, may bring a suit against the Commonwealth in the Supreme Court. In the event of any dispute arising in a partnership, such as that suggested bythe honorable senator, one of the members of the partnership residing in, say, South Australia or some other State, would be able to bring a suit against the Commonwealth in the Supreme Court of the Territory. The clause is intended for the convenience of litigants generally. </para>
+        </talk.start>
+        <para>Clause agreed to. </para>
+        <para>Clauses 30 to 34 agreed to. </para>
+        <para>Clause 35 (Powers and duties of Registrar). </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3272</page.no>
+            <time.stamp />
+            <name.id>JYB</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNN, James Patrick Digger</name>
+            <name role="display">Senator DUNN</name>
+          </talker>
+          <para>.- What will be the duties and remuneration of the Registrar? I assume that, like any other worker, he will sell his labour to the Commonwealth Government. </para>
+        </talk.start>
+        <para>
+          <inline font-weight="bold">Senator McLACHLAN</inline>(South Australia - Vice-President of the Executive Council)  1  3.53&#93;.  -  There is already a Registrar in Canberra, because the High Court has jurisdiction here. He is an officer of the Public Service employed in the department of the Attorney-General. His duties are similar  to the duties performed by masters of the Supreme Courts in the States, and include the keeping of records, the signing of the various orders made from time to time, and, generally, attending to the administrative work of the court. </para>
+        <para>Clause agreed to. </para>
+        <para>Clauses 36 to 45 agreed to. </para>
+        <para>Clause 46 (Change of venue). </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3272</page.no>
+            <time.stamp />
+            <name.id>JYB</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNN, James Patrick Digger</name>
+            <name role="display">Senator DUNN</name>
+          </talker>
+          <para>. -  I desire enlightenment on this provision. A number of men were recently tried at Newcastle, New South Wales, on charges of being participants in an alleged riot at Tighe&#39;s Hill. The case occasioned considerable stir, and the hearing extended over many weeks, some of the alleged participants being found not guilty. The venue of the trial was then moved to Singleton, 35 or 36 miles distant, the reason given for this action being that the accused worked on the industrial fields of Newcastle, and that the case was going badly against the Crown. It was thought that by changing the venue of the trial the Crown would be able to obtain convictions. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3272</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>-  This clause refers only to civil suits, not tocriminal proceedings. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>3272</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>- I do not wish to record a vote that may mean railroading somebody into gaol through a change of venue when the case for the Crown appears likely to fail. I desire a definite assurance on the matter from the Minister. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3272</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Vice-President of the Exectitive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>. -  This clause refers only to a change of venue in reference to suits, and &#34;suit&#34; is defined in the bill as including &#34; any action or original proceeding between parties of a civil nature&#34;. Section 25 of the High Court Procedure Act makes an exactly similar provision. When the judge comes to Canberra to try a case, he may find that all the evidence has been taken, and it may be convenient to everybody concerned for him to exercise his jurisdiction in Melbourne or Sydney. Counsel can argue their cases as well in one place as in another. The judge may have to go to Sydney, for instance, on some other matter, and it may suit the convenience of counsel on both sides to have a case heard in one of the State capitals. The judge may change the venue after the case is half heard, and that would be a partial change of venue such as is provided for in the clause. It may be that all the facts are admitted by the parties. The suit may be filed in the Supreme Court of Canberra, but it may better meet the convenience of the parties that the arguments shall take place in a capital city where there is ready access to a law library, such as the Supreme Court libraries in Sydney, Melbourne, and Adelaide. Such a change of venue is usually made in civil actions  with the concurrence, and to meet the convenience, of both sides. No provision is made in the bill for dealing with such a case as that referred to by the honorable senator. It is provided under the criminal code of every State that where it is apprehended that a fair trial would not be obtained because the jury might be Suspected of being biased, either through hostility to or sympathy with an accused person, the venue of the hearing may be changed, I know a case in which this course was followed out of consideration for the prisoner, because the offence was of such a character as to create among the people of his neighbourhood, a psychology that made it absolutely impossible to obtain an unbiased jury. Therefore, the venue of the trial was changed to another centre, with a view to giving the man a fair trial. Nevertheless, he was convicted. It is essential, in the administration of justice, even if now and then some injustice is done, that power to change the venue of a trial shall be preserved, but I assure the honorable senator that this matter does not arise under the present measure. </para>
+        </talk.start>
+        <para>SenatorRAE (New South Wales) &#91;4.4&#93;. - Will the Minister give an assurance that in making a change of venue, all the parties concerned will be consulted to ascertain whether the proposal meets their convenience? Is it possible that a change might be made at considerable cost and disadvantage to one of the parties? I understand that the Supreme Court will have both criminal and civil jurisdiction. Is there similar provision in relation to criminal proceedings for a change of venue on the order of the judge or anybody else? </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3273</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>. - A change of venue in civil cases is made either by consent, or on the application of one of the parties. Having heard the parties, the judge exercises his discretion. We must leave it to the judge to decide whether, in all the circumstances, a change of venue is desirable. He is concerned only with seeing that there is fair play. Yesterday, I mentioned the necessity for a provision for a change of venue, in order that a judge may not be embarrassed through hav ing to remain in Canberra when he should be exercising jurisdiction elsewhere. This clause does not apply to criminal proceedings at all, although it is true that a judge of this court, as in the case of a High Court justice acting in Canberra, will have jurisdiction also in criminal cases. I direct the attention of honorable senators to section 577 of the Crimes Act of New South Wales which reads - </para>
+        </talk.start>
+        <quote>
+          <para>In any criminal proceeding if it is made to appear to the court - </para>
+          <list type="loweralpha">
+            <item label="(a)">
+              <para>that a fair or unprejudiced trial cannot otherwise be had; or </para>
+            </item>
+            <item label="(b)">
+              <para>that for any other reason it is expedient so to do the Supreme Court may change the venue and direct the trial to be had in such other district, or at such particular place, as the court thinks fit, and may, for that purpose, make all such orders as justice appears to require. </para>
+            </item>
+          </list>
+        </quote>
+        <para class="block">Under that law, which is at present in force in the Federal Capital Territory, both parties are heard, and, on the evidence adduced, the judge comes to a decision. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3273</page.no>
+            <time.stamp />
+            <name.id>JYB</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNN, James Patrick Digger</name>
+            <name role="display">Senator DUNN</name>
+          </talker>
+          <para>. - A doubt still exists in my mind in relation to industrial crimes, such as the action of a body of workers in going on strike when fighting for their rights. This clause roads - </para>
+        </talk.start>
+        <quote>
+          <para>The Supreme Court or the judge may, at any stage of any suit pending in the court, direct that the trial shall be had or continued at some particular place to be specified in the order, subject to such conditions (if any) as the court or judge imposes. </para>
+        </quote>
+        <para class="block">Is the Minister prepared to add to the clause the following words : &#34; This clause shall not apply to any criminal offence &#34;. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3273</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLachlan</name>
+            </talker>
+            <para>- If the honorable senator will turn to the definition clause, he will see that this clause does not touch criminal offences. </para>
+          </talk.start>
+        </interjection>
+        <para>SenatorRAE (New South Wales) &#91;4.10&#93; .  - In the event ofa change of venue being proposed by one of the parties to a criminal action, will the judge hear argument by the legal representatives of the parties before coming to a decision ? </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3273</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLachlan</name>
+            </talker>
+            <para>- Yes. </para>
+          </talk.start>
+        </interjection>
+        <para>SenatorRAE. - I recollect a case which occurred at Broken Hill in 1902, when a change of venue was sought by the Crown. The application was granted, and the trial took place at Deniliquin. Admitting, for the sake of argument.  that, on that occasion, it would have been impossible to get a fair trial at Broken Hill, because at that place there would have been partiality towards the miners, the fact remains that Deniliquin was notoriously anti-Labour. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3274</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator Collings</name>
+            </talker>
+            <para>-  That is why the venue was changed. </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3274</page.no>
+            <time.stamp />
+            <name.id>K1Z</name.id>
+            <electorate>NEW SOUTH WALES</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">RAE, Arthur</name>
+            <name role="display">Senator RAE</name>
+          </talker>
+          <para>- The Minister has explained that this clause applies only to civil suits; but he also said that, under the Crimes Act of New South Wales, the same procedure, would be adopted in criminal cases. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3274</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLachlan</name>
+            </talker>
+            <para>- That is so. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>3274</page.no>
+              <time.stamp />
+              <name.id>K1Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">RAE, Arthur</name>
+              <name role="display">Senator RAE</name>
+            </talker>
+            <para>- There should be a provision to ensure some measure of justice, so that it will not be possible for any government, or any functionary of a government, in the person of a judge of the court, to make arbitrary decisions in these cases. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3274</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator Brennan</name>
+            </talker>
+            <para>-  Surely some one must&#39; have the power to make arbitrary decisions. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>3274</page.no>
+              <time.stamp />
+              <name.id>K1Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">RAE, Arthur</name>
+              <name role="display">Senator RAE</name>
+            </talker>
+            <para>- Unfortunately, the history of New South Wales shows that the change of venue has always been against the interest of the prisoner or the alleged offender. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3274</page.no>
+            <time.stamp />
+            <name.id>K2Z</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BRENNAN, Thomas</name>
+            <name role="display">Senator BRENNAN</name>
+          </talker>
+          <para>. -The Minister seems to have assumed that when power is given to change the venue of a trial, it can be changed to any place in Australia, but I doubt whether that is so. Indeed, I doubt whether the section of the Crimes Act of New South Wales, which the Minister read, touches the subject at all. Clause 11 (1) (a) provides that the Supreme Court shall have -  the same original jurisdiction, both civil and criminal, as immediately before the first day of January, 1011, the Supreme Court of the State of New South Wales had in relation to that State. </para>
+        </talk.start>
+        <para class="block">The Minister mentioned a section which permitted a change of venue according to the criminal law of New South Wales; but that section .permits a change of venue only within New South Wales. It does not permit of any trial being transferred from a place in New South Wales to a place in Victoria. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3274</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLachlan</name>
+            </talker>
+            <para>-  Would not the jurisdiction of the Supreme Court of the Territory for the Seat of Government apply throughout the Commonwealth? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>3274</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator BRENNAN</name>
+            </talker>
+            <para>- I do not think so. It is now proposed to set up for the first time a Supreme Court for this Territory, which is practically the same as one of the States of Australia. The words &#34; any place &#34; in the Victorian or the New South Wales act refer to any place in Victoria or New South Wales as the case may be. I do not dispute that this measure can be so worded as to make it clear that the venue may be changed to any place within the Commonwealth, but unless that is made clear, the  word3  &#34;any place&#34; will be read to mean any place within the Territory for the Seat of Government. We should not take it for granted that a judge of this court will have the power to change the venue from Canberra to Melbourne or Sydney, or elsewhere. As the clause now reads, I am of the opinion that no judge of this court could perform any judicial act outside the Federal Capital Territory, any more than a judge of the Supreme Court of New South Wales could act outside the State. If it is intended that the judge of this court shall be empowered to change the venue to any place within the Commonwealth, this clause should be amended accordingly. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3274</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLachlan</name>
+            </talker>
+            <para>- -Will the honorable senator look at clause 9, which provides that - </para>
+          </talk.start>
+        </interjection>
+        <quote>
+          <para>The Supreme Court may sit at Canberra, and at such other places in the Commonwealth as are from time to time specified by the Governor-General by notice in the <inline font-style="italic">Gazette.</inline></para>
+        </quote>
+        <para>The Attorney-General is of the opinion that the jurisdiction of the judge of this court will not be limited by this legislation to the Territory for the Seat of Government. </para>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>3274</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator BRENNAN</name>
+            </talker>
+            <para>- The Minister will remember the celebrated McLeod case, in which the Privy Council decided that &#34; any place &#34; meant any place within New South Wales. If this point has been considered by the Attorney-General, well and good; but I suggest that the matter be reconsidered, for, otherwise, serious consequences may result. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3274</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>. -  This clause has been taken bodily from the High Court Procedure Act. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3275</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator Brennan</name>
+            </talker>
+            <para>-  The High Court has jurisdiction throughout Australia. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>3275</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>- The jurisdiction of the court proposed to be set up can be exercised only within territorial limits, but clause 9 provides that the Supreme Court may sit at Canberra and at such other places in the Commonwealth as are from time to time specified by the Governor-General by notice in the <inline font-style="italic">Gazette.</inline> Sub-clause 2 of clause 9 provides - </para>
+          </talk.start>
+        </continue>
+        <quote>
+          <para>The times of the sittings of the Supreme Court shall be such as are from time to time specified by Rules of Court,  and sub-clause 3 reads - </para>
+          <para>The offices of the Supreme Court shall be at Canberra. </para>
+        </quote>
+        <para>Personally, I am of the opinion that a judge of the Supreme Court for the Territory for the Seat of Government will be on the same plane as a judge of the High Court, and entirely different from a territorial judge exercising jurisdiction in Papua or the Northern Territory, the terms and conditions of whose appointments are entirely different from those set out in this bill. I shall, however, bring the points raised by the honorable senator under the notice of the AttorneyGeneral. <inline font-weight="bold">Senator Rae</inline> referred to the venue of a trial having been changed from Broken Hill to Deniliquin. Had Adelaide been within the scope of the jurisdiction of the court, I have no doubt that the trial would have taken place there. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3275</page.no>
+            <time.stamp />
+            <name.id>K2Z</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BRENNAN, Thomas</name>
+            <name role="display">Senator BRENNAN</name>
+          </talker>
+          <para>. - I am satisfied with the Minister&#39;s assurance. I do not deny that this court stands in a different position from other courts. Whereas the Victorian Parliament could not pass a law giving to any of its courts the power to sit outside the State, this Parliament may empower a Commonwealth court to sit where it likes. </para>
+        </talk.start>
+        <para>Clause agreed to. </para>
+        <para>Clauses 47 to 53 agreed to. </para>
+        <para>Clause 54 (Interest on judgments). </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3275</page.no>
+            <time.stamp />
+            <name.id>JYB</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNN, James Patrick Digger</name>
+            <name role="display">Senator DUNN</name>
+          </talker>
+          <para>. -  This clause provides that - </para>
+        </talk.start>
+        <quote>
+          <para>Every judgment debt shall carry interest at the rate of &#163;5 per centum per annum from the date as of which the judgment is entered. </para>
+        </quote>
+        <para class="block">It seems impossible to get away from the payment of interest. Although a person owing a judgment debt may be in poor circumstances, yet the court may order him to pay interest on that debt. Cannot we get away from these Shylock practices and give people in poor circumstances a chance? </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3275</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>. -  The indictment of the honorable senator is really against the man who invented interest. I am not responsible for what occurred at that time, and I do not think that we are justified in departing from the settled practice of the courts. Perhaps some one familiar with the intricacies of the Douglas credit system might be able to devise a scheme that would be fair to every one; hut, in the meantime, I must ask honorable senators to accept the clauseas it stands. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3275</page.no>
+              <time.stamp />
+              <name.id>JXZ</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNCAN, Walter</name>
+              <name role="display">Senator DUNCAN</name>
+            </talker>
+            <para>-  Christianity is against the exaction of interest. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>3275</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>- If the honorable senator will study the Scriptures carefully, he will find that something in the nature of interest was charged even in biblical days. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3275</page.no>
+            <time.stamp />
+            <name.id>K1Z</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">RAE, Arthur</name>
+            <name role="display">Senator RAE</name>
+          </talker>
+          <para>. -  I do not propose to take up the ideal stand of <inline font-weight="bold">Senator Dunn</inline> regarding the charging of interest, but I think that, in these days of falling interest, provision should be made in the law for charging a lower rate. Therefore I move - </para>
+        </talk.start>
+        <quote>
+          <para>That the word &#34; five &#34; be left out, with a view to insert in lieu thereof the word &#34;three &#34;. </para>
+        </quote>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3275</page.no>
+            <time.stamp />
+            <name.id>JY7</name.id>
+            <electorate>South Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNCAN-HUGHES, John</name>
+            <name role="display">Senator DUNCAN-HUGHES</name>
+          </talker>
+          <para>
+            <inline font-weight="bold">. -Senator</inline>Rae apparently overlooks the fact that interest will be payable only on money in respect of which judgment has been given. The chances are that the suit has been pending for months - perhaps foryears - and that during the whole of that time, the successful litigant has been losing interest on his money. Moreover, it is probable that the man who has lost the suit is not what is known as a man of straw, or the suit would not have been carried to a finish against him. The charging of interest at the rate of 5 per cent, per annum on unsatisfied judgments means that, if a sum of &#163;20 is left unpaid for a month, the unsuccessful litigant will be charged from ls. 6d. to 2s. interest. I might be prepared to support the motion of <inline font-weight="bold">Senator Bae</inline> were it not that the Commonwealth itself has an unpleasant habit of charging 10 per cent, on money which is owing and payable to it. Is it reasonable that the private creditor should be expected to take less than 5 per cent, when the Commonwealth itself imposes a fine of 10 per cent, in similar circumstances? If the honorable senator were fair, he would also stipulate that the amount of interest chargeable &#39;by the Commonwealth in such cases should not exceed 3 per cent. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3276</page.no>
+              <time.stamp />
+              <name.id>K1Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">RAE, Arthur</name>
+              <name role="display">Senator Rae</name>
+            </talker>
+            <para>-  &#39;Can I include that in my motion? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>3276</page.no>
+              <time.stamp />
+              <name.id>JY7</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNCAN-HUGHES, John</name>
+              <name role="display">Senator DUNCAN-HUGHES</name>
+            </talker>
+            <para>- I doubt whether the honorable senator would be allowed to do so, and I am quite certain that it would not be agreed to. I think, however, that, when the Commonwealth itself charges 10 per cent, on unpaid debts, it would be ridiculous for us to reduce from 5 per cent, to 3 per cent, the rate payable by private individuals. Therefore, I shall support the clause as it stands. From one point of view, it would be reasonable for the unsuccessful litigant to pay interest on the amount of the judgment from the time he first owed the money, but the law requires him to pay interest only from the time of the making of the judgment. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3276</page.no>
+            <time.stamp />
+            <name.id>K1Z</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">RAE, Arthur</name>
+            <name role="display">Senator RAE</name>
+          </talker>
+          <para>. -  The honorable senator is assuming that when judgment is given in a civil action it must necessarily be a case in which the money belonging to one man has been wrongfully held by some other person. He should know, however, that there are many civil actions dealing with occurrences in which neither party has been standing out of his interest, because no part of his capital was involved. The Government has itself been seeking to convert loans at a lower rate of interest, and has achieved some success in that direction. Even the private banks have reduced the interest rate, and the Government savings banks have reduced the interest payable on deposits. Therefore, there is nothing improper or out of place in proposing that, in this legisla tion, we should accept things as they are, and fix lower rates of interest than might have been reasonable under the old conditions which have passed away. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3276</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>. -  The interest provisions in the Supreme Court acts of the States, and in the High Court Procedure Act, have always been on a higher scale than the ordinary interest rate, though why that should be I cannot say. If :i litigant successfully appeals against a judgment, then there is neither interest nor principal to pay, but if the judgment stands, it is reasonable, I think, that the man who has suffered injury should be paid interest on the amount of the judgment. The successful litigant may have been knocked down by a tram or a motor car; he may have been in hospital, and have incurred heavy medical expenses, so that, having got his judgment, he should not be kept out of his money for an undue period. The interest provision is designed to induce the unsuccessful party to satisfy the judgment as soon as possible. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3276</page.no>
+              <time.stamp />
+              <name.id>K1Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">RAE, Arthur</name>
+              <name role="display">Senator Rae</name>
+            </talker>
+            <para>-  In most cases would not the succesful party be very pleased to get his principal, without the interest? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>3276</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>- If the honorable senator would consider the matter reasonably, he would see that we have to settle certain principles in this legislation. Under the High Court Procedure Act, there is provision for the payment of interest on judgment debts at the rate of 7 per cent, from the date of the trial. The intention is to make the interest inside the Commonwealth jurisdiction 5 per cent., which is a little lower than bank overdraft rate. I regret that I cannot accept the amendment. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <division>
+        <division.header>
+          <time.stamp />
+          <para>Question - That the amendment (Senator Rae&#39;s) be agreed to - put. The committee divided. (Chairman - Senator the Hon. Herbert Hays.)</para>
+        </division.header>
+        <division.data>
+          <ayes>
+            <num.votes>7</num.votes>
+            <title>AYES</title>
+          </ayes>
+          <noes>
+            <num.votes>18</num.votes>
+            <title>NOES</title>
+          </noes>
+        </division.data>
+        <para>Majority . . . . 11 </para>
+        <para class="block">
+          <graphic href="141332193310055_11_1_3_P.jpg" />
+        </para>
+        <para>AYES</para>
+        <para class="block">
+          <graphic href="141332193310055_11_1_1_A.jpg" />
+        </para>
+        <para>NOES</para>
+        <para class="block">
+          <graphic href="141332193310055_11_1_2_N.jpg" />
+        </para>
+        <division.result>
+          <para>Question so resolved in the negative. </para>
+        </division.result>
+        <para>Amendment negatived. </para>
+        <para>Clause agreed to. </para>
+        <para>Clause  55  agreed to. </para>
+        <para>Clause  56  (Powers of judge). </para>
+      </division>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3277</page.no>
+            <time.stamp />
+            <name.id>JYB</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNN, James Patrick Digger</name>
+            <name role="display">Senator DUNN</name>
+          </talker>
+          <para>. -  Will the Minister explain why any law in the State of New South Wales should operate in the Commonwealth Territory as provided in this clause? </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3277</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>.- Yesterday, I told the honorable senator that, by virtue of the Seat of Government Act, the Commonwealth adopted a considerable volume of New South Wales laws, under which certain rights and duties are conferred upon judges in New South Wales. This clause is really necessary to complete the jurisdiction of the judge whose office we are creating by this measure. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3277</page.no>
+            <time.stamp />
+            <name.id>JYB</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNN, James Patrick Digger</name>
+            <name role="display">Senator DUNN</name>
+          </talker>
+          <para>. - During the regime of the Lang Government in New South Wales, the Commonwealth Government secured the passage of emergency legislation, under which certain laws passed by the Parliament of New South Wales were nullified. To that extent the sovereign rights of that State were interfered with. If the Commonwealth Government had power to pass that emergency legislation, why is it now desired to incorporate this provision in the bill? </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3277</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>. -  I have already endeavoured to explain to the honorable senator that certain laws of New South Wales which are in force inside the Federal Territory to-day have to be administered by federal authorities. In respect of some of them, there are certain functions or powers vested in the Supreme Court of New South Wales. If we do not include this clause in the bill, laws affecting the Seat of Government will be administered partly by a member of the New South Wales judiciary and partly by a Commonwealth judge under this measure. </para>
+        </talk.start>
+        <para>Clause agreed to. </para>
+        <para>Clauses  57  to  60  agreed to. </para>
+        <para>New clause. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3277</page.no>
+            <time.stamp />
+            <name.id>JYB</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNN, James Patrick Digger</name>
+            <name role="display">Senator DUNN</name>
+          </talker>
+          <para>. - I move - </para>
+        </talk.start>
+        <quote>
+          <para class="block">That the following new clause be added: - &#34;61. Legal aid shall be granted to any person or persons who, in the opinion of the Attorney-General, are in destitute circumstances. &#34; </para>
+        </quote>
+        <para class="block">I havein mind the very useful assistance given by the legal aid department of New South Wales, created by a former Labour government, to destitute persons who may be involved in. litigation. Such persons may apply to the department for legal assistance, and if they satisfy the officers of the department that they are not in a position to pay for such aid, the services of solicitors or barristers are placed at their disposal. The residents of the Federal Capital Territory number between  8,000  and  9,000,  the majority of whom are dependent on salaries and wages, and a large number of them assist in the maintenance of other members of their families. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3277</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator Payne</name>
+            </talker>
+            <para>-  The honorable senator&#39;s proposal would not help them, because they could not plead destitution. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>3277</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>- It must not be forgotten that in the Federal Capital Territory are many poor and unemployed persons. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3277</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>. -  The object at which the. honorable senator is aiming cannot be achieved under this measure, which merely provides for the constitution of a </para>
+        </talk.start>
+        <para class="block">Supreme Court for the Territory. Another objection to the proposed new clause is that it seeks to impose a further charge on the Crown, and it is not competent for this committee to do that. The proposal is irrelevant to a bill of this kind. Special legislation has been passed by some of the States to provide for the granting of legal assistance to persons who cannot afford to pay for it. The application of this principal to the Federal Capital Territory is receiving the consideration of the Attorney-General, and if it is approved can be effected by ordinance. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3278</page.no>
+            <time.stamp />
+            <name.id>JYB</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNN, James Patrick Digger</name>
+            <name role="display">Senator DUNN</name>
+          </talker>
+          <para>. - I am glad to hear that this matter is being considered by the Attorney-General&#39;s Department. If the granting of legal assistance to poor persons can be provided forby ordinance, the Government will get an indication of the feeling of the committee from a division on my proposal. The hands of the Government would be strengthened if the committee accepted the amendment. </para>
+        </talk.start>
+      </speech>
+      <division>
+        <division.header>
+          <time.stamp />
+          <para>Question - That the proposed new clause be agreed to - put. The committee divided. (Chairman - Senator the Hon. Herbert Hays.)</para>
+        </division.header>
+        <division.data>
+          <ayes>
+            <num.votes>2</num.votes>
+            <title>AYES</title>
+          </ayes>
+          <noes>
+            <num.votes>22</num.votes>
+            <title>NOES</title>
+          </noes>
+        </division.data>
+        <para>Majority.... 20 </para>
+        <para>AYES</para>
+        <para class="block">
+          <graphic href="141332193310055_12_2_1_A.jpg" />
+        </para>
+        <para>NOES</para>
+        <para class="block">
+          <graphic href="141332193310055_12_2_2_N.jpg" />
+        </para>
+        <division.result>
+          <para class="block">Question so resolved in the negative. </para>
+        </division.result>
+        <para class="block">Proposed new clause negatived. </para>
+        <para class="block">Schedules and title agreed to. </para>
+        <para class="block">Bill reported with amendments. </para>
+        <para class="italic">
+          <inline font-style="italic">Silting suspended from 5.10 to 8 p.m.</inline>
+        </para>
+      </division>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SUPPLY BILL (No. 2) 1933-34.</title>
+        <page.no>3278</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill received from the House of Representatives. </para>
+      <para>Standing and Sessional Orders suspended, and bill read a first time. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>3278</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3278</page.no>
+              <time.stamp />
+              <name.id>KNF</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role>Assistant Treasurer</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MASSY-GREENE, Walter</name>
+              <name role="display">Senator Sir WALTER MASSY-GREENE</name>
+            </talker>
+            <para>. - I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the bill be now read a second time. </para>
+          </quote>
+          <para class="block">The available appropriation under Supply Act No. 1 of 1933-34 is almost exhausted, and it is now necessary to make a further appropriation of revenue to carry on the services of the Commonwealth, pending the passing of the Appropriation Bill. In the bill before the Senate, authority is sought for the appropriation of &#163;2,799,620 to meet requirements for the period of six weeks from 1st October, 1933. This amount includes the following sums for ordinary services :  - </para>
+          <para class="block">
+            <graphic href="141332193310055_12_0.jpg" />
+          </para>
+          <para>The amounts which are included in this bill are for essential services, and, together with the amounts appropriated by the last Supply Bill, involve a rate of expenditure which is not greater than that provided in the previous year&#39;s appropriation or the current year&#39;s Estimates. In accordance with the usual practice, provision has been made for &#34;Refunds of Revenue&#34; and &#34;Advance to the Treasurer,&#34; the amounts set down being &#163;100,000 and &#163;750,000 respectively. The advance to the Treasureris to meet miscellaneous and unforeseen requirements, and also to enable uncompletedworks in progress on the 30th June, 1933, to be continued. No provision is made in this bill for any new expenditure, or for any departure from existing policy. </para>
+          <para>As the budget papers for the current year have now been tabled, honorable senators will have full opportunity to consider all the items in detail in due course. </para>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time, and passed through its remaining stages without requests or debate. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>3279</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Quarantine Laws</title>
+          <page.no>3279</page.no>
+        </subdebateinfo>
+        <para>Motion (by <inline font-weight="bold">Senator Sir George</inline> Pearce) proposed - </para>
+        <para>Thatthe Senate do now adjourn. </para>
+        <para>SenatorRAE (New South Wales.) &#91;8.8&#93;. - I desire to bring under the notice of the Minister representing the Minister for Health the case of a dog known as Caesar. This dog and its owner are both Australian born. The animal was taught many wonderful tricks, and in course of time became a source of considerable revenue to its owner. Later, it was taken to Hollywood, California, where it created a sensation. After six months in the United States of America, the man was ordered to depart in accordance with the immigration laws of the country, and he returned to Sydney with his dog. The health authorities placed the animal in quarantine, and informed its owner that, so long as the dog remains in Australia, it must be kept in quarantine. A peculiar position has arisen ; the man was practically deported from America, and is not allowed to go back there, while the dog is not allowed to remain in Australia unless kept in a wire cage, where it now is. The result is that the man is deprived of the services of his dog, and the dog is robbed of its freedom. The absurdity of the regulation will be better realized by honorable senators when I remind them that, if the man were to take his dog to England, and return to Australia, the animal could he released from quarantine after 60 days if an inspection then proved it to be free from disease. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3279</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B Johnston</name>
+            </talker>
+            <para>- Is not the dog an Alsatian, on the introduction of which breed there is an embargo? </para>
+          </talk.start>
+        </interjection>
+        <para>SenatorRAE. - It is an Alsatian ; but that is immaterial. The point is that the dog, having come here from a country other than England, cannot remain in this country except in a cage, where it will&#39; gradually pine away. The fear that causes such a regulation to be in operation is that hydrophobia, or rabies, may be introduced by dogs coming from other countries. The authorities hold that that disease can be transmitted at any time within six months, but not after that period has expired. The dog has been in confinement in Sydney for nearly six months since its return from America. Its owner has no objection to any stated period of quarantine being enforced, even in excess of six months, in the interests of safety; but he regards as exceedingly hard a regulation which provides either that the dog shall remain in custody all its life, or that he should have to go to England with it and return to Australia to make it possible for the animal to be released from quarantine after the expiry of 60 days. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3279</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- Comic opera regulations! </para>
+          </talk.start>
+          <para>SenatorRAE. - Had the mantaken the dog to England from America, it would have been admitted into the Old Country, in which case he would probably have had the use of the dog 60 days after his return to Australia. If it is considered safe to introduce a dog from England after only 60 days in quarantine, surely it shouldbe safe to release it after six months from the time of its arrival here from another country! Should a careful examination by a veterinary surgeon prove the dog to be free from disease, there seems to me to be no reason why the regulations should not be relaxed. The dog&#39;s owner is losing considerable revenue because of his inability to exhibit the animal, which at times has earned for him as much as &#163;100 a week. I am informed that some of the tricks which this dog performs are almost incredible. The man has not been selfish, for on many occasions he has given performances for the benefit of charity. I ask the Leader of the Government in the Senate <inline font-weight="bold">(Senator Pearce)</inline> to make inquiries with a view to seeing whether it is not possible to relax the regulations to enable the dog to be restored&#39; to its owner. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3279</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>UAP</party>
+              <role>Minister for Defence</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;8.13&#93;. - Some time agoI received a circular letter setting out practically what the honorable senator has said to-night. It seemed to me rather peculiar that the quarantine laws should differentiate between one part of the northern hemisphere and another, and I therefore sent the letter to the Minister for Health. All honorable senators realize the necessity for a strict supervision of the introduction of (logs from other countries, because,so far, Australia is one of the few countries free from rabies. I shall bring the honorable senators remarks under the notice of the Minister for Health. </para>
+          </talk.start>
+          <para>Question resolved in the affirmative. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>3280</page.no>
+        <time.stamp>20:15:00</time.stamp>
+      </adjournmentinfo>
+      <para>Senate adjourned at 8.15 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

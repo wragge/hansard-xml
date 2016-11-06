@@ -1,251 +1,2399 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #010214; } body { background-image: url(/images/body-home-dusk-blurred.jpg); background-color: #010214; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1941-07-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1941-07-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1941-07-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1941-07-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1941-07-01%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1941-07-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1941-07-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1941-07-01/19410701_senate_16_167.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.04");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1941-07-01</date>
+    <parliament.no>16</parliament.no>
+    <session.no>1</session.no>
+    <period.no>3</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>564</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1941-07-01</day.start>
+      <para>The Senate met at 3 p.m. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>SWEARINGIN OF SENATORS</title>
+        <page.no>564</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para class="block">His Excellency, General the Right Honorable Alexander Gore Arkwright, Baron Gowrie, v.c, p.c, g.c.m.g., G.B., D.S.O., Governor-General and Commander-in-Chief in and over the Commonwealth of Australia, entered the chamber, and, taking his scat on the dais, said- </para>
+      <para>Honorable Senators: I am present to administer to newly elected senators the oath or affirmation of allegiance as required by section 42 of theConstitution. </para>
+      <para>The  Clerk  produced and laid on the table the certificates of return for the following members elected on the 21st September, 1940, to serve in the Senate as senators for their respective States, from and after the 1st July, 1941 :  - newsouth Wales. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>William Patrick Ashley</title>
+          <page.no>564</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>James Jarvist Arnold</title>
+          <page.no>564</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>William James Large</title>
+          <page.no>564</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Queensland</title>
+          <page.no>564</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Walter Jackson Cooper</title>
+          <page.no>564</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Thomas William Crawford</title>
+          <page.no>564</page.no>
+        </subdebateinfo>
+        <para>Hattil SpencerFoll. </para>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>South Australia</title>
+          <page.no>565</page.no>
+        </subdebateinfo>
+        <para>James McLachlan. </para>
+        <para>George McLeay. </para>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Oliver Uppill</title>
+          <page.no>565</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Tasmania</title>
+          <page.no>565</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Herbert Hays</title>
+          <page.no>565</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>John Blyth Hayes</title>
+          <page.no>565</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Burford Sampson</title>
+          <page.no>565</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Victoria</title>
+          <page.no>565</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Charles Henry Brand</title>
+          <page.no>565</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>William Gerrand Gibson</title>
+          <page.no>565</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>John William Leckie</title>
+          <page.no>565</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Western Australia</title>
+          <page.no>565</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Herbert Brayley Collett</title>
+          <page.no>565</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Edward Bertram Johnston</title>
+          <page.no>565</page.no>
+        </subdebateinfo>
+        <para>AllanNicoll MacDonald. </para>
+        <para>The abovenamed senators, with the exception of <inline font-weight="bold">Senator Allan</inline> Mac Donald, who was not present, made and subscribed the oath of allegiance. hisexcellency the GovernorGeneral having retired, </para>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ELECTION OF PRESIDENT</title>
+        <page.no>565</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>565</page.no>
+            <time.stamp />
+            <name.id>KUA</name.id>
+            <electorate>South Australia.</electorate>
+            <party>UAP</party>
+            <role>Minister for Supply and Development</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLEAY, George</name>
+            <name role="display">Senator McLEAY</name>
+          </talker>
+          <para>. - <inline font-weight="bold">Mr. Broinowski</inline> the time has now arrived for honorable senators to choose a suitable member of the Senate as its  President.  I move - </para>
+        </talk.start>
+        <quote>
+          <para>That <inline font-weight="bold">Senator John</inline> Blyth Hayes do take the chair of this Senate as  President. </para>
+        </quote>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>565</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator Foll</name>
+            </talker>
+            <para>-  I second the motion. </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>565</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CLERK, The</name>
+            <name role="display">The Clerk</name>
+          </talker>
+          <para>-  Are there any other nominations ? </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>565</page.no>
+            <time.stamp />
+            <name.id>K7P</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role>Leader of the Opposition</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLLINGS, Joseph</name>
+            <name role="display">Senator COLLINGS</name>
+          </talker>
+          <para>. - I move - </para>
+        </talk.start>
+        <quote>
+          <para>That <inline font-weight="bold">Senator James</inline> Cunningham do take the chair of this Senate as  President. </para>
+        </quote>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>565</page.no>
+              <time.stamp />
+              <name.id>K0N</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARNOLD, James</name>
+              <name role="display">Senator ARNOLD</name>
+            </talker>
+            <para>-  I second the motion. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>565</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CLERK, The</name>
+              <name role="display">The Clerk</name>
+            </talker>
+            <para>-  There being no other nominations, and, as the Standing Orders provide that in the event of two nominations being received, a ballot shall be held, the Senate will proceed to ballot. In accordance with Standing Orders, ballotpapers will be distributed to honorable senators, each of whom will mark upon the paper handed to him the name of the candidate for whom he desires to vote. </para>
+          </talk.start>
+        </interjection>
+        <para class="italic">
+          <inline font-style="italic">A ballot having been taken,</inline>
+        </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>565</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CLERK, The</name>
+              <name role="display">The Clerk</name>
+            </talker>
+            <para>-  I have to announce the result of the ballot as follows: - <inline font-weight="bold">Senator</inline></para>
+          </talk.start>
+        </interjection>
+        <list type="upperalpha-dotted">
+          <item label="J.">
+            <para>B. Hayes. 17 votes; Senate J. Cunningham, 17 votes. The voting being equal, under the Standing Orders the Senate will proceed to a second ballot. </para>
+          </item>
+        </list>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>565</page.no>
+              <time.stamp />
+              <name.id>KAY</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIBSON, William</name>
+              <name role="display">Senator Gibson</name>
+            </talker>
+            <para>-  On a point of order, I direct the attention of the Senate to Standing OrderNo. 19 which readsas follows :  - </para>
+          </talk.start>
+        </interjection>
+        <quote>
+          <para>If two or more senatorsbe proposedas  President,  a motion shall be made and seconded regarding each such senator, &#34;that <inline font-weight="bold">Senator do</inline> take the Chair of the Senate as President&#34;; and each senator so proposed shall address himself to the Senate. </para>
+        </quote>
+        <para class="block">That standing order has notbeen complied with in that neither of the honorable senators who have been nominated has addressed himself to the Senate. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>565</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CLERK, The</name>
+              <name role="display">The Clerk</name>
+            </talker>
+            <para>-  The Standing Order has not yet been complied with, but it is not too late to do so now. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>565</page.no>
+              <time.stamp />
+              <name.id>JTK</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CUNNINGHAM, James</name>
+              <name role="display">Senator J Cunningham</name>
+            </talker>
+            <para>-  I submit myself to the will of the Senate. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>565</page.no>
+              <time.stamp />
+              <name.id>KOF</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYES, John</name>
+              <name role="display">Senator J B Hayes</name>
+            </talker>
+            <para>-  I also submit myself to the will of the Senate. </para>
+          </talk.start>
+        </interjection>
+        <para class="italic">
+          <inline font-style="italic">A second ballot having been taken.</inline>
+        </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>565</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CLERK, The</name>
+              <name role="display">The Clerk</name>
+            </talker>
+            <para>-  The result of the second ballot is: <inline font-weight="bold">Senator J.</inline> B. Hayes 17  votes, <inline font-weight="bold">Senator J.</inline> Cunningham 17 votes.Itis now necessary, under Standing Order No. 22, to draw lots. I propose to place the names of the two candidates on pieces of paper, and to place them in a box. The name of one candidate will be drawn, and the name remaining in the box will be that of the successful candidate. </para>
+          </talk.start>
+        </interjection>
+        <para class="italic">
+          <inline font-style="italic">Lots having been drawn,</inline>
+        </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>565</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CLERK, The</name>
+              <name role="display">The Clerk</name>
+            </talker>
+            <para>-  The name remaining in the box is that of <inline font-weight="bold">Senator J.</inline> Cunningham. I therefore declareSenator J. Cunningham elected  President  of the Senate. </para>
+          </talk.start>
+        </interjection>
+        <para>
+          <inline font-weight="bold">Senator J.CUNNING</inline>HAM, having been conducted to the dais, said - I thank the Senate for having electedme to the high and honorable position of  President  of the Australian Senate. I also thank the mover and. the seconder of the motion nominating me. I assure honorable senators that I shall at all times endeavour to maintain the high standards set by. my predecessors and to upholdthe best traditions of my office. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>565</page.no>
+            <time.stamp />
+            <name.id>KUA</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for Supplyand. Development</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLEAY, George</name>
+            <name role="display">Senator McLEAY</name>
+          </talker>
+          <para>. -  I congratulate you, <inline font-weight="bold">Mr. President,</inline> upon your luck, and I wish you every success in your high office. I very much regret that <inline font-weight="bold">Senator Wilson</inline> was unable to attend the meeting of the Senate to-day by virtue of the fact that he is fighting with the Australian Imperial Force abroad, and that <inline font-weight="bold">Senator Allan</inline> MacDonald was unable to attend as the result of his having been taken away to hospital by ambulance to-day. I can assure you, <inline font-weight="bold">Mr. President,</inline> that honorable senators on this side of the chamber will do all they can to assist you to maintain order in the Senate so that the cooperation and harmony that have marked the proceedings in this Senate over a long period will continue. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>566</page.no>
+            <time.stamp />
+            <name.id>K7P</name.id>
+            <electorate>QueenslandLeader of the Opposition</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLLINGS, Joseph</name>
+            <name role="display">Senator COLLINGS</name>
+          </talker>
+          <para>. - <inline font-weight="bold">Mr. President,</inline> it has been a distinct privilege for inn, as Leader of the Opposition, to escort you to the Chair. I am confident that you will get full support from every honorable senator in maintaining the honour and dignity of the high office to which you have been called. I think that the Leader of the Senate <inline font-weight="bold">(Senator McLeay)</inline> was slightly ill-advised to make the remarks that he did make regarding absentee- senators, because he knows that it is not possible for the Opposition to give pairs in a ballot of the kind which has just been taken. The voting, therefore, has been carried out strictly in accordance with the Standing Orders. That is all I desire to say at this stage: except to add that we expect that honorable senators on the Government side will be as loyal to the gentleman who has been elected  President,  as we on this side have always been to his predecessors in that high office. </para>
+        </talk.start>
+        <para>
+          <inline font-weight="bold">Senator</inline>E. B. JOHNSTON  (Western Australia) &#91;3.3GJ. - As a fellow Western Australian, <inline font-weight="bold">Mr. President,</inline> and also as one who sat with you in the Legislative  Assembly of that &#39;State for some years, and who was a member of that Parliament while you were a member of the Upper .House of that legislature, I should like to add my congratulations to you upon the good fortune -which resulted in your election. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>566</page.no>
+              <time.stamp />
+              <name.id>K0C</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARMSTRONG, John Ignatius</name>
+              <name role="display">Senator Armstrong</name>
+            </talker>
+            <para>-  But the honorable senator did not vote for <inline font-weight="bold">Senator Cunningham.</inline></para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>566</page.no>
+            <time.stamp />
+            <name.id>KP8</name.id>
+            <electorate>WESTERN AUSTRALIA</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">JOHNSTON, Edward</name>
+            <name role="display">Senator E B JOHNSTON</name>
+          </talker>
+          <para>- It is known, of course, that I did not vote for you, <inline font-weight="bold">Mr. President,</inline> but I am personally pleased to see yon take your place iti the President&#39;s chair. I am sure that you will maintain the traditions of the high office to which you have been called. </para>
+        </talk.start>
+        <para>
+          <inline font-weight="bold">Senator COURTICE</inline>(Queensland) &#91;3.3SJ.  -  It gives me great pleasure, <inline font-weight="bold">Mr. President,</inline> to congratulate you on your election to the high office which you now occupy. I feel sure that you will carry out your duties and responsibilities with dignity and credit to yourself, and as capably as your predecessors. </para>
+        <para>I take this opportunity to express  a  word of appreciation to the retiring <inline font-weight="bold">President, Senator J.</inline> B. Hayes, and to thank him- particularly for the great consideration and kindness he always extended to me, and, I think, to honorable senators generally, while he was  President.  I shall always entertain very happy recollections of my first three years as  a  member of this chamber under the very able and very kindly offices of the retiring President. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>566</page.no>
+            <time.stamp />
+            <name.id>KOF</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">HAYES, John</name>
+            <name role="display">Senator J B HAYES</name>
+          </talker>
+          <para>. -  I congratulate you, <inline font-weight="bold">Mr. President,</inline> on your election to your high office. I trust that honorable senators generally will exhibit towards you the same kindliness and consideration which they extended to me while I occupied the chair. </para>
+        </talk.start>
+        <para>Honorable Senators.  -  Hear, hear! </para>
+        <para>
+          <inline font-weight="bold">Senator FRASER,</inline>(Western Australia) &#91;3.40 |  . -  I also tender my congratulations to you, <inline font-weight="bold">Mr. President.</inline> I am confident that you will treat honorable senators on both sides of the chamber impartially, and that in view of your knowledge of parliamentary procedure, and your experience as a. Minister of the Crown in the Parliament of &#34;Western Australia, and as a member of both branches of the legislature of that State, you will carry out your duties most capably. It is most fitting, indeed, that your honorable parliamentary record should now be crowned by your election as  President  of the Senate. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>566</page.no>
+            <time.stamp />
+            <name.id>K6N</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CLOTHIER, Robert</name>
+            <name role="display">Senator CLOTHIER</name>
+          </talker>
+          <para>. -  I, too, congratulate you, <inline font-weight="bold">Mr. President,</inline> on your elevation to your high office. Having sat with you as a member of the Parliament of Western Australia, I am aware of your ability. It is noteworthy that the occupant of the </para>
+        </talk.start>
+        <para class="block">Speaker&#39;s Chair iri the House of Representatives is also a Western Australian. Honorable senators  from that State, therefore, derive added pleasure from your election; and for the information of honorable senators generally, I might say that we expect further honors to fall to Western Australians in this Parliament. I congratulate the retiring <inline font-weight="bold">President, Senator J.</inline> B. Hayes, upon the able manner in which he carried out his duties in the chair. He did justice to all honorable senators. Indeed, I think that you will&#39; agree with me, sir, when T say that your predecessor has set you a high standard to attain. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>567</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>- I thank the Leader of the Senate <inline font-weight="bold">(Senator McLeay),</inline> the Leader of the Opposition <inline font-weight="bold">(Senator Collings)</inline> and other honorable senators who have spoken, for their congratulations upon my election&#39; as  President  of this chamber. I shall endeavour to carry out my duties impartially, and, at all times, I shall do my best to uphold the dignity of this chamber. I trust that with the able assistance of honorable senators generally I shall be enabled to fill my new office with credit to myself and to this. National Parliament. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>567</page.no>
+            <time.stamp />
+            <name.id>KUA</name.id>
+            <electorate>South . AustraliaMinister for Supply</electorate>
+            <party>UAP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLEAY, George</name>
+            <name role="display">Senator McLEAY</name>
+          </talker>
+          <para>. -  I desire to intimate to honorable senators that  His Excellency  the Governor-General will be pleased to receive <inline font-weight="bold">Mr. President,</inline> and such honorable senators as desire to accompany him, in the President&#39;s room forthwith. </para>
+        </talk.start>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>567</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- I shall suspend the sitting of the Senate at this stage in order that I may present myself to  His Excellency  the Governor-General as the choice of the Senate. I shall be glad if as many honorable senators as can conveniently do so will accompany me. <inline font-style="italic">Sitting suspended from 343 to 3.50 p.m.</inline></para>
+          </talk.start>
+        </continue>
+        <para>The <inline font-weight="bold">President (Senator the Hon. J. Cunningham</inline> took the chair at 3.50 p.m,. and read prayers. </para>
+      </speech>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Presentation&#39; to Governor-General</title>
+          <page.no>567</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>567</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- I have to announce that, accompanied by honorable senators,. I this day presented myself to  His Excellency  the Governor-General as the person chosen by the Senate as its  President. His Excellency  was pleased to congratulate me on my election, and to approve of the choice of the Senate. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF MR, JOHN LYNCH</title>
+        <page.no>567</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>567</page.no>
+            <time.stamp />
+            <name.id>KUA</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for Supply and Development</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLEAY, George</name>
+            <name role="display">Senator McLEAY</name>
+          </talker>
+          <para>. - It is with regret that I inform the Senate of the death last month at Young of <inline font-weight="bold">Mr. John</inline> Lynch, who was elected to the House of Representatives for the division of Werriwa in 1914 and again in 1917. Few of us remember the late Mi-. Lynch, but it is fitting that we should honour his memory, and extend to his relatives our sincere sympathy. - I move - </para>
+        </talk.start>
+        <quote>
+          <para>That the Senate expresses its deep regret at the death of ifr.  John  Lynch, a former member of the House of  Representatives  for the Division of Werriwa, places on record its appreciation of his meritorious public service, and tenders its sincere sympathy to his relatives in their bereavement. </para>
+        </quote>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>567</page.no>
+            <time.stamp />
+            <name.id>K7P</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role>Leader of the Opposition</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLLINGS, Joseph</name>
+            <name role="display">Senator COLLINGS</name>
+          </talker>
+          <para>. - I desire to associate myself and the other members of the Opposition with this motion. I had not the privilege of the acquaintance of the late <inline font-weight="bold">Mr. Lynch,</inline> but on such occasions as this, I think it is proper we should pay our respects to those who have passed on after having rendered valuable, service to this country. I believe that we should extend our sympathy to the relatives of the deceased. I am sure that our condolences will bc suitably conveyed to the relatives of the late <inline font-weight="bold">Mr. Lynch.</inline></para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>567</page.no>
+            <time.stamp />
+            <name.id>KAY</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GIBSON, William</name>
+            <name role="display">Senator GIBSON</name>
+          </talker>
+          <para>- Many years ago I was associated in the House of Representatives with the late <inline font-weight="bold">Mr. Lynch.</inline> He possessed characteristics which are not likely to bo forgotten by those who knew him.  He  was once an energetic member of this Parliament and the loss of his services to the community is to be regretted. Members of the Country party join in extending sincerest sympathy to the relatives of the deceased. </para>
+        </talk.start>
+        <para>Question resolved in the affirmative, honorable senators standing in their places. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SUPPLY BILL (No. 1) 1941-42</title>
+        <page.no>568</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Assent reported. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>568</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PRIME MINISTER&#39;S OVERSEAS MISSION</title>
+          <page.no>568</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>568</page.no>
+              <time.stamp />
+              <name.id>KE4</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KEANE, Richard</name>
+              <name role="display">Senator KEANE</name>
+            </talker>
+            <para>- Will the Leader of the Senate inform honorable senators when they will have an opportunity to discuss the statement delivered by the Prime Minister after returning from his overseas mission which was the subject of a debate in the House of Representatives? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>568</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- On the first reading of the Supply Bill passed recently honorable senators had an opportunity to debate the subjects dealt with in the statement mentioned. westernaustralianwar industriescommittee </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>568</page.no>
+              <time.stamp />
+              <name.id>K6N</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CLOTHIER, Robert</name>
+              <name role="display">Senator CLOTHIER</name>
+            </talker>
+            <para>asked the Minister for Supply and Development, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Is it the intention, of the Government to release the report of the Western Australian War Industries Committee before the end of this session? </para>
+          </quote>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>568</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLEAY</name>
+              </talker>
+              <para>- The recommendations contained in that report are at present being examined with a view to their consideration by the Government. When the Government has had an opportunity of considering the report, attention will, be given to the question of its release for publication. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>568</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>LIFE ASSURANCE POLICIES AND MORTGAGES</title>
+          <page.no>568</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>568</page.no>
+              <time.stamp />
+              <name.id>KE4</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KEANE, Richard</name>
+              <name role="display">Senator KEANE</name>
+            </talker>
+            <para>asked the Minister representing the Treasurer, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Will the Treasurer consider the issue of a moratorium on life insurance policies and mortgages during the period ofthe war? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>568</page.no>
+              <time.stamp />
+              <name.id>KOL</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>UAP</party>
+              <role>Minister for Munitions</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCBRIDE, Philip</name>
+              <name role="display">Senator McBRIDE</name>
+            </talker>
+            <para>- Under the National Security (Debtor&#39;s Belief) Regulations the Government has already made provision for the protection of debtors who are unable to pay any debt by reason of circumstances attributable to the war. Also special provision in respect ofmembers of the forces and their female dependants is made in the National Security (War Service Moratorium)Regulations. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>568</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ROYAL AUSTRALIAN NAVY</title>
+          <page.no>568</page.no>
+        </subdebateinfo>
+        <para>Canteens</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>568</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>asked the Minister representing the Minister for the Navy, <inline font-style="italic">upon notice-</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>How long has it been the practice to lease to private enterprise the canteens on ships of His Majesty&#39;s Australian Navy? </para>
+            </item>
+            <item label="2.">
+              <para>Does the Minister think it proper that a situation shouldbe allowed to exist in which it is necessary for advertisements to he inserted in the press disclaiming responsibility for debts contracted by the management of the canteen? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>568</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>--The Minister for the Navy has supplied the following answers :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>It has been the practice since the Royal Australian Navy was established. </para>
+            </item>
+            <item label="2.">
+              <para>I do not think the situation is ideal,but experienceunder war conditions has indicated that some business peopleare under the impression thatsupplies to canteens, in His. Majesty&#39;s Australian ships are on Government account The advertisement was therefore instituted, on the adviceof the Crown Law authorities, to correct this impression. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>568</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SUPERPHOSPHATE</title>
+          <page.no>568</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>568</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Commerce, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that the priceof superphosphate has since the outbreak of war, Been increased by &#163;1 6s. a ton, making a present price of&#163;418s.6d a ton in Western Australia, and similarly in the other States ofthe Commonwealth? </para>
+            </item>
+            <item label="2.">
+              <para>Is it a fact that thesuperphosphate companies have forecast to their customers a further increase of about &#163;2 a ton in the price of superphosphate, to be imposed in the immediate future? </para>
+            </item>
+            <item label="3.">
+              <para>Is it a fact that the Government of New Zealandhas borne the whole of the increase in the price of superphosphate in New Zealand sincethe outbreak of war? </para>
+            </item>
+            <item label="4.">
+              <para>Will the Government give similar relief to our primary producers? </para>
+            </item>
+            <item label="5.">
+              <para>If not, why not? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>568</page.no>
+              <time.stamp />
+              <name.id>KOL</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCBRIDE, Philip</name>
+              <name role="display">Senator McBRIDE</name>
+            </talker>
+            <para>- The Minister for Commercehas supplied the following answers: <inline font-style="italic">-</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>The increase in the price of superphosphate in Western Australia since the outbreak of war has been &#163;1 6s. a ton, 19s. a ton in Tasmania, and &#163;1 4s. a ton in the other States of the Commonwealth. </para>
+            </item>
+            <item label="2.">
+              <para>I have no advice regarding any price forecasts being suggested by superphosphate companies to their customers. </para>
+            </item>
+            <item label="3.">
+              <para>Yes. 4 a 11{l 5. The question of tlie price of superphosphate as it affects primary producers is being; considered - by the Government. It is hoped that a full statement of the Government&#39;s &#39;policy in this matter will be issued shortly. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>569</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>AUSTRALIA&#39;S POST-WAR POLICY</title>
+          <page.no>569</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>569</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>asked the Minister representing the Prime Minister, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>In view of the recent detailed statement of the British - Foreign Minister, <inline font-weight="bold">Mr. Anthony</inline> Eden, giving complete endorsement of  President  Roosevelt&#39;s post-war policy of - international understanding, international co-operation, and international trade, will the Commonwealth Government give an equally comprehensive statement of the general aims of Australia&#39;s post-war policy? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>569</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- The Prime Minister has supplied- the following answer: - </para>
+          </talk.start>
+          <quote>
+            <para>Australia&#39;s post- war. policy has bee&#39;n referred to by the Prime Minister in- recent speeches with &#39;a completeness sufficient at the -moment to indicate the general attitude of the Government. At an appropriate time a further &#34;statement will be made. &#39; </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>569</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>AUSTRALIAN WHEAT BOARD</title>
+          <page.no>569</page.no>
+        </subdebateinfo>
+        <para>Payments to Western Australian&#39; Representatives</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>569</page.no>
+              <time.stamp />
+              <name.id>K6N</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CLOTHIER, Robert</name>
+              <name role="display">Senator CLOTHIER</name>
+            </talker>
+            <para>asked the &#34;Minister representing the Minister .&#39;for Commerce,  <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>What are the amount of (a) salary, &#39;and (6)  travelling &#39;expenses, which have been &#39;paid to the Western&#39; Australian representatives on tlie Wheat Board to date !  </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>569</page.no>
+              <time.stamp />
+              <name.id>KOL</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCBRIDE, Philip</name>
+              <name role="display">Senator McBRIDE</name>
+            </talker>
+            <para>- The Minister for Commerce has supplied the following answer:-. ;. </para>
+          </talk.start>
+          <para>The amounts paid to the two Western Australian representatives on the Wheat Board are as follows: - <inline font-weight="bold">Mr. J..</inline> S. Teasdale (2nd October, 1939, to 30th June,  1941)- Fees, &#163;440 r&#62;s. ; expenses. &#163;407 19s. 5d.; fares, &#163;1.042 4s.; total, &#163;2,550 8s. 5d. <inline font-weight="bold">Mr. J.</inline> W. Diver (11th December, 1940, to 30th June. 1941 )- Salary. &#163;278 15s. 4d. ; expenses, nil; fares, &#163;430 2s.;* total, &#163;708 17s. 4d. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>569</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ROYAL AUSTRALIAN AIR FORCE</title>
+          <page.no>569</page.no>
+        </subdebateinfo>
+        <para>Women&#39;s Auxiliary</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>569</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Air, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Did the Minister promise on the Srd April last to reconsider the policy of paying women employed in the Women&#39;s Auxiliary at two-thirds of the rate paid to men in the Royal Australian Air Force for the same class of work? </para>
+            </item>
+            <item label="2.">
+              <para>If so, what decision has been reached as a result .of that reconsideration? </para>
+            </item>
+            <item label="3.">
+              <para>What are the reasons for such decision? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>569</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>- The Minister for Air has supplied the following answer: - </para>
+          </talk.start>
+          <quote>
+            <para>The Minister for Air gave an assurance in the House of Representatives that be would bring before the Government the request that had been made from certain quarters that women employed in the Women&#39;s Auxiliary Australian Air Force should be paid at the same rate as -mcn in equivalent musterings. This matter is at present receiving the consideration of the Government. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>569</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>WAR LOANS</title>
+          <page.no>569</page.no>
+        </subdebateinfo>
+        <para>Brokerage and Commission</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>569</page.no>
+              <time.stamp />
+              <name.id>K0P</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARTHUR, Thomas</name>
+              <name role="display">Senator ARTHUR</name>
+            </talker>
+            <para>asked the Minister representing the Treasurer, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that brokerage and/or commission, is being paid by the Commonwealth </para>
+            </item>
+          </list>
+          <para>Government on-.war loans to (o) -trading-banks, (;&#38;). insurance; companies, and.&#39;(c)- stock&#34; exchange brokers? </para>
+          <list type="decimal-dotted">
+            <item label="2.">
+              <para>If so. what is the amount paid? </para>
+            </item>
+            <item label="3.">
+              <para>Is any brokerage and/or. commission paid  to any of the institutions -mentioned in No. 1 hereof in respect to war. savings certificates; if so, what is &#39;the amount paid? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>569</page.no>
+              <time.stamp />
+              <name.id>KOL</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCBRIDE, Philip</name>
+              <name role="display">Senator McBRIDE</name>
+            </talker>
+            <para>- The Treasurer has supplied the following answers : -  -1. It is the general practice to -pay brokerage and commission to the persons and institutions mentioned, in respect of subscriptions to public loans, but no underwriting &#39;commission U being paid. .   </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="2.">
+              <para>One quarter of 1 per cent. </para>
+            </item>
+            <item label="3.">
+              <para>No. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>569</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>WESTERN JUNCTION AERODROME</title>
+          <page.no>569</page.no>
+        </subdebateinfo>
+        <para>Recreation Facilities. *</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>569</page.no>
+              <time.stamp />
+              <name.id>KQF</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LAMP, Charles</name>
+              <name role="display">Senator LAMP</name>
+            </talker>
+            <para>asked the Minister representing- the Minister for the Army, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that members of the garrison battalion at Western Junction Aerodrome are prohibited from using the recreation facilities in the .canteen ? -2. If so, will the Minister see that this order is revoked and that the services are placed on an equal footing? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>569</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>- The Minister for .the Army has supplied the following answer : - </para>
+          </talk.start>
+          <quote>
+            <para>I am&#39; informed that following discussions between the military and air force authorities at Launceston, the embargo on the use of the air force canteens and recreational facilities by members of the garrison battalions has now&#39; been withdrawn. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>570</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ACQUISITION OF MOTOR VEHICLES</title>
+          <page.no>570</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>570</page.no>
+              <time.stamp />
+              <name.id>KOJ</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYS, Herbert</name>
+              <name role="display">Senator HERBERT HAYS</name>
+            </talker>
+            <para>asked the Minister representing the Minister for the Army, <inline font-style="italic">upon notice&#39; -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>,What ds the basis of arriving at the value of motor trucks (the property of private owners)  compulsorily  acquired by the defence authorities? </para>
+            </item>
+            <item label="2.">
+              <para>What redress (if any) have the owners of such transport trucks who have suffered financial loss as a result of such acquisition and who have  been  deprived of their means of earning a living? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>570</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>- The Minister for the  Army  has supplied the following answer : - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>The Purchasing Boards are instructed to establish a fair purchase price for each type of vehicle to be acquired. This price to be based upon the ruling net market value of second-hand vehicles.&#39; &#39;The Purchasing Board consists of: - Purchasing Officer j Technical M.T. Inspector; Member of  the District Finance Office Staff: Valuator nominated by the State Business Administration Committee. </para>
+            </item>
+            <item label="2.">
+              <para>Owners &#39;whose trucks are impressed have the right to appeal against the price paid for their vehicles. There is .no appeal against impressment. The price paid enables owners to purchase another vehicle of a make not required by the Army. The Compensation Board consists of:- (n) A military officer from the reserve of  officers  especially for  the purpose; (6) The  chairman,  or his  deputy.,  of the State Business Administration Committee; (c) A third member especially selected for knowledge of the motor trade. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>570</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>HOME DEFENCE FORCES</title>
+          <page.no>570</page.no>
+        </subdebateinfo>
+        <para>Employment of Skilled Workers</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>570</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>asked the Minister representing the Minister for the Army, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is the. skill of trained artisans being wasted .because of their employment as labourers in the Home Defence Forces? </para>
+            </item>
+            <item label="2.">
+              <para>Can any skilled worker, for whom there is no work of a kind which he is specially trained to perform, gain his release from the Home Defence Forces, without delay, in order that full use may &#39;be made of his skill? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>570</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>- The Minister for the Army has supplied the following answers :- - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>No. There is a serious shortage of trained artisans available for Australian Military Forces units and any man with recognized trade qualifications is assured of an appointment commensurate with his ability. It is pointed out, however, that .both in the Australian Military Forces and the Australian Imperial Force, tradesmen have failed to disclose their qualifications upon enlistment, in which case, naturally, they are not employed at their trades. Any man in such a situation who applies for  and passes  a trade test can be absorbed at his trade. </para>
+            </item>
+            <item label="2.">
+              <para>In the case of skilled trades for which there is no provision in army establishments, such a member would be released .promptly provided his special qualifications placed hint within the list of reserved occupations or if his services could be  .better utilized in munitions production. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ELECTION OF CHAIRMAN OF COMMITTEES</title>
+        <page.no>570</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator McLeay)</inline> agreed to- &#39; </para>
+      <para>That the Senate do now proceed to elect a Chairman of Committees. </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>570</page.no>
+            <time.stamp />
+            <name.id>KUA</name.id>
+            <electorate>South Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for &#39;Supply and Development</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLEAY, George</name>
+            <name role="display">Senator McLEAY</name>
+          </talker>
+          <para>. - I move - </para>
+        </talk.start>
+        <quote>
+          <para>That <inline font-weight="bold">Senator Walker</inline> Jackson Cooper be appointed  Chairman  of Committees of the Senate. </para>
+        </quote>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>570</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator Foll</name>
+            </talker>
+            <para>- T second the motion. <inline font-weight="bold">Senator COOPER.</inline> - I have pleasure in accepting the nomination. </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>570</page.no>
+            <time.stamp />
+            <name.id>K7P</name.id>
+            <electorate>QueenslandLeader of the Opposition</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLLINGS, Joseph</name>
+            <name role="display">Senator COLLINGS</name>
+          </talker>
+          <para>. - I move- </para>
+        </talk.start>
+        <quote>
+          <para>That <inline font-weight="bold">Senator Gordon</inline> Brown he appointed  Chairman  of Committees of the Senate. </para>
+        </quote>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>570</page.no>
+              <time.stamp />
+              <name.id>KQH</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LARGE, William</name>
+              <name role="display">Senator Large</name>
+            </talker>
+            <para>- I second the motion. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>570</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator Brown</name>
+            </talker>
+            <para>- I submit, myself to the will of the Senate. </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>570</page.no>
+            <time.stamp />
+            <name.id>JTK</name.id>
+            <electorate>WESTERN AUSTRALIA</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CUNNINGHAM, James</name>
+            <name role="display">The PRESIDENT (Senator the Hon J Cunningham</name>
+          </talker>
+          <para>- There being two nominations, the Senate will now proceed to ballot. 4 <inline font-style="italic">ballot having been taken,</inline></para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>570</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>- The result of the ballot is : <inline font-weight="bold">Senator .</inline> Cooper, 17 votes ; <inline font-weight="bold">Senator Brown,</inline> 17 votes. In accordance with the Standing Orders, the Senate will proceed, to a second ballot. </para>
+        </talk.start>
+        <para class="italic">
+          <inline font-style="italic">A&#39; second ballot having been taken,</inline>
+        </para>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>570</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- The result of the second ballot is: <inline font-weight="bold">Senator Cooper,</inline> 17 votes; <inline font-weight="bold">Senator Brown</inline> 17 votes. The voting again being equal, Standing Order No. 22 provides- for the drawing of lots. The  Clerk  will place in a box two pieces of paper bearing the names of <inline font-weight="bold">Senator Cooper</inline> and <inline font-weight="bold">Senator Brown</inline> respectively. He will then draw the name of one candidate and the name remaining in the box will be that of the successful candidate. </para>
+          </talk.start>
+        </continue>
+        <para class="italic">
+          <inline font-style="italic">Lois having been drawn,</inline>
+        </para>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>571</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- I declare <inline font-weight="bold">Senator Brown</inline> elected as  Chairman  of Committees. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>571</page.no>
+            <time.stamp />
+            <name.id>K6P</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BROWN, Gordon</name>
+            <name role="display">Senator BROWN</name>
+          </talker>
+          <para>. - I thank the Senate for the honour that it lias conferred on me in electing me to the important position of  Chairman  of Committees of the Senate. My good friend, <inline font-weight="bold">Senator Cooper,</inline> was unfortunate in the drawing of lots, but that is the luck of the game. I shall do my best to follow in the footsteps of those who have occupied that important office with dignity and distinction in the past. I shall certainly act impartially. In carrying out my onerous duties I shall have to rely a great deal on the  Clerk  of the Senate. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>571</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator Foll</name>
+            </talker>
+            <para>-  While in the chair, the  honorable senator will not be free to interject. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>571</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>- I shall be happy to refrain from doing so. Although as  a  senator I may not always have kept quiet, I. have acted decorously when serious matters have been under discussion. At other times, I believe that I have made interesting contributions to the debates in this chamber. When men are suffering from stress and strain, as is frequently the case when dealing with important legislation, no harm is done if occasionally some one addresses the chair in lighter vein. As  Chairman  of Committees I shall at all times endeavour to serve. the Senate and the country. </para>
+          </talk.start>
+        </continue>
+        <para>Honorable Senators.  -  Hear, hear ! </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>571</page.no>
+            <time.stamp />
+            <name.id>JQP</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COOPER, Walter</name>
+            <name role="display">Senator COOPER</name>
+          </talker>
+          <para>. - I congratulate <inline font-weight="bold">Senator Brown</inline> upon his election as  Chairman  of Committees, and wish him a successful term of office. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>571</page.no>
+            <time.stamp />
+            <name.id>K7P</name.id>
+            <electorate>QueenslandLeader of the Opposition</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLLINGS, Joseph</name>
+            <name role="display">Senator COLLINGS</name>
+          </talker>
+          <para>. - In congratulating <inline font-weight="bold">Senator Brown</inline> upon his election as  Chairman  of Committees, I assure him that we on this side will help him to discharge his onerous duties with satisfaction to all honorable senators, as I believe honorable senators supporting tlie Government will do also. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>571</page.no>
+            <time.stamp />
+            <name.id>KUA</name.id>
+            <electorate>South AustraliaMinister for Supply</electorate>
+            <party>UAP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLEAY, George</name>
+            <name role="display">Senator McLEAY</name>
+          </talker>
+          <para>. - I also .take this opportunity to congratulate <inline font-weight="bold">Senator Brown</inline> on his election as  Chairman of  Committee0 </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>571</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>FLAX INDUSTRY</title>
+          <page.no>571</page.no>
+        </subdebateinfo>
+        <para class="block">Debate resumed from the 25th June <inline font-style="italic">(vide</inline> page 344), ou motion by <inline font-weight="bold">Senator Aylett</inline> - </para>
+        <quote>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>That a joint committee of the Parliament be appointed to inquire into and report upon all matters relating to - </para>
+              <list type="loweralpha">
+                <item label="(a)">
+                  <para>the growing and processing of flax;  (ft)  the composition, functions and operations of the Flax Board. </para>
+                </item>
+              </list>
+            </item>
+            <item label="2.">
+              <para>That three members of the Senate and four members of the House of Representatives be appointed to serve on such committee. </para>
+            </item>
+            <item label="3.">
+              <para>That the committee be empowered to send for persons, papers and records, to move from place to place, and to sit during the adjournment of Parliament. </para>
+            </item>
+            <item label="4.">
+              <para>That a message be sent to the House of Representatives requesting its concurrence and asking that four members be appointed to serve on such committee. </para>
+            </item>
+          </list>
+        </quote>
+        <para>
+          <inline font-weight="bold">Senator McLEAY</inline>(South AustraliaMinister for Supply and Development) | 4.27 | . - As Leader of the Senate, I  do  not think that a parliamentary committee is a satisfactory body to examine and report on such highly technical matters as the growing and processing of flax. I therefore ask the Senate to reject the motion. Having read the speech deliveredby the honorable senator in moving his motion, I am of the opinion that he grossly exaggerated the position. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>571</page.no>
+              <time.stamp />
+              <name.id>KAY</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIBSON, William</name>
+              <name role="display">Senator GIBSON</name>
+            </talker>
+            <para>.- I understood that this matter was to be referred to a committee which will deal with rural disabilities. If so, it may be that that procedure would be satisfactory to <inline font-weight="bold">Senator Aylett.</inline> If, however, it is proposed to discuss the motion and take  a  vote on it, I desire to say that <inline font-weight="bold">Senator Aylett</inline> has not stated the position accurately. As the growing and processing  of  flax is an entirely new industry in Tasmania, it is not unlikely that anomalies exist in that State. The honorable senator pointed out that some of the buildings which are being used to treat the flax are not satisfactory. In the short time which has elapsed since the industry was inaugurated in Tasmania the Government could hardly be expected to erect mills and other buildings for storing, retting and drying flax. Like many other primary products, flax is a seasonal crop. Flax ripens as do other crops, and it is then dealt with according to the methods thought to be most suitable. <inline font-weight="bold">Senator Aylett</inline> said that in wet seasons the flax might be destroyed, but that is not so. </para>
+          </talk.start>
+          <para class="block">Our trouble in Australia is that the rainfall is generally not sufficient to ret the flax. There is no danger of the flax grown in this country being destroyed by too much moisture. In outlining some of the processes through which the flax has to pass, <inline font-weight="bold">Senator Aylett</inline> said that it is carted from the field to the mills, stacked at or near the mills, carted from the mills to the thresher for de-seeding and then back to the field for retting. What other procedure does the honorable senator- suggest should bc adopted? A farmer will not stack his flax on his own farm and then cart it to the mill and thresh it.. After the seed has been extracted it has to be sent to the retting fields to ret. In Victoria the flax is carted from, the field to the mill, stacked alt the mill and then threshed at the stack. When the seed has been removed the flax is carted to the field and retted by the dew process. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>572</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator Aylett</name>
+              </talker>
+              <para>- Is it threshed at the stack or at the mill? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>572</page.no>
+                <time.stamp />
+                <name.id>KAY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GIBSON, William</name>
+                <name role="display">Senator GIBSON</name>
+              </talker>
+              <para>- At the stack. The straw is then spread out in the field and retted. I do not know what other procedure could be adopted. <inline font-weight="bold">Senator Aylett</inline> has suggested that the flax should be pit-retted and treated in drying sheds. I point out that in Ireland, Belgium and other countries where flax is grown in large quantities the flax is all dried in thefields. Drying plants to process the flax would cost about &#163;10,000 each. The flax industry is merely an experiment as far as Tasmania is concerned. F&#93;ax production. was rushed upon the Commonwealth Government by the British Government, which has offered to buy the whole of our production at a fair price - &#163;5 15s. for standard and a premium for that above standard - just as&#39; it did during. the last war. Private enterprise has not developed the flax industry in Australia to the degree that one would expect because of the serious competition offered by Italian hemp. During the last war, flax was sold to the British Government at &#163;5 a ton, but it could not meet the competition of Italian hemp, and, as the result, the production of flax in this country waned. To Tasmania, flax-growing is a new industry, but in Victoria flax has been- grown, milled and treated successfully for over 30 years. <inline font-weight="bold">Senator Aylett</inline> has proposed that a joint committee of the Parliament be appointed to inquire into the whole of the ramifications of the industry. From whom, is it proposed, that the committee should take evidence? I point out to the. honorable senator that the only people in Australia competent to advise the Government in connexion with this industry are the eight experts of the Victorian Department of Agriculture, all of whom learned their business in Belgium, Ireland and other large flax-producing countries as well as Victoria. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>572</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator Aylett</name>
+              </talker>
+              <para>- Their&#39; advice is available to the Tasmanian Government. The honorable senator casts a. slur on the officers of the Tasmanian Department of Agriculture. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>572</page.no>
+                <time.stamp />
+                <name.id>KAY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GIBSON, William</name>
+                <name role="display">Senator GIBSON</name>
+              </talker>
+              <para>- Not at all. In justification of the appointment of the proposed committee, the honorable senator himself said that the Tasmanian Department of Agriculture is not capable of developing the flax industry in Tasmania. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>572</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator Aylett</name>
+              </talker>
+              <para>- I referred, not to the Tasmanian Department of Agriculture but to the Flax Production Committee. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>572</page.no>
+                <time.stamp />
+                <name.id>KAY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GIBSON, William</name>
+                <name role="display">Senator GIBSON</name>
+              </talker>
+              <para>- The State Governments are responsible for growing the flax, and the Commonwealth Government, through the Council for Scientific and Industrial Research and its <inline font-style="italic">experts,</inline> undertakes responsibility for processing it. The quota allotted to Victoria is 28,000 acres, and it is all taken up. Very good crops a&#62;re grown in the southern districts of the State. For 30 years the flax produced in the southern districts of Victoria has been retted, scutched and prepared so successfully that it has brought &#163;1S0 a ton on the London market. <inline font-weight="bold">Senator Aylett</inline> says that the decorticating process is a new one. That process which was evolved by a gentleman whom I happen to know simply involves the crushing of the dry, flax straw. When the dry flax straw i3 crushed, only the fibre is left. The fibre, which is not scutched or bleached, is sold on the London market at one-half the price of retted, scutched and bleached flax. The only advantage in the decorticating process is that probably it enables the flax to be dealt with speedily. <inline font-weight="bold">Senator Aylett</inline> says that the flax-growing areas of Victoria and Tasmania are too damp, and that a lot of the flax is wasted, when spread out in the fields to ret. If that be so, how  does  the honorable senator account for the fact that in Belgium and Ireland, where the climate is not so favorable as the Tasmanian climate, practically the whole of the flax produced is retted in the field? As a matter of fact the heavier the dew the better the retting. .Flax- can be grown remarkably well in irrigation areas where the proper quantity of water can be applied. Unfortunately, however, our irrigation areas are not sufficiently moist to ret it. Flax grown in irrigation areas has therefore to be transported to more moist districts or, failing that, to be watered by hand, or pit retted, which is too expensive. In Victoria the Flax Fibres Limited operated two rope cordage mills until last year,  when  they were taken over and operated by the Government. <inline font-weight="bold">Senator Aylett</inline> has said that these mills are inefficient. I point- out that the whole of the industry in Tasmania is in its infancy. It received a tremendous impetus when, almost at a moment&#39;s notice, the British Government asked us to endeavour to  supply  its requirements of fibre. Until recently the authorities administering the scheme for the growing of flax have not &#34;had time to arrange proper supervisors. They have now done so. Had the officers of the Tasmanian Department of Agriculture done what the experts of the Victorian Government have advised, the flax industry in Tasmania would be in a much better position to-day. . </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>573</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator Aylett</name>
+              </talker>
+              <para>-  Is it necessary that the Victorian experts should be kept in Victoria ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>573</page.no>
+                <time.stamp />
+                <name.id>KAY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GIBSON, William</name>
+                <name role="display">Senator GIBSON</name>
+              </talker>
+              <para>- They are all fully employed in advising on seeding and land preparation and sowing .the 2S,000 acres allotted to Victoria. Flax of an average length of about 27 inches produced in Victoria is sold at &#163;5 15s. a ton. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>573</page.no>
+                <time.stamp />
+                <name.id>K3L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SAMPSON, Burford</name>
+                <name role="display">Senator Sampson</name>
+              </talker>
+              <para>-  Does that include seed ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>573</page.no>
+                <time.stamp />
+                <name.id>KAY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GIBSON, William</name>
+                <name role="display">Senator GIBSON</name>
+              </talker>
+              <para>- Yos. Many growers in the Gippsland and Colac districts  who are  growing fibre in excess of 27 inches are obtaining from &#163;G to &#163;7 a  tcn for  their product.  Honorable  senators  will  recall  that  some time  ago the  Government imported about 400 tons of seed from abroad  but  it arrived too late  for  planting in most of the districts in Victoria. A good deal of that seed was subsequently planted in Tasmania. There are two classes of flax seed. Sisal Crown, which - produces a lot of fibre and very little seed - and that iswhat the Govern ment is seeking to-day - and Blue Riga, which produces a lot of seed and very little fibre. The farmers in the old country sought to grow flax which yielded heavy crops of seed because of its value in the manufacture of linseed meal and linseed cake, which are used for feeding cattle. I venture to say that if, in a normal season, flax seed is planted at tlie right time, no difficulty will be experienced in growing good average length fibre, .particularly in Victoria. Last year thousands of acres of seed were sown .too late, with the result that the crop had to be harvested for seed as the fibre was of practically no value. </para>
+            </talk.start>
+          </continue>
+          <para>I suggest to <inline font-weight="bold">Senator Aylett</inline> that this matter should be referred to the committee investigating rural disabilities. Only experts can advise the Government on the manufacturing side of the industry. They comprise the manufacturers, the Council for Scientific and Industrial Research and the eight advisors of the Victorian Government to whom I have referred. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>573</page.no>
+                <time.stamp />
+                <name.id>K3L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SAMPSON, Burford</name>
+                <name role="display">Senator Sampson</name>
+              </talker>
+              <para>-  Is no flax retted in pits in Australia? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>573</page.no>
+                <time.stamp />
+                <name.id>KAY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GIBSON, William</name>
+                <name role="display">Senator GIBSON</name>
+              </talker>
+              <para>- It is, in some instances. Generally, however, it is spread out and retted in the fields. Pit retting is too costly and it is almost- impossible to obtain the necessary labour to carry on the work. When flax is retted in the field, it is simply spread over acres of country. The retting is done automatically by the dew and exposure to rain. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>573</page.no>
+                <time.stamp />
+                <name.id>K0P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">ARTHUR, Thomas</name>
+                <name role="display">Senator Arthur</name>
+              </talker>
+              <para>-  Is any flax being grown in New Zealand? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>573</page.no>
+                <time.stamp />
+                <name.id>KAY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GIBSON, William</name>
+                <name role="display">Senator GIBSON</name>
+              </talker>
+              <para>- The New Zealand producers grow sisal, which reaches to a height of from S to 10 feet, and is treated by an entirely different process. . It is a coarse fibre used in the manufacture of rope and binder twine. I should say that flax could be grown in New Zealand as well as it is grown in any State of the Commonwealth. I am satisfied that, through its system of inspection, the Commonwealth is doing everything possible to assist the flax-growers. The matters referred to by <inline font-weight="bold">Senator Aylett</inline> will be referred to. the inspectors who, I understand, have now been appointed by the Government. .If it be found that wastage is taking place, remedial measures will be taken by those Government appointees. I. trust that the Senate will reject the motion. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>574</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator CAMERON</name>
+            </talker>
+            <para>. - I support the motion submitted by <inline font-weight="bold">Senator Aylett.</inline> I am astounded at the speech just made by the Leader of the Senate <inline font-weight="bold">(Senator McLeay).</inline> First, the honorable senator told us that the processing of flax is a highly difficult operation. That is obvious; every one knows that. Then he said that the statements made by <inline font-weight="bold">Senator Aylett</inline> were grossly exaggerated, but he failed to indicate in what respect overstatements had been made. The Leader of the Senate asks us to accept his estimate of the value of <inline font-weight="bold">Senator Aylett&#39;s</inline> statements. It would be very convenient to have a complacent Senate, prepared to do as the honorable senator asks; but before we accept his statement, we should be informed how he justifies his claim that <inline font-weight="bold">Senator Aylett&#39;s</inline> remarks were grossly exaggerated. Once again, the Leader of the Senate has indulged in his usual practice of treating this chamber in a contemptuous manner. <inline font-weight="bold">Senator Gibson,</inline> on the other hand, did attempt to submit a case from his point of view. It would have been far better had the Government allowed <inline font-weight="bold">Senator Gibson</inline> to secure the adjournment of the debate. Had that course been followed, <inline font-weight="bold">Senator Gibson</inline> would have had an opportunity to prepare his speech on the motion before the Senate, and I feel sure that we would have had. a better explanation of the position than we have had from the Leader of the Senate. &#34;We have been told that the industry is in the experimental stage. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>574</page.no>
+                <time.stamp />
+                <name.id>KAY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GIBSON, William</name>
+                <name role="display">Senator Gibson</name>
+              </talker>
+              <para>-  It may be in the experimental stage in Tasmania, but not in Victoria. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>574</page.no>
+                <time.stamp />
+                <name.id>L8E</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CAMERON, Donald</name>
+                <name role="display">Senator CAMERON</name>
+              </talker>
+              <para>- <inline font-weight="bold">Senator Aylett</inline> has devoted considerable time and attention to the industry, and, as the result of his observations, he. believes that a committee should be appointed to discover exactly why better results are not being obtained. The request is perfectly legitimate, and the weight of evidence which lias been adduced in this debate supports <inline font-weight="bold">Senator Aylett&#39;s</inline> case. The honorable senator&#39;s allegations of waste and inefficiency in the industry have not been refuted by the Government. In fact, <inline font-weight="bold">Senator Gibson</inline> has made some damaging admissions, which strengthen <inline font-weight="bold">Senator Aylett&#39;s</inline> request for an inquiry. When moving his motion, <inline font-weight="bold">Senator Aylett</inline> stressed the point t&#39;hat he wanted to make certain that this industry would be established on a permanent basis, and not merely for the duration of the war, after which it would be abandoned as so many other industries have been abandoned by anti-Labour Governments. We know that cheapness of labour is the main consideration with which such governments are concerned. If flax can be grown more cheaply in India, I can imagine this Government saying, immediately after the war is over, we must abandon this young industry and import flax. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>574</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate>SOUTH AUSTRALIA</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator A J McLACHLAN</name>
+              </talker>
+              <para>-  -Flax cannot be imported now. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>574</page.no>
+                <time.stamp />
+                <name.id>L8E</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CAMERON, Donald</name>
+                <name role="display">Senator CAMERON</name>
+              </talker>
+              <para>- Before the war we were &#39;importing it iii considerable quantities. Indeed, one reason why the industry is now to be encouraged is because flax fibre can no longer- be obtained from abroad. When the war is over, we do not want the Government to say, as it did after the last war in respect of many primary and secondary industries, that this industry must &#39;be closed down, and preference given to those countries which can produce flax more cheaply than we can produce it. That danger exists in respect of many primary industries. Owing to the closing down of the shipbuilding industry we find now that we cannot build ships to meet our requirements, or even equal the output of that industry when it was previously in existence. A similar fate may be in store for the flax industry. <inline font-weight="bold">Senator Aylett</inline> has emphasized that we should make certain that the industry is established on a permanent basis, and will bc enabled to carry on successfully, not only for the duration of the war, but after the war. For that reason ho wan ls to be assured that the present management of the industry is capable of running the industry successfully. As a representative of Tasmania in this chamber, ha has rightly directed attention to wastage and inefficiency on the part of the management of the industry. In the absence of any evidence from the Government to the contrary, we can only conclude that his representations arc worthy of support. <inline font-weight="bold">Senator Gibson</inline> has suggested that the matter might be inquired into by one of the various committees which are now functioning. I do not know whether any of those committees is empowered to conduct such an inquiry, but in -the absence- of any direction from this Parliament, each of those committees would be within its rights in refusing to do&#39; so. Consequently, <inline font-weight="bold">Senator Gibson&#39;s</inline> suggestion is not very helpful. Our only alternative is to agree to <inline font-weight="bold">Senator Aylett&#39;s</inline> motion. In any case, what has the management of the industry to fear from the proposed inquiry? </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>575</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator Aylett</name>
+              </talker>
+              <para>-  Evidently it has more to fear than I suspected. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>575</page.no>
+                <time.stamp />
+                <name.id>L8E</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CAMERON, Donald</name>
+                <name role="display">Senator CAMERON</name>
+              </talker>
+              <para>- The industry should welcome such an inquiry, particularly as it is in the experimental stage. An inquiry is also desirable, because it will be the means of procuring evidence to defeat any move which, may be made later to abandon the industry on the ground that, we cannot grow and pro&#39;cess flax successfully in Australia, or because our costs greatly exceed those in other countries. We can well imagine such a proposal being made after the war, and the Government recommending, reluctantly, of course, that the industry be abandoned. That has happened in respect of many industries which have been placed under national control, because of the opposition of private enterprise, which is more concerned about, makingprofit* than serving the national interests. In this instance, . <inline font-weight="bold">Senator Aylett</inline> is primarily concerned about the nation&#39;s interests. I hope, therefore, that his motion will be carried. . </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>575</page.no>
+              <time.stamp />
+              <name.id>JTR</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DARCEY, Richard</name>
+              <name role="display">Senator DARCEY</name>
+            </talker>
+            <para>. - I commend my colleague from Tasmania for the trouble which he has taken to bring this matter to the notice of honorable senators. Tasmania is not an industrial State. When we were a?ked to grow flax in order to help in the war effort, many farmers entered wholeheartedly into the scheme; but they now find that, owing to  i . :  <inline font-style="italic">r</inline> ;  i i <inline font-style="italic">i</inline> i  the unsatisfactory layout of the mills by Commonwealth officers, they cannot engage in the industry economically. I do not know the officers responsible for the planning of those mills. The farmers in Tasmania were sanguine that the industry would be established permanently, and would prove of immediate benefit in our war effort. I do not think that <inline font-weight="bold">Senator Gibson&#39;s</inline> statement that the experts in Victoria could have overcome the difficulties experienced in Tasmania helps us in any way. It is evident that the experts who were sent to Tasmania by the Commonwealth were not capable of doing their job. It may be. that among the many committees now functioning, one may be able to deal with this industry. However, I still think that an inquiry into the flax industry must be held. <inline font-weight="bold">Senator Aylett&#39;s</inline> statement about the difficulties of processing flax should be investigated by one of those committees. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>575</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>. - After listening to <inline font-weight="bold">Senator Aylett</inline> when he was moving his motion, I felt that I could not let the opportunity pass to make a few observations concerning this industry. It was during my term as Minister in charge of Scientific Development that the first proposal was made to the Government for production of flax in Australia on a large scale. As <inline font-weight="bold">Senator Gibson</inline> has pointed out&#39;, the growers in the southern States have been carrying on successfully for seine years. However, difficulties have been experienced in processing in this country. Eoi- that reason the British Government, sent to Australia one of the world&#39;s leading flax processers to investigate not, the growing of flax - it was convinced that we could grow it - but our methods of processing. I do not wish to reflect upon the management of any of the mills, but several gentlemen wilh whom I had confidential communications on the subject assure me that the difficulty arises mainly because the management of some of the mills is &#34;innocently, but ignorantly. inefficient&#34;. As Minister in charge of Scientific Development, I arranged with representatives of the industry to send abroad for processing a certain quantity of flax after it had been pulled. I point out, in passing, that that  i |i  m I ; i &#62;  i . ; .  is the mast economic way of harvesting  flax from the farmer&#39;s point of . view. <inline font-weight="bold">Senator Aylett</inline> has made out a case for an inquiry into the industry; but I do not think that such an inquiry calls for the appointment of a select committee. Our farmers know how to grow flax. But <inline font-weight="bold">Senator Aylett</inline> proposes that an inquiry be made into the growing side of the industry. That aspect has already been reported upon; and stress has been laid upon the quality of the land required for the growing of flax. The honorable senator also alleged inefficiency in the layout of some of the i mills. Our difficulties in that respect arise, probably, because of the fact that the industry is only in the experimental stage. The reason for the demand by the British Government for flax from Australia follows the decision of Russia to embark upon the production of linen. Previously, Russia, Latvia and Estonia supplied flax to the linen mills in Belfast, for which Irish production was insufficient. Now Russia will take all supplies from&#39; Latvia and Estonia. Perhaps an inquiry is necessary, but we should hardly use a sledgehammer to crack so small a nut. The difficulty arises in regard to processing. Flax sent from Australia to mills abroad passed all tests for quality when processed, and samples were sent back to Australia. Our inability to achieve efficiency in processing, is clue partly to lack of experts. I have discussed this matter with <inline font-weight="bold">Senator Gibson.</inline> I understand that among the multitude of committees to which <inline font-weight="bold">Senator Darcey</inline> referred is a Rural Industries Committee which could inquire into this industry. That committee could obtain expert evidence and find ways and means to rectify the. inefficiency which has been made evident by the unsatisfactory layout of various mills. After all, that is the burden of the honorable senator&#39;s attack on the industry. The choice of retting processes is not very important. We know that different processes are followed overseas because opinion varies as to the efficiency of each process. I suggest that we should not set up a select committee to inquire into a matter of this kind when a committee capable of dealing with it is already in existence. Indeed, I know of no reason why this matter could not be referred to some branch of the Council for Scientific and Industrial Research. </para>
+          </talk.start>
+          <para>The ordinary individual cannot grapple with the chemical intricacies of this industry. Whilst I am opposed to the appointment of a select committee, I would support the honorable senator if he amended his motion to provide that this matter be referred to the Rural Industries Committee, or some similar authority capable of assessing the value of whatever technical evidence  i3  available in this country. I sympathize with those engaged in the flax industry because of the difficulties which confront them. It is an industry which will be of extreme value to this country in the years to come. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>576</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator AYLETT</name>
+            </talker>
+            <para>
+              <inline font-style="italic">.- in reply</inline>- I listened attentively to. the opposition expressed to my motion, and the most surprising feature of it is the contradictory nature of the statements made by honorable senators opposite. First, the Minister for Supply and Development <inline font-weight="bold">(Senator McLeay)</inline> said that it was not a matter for a select committee, but rather for a body of experts, and for that reason he opposed the motion. Then, <inline font-weight="bold">Senator Gibson</inline> declared that the matter was not one to be investigated by a select committee, and should be handed over to the Rural Industries. Committee. <inline font-weight="bold">Senator A.</inline> J. McLachlan supported <inline font-weight="bold">Senator Gibson</inline> in defiance of the statement made by the Minister. <inline font-weight="bold">Senator Gibson</inline> also said .that the flax industry had been established in this country for 30 years, and that flax had been processed in Victoria and sold on the English market at &#163;180 a. ton. Then, <inline font-weight="bold">Senator A.</inline> J. McLachlan said that the industry was only in its experimentalstages and that flax had not been processed in Victoria, but had been sent to&#39; England for processing. Although I. 6poke for nearly 40 minutes when moving the motion,  not one honorable senator who has opposed it has been able to point to one word in my speech which was not absolutely correct. Although honorable senators opposite claimed that I had indulged in gross exaggerations, they could not point to any portion of my speech which was an exaggeration. The reason for that is very simple. They know very well that I had stated cold facts which could not be contradicted. <inline font-weight="bold">Senator Gibson</inline> claimed that, I had cast a slur on the </para>
+          </talk.start>
+          <para class="block">Tasmanian Agricultural Department. That is entirely incorrect. If the honorable senator peruses my speech closely he will find that I did not cast a slur on that department. In fact, I repeat now what I said previously that the Tasmanian Department of Agriculture has co-operated with the Commonwealth Government, and the &#39; Flax Production Committee has played a wonderful part in the development of the industry. Had the Commonwealth Government and the committee done their jobs as well as that department has done its job, there would bc no need to ask for a select committee. I resent the suggestion that I cast a slur on the Tasmanian Department of Agriculture. I did not do so, nor did I reflect in any way on the departments of agriculture in any of the four flaxproducing States concerned. <inline font-weight="bold">Senator Gibson</inline>  referred to the decorticating machines which, he claimed, were used in a new process. I know it is a new process. The honorable senator claimed that considerable experimenting was being carried out, and I am well aware of that. But he did not say why it was necessary to have four of these machines for the experiments to be carried out by the Council for Scientific and Industrial Research, or why they are lying idle while the flax is dew-retting. Neither did he tell us why the man who invented this machine and carried out experiments with it is engaged in a flax mil&#93; in Tasmania and has not been given one &#39; of these machines. I understand that he went through all the experimental stages with the machine and then submitted it to the Flax Production Committee. These are questions which the honorable senator did not attempt to deal with. He did, however, say that the matter was one for experts. Apparently he considers that the ordinary man has not .sufficient common sense to understand that the handling of flax ten times instead of only twice increases the cost of production. The honorable senator said that all the necessary information could be supplied by the eight experts. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>577</page.no>
+                <time.stamp />
+                <name.id>KAY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GIBSON, William</name>
+                <name role="display">Senator Gibson</name>
+              </talker>
+              <para>- They are the only people who have the information. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>577</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator AYLETT</name>
+              </talker>
+              <para>- If the experts to whom the honorable senator refers were responsible for the lay-out of the mills, I have no desire to seek evidence from them, because&#39; any man with common sense and good eyesight can see that the mills have been laid out in a very uneconomic manner. I ask <inline font-weight="bold">Senator Gibson,</inline> as a farmer, if he does not realize that the costs of production are greatly increased, if any commodity is handled ten times when it is necessary to handle it only twice? Does he not appreciate that it is uneconomic to carry flax from one shed to another on motor lorries instead of having it moved by a conveyor ? If the honorable senator does not know these things we can understand why he says that the experts are .the only men from whom, advice could be obtained, and if he does know them he is merely trying to camouflage the issue. Obviously he does not know all about the industry and is trying to smother things up on behalf of some interest or other. I am. endeavouring to expose inefficiency. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>577</page.no>
+                <time.stamp />
+                <name.id>KAY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GIBSON, William</name>
+                <name role="display">Senator Gibson</name>
+              </talker>
+              <para>- What the honorable senator has indicated may be the state of affairs in Tasmania, but it is not in Victoria. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>577</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator AYLETT</name>
+              </talker>
+              <para>- That may be. As I stated when moving the motion, I made a thorough investigation in Tasmania, and ascertained the .exact position in that State. <inline font-weight="bold">Senator Gibson</inline> has informed us that there are only eight experts, and that all of them are needed in Victoria and cannot be made available to Tasmania. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>577</page.no>
+                <time.stamp />
+                <name.id>KAY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GIBSON, William</name>
+                <name role="display">Senator Gibson</name>
+              </talker>
+              <para>- They could. At all events the information which they possess could be made available in book form or in any way which the honorable senator desires. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>577</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator AYLETT</name>
+              </talker>
+              <para>- If that be so, why is it not possible for at least one of these experts to visit Tasmania and see for himself what is being done ? &#39; All I can say is that if the present conditions have been brough&#39;t about as a result of the advice of  experts,  then we shall have to go further in our investigations. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>577</page.no>
+                <time.stamp />
+                <name.id>KAY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GIBSON, William</name>
+                <name role="display">Senator Gibson</name>
+              </talker>
+              <para>- Who doe3 the honorable senator suggest should be called to give evidence? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>577</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator AYLETT</name>
+              </talker>
+              <para>- In the first place I should call for the books and papers of the Flax Board and of members of the Flax Board. I should also call the  managers of the flax mills, the engineers who designed the layout of the mills and the other engineers who submitted plans, but were not given a hearing. Evidence should also be obtained from the producers themselves who are clamouring for higher prices for flax because of rising costs of production. In regard to the actual costs of the production, I should be prepared to call evidence from anybody possessing information, including even <inline font-weight="bold">Senator Gibson,</inline> who claims to be the champion of champions, in this chamber, of the flax industry. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>578</page.no>
+                <time.stamp />
+                <name.id>KAY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GIBSON, William</name>
+                <name role="display">Senator Gibson</name>
+              </talker>
+              <para>-  The general manager ofFlax Fibres Limited is the man who is running the show today. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>578</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator AYLETT</name>
+              </talker>
+              <para>- That is the very point. The general manager of Flax Fibres Limited is not conducting the show in the interests of Australia nor as economically as it should be conducted. That is a reason why I ask for the appointment of a select committee to inquire into the industry. <inline font-weight="bold">Senator Gibson</inline> also spoke about the threshing of seed at the stacks and the threshing of seed in the mills in Tasmania. I am not going to tell the honorable gentleman that the flax is deseeded at the stacks in Victoria, but my statement of the position in Tasmania is correct and canbe verified by any one visiting that State. I repeat that the money now being wasted in carrying flax from thestacks to the deseeding mills, from the. deseeding mills to the retting-pits, and from the retting-pits to the dryingsheds and so on would be sufficient in one year to provide dutch barns to bold all the flax that we are processing. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>578</page.no>
+                <time.stamp />
+                <name.id>KAY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GIBSON, William</name>
+                <name role="display">Senator Gibson</name>
+              </talker>
+              <para>-  That is not done anywhere in the world. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>578</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator AYLETT</name>
+              </talker>
+              <para>- I say that it is, and I challenge anybody to prove that my statement is incorrect. <inline font-weight="bold">Senator Gibson</inline> has not attemptedto prove that one word of my speech was incorrect. In his own speech he dealt merely with generalities. He estimated the cost of erecting drying shed? to dry from pit-retting at &#163;10,000. I point out that, this industry today is worth millions of pounds if it is handled in the right way. I ask the honorable senator, if it is not worth an outlay of &#163;10,000, why is the Flax Board building dryingsheds at the mills to dry the flax after it comes from the pits? He must be aware that that is being done. If the sheds are not required, the select committee should inquire into the matter. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>578</page.no>
+                <time.stamp />
+                <name.id>KAY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GIBSON, William</name>
+                <name role="display">Senator Gibson</name>
+              </talker>
+              <para>- The &#163;10,000 also includes plant. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>578</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator AYLETT</name>
+              </talker>
+              <para>- I understand that. Obviously a shed would be useless without plant, and the honorable senator is well aware of that. Today, the managers of the various mills are paying men who are supposed to have had experience in the processing of flax. Some of them told me that they have had years of experience in Victoria in the mills which the honorable senator himself has mentioned, but are prevented from doing anything on their own initiative. Previously I made representations to the Minister for Supply and Development for adequate storage space for flax, but my request was turned down. Some months afterwards, the wisdom of my representations was recognized, and more storage space was provided at some of the mills. At one mill a shed used for the storage of flax in order to keep it dry before it was taken to the deseeding plant is situated about 50 yards fromthat plant. The flax had to be loaded on a lorry to enable it to be carted from that shed a distance of 50 yards to the deseeding plant, although the storage shed could have been built at the end of the deseeding shed: As it was found that the flax became wet during loading and unloading operations, the board went to the expense of building a skillion roof to provide cover for the flax. Some ridiculous mistakes have been made in the construction of these mills, and there is every justification for an inquiry regarding the lay-out of the mills, the processing of the flax and the functions of the board. </para>
+            </talk.start>
+          </continue>
+          <para>The Leader ofthe Senate stated that an investigation of the matters to which I have directed attention was not a job for a select committee, but he did not tell the Senate by whom these matters should be investigated. Who has a greater right to make inquiries of this kind than elected representatives in this Parliament? I ask the Minister not to belittle members of the Senate by suggesting that they have not  sufficient intelligence to carry out the necessary investigation. In view of the fact that production of flax next year is expected to be twice that of this year, and in view of the chaotic economic position, in the processing of the commodity, I claim that it is highly desirable to appoint a committee immediately. If the area under cultivation is doubled, it is probable that next year&#39;s production of flax will bc more than double that of this year, because this year&#39;s crop- was light. A committee would no doubt be able to make recommendations which would enable flax production to be placed on an economic basis as a post-war industry. </para>
+          <para>Question put - </para>
+          <quote>
+            <para class="block"> That the  motion  be agreed to. </para>
+          </quote>
+        </speech>
+        <division>
+          <division.header>
+            <time.stamp />
+            <para>The Senate divided. (The President - Senator the Hon. J. Cunningham.) Ayes . . . . . . 18-</para>
+          </division.header>
+          <para>Federated Public Service Assistants&#39; </para>
+          <para>Association of Australia. </para>
+          <para>No. 10 of 1941 - Commowealth Public </para>
+          <para>Service Artisans&#39; Association. </para>
+          <para>No. 11 of 1941- Federated  Public </para>
+          <para>Service Assistants&#39; Association of </para>
+          <para>Australia. </para>
+          <para class="block">No. 12 of 11141 - Operative Stonemasons&#39; Society of Australia. Control of Naval Waters Act - Regulations - </para>
+          <para>Statutory Rules 1941, No. 145. </para>
+          <para>Customs Act - Proclamation prohibiting the exportation (except under certain condition*) of  Cotton .Waste (dated 25th June. 1941). Regulations - Statutory Rules 1941, No. 130. </para>
+          <para class="block">Defence Act - Regulations - Statutory Rules  1941, No. ISO. </para>
+          <para>Income Tax Assessment Act - Regulations - </para>
+          <para>Statutory Rules 1941, No. 120. National Security Act - Regulations - Statutory Rules 1041, Nos. 138, 139, 140. Naval Defence Act - Regulations- ^Statutory </para>
+          <para>Rules 1941, No. 144. Northern Territory Acceptance Act and Northern Territory (Administration) Act- </para>
+          <para>Ordinance No. 10 of 1941 - Licensing  (No. 2). Regulations - 1941 - </para>
+          <para>No. 4 (Lottery and Gaming&#39; Ordinance ) . </para>
+          <para>No. 0 (Motor Vehicles Ordinance). Senate adjourned at 5.25 p.m. </para>
+          <division.data>
+            <ayes>
+              <num.votes>0</num.votes>
+              <title>AYES</title>
+            </ayes>
+            <noes>
+              <num.votes>16</num.votes>
+              <title>NOES</title>
+            </noes>
+          </division.data>
+          <para class="block">Majority </para>
+          <para class="block">
+            <graphic href="167332194107013_15_1_3_P.jpg" />
+          </para>
+          <para>AYES</para>
+          <para class="block">
+            <graphic href="167332194107013_15_1_1_A.jpg" />
+          </para>
+          <para>NOES</para>
+          <para class="block">
+            <graphic href="167332194107013_15_1_2_N.jpg" />
+          </para>
+          <division.result>
+            <para class="block">Question so resolved in -the negative. </para>
+          </division.result>
+        </division>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>579</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para class="block">The following papers were presented : - </para>
+      <quote>
+        <para>Air Force Act - Regulations - Statutory </para>
+        <para>Rules. 1941, No. 137. </para>
+        <para>Arbitration (Public Service) Act - Determinations hy .the Arbitrator, &#38;c. - No. 9 of 1941 - Amalgamated Postal Workers&#39; Union of Australia;, and </para>
+      </quote>
+    </debate>
+  </chamber.xscript>
+</hansard>

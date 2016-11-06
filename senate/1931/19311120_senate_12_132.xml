@@ -1,251 +1,2832 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1931-11-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1931-11-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1931-11-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1931-11-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1931-11-20%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1931-11-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1931-11-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1931-11-20/19311120_senate_12_132.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1931-11-20</date>
+    <parliament.no>12</parliament.no>
+    <session.no>1</session.no>
+    <period.no>5</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>1813</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1931-11-20</day.start>
+      <para>The <inline font-weight="bold">President (Senator the Hon. W. Kingsmill)</inline> took the chair at 11 a.m., and rend prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1813</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PARLIAMENTARY LANGUAGE</title>
+          <page.no>1813</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1813</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>- I ask you, <inline font-weight="bold">Mr. President,</inline> whether your attention has been culled to a cabled report published in the Sydney <inline font-style="italic">Sun</inline> and <inline font-style="italic">Canberra Times</inline> yesterday, of a debate in the House of Commons on the proposed Imperial Economic Conference, in the course of which, <inline font-weight="bold">Mr. Boyce,</inline> Conservative M.P., stated that the dominions were of opinion that the conference was being delayed to give <inline font-weight="bold">Mr. Thomas</inline> a &#34;buckshee&#34; trip round the Empire? Will you, sir, in form the Senate whether the word &#34; buckshee &#34; is a parliamentary word, and whether its use would be permissible in this chamber? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1813</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>-I have not read the report, but I am of opinion, without prejudice, that &#34; buckshee &#34; is not a word which should be used in parliamentary debate in this chamber. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1813</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>MEDICAL AIR SERVICE IN QUEENSLAND</title>
+          <page.no>1813</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1813</page.no>
+              <time.stamp />
+              <name.id>JVF</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister assisting the Minister for Works and Railways</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DOOLEY, John</name>
+              <name role="display">Senator DOOLEY</name>
+            </talker>
+            <para>- Yesterday <inline font-weight="bold">Senator Cooper</inline> asked the following questions, <inline font-style="italic">upon notice :  -</inline> 1.Isitafact that the sum of approximately &#163;600 has been deducted from the subsidy granted for carrying on the services of the &#34; Flying Doctor &#34; in North-Western Queensland? </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="2.">
+              <para>If so, will the Government consider the cancellation of the visit of the Controller of Civil Aviation to London, and make available the sum of &#163;300 involved, to help curry on the necessary work of the &#34; FlyingDoctor &#34; in North-Western Queensland&#39;? </para>
+            </item>
+          </list>
+          <para>I am now able to furnish the following replies : - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>An agreement under which the Commonwealth defrayed, by means of a subsidy to Queensland and Northern Territory Aerial Services Limited, a proportion of the flying costs of the Australian Inland Mission&#39;s &#34; Flying Doctor &#34; Service was in force from the 17th May, 1928, to the 16th September, 1930. The agreement was not renewed owing to . the necessity for effecting a reduction in the vote for civil aviation subsidies. It is understood that the mission&#39;s own resources, augmented by special donations, have enabled it to continue its charter arrangement with Qantas Aviation Company. 2.No. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1813</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>UNEMPLOYMENT RELIEF WORKS</title>
+          <page.no>1813</page.no>
+        </subdebateinfo>
+        <para>Alleged Statement by <inline font-weight="bold">Mr. Theodore.</inline></para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1813</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>asked the Leader of the Government in the Senate, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Hasany financial agreement been entered into at any meeting of the Federal Cabinet, between the Honorable E. G. Theodore, Federal Treasurer, on the one hand, and the Commonwealth Bank Board on the other, for the purpose of making credits available to the extent of &#163;5,000,000 for public and other works throughout Australia? </para>
+            </item>
+            <item label="2.">
+              <para>If no such agreement has been made, will the Federal Cabinet, including the three Ministers in the Senate, viz., Senators Barnes, Dooley and Daly, protest against the reported statement of the Honorable E. G. Theodore, at the recent Federal Labour Conference, held in the Y.M.C.A. Hall, in Sydney, that an unemployment relief scheme will be immediately launched involving the expenditure of millions of pounds? </para>
+            </item>
+            <item label="3.">
+              <para>Will the Government take steps to disavow publicly any connexion with, or responsibility for, such statements? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1814</page.no>
+              <time.stamp />
+              <name.id>K1L</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>ALP</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARNES, John</name>
+              <name role="display">Senator BARNES</name>
+            </talker>
+            <para>- The honorable senator&#39;s information is inaccurate. The Federal Treasurer made no such statement as that attributed to him in question 2. The Treasurer did not address the conference on the resolution relating to the advisability of inaugurating a programme of public works. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1814</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>NEW GUARD</title>
+          <page.no>1814</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1814</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>asked the Minister representing the Attorney-General, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Has his attention been drawn to reports appearing in Sydney newspapers that the executive of a semi-military organization is negotiating with Sydney clothing manufacturers for the purchase of uniforms for members of the New Guard? </para>
+            </item>
+            <item label="2.">
+              <para>Is it the intention of the Government, in the interests of law and order, to put a stop to anything that would lead to the formation of a semi-military organization? </para>
+            </item>
+            <item label="3.">
+              <para>Will the Attorney-General issue instructions to his departmental officials to set up the necessary Federal machinery for the purpose of having a searchmade of thehomes or business places or properties of members of the New Guard, with a view of ascertaining whether firearms or any other weapons that may be used in conflict between citizen and citizen are stored therein; and, if so, will the Attorney-General instruct his departmental officials to enter those premises for the purpose of destroying or confiscating such warlike material as may be found therein? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1814</page.no>
+              <time.stamp />
+              <name.id>K1L</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARNES, John</name>
+              <name role="display">Senator BARNES</name>
+            </talker>
+            <para>- The answers to the honorable senator&#39;s questions are: - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>No such reports  have  been  brought under  my notice. </para>
+            </item>
+            <item label="2.">
+              <para>The Government intends to execute and maintain the laws of the Commonwealth. </para>
+            </item>
+            <item label="3.">
+              <para>No. I have no reason to believe that the State authorities are unable to police the laws of the State relating to the possession of firearms. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1814</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>EMIGRATION</title>
+          <page.no>1814</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1814</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator LYNCH</name>
+            </talker>
+            <para>asked the Leader of the Government in the Senate, upon <inline font-style="italic">notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Whether, in view of the continued increase in the exodus of Australians from Australia, as disclosed by the official figures, the Government will consider the advisability of creating an emigration department to see that there is no overcrowding, and that the emigrants get fair treatment on their farewell voyage to the foreign lands of their enforced adoption? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1814</page.no>
+              <time.stamp />
+              <name.id>K1L</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARNES, John</name>
+              <name role="display">Senator BARNES</name>
+            </talker>
+            <para>- It is not considered that action on the lines suggested by the honorable senator is necessary. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>CUSTOMS TARIFF</title>
+        <page.no>1814</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>
+        <inline font-style="italic">In committee:</inline>Consideration resumed from the 19th November <inline font-style="italic">(vide</inline> page 1797). </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Division I. - Ales, Spirits and Beverages</title>
+          <page.no>1814</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Item 3-</title>
+          <page.no>1814</page.no>
+        </subdebateinfo>
+        <quote>
+          <para>By omitting the whole of sub-item (b) and inserting in its stead the following subitem : -  &#34; (b)  Whisky, including liqueur whisky - </para>
+          <list type="decimal">
+            <item label="(1)">
+              <para>When not exceeding the strength of proof - </para>
+              <list type="loweralpha">
+                <item label="(a)">
+                  <para>If bottled in the Commonwealth under customs supervision subject to such conditions as to the bottling and as to the strength of the spirits as are prescribed by departmental by-laws, per gallon - British, 45s. ; intermediate, 47s.; general, 48s. </para>
+                </item>
+                <item label="(b)">
+                  <para>If not bottled in the Commonwealth under customs supervision, per gallon - British, 50s.; intermediate, 52s.; general, 53s, </para>
+                </item>
+              </list>
+            </item>
+            <item label="(2)">
+              <para>When exceeding the strengthof proof - </para>
+              <list type="loweralpha">
+                <item label="(a)">
+                  <para>If bottled in the Commonwealth . under customs supervision subject to such conditions as to the. bottling and as to  the  strength of the  spirits  as are prescribed by departmental by-laws, per proof gallon- British, 45s.; intermediate, 47s. ; general, 48s. </para>
+                </item>
+                <item label="(b)">
+                  <para>If not bottled in the Commonwealth under customs supervision, per  proof  gallon- British, 50s. ; intermediate, 52s. ; general, 53b.&#34; </para>
+                </item>
+              </list>
+            </item>
+          </list>
+        </quote>
+        <para>SenatorE. B. JOHNSTON (Western Australia) &#91;11.9&#93;. - I move - </para>
+        <quote>
+          <para>That the House of Representatives be requested to make the duties, sub-item  b,  paragraph ( 1 ) ( <inline font-style="italic">b ) ,</inline> British, 42s. 6d. ; intermediate, 44s. 6d. ; general, 48b. 6d. </para>
+        </quote>
+        <para class="block">Although the committee was evenly divided yesterday regarding the imposition of a special duty on whisky bottled out of bond, the Minister in charge of the bill did not say why the extra impost was fixed at 5s. Ap-  patently that amount was arbitrarily decided by the Minister for Trade and Customs; it certainly -was not recommended by the Tariff Board. The effect of my amendment is to reduce the charge to 2s. 6d. I point out the inconsistency of the Government in regard to bottling in bond. &#34;Whisky is used largely as a beverage, but brandy has a definite medicinal value, and is used in cases of sudden illness, and in every hospital. Yet the Government does not endeavour to compel the bottling of brandy in bond ; apparently it is not necessary to protect the sick in the way in which the Government considers it necessary to protect the whisky consumers. However, bottling in bond does not give any guarantee of the age or purity of whisky. An immature fiery whisky, if bottled in bond, is not subject to any penal duty, but mature, high quality whisky, if taken out of bond in the wood, is subject to an extra impost of 5s. a gallon. If the Government had been really desirous of protecting the interests of the consumers it would not have made bottling in bond the standard at all. It would have provided that whisky which had been matured for five years would be admitted at a lower duty than immature spirit. It has been admitted that, under the present arrangement, a good deal of whisky which receives the benefit of this rebate of 5s. a gallon, is afterwards poured back into casks for sale. I believe, therefore, that the charge of half-a-crown a gallon would be more than sufficient. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1815</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>.- If honorable senators agree to this request they will stultify themselves, in view of the decision already arrived at. The Senate has accepted the principle that some concession should be granted to those importers who set up their own bond, and do their own bottling under customs supervision, but a concession of 2s. 6d. a gallon is worth nothing at all. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1815</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator Daly</name>
+              </talker>
+              <para>-  This proposed alteration would increase the inducement to pour the whisky back into casks after bottling. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1815</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- Yes; and the importation  of inferior spirit would be encouraged. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1815</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator LYNCH</name>
+            </talker>
+            <para>. - The purpose of the Government, I take it, is to get as much revenue as possible from the liquor trade. <inline font-weight="bold">Senator Johnston&#39;s</inline> proposal, if accepted, would reduce the amount of revenue which the Government obtains. Every honorable senator must decide for himself whether he is justified in supporting such a proposal. I believe that the liquor trade should be called upon to pay as much to the Government in the way of revenue as can be obtained, consistent with allowing the business to remain solvent. The Government has at its disposal expert and competent officers, who have advised it as to the most suitable rate of duty to impose, and the Government is justified in accepting the recommendations of its officers. The Government is responsible for raising revenue, and may be trusted to act in such a way as to get as much revenue as possible. </para>
+          </talk.start>
+          <para>As I have pointed out before, this rebate of 5s. a gallon encourages the bottling of whisky in bond under customs supervision, thus ensuring that the consumer gets a better article. In the more, distant parts of the country inspection of liquor cannot be carried out so frequently nor so thoroughly as in the city, and for the benefit of the outback consumer we should encourage the bottling of whisky under proper supervision. We know that in places&#39; far removed from the centres of population it is quite common for one man to say to another, &#34; Come on down to So-and-So&#39;s, where we can get a better drink&#34;. I ask <inline font-weight="bold">Senator McLachlan</inline> whether that is not so. At the place in which better drink is sold, the liquor in the bottles is true to label. We should do our part to ensure that the liquor sold to the public is up to standard. We have here an opportunity to effect a much needed reform, but some honorable senators, with conservative minds, tend to hang back. They are in a rut, and will not move until prodded out of it. The health conference to which reference has been made was convened primarily for the purpose of conserving the health of the people. <inline font-weight="bold">Senator McLachlan</inline> himself convened the conference, and presided over it. That conference affirmed the advisability of having whisky bottled under proper supervision. Those of us who wish to prevent poison being sold to the public are endeavouring to give effect to the findings of the health conference. </para>
+          <para>The <inline font-weight="bold">CHAIRMAN (Senator Plain).May</inline> I point out to the honorable senator that the principle which he is discussing has already been fully debated. The committee is now concerned only with the amount of the duty. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1816</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator LYNCH</name>
+              </talker>
+              <para>- Half-a-crown will not pay for bottling. If nothing is done to protect the public the old, shady method of conducting drinking places will continue in the back-blocks, and this may be largely attributed to the refusal of <inline font-weight="bold">Senator McLachlan,</inline> and others -like him, to move out of the rut of conservatism. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1816</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George PEARCE</name>
+              </talker>
+              <para>-  I draw your attention, <inline font-weight="bold">Mr. Chairman,</inline> to the fact that when <inline font-weight="bold">Senator Foll</inline> sought to discuss the subject of bottling in bond just now you prevented him ; yet <inline font-weight="bold">Senator Lynch</inline> is doing the same thing. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1816</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CHAIRMAN, The</name>
+              <name role="display">The CHAIRMAN</name>
+            </talker>
+            <para>- I have already asked <inline font-weight="bold">Senator Lynch</inline> to confine his remarks to the amount of the duty. </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1816</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator LYNCH</name>
+              </talker>
+              <para>- We have an opportunity here to do something to ensure that better liquor is sold to consumers. .If the old, negative attitude is persisted in, no reform can be brought about. Canada has already accepted this principle. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1816</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CHAIRMAN, The</name>
+                <name role="display">The CHAIRMAN</name>
+              </talker>
+              <para>- I- ask the honorable senator to confine his remarks to discussing the amount of the duty. The principle of bottling in bond has already been threshed out. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1816</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator LYNCH</name>
+              </talker>
+              <para>- I could, of course, go on discussing the difference between half-a-crown and five shillings, or the difference between 30 pence and 60 pence, and could carry on in that strain almost indefinitely. I could point out that 30 pence is half of 60 pence, that 60 pence is twice 30 pence, and that twice the half of 60 pence is 60 pence, and that four times the quarter of 30 pence is 30 pence, and so on, but that would not satisfy the people. It would not help those in the bush who want to get pure drink. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1816</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CHAIRMAN, The</name>
+                <name role="display">The CHAIRMAN</name>
+              </talker>
+              <para>- Does the honorable senator disagree with my ruling? </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1816</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator LYNCH</name>
+              </talker>
+              <para>- No ; but I point out that half-a-crown is insufficient to pay for the cost of bottling. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1816</page.no>
+                <time.stamp />
+                <name.id>JXZ</name.id>
+                <electorate>NEW SOUTH WALES</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN, Walter</name>
+                <name role="display">Senator DUNCAN</name>
+              </talker>
+              <para>-  That is the whole argument. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1816</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator LYNCH</name>
+              </talker>
+              <para>- A good argument cannot.be pressed home too often. The proposal is to reduce the extra duty on spirits not bottled in bond from 5s. to 2s. 6d. per gallon. We might as well remove the duty altogether as do that, for in either case the people in the back country, in whose interests I am acting, would be left without any protection whatever. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1816</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator MCLACHLAN</name>
+            </talker>
+            <para>. - It would be better if there were no differentiation at all between spirit bottled in bond and that which is not bottled in bond. The reasons which I gave on another occasion hold good also in this instance. The additional imposition on spirits not bottled in bond strikes at the very people whom <inline font-weight="bold">Senator Lynch</inline> wishes to protect. Those traders who are prepared to import -whisky in competition with the combine, which practically controls the whisky trade of Australia, should be encouraged to do so. The honorable senator referred to the Health Congress. It is true that the health authorities have, from time to time, made recommendations, but the governments of Australia have realized that they could not give effect to them because of constitutional difficulties, lt is idle for honorable senators to try to salve their consciences in respect of the vote that they have given by saying that they voted to maintain the purity of the spirits. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1816</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator Lynch</name>
+              </talker>
+              <para>-  Then the Health Congress was futile? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1816</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator MCLACHLAN</name>
+              </talker>
+              <para>- It could do nothing because section 113 of the Constitution prevents the Commonwealth from interfering once the bottle has been taken from the bonded store. All that the Commonwealth can do is to levy an additional charge on spirit bottled out of bond, in order to encourage traders to bottle their whisky in bond. Those-of us who are opposed, to the higher duty altogether believe that &#34;half a loaf is better than no bread &#34;. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1816</page.no>
+                <time.stamp />
+                <name.id>JXZ</name.id>
+                <electorate>NEW SOUTH WALES</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN, Walter</name>
+                <name role="display">Senator DUNCAN</name>
+              </talker>
+              <para>-  The honorable senator is concerned because a South Australian industry is affected. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1816</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLACHLAN</name>
+              </talker>
+              <para>- Were the position otherwise, and a New South Wales industry affected, <inline font-weight="bold">Senator Duncan</inline> would not hesitate to vote to protect it. One South Australian producer of whisky in bulk, who is supplying whisky to New South Wales and Victoria, will practically have to close his premises if the Government&#39;s proposal is accepted. &#34; What is sauce for the goose is sauce for the gander &#34;. The proposal of the Government means that the South Australian industry to which I have referred will be put to the expense of an extra 5s. per gallon in respect of its whisky. South Australia will be hard hit by this proposal, since a number of hotelkeepers in large centres, such as <inline font-weight="bold">Mr Gambier</inline> and Port Pirie, bottle their own spirits. Notwithstanding that, by its vote last night the Senate showed that it was not in favour of the abolition of this additional duty, I feel that it should consider the claims of those people who are endeavouring to build up a clean trade, particularly when it can do so little to ensure the purity of the spirit offered to the public. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1817</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator Lynch</name>
+              </talker>
+              <para>-  Why do Penfolds and Seppelts want the duty? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1817</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLACHLAN</name>
+              </talker>
+              <para>- Penfolds are agents for one brand of whisky belonging to the combine. The honorable senator&#39;s interjection shows how little he knows about the matter. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1817</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate>QUEENSLAND</electorate>
+                <party>NAT; UAP from 1931</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>-  Milne&#39;s are agents for De war&#39;s whisky. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1817</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLACHLAN</name>
+              </talker>
+              <para>- They are agents for a concern which is manufacturing whisky for sale throughout the world. Milne&#39;s do not want the additional duty, although they supply the biggest distributors in South Australia. I repeat that it is useless to say that, by voting for the Government&#39;s proposal, we are protecting the standard of whisky, when, in effect, we can do nothing to ensure the purity of thespirit which is offered to the public. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1817</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator Lynch</name>
+              </talker>
+              <para>-  What about the recommendations of the Health Congress? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1817</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLACHLAN</name>
+              </talker>
+              <para>- I should like to repeat for, perhaps, the fiftieth time, my argument relating to the health congress. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1817</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CHAIRMAN, The</name>
+                <name role="display">The CHAIRMAN</name>
+              </talker>
+              <para>- The honorable senator must confine his remarks to the subject before the Chair. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1817</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLACHLAN</name>
+              </talker>
+              <para>- Section 113 of the Constitution makes it clear that the Commonwealth is impotent to control the purity of the spirit  once  it  has  left the bonded store. In justice to  a  clean body of traders, who desire only that they shall be treated fairly- </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1817</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator Lynch</name>
+              </talker>
+              <para>-  Are the others unclean ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1817</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLACHLAN</name>
+              </talker>
+              <para>-  I have not said  so.  Thereis, however, nothing to justify the honorable senator&#39;s remarks about the poor quality of the spirits which certain traders have been importingin bulk. The honorable senator said that in some houses&#39; good spirit was obtainable, and he suggested that in other places the position was different. I repeat that the spirits brought in by the people to whom I have referred are equal to any other imported spirit. At Parliament House, Adelaide, bulk whisky, which is imported by a publican who lives 300 miles from Adelaide, has been obtainable for a number of years, and is of such quality that it has been able to hold its own against the whisky imported by the combine. At one time it was one  of   the most popular whiskies in South. Australia. Why should the man who imports it be penalized? </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1817</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator Foll</name>
+              </talker>
+              <para>-It could be bottled in bond. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1817</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLACHLAN</name>
+              </talker>
+              <para>- Yes ; but why should the consumer in Port Pirie, Broken Hill, or elsewhere, have to  pay  rail carriage on water, bottles and cases, when the whisky is better if left in the  wood ? </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1817</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator Lynch</name>
+              </talker>
+              <para>-  Methylated spirits is to be preferred to some of the whisky that is offered for sale in Australia. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1817</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLACHLAN</name>
+              </talker>
+              <para>- The honorable senator&#39;s proposal will not prevent methylated spirits from being offered to the public. My proposal is not a reversal of the principle which has been accepted by the Senate. It simply means that, while the Senate approves the principle of bottling in bond, it is prepared to make the additional duty on spirit not bottled in bond 2s. 6d. a gallon, instead of 5s., thereby giving those people who prefer to bottle whisky out of bond a chance to continue the trade which they have established, with beneficial results to Australia, particularly South Australia. </para>
+            </talk.start>
+          </continue>
+          <para>
+            <inline font-weight="bold">Senator Sir</inline>GEORGE PEARCE  (Western Australia) &#91;11.43&#93;.  -  When the question came up in this form I expected the </para>
+          <para class="block">Minister to say why the Government proposed a duty of 5s. a gallon. We are not now concerned with the bottling of spirit in bond, since the Senate has decided to make a differentiation between whisky bottled in bond and whisky not bottled in bond. We have to decide whether a differentiation of 5s. a gallon is justified. <inline font-weight="bold">Senator Lynch</inline> gave no reason. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1818</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator Lynch</name>
+              </talker>
+              <para>- I did. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1818</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- Neither <inline font-weight="bold">Senator Lynch</inline> nor <inline font-weight="bold">Senator Poll</inline> gave any reason why the additional duty should be 5s. a gallon, although it is true that <inline font-weight="bold">Senator Lynch</inline> said that reports had been furnished by responsible officers. I should like to know who those officers are. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1818</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator Lynch</name>
+              </talker>
+              <para>- There may be officers in the big centres of population, but not in the outback places. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1818</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- It would be interesting to know the name of the responsible officer who recommended the imposition of an additional duty of 5s. a gallon on whisky bottled out of bond. If a report has been received, why are not copies of it available to honorable senators? Surely that they be supplied is a reasonable request? In the absence of any reliable information, it is impossible for me to say whether a duty of this nature should be imposed, and whether the rate should be 5s. or 10s. Why has the amount been fixed at 5s. ? Why this secrecy? <inline font-weight="bold">Senator Lynch,</inline> apparently, knows that a report of some kind has been submitted by some responsible authority. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1818</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator Daly</name>
+              </talker>
+              <para>- <inline font-weight="bold">Senator Lynch</inline> was repeating a statement I made. </para>
+            </talk.start>
+          </interjection>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.If such a report has been submitted,we should be allowed to peruse it. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1818</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B Johnston</name>
+              </talker>
+              <para>- Who supplied the report? </para>
+            </talk.start>
+          </interjection>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.That is what I want to know, and on what evidence it was based. Was information obtained only from the whisky combine, or was any opinion sought from those whose business it is to dispose of whisky in bulk? </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1818</page.no>
+                <time.stamp />
+                <name.id>K3L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SAMPSON, Burford</name>
+                <name role="display">Senator Sampson</name>
+              </talker>
+              <para>- The whisky combine also disposes of hulk supplies. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1818</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- <inline font-weight="bold">Senator Sampson</inline> has always asked that we should be furnished with the reports of the Tariff Board on all items carrying higher duties, and on that point I agree with him; but why does he not do so in this instance? We have not been supplied with a report from the Tariff Board on this subject. Had the matter been referred to that body, sworn evidence would have been heard in public from both sides. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1818</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B Johnston</name>
+              </talker>
+              <para>- And we might have known why this imposition does not apply to brandy. </para>
+            </talk.start>
+          </interjection>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.Yes. I do not know why we should be asked to support this differential duty in the absence of any report from the Tariff Board. If a request has been received only from the whisky combine, we should be so informed. Those engaged in the bulk business should have had the right to put their case. It appears that the whisky combine has been permitted to write its own ticket. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1818</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator Lynch</name>
+              </talker>
+              <para>- The other eveningI stated that there were fifteen firms in New South Wales engaged in the bottling trade, and I suppose there is a similar number in each of the other States. </para>
+            </talk.start>
+          </interjection>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.The imposition of this duty will further entrench a monopoly, without reasons being given for such preferential treatment. I ask the Assistant Minister whether those opposed to bottling in bond have had an opportunity to submit their case. Apparently, we have to make up our minds in this matter in the absence of information which should be available. If that information is not forthcoming, we are entitled to make the rate as low as possible, and I, therefore, intend to support the request moved by <inline font-weight="bold">Senator E.</inline> B. Johnston. I am not prepared to support the Government if evidence has been received from one side only. Apparently, some honorable senators will demand reports from the Tariff Board on some items but not on others. Every interest should have an opportunity to submit its case. Why should we not have a report on this item when reports are demanded with respect to foodstuffs, machinery, and textiles? It is the responsibility of the Assistant Minister to supply the committee with the information sought. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1819</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>South Australia</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>. - <inline font-weight="bold">Senator Lynch</inline> based his statement that a report had been issued on a pronouncement I made the other evening in reply to an interjection. I thought at that time, that the committee was discussing, not only the principle, but also the amount of duty. During the discussion, I informed the committee that, acting among other things upon a report submitted by a conference of health authorities of the various States convened by the previous Administration, the Government decided to give the States the maximum amount of assistance in order to ensure the purity of liquor supplied to the public and to afford the maximum amount of protection to those, engaged in the bottling industry who had made representations to the Government. In the matter of purity, neither the manufacturers, nor the hotelkeepers could give the Government any assistance. The hotelkeepers could not speak on behalf of those engaged in the bottling industry. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1819</page.no>
+                <time.stamp />
+                <name.id>KPQ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">KINGSMILL, Walter</name>
+                <name role="display">Senator Kingsmill</name>
+              </talker>
+              <para>-  The Tariff Board is always available. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1819</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- Of the 1,113 items in the tariff, approximately 200 have been inquired into by the Tariff Board, but duties were imposed on about 900 items by the previous Government without reference to that body. The principle having been adopted, the Minister conferred with the responsible officers of the Customs Department as to the minimum amount of protection that might be afforded. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1819</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>-  Are their reports available? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1819</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- The Leader of the Opposition <inline font-weight="bold">(Senator Pearce)</inline> has had sufficient ministerial experience to know that in tariff matters the Minister confers with the departmental heads from time to time, and that reports of their deliberations are not issued. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1819</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>-  A report from a departmental officer was submitted in connexion with a proposed change in the excise on wine. Why has not a report been presented in this case? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1819</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- There is nothing in that report to show what the amount of duty should be. There was no public inquiry as to the duty on whisky bottled out of bond. The principle was adopted after full consideration of the report referred to by <inline font-weight="bold">Senator Lynch,</inline> and of the representations made by those engaged in the bottling industry. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1819</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>-  Did the Minister for Customs make inquiries from the various interests concerned? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1819</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- I do not think so. The principle will practically be discarded if the suggested reduction is agreed to. According to the departmental officers, a duty of 2s. 6d. in lieu of the present 5s. will be of little effect. I trust that the committee will reject the request. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1819</page.no>
+              <time.stamp />
+              <name.id>KN7</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GUTHRIE, James</name>
+              <name role="display">Senator GUTHRIE</name>
+            </talker>
+            <para>. - When discussing this subject the other evening I explained that the distillers in Victoria who have spent large sums of money on their plants are in favour of  a  duty of 5s. on whisky bottled out of bond. These distillers include those conducting one of the largest distilleries in the world. They are producing an excellent gin at a reasonable price, equal, I understand, to that distilled in any part of the world; and it is expected that their whisky, when matured, will also be high class. Importing and distributing firms, with nearly a hundred years of splendid reputation, are in favour of whisky being bottled in bond under customs supervision, as also are the members of the Licensed Victuallers Association in Victoria. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1819</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>-  Do they consider 5s. a fair rate? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1819</page.no>
+                <time.stamp />
+                <name.id>KN7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GUTHRIE, James</name>
+                <name role="display">Senator GUTHRIE</name>
+              </talker>
+              <para>- They contend that such a rate is necessary.  All  branches of the industry, including the distillers and the Licensed Victuallers Association in Victoria, are in agreement. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1819</page.no>
+                <time.stamp />
+                <name.id>K8P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">THOMPSON, William</name>
+                <name role="display">Senator Thompson</name>
+              </talker>
+              <para>-  I have received  a  telegram from licensed victuallers in Victoria expressing the contrary opinion. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1819</page.no>
+                <time.stamp />
+                <name.id>KN7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GUTHRIE, James</name>
+                <name role="display">Senator GUTHRIE</name>
+              </talker>
+              <para>- That protest would be from a section; but the Victorians have broken away from the federal body. The honorable senator&#39;s views on Queensland sugar, rum and whisky may be sound, but he does not know the views of the Victorian section. I am reliably informed that the licensed victuallers in Victoria are in agreement. Therefore, I do not intend to reverse the vote which I gave yesterday. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1820</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator LYNCH</name>
+            </talker>
+            <para>. - The report of the health conference convened in May, 1927, by <inline font-weight="bold">Senator McLachlan,</inline> when he was Minister for Health, has been placed in my hands. I propose to quote some of its resolutions. </para>
+          </talk.start>
+          <para>The <inline font-weight="bold">CHAIRMAN (Senator Plain).The</inline> honorable senator would be out of order in doing so. He must confine his remarks to the item before the committee. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1820</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- Did that conference recommend a difference of 5s. per gallon in favour of whisky bottled under Commonwealth supervision? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1820</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator LYNCH</name>
+              </talker>
+              <para>- No; but it had something to say about bottling in bond. Since the representatives at that conference were advised by an officer of the Crown Law Department specially provided for that purpose, it seems strange that Senators McLachlan and Colebatch should now say that the conference mentioned knew nothing about the law relating to this subject. The first resolution affirmed that every State should be at liberty to determine for itself whether preservatives should be allowed. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1820</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CHAIRMAN, The</name>
+                <name role="display">The CHAIRMAN</name>
+              </talker>
+              <para>- The honorable senator must confine his remarks to the item. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1820</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator LYNCH</name>
+              </talker>
+              <para>- &#34;Very well, <inline font-weight="bold">Mr. Chairman,</inline> I shall have no more to say, but I should like to be allowed to mention the names of the sixteen bottling establishments in New South Wales. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1820</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CHAIRMAN, The</name>
+                <name role="display">The CHAIRMAN</name>
+              </talker>
+              <para>- The honorable senator would be out of order. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1820</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator KINGSMILL</name>
+            </talker>
+            <para>. - The discussion of the question whether the difference between the rate of duty on whisky bottled under customs supervision and that on whisky not so bottled, shall be 5s., or 2s. 6d. per gallon, is another illustration of the utter futility of delay in the consideration of the tariff. The schedule relating to these duties on whisky was laid on the table in another place so long ago that nearly every one concerned has forgotten who recommended the differentiation. The same criticism may be directed to a great number .of other items in the schedule. The situation reminds me of a moving picture in which was shown a very old Indian mounted on an utterly decrepit pony, the explanatory caption reading: &#34; This Indian is so old that he remembers the time when butchers gave away livers &#34;. We might say something similar of these duties. Regarding the difference of opinion that is evident, there is an apposite proverb, &#34; Who shall decide when doctors disagree?&#34; In this case, the answer is obvious - the Tariff Board. As the principle appears to have been settled, for the time being at all events, the Government should ask the Tariff Board what, in its opinion, would be a fair differentiation between the respective duties. Whether the difference of 5s. was evolved out of the inner consciousness of the Minister for Customs or not, one cannot say, but even he cannot possess a better fortified opinion on the subject than any other member of the committee; we are all at liberty to express an opinion on the matter. No reason has been advanced why 5s. should be fixed as a proper extra charge on whisky not bottled under customs supervision. Naturally, those who, like myself, do not agree with the principle that has been adopted, consider that the difference in rate should be as little as possible. For that reason, I shall vote for the amendment. It would be far better if the Minister on this, and other matters, had a great deal more authority for his proposals than he appears to have. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1820</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>.- I believe in the principle of bottling under customs supervision ; but a margin in the duty of- 2s. 6d. a gallon is not sufficient. I agree with <inline font-weight="bold">Senator Kingsmill</inline> that this subject should be referred to the Tariff Board, and, if the Govern ment will allow this to bc done, I shall accept the recommendation of the board whatever it may be, even if, to do so, conflicts with votes which I have given previously upon these items. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1820</page.no>
+              <time.stamp />
+              <name.id>K8P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">THOMPSON, William</name>
+              <name role="display">Senator THOMPSON</name>
+            </talker>
+            <para>. - Since the opinion of the committee is equally divided, we might very well agree to compromise, and vote for the lower rate of 2s. 6d. per gallon. But, while I am prepared to do this, I think it is highly undesirable to have any distinction between the duties on bulk and bottled whisky. I agree, alao, that this is a matter which should be referred to the Tariff Board, and suggest that the committee adopt <inline font-weight="bold">Senator Johnston&#39;s</inline> re- quested amendment, on the understanding that the board be instructed to inquire into the subject. Bulk whisky should not be penalized, because it is better than bottled whisky. This morning I put on the notice-paper a question relating to the reduction in strength, and I feel sure that the answers to be supplied will convince honorable senators that whisky bottled under supervision is not always good quality spirit. If we allowed bulk whisky to be dealt with under the old conditions, and permitted the importing  houses, which bottled very good whisky out of bond in the past, to continue the practice, there would be much more satisfaction in the trade generally. I should like now to refer briefly to the report of the health conference which sat in Melbourne in 1927. </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1821</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CHAIRMAN, The</name>
+                <name role="display">The CHAIRMAN</name>
+              </talker>
+              <para>- The honorable senator will be out of order. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1821</page.no>
+                <time.stamp />
+                <name.id>K8P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">THOMPSON, William</name>
+                <name role="display">Senator THOMPSON</name>
+              </talker>
+              <para>- Surely I may reply to <inline font-weight="bold">Senator Guthrie&#39;s</inline> sneers about my State? There is nothing cheap about. Queensland, andVictoria reaps many benefits from Commonwealth legislation for the encouragement of the sugar industry in Queensland. I have received the following telegram :  - federal conference representing Licensed Victuallers Associations of Australia, now sitting in Melbourne, unanimously urge you to record your vote against the ratification of the special duty of 5s. per gallon on Australian and imported spirits bottled out of bond for reasons fully outlined in my letter of 29th April. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Ruddle, Federal President</title>
+          <page.no>1821</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Durham, Federal Secretary</title>
+          <page.no>1821</page.no>
+        </subdebateinfo>
+        <para>
+          <inline font-weight="bold">Senator Johnston&#39;s</inline>amendment should be adopted as a compromise, and, when we have a report from the Tariff Board upon these special duties, we should be guided by it. </para>
+        <para>Motion (by <inline font-weight="bold">Senator Hoare)</inline> agreed to- </para>
+        <quote>
+          <para>That the committee do now divide. </para>
+        </quote>
+        <division>
+          <division.header>
+            <time.stamp />
+            <para>Question - That the request (Senator E. B. Johnston&#39;s) be agreed to - put. The committee divided. (Chairman - Senator Plain.)</para>
+          </division.header>
+          <division.data>
+            <ayes>
+              <num.votes>18</num.votes>
+              <title>AYES</title>
+            </ayes>
+            <noes>
+              <num.votes>15</num.votes>
+              <title>NOES</title>
+            </noes>
+          </division.data>
+          <para>Majority . .  . . 2 </para>
+          <para class="block">
+            <graphic href="132332193111204_8_1_3_P.jpg" />
+          </para>
+          <para>AYES</para>
+          <para class="block">
+            <graphic href="132332193111204_8_1_1_A.jpg" />
+          </para>
+          <para>NOES</para>
+          <para class="block">
+            <graphic href="132332193111204_8_1_2_N.jpg" />
+          </para>
+          <division.result>
+            <para>Question so resolved in the negative. </para>
+          </division.result>
+          <para>Request negatived. </para>
+        </division>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1821</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party>NAT; UAP from 1931</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the House of Representatives be requested to make the duties, sub-item (b), paragraph (1) (b) - British,45s.; intermediate, 47s.; general, 51s. </para>
+          </quote>
+          <para class="block">The purpose of this request is to bring the rates of duty on whisky exceeding the strength of proof into harmony with those on whisky not exceeding the strength of proof, which the committee yesterday agreed to ask the House of Representatives to alter. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1821</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>South Australia</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>. - Obviously, if the request previously agreed to by the committee is acceded to by another place an anomaly will be created if the rate of duty which the honorable senator now seeks to have altered is allowed to stand. So long as it is understood that the Government does not agree to the proposed alteration, I do not intend to vote against any request to bring the rates into harmony. </para>
+          </talk.start>
+          <para>Request agreed to. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1821</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>. - My efforts to reduce the duty on overproof whisky not bottled in bond having failed, I propose now to bring the rates upon this whisky into harmony with those agreed to by the committee yesterday relating to whisky not exceeding the strength of proof. I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the House of Representatives berequested to make the duties, sub-item (b), paragraph (2) (a) - British, 40s.; intermediate, 42s.; general,46s. </para>
+          </quote>
+          <para>In view of yesterday&#39;s decision, I understand that the Government will accept the request. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1822</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator LYNCH</name>
+            </talker>
+            <para>. - I should like to know a little more about this request. If its acceptance means that we shall sacrifice further revenue, it does not meet with my approval, notwithstanding the fact that the Senate has already recorded a vote in favour of a similar request. Does the  figure  that was mentioned by <inline font-weight="bold">Senator Daly,</inline> cover the loss that will be sustained if this request is agreed to? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1822</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>South Australia</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>. - This item was covered by the amount that I mentioned to the Senate. In view of the fact that the Senate arrived at a certain request in connexion with another item after a full debate, I do not propose to reopen the matter or to ask that a vote be taken on this item. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1822</page.no>
+              <time.stamp />
+              <name.id>JRW</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRAWFORD, Thomas</name>
+              <name role="display">Senator CRAWFORD</name>
+            </talker>
+            <para>. - Yesterday I gave a silent vote against any reduction of similar duties, and I intend to vote against this request. In view of the financial position of the Commonwealth, we cannot afford to sacrifice any further revenue. Australia is practically a bankrupt country.&#39; Only recently it was unable to meet its obligations in connexion with its internal indebtedness. We are told by the Minister in charge of the bill that the proposed reduction of duties on spirits will amount to some &#163;100,000, even while the existing condition of rationing is maintained. I know that not even the rationed amount of spirit has been imported, as those in the trade cleared huge quantities of spirits from bond just before these duties came into operation. Consequently, our importations have been negligible, and our customs revenue has suffered accordingly. I am aware that the schedule has been in operation for two years, but ever since those huge withdrawals were made from bond the effect on our customs and excise revenue has been most noticeable. We cannot afford to lose such a large sum of . money, and, in the circumstances, I intend to vote against this request. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1822</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator LYNCH</name>
+            </talker>
+            <para>. - I am of the opinion that if this revenue of &#163;100,000 is not extracted from the sale of spirits, it will be necessary to draw it from another source. The reverend  signiors  on the front Opposition bench have raised the cry, &#34;monopoly.&#34; I see clearly that there is no monopoly in this instance. Even if there were, this is the kind of traffic that should pay the maximum penalty. The elders on the front Opposition bench stampeded the timorous, and caused them to vote for a request to reduce similar duties on another item. I appeal to honorable senators, who are makers of their opinions, not to be led away on this occasion by those who are the unconscious aiders and abettors of the  moonshining  industry in Australia. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1822</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate>Victoria</electorate>
+              <party>ALP</party>
+              <role>Attorney-General</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator BRENNAN</name>
+            </talker>
+            <para>. - I do not wish to be placed in a false position by the observations of <inline font-weight="bold">Senator Crawford</inline> and <inline font-weight="bold">Senator Lynch.</inline> I do not want it to be said that I voted to relieve the whisky interests of taxation, with the result that additional burdens had to be placed on more deserving activities. My vote is in accord with the views that were put forward by <inline font-weight="bold">Senator McLachlan</inline> and other honorable senators, that a limit can be reached, after which the imposition of taxation does not produce the desired result. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1822</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator Lynch</name>
+              </talker>
+              <para>- Upon that there is a difference of opinion. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1822</page.no>
+                <time.stamp />
+                <name.id>K2Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BRENNAN, Thomas</name>
+                <name role="display">Senator BRENNAN</name>
+              </talker>
+              <para>- There is, and I am entitled to hold my opinion, just as much as <inline font-weight="bold">Senator Lynch</inline> is his. I believe that by raising these duties too high, we shall deprive ourselves of revenue, and necessitate the imposition of taxation on those very deserving industries which <inline font-weight="bold">Senator Lynch</inline> is so anxious to save. The honorable senator&#39; loudly proclaims that revenue is the cry. A few moments ago it was health, and a little later, a member of the Government stated that the provision of work was the cry. Whichever seems to be the most powerful argument for the moment is used, whether consistent or not with that previously employed. I shall vote, not to relieve the wine and spirit industry of this taxation, but in the hope that by the means proposed we shall get more out of the industry than would otherwise be the case. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1822</page.no>
+              <time.stamp />
+              <name.id>K8P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">THOMPSON, William</name>
+              <name role="display">Senator THOMPSON</name>
+            </talker>
+            <para>. - I rise to point out the absurdity of honorable senators voting contrary to a  decision that they have already recorded. The wording in connexion with one item reads: &#34;when not exceeding the strength of proof, per gallon,&#34; while that of the other is &#34; when exceeding the strength of proof, per gallon.&#34; Those duties must be made consistent, otherwise we shall be the laughing stock of the community. </para>
+          </talk.start>
+          <para>Request agreed to. </para>
+          <para class="italic">
+            <inline font-style="italic">Sitting suspended from12.43 to 2.15 p.m.</inline>
+          </para>
+          <para>Request (by <inline font-weight="bold">Senator Foll)</inline> agreed to - </para>
+          <quote>
+            <para>That the House of Representatives be requested to make the duties, sub-item (b), paragraph (2) (b), British, 45s.; intermediate, 47s.; general, 48s. </para>
+          </quote>
+          <para>Request (by <inline font-weight="bold">Senator Pearce)</inline> proposed - </para>
+          <quote>
+            <para>Thatthe House of Representatives be requested to direct the Government to refer these duties to the Tariff Board for inquiry and report. </para>
+          </quote>
+          <para>The <inline font-weight="bold">CHAIRMAN (Senator Plain).Section</inline> 53 of the Constitution provides that the Senate may request, by message, the omission or amendment of any items of provisions in a proposed law imposing taxation. A motion to request the House of Representatives to refer certain duties to the Tariff Board is, in my opinion, out of order, being contrary to that provision of the Constitution. A  portion  of the item has been already agreed to; if the committee desires to take action on the lines proposed by <inline font-weight="bold">Senator Pearce,</inline> it should do so by request in the Senate to omit the item until it has been reported on by the Tariff Board. I rule that the amendment is not in order. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1823</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator Payne</name>
+              </talker>
+              <para>-  After the schedule has been reported from committee, these items could be recommitted with a view to omitting them until they have been reported upon by the Tariff Board. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1823</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CHAIRMAN, The</name>
+              <name role="display">The CHAIRMAN</name>
+            </talker>
+            <para>- I intended to mention that possible course. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1823</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>-  If my proposal is out of order now it will be equally out of order at the recommital stage. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1823</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator KINGSMILL</name>
+            </talker>
+            <para>.  - The schedule is not likely to be disposed of within the next two weeks, and these items could, either by substantive motion independent of this bill, or pursuant to an undertaking by the Government, be referred to the Tariff Board for investigation and report while the remainder of the schedule is being dealt with. Such a reference could not be moved at the recommittal stage, be cause, as the Leader of the Opposition has pointed out, it would be out of order then just as it is now. An undertaking by the Government to refer these items to the Tariff Board could be given without causing any qualms of conscience or loss . of dignity, but the Senate may, by independent substantive motion, ask that these and other items be referred to the Tariff Board ; if they are so referred and reported upon, one of the principal complaints against the schedule will disappear. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1823</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>South Australia</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>. -  Apart from the technical objection to the motion on the ground of unconstitutionality, I judge from the speeches of honorable senators at the second-reading stage that this committee will probably desire the House of Representatives to refer several other items to the Tariff Board. That being so, the suggestion of <inline font-weight="bold">Senator Kingsmill</inline> is worthy of adoption ; the request to refer this item to the Tariff Board might be deferred forthe time being. The board has much more important work in hand. It is inquiring into certain other items in the schedule, and we hope that its reports will be available before those items are reached. If a general request is made subsequently for the reference of all items to the Tariff Board, the Government can offer no objection. </para>
+          </talk.start>
+          <para>Sub-itemc postponed. </para>
+          <para>Postponed sub-item a - </para>
+        </speech>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Brandy -</title>
+          <page.no>1823</page.no>
+        </subdebateinfo>
+        <para>(1)...... </para>
+        <para>And on and after the 13th May, 1931 - </para>
+        <list type="decimal">
+          <item label="(1)">
+            <para>When not exceeding the strength of proof, per gallon, British, 45s.; intermediate, 45s. ; general, 46s. </para>
+          </item>
+        </list>
+        <para class="block">And on and after the 13th May, 1931 - </para>
+        <list type="decimal">
+          <item label="(2)">
+            <para>When exceeding the strength of proof, per proof gallon, British, 45s.; intermediate, 45s.; general, 46s.&#34; </para>
+          </item>
+        </list>
+        <para class="block">Upon which <inline font-weight="bold">Senator McLachlan</inline> had moved by way of amendment - . </para>
+        <para>That the House of Representatives be requested to make the duties, sub-item (a) (1), British, 40s.; intermediate, 40s. ; general, 45s. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1823</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>South Australia</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>. -  I suggest that the item be postponed until the officers of the department have redrafted it. If the Senate is prepared to allow the present duties to stand until the date of alteration, with a reduction thereafter, wc shall probably have to make a further request to the House of Representatives. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1824</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate>SOUTH AUSTRALIA</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLACHLAN</name>
+              </talker>
+              <para>-  Could we not suggest another date? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1824</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- No; that cannot be done. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1824</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir Georg*: Pearce</name>
+              </talker>
+              <para>-  When making the requested amendment, the House of Representatives will fix the date. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1824</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- Having consulted with the officers of the department, I suggest that the House of Representatives bc further requested to reduce the rates to comply with the decision of the Senate. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1824</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator KINGSMILL</name>
+            </talker>
+            <para>. - When the message with the proposed amendment is considered by the House of Representatives, that House will probably assent to the request on the condition that an alteration in the date be made. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1824</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator MCLACHLAN</name>
+            </talker>
+            <para>. - That appears to meet the case. It <inline font-style="italic">is</inline> not our intention to affect the revenue in any way; indeed, we cannot do so. I a&#187;k leave to withdraw my amendment. </para>
+          </talk.start>
+          <para>Am e n d m en t - <inline font-style="italic">by leae</inline> - w i th d r awn . </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1824</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator MCLACHLAN</name>
+            </talker>
+            <para>.- I move- </para>
+          </talk.start>
+          <quote>
+            <para>That  the House, of Representatives be requested to make the duties, sub-item </para>
+            <list type="loweralpha">
+              <item label="(a)">
+                <para>(1) - British, 40s.; intermediate, 40s.;  general  41s. </para>
+              </item>
+            </list>
+          </quote>
+          <para class="block">That would be in keeping with the decision of the Senate to reduce the duties by 5s. per gallon under each heading. </para>
+          <para>
+            <inline font-weight="bold">Senator LYNCH</inline>(Western Australia) |&#34;2.40&#39;J. - There is a clear-cut proposal for the reduction of 5s. per gallon in the. British preferential tariff. The effect will be a reduction of revenue. Although on a former occasion I voted with <inline font-weight="bold">Senator McLachlan,</inline> I did so under a misapprehension. Since this matter will come up for review by both Houses of Parliament, I still adhere to the view, which appears to bc accepted by all parties in the Senate, that our object should be to get as much rt-venue as possible from this source. In my opinion, a lowering of the rate of duly will result in decreased revenue, whereas <inline font-weight="bold">Senator McLachlan</inline> maintains that, by reducing the duty, the consumption of brandy will be increased, resulting in additional revenue. Unless the Government&#39;s proposal is adopted, it will be in a position to throw the blame on the Senate in the event, of the revenue falling short of expectations. The responsibility should rest with the Government. If the Minister could &#34;-tell us what amount of revenue is involved, the position would be clearer, and we should know better how to vote. I agree that it is desirable that whisky and brandy should be treated in the same way. Both the Government and the Opposition are agreed as to the desirability of obtaining as much revenue as possible from this source; but they are not agreed as to the method to be adopted. As a member of the Opposition, I want to throw the responsibility on the Government, not on the Opposition. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1824</page.no>
+                <time.stamp />
+                <name.id>K8P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">THOMPSON, William</name>
+                <name role="display">Senator Thompson</name>
+              </talker>
+              <para>-  Is it consistent to have different duties for brandy and whisky ? </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1824</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator LYNCH</name>
+            </talker>
+            <para>-  The honorable senator will agree that sometimes second thoughts are best. I should be glad if the Minister could tell us the amount of revenue involved. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1824</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>South Australia</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>. - The Government intend to oppose the reduction of these duties; but I remind the committee that&#39; if the request providing for a reduction of the whisky duties is ultimately agreed to it will be &#39;anomalous to allow the present duties on brandy to remain operative. The Government is in a better position with respect to brandy than it is in the matter of whisky, since Australian brandy, which has reached a very high standard, is consumed iu relatively much larger quantities than Australian whisky. The maximum loss likely to result from a reduction in these duties would he approximately &#163;1,400. </para>
+          </talk.start>
+          <para>Request agreed to. </para>
+          <para>Request (by <inline font-weight="bold">Senator McLachlan)</inline> proposed - </para>
+          <quote>
+            <para>That the House of Representatives be requested to make the duties, sub-item  (a)  (2) - British, 40s.; &#39;intermediate, 40s.; and general, 41s. </para>
+          </quote>
+          <para>
+            <inline font-weight="bold">Senator KINGSMILL</inline>(Western Australia) | 2.4S&#93;. - Iu connexion with the estimated loss in revenue, which the Assistant Minister <inline font-weight="bold">(Senator Daly)</inline> states would be approximately &#163;1,400, consequent upon a reduction in the duties on brandy to the amounts proposed, </para>
+          <para class="block">I should like to know whether that loss has been calculated without taking into account a possible increase in the consumption of this beverage, seeing that it will probably be cheaper, or whether it is just a rough estimate on the bald figures available? </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1825</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator Daly</name>
+              </talker>
+              <para>- It is only a rough estimate. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1825</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator KINGSMILL</name>
+            </talker>
+            <para>- Then, possibly, the estimated loss may be less than the amount stated. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1825</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator Daly</name>
+              </talker>
+              <para>- The quality of Australian brandy has reached such a high standard that there is no danger of the importations of brandy being increased. </para>
+            </talk.start>
+          </interjection>
+          <para>Request agreed to. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1825</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>.- The Assistant Minister <inline font-weight="bold">(Senator Daly)</inline> has pointed out to me the embarrassing position in which he might be placed should he submit a request for a re-arrangement of these subitems, which has previously been discussed. I therefore move - </para>
+          </talk.start>
+          <quote>
+            <para>That the House of Representatives be requested to make sub-item (a) read as follows: - </para>
+          </quote>
+          <list type="loweralpha">
+            <item label="(a)">
+              <para>Brandy - </para>
+              <list type="decimal">
+                <item label="(">
+                  <para>1 ) When not exceeding the strength of proof - (a)If bottled in the Common wealth under customs supervision subject to such conditions as to the bottling and as to the strength of the spirits as are prescribed by departmental by-laws, per gallon, British, 45s.; intermediate, 45s. ; general, 46s. </para>
+                </item>
+              </list>
+            </item>
+            <item label="(b)">
+              <para>If not bottled in the Commonwealth under customs supervision, per gallon, British, 50s. ; intermediate, 50s.: general, 51s. </para>
+              <list type="decimal">
+                <item label="(2)">
+                  <para>When exceeding the strength of proof - </para>
+                </item>
+              </list>
+            </item>
+            <item label="(a)">
+              <para>If bottled in the Commonwealth under customs supervision subject to such conditions as to the bottling andas to the strength of the spirits as arc prescribed by departmental by-laws, per proof gallon, British, 45s.; intermediate, 45s. ; general, 40s. </para>
+            </item>
+            <item label="(b)">
+              <para>If not bottled in the Commonwealth under customs supervision, per proof gallon, British, 50s.; intermediate, 50s. ; general, 51s. </para>
+            </item>
+          </list>
+          <para>And on and after the 13th May, 1931- </para>
+          <list type="loweralpha">
+            <item label="(a)">
+              <para>Brandy - </para>
+              <list type="decimal">
+                <item label="(">
+                  <para>1 ) When not exceeding the strength of proof, per gallon, British, 40s.; intermediate, 40s.; general, 41s.; </para>
+                </item>
+                <item label="(2)">
+                  <para>When exceeding the strength of proof, per proof gallon, British, 40s.; intermediate, 40s ; general, 41s. </para>
+                </item>
+              </list>
+            </item>
+          </list>
+          <para class="block">The request merely provides for a rearrangement of the sub-items in orderto avoid possible confusion. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1825</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator LYNCH</name>
+            </talker>
+            <para>. - It would appear from the wording of this sub-item that there has been an alteration in the duties as from the- 13th of May, 1933, which suggests that we are now considering a retrospectiveproposal. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1825</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator Daly</name>
+              </talker>
+              <para>- The date will be adjusted when the request is dealt with in another place. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1825</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>- We cannot discuss a question of retrospectivity. It is merely a matter of re-arranging the position of the sub-items. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1825</page.no>
+                <time.stamp />
+                <name.id>KRZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LYNCH, Patrick</name>
+                <name role="display">Senator LYNCH</name>
+              </talker>
+              <para>- We should consider the injustices which retrospective legislation of this nature may do to certain classes of traders. In this case the man who cleared his stocks of brandy from bond after the 13th May, had an advantage over another man who cleared his stocks prior to that date. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1825</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>- Any alteration in the tariff, made following requests from the Senate, will not operate until they are adopted by the House of Representatives. That course is necessary to secure the revenue. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1825</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>South Australia</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>. - Obviously, <inline font-weight="bold">Senator Lynch</inline> is under a slight misapprehension as to the operation of these duties. When the debate took place in another place, and it was decided to reduce the duties by 5s. a gallon, the amended rates became operative immediately. The proposal now is that the rates for both classes of brandy, that is, brandy bottled in and brandy out of bond, shall be reduced by 5s. per gallon. If this rate had operated from the 13th May, both classes of traders would benefit equally. But that is not proposed. The rate of 45s. per gallonwill be levied in respect of all brandy bottled under supervision and not cleared prior to the final decision by the House of Representatives. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1826</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>- In other words, the present schedule will operate until it is altered. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1826</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- Yes; but the discrimination between brandy bottled in and out of bond has been removed as from the 13th May last. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1826</page.no>
+              <time.stamp />
+              <name.id>KPQ</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KINGSMILL, Walter</name>
+              <name role="display">Senator KINGSMILL</name>
+            </talker>
+            <para>.  - It is obvious that when the House of Representatives considers the Senate&#39;s requests it will consider also the date, and if, as I assume it will, it pays due regard to the revenue, the amended duties will operate from the date upon which they are adopted in another place. This will achieve the object aimed at by the amendments that have been made. </para>
+          </talk.start>
+          <para>Request agreed to. </para>
+          <para>Postponed sub-item c - </para>
+          <quote>
+            <para>By omitting the whole of sub-item (c) and inserting in its stead the following sub-item: - &#34; (c) Gin, distilled wholly from barley malt, grain, grape wine or fruit, and certified in the prescribed form by the competent Government official in the country of production to be gin distilled wholly from barley malt, grain, grape wine or fruit - </para>
+            <list type="decimal">
+              <item label="(">
+                <para>1 ) When not exceeding the strength of proof - </para>
+                <list type="loweralpha">
+                  <item label="(a)">
+                    <para>If bottled in the Common wealth under customs supervision subject to such conditions as to the bottling and as to the strength of the spirits as are prescribed by departmental by-laws, per gallon, British, 45s.; intermediate, 46s.; general, 47s. </para>
+                  </item>
+                  <item label="(b)">
+                    <para>If not bottled in the Commonwealth under customs supervision, per gallon, British, 50s.; intermediate, 51s.; general, 52s. </para>
+                  </item>
+                </list>
+              </item>
+              <item label="(2)">
+                <para>When exceeding the strength of proof - </para>
+                <list type="loweralpha">
+                  <item label="(a)">
+                    <para>If bottled in the Commonwealth under customs supervision subject to such conditions as to the bottling and as to the strength of the spirits as are prescribed by departmental by-laws, per proof gallon, British, 45s.; intermediate, 46s.; general, 47s. </para>
+                  </item>
+                  <item label="(b)">
+                    <para>If not bottled in the Commonwealth under customs supervision, per proof gallon, British, 50s.; intermediate, 51s.; general, 52s.&#34; </para>
+                  </item>
+                </list>
+              </item>
+            </list>
+          </quote>
+          <para>Request (by <inline font-weight="bold">Senator Sampson)</inline> agreed to- </para>
+          <quote>
+            <para>That the House of Representatives be requested to makethe duties, sub-itemc paragraph (1) (a) British, 40s.; intermediate, 41s.; general, 42s.; and paragraph (1) (b) British, 45s.; intermediate, 46s.; general, 47s. </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1826</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>.- I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the House of Representatives be requested to make the rates of duty, sub-item c paragraph (2) (a) British, 40s.; intermediate, 41s.; general, 42s. </para>
+          </quote>
+          <para class="block">As 90 per cent. of the gin consumed in Australia is made in Australia, the proposed reduction of the rates of duty would have practically no effect on the revenue. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1826</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator LYNCH</name>
+            </talker>
+            <para>. - Apparently, the Senate has determined that the people of Australia shall have dear beer and cheap gin, but as the Government is making no effort to preserve the revenue, I see no reason why I should take off my coat to help to do so. . </para>
+          </talk.start>
+          <para>Request agreed to. </para>
+          <para>Request (by <inline font-weight="bold">Senator Foll)</inline> agreed to - </para>
+          <quote>
+            <para>That the House of Representatives be requested to make the duties, sub-item c, paragraph (2) (b) British, 45s.; intermediate, 46s.; general, 47s. </para>
+            <para>By adding after sub-item (c) a new subitem (cc) as follows: - &#34; (cc) Liqueurs and bitters - </para>
+            <list type="decimal">
+              <item label="(1)">
+                <para>When not exceeding the strength of proof, per gallon, British, 45s. ; intermediate, 46s.; general, 47s. </para>
+              </item>
+              <item label="(2)">
+                <para>When exceeding the strength of proof, per proof gallon, British, 45s. ; intermediate, 46s.; general, 47s.&#34; </para>
+              </item>
+            </list>
+          </quote>
+          <para>Request (by <inline font-weight="bold">Senator McLachlan)</inline> agreed to - </para>
+          <quote>
+            <para>That the House of Representatives be requested to make the duties, sub-item cc, paragraph (1), British, 40s.; intermediate, 41s.; general, 42s.; and paragraph (2), British 40s.; intermediate, 41s.; general, 42s. </para>
+            <para>By omitting the whole of sub-item (d) and inserting in its stead the following sub-item: - &#34;(d) Rum, pure, distilled wholly from sugar, sugar syrup, molasses, or the refuse of sugar cane, by a pot-still or similar process at a strength not exceeding 45 per cent. over proof and certified in the prescribed form by the competent Government  official in the country of production to he pure rum distilled wholly fromsugar, sugar syrup, molasses, or the refuse of sugar cane, under the conditions specified </para>
+          </quote>
+          <list type="decimal">
+            <item label="(">
+              <para>1 ) When not exceeding the strength of proof, per gallon, British, 40s.; intermediate, 41s.; general, 41s. </para>
+            </item>
+            <item label="(2)">
+              <para>When exceeding the strength of proof, per proof gallon, British, 40s.; intermediate, 41s.; general, 41s.&#34; </para>
+            </item>
+          </list>
+          <para>Request (by <inline font-weight="bold">Senator McLachlan)</inline> agreed to - </para>
+          <quote>
+            <para>That the House of Representatives be requested to make the duties, sub-item  d,  paragraph (1), British, 35s.; intermediate, 36s.; general, 36s., and paragraph (2), British, 35s.; intermediate, 36s.; general, 36s. </para>
+            <para>By omitting the whole of sub-item (e) and inserting in its stead the following subitem: -  &#34;(e)  BlendedRum, distilled wholly from sugar, sugar syrup, molasses, or the refuse of sugar cane, containing not less than 25 per cent. of pure spirit whichhas been separately distilled from sugar, sugar syrup, molasses, or the refuse of sugarcane, by a pot-still or similar process at a strength not exceeding 45 per cent. over proof and certified in the prescribed form by the competent Government official in the country of production to be rum distilled wholly from sugar, sugar syrup, molasses, or the refuse of sugar cane, under the conditions specified and so blended - </para>
+            <list type="decimal">
+              <item label="(">
+                <para>1 ) When not exceeding the strength of proof, per gallon, British, 41s.; intermediate, 42s.; general, 42s. </para>
+              </item>
+              <item label="(2)">
+                <para>When exceeding the strength of proof, per proof gallon, British, 41s.; intermediate, 42s.; general, 42s.&#34; </para>
+              </item>
+            </list>
+          </quote>
+          <para>Request (by <inline font-weight="bold">Senator McLachlan)</inline> agreed to - </para>
+          <quote>
+            <para>That the House of Representatives be requested to make the duties, sub-item  e,  paragraph (1), British, 36s.; intermediate, 37s.; general, 37s., and paragraph (2), British, 36s.; intermediate, 37s.; general, 37s. </para>
+            <para>By omitting the whole . of sub-item (g) and inserting in its stead the following sub-item: -  &#34;(g)  Other- </para>
+            <list type="decimal">
+              <item label="(">
+                <para>1 ) When not exceeding the strength of proof, per gallon - British, 53s. ; intermediate, 53s. ; general, 53s. </para>
+              </item>
+              <item label="(2)">
+                <para>When exceeding the strength of proof, per gallon - British, 53s. ; intermediate, 53s. ; general, 53s.&#34; </para>
+              </item>
+            </list>
+          </quote>
+          <para>Request (by <inline font-weight="bold">Senator McLachlan)</inline> proposed - </para>
+          <quote>
+            <para>That the House of Representatives be requested to make the duties, sub-itemG, paragraph (1) - British, 45s.; intermediate, 45s.; general, 45s. </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1827</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>South Australia</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>.  - I think that the Senate should have some explanation from <inline font-weight="bold">Senator McLachlan</inline> of his request. These duties are designed only to prevent unmatured spirits coming into Australia, and were imposed after careful investigation by the Minister and those responsible for policing the act. We should assist the States, so far as we can, in the administration of their pure foods legislation. Nobody will suggest that it is in the interests of consumersthat these duties should be reduced to enable unmatured spirits to be marketed. The heavier rate of duty ensures that the spirit will remain in bond until it reaches a satisfactory state of maturity. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1827</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>- Having heard the Minister&#39;s explanation, I ask leave to withdraw my request. </para>
+            </talk.start>
+          </interjection>
+          <para>Request - <inline font-style="italic">by leave</inline> - withdrawn. </para>
+          <para>Request (by <inline font-weight="bold">Senator McLachlan)</inline> agreed to - </para>
+          <quote>
+            <para>That the House of Representatives be requested to make the duties, sub-itemG, paragraph (1) - British, 48s.; intermediate, 48s.; general, 48s.; and paragraph (2) - British, 48s.; intermediate, 48s.; general, 48s. </para>
+          </quote>
+          <para>Item agreed to, subject to requests. </para>
+        </speech>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Item 8 -</title>
+          <page.no>1827</page.no>
+        </subdebateinfo>
+        <quote>
+          <para>By omitting the whole item and inserting in its stead the following item: - &#34; 8. Perfumed spirits, per gallon - British, 50s.; intermediate, 55s.; general, 60s.; <inline font-style="italic">and</inline> ad val. - British, 30 per cent.; intermediate, 35 per cent.; general, 40 per cent.&#34; </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1827</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>. - This is a considerable increase on the old rates, which were British 40s., intermediate 45s., general 50s., and the ad valorem rates 20 per cent., 25 per cent., and 30 per cent. I do not think that the increase is justified, and therefore move - </para>
+          </talk.start>
+          <quote>
+            <para>That the House of Representatives be requested to make the duties, per gallon - British, 45s.; intermediate, 50s.: general, 55s. </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1827</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>South Australia</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>. - This is one of the luxury items upon which the Government does not want the Australians  to spend their limited resources overseas. Figures regarding the manufacture of perfumed spirits in Australia are not available, but the extent of the industry is indicated by the fact that in 1927-28 excise duty was paid on 36,173 gallons, and in 1929-30 on 42,871 gallons. The spirit is used for the manufacture of scents, toilet preparations, and essences. Even if the request that has been made by <inline font-weight="bold">Senator McLachlan</inline> were accepted, it would not materially assist the consumer, as it would mean a loss of revenue to the Government of only about &#163;500 per annum.We have successfully encouraged the manufacture of perfumed spirits in Australia. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1828</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>-  From what countries are these spirits principally imported ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1828</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- The importations in 1930-31 were from the following countries: - Great Britain, &#163;7,497; Malaya, &#163;2; other British possessions, &#163;1; France, &#163;10,647; Germany, &#163;5,267; Italy, &#163;2; United States of America, &#163;344; and other foreign countries, &#163;4. If <inline font-weight="bold">Senator McLachlan</inline> presses the amendment, I shall vote against it, but not debate it. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1828</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>-  I do press it, because these heavy duties on imports from France have serious repercussions on our export trade. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1828</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- Does the honorable senator propose to move for a reduction of the ad valorem duties also? </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1828</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLACHLAN</name>
+            </talker>
+            <para>. - I propose to move that the ad valorem duties he reduced by 5 per cent. Even then we fear that we shall be endangering our trade relations with France. Although this is a small matter, from the departmental point of view, we regard it as important, and if the Government intends to oppose it, we are prepared to discuss it fully. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1828</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator Daly</name>
+              </talker>
+              <para>-  I shall merely vote against it. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1828</page.no>
+              <time.stamp />
+              <name.id>JRW</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRAWFORD, Thomas</name>
+              <name role="display">Senator CRAWFORD</name>
+            </talker>
+            <para>. -I hope that the Minister will resist this amendment. It is ridiculous to talk about repercussions in regard to our trading relations with a country from which we are importing &#163;10,000 worth of perfumed spirits. What sort of people  are  they who would base an international controversy on so insignificant  an  amount? Australia has 300,000 people unemployed, and I am in favour of protecting every industry, however small, which will provide work for our people. I understand that we have excellent prospects of establishing a valuable industry for the production of perfumed spirits of all kinds. </para>
+          </talk.start>
+          <para>Progress reported. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SPECIAL ADJOURNMENT</title>
+        <page.no>1828</page.no>
+        <type>special adjournment</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator Barnes)</inline> agreed to- </para>
+      <quote>
+        <para>That the Senate at its rising adjourn till Tuesday next at 3 p.m. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>1828</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers were presented :  - </para>
+      <para>Commonwealth Employees&#39; Compensation </para>
+      <para>Act - Regulations amended - Statutory Rules 1931, No. 134. </para>
+      <para>Seat of Government Acceptance Act and Seat of Government (Administration) Act - Ordinance No. 22 of 1931 - Workmen&#39;s Compensation. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>1828</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <para>Duty on Picture Frames  -  Mongalata Gold Find  -  Sales Tax. </para>
+      <para>Motion (by <inline font-weight="bold">Senator Barnes)</inline> proposed - </para>
+      <quote>
+        <para>That the Senate do now adjourn. </para>
+      </quote>
+      <para>
+        <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE (Western Australia) &#91;3.33&#93;. - I bring under the notice of the Minister representing the Minister for Trade and Customs a case of extreme hardship arising out of the tariff-. <inline font-weight="bold">Mr. T.</inline> F. Mackay, of Hannanstreet, Kalgoorlie, has written to me as follows: - </para>
+      <quote>
+        <para>Can yoube of some assistance to me in placing the following matter before the Tariff Board or Parliament? Here are the facts: - </para>
+        <para>Some four months ago I ordered from England a small consignment of art metal frames (nothing made in Australia like them ) . They arrived atFremantle four weeks ago, and I am prevented from taking delivery of them by the customs demanding duty, sales tax, and primage amounting to 300 per cent. Price of goods, &#163;57 12s. 7d.; duty, sales and primage asked for, &#163;149 3s.11d. Previously, on similar goods, I have paid 40 per cent. duty. On this occasion 1 was willing to pay 65 per cent. duty, which, with sales tax 6 per cent. and primage 10 per cent., brought landing charges up to 130 per cent., about &#163;74. But, no; Tariff Department are not satisfied with anything fair. However, unless they change their attitude and adopt a more reasonable one, I shall be forced to return the goods, much as I wanted them for Christmas business. In addition, one has exchange, insurance, <inline font-style="italic">&#38;c</inline> bringing the total cost to nearly 400 per cent. Please do your best to have this injustice brought before the board. If the goods go back, I lose, and the Government lose heavily, too. . . . One reads a good deal about Empire trade and preferential tariff. In my case, 300 per cent. is called preferential to British goods. </para>
+      </quote>
+      <para class="block">It may be that these charges have been imposed in accordance with the provisions of the tariff, but I ask the Minister representing the Minister for Trade and Customs whether he will have the matter looked into. If the goods are not made in Australia, it does not seem reasonable that the duty should be so heavy. </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1829</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>South Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>.- I ask the Minister whether any report has yet been received from <inline font-weight="bold">Mr. Gepp,the</inline> consultant who is retained to advise the Commonwealth Government on developmental matters, in relation to the gold find at Mengalata, near Burra. I know nothing of the matter except that I have been asked by a member of the House of Representatives to make an inquiry. I should he glad if the Government would find out what report <inline font-weight="bold">Mr. Gepp</inline> has presented, and if the Minister would state whether the assistance asked for will he granted. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1829</page.no>
+            <time.stamp />
+            <name.id>KOJ</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">HAYS, Herbert</name>
+            <name role="display">Senator HERBERT HAYS</name>
+          </talker>
+          <para>.   -  I wish to bring under the notice of the Government certain complaints which I have received regarding the collection of sales tax in Tasmania. On the mainland, imported goods are delivered to importers at all the capital cities at the same price, but on those delivered to Tasmania transhipping charges have to be paid, in addition to the ordinary freight. The sales tax is assessed on the final cost of the goods, including freight, insurance and all other charges, so that the Tasmanian importers have to pay more by way of sales tax than their competitors on the mainland. This places them at a serious disadvantage. I do not know what remedy can be applied, but I do not think that it was the. intention of Parliament to discriminate unfairly against any section of the Commonwealth. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>1829</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator McLachlan</name>
+            </talker>
+            <para>-  It is unfair, but it would be difficult to find a remedy. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>1829</page.no>
+              <time.stamp />
+              <name.id>KOJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYS, Herbert</name>
+              <name role="display">Senator HERBERT HAYS</name>
+            </talker>
+            <para>- If we recognize the unfairness, it ought to he possible to find a remedy. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1829</page.no>
+            <time.stamp />
+            <name.id>JTL</name.id>
+            <electorate>South Australia</electorate>
+            <party>ALP</party>
+            <role>Assistant Minister</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DALY, John</name>
+            <name role="display">Senator DALY</name>
+          </talker>
+          <para>. - <inline font-weight="bold">Mr. Gepp</inline> was, in effect, lent by the Commonwealth Government to the South Australia Mines Department, to report upon the gold find referred to. He was to act in collaboration with <inline font-weight="bold">Mr. Keith</inline> Ward. The report was to be made to the South Australian Government, so that the Commonwealth Government is not really concerned in the matter. I understand, however, that copies of the report have been made available by the Minister for Mines in South Australia to certain members of the Commonwealth Parliament, and others may be obtained from the same source. </para>
+        </talk.start>
+        <para>If <inline font-weight="bold">Senator Pearce</inline> will supply me with a copy of the relevant portions of the letter from which he quoted in respect to duties charged on goods imported at Fremantle, I shall bring the matter under the notice of the Customs Department, and shall endeavour to furnish him with a reply on the adjournment next Tuesday. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1829</page.no>
+            <time.stamp />
+            <name.id>K1L</name.id>
+            <electorate>Victoria</electorate>
+            <party>ALP</party>
+            <role>VicePresident of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BARNES, John</name>
+            <name role="display">Senator BARNES</name>
+          </talker>
+          <para>.- I shall be obliged if <inline font-weight="bold">Senator Herbert</inline> Hays will supply me with a copy of the report of his remarks in connexion with the operation of the sales tax in Tasmania, and I shall have the matter brought under the notice of the proper authorities. I can assure the honorable senator that the Government does not desire that any portion of the Commonwealth shall be unfairly discriminated against. </para>
+        </talk.start>
+        <para>Question resolved in the affirmative. </para>
+      </speech>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>1829</page.no>
+        <time.stamp>15:44:00</time.stamp>
+      </adjournmentinfo>
+      <para>Senate adjourned at  3.44 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

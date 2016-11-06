@@ -1,251 +1,1402 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-10-09%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-10-09%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-10-09%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-10-09%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-10-09%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-10-09%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-10-09%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1935-10-09/19351009_senate_14_147.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1935-10-09</date>
+    <parliament.no>14</parliament.no>
+    <session.no>1</session.no>
+    <period.no>3</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>521</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1935-10-09</day.start>
+      <para>The <inline font-weight="bold">President (Senator the Hon. P. J. Lynch)</inline> took the chair at 3 p.m. and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>MINISTERIAL CHANGE</title>
+        <page.no>521</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>521</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>WESTERN AUSTRALIA</electorate>
+            <party>ALP; NAT from 1917; UAP from 1931</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;3.1&#93;. - <inline font-style="italic">by leave</inline> - I desire to inform the Senate that on the 3rd October  His Excellency  the GovernorGeneral accepted the resignation of the Bight Honorable J. A. Lyons from the office of Treasurer of the Commonwealth, and appointed the Honorable E. G. Casey to be Treasurer in his stead. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ASSENT TO BILLS</title>
+        <page.no>521</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Assent to the following bills reported - </para>
+      <quote>
+        <para>Ministers of State Bill 1935. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>THE LATESIR ELLIOTT LEWIS</title>
+        <page.no>522</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>522</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>- I have received from Lady Lewis a letter of thanks and appreciation for the resolution of sympathy and condolence passed &#39;by the Senate on the occasion of the death of the Honorable <inline font-weight="bold">Sir Elliott</inline> Lewis, K.C.M.G. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ELECTION OF PRESIDENT</title>
+        <page.no>522</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>522</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator SirGEORGE PEARCE</name>
+          </talker>
+          <para>&#91;3.4&#93;. - <inline font-style="italic">by leave</inline> - From time to time, in soma sections of the daily press, and as late as Wednesday last, in a section of the weekly press, statements have appeared to the effect that a certain senator was the nominee of the Government for the position of  President  of the Senate. The statements are absolutely inaccurate. At a meeting of senators called for the purpose of considering the selection of a senator as  president,  I, as Leader of the Government in the Senate, informed senators that the Government had no nominee and that, as a government, it was not concerned in the election in any way whatsoever. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>COUNTRY PARTY SENATORS</title>
+        <page.no>522</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Leadership</title>
+          <page.no>522</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>522</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>, - <inline font-style="italic">by leave</inline> - I wish to refer to a statement made by <inline font-weight="bold">Senator Hardy</inline> in the Senate on Thursday last to the effect that ho had been appointed Leader of the Country party in the Senate. I do not feel at liberty, nor do I desire, to discuss what took place at that meeting, beyond saying that the five Country party senators who were present decided unanimously not to appoint a Leader of the Country party in the Senate. </para>
+          </talk.start>
+          <para>The meeting authorized <inline font-weight="bold">Senator Hardy</inline> to make an announcement to the Senate in specific terms, which did not include any reference to a leader of the Country party in this chamber. The statement made by the honorable senator was at complete variance from the one which he was authorized to make. </para>
+          <para>There is noLeader of the Country party in the Senate. In any case pledges to the electors and pledges made under the constitution of the Primary Producers </para>
+          <para class="block">Association of Western Australia - the Country party organization of that State - preclude Western Australian Country party senators from following any party leader in a senate established for the protection of the rights of the people of the weaker States. </para>
+          <para>I have received a request from <inline font-weight="bold">Senator Carroll</inline> to read to the Senate the following letter which he has addressed to <inline font-weight="bold">Dr. Earle</inline> Page on this subject: -  38 Sydney Street, </para>
+          <para>Concord, New South Wales, </para>
+          <para>October6th,1935. </para>
+          <para class="block">Dear <inline font-weight="bold">Dr. Page,</inline></para>
+          <para>Further to my letter of the 26th ultimo in which I expressed the opinion that it would be wiser to defer the appointment of a Country party leader in the Senate during thelifeof the composite Government now in office, I see, according to press reports that <inline font-weight="bold">Senator Hardy</inline> has announced that he hasbeen elected to that position. </para>
+          <para>Assuming that the press report is correct,I desire to say that having already expressed my views in respect thereto, I see no reason to change them. Consequently &#91; do not intend to recognize <inline font-weight="bold">Senator Hardy</inline> as my leader. </para>
+          <para>I have been credibly informed from Several sources that SenatorHardy, in making his announcement in the Senate, did not accurately represent the position; thatwhat actually happened was that he had been elected to represent the party in the Senate on the same lines as it had previously been represented by me. </para>
+          <para>Be this as it may, there still seems tome to be no justification for the action taken, as the identity of the Country party and its leader has, for the time being, been merged in the Government and the Minister for Commerce, who are already officially represented in the Senate by Ministers. </para>
+          <para>There is just one other point <inline font-style="italic">1</inline> wish to make. Judging by his public utterances. <inline font-weight="bold">Senator Hardy</inline> does not represent the views of a majority of Country party senators. Consequently his recognition as leader would place the party in an invidious and impossible position. </para>
+          <para class="block">Yours faithfully, </para>
+          <list type="upperalpha-dotted">
+            <item label="W.">
+              <para>Carroll. </para>
+            </item>
+          </list>
+          <para class="block">I may add that we were compelled to take this matter up in view of the false position in which we were placed by <inline font-weight="bold">Senator Hardy&#39;s</inline> unfortunate utterance. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>522</page.no>
+              <time.stamp />
+              <name.id>KNZ</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HARDY, Charles</name>
+              <name role="display">Senator HARDY</name>
+            </talker>
+            <para>. - <inline font-style="italic">by leave</inline> - I verymuch regret that <inline font-weight="bold">Senator Johnston</inline> has seen fit to bring before the Senate what, after all, appears to bo a purely party matter. The function of the Senate is, </para>
+          </talk.start>
+          <para class="block">I suggest, to deal with matters of national concern. My regret is the greater because of the fact that at thatmeeting of the Country party senators referred to, <inline font-weight="bold">Senator Johnston</inline> was the only senator besides myself nominated for the position of leader. </para>
+          <para>The statement which I made to the Senate on Thursday last was absolutely correct. In pursuance of the decision of senators representing the Country party, to elect a leader of the Country partymembers in this chamber, the secretary of the party forwarded a written communication to each member. I understand that <inline font-weight="bold">Senator Johnston</inline> himself helped to draft the letter inviting senators to meet on a certain day. At that meeting two nominations were considered - mine and that of <inline font-weight="bold">Senator Johnston. Senator Johnston</inline> and I decided to pair in the voting, thus allowing the other three honorable senators present - Senators Cooper, Badman and Abbott - to make the decision. Later they called us in and stated that I bad been selected as the leader of the Country party in the Senate. I may add that I even went so far as to write out the announcement which I proposed to make in this chamber, and submitted it to Senators Cooper, Badman, Abbott and Johnston. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>523</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B Johnston</name>
+              </talker>
+              <para>- The honorable senator did not submit it to me. He told the other senators that I had approved of the draft. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>523</page.no>
+                <time.stamp />
+                <name.id>KNZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HARDY, Charles</name>
+                <name role="display">Senator HARDY</name>
+              </talker>
+              <para>- I took it to <inline font-weight="bold">Senator Johnston,</inline> and he approved of the announcement which I intended to make in the Senate. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>523</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers were presented :  - </para>
+      <quote>
+        <para>Audit Act - Transfers of amounts approved by the Governor-General in Council - Financial year 1934-35. </para>
+        <para>Navigation Act - Regulations amended - Statutory Rules 1935. No. 39-No.61- No. 62. </para>
+        <para>River Murray Waters Act - River Murray Commission - Report for the year 1934-35. </para>
+        <para>Seat of Government Acceptance Act and Seat of Government (Administration) Act - OrdinanceNo. 15 of1935 - Companies (Liquidation). </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>523</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>LOAN (FARMERS DEBT ADJUSTMENT) ACT</title>
+          <page.no>523</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>523</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>asked the Minister representing the Treasurer, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>How many States have passed the necessary legislation required under the Loan (Farmers Debt Adjustment) Act? </para>
+            </item>
+            <item label="2.">
+              <para>What is the amount of money already used out of the &#163;12,000,000 the Government suggested should be raised for the purpose of assisting the farmers to adjust their debts? </para>
+            </item>
+          </list>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>523</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- The Treasurer has supplied the following answers :  - </para>
+            </talk.start>
+          </interjection>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Three States, viz.,New South Wales, South Australia and Western Australia. </para>
+            </item>
+            <item label="2.">
+              <para>An amount of &#163;10,000 has been paid as an advance to South Australia.No applications have yet been received fromNew South Wales and Western Australia, but it is understood that those States have been operating the scheme since their respective acts were passed. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>523</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>WOOL MARKETING</title>
+          <page.no>523</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>523</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Commerce, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Has the attention of the Minister been drawn to the following resolution respecting wool marketing carried at the last annual conference of the Primary Producers Association in Western Australia: - &#34; That, considering the economic policy of Australia, this conference is of the opinion that the Federal Government should definitely decide between three alternatives - </para>
+              <list type="loweralpha">
+                <item label="(a)">
+                  <para>The fixing of a minimum selling reserve price for wool, as recommended by the wool inquiry committee ; </para>
+                </item>
+                <item label="(c)">
+                  <para>Making currency adjustments to secure a return equal to the production costs.&#34; </para>
+                </item>
+              </list>
+            </item>
+            <item label="2.">
+              <para>Has the Government arrived at any decision in this important matter? </para>
+            </item>
+          </list>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.The Minister for Commerce has supplied the following answers :  - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. </para>
+            </item>
+            <item label="2.">
+              <para>The problems surrounding the wool industry were discussed at the meeting of the Australian Agricultural Council in May last, when it was considered undesirable to interfere with the existing marketing system. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>FINANCIAL RELIEF BILL 1935</title>
+        <page.no>523</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>523</page.no>
+        </subdebateinfo>
+        <para>Debate resumed from the 3rd October <inline font-style="italic">(vide</inline> page 465), on motion by <inline font-weight="bold">Senator Sir George</inline> Pearce - </para>
+        <quote>
+          <para class="block">That the bill be now read a second time. </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>524</page.no>
+              <time.stamp />
+              <name.id>JY7</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNCAN-HUGHES, John</name>
+              <name role="display">Senator DUNCAN-HUGHES</name>
+            </talker>
+            <para>. - Having had an opportunity to peruse this bill, I propose to speak on it relatively briefly, more particularly because when a similar measure was presented to Parliament in 1933 I expressed my views  on  the two principal matters which are at issue. The amount involved in respect of public servants is not very large, being &#163;90,000 per annum, and in respect of members  of  Parliament &#163;3,000. Those are the two chief groups covered by the bill. I do not propose to repeat in detail what I said on the 24th October, 1933. At that time my opinions were expressed clearly, and I still adhere to them. In regard to the proposal to restore a portion  of  the amount by which the allowances paid to members of Parliament had been reduced I said that I was elected on the understanding that I would oppose any increase in such allowance. I have not changed my opinion, and I am still opposed to any such increase. The allowances paid to Ministers are being partially restored but reductions of 20 and <inline font-style="italic">17i</inline> per cent, will still remain operative, while the allowances of members will be subject to a reduction of 15 per cent, when this measure is enacted. The work of Ministers appears to me to be more important than that of private members, and I see no reason why they should suffer a heavier reduction than members generally. Moreover the Senate has not been sitting sufficiently frequently during the last year to justify an increase of the allowance paid to honorable senators. I am therefore opposed to this partial restoration. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>524</page.no>
+                <time.stamp />
+                <name.id>KS9</name.id>
+                <electorate>QUEENSLAND</electorate>
+                <party>ALP; FLP from 1932</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MACDONALD, John Valentine</name>
+                <name role="display">Senator J V MACDONALD</name>
+              </talker>
+              <para>-  It is not an increase. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>524</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator DUNCAN-HUGHES</name>
+              </talker>
+              <para>- It is an increase of the amount provided at the time when I stood, for election to this chamber. Having informed my constituents that I would not support any increase of the allowance paid to members of Parliament, I do not wish this matter to pas.s without comment. </para>
+            </talk.start>
+          </continue>
+          <para>I now come to the partial restoration of the salaries and wages paid to public servants and to the members of the naval, military and air forces. At present salaries up to &#163;3SS per annum are, apart from variations in cost of living, free of any reduction, and the present proposal is that all salaries up to &#163;485 per annum shall be similarly free of any reduction. There is also a reduction of salaries above &#163;4S5 which varies . according to the amount of salary received. I am not at all inclined to criticize or to be severe on the more highly paid public officials; their work is important and their positions much more difficult to fill than are those held by lower-paid officials. One may point out, particularly in comparison  with the duties of parliamentarians, that the work of public servants is permanent, and occupies their full time. It appears to me that some departments are over-staffed and others are under-staffed. Probably, I shall have more to say on this matter when the Appropriation Bill is before us. At the moment, I would say that the Defence Department and the Department of External Affairs are among those departments which are under-staffed. In the Commonwealth Service as a whole there are undoubtedly too many employees. This statement would not apply so much to Canberra, where, in a sense, the tendency is to have picked men. I believe that the view I am expressing is held generally. The present size of the Commonwealth Public Service is based on the boom period, which is not likely to recur, except, perhaps, temporarily, and this has led to the employment of an abnormally large staff to-day, although times are again more or less normal. I am not in a position to go into details at this juncture, but it would most probably be found that the present number of Commonwealth public servants greatly exceeds the number employed in 1929. Briefly, my point is that we cannot afford to keep up a sta if which was regarded as necessary in a boom period. If we do so one of two tilings must happen - either all Commonwealth public servants must be retained at a lower rate of pay, or there must be a reduction of personnel. I applaud the action of the Government in retaining  in  employment as many persons as possible during the depression. Indeed, a similar attitude was adopted by countless private  employers. However, whilst I agree with that policy, I still hold the view which I took of this matter two years ago, namely, that if the salaries of public servants are to be restored to the predepression level, the country will be carrying a larger load than it can afford, and, inevitably, a certain number of our present public servants will be obliged to find employment outside. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>525</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>- &#34;What departments are over-staffed? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>525</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator DUNCAN-HUGHES</name>
+              </talker>
+              <para>- I do not intend to go into details now, but I suggest that there is an excessive number of employees in the Taxation and Postal Departments. I have taken out figures which I shall give to honorable senators when the Appropriation Bill is under consideration. It is quite likely also that the post office is overstaffed. While I mention these facts, 1 stress the point that other departments are under-staffed, including,, particularly, the Defence Department. Possibly this unsatisfactory position could be overcome by transferring employees from overstaffed departments to those which are under-staffed. My main argument is that Commonwealth employees at the commencement of the depression were engaged on a boom basis, and that such a boom is not likely to recur. Now that the worst of the depression has passed, if the old rates of pay are to be restored, the number of employees will have to be reduced. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>525</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- Does the honorable senator suggest that employees were put on when they were not actually required ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>525</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator DUNCAN-HUGHES</name>
+              </talker>
+              <para>- I believe that was so to some extent. That policy was adopted by a good number of private employers. I shall conclude my remarks at this stage by repeating what I said on this matter in this chamber two years ago, when I put the position as it existed in the middle of the depression. On that occasion I said - - </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>It appears to me that since salaries have been reduced to a greater extent in the Commonwealth Service than in any other, except that of New South Wales, it is only reasonable that Commonwealth, public servants should have their salaries restored to a parity with those in the States. We all admit that the public servants perform a valuable work, the quality of which, of course, varies, and that the Commonwealth owes some consideration to them. I hope, however, that the Commonwealth public servants will not press their claims - their rights, if you like - too far. I imagine that the Government has tried to keep as many of its servants employed as possible during these difficult times, probably more than are really needed to do the work. If the public servants insist on getting back 100 per cent, of the cut, the inevitable result must be that the services of many of them will be dispensed with. I hope that this will not occur, because I believe that the Government during a time of such great depression should employ as many as possible at a lower wage, rather than a smaller number at a higher wage. </para>
+          </quote>
+          <para class="block">That is all I have to say on these two parts of the bill, the second of which appears to me to be more justified than the first. I hope I shall not be the only honorable senator to speak on this important subject, but that we shall have contributions to this important debate from other honorable senators. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>525</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>. - I regret that <inline font-weight="bold">Senator Duncan-Hughes</inline> has made such a statement with regard to the Public Service. When he makes accusations against a body of employees, who are giving good service to the Commonwealth, the honorable senator should give details. It is unfair for any honorable senator to speak in general terms of the Public Service being over-staffed. I question very much whether the Service as a whole is over-staffed. If we take into consideration the tendency in other parts of the world, and the need for reducing the hours cf work, following scientific developments in industry, it is questionable whether the Commonwealth Public Service is not under-staffed. Only a few days ago <inline font-weight="bold">Senator Duncan-Hughes</inline> endeavoured to justify the proposed additional payment to Ministers. Supporting the proposal to create an extra portfolio and increase accordingly the total amount provided for salaries, the honorable senator said many things with which I agreed. One point he made was that Ministers to-day were being called upon to do extra work, and for this reason an extra portfolio should be created, and the necessary remuneration provided for the extra Minister. If it can be claimed that owing to developments during the last few years the work of Ministers has been increased, it seems to me obvious that, for similar reasons, additional work has fallen upon the Public Service as a whole. Now, when the Government proposes to do a modicum of justice to the Public Service, <inline font-weight="bold">Senator Duncan-Hughes</inline> desires to reduce the number of Commonwealth employees. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>526</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator Duncan-Hughes</name>
+              </talker>
+              <para>- My comparison was between the volume of work Ministers were called upon to handle at the beginning of federation, and that which they have to do at the present time. The honorable senator will see that ministerial work has greatly increased. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>526</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- Conditions have undergone a marked change since 1901. Even during recent years much additional work has had to be performed by Ministers. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>526</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator Duncan-Hughes</name>
+              </talker>
+              <para>- In respect of the Public Service, I contrasted the 1929 and 1935 figures.  </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>526</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- The honorable senator admits that the additional responsibilities placed on the shoulders of Ministers since 19&#39;29 justify an extra &#163;100 a year to each Minister. Increased work has to be performed by Ministers only because the work of the departments which they administer has grown. That, I submit, means that additional work is performed by the Public Service. In these days the tendency is towards a reduction, rather than an increase, of labour. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>526</page.no>
+                <time.stamp />
+                <name.id>JQP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COOPER, Walter</name>
+                <name role="display">Senator Cooper</name>
+              </talker>
+              <para>- Can the honorable senator say how the numbers of Ministers and public servants to-day compare with the figures for 1901 ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>526</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- No, I am not Pata s, the memory man. Last week honorable senators opposite sought to justify increased payments to Ministers on the ground of extra work. If their argument was sound then, an increase to members of the Public Service also is justified. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>526</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator Duncan-Hughes</name>
+              </talker>
+              <para>- I said that there were too many public servants in </para>
+            </talk.start>
+          </interjection>
+          <para class="block">1929. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>526</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- The honorable senator said that the surplus officers in some departments might be transferred to the Defence Department. The way that the war clouds are gathering indicates that there will soon be need to augment the staff of that department. </para>
+            </talk.start>
+          </continue>
+          <para>When a previous proposal to make partial restoration of allowances to members of Parliament was before the Senate I favoured it, and said that, if the allowance were increased to &#163;1,000 a year, I would accept it. During the last election campaign a number of wharf labourers at Mackay asked me my views on the subject of members&#39; allowances. I told them that I accepted the full amount to which I was entitled, and spent every penny of it; and that, if the allowance were increased, I would still spend all of it. In my opinion, it would be better for the community as a whole if every one distributed his earnings in that way. The members of the Opposition are engaged on their parliamentary duties all the year round, not only when Parliament is sitting in Canberra. The amount now paid to each private member of Parliament is &#163;825 a year, out of which Federal and State income taxes, and travelling expenses have to be paid. A few days ago a business man in Brisbane, who is in receipt of &#163;2.500 a year, said that many commercial travellers drew as much for expenses alone as the allowance paid to members of Parliament. On the same ground that I favour a full restoration of salaries to public servants, I favour a full restoration of the allowance to members of Parliament. <inline font-weight="bold">Senator DimcanHughes</inline> should not seek to bind other honorable senators by any undertaking he gave to the electors. When the restoration proposed in this bill has been made, public servants in receipt of salaries up to &#163;1,000 a year will still suffer a reduction of 10 per cent., based on the 1930 standard, whereas members of Parliament will be in receipt of 15 per cent, less than in If 30. I cannot see any reason for the differentiation.  Unlike some members of this Parliament, who are not entirely dependent on their parliamentary allowances, I have no other source of income. A friend told me a. few days ago that two members of the House of Representatives had stated that they did not know that the bill authorizing a further restoration to them had passed through that House. He added, &#34;If Messrs. Fisken and Street did not know what had taken place, they certainly were not worth a rise; and, indeed, were not worth even the amount they were then getting.&#34; This is one of those rare instances in which the Opposition can commend the Government on its action. I hope that, before long, the salaries of public servants will be restored fully, and that at the same time justice will be done to members of Parliament. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>527</page.no>
+              <time.stamp />
+              <name.id>K7M</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLETT, Herbert</name>
+              <name role="display">Senator COLLETT</name>
+            </talker>
+            <para>. - I support the proposal to restore in part the allowance to Ministers. No honorable senator could fail to have been impressed &#62;by the figures mentioned last week hy <inline font-weight="bold">Senator Duncan-Hughes,,</inline> when he compared the amount paid to Ministers to-day with what was considered appropriate remuneration for them at the beginning of federation. Unquestionably, the expansion of legislation and the increase of parliamentary business generally in recent years have been enormous. Even during my brief so journ in thi3 chamber, I have had convincing opportunities to observe the arduous nature of ministerial duties, and my sympathies are entirely with members of the Cabinet. I consider that only men specially fitted for the work and able to bear the strain of it can cope with the pressure placed upon them. Their whole time is devoted to protecting the interests of the people and promoting their welfare, and their own affairs must necessarily receive very little of their attention. Holding these views, I thoroughly approve of the restoration of ministerial salaries. The allowances of members must be approached from a different angle. Personal experiences and considerations influence one&#39;s opinion. In 1933, when a similar bill was before this Senate, I opposed it for the reasons which I then explained. But the present proposal of the Government seems to be based, first on reason, and secondly, on the improved financial position of the country. The 2^ per cent, variation is fully justified, but I deprecate comparisons between this Parliament and any section of the public or social services. Parliament, being supreme, is a thing apart, and nothing likely to impair its dignity or the respect in which it should be held by the public should be tolerated. The personal experience at which I have hinted amply demonstrates to my satisfaction that the present allowance granted to members is little enough, if the end in view is to be gained. </para>
+          </talk.start>
+          <para class="block">Like my colleagues who hail from Western Australia, I have found the expenses of travelling and maintaining virtually two homes particularly burdensome. During the session, honorable senators from Western Australia are unable to maintain direct contact with their private business. Nor is it possible for them to avail themselves of the opportunity that a brief adjournment confers on most members to return to their homes and to devote some attention to their business interests. Consequently, I favour the proposal to restore in part the allowance of members, and also the suggestion made in another place that this allowance should be on a graduated scale, having regard to the remoteness of the constituency from Canberra and the area of the constituency. Western Australia has an area of nearly 1,000,000 square miles, the population is widely scattered, there is a diversity of interests, and only a small portion of the State is served by railways. The difficulties, time and expense involved in travelling to distant part3 of that State will be readily appreciated by honorable senators. Those who belong to the Labour party have said that the proposed increase of the allowances of members should be deferred until invalid and old-age pensions have been restored to &#163;1 a week. Their objection is not sound. Without again emphasizing the present higher purchasing power of the pension, I remind the Senate that the total increase involved in this proposition to grant a partial restoration to members of Parliament is actually less than &#163;3,000, whilst on the Estimates provision is made for an additional &#163;1,000,000 to he distributed to pensioners. The time, I feel, is rapidly approaching when, unless some unexpected and surprising change in the affairs of the country occurs, Parliament will be obliged to choose between fewer pensioners at the present rate, or an increased number of pensioners receiving a lower amount. </para>
+          <para>I am fully in accord with the proposal to make a partial restoration of the salaries of public servants. <inline font-style="italic">Formerly</inline> a civil servant myself, I have undergone the experience of having my income suddenly decreased by 20 per cent, per  annum, despite any commitments I may have had, and my  support will  be accorded to any reasonable instalment of relief that will hasten the return of public service salaries to the <inline font-style="italic">status quo.</inline> The Commonwealth  employs  an excellent body of civil servants, and a highly qualified corps of officers and others in the defence services, and I hope that every encouragement will be given to those persons whose value to the community has been demonstrated in so many ways. <inline font-weight="bold">Senator Duncan-Hughes</inline> has asserted that the Public Service is overmanned. My experience in watching the development of the Service, and more recently in assisting persons intimately associated with it, convinces me that, instead ofbeing overstaffed, the Service is undermanned, being, in fact, considerably below its strength in 1929. I hope that before we are called upon to deal with the Appropriation Bill reliable information regarding the growth of the Public Service will be before us. Even after the adjustments for which this bill provides, ministerial salaries will still be subject to a 17&#189; per cent. reduction, and the allowances of members to a 15 per cent. reduction. For the small measures of relief that the bill offers, members should support  it. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>528</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator PAYNE</name>
+            </talker>
+            <para>.- I rise only to correct the widespread misapprehension among the Australian people concerning the purpose of this bill. In the interests of Australia it was found necessary to introduce special legislation a few years ago to meet a condition of national emergency. That legislation called upon every section of the community to make a sacrifice, but the Minister who introduced the bill stated distinctly that the burdens imposed would remain only until an improvement occurred in the financial position of the Commonwealth, and that year by year the measure would be reviewed, and as the finances warranted, relief would be extended. The bill before the Senate is merely a machinery measure to carry out the original intention of the Financial Emergency Act, and year by year, as the finances grow healthier, we may anticipate similar legislation to reduce the burden of sacrifice imposed upon various sections of the community. I am unable to understand the reasons for criticizing the proposal which is part and parcel of the Government&#39;s policy to give relief to those sections of the community which were called upon to make sacrifices under the financial emergency legislation. We are hoping that next year it will bepossible to give further relief, and that, in the course of time, the finances of the Commonwealthwill be stabilized and salaries and social services will be completely restored. <inline font-weight="bold">Senator DuncanHughes</inline> to-day referred to those provisions in the bill dealing with the further restoration of allowances of Ministers and members of Parliament, and suggested that as the Parliament had been sitting for such a short period this year the restoration was hardly justified. I do not know what amount of work <inline font-weight="bold">Senator Duncan-Hughes</inline> is called upon to do during recess, but as a senator for Tasmania I am more occupied withofficial work for my constituency then than during parliamentary sessions. I have no doubt that other honorable senators have the same experience, so the suggestion that the length of the parliamentary session should govern the allowances of members, is entirely without justification. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>528</page.no>
+                <time.stamp />
+                <name.id>KS9</name.id>
+                <electorate>QUEENSLAND</electorate>
+                <party>ALP; FLP from 1932</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MACDONALD, John Valentine</name>
+                <name role="display">Senator J V MACDONALD</name>
+              </talker>
+              <para>-  There were two elections in Queensland during the last twelve months, and we were expected to take part in them. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>528</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- I am glad that the Government has introduced this bill, and I hope that it will be possible, nextyear, to give still more relief. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>528</page.no>
+              <time.stamp />
+              <name.id>KS9</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party>ALP; FLP from 1932</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, John Valentine</name>
+              <name role="display">Senator J V MACDONALD</name>
+            </talker>
+            <para>. - I endorse what <inline font-weight="bold">Senator Payne</inline> has said concerning, the work of members of Parliament during a parliamentary recess, and though much may be said on both sides of the issues involved in this discussion, I feel sure that the balance of opinion is with <inline font-weight="bold">Senator Payne.</inline> Labour senators believe that when a man is elected to this Parliament, he should devote the whole of his time to the duties devolving upon him as a representative of the people, and I would emphasize that, although the allowance made to members, may, to some people, appear to be high, the many demands made upon members reduce the effective salary by a substantial amount. When I entered this chamber three  years  ago, the allowance pay- able was &#163;800 a year. Later, because th depression deepened, it was reduced to &#163;750, aud senators accepted the reduction without a murmur. Two years later, with better times, it was restored to &#163;825, and if this bill is passed, it will be &#163;850 a year. </para>
+          </talk.start>
+          <para>I disagree with the statement by <inline font-weight="bold">Senator Duncan-Hughes</inline> that some of the Commonwealth Departments are overstaffed. Certainly, his remarks do not apply to any department of the Parliament. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>529</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator Duncan-Hughes</name>
+              </talker>
+              <para>-  I was noi referring to parliamentary departments. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>529</page.no>
+                <time.stamp />
+                <name.id>KS9</name.id>
+                <electorate>QUEENSLAND</electorate>
+                <party>ALP; FLP from 1932</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MACDONALD, John Valentine</name>
+                <name role="display">Senator J V MACDONALD</name>
+              </talker>
+              <para>- I am sure that the consensus of opinion is that public departments are, if anything, under-staffed, for it must be remembered that, during the depression, recruiting for the Public Services was practically suspended. For a period of about three years, the number of appointments made was almost negligible. The effects of this ill-advised course will be more severely felt ten or fifteen years hence, when there will be a lack of suitable officials to fill the higher positions in the Public Service. Nor can it be said truthfully that public servants are over-paid, or not fully employed. I speak with personal knowledge, because I was for some years in the Public Service myself, and I know that had I chosen to accept employment outside, my income for duties similar to those which I was carrying out as a public official, would have been <inline font-style="italic">&#34;&#62;0</inline> per cent, higher. The same may be said of many other public servants in responsible positions. I know that, in some quarters, it is argued that public servants have a feeling of security not enjoyed by all persons in private employment, in that they may look forward to superannuation, upon retirement, and that they are not subjected to the fierce competition experienced in some sections of private industry. But, speaking generally, employees of the State earn every penny of their salaries. I do not believe in paying high salaries to officials unless they are rendering worth-while service to the State. I am not an advocate of waste. I believe in economy in the Public Service as well as in co-operative and private industries, and I speak with some knowledge of those forms of employment. </para>
+            </talk.start>
+          </continue>
+          <para class="block">Although he made the assertion this afternoon, I doubt that <inline font-weight="bold">Senator DuncanHughes</inline> really believes that any of our departments are over-staffed. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>529</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator Duncan-Hughes</name>
+              </talker>
+              <para>-  Yes I do. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>529</page.no>
+                <time.stamp />
+                <name.id>KS9</name.id>
+                <electorate>QUEENSLAND</electorate>
+                <party>ALP; FLP from 1932</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MACDONALD, John Valentine</name>
+                <name role="display">Senator J V MACDONALD</name>
+              </talker>
+              <para>- I am sure that the balance of opinion in this chamber and outside Parliament is against the honorable senator, because, as I have explained, for several years the recruiting for the Public Service was suspended, and some time must elapse before the various departments have their full complement. </para>
+            </talk.start>
+          </continue>
+          <para>I do not like to discuss my own allowance as a member of this chamber, and I daresay that other honorable senators also are reluctant to mention what is after all, a personal matter, but as there are many critics outside this Parliament, it may be desirable to place our position clearly before the people by stating the facts.. I say this because, many years ago, when it was my privilege to edit a newspaper in Queensland, I criticized severely the decision of federal members to raise their allowances from &#163;600 a year to &#163;1,000. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>529</page.no>
+                <time.stamp />
+                <name.id>KTX</name.id>
+                <electorate>SOUTH AUSTRALIA</electorate>
+                <party>UAP</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, James</name>
+                <name role="display">Senator JAMES McLACHLAN</name>
+              </talker>
+              <para>- The honorable senator did not, at that time, expect to become a member of the Senate? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>529</page.no>
+                <time.stamp />
+                <name.id>KS9</name.id>
+                <electorate>QUEENSLAND</electorate>
+                <party>ALP; FLP from 1932</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MACDONALD, John Valentine</name>
+                <name role="display">Senator J V MACDONALD</name>
+              </talker>
+              <para>-  I had no such ambition then. I criticized the proposal to increase members&#39; allowances to &#163;1,000 a year because, whilst the cost of living had increased it had not risen to an extent to justify an addition of &#163;400 a year to the allowances of members of Parliament. When I became a senator for a term in 1922, some of my Labour colleagues twitted me about my earlier attitude to members&#39; allowances, and I explained then that, as the fixing of allowances was a personal matter, much the better course would have been to refer the proposal to the Arbitration Court, and allow that tribunal to decide the issue, as it does in so many industrial claims. As a matter of fact this course was followed in New South Wales some years ago. A statement of the claim was placed before the court and after hearing evidence and counsels&#39; addresses, the judge awarded to members of the State Parliament &#163;875 a year. </para>
+            </talk.start>
+          </continue>
+          <para>
+            <inline font-weight="bold">Senator Duncan-Hughes</inline>has told us that as he entered the Senate when the allowance for members was &#163;800 a year, he is not prepared to support any increase of the amount. Following the general reduction of 20 per cent. in 1931, a further reduction of <inline font-style="italic">&#163;</inline> 50 was made in 1932 because the depression, instead of lifting, deepened, and public servants were being asked to make further sacrifices. There was,however, a definite understanding that, when the financial position of the Commonwealth improved, public servants&#39; salaries and members&#39; allowances would be restored. After all members of Parliament may be regarded as public servants, because their duties essentially involve the rendering of service to the people. As we have been informed that owing to the improved financial position of the Commonwealth, the Government proposes to restore a portion of the salaries of public servants, it is only right that the allowances of members of Parliament should . be partially restored. I intend to take whatever is due to me because, as I shall show shortly, the expenses we incur are much heavier than most persons imagine. Some are under the impression that all our hotel and incidental expenses incurred in travelling are paid by the Government, and that the amount we receive is net. A majority of the members of this Parliament would, if engaged in professional or commercial activities, earn a much higher remuneration than they receive as an allowance. It is not generally known that members visiting Canberra to attend the sittings of Parliament have to pay &#163;5 a week to live here, and that some have to incur the expense of maintaining two homes. When I was a public servant I received a travelling allowance sufficient to pay my hotel and incidental living expenses during the time that I was away from home, and did not have to use my salary at all. That is not so in the case of members of Parliament. As I understand the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> has an important statement to make to the Senate, I ask leave to continue my remarks later. </para>
+          <para>Leave granted; debate adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ITALO-ABYSSINIAN DISPUTE</title>
+        <page.no>530</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para class="block">MinisterialStatement. </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>530</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>- <inline font-style="italic">byleave</inline> -  &#91;4.7&#93;. - To enable honorablesenators to appreciate the pre sent position of the Italo-Abyssinian dispute apart from the course of hostilities, which is fully reported in the press, I shall summarize briefly the information which the Government has received since I made my previous statement in the Senate on the 23rd September. </para>
+        </talk.start>
+        <para>On the 26th September, the League Council received the report of the Conciliation Committee, and decided that a committee consisting of all members of the Council except the parties to the dispute should . commence forthwith the preparation of a report in accordance with paragraph 4, article 15. </para>
+        <para>It was made clear at the Council meeting that this decision would not interfere with attempts to secure by agreement bases for negotiation, as conciliation could continue until the very last moment. </para>
+        <para>The invoking of article 15 meant that the dispute not having been settled by direct negotiation, conciliation, or other means, the Council would now proceed to draw up a report with recommendations. If this report was unanimously adopted, then a party to the dispute resorting to war would, under article 16, be <inline font-style="italic">ipso facto</inline> deemed to be an aggressor, and the Council would then consider the measures under article 16 relating to sanctions to be recommended to States members. </para>
+        <para>If the report was not unanimously adopted, then the parties must, to avoid being deemed an aggressor, wait for at least three months before resorting to war. Even at the end of this period, other State members can still interfere for the maintenance of right and justice. In any case, once a dispute is before the Council, neither side can resort to war within a period of three months. The outbreak of hostilities on the 2nd October before this report had been presented, however, affected the normal procedure, and the Council was then faced with the responsibility of deciding whether either of the parties had resorted to war in violation of its League obligations, in which case the operation of article 16 relating to sanctions would have to be considered. It must not be overlooked, however, that article 16 does not automatically operate, as an interpretative resolution in October, 1921, provides for  co-ordinated action recommended by the Council, and not automatic or individual action. In the present dispute, as the Assembly has been convened for the 9th October, any contemplated action will be the result of agreement in the Assembly, and not merely in the Council. </para>
+        <para>On the 5th October the report of the Council Committee was adopted. The report contained a full statement of the case without any concealment of facts. It considered the view submitted by Italy, and, while indicating that there was some substance in the charges against Abyssinia in regard to slavery and frontier raids, declared that these matters had not previously been brought under the notice of the League in such a way that they could have been dealt with. Consequently, they could not be relied on as justification for aggressive action. </para>
+        <para>In view of the altered position brought about by the commencement of hostilities, the report made no recommendation, but laid it down that the violation of the Covenant must be brought to an end. </para>
+        <para>The Italian representatives, in reporting on the Italian advance, claimed that it was an answer to the Abyssinian mobilization which constituted a threat to Italian colonies. At the same time, Abyssinia appealed for action by the League under article 16. As a consequence, the Council appointed a Committee of Six to consider the facts, and report whether a breach of the Covenant had been committed. </para>
+        <para>The report of the Committee of Six was presented to the Council on the morning of Monday, the 7 th October, and after quoting the official communiques showing the Italian invasion of Abyssinia, recorded that members were not entitled, unless they had complied with the articles of the Covenant, to seek to remedy grievances by war. Measures of security taken by any State within its own borders did not absolve another from its obligations under the Covenant. Consequently, the Committee came to the conclusion that Italy had resorted to war in disregard of its solemn commitments under article 12of the Covenant of the League of Nations. </para>
+        <para>The Council met on Monday afternoon to consider this report, and recorded a unanimous vote for its adoption, the parties to the dispute not voting. In the meantime, the General Assembly of the League, which, owing to the gravity of the international situation, was merely adjourned and not terminated, is called to meet again this afternoon, when -the reports and decision of the Council in regard to the dispute will be communicated to State members. Members will express their opinions, and probably a committee will be set up to recommend the measures to be taken for the application of the provisions of article 16 for any political and economic sanctions deemed to be practicable and effective. What these recommendations will be the Commonwealth Government does not know, and they will obviously depend on the extent to which League Council members are prepared to uphold the principles of the League Covenant. That in turn will depend mainly on the attitude of some of the powerful League members towards coercive measures against the aggressor. </para>
+        <para>It can be regarded as definite, however, that nothing will be proposed which will not have the full support of the League Council members, or which may be regarded as likely to extend the area of hostilities or the number of participants. Beyond this statement, I feel it inadvisable to venture, as the dispute has reached a vital stage, and there is some ground for the hope that Italy may be satisfied with the vindication of Italian arms after a consolidation of its present position, and may be prepared to negotiate for a reasonable settlement, involving concessions on both sides. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>FINANCIALRELIEF BILL 1935</title>
+        <page.no>531</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Second Reading. (Debate resumed from page 530.) </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>531</page.no>
+            <time.stamp />
+            <name.id>KS9</name.id>
+            <electorate>QUEENSLAND</electorate>
+            <party>ALP; FLP from 1932</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MACDONALD, John Valentine</name>
+            <name role="display">Senator J V MACDONALD</name>
+          </talker>
+          <para>. - Members elected to the Commonwealth Parliament in 1932 received for two years only &#163;750 instead of &#163;800 per annum. If those elected for six years receive an additional &#163;25 a year during the next three years, they will not average more than &#163;800, which was the amount to which the allowance was reduced in 1931. By the further reduction made in 1932 we lost another &#163;100 in two years; in the following year we  recovered &#163;25, and for the next two years and nine months we may receive an additional &#163;25 annually. The extra amount involved is so small that even <inline font-weight="bold">Senator Duncan-Hughes,</inline> notwithstanding his promise to his constituents in 1931,  is  entitled to accept it.  The  representative of a Victorian constituency, who has done a good deal of aeroplaning in Australia, favours an increased allowance to those representing large electorates. Some members can travel all over their electorates in a few hours, but senators representing Queensland have an electorate half as big again as Abyssinia. A senator representing &#34;Western Australia has a constituency twice as large as that country. Senators and members of the House of Representatives are supposed to visit every part of their electorate periodically, but, in many instances, that is quite impracticable. Recently a three weeks journey to a portion of Queensland cost me &#163;25, and on a visit to another portion of that State during the previous year, I expended a similar amount. The cost involved in visiting the Darling Downs and the south-western portion of Queensland is  not  so great, but if one has to travel in the northern part of Queensland the expense is exceedingly heavy. If a Queensland senator occupied the whole of the parliamentary recess travelling in different portions of that State he would not only exhaust the whole of his parliamentary allowance, but also would have to borrow money in order to meet his commitments. As a representative of Queensland, it is impossible for  me  to visit every part of that State once  in  six years, but I do visit the larger districts and the more important cities and towns. The proposed partial restoration of members&#39; allowance is necessary, and can be defended effectively by any honorable senator. </para>
+        </talk.start>
+        <para>I welcome the proposed restoration to public servants, whose salaries, after the passage of this bill, will still be subject  to  a reduction of 10 per cent. The percentage withheld from members of Parliament is larger, but we are receiving more than is paid to some public servants who are to benefit under the bill. Furthermore, I would like to  see  a more extensive  works policy initiated by this </para>
+        <para class="block">Government for the relief of unemployment. It seems to me that  this  Government is still attacking this problem in segments only; it is leaving to the States the real job, being content itself to act as a kind of intermediary between the bankers and the State governments. No honorable senator can feel at all satisfied about the finances of this country until we have entirely wiped out unemployment and restored to the families of the workers the conditions which they enjoyed before 1928. The invalid and old-age pension was slightly increased some time ago, but undoubtedly the full pension of &#163;1 a week should be restored. The more purchasing power is distributed in this form and in the form of wages the better it will  be  for  the trading  community and for the country as a whole. With .regard to parliamentary salaries I hold the view, as a Labour advocate, that if we keep cutting down our own salaries in obedience to the clamour outside we shall simply be adding strength to the agitation for further reductions of wages and economic conditions generally. In this way we shall be participating in what has been aptly termed a poverty competition. I support the bill. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>532</page.no>
+            <time.stamp />
+            <name.id>KAY</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GIBSON, William</name>
+            <name role="display">Senator GIBSON</name>
+          </talker>
+          <para>.- I have no objection to the public servants being enabled to participate in any returning prosperity such as this country is enjoying at the present time. <inline font-weight="bold">Senator Duncan-Hughes</inline> said that the Commonwealth Public Service is over-staffed. I remind him that the whole of the Commonwealth Public Service is not composed of permanent employees. For a period I was Postmaster-General and there were 7,000 temporary employees in that department alone. Unfortunately, when a person enters the Commonwealth Public Service, even in a temporary capacity, he regards himself as a permanent officer, and it is difficult to get such persons to adjust themselves again to other employment. There are peak periods in the constructional services, as when the Postal Department inaugurates a big works programme, and staffs have to be increased. Later  the  Government experiences difficulty in dispensing with the services of these temporary employees. Many members of  Parliament plead for the retention of such employees in the Service. That cannot he done. In 192S-29 we spent much loan money, and in many cases found it necessary almost to double existing staffs in order to meet demands for telephonic and other services. Difficulty arose when the Government had to demobilize those staffs, and that difficulty confronts the Government to-day. </para>
+        </talk.start>
+        <para>I admit there is a grave danger that the Public Service may become overstaffed. That fact was brought home to me when I was Postmaster-General. However, much of the trouble in this respect arises from the fact that we have in operation a Public Service Board and a Public Service Arbitrator. I have nothing to say against these officials. I regard them as honorable men who are doing good service in administering acts of this Parliament. However, in many services a working week of 36-^ hours is in operation, and that is one reason why some of the services rendered by government departments are costly. The short working week increases the staffing difficulties of an organization like the Postal Department, which has to operate uneconomical rosters. One of the first steps which should be taken to ensure that the Public Service will be kept at normal numerical strength, is to reconcile the duties of the Public Service Board and the Public Service Arbitrator. That task Parliament will have to face in the near future. </para>
+        <para>With respect to parliamentary salaries I hold the view, as one who has had some experience as a minister, that ministers are underpaid. A minister&#39;s job is a full-time job. Those who have not had experience as ministers fail to realize the extent of the calls which are made on ministers&#39; salaries. These calls, of which private members know nothing, may amount to hundreds of pounds during a year. Furthermore, close attention to ministerial duties, involves sacrifices of private business interests. </para>
+        <para>I come now to the allowances to members. For fourteen years I represented a country constituency in the House of Representatives. Subsequently I calculated that I was worse off to the amount of &#163;250 a year than a member representing a city constituency. The railways were useless to me, except when I was travelling from my home to Melbourne or to Canberra. During those fourteen years I travelled by motor car about 12,000 miles a year; at the rate of 5d. a mile this would work out at a total cost of &#163;250 a year. Apart from the cost of motoring the incidental expenditure incurred by a parliamentarian in travelling through his electorate, is tremendous. So I contend that a representative of a city electorate is from &#163;300 to &#163;400 a year better off than a man representing a country electorate. I would like to see the allowance adjusted on a sliding scale, so that the financial positions of country and city members might&#34; be, as far as practicable, equalized. It is only good exercise for a representative of a city electorate to tour his area, but a representative of a country division experiences great difficulty, and incurs considerable expense in maintaining personal contact with his electorate. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>533</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator Cooper</name>
+            </talker>
+            <para>- What about a senator ? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>533</page.no>
+              <time.stamp />
+              <name.id>KAY</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIBSON, William</name>
+              <name role="display">Senator GIBSON</name>
+            </talker>
+            <para>- We cannot discriminate between the payment made to a senator and that made to a member of the House of Representatives, but it should be possible to put city and country members on a more equal financial footing than at present. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>533</page.no>
+            <time.stamp />
+            <name.id>KTX</name.id>
+            <electorate>SOUTH AUSTRALIA</electorate>
+            <party>UAP</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, James</name>
+            <name role="display">Senator JAMES McLACHLAN</name>
+          </talker>
+          <para>. - <inline font-weight="bold">Senator DuncanHughes</inline> has been taken to task for what has been called his inconsistency, in advovocating  an increase of ministerial salaries, while opposing an increase of the allowances to private members. The two matters are not analogous. <inline font-weight="bold">Senator Duncan-Hughes</inline> compared the salaries paid to Ministers to-day with those paid to Ministers in 1901, and contrasted the growth of ministerial responsibilities with the slight increase of portfolios, and of the salaries attaching thereto. <inline font-weight="bold">Senator Brown</inline> said that if ministerial duties have increased to such an extent as to warrant additional payment, as had been contended by <inline font-weight="bold">Senator Duncan-Hughes,</inline> the duties of the Commonwealth Public Service must have increased correspondingly. But <inline font-weight="bold">Senator Brown</inline> overlooked the fact that the number of public servants has been continually increased since 1901, and at a rate far greater than the increase which has taken place in the number of Ministers. Since the inception of federation the number of Ministers has been increased from seven to ten, whilst in the same period the number of civil servants has been increased by thousands. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>534</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator Collings</name>
+            </talker>
+            <para>-  So has the volume of their work. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>534</page.no>
+              <time.stamp />
+              <name.id>KTX</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>UAP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, James</name>
+              <name role="display">Senator JAMES McLACHLAN</name>
+            </talker>
+            <para>- That may be so. I recognize the force of the argument used by <inline font-weight="bold">Senator Payne</inline> that this bill is merely a machinery measure to give effect to the promises made, incidental to the passing of the Financial Emergency Act. I do not agree with the statement that the Commonwealth Public Service is over-staffed. I think there is plenty of work for the present number of Commonwealth public servants. Neither do I agree with the contention of <inline font-weight="bold">Senator J.</inline> V. MacDonald that public servants sacrificed great opportunities in private careers by remaining in the Service. If the honorable senator himself did that, I cannot understand such a lack of canniness on the part of one whose name includes the prefix &#34; Mc &#34;.  My objection to the bill is that, although it was understood that emergency legislation sacrifices should be lightened when the financial circumstances warranted such a step, the depression is far from over. Certainly Australia is enjoying conditions to-day better than those of two or three years ago ; economic conditions have improved but not to an extent that would justify an increase of the salaries of public servants. The old saying that a man should be master in his own house applies equally to governments. The Commonwealth should be the master of its own affairs, but its finances are derived from the public purse. Public servants employed by State governments are still suffering reductions of their salaries. They are equally as important, hardworking, and deserving as are Commonwealth public servants, and until their salaries are restored we are not justified in granting more money to the servants of the Commonwealth. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>534</page.no>
+            <time.stamp />
+            <name.id>KS7</name.id>
+            <electorate>WESTERN AUSTRALIA</electorate>
+            <party>UAP; LP from 1944</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MACDONALD, Allan</name>
+            <name role="display">Senator ALLAN MACDONALD</name>
+          </talker>
+          <para>. -  I support the bill, although I do not think that it goes far enough. In my remarks on the budget I submitted figures which disprove the rather pessimistic contentions of </para>
+        </talk.start>
+        <para class="block">
+          <inline font-weight="bold">Senator James</inline>McLachlan. I showed to the satisfaction, I believe, of many honorable senators that Australia is again on the up grade financially, and for that reason our depression complex should be abandoned. Commencing from the 1st January next the State civil servants in Western Australia will have their salaries fully restored. In addition, those receiving salaries under &#163;350 a year, will not have to pay any emergency or hospital taxes. Commonwealth public servants in Western Australia are as much entitled to a full restoration of salaries as are the employees of the Western Australian Government. Unfortunately, the salaries of State public servants in Western Australia are lower than those of any other State service, but that is&#34; a matter which does not concern the Commonwealth Parliament. </para>
+        <para>On hia return from abroad the head of the Government was welcomed, in my opinion, justifiably, as Australia&#39;s lion-hearted Prime Minister. There is nothing lion-hearted about this bill. When we reflect on the great strides that Australia has made towards financial recovery, this measure suggests the courage of a rabbit rather than of a lion. I agree with those honorable senators who have said that Ministers are greatly under-paid, and had hoped that <inline font-weight="bold">Senator Gibson</inline> would go further and tell the public of Australia something of the nature of the calls made on them. There is no justification for the secrecy which is observed in regard to the pooling of salaries. In the public Interest the amount paid to each Minister and Whip should be made known. </para>
+        <para>I support the proposal to restore to public servants a trifling 2&#163; per cent, of their salary, a:nd join issue with <inline font-weight="bold">Senator Duncan-Hughes,</inline> who says that the Public Service is over-manned. I should like the honorable senator to visit the north-western district of Western Australia, and see the conditions under which public servants work there. As there are no railways or roads in that district all travelling must necessarily be done by sea. In the Postmaster-General&#39;s Department, for instance, there is no overmanning in Western Australia. Indeed, on my return from that part of the State, I made representations for an improvement of the conditions of the men em- ployed there, and am pleased to say that they were successful. In that part of the Commonwealth, public servants work under conditions must less congenial than those in Queensland, to which reference has been made. <inline font-weight="bold">Senator Duncan-Hughes</inline> may know more about the Public Service in South Australia than I do, but I doubt whether, even in that State, the Service is over-manned. It certainly is not over-manned in &#34;Western Australia. I support the bill, and hope that within the next six months the new Treasurer will be able to re-cast his budget in the light of increased prosperity throughout the Commonwealth. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>535</page.no>
+            <time.stamp />
+            <name.id>KOJ</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">HAYS, Herbert</name>
+            <name role="display">Senator HERBERT HAYS</name>
+          </talker>
+          <para>. -  The bill before u3 is an indication that Commonwealth revenue is more buoyant than for some years, but that does not necessarily mean that every section of the community is sharing in the greater prosperity of the country as a whole. It is true that commercial enterprises are again paying dividends, whilst the increased Customs revenue is evidence of greater importations than formerly; but our export industries, upon the success of which Australia&#39;s ability to pay its overseas indebtedness depends, are still languishing, and the heavy burden of taxation remains. The proposal contained in this bill will not have any substantial effect on the country&#39;s stability, but it will provide those engaged in industry with a ground for making demands for increased pay which, if granted, will increase the cost of production, and the cost of living. The best contribution that this Parliament can make towards the country&#39;s prosperity is a reduction of the burden of taxation. The electors look to it for such relief. </para>
+        </talk.start>
+        <para>The people of Australia generally have no idea of the heavy demands made on Ministers. In my opinion, they are poorly paid in comparison with private members of this Parliament. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>535</page.no>
+              <time.stamp />
+              <name.id>KS7</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>UAP; LP from 1944</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, Allan</name>
+              <name role="display">Senator ALLAN MACDONALD</name>
+            </talker>
+            <para>-  Commonwealth Ministers should be paid more in accordance with the payment? made to British Ministers. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>535</page.no>
+              <time.stamp />
+              <name.id>KOJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYS, Herbert</name>
+              <name role="display">Senator HERBERT HAYS</name>
+            </talker>
+            <para>- I do not know that any honorable senator is sufficiently acquainted with the duties and emoluments of British Ministers to make such a comparison. </para>
+          </talk.start>
+        </continue>
+        <para>
+          <inline font-weight="bold">Senator Gibson,</inline>when speaking on this measure a few moments ago, said that Public Service salaries were determined either by the Public Ser vice Board, or the Public Service Arbitrator, and that Parliament merely voted the money to provide the rates so determined. That may be; but the ever-increasing cost of Government, both Commonwealth and State, is so out of proportion to the increase of the number of taxpayers, that it cannot be allowed to continue. Greater efforts must be made to co-ordinate the work of the Commonwealth and the States, in order to avoid the duplication which now exists. The avoidance of such duplication, with a view to reducing administrative costs, is a matter to which the several governments of Australia will have to give attention in the near future. I am aware that something has already been accomplished in this direction at Premiers conferences, but much still remains to be done. </para>
+        <para>Two years ago I opposed a restoration of the allowances of members of Parliament. I still think that the time is inopportune to increase the amount paid to them. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>535</page.no>
+              <time.stamp />
+              <name.id>K3L</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SAMPSON, Burford</name>
+              <name role="display">Senator Sampson</name>
+            </talker>
+            <para>-  Only a partial restoration is intended. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>535</page.no>
+              <time.stamp />
+              <name.id>KOJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYS, Herbert</name>
+              <name role="display">Senator HERBERT HAYS</name>
+            </talker>
+            <para>- In my opinion, the time is not yet opportune for any restoration. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>535</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator Payne</name>
+            </talker>
+            <para>-  The intention of the original financial emergency legislation was that restoration should he made when the state of the finances warranted it. This bill merely seeks to fulfil that promise. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>535</page.no>
+              <time.stamp />
+              <name.id>KOJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYS, Herbert</name>
+              <name role="display">Senator HERBERT HAYS</name>
+            </talker>
+            <para>- I am opposed to the provision in the bill to increase the allowances of members. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>535</page.no>
+            <time.stamp />
+            <name.id>K9I</name.id>
+            <electorate>South Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">UPPILL, Oliver</name>
+            <name role="display">Senator UPPILL</name>
+          </talker>
+          <para>. -  As a newcomer to the Senate I hesitated before participating in the debate, particularly as two of my colleagues from South Australia who are tried politicians have already addressed themselves to this measure. I do not propose to oppose the increase of Ministers&#39; allowances, for the fulltime nature of their duties unquestionably justifies the restoration. During my election campaign, in answer to a question, I stated from the platform that while the general unemployment position remained  so difficult, especially with regard to youths leaving school, I would not support any restoration of the allowances of members. Between that time and the present no new evidence has been adduced to cause me to change my opinion. If the Government is of opinion that a further restoration of the salaries of public servants should be made at this juncture, I am prepared to support that step, though <inline font-weight="bold">Senator James</inline> McLachlan indicated one major obstacle in the way. He said that a further restoration of Commonwealth salaries would be difficult to justify while civil servants employed by many of the State governments are still suffering substantial reductions. My hope is that the time will quickly arrive when the States will be able to make complete restoration to their employees. I am not in a position to discuss constructively the statements a&#39;bout the over-staffing of the Commonwealth Public Service, but.uo more or no fewer persons should be employed than the work requires. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>536</page.no>
+            <time.stamp />
+            <name.id>KR9</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">LECKIE, John</name>
+            <name role="display">Senator LECKIE</name>
+          </talker>
+          <para>
+            <inline font-weight="bold">.- Senator Payne</inline>has explained most clearly that the proposed restoration of the allowances of members and of the salaries of public servants is not an increase, but is the return of something taken away from them during the depression when every one had to share in the common sacrifice. I did hope that the Government would be able to make a greater restoration to public servants but the Treasurer <inline font-weight="bold">(Mr. Casey)</inline> is a better judge of the financial condition of the country than are honorable senators, and I am content with the present restoration knowing that the Government is on the right road. Next year, perhaps, the progress along this road to complete restoration will be considerably accelerated. Public servants recognized that it was necessary for them to make sacrifices, and if they are not satisfied with the present proposal, they will at least be gratified to know that their remuneration is on the upward grade again. The allowances paid to Ministers are hopelessly inadequate. The world must laugh at Australia on account of the allowances it grants to Ministers; the smallness of these payments suggests that we labour under an inferiority complex. The Prime Minister <inline font-weight="bold">(Mr. Lyons),</inline> head director of the Commonwealth - a continent of 3,000,000 square miles - receives less than &#163;2,000 a year and his Ministers get even less. Such payments are ridiculous. No business man conducting a concern of any magnitude would expect capable management if he paid such inadequate salaries as are paid to Ministers. About twelve years ago the allowances of members of the Commonwealth Parliament were increased to &#163;1,000. Some controversy over the increase occurred at the time, but at least half a dozen elections have since taken place and the public of Australia have accepted the increase as having been quite justified. Whatever may have occurred in South Australia, most members of this Parliament were elected on the &#163;1,000 a year basis. When the depression overtook the country members set a wise example to the people bv voluntarily reducing their allowances, iu token of their willingness to share in their constituents&#39; sacrifices. But there was the understanding that when the depression departed their allowances should be restored to &#163;1,000. Whether that amount is sufficient or not is not the issue in this debate. Did members have to consult their electors before reducing their own allowances? They had not. As Australia is getting out of the depression members are entitled to share in the general improvement. At &#163;1,000 per annum they are by no means overpaid. In the few weeks that I have been in Canberra, I have realized that I would complete my term of six years a relatively poor man had I not a .business of my own. However, the contention that brought me to my feet was that the civil service is overstaffed. One honorable senator asserted that in a period of depression civil servants had less work to do than in an era of prosperity. To that I reply that during the last five years administrative officers have had almost twice as much work to do as they do in normal times. The post office is a service department, as it were, and probably employees in that branch, had not had so much to do because of the reduced volume of business. But relief works and new schemes considered by Parliament as palliatives of the depression threw more work on the shoulders of most public servants than they had to do during the peak period of prosperity. The public service cannot be organized and conducted on lines similar to a factory or business. In private enterprise if output decreases, or sales are falling off, employees have to be dismissed. But in the Public Service an officer is just as valuable in depression as in prosperity; his work does not diminish, and it may even increase. If his salary was appropriate to his work in normal times it is appropriate in adversity too. Salaries were reduced only because all other classes of the community were suffering severely from the depression, and it was regarded as proper and necessary that members of Parliament and civil servants should share in the sacrifice endured by persons in other walks of life. I think that the bill is on the right lines, though I repeat I would like to see greater restoration made to Ministers and civil servants. The Government is to be commended for having introduced this measure. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>537</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;4.57&#93;. - To view this bill in its proper perspective members should cast their minds back to the time when the depression first made its influence felt in Australia, and all governments were summoned to frame measures to meet the storm. <inline font-weight="bold">Sir John</inline> Latham, and I, who sat in Opposition then, were invited to the historic conference of Commonwealth and State representatives in Melbourne, and I remember vividly the debates that took place on the general scheme for a rehabilitation of the country. Representatives of governments of varying political complexions - Labour, Nationalist, and Nationalist-Country party - attended, and every delegate recognized that the desperate situation required exceptional measures. The national income hod dropped by over &#163;200,000,000, and the revenues of all governments had decreased. The conference devised two remedies. On the one hand they cut down their expenditure by shortening essential services, stopping public works and reducing salaries. On the other hand they increased their revenues by imposing special forms of taxation. These two methods were co-ordinated in an effort to balance Commonwealth and State budgets because it was realized that the only way to restore confidence was to arrest the drift in government finance. </para>
+        </talk.start>
+        <para class="block">These measures became part of the Premiers plan, and <inline font-weight="bold">Senator Payne</inline> was accurate in every detail when he stated that it was considered part of that plan that, as the financial position improved, these special measures should be modified. That modification was to be not merely in respect of salaries, but also in respect of special taxation. To the credit of Commonwealth and State Governments it can be said that before they began to restore salaries they commenced to reduce the burden of this special taxation. If honorable senators will refer to the details they will find that already the Commonwealth Parliament has remitted taxes to the amount of nearly &#163;11,000,000 per annum. Later the governments commenced, to restore salaries. </para>
+        <para>
+          <inline font-weight="bold">Senator Duncan-Hughes</inline>and other honorable senators mentioned the overstaffing of the Public Service, and criticized the Government for having failed to learn the lesson of the depression. That is quite unfair and incorrect. I have the report of the Public Service Board of Commissioners for 1934, and for comparative purposes I have obtained figures for 1929 and ensuing years. In the Commonwealth Service in 1929 there were 28,147 permanent officers, 5,012 exempt officers, and 3,S70 temporary officers, making a total of 37,029. The aggregate in 1930 was 36.831. Next year, after the Commonwealth and State Governments had taken action under the Premiers plan, the total fell to 32,312, and in 1932 to 32,236. In the following year 27,030 permanent officers and 5,528 temporary and exempt officers were employed ; total, 32,558. In 1934 the permanent officers were reduced to 26,977, which was the least number employed for many years, but the number of temporary and exempt officers increased to 8,026. Therefore, although the, total rose to 35,003, although that number is still 1,828 below the total for 1930 and 2,026 below the total for 1929. These figures showclearly that, in the last few years, there has been a considerable contraction of the number of employees in the Public Service. </para>
+        <para>
+          <inline font-weight="bold">Senator Leckie</inline>was correct when he stated that in some respects the depression had been responsible for an increase of governmental activities and, therefore, an increase of the number of employees in certain departments. An examination of the figures for the various departments will amply bear out his statement. But before dealing with that matter, I direct attention to the figures to be found on page 22 of the report of the Public Service Board giving the total number of officers employed in each department of the Commonwealth Public Service as well as their total and average salaries. The total salaries paid for the year ended the 30th June, 1931, was &#163;8,162,869, compared with &#163;7,115,167 for the year ended the 30th June, 1934. The average salary per officer in 1931 was &#163;288.10; in 1934, it was &#163;263.75. Thus there was a substantial fall last year, in both the total and average salaries of officers of the Public Service as compared with 1931. </para>
+        <para>Because of the criticism in some quarters that in making a partial restoration of salaries the Commonwealth is not acting fairly towards the States which were partners with the Commonwealth in implementing the Premiers plan, I wish to emphasize that if there were a complete restoration of salaries to the Service under the Public Service Act, the total salary bill would still be &#163;1,066,000 below the amount paid in 1930, owingto the automatic adjustments due to the fall of the cost of living - an overall reduction of the 1930 rates by 12&#189; per cent. State public servants&#39; salaries in most of the States were not affected by cost of living variations, whereas all Commonwealth salaries, even where restoration has been made, are still reduced on account of the decline of the cost of living. It is well that I should state these facts in order to dissipate the feeling existing in some quarters that we are not acting fairly by the States. </para>
+        <para>
+          <inline font-weight="bold">Senator Leckie&#39;s</inline>statement that there had been anactual increase of the work of certain Commonwealth departments as a direct result of the depression,, is borne out by the figures in this report. Appendix B, on page 23, gives the number of employees in the several departments, and, as might be expected, it registers increases of employees in those departments which have been called upon to do additional work during and since the depression. One is the Department of the Attorney-General. A superficial examination of the activities of that department might suggest that it was overmanned ; but those of us who were in this Parliament during the Lang regime in New South &#34;Wales, know only too well that in the depression years the department was much overworked and understaffed. Responsible officers were called upon to work a great deal of overtime in preparing special legislation to meet the pressing needs of the time. Therefore, we need not be surprised at the increase of the number of permanent employees from 233 in 1930 to 288 last year.  </para>
+        <para>Another department that has been overworked for some years is that of the Treasury. Prior to the depression, an employee in the Treasury might reasonably have expected to enjoy a comparatively peaceful life, but during and since the worst phase of the depression it has been called upon to do a great deal of work in connexion with the initiation of sales tax and other special taxation measures. This explains the increase of the number of permanent employees from 947 in 1930 to 1,422 in 1934. The necessity for the Commonwealth, owing to the decline of the national income, to give its attention to the opening of new channels for trade, led to the creation of the Commerce Department, the permanent employees of which now number 524. The figures which I have quoted are, I think, significant. They show that, notwithstanding the increase of employees in some departments, due to activities forced upon the Commonwealth by the depression, there has been a reduction of the total number of employees, as well as reductions of the total and average salaries paid, so there can be no justification for the charge, made in some quarters, that the Public Service is overmanned. </para>
+        <para>Question resolved in the affirmative. </para>
+        <para>Bill read a. second time. </para>
+        <para class="italic">
+          <inline font-style="italic">In committee:</inline>
+        </para>
+        <para>Clause 1 agreed to. </para>
+        <para>Clause 2 - </para>
+        <quote>
+          <para>Section 9 of the principal act is amended - </para>
+          <list type="loweralpha">
+            <item label="(a)">
+              <para>by omitting the words &#34; seventeen and one-half per centum &#34; and inserting in their stead the words &#34;fifteen per centum &#34;. </para>
+            </item>
+          </list>
+        </quote>
+        <para class="italic">
+          <inline font-style="italic">Section proposed to be amended -</inline>
+        </para>
+        <list type="decimal">
+          <item label="(1)">
+            <para>
+              <inline font-style="italic">Notwithstandinganything contained in any act, the total amount of allowances or of salary and. allowances . . . shall be reduced as follows: -</inline>
+            </para>
+            <list type="loweralpha">
+              <item label="(a)">
+                <para>
+                  <inline font-style="italic">Where the amount does not exceed one thousand pounds - by seventeen and one-half per centum.</inline>
+                </para>
+              </item>
+            </list>
+          </item>
+        </list>
+        <para>Amendment (by <inline font-weight="bold">Senator DuncanHughes)</inline> put - </para>
+        <para>That  paragraph (a) be  left out. </para>
+      </speech>
+      <division>
+        <division.header>
+          <time.stamp />
+          <para>The committee divided. (Chairman - Senator Sampson.)</para>
+        </division.header>
+        <division.data>
+          <ayes>
+            <num.votes>8</num.votes>
+            <title>AYES</title>
+          </ayes>
+          <noes>
+            <num.votes>18</num.votes>
+            <title>NOES</title>
+          </noes>
+        </division.data>
+        <para>Majority . .  . . 10 </para>
+        <para class="block">
+          <graphic href="147332193510095_18_1_3_P.jpg" />
+        </para>
+        <para>AYES</para>
+        <para class="block">
+          <graphic href="147332193510095_18_1_1_A.jpg" />
+        </para>
+        <para>NOES</para>
+        <para class="block">
+          <graphic href="147332193510095_18_1_2_N.jpg" />
+        </para>
+        <division.result>
+          <para>Question so resolved in the negative. </para>
+        </division.result>
+        <para>Amendment negatived. </para>
+        <para>Clause agreed to. </para>
+        <para>Clauses 3 to 11 agreed to. </para>
+        <para>Schedule agreed to. </para>
+        <para>Title agreed to. </para>
+        <para>Bill reported without amendment; report adopted. </para>
+        <para>Bill read a third time. </para>
+      </division>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>APPROPRIATION (WORKS AND BUILDINGS) BILL 1935-36</title>
+        <page.no>539</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para class="block">Bill received from the House of Representatives. </para>
+      <para>Standing and Sessional Orders suspended. </para>
+      <para>Bill (on motion by <inline font-weight="bold">Senator Sir George</inline> Pearce) read a first time. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>539</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>539</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>ALP; NAT from 1917; UAP from 1931</party>
+              <role>Minister for External Affairs</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;5.26&#93;.  - I move- </para>
+          </talk.start>
+          <quote>
+            <para>That the bill be now read a second time. </para>
+          </quote>
+          <para class="block">The proposed expenditure from the Consolidated Revenue Fund on additions, new works, and buildings for the year ending the 30th June, 1936, aggregates &#163;3,352,230. The following table shows how this amount has been distributed, and also the actual expenditure for the financial year 1934-35 :  - </para>
+          <para class="block">
+            <graphic href="147332193510095_18_0.jpg" />
+          </para>
+          <para class="block">The amount provided from Consolidated Revenue for new works is &#163;2,300,000 greater than the amountexpended from revenue last year. This is accounted for mainly by increased expenditure on defence and postal works. Increased defence expenditure amounting to &#163;667,000 is necessary to carry out the second stage of the three years defence programme. The amount provided for postal works is &#163;1,650,000 compared with expenditure of &#163;202,000 yast year, or an increase of &#163;1,448,000. The increase is due to expenditure on postal works last year having been almost entirely from loan fund. The amount expended from that source last year was &#163;1,240,000. The total amount actually provided this year for postal works, including the balance of last year&#39;s loan appropriation, is &#163;1,891,000, compared with a total expenditure last year from revenue and loan fund of &#163;1,443,000, or an increase of &#163;448,000. This year owing to the demand on loan money it has been found necessary to provide that the bulk of the expenditure on postal works shall be paid from revenue instead of from loan moneys. The total amount estimated to be expended on Commonwealth works from revenue . and from loan fund . during 1935-36 is &#163;4,379,000, compared with an actual expenditure last year of &#163;2,575,000, or an increase of &#163;1,804,000. In addition, &#163;1,707,000 of the trust account specially appropriated from the accumulated  excess receipts of the Consolidated RevenueFund at the 30th June, 1934, will be expended on defence works. The expenditure from this source last year was &#163;934,000. Honorable senators will see that theworks programme for this year represents a considerable increase on the actual expenditure of last year. Bythis means it is proposed to meet the everincreasing demands for revenueproducing works, services, &#38;c., which have been seriously retarded by the financial stringency of recent years, and at the same time to provide a considerable measure of assistance in respect of unemployment. </para>
+          <para>In these comparisons no allowance is made for the appropriations approved by Parliament last year for financial grants to the States for unemployment relief works. It is estimated that this year &#163;1,216,750 will be made available for that purpose. </para>
+          <para>Debate (on motion by <inline font-weight="bold">Senator Collings)</inline> adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>540</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Postmaster-General&#39;s Department :</title>
+          <page.no>540</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Employment of Returned Soldiers - Synthetic Petrol</title>
+          <page.no>540</page.no>
+        </subdebateinfo>
+        <para>Motion (by <inline font-weight="bold">Senator Sir George</inline> Pearce) proposed - </para>
+        <quote>
+          <para>That the Senate do now adjourn. </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>540</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role>Postmaster-General</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>. - On the 29th September, <inline font-weight="bold">Senator Brand</inline> asked me the following questions :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What is the number of returned soldiers temporarily employed as linesmen, conduit workers and mechanics in the PostmasterGeneral&#39;s Department. Victoria- - </para>
+            </item>
+            <item label="2.">
+              <para>What is the number of returned soldiers engaged to carry out flood damage repairs and work in connexion with the Victorian centenary celebrations? </para>
+            </item>
+            <item label="3.">
+              <para>If the answers to 1 (a) and (b) are not identical, how many of the discharged men are married, and what is the total period of temporaryemployment of each one prior to 1st July, 1934? </para>
+            </item>
+          </list>
+          <para>I am now in a position to furnish the honorable senator with the following information :  - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>The temporary staff employed on the dates mentioned was - </para>
+              <list type="loweralpha">
+                <item label="(a)">
+                  <para>1st July, 1934 - Linesmen, 265: conduit workers, 22: mechanics, 27: total, 314. </para>
+                </item>
+                <item label="(b)">
+                  <para>21st September, 1936 - Linesmen, 297; conduit workers,69; mechanics, 69; total, 435. </para>
+                </item>
+              </list>
+            </item>
+          </list>
+          <para class="block">Of the totals given, about 95 per cent. were returned soldiers. 2.It is impracticable to furnish this information, because men are engaged from day to day as the need arises in various parts of theState, and are also employed for varying periods. In many instances, they are engaged to relieve permanentofficers whose services may be needed elsewhere. </para>
+          <list type="decimal-dotted">
+            <item label="3.">
+              <para>The number of temporary men employed in September, 1935, considerably exceededthese employed as at 1st July, 1935. </para>
+            </item>
+          </list>
+          <para>A few days ago <inline font-weight="bold">Senator Foll</inline> asked me a question concerning the production of synthetic petrol. As it may be of interest generally to honorable senators, I shall read a letter which I addressed to him with reference to that matter. It is as follows: - </para>
+          <quote>
+            <para class="block">Dear <inline font-weight="bold">Senator Foll,</inline></para>
+            <para>With reference to the question which you asked in the Senate on 1st October, 1935, relative to the production of synthetic petrol, it would appear that the product to which you refer is that mentioned in the <inline font-style="italic">Sydney Morning Herald</inline> of 1st October, which deals with a demonstration test of a motor fuel called &#34; Corethstoff &#34;. The constituents of the fuel were stated to be raw spirit, oils of vegetable base, 13per cent, of water, and a secret &#34; binding &#34; agent. In a test at Brooklands, a car registered 95 miles per hour on this mixture, and only 85 on petrol. </para>
+            <para>It is almost certain that the main component of the fuel was alcohol, with which water mixes readily. The addition of a blending agent - called in the press report a &#34;binding &#34; agent - points to a certain amount of petroleum spirit being present also. The purpose of the blending agent is to make the petroleum soluble in aqueous alcohol, so as to prevent the separation of the fuel into two layers. A number of compounds fulfilling this function are known, but the nature of the agent used on this particular occasion was not disclosed. </para>
+            <para>It is well known that alcohol blends develop more power from a given engine than petroleum spirit. It is for this reason that alcohol is commonly used as a constituent of motor fuels in racing cars. </para>
+            <para>Stabilized alcohol blends containing 20 per cent. or so of water can be used in an engine if desired. But there is no merit in the presence of water in the mixture, for it has no fuel value. In so far as the addition of water is concerned, the demonstration is what is usually termed a &#34; stunt &#34;. It is not even original. </para>
+          </quote>
+          <para>Question resolved in the affirmative. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>540</page.no>
+        <time.stamp>17:38:00</time.stamp>
+      </adjournmentinfo>
+      <para>Senate adjourned at 5.38 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

@@ -1,251 +1,1692 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1933-10-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1933-10-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1933-10-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1933-10-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1933-10-20%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1933-10-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1933-10-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1933-10-20/19331020_senate_13_141.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1933-10-20</date>
+    <parliament.no>13</parliament.no>
+    <session.no>1</session.no>
+    <period.no>4</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>3742</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1933-10-20</day.start>
+      <para>The <inline font-weight="bold">PRESIDENT (Senator the Hon. P. J. Lynch)tookthe</inline> chair at, 11 a.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>3742</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers were presented :  - </para>
+      <quote>
+        <para>Arbitration (Public Service) Act - Determinationsby the Arbitrator, &#38;c. - </para>
+        <para>No. 4 of1933. - Amalgamated Postal Workers&#39; Union of Australia; </para>
+        <para>No. 5 of 1933.  -  Amalgamated Postal Workers&#39; Union of Australia ; Australian Postal Electricians&#39; Union; Australian Third Division Telegraphistsand Postal Clerks&#39; Union ; CommonwealthLegal Professional Officers&#39; Association: Commonwealth Public Service Artisans&#39; Association;&#39; Commonwealth. Public Service Clerical Association ; Commonwealth Telegraph Traffic and Supervisory Officers&#39; Association; Commonwealth Telephone Officers&#39; Association; Federated Public Service Assistants&#39; Association of Australia ; Fourth Division Officers&#39; Association of the Trade and Customs Department; Fourth Division Postmasters, Postal Clerks and Telegra- &#39; phists&#39; Union; Line Inspectors&#39; Association. Commonwealth of Australia; Meat Inspectors1 Association, Commonwealth Public Service; Professional Officers&#39; Association, Commonwealth Public Service; Arms. Explosives and Munition Workers&#39; Federation of Australia ; Commonwealth . Naval Storehousemen&#39;s Association and Commonwealth Storemen and Packers&#39; Union of Australia. </para>
+        <para>No. 16 of 1933.  -  Australian Postal Electricians&#39; Union. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3742</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>INTERNATIONAL WHEAT AGREEMENT</title>
+          <page.no>3742</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3742</page.no>
+              <time.stamp />
+              <name.id>JZ6</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;HALLORAN, Michael</name>
+              <name role="display">Senator O&#39;HALLORAN</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Commerce, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Has the policy of the Government to implement thewheat. agreement in so faras it affects Australia,by fixing export quotas, &#38;c, received the unanimous approval of the representatives of the voluntary pools in the respective States? </para>
+          </quote>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3742</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- The Minister for Commerce discussed the Government&#39;s proposals with representatives of the Victorian and South Aus- tralian pools, who indicated that they considered that the proposals appeared to&#39; provide equitable treatment for the various exporting interests, and opportunities for the disposal by farmers of the wheat produced by them from the 1933-34 harvest. At the same time, the pool representatives indicated that they would prefer a compulsory Australian pool. </para>
+            </talk.start>
+          </interjection>
+          <para>The Minister for Commerce is calling a conference of all wheat and flour exporting interests, including the voluntary pools, to discuss the administration of the policy outlined by the Government. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3743</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ELECTORAL REDISTRIBUTION</title>
+          <page.no>3743</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3743</page.no>
+              <time.stamp />
+              <name.id>KOZ</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HOARE, Albert</name>
+              <name role="display">Senator HOARE</name>
+            </talker>
+            <para>asked the Minister representing the Minister for the Interior, <inline font-style="italic">uponnotice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Has the Minister any information that he can give in reference to the alteration of federal electoral boundaries? </para>
+            </item>
+            <item label="2.">
+              <para>Will South Australia lose a member of the House of Representatives as a result of any such alteration? </para>
+            </item>
+          </list>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3743</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- The Minister for the Interior supplies the following answers: - </para>
+            </talk.start>
+          </interjection>
+          <quote>
+            <para>No definite statement can be made until the final population figures of the Commonwealth, and of the several States, are received from the Commonwealth . Statistician, but, on present indications, it is probable that South Australia will lose a member of the House of Representatives. The honorable senator&#39;s attention is invited to the answer to a  question given by the Minister for the Interior yesterday. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3743</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PAPUA AND MANDATED TERRITORY OF NEW GUINEA</title>
+          <page.no>3743</page.no>
+        </subdebateinfo>
+        <para>Transport of Officials</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3743</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Health, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>How . many officials, with their wives and families, of the Papuan and New Guinea Administrations booked passages during the year 1932-33 from the above-mentioned territories to Australia, on business and on Service leave ? </para>
+            </item>
+            <item label="2.">
+              <para>Will the Minister supply a list showing how many foreign vessels, with their names and tonnage, and Australian vessels manned with Asiatic crews, with their names and tonnage . also, have passed through the Customs of Papua , and -Mandated Territory of New Guinea during the year1932-33 ? </para>
+            </item>
+            <item label="3.">
+              <para>Are there any German vessels engaged in .  the coastal trade, of Papua and the Mandated Territory of New Guinea which are manned by German nationals; if so. what are (their names and tonnage? </para>
+            </item>
+            <item label="4.">
+              <para>Was the seaplane involved in the recent fatal accident in the coastal waters of Rabaul, Mandated Territory, in a fit and proper condition when she recently loft Australia for Rabaul ? </para>
+            </item>
+            <item label="5.">
+              <para>What provision, if any, is made at Rabaul to grant certificates as to aerial fitness of seaplanes and aeroplanes? </para>
+            </item>
+          </list>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.The Minister for Health supplies the following answer: - </para>
+          <quote>
+            <para>The information asked for by the honorable senator will be obtained as far as possible. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3743</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>COAL-MINING INDUSTRY</title>
+          <page.no>3743</page.no>
+        </subdebateinfo>
+        <para>Employment and Clothing Supplies</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3743</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>asked the Leader of the Government in. the Senate, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>In view of the unprecedented distress of unemployed coal-miners and their families during . the last four years, is the Government prepared to set aside the sum of &#163;10,000, to provide Christmas &#39; work, and for renovation of Commonwealth Government offices and property in the Cessnock and Newcastle mining centres; the sum of &#163;5,000 in the muting centres of the Lithgow Valley, New South Wales; and also  &#163;5,000 in the coal-mining centres of the South  Coast of New South Wales? </para>
+            </item>
+            <item label="2.">
+              <para>Failing the allocation of the abovementioned sum of &#163;20,000, is the Commonwealth Government prepared to make an issue of men, women and children&#39;s wearing apparel in the above-mentioned districts? </para>
+            </item>
+          </list>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.The answers to the honorable senator&#39;s questions are as follow: - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>The Government will investigate the possibilities as to renovations of Commonwealth property which might be undertaken in the localities mentioned. </para>
+            </item>
+            <item label="2.">
+              <para>The Government is unable to regard the making of provision for the issue of clothing in such cases as within its sphere of action. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3743</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>FEDERAL MEMBERS</title>
+          <page.no>3743</page.no>
+        </subdebateinfo>
+        <para>Accommodation in State Capitals. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3743</page.no>
+              <time.stamp />
+              <name.id>K7M</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLETT, Herbert</name>
+              <name role="display">Senator COLLETT</name>
+            </talker>
+            <para>asked the Minister representing the Minister for the Interior, <inline font-style="italic">upon -notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Will he inform the Senate as to the accommodation provided for the use of members of the Commonwealth Parliament in each of the capital cities of Australia? </para>
+          </quote>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3743</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- The Minister for the Interior supplies the following answer: - </para>
+            </talk.start>
+          </interjection>
+          <quote>
+            <para>Accommodation is provided for the use of members of the Commonwealth Parliament in each of the capital cities of Australia as hereunder :  - Sydney, Commonwealth Bank </para>
+            <para>Building; Melbourne-, 318 Post Office-place; Brisbane, General Post Office; Adelaide, Commonwealth Offices abutting General Post Office; Perth. General Post Office; Hobart, Customs House. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3744</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BARLEY EXPORTS</title>
+          <page.no>3744</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3744</page.no>
+              <time.stamp />
+              <name.id>JNM</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BADMAN, Albert</name>
+              <name role="display">Senator BADMAN</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Commerce, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>If it is a fact that cablegrams threatening the restriction and cancellation of imports of barley from Australia by certain European countries have been received by exporters, will the Government take any action that it considers necessary to assist barley-growers to keep the markets which they already have overseas ? </para>
+          </quote>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.The Minister for Commerce supplies the following answer :  - </para>
+          <quote>
+            <para>The Government will make inquiries regarding this matter with a. view to taking appropriate steps to preserve the existing export markets to Australian barley-growers. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3744</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BANANA INDUSTRY</title>
+          <page.no>3744</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3744</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Trade and Customs, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Has the Minuter sampled the product of the new primary industry recently established in Western Australia, viz., the banana industry? </para>
+            </item>
+            <item label="2.">
+              <para>If so, will he inform senators how such product compares with the foreign imported bananas ? </para>
+            </item>
+            <item label="3.">
+              <para>Is the establishment of the new industry due to a policy of protection against blackgrown bananas? </para>
+            </item>
+          </list>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.The Minister for Trade and Customs supplies the following answers: - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>No. </para>
+            </item>
+            <item label="2.">
+              <para>See No. 1. </para>
+            </item>
+            <item label="3.">
+              <para>The establishment of the industryhas evidently been brought about by the adequacy of the present protective duties. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3744</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CHILLED BEEF AND MUTTON</title>
+          <page.no>3744</page.no>
+        </subdebateinfo>
+        <para>Experiments and Exports</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3744</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Commerce, upon <inline font-style="italic">notice -</inline> 1.For what, period have experiments been conducted under the auspices of the Commonwealth Government in chilling beef for export purposes at the Brisbane abattoir*? </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="2.">
+              <para>What has been the cost to the Commonwealth Government&#39; to date of such experiments? </para>
+            </item>
+            <item label="3.">
+              <para>What quantities of chilled beef and/or mutton have been exported overseas as a result of such experiments? </para>
+            </item>
+            <item label="4.">
+              <para>What was the cost of such shipments? </para>
+            </item>
+            <item label="5.">
+              <para>If such shipments have been made, what were the results achieved; also, what percentage of the shipments was affected by mould and other agencies ofdeterioration ? </para>
+            </item>
+            <item label="6.">
+              <para>For what length of time did the meat keep fresh and sound after being taken from the chilling rooms? </para>
+            </item>
+          </list>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.The information is being obtained, and will be made available as soon as possible. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>BUTTER INDUSTRY</title>
+        <page.no>3744</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Stabilization of Australian Prices</title>
+          <page.no>3744</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3744</page.no>
+              <time.stamp />
+              <name.id>KS9</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, John Valentine</name>
+              <name role="display">Senator MacDONALD</name>
+            </talker>
+            <para>asked the </para>
+          </talk.start>
+          <para>Minister representing the Minister for Commerce, <inline font-style="italic">upon notice -</inline></para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Has he observed a statement issued by the Australian Primary Producers Association, and published in the Maryborough (Queensland) <inline font-style="italic">Chronicle</inline> of 7th October, . 1933, to the effect that the plans for an Australian price for dairy farmers and the re-organizing of the system of quotas, whereby every butter factory shall accept its share of the export of Australian surplus butter to the London market, have been pushed on with all possible speed, that Queensland and New South Wales Governments have drafted the necessary legislation, but the Federal Government has given no practical support, and has insisted on assent from every State? </para>
+            </item>
+            <item label="2.">
+              <para>Has the Federal Government any substantial objection to the necessary legislative effect being given to these plans for the stabilization of an Australian price for butter? </para>
+            </item>
+            <item label="3.">
+              <para>If not, will the Government say whether it will give full assistance in expediting this matter ? </para>
+            </item>
+          </list>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3744</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- The Minister for Commerce supplies the following answers :  - </para>
+            </talk.start>
+          </interjection>
+          <quote>
+            <para>The statement referred to has . not been seen, but if it has appeared it is not correct. Following upon a discussion at a conference of State Ministers of Agriculture held in Sydney in May, 1933, this subject was discussed at the Premiers Conference held in Melbourne on the 8th to 14th June, . 1933. At the Premiers Conference it was resolved that the States should consider and submit to the Commonwealth proposals for a marketing scheme for butter. The Commonwealth Government representatives undertook that careful consideration would be. given . to any scheme suggested by the States. It is understood that, pursuant to this decision, the States have been in consultation, but up to the present the result of- such consultation has not been intimated to the Commonwealth Government. Until the Government is advised regarding the consultations between the &#39;States,  it is unable to give consideration to the matter. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3745</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SEDITIOUS LITERATURE</title>
+          <page.no>3745</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3745</page.no>
+              <time.stamp />
+              <name.id>K1Z</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">RAE, Arthur</name>
+              <name role="display">Senator RAE</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Trade and Customs, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>To whom does the Minister delegate the task of perusing any literature of a supposedly seditious character, and is there any method of appeal from such person or persons to the responsible Minister ? </para>
+            </item>
+            <item label="2.">
+              <para>Is it a fact that the Minister has absolutely refused to furnish senators with a list of the publications prohibited under the regulation referring to allegedly seditious literature? </para>
+            </item>
+            <item label="3.">
+              <para>What justification can be claimed for denying to members of this Parliament such information as to prohibited publications which may be necessary in pursuance of their duties to the electors? </para>
+            </item>
+          </list>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3745</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- The answers  are- </para>
+            </talk.start>
+          </interjection>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Literature is first examined by officers of the Customs Department, and any literature which appears to be of a seditious character is submitted to the Attorney-General&#39;s Department for opinion. If it is decided that the literature is of a seditious character, and the importer is dissatisfied with the decision he can appeal to the Minister for Trade mid Customs for reconsideration of the decision. 2 and 3. It is not the practice to publish lists of publications containing seditious literature inasmuch as it is considered that the publication of the names of such prohibited literature would unnecessarily advertise the particular publications. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3745</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>NOTE ISSUE</title>
+          <page.no>3745</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3745</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>asked the Minister representing the Treasurer, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Have any complaints been received from Brisbane concerning the unsuitability of the recent note issue? </para>
+            </item>
+            <item label="2.">
+              <para>What is the nature of these complaints? </para>
+            </item>
+            <item label="3.">
+              <para>Does the Government contemplate a now issue of notes that will overcome the objections of the business community? </para>
+            </item>
+          </list>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCEThe Treasurer supplies the following answers : - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>A communication on this subject was received yesterday  from the  Brisbane Chamber of Commerce. </para>
+            </item>
+            <item label="2.">
+              <para>They refer to the design and quality of paper. </para>
+            </item>
+            <item label="3.">
+              <para>The matter is being referred for consideration to the Commonwealth Bank, which controls the note issue. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>LEAVE OF ABSENCE</title>
+        <page.no>3745</page.no>
+        <type>leave of absence</type>
+      </debateinfo>
+      <para class="block">Motion (by <inline font-weight="bold">Senator Collett)</inline> agreed to- </para>
+      <quote>
+        <para>That <inline font-weight="bold">Senator Sir Walter</inline> Kingsmill be granted one month&#39;s  leave of absence on the ground of ill-health. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>3745</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ESTIMATES AND BUDGET PAPERS 1933-34</title>
+          <page.no>3745</page.no>
+        </subdebateinfo>
+        <para>Debate resumed from the 4th October <inline font-style="italic">(vide</inline> page 3191), on motion by <inline font-weight="bold">Senator Sir Walter</inline> Massy-Greene - </para>
+        <quote>
+          <para>That the papers be printed. </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3745</page.no>
+              <time.stamp />
+              <name.id>JZ6</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;HALLORAN, Michael</name>
+              <name role="display">Senator O&#39;HALLORAN</name>
+            </talker>
+            <para>. - The few remarks that I shall make on the Government&#39;s financial policy, as disclosed in the statement read in this  chamber  simultaneously with the presentation of the budget in another place, will be of a general character. I believe that honorable senators can more effectively discuss the details of the proposals to implement the major portion of the budget when the Financial Relief Bill is before us. I do not imply that a discussion of the budget is not of great importance; it- is the most important subject to be discussed this year. It represents the balance-sheet of the nation. It is in the nature of a report by the board of directors, represented by the Government, to this Parliament, which represents the people who are the shareholders. It sets forth the present position of the nation&#39;s finances, and attempts to indicate the prospects. A careful analysis of the position does not disclose any reason for that satisfaction which .has been so freely expressed in the columns of the press since the presentation of the budget. If directors of a company were to lay before their shareholders at an annual meeting a financial statement comparable to that which has been presented to this Parliament, they, knowing what the consequences were likely to be, would probably not seek reelection; but citizens of Australia will have to wait for a considerable time before they will be able to deal with the Government as the shareholders of a company would certainly deal with their directors in similar circumstances. Nevertheless, the Government, in its moments of calm reflection, must entertain very serious misgivings regarding what the verdict of its masters will be. </para>
+          </talk.start>
+          <para>One of the most unfortunate features of this budget is that the Government has deliberately  budgeted  for a deficit. With other members of my party I have had to listen to the unceasing demand from honorable senators who support the </para>
+          <para class="block">Government that, above all things, we must have balanced budgets. That demand was echoed by many outside parliament who are now applauding this Government for deliberately preparing for an unbalanced budget. What justification is there ,for this departure from the policy previously insisted upon? Why this extraordinary change of attitude on the part of those who were so critical when the . Labour Government was in power a couple of years ago? When that Government was trying to provide the maximum in the way of social services, and to maintain the highest possible standard of living, thereby producing a deficit for the year, that policy  was something which, according to honorable senators opposite, could not be permitted. Yet, when the present Government deliberately budgets for a deficit in order that colossal remissions of taxes may be made, unbalanced budgets suddenly become a virtue. </para>
+          <para>There is- a striking difference between this year&#39;s budget and that presented last year by the same Treasurer, acting for the same Government. A year ago we were treated to an over-cautious statement because the Government was endeavouring at that time to justify further encroachments upon the living standards of public servants, and further cuts of old-age and invalid pensions. This year, however, when the Government&#39;s policy is to grant remissions of taxations which will benefit only a limited number of people, the main feature of the budget is its note of boundless optimism. Why this change of front ? Why was the Government so extremely cautious last year, and so very daring this year ? It was obvious to many, when last year&#39;s budget was presented, that the financial position of Australia would, unless some terrible cataclysm occurred, be considerably better than that predicted, in the Treasurer&#39;s forecast. I remember remarking in this chamber during the debate that, in my opinion, the Estimates presented to us did not represent even an intelligent guess. The present budget amply proves the truth of my statement. Last year, .in order to justify reduced expenditure, and those vicious attacks directed against the living standards of two defenceless sections of the com-  munity,  namely, the civil servants and the invalid and old-age pensioners, figures were presented which subsequent events have shown did. not accurately represent the position. It is now clear that, had there been no remission of taxation subsequent to the passing of last year&#39;s budget, no granting from revenue of relief to wheat-growers, and no assistance to non-wheat-growers for the purchase of superphosphates, the surplus, instead of being &#163;3,546,000, would have been approximately &#163;7,000,000 after taking into account the fact that the remissions of taxation made in November last did not apply for the full financial year. </para>
+          <para>This substantial improvement of Australia&#39;s financial affairs is directly due to the policy of the previous Government. The conditions which have made the present favorable position possible were created by the Labour Government, and inherited by the Government now in power. That, that policy is being departed from in some important particulars, is disclosed by the budget. I do not propose to traverse ancient history, or to deal extensively with the conditions which confronted the previous Government when it assumed office. Everybody knows how unsatisfactory was the financial position at that time; how Australia had an adverse trade balance which had persisted for several years; how the depletion of our London funds produced the imminent danger of default overseas; and how the volume of unemployment had just begun to increase as a result of the depression which was then making its influence felt. The Labour Government immediately set about the rehabilitation of Australia by means of a policy which contained, three important . features : First the balancing of budgets by calling upon the people to make sacrifices in accordance with their ability to do so ; secondly, the restoration of employment by establishing and maintaining Australian industry under a sound policy of protection; and thirdly, the avoidance of default by stimulating Australian industry and restricting imports. That that policy has succeeded in two particulars is beyond doubt, as has been shown by the statement of the Treasurer himself. The im-  plementing  of that policy is directly responsible for the surplus to which the Treasurer points with such pride, and which he uses as an excuse for the tax remissions which &#34;we are asked to make. It is a reason, too, for the accumulation of funds in London which has enabled Australia, despite the considerable drop in the value of export commodities, to continue payments overseas. The maintenance of Australian industries under a  sound  policy of protection has resulted in the improved employment position disclosed in the statement of the Treasurer. </para>
+          <para>Unfortunately the Government is now departing from this policy, which has produced such fine results. It was the policy of the previous Government to have balanced budgets, but the present Government is deliberately budgeting for a deficit of &#163;4,860,000 over a period of two years. This deficit will absorb the whole of the accumulated surplus which resulted from the operation of the previous Government&#39;s policy, and will put us once more well on the road towards that unhappy condition from which the Scullin Government rescued the country nearly four years ago. This budget deficit of &#163;4,860,000 is to be created, despite the lack of any provision for the resumption of payments to the British Government of either interest or principal in respect of Australia&#39;s war debt. Although we are all hopeful that we shall be relieved of that obligation, the fact remains that relief has not yet been granted. Circumstances may compel us to resume those payments either wholly or in part within the next two years, in which, case the estimated deficit will be considerably augmented. Moreover, no provision is made  tf  or the reduction of the accumulated debt from previous years, amounting to &#163;17,216,000. These facts do not show that the nation is in a favorable position. Much as every member of the Senate desires to reduce the taxation of the people, particularly if that reduction can be distributed equitably, we must seriously ask ourselves whether this is a time to grant remissions of taxes amounting to approximately &#163;9,500,000 a year. It is true that, in - addition to those remissions which I have mentioned, the Government proposes to restore some of the amounts taken from other sections of the community, but the old-age pensioners are not to have restored to them any portion of the sacrifices they were called upon to make under the Scullin Government&#39;s policy. They are to get back a portion of the additional contribution which they were called upon to make last year as a result of the overcautious financial statement presented to, and adopted, by Parliament at the instance of the present Government. They are to get back 2s. 6d. a \veek, which was taken from them, but the iniquitous property provisions which the Government last year inserted in the pensions act are to remain. Those sections are the most onerous which the old and infirm in our midst have to bear. I have heard of many aged people who, rather than sacrifice the homes which represent a lifetime of struggle and saving and which they desire to pass on to their sons and daughters at their death, have agreed to the cancellation of their pensions and are fending for themselves as best they can. Before any concessions are made to other sections of the community, the iniquitous confiscatory sections of the pensions act should be removed. The amounts taken from the war pensioners are to be partially restored, and superannuated public servants are to have their pensions fully restored to them. Public&#34; servants still in the employ of the Commonwealth are also to have a partial restoration of the heavy cuts which they were forced to suffer in order to rehabilitate the country&#39;s finances. The policy of the previous Government at least provided for some measure of equality of sacrifice. How different the treatment of those who derive their income from property! In their case, a 50 per cent, reduction of taxes is proposed. In considering the Government&#39;s proposals it must be remembered that the exemption, in respect of this class of income is &#163;200 a. year. It will be seen, therefore, that, in the main, the benefits from these remissions of taxes will be enjoyed by persons with fairly substantial incomes. </para>
+          <para>The Prime Minister claimed that the proposals of the Government represent substantia&#93; concessions to the primary producers of Australia. It is true that  the owners of large estates used principally for grazing will derive some benefit, but an analysis of. the land taxation returns discloses that nearly 70 per cent, of the properties assessable under the federal land tax law is situated in the cities and towns of Australia, and that only a little over 30 per cent, of it is classed as rural land. This tax applies only to property having an unimproved value exceeding &#163;5,000. Those thousands of farmers and small graziers throughout Australia who have been deluded by press articles into believing that they will get substantial&#39; reductions of land tax under the Government&#39;s proposals will find to their sorrow that they will not benefit to the extent of one penny. The properties of most of these people are not valued at &#163;5,000, and are, therefore, not liable to federal land tax. A person with a property of an unimproved value of &#163;6,000 will gain only 13s. 2d. a year from the Government&#39;s proposals. The remissions of land tax will benefit almost entirely the owners of estates valued at &#163;100,000 and upwards, which are situated principally in the cities and are owned by chain stores, banks, insurance companies, and big merchant firms. In some cases the benefit will be equal to &#163;1,000 a year. There is not much evidence of equality of sacrifice, or of equitable restoration, in the Government&#39;s proposals. </para>
+          <para>It is proposed also to reduce the sales tax by 1 per cent., and it is claimed by the Government and its supporters that that concession will be passed on to consumers. When we consider the complications of the sales tax, we must realize how difficult it will be for small retailers to pass on the concession. Prominent retailers in South Australia have stated that the greatest difficulty will be experienced in passing on the benefits of this remission to the man in the street. The day after the Treasurer <inline font-weight="bold">(Mr. Lyons)</inline> delivered his budget speech, during the course of which he spoke with pride of a reduction of the customs and primage duties on tea, involving the Government in a loss of revenue amounting to &#163;320,000 a year, the tea merchants of Adelaide calmly announced that they were not in a position to pass on the reduction to the consuming public. In other words, the South Australian proportion of the &#163;320,000, by which a beneficent Commonwealth Government has reduced the duty on tea will be pocketed by the merchants. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3748</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>-  And the Government will let them get away with it. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3748</page.no>
+                <time.stamp />
+                <name.id>JZ6</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">O&#39;HALLORAN, Michael</name>
+                <name role="display">Senator O&#39;HALLORAN</name>
+              </talker>
+              <para>- It is&#39; true that we had a mild protest from the Prime Minister who declared that the Government would insist that the benefits from this reduction of taxation should not be monopolized by the privileged few, but be passed on to the people. </para>
+            </talk.start>
+          </continue>
+          <para>It has been said that the reduction of the property income tax will benefit borrowers through a reduction of interest rates. It is, however, significant that statements made by banking institutions since the announcement of the Government&#39;s policy are couched in cautious terms. The September issue of the bulletin issued by the National Bank of Australasia, after reviewing the Government&#39;s financial proposals and particularly those relating to the reduction of interest, states - </para>
+          <quote>
+            <para>As a matter of fact, the banks although entitled, as other taxpayers, to share in the remissions, have made it clear that they will pass on to borrowers the recently announced taxation reductions - but this must be done in their own way and time. </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3748</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>-  As they always do. </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3748</page.no>
+                <time.stamp />
+                <name.id>JZ6</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">O&#39;HALLORAN, Michael</name>
+                <name role="display">Senator O&#39;HALLORAN</name>
+              </talker>
+              <para>- Yes ; as they passed on reductions made under the previous financial emergency legislation to ensure the financial rehabilitation of Australia. The bank&#39;s method of benefiting borrowers was to increase the rate of interest by 1 per cent., and then reduce it by <inline font-style="italic">1^</inline> per cent., making the net reduction <inline font-style="italic">i</inline> per cent., not 2 per cent., which would have borne some relation to the sacrifices made by other sections of the community. The circular continues - </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>The remissions per bank are not very considerable and probably - on the average - would not equal. more than, say, an all-round reduction of one-sixteenth per cent, in overdraft rates. </para>
+          </quote>
+          <para class="block">This concession in respect of property income tax will be merely another instance of the failure of those benefiting from the financial emergency legislation to pass it on to the general community. Any benefits accruing from this  proposal will be reserved by the banks for their own purposes. </para>
+          <para>Another feature of the budget which, hitherto, has escaped notice is that these remissions of taxes totalling &#163;9,500,000 per annum, and the prospective deficits during the next two years, will render improbable any further restoration of salary cuts or social services. Thus will he perpetuated the inequality of sacrifice which has been introduced by the Government in these proposals. Taking advantage of the balanced budget due to improved financial conditions, which it inherited from its predecessors, this Government is now making concessions in the form of tax remissions to its supporters, thus making it impossible for a future administration to restore to the aged and infirm, and the lower paid public servants, a further percentage of the sacrifices which they were forced to make under the Premiers plan. </para>
+          <para>This budget has been referred to as the restoration budget. It proposes restoration to the privileged few at the expense of the poorer sections of the community. </para>
+          <para>Another feature of the previous Government&#39;s policy which has been departed from, is that, while the Premiers plan was formulated by the then Government after consultation with State Governments - thu latter being regarded as divisional boards of directors with some responsibility for the handling of the nation&#39;s finances - these restoration pro posals have been settled in detail without consultation with the States, which, we all regret to know, are not in a satisfactory financial position at the moment. In South Australia, for example, the people are suffering the dual effects of drought and depression of world prices. What does this budget offer to . the primary producers of  South  Australia, or to the harassed Treasurer of that State, who, after making vicious cuts in State servants&#39; salaries, and enforcing unwelcome economies in many directions, finds it impossible to get &#39;within &#163;1,000.000 of a balanced budget? I strongly contend that, as the rehabilitation plan under which sacrifices were required of all sections of the community was decided upon after consultation with the States, this restoration policy should also have been submitted to State Governments in order to ensure that the benefits flowing from it would be evenly distributed among the States and. their people. </para>
+          <para>This Government has also departed from the policy of the previous Ministry in that it has not continued its sound policy of adequately protecting Austraiian industries. The Prime Minister attempts to justify the recent growth of importations by asserting that the increases relate principally to capital goods - machinery, plant and raw material required for Australian industries. This may be true of some of the figures quoted by the right honorable gentleman, but it is not true of the whole of them. Many of the lines mentioned by the Prime Minister could- have been, and would have been, manufactured in Australia had not the previous Government&#39;s policy of protection been departed from. The demand for capital goods is undoubtedly due to the Scullin Government&#39;s tariff -policy, which was designed to give adequate protection to existing industries, and encourage the establishment of new undertakings. It is obvious that the present Government has not the same concern for Australian industries. We are told that the Tariff Board&#39;s formula in regard to primage and exchange, which was the subject of many heated debates in this chamber, is to be applied to very large groups of items admitted under the British preferential tariff. The effect of this will be to reduce the much needed protection accorded to Australian industries. This proposal is a deliberate departure, not only from the Scullin Government&#39;s policy, but from the avowed policy of this Government; that is, if it has any consistent policy of tariff making, because the Prime Minister definitely stated that no tariff reductions would be made except after receipt of reports and recommendations by the Tariff Board, based upon specific inquiries into the condition of individual industries. Many industries that will be seriously affected by this changed policy are new. Their establishment was made possible by the conditions that have existed during the last, three years, and, as honorable senators are well a ware, exchange has been an important factor. Those responsible for the setting up of those new industries had some faith in  the  declarations of responsible public men, from time to time, .that the exchange policy of this country was part of the corrective measures necessary to prevent Australia from being inundated with imported goods, and to ensure national solvency. Thus they regarded the high exchange rate as more or less a permanent feature of Government policy, .mid believed that it would always be determined by the Commonwealth Bank without political interference of any kind. The purpose of a high exchange is to make possible the ..exportation of our surplus products, thus providing finance overseas to meet heavy commitments there. We have  to  provide out of the profits on exports the huge sum of &#163;2S,000,000 annually to pay interest on our external debt before we have anything to pay for imports. Any rational business man examining our financial position would believe that, in the absence of political interference .with exchange through the Commonwealth Bank Board, any reduction in the  present rate was unlikely. Those engaged in newly-established secondary industries thought that they would have ample time to arrange for specific inquiries into the conditions of their industries by the Tariff Board to enable it to determine the protection necessary to maintain effective competition, but without such inquiry the Government has reduced the effective protection in some instances by 17^ per cent. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3750</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- The Leader of the  Opposition  in this chamber said that exchange and primage are not  part  of our protective system. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3750</page.no>
+                <time.stamp />
+                <name.id>JZ6</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">O&#39;HALLORAN, Michael</name>
+                <name role="display">Senator O&#39;HALLORAN</name>
+              </talker>
+              <para>-I do not claim that they are, but the present exchange rate was imposed to rectify certain conditions which still exist. The Prime Minister admitted in his budget speech that there has been no addition to London funds during the last twelve months,- and that during that period .this Government has been operating upon the surplus accumulated as the result of the fiscal policy of the previous administration. The manufacturers who established the industries mentioned, knowing the condition of Australian funds in London and that the Government had declared that it would not interfere with the policy of the Commonwealth Bank in this respect, thought that they would &#39;have time to approach the Tariff Board so that adequate protection could be afforded. Under this holus-bolus method of reducing duties, Australian manufacturers are now at the mercy of their overseas competitors. This proposal has been heralded as the greatest contribution offered to British industries since 1907, and I should like to know when any effective consideration is to be given to the Australian secondary industries that are affected. How are our people to be employed ? I admit that the remission of taxes may increase to some small degree the employing capacities of some companies or individuals, but, in the main, the reductions . of taxes are of such a nature that it will be practically impossible for those who will derive benefit to employ an additional man. How can we produce additional commodities when wo have no market for those which we are at present producing? The policy -of the Scullin -Government was to restrict imports from overseas and thus provide markets for Australian industry. I have already shown that this Government&#39;s policy is the reverse of that, and that the it venue for increased consumption and eni&#93;) loy ment is effectively closed and is likely to remain so if the present policy is pursued. </para>
+            </talk.start>
+          </continue>
+          <para>The last two or three years have brought seasons of plenty to most of our export industries; the volume of production has been high, but the financial return has been low. Records have been achieved in the production of wool and wheat, but we cannot expect favorable conditions to continue year after year. We have to face the possibility of a substantial diminution of the volume of exports as a result of seasonal or climatic conditions. Ti&#39; this should occur without a corresponding increase in prices to compensate for a decrease of exports, we shall be faced with the risk of imminent default such as that which confronted us three years ago. By the adoption of the international wheat agreement, this Government is deliberately restricting the  capacity of one of its main export industries for two years, and unless practical means are evolved for implementing the agreement by providing for the purchase of next season&#39;s surplus at a price which will return to the farmers at least the cost of production, its effects upon Australian wheat-growers will be more far-reaching than the Government realizes. It will not then be worried with the fixation of quotas. Natural conditions will drive thousands of farmers off the land to join the unemployed, and to seek the dole in the capital  cities.  That is the position which exists in the wheat-growing districts, and the Scullin Government&#34; endeavoured to rectify it by various legislative acts. I view with considerable alarm what was described by <inline font-weight="bold">Senator Badman</inline> as the vacillating attitude of the Government in this respect. In South Australia the harvesting of the wheat crop is only three weeks off, and within about four weeks deliveries will become general. No one knows the conditions to be imposed, or how the wheat is to be handled, except, of course, in the general terms mentioned by the Minister yesterday. In addition to these difficulties there is the further uncertainty occasioned by the present depressed state of wheat prices. The Government has attempted to assure us that prices are likely to rise. I submit that such a rise will have to be speedy if it is to benefit the average Australian farmer. Most of them will sell every bag off the tail of the wagon as soon as it is ready for delivery. They cannot afford to wait for a rise in prices, or until the Government makes up its mind to do something, if it can do anything to assist. The depressed prices which are characteristic of world markets are not wholly the result of the speculation referred to by the Minister yesterday. Some of the depression may be due to speculation, but we cannot overlook the fact that for practically the whole of last year wheat was . sold at about 3s. a bushel at principal ports. The speculation which the Minister referred to was responsible for increasing the price to about 3s.5d. a bushel, but for only a few days. In South Australia, the price of wheat is 2s. 4d. a bushel, so that it has dropped far below the stable price which obtained during the previous months. This has been the result despite the blessings we were supposed to confer upon the farmers, and the &#34;harnessing&#34; of the American and Canadian surpluses which we were told would be of benefit to wheat-growers. Last year, when these surpluses were free, South Australian wheat-growers were getting an average price of about 3s. a bushel at outports, but two months after the signing of the wheat agreement they are receiving only 2s. 4d. a bushel, which returns to the farmer, after paying agency fees, freight, and the cost of corn.sacks, about  1s.8d.  a bushel, at which price it is impossible to grow wheat profitably. An increase of at least1s. a bushel is necessary if farmers are to remain solvent. We have asked again and again what the Government&#39; proposes to do, and if it is possible for it to give any assistance to this important section of primary producers. We may find that the Government is prevented from rendering any assistance. A significant statement was published in the <inline font-style="italic">Sydney Morning Herald</inline> of yesterday. It reads - </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>TO STIMULATE PRODUCTION</title>
+        <page.no>3751</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para class="block">Interestwas caused at Parliament House to-day by the contention in the <inline font-style="italic">London Economist</inline> of Kith September that signatories to the wheat agreement had bound . themselves in the agreement to abstain from subsidizing the wheat-growers. . Commenting on this report, the Minister for Commerce <inline font-weight="bold">(Mr. Stewart)</inline> said to-night that, while it was not&#39; correct that a specific undertaking in these terms had been given, the whole spirit of the agreement implied a. pledge not to engage in any act which would tend to stimulate wheat production. Undoubtedly certain forms of subsidy, such, for example, as a per bushel grant to growers, would be a subsidy tending to stimulate production. A policy which embraced such a subsidy would be out of harmony with the spirit of the agreement. </para>
+      <para class="block">Has the Government deliberately entered into this agreement which prevents Australian farmers from receiving a subsidy if the nation is able to grant it? This Parliament should be given an opportunity to rectify what will become a monstrous injustice, and bring about calamity in the wheat-growing industry. </para>
+      <para>The <inline font-weight="bold">PRESIDENT (Senator the Hon. P. J. Lynch).</inline> - The honorable senator&#39;s time has expired. </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3751</page.no>
+            <time.stamp />
+            <name.id>JRT</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COX, Charles</name>
+            <name role="display">Senator COX</name>
+          </talker>
+          <para>. - I am pleased that the Ministry has at last found it possible to make some  effective contribution towards restoring our defence equipment and armaments to a state of efficiency, and proposes to distribute the money made available among the three fighting services, and to bring nearer the day when Australia will become self-contained in regard to the production of munitions. As y military man, I know something of the conditions of our armaments, and, in view of world conditions, and the urgent need of restoring our armaments to a state of efficiency, I say that the proposals of the Government are a step in the right direction, and have my full support. I trust that the time is not far distant when more ample provision will he possible for defence purposes. </para>
+        </talk.start>
+        <para>I am not one of those who believe that the Army or the Navy or the Air Force  can  of itself adequately defend Australia. Neither the Army nor the Air Force can protect our sea-borne trade, upon which the well-being of every Australian depends, nor can the Navy fight our battles on land if we should ever be called upon to fight for our existence on Australian shores. Each service is complementary to the others, and none should develop at the expense of the others. All should be developed according to a carefullybalanced plan, and this I believe to be the intention of the Government. </para>
+        <para>In the local manufacture of munitions a considerable advance toward selfcontainment has been made since the war. The proposal to undertake the manufacture of naval cordite marks another step towards this goal. I regret that it does not appear to be the intention of the Government to re-institute the policy of universal military training. If a country is fit to live in, surely it is worth defending. Preparation for the defence of one&#39;s country is the duty, not only of the enthusiastic few who give  their  time to this work, but of all citizens whatever their station in the community. The measure providing for universal military training was one of the most democratic statutes ever passed through this Parliament, and 1 hope that the* day will soon come when its provisions will again be brought into force. </para>
+        <para>In the London <inline font-style="italic">Times</inline> of a few weeks ago, a most extraordinary statement was published about the Australian cavalry detachment which served in the Boer &#34;War. The cutting was sent to me by a friend in England, and I .replied to it. The letter appeared in the issue of the 21st July, 1933, and is as follows: - </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DISMOUNTED TROOPS IS SOUTH AFRICA</title>
+        <page.no>3752</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>LOUD  Wolseley&#39;s  MESSAGE </para>
+      <para>To the Editor of <inline font-style="italic">The Times.</inline></para>
+      <para>
+        <inline font-weight="bold">Sir, -</inline>Few soldiers will dispute the debt which the country mid the Army owe to the late Lord Wolseley, so &#34;clearly brought out in <inline font-weight="bold">Sir George</inline> Arthur&#39;s &#34; A Septuagenarian&#39;s Scrapbook,&#34; which you recently reviewed. </para>
+      <para>It is therefore regrettable that the FieldMarshal&#39;s later reputation should have been dimmed by the wording of a cable sent by his orders to the various Colonies who offered their help in the South African War and interpreted by a public, ignorant of its meaning, a&#171;s a want of judgment on his part in expecting to win the war by dismounted troops alone. Reasons of policy prevented the truth from being published at the time; but there can he no cause for secrecy now, and, as I believe that I am the only survivor of those who heard the order given, there is a possibility that, unless I break silence, the facts may never be known. in the first place, it is essential to remember that in October, 1800, Dominion troops, as now known, were non-existent. The principle that every self-governing Colony should be responsible for its own defence had only recently been accepted. True, small bodies of Colonials, usually under Regular officers, had participated in our little wars, but the quality ot the defence troops that were being evolved was unknown. </para>
+      <para>Now, in the summer of 1809, a small party of mounted troops from one of our far-off possessions had been attached for instruction to the Aldershot Cavalry Brigade, and on the outbreak of war they had completed their training and were on the high seas on their homeward voyage. Wolseley, thinking it an excellent opportunity for testing their value by incorporating them in our Field Force, cabled to South Africa that, on arrival there, they were to be given the chance of volunteering for service with a Regular cavalry unit. Only very few responded, and those who did so were not the best; they were tested and found very much wanting, particularly in equitation and horse, management, and <inline font-weight="bold">Sir&#39; George</inline> White, who was commanding at the Cape, cabled homo a most disparaging report as to their inefficiency. I regret that I cannot recall the wording of the report, though doubtless it is filed in the Wai Office archives, but I remember its being shown by  Colonel Stopford  to Lord Wolseley, and that they both smiled at <inline font-weight="bold">Sir George</inline> White&#39;s account of the almost comic shortcomings of the detachment. This report, representing the mcn as more likely to be a hindrance than a help to the Field Force, waspractically the only first-hand evidence which </para>
+      <para class="block">Lord Wolseley had as to the efficiency which he was likely to expect from Colonial mounted troops. </para>
+      <para>At this moment he was on his way to the conference in the room of the Secretary of State (Lord Lansdowne), at which the offers of the Colonies were accented, and on its conclusionhe turned to the Adjutant-General, <inline font-weight="bold">Sir Evelyn</inline> Wood, and said : &#34; By the by, Wood, in view of White&#39;s adverse report on the horsemastership of the . . . cavalry, tell them only to send dismounted troops.&#34; </para>
+      <para>This is the plain account of an incident which, for a third of a century, has been interpreted as meaning that the CommanderinChief expected the war to be won on foot, although an analysis of the high proportion of mounted troops in the Field Force points to a diametrically opposite conclusion. </para>
+      <para class="block">The letter is signed by F. S. Robb, 46 Rutland Gate, S.W., and I have learned that the writer was a major-general in the British Army. I prepared a reply to the letter, and sent it by registered air mail to London. The reply is as follows :  - 14th September, 1933. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>The Editor, The Times, London</title>
+          <page.no>3753</page.no>
+        </subdebateinfo>
+        <para>
+          <inline font-weight="bold">Sir, -</inline>A cutting from your issue of the 21st  July, 1933, headed &#34;Dismounted Troops in South Africa &#34;,has just reached me. It is signed by F. S. Robb, 40 Rutland Gate, S.W., and in it he refers to a party of New South Wales Lancers who were attached for instruction to the Aldershot Cavalry Brigade in the </para>
+        <para>Rummer of 1899. </para>
+        <para>This party was under my command, and when war threatened in South Africa in September of that year I visited Lord Carrington (at one time Governor of New South Wales and Honorary Colonel of our Lancer Regiment) and said that in the event of war we would like to go. Some of the men were under age, and others had family obligations, which necessitated their return, but I was sure that all who could go would do so. </para>
+        <para>In reply to this offer, Lord Lansdowne, Secretary of State for War, wrote on the 30th September as follows: - &#34; The New South Wales Lancers deserve the greatest credit for the spirit which they have shown, and the offer is thoroughly appreciated here &#34;, and later on I received a cable accepting our offer. </para>
+        <para>Seventy-two men out of the hundred volunteered, and the balance were either under age, medically unfit, or were compelled by family circumstances to return home. Of the whole party, only one man who could have volunteered failed to do so, and when he got back to New South Wales things were made so hot for him that he rejoined us in South Africa and died on service. </para>
+        <para>Now let us see the thanks we get from <inline font-weight="bold">Mr. Robb,</inline> a gentleman of whose existence I was previously unaware. </para>
+        <para>In your issue of the 21st July last, he writes - &#34; Only very few of the Lancers responded and those who did so were not the best; they were tested and found very much wanting, particularly in equitation and horse-management, and <inline font-weight="bold">Sir George</inline> White, who was commanding at. the Cape, cabled home a most disparaging account of their efficiency. . . .  Colonel Stopford  and Lord Wolseley both smiled at <inline font-weight="bold">Sir George</inline> White&#39;s account of the almost comic shortcomings of the detachment. He thought they would be&#39; more of a hindrance than a help on active service.&#34; </para>
+        <para>To these extraordinary statements I make the following reply :  - </para>
+        <para>I never saw <inline font-weight="bold">Sir George</inline> White, and I do not believe that he ever inspected the detachment under my command. If he did so, the best answer to his criticism is as follows: - </para>
+        <para>As soon as we landed we were sent to Stellenbosch Remount Depot and drew our horses. One troop was sent to Modder river under Lieutenant Osborne and saw fighting there. I remained with the balance at Nauwport until General French formed his command, of which we became part. Under General French we took part in the operations at Colesberg, the relief of Kimberley, the capture of Cronje, Driefontein, capture of Bloemfontein. Johannesburg and Pretoria, Diamond Hills, Belfast and Barberton. During most of these operations our party were incorporated in a squadron of Inniskillings, under the command of <inline font-weight="bold">Major Allenby</inline> (now Field-Marshal Lord Allenby), who had with him, as Lieutenant, Prince Alexander of Teck. If there was anything &#34;comic&#34; about the detachment Lord Allenby would hardly have failed to express himself freely on the subject, and we would have been relegated to lines of communication. Instead of this, we took our full share of the work of French&#39;s cavalry. We hold the Queen&#39;s South African medal with six battle clasps and the King&#39;s South African medal with the two years&#39; service clasp. I would advise <inline font-weight="bold">Mr. Robb</inline> to read <inline font-style="italic">With theInniskilling Dragoons,</inline> by Lieutenant-Colonel J. Watkins Yardley. </para>
+        <para>It seems to me deplorable that any writer should wait for 30 years, when most of the men concerned are dead or killed in the Great War, to launch such an accusation as that made by <inline font-weight="bold">Mr. Robb.</inline> . There are Empire builders, and Empire wreckers! </para>
+        <para class="block">My statement was prepared from the original documents, which are in my possession. </para>
+        <para>Now let us see what became of these 72 fine men. The New South &#34;Wales Lancers returned to Sydney on the 8th January, 1901.  On landing. <inline font-weight="bold">Sir John</inline> See, the then Premier of New South Walesl asked me if I would take command of about 900 men whom he had in camp. I agreed to do so, and asked him to allow mc to make officers and non-commissioned officers of the men whom I had brought back. He agreed to that, and I selected those whose private affairs would allow them to return, and we formed the 3rd New South Wales Mounted Rifles Regiment. They got their horses and sailed for Durban, whence we proceeded to Standerton  and became part of  Rimington&#39;s  Column, which took  part in Lord Kitchener&#39;s drives. At the conclusion of the big Harrismith drive, Lord Kitchener was there to meet us and to congratulate us on the work we had done for him on the 27th February, 1902. </para>
+        <para>As <inline font-weight="bold">Sir Frederick&#39;s,</inline> letter to <inline font-style="italic">The Times</inline> would lead one to believe that he held some confidential position in the War Office, I feel it my duty to the people and soldiers of England and Australia to make known my version a? commanding officer of those men. I shall never forget the send-off that the people of London gave us on the 10th October, 1899, and I am proud to say that we never once let them down. I hope that <inline font-weight="bold">Sir Frederick</inline> Robb&#39; will read <inline font-style="italic">With the</inline><inline font-style="italic">Inniskilling</inline><inline font-style="italic">Dragoons,</inline> published by Longman and Company, before he replies to my remarks. The performance of those men at Harrismith was one of the finest feats in the South African war. It certainly helped to bring the war to an end. They were men like the New South Wales Lancers who, later, formed the Third New South Wales Mounted Rifle Regiment. Kitchener himself congratulated us when he met us at Harrismith. On the morning that Kitchener came to inspect us he said that he wanted to see the men who had done that job for him. I replied, &#34;Very well, sir&#34;. General Rimington and other officers were there. Kitchener rode along and I walked beside him. When we came across a bunch of men talking, I said &#34; There are some of them &#34;. Kitchener rode up to them and said, &#34; Good morning lads, bow are things?&#34; They replied, &#34;Good morning, sir. Things are all right now, but we have had a fairly rough week of it &#34;. One tall fellow straightened himself and said, &#34; <inline font-weight="bold">Mr. Kitchener,</inline> when are you going to let us blokes go home? You know we only signed on for twelve months &#34;. I was afraid that Kitchener would severely reprimand him, but he only said, &#34;Boys I have one more job for you to do, and if you do it as well as you did the job the other night at Hollspruit,  I will let you go home immediately afterwards. You have done splendid work. I will see that you get away as soon as you do the. job.&#34; These are the men about whom this man Robb wrote a scurrilous article. I do not know what is the matter with him. Surely he has sufficient brains to know that his attack is unjustified. He said that he obtainedhis information from the War Office, but I am sure that he did not. I have felt it my duty to defend the honour of the men who were associated with me in South Africa. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3754</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate>-Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator PAYNE</name>
+            </talker>
+            <para>. - I agree with <inline font-weight="bold">Senator O&#39;Halloran</inline> regarding the importance of the budget debate; but I regret that the honorable senator did not think more before criticizing the budget before us. He complained that the Treasurer provided for a deficit at the end of the present financial year. He could not understand any Treasurer budgeting for a deficit when efforts are being made to rehabilitate the country&#39;s finances. I reply that a Treasurer is never justified in extracting from the people more money than is necessary to carry on the government of the country. The very existence of a surplus is conclusive evidence that the Government has extracted from the taxpayers a sum of money in excess of the country&#39;s requirements, and the only right thing to do in the circumstances is to return that surplus, or as much  of it as possible, to those who provided it. In order to do that, the Government must budget for a deficit which, after all, may mean merely that a portion of the excess taxes collected from the people has been restored to them. Surely <inline font-weight="bold">Senator O&#39;Halloran</inline> would not advocate harassing the people of Australia by imposing excessive taxes on them in order to obtain more money than is required to carry on the services of the country. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3754</page.no>
+              <time.stamp />
+              <name.id>JZ6</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;HALLORAN, Michael</name>
+              <name role="display">Senator O&#39;HALLORAN</name>
+            </talker>
+            <para>- Does not the honorable senator believe in balanced budgets? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3754</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- Balanced budgets are all right in certain circumstances, but no Treasurer should budget for a surplus at the expense of the taxpayers. During recent years the people have been called upon to make heavy sacrifices. Exceptionally heavy taxes have been imposed on them, with the result that unemployment has increased. Now that  it has been found possible to remove some of the burden of taxation, the effect should be a reduction of unemployment. The honorable senator said that, although he approved of an equitable reduction of taxes, he wondered if the present is an opportune time to remit taxes. I shall not enlarge on that aspect of his criticism just now, for I have already shown that the financial position of the Commonwealth justifies the remission of certain taxes. </para>
+            </talk.start>
+          </continue>
+          <para class="italic">
+            <inline font-style="italic">Sitting suspended from to 2.15 p.m.</inline>
+          </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3755</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>
+                <inline font-weight="bold">- Senator Ohalloran</inline>in his desire to reflect upon the Government, made one or two statements which are not in accord with facts as disclosed in the budget speech. He said that the tariff protection now proposed to be removed, owing to a recent decision of the Government, amounted to 12$ per cent., which, plus primage of 5 per cent., totalled 17$ per cent, on the present British preferential duties. If the honorable senator will refer to page&#39; seventeen of the budget speech he will see that, although in some instances there is to be a 17$ per cent, reduction of the protective duties on British goods, the whole matter is governed entirely by the duties now imposed. For instance, if the existing duty is 50 per cent, a reduction of 17$ per cent, will be made; but if the duty is only 10 per cent., the reduction will be only 2$ per cent. It is clearly indicated that the reduction is to be on a graduated scale according to the rate of duty now imposed upon British goods. In addition to that most misleading assertion, the honorable senator further claimed that the protectionist policy of the previous Government had been departed from. As a matter of fact, the fiscal policy of that government was not protectionist; it had no protective value. The honorable senator then proceeded to say that the law provides that no duties shall be reduced until a report has been received from the Tariff Board. </para>
+            </talk.start>
+          </continue>
+          <para class="block">The Government which the honorable senator supported, with its so-called protectionist policy, imposed duties without any reference whatever to the Tariff Board. I have always contended that duties thus imposed cannot be justified from any viewpoint. Its action was contrary to the law. </para>
+          <para>The honorable senator, in charging the Government with being unjust to invalid and old-age pensioners, said that they would not get back Id. of the amount which they were compelled to sacrifice; but later he admitted that they would receive an additional 2s. 6d. a week. A careful study of the figures shows that, as the cost of living increases, the rate of pension will also increase from 17s. 6d. a week until it reaches a maximum of 20s. a week. He also charged the Government with having remitted the taxation of certain sections of the community, which he alleged supported the Government, and quoted the case of a land-owner whom he knows who is to receive a paltry remission of 13s. 2d. in land tax, while a large land-holder will receive, a remission amounting to &#163;1,000. If the honorable senator had quoted the original assessments paid by these two taxpayers, he would have found that the disparity between the two amounts did not exist. Such statements are misleading to those who do not read the reports of the Commissioner of Taxation. If the honorable senator carefully studies the budget papers, and also the report of the Tariff Board on exchange and primage duty he will find that the duties imposed by an exceptionally high tariff plus exchange and other charges are higher than many secondary industries need. Under such a policy, an unnecessarily heavy hurden is placed upon the people, while it often results in inefficiency on the part of Australian manufacturers. </para>
+          <para>The Treasurer is to be congratulated upon presenting such an interesting budget. The first item of importance relates to loan conversions, which have had magnificent results. The reduced rates at which certain loans have been converted have afforded an enormous amount of relief. Our finances have been so capably handled that we should lie optimistic enough to believe that future conversions will be equally successful. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3756</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- Yet the Government is unable to find employment for hundreds of thousands of persons. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3756</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- The lower rates of interest will make more money available for distribution, and, consequently, a revival of trade leading to additional employment should result. It is gratifying to learn that future conversions may be handled on equally satisfactory terms. If the Commonwealth can save &#163;1,500,000 annually in interest, the money available for investment in Australian industries will be increased to that extent. If honorable senators opposite compare present stock exchange quotations with those ruling at this time last year, they will find that, in 1932, the Commonwealth bonds realised an average of &#163;4 14s. per cent., but to-day the rate is &#163;3 13s. Sd. per cent. - another indication of confidence. </para>
+            </talk.start>
+          </continue>
+          <para>There are other directions in which relief is to be afforded, but I shall deal briefly with the proposed reduction of the sales tax. <inline font-weight="bold">Senator O&#39;Halloran</inline> said that the remissions and exemptions would not be passed on to the public. I admit that on many articles handled by storekeepers it is difficult to calculate the exact amount of sales tax; but, as a general rule, business men include these impositions in their expenditure, and their profits are governed entirely by their overhead costs. In the aggregate, the purchasing public is benefited to the extent that relief is afforded. The sales tax was imposed as a. means of raising revenue, but I know of no impost that has caused more expenditure and trouble to the business community, without&#39; return to those who have -to pay this tax. I hope that the business community will soon-be relieved of the heavy burden imposed upon them in satisfying the department that they have met their obligations to furnish returns faithfully. In many cases, the cost of furnishing returns is far greater than the sum collected in tax. I have been informed of an instance in which a business man was assessed for the payment of tax amounting to 35s., and the cost incurred by him in furnishing his return was at least &#163;5. This impost places an extra burden on the community, and it may be desirable to replace it by a turnover tax or by some simpler- system. </para>
+          <para>Let us consider the position of retail business firms which are compelled by competition to import goods from manufacturers in Great Britain. The wholesaler pays sales tax only on the goods which he sells to the retailer; but the retailer who imports has to pay sales tax to the Customs Department before he can take possession of his goods and, therefore, this tax on retail importers has to be met whether they sell their goods or not. I sincerely hope that, in collaboration with the department, the Government will be able to devise a simpler means of raising the amount of revenue now obtained through the sales tax, so that it will not be suggested that purchasers are not receiving the benefits of remissions of sales tax and the pin-pricks experienced by the commercial community will be removed. </para>
+          <para>I am glad that provision is made in the budget for an increase of Australia&#39;s expenditure on defence. A great many people in this country - and I am one of them - believe that a sufficient sum should be appropriated to provide Australia with a defence force worthy of the name. </para>
+          <para>Notwithstanding* the criticism levelled at the Government because, of the gravity of the unemployment problem, the number of those out of work has been considerably reduced, and I trust that the next returns will show a further decrease. The budget has given great satisfaction to the majority of the people. It affords an indication that the affairs of the Commonwealth have been managed satisfactorily in the last twelve months, and gives promise of even better results next year. </para>
+          <para>It is always interesting to a public man to analyse the report issued annually by the Taxation Department, because it shows how the burden of taxation is distributed. I find that, as the years pass by, we have similar conditions to those that obtained ten or fifteen years ago. That is, the great, burden of direct taxation falls on comparatively few people. The last return 1 have shows that the direct taxpayers of Australia, whose assessable income is under &#163;201 a year, total 199,381, while those whoso assessable income is less than &#163;501 a year number 62,235, a <inline font-style="italic">total</inline> of 261,616. These 261,616 persons paid only 12 per cent, of the total amount raised by way of income taxation, 44,312 paid 55 per cent., and the balance of 33 per cent, was contributed by companies in Australia. These figures show that there is no good ground for the suggestion that the poorer people are being burdened with taxation, while the wealthy escape it. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3757</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- The consumers are taxed indirectly. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3757</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- Everybody pays indirect taxes, and the more a person spends upon his living the greater the amount paid by him . in this way. It was demonstrated at the last election that&#39; this fact was fully realized. </para>
+            </talk.start>
+          </continue>
+          <para>I wish to deal at some length with a feature of taxation that has been responsible for serious anomalies. Five distinct income taxes are levied on the one individual. There is the tax on income from personal exertion, &#34;and the tax on income from property. Under the second method of raising revenue there is an additional tax on property income; a super tax on property ; a further tax, No. 1, on. property; and a still further tax, No. 2, on property. I have always contended that taxation may be safely levied only up to a certain point, beyond which the only effect is to imperil the foundations of the country. By taking money from people and paying it into the Treasury, to be utilized in carrying on the ordinary services of government and in the maintenance of departments, many of which give no return to the people, you impoverish, them to such an extent that they no longer have that surplus income, which forms the basis upon which employment is provided. The point is, therefore, reached at which unemployment begins to take the up-grade. </para>
+          <para>Let me deal with the second further tax on income from property. When it was &#39;first placed before the Senate, I described it as an iniquitous proposal. To my mind, nothing could justify it. By its operation, an exceptionally heavy additional sum is simply bludgeoned from an already overburdened community. In connexion with this matter, let me quote from the Income Tax Assessment Act, No. 23, of 1931. By section 9, that act makes the following provision: - </para>
+          <quote>
+            <para>A company may deduct from any dividends payable to the preference shareholders the further income tax which has been paid or is payable by the company on its taxable income which has been distributed to its preference shareholders. </para>
+          </quote>
+          <para>That is to say, a company has the power to deduct at its source the tax of 2s. in the &#163;1. If a dividend of &#163;10 is due to a preference shareholder, the company sends &#163;9 to the shareholder and &#163;1 to the Commissioner of Taxation. Several companies have exercised their option to deduct the 2s. at the source and pay it to the Commissioner. The Financial Relief Act, 1932, provides by section 6 that there shall be no liability for the payment of the further income tax of 2s. in the.&#163;1 on the first &#163;250 of the assessable income.. That means that if the individual derives from property an income of &#163;500, the 2s. in the &#163;1 is not applicable to the first &#163;250. The principal Income Tax Act provides for a general exemption of &#163;250 with respect to income from personal exertion, and of &#163;200 with respect to income from property. Thus, a person whose income from property is only &#163;200, is not liable to pay any tax; he or she is not a taxpayer. Let me give illustrations. &#34; A &#34; has an assessable income from property of &#163;500. As the special further tax of 2s. in the &#163;1 does not apply to the first &#163;250, he is liable to pay that tax on only &#163;250. &#34; B &#34; - perhaps a next-door neighbour - has a total income of &#163;200, derived entirely from investment, of which &#163;100 is from preference share dividends. Although the income tax act says that he is not a taxpayer, the company deducts &#163;10 from his dividends and pays the amount to the Commissioner. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3757</page.no>
+                <time.stamp />
+                <name.id>KOF</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HAYES, John</name>
+                <name role="display">Senator J B Hayes</name>
+              </talker>
+              <para>- Can he not obtain a refund? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3757</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- No: I have placed the matter before the department, but have been informed that the administrative difficulties are too great. Letme give another case. &#34; C &#34; has a total income of &#163;100, of which &#163;20 is from dividends from preference shares. The company, exercising its option under  the act of  1931,  deducts  2s.  in the  &#163;1  from his dividends. Therefore, although his income is only one-half of the amount of the general exemption, he is taxed to an amount of  &#163;2. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3758</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>-  He ought to get a refund. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3758</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- Of course he ought. Provision should be made under which that money, which is not the property of the Commonwealth, would be returned to the person to whom it belonged. &#34; D &#34; has a taxable income of  &#163;300  from personal exertion, and of  &#163;100  from property. The latter is composed of dividends from preference shares, from which the company has deducted  &#163;10.  He cannot take advantage of the exemption of the first  &#163;250,  as his income is only  &#163;100,  yet he has to pay  &#163;10  to the department, through the company, although the law says- that he is exempt from this tax. </para>
+            </talk.start>
+          </continue>
+          <para>I hope that the Government will take this matter into consideration. No administrative difficulties are so great that they should not be removed in order to deal out justice. I make this plea on behalf of very poor people who have a hard task to make ends meet. Many of them are paying considerably more than persons who have double their income; yet the act says that they are exempt. It is high time that these anomalies were removed. </para>
+          <para>I wish to express the gratification that I feel at the provision in the budget for an improved steamship service to Tasmania. I am not acquainted with the details, but I find that the sum of  &#163;10,000  is provided for this purpose. Thanks to the sympathy of the Government, we have had removed one of the greatest handicaps from which Tasmania has suffered for many years. Trade to which that State was justly entitled was taken from it, but will now be restored to it. I thank the Government for what it has done, and trust that whatever the arrangements made may be, they are only the forerunner of something of a permanent character which will ensure that for all time Tasmania will bc brought into lino with the other .States. The stretch of water between that State and the mainland must always be taken into considera- tion when the necessities of the different </para>
+          <para class="block">States are being examined. I regard this as really a restoration budget, and the manner in which it has been received overseas should encourage public men, and the community generally, to take a more rosy view of the future. It is evident that conditions have greatly improved, and I trust that, when we meet to discuss next year&#39;s budget, a further improvement will be evident. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3758</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>. -  Before discussing the budget, may I be permitted to offer my congratulations to <inline font-weight="bold">Senator Lawson</inline> on his preferment to ministerial office. Since he has been in this chamber he has earned the esteem of all honorable senators, and it is the unanimous wish of all of us that, whether his term of office be long or short, it will be as happy as his charming personality merits it should be. </para>
+          </talk.start>
+          <para>I view the budget from an entirely different point of view than that of the  speaker  who has just sat down. I regard it as a national balance-sheet, and as a declaration by the people&#39;s appointed governors of the policy which is to be pursued in the future. I derive a good deal of satisfaction from the budget, and a good deal of dissatisfaction as well. However, I do not think that there has ever yet been a budget which has pleased everybody, even the Minister introducing it. Whether we criticize the Government or not, most of us feel very much like the man who has been in a motor smash and who, when he becomes convalescent, thanks Providence that he is still alive. </para>
+          <para>I have one complaint to make, namely, that the Government, probably following the lead of its predecessors in office, has completely ignored the rights and claims of the States. &#39; Were we discussing the budget in normal times, we should be entitled to say that, as we are a nation composed of a number of sovereignties, what the Federal  Government does is the concern  only of itself. This budget, however, is part of the general rehabilitation scheme entered into by the States and Commonwealth, working in conjunction. We all remember the famous conference at which the representatives of the States and Commonwealth bound themselves to follow a certain line of policy, which  policy was loyally observed by the States to such good effect that the Commonwealth is now in the happy position of having balanced its budget, even though some of the States, such as South Australia, are not so fortunate. When it was a question of making sacrifices to balance the national budget, South Australia was taken into the secret councils of the Commonwealth, and its advice eagerly sought. Now, however, when the Commonwealth Government has a surplus, it says in effect : &#34; We are a sovereign government, and we are entitled to spend our money in our  own  way.&#34; If we are to have unification, let ns have it; but if we are to continue as a federation of States, we should recognize the federal system. When wc make a compact with the States, and they loyally abide by it, we, in our turn, should bc prepared to treat them in the same way as we expect one sovereign State honorably to treat another. What happened when the big State of New South Wales chose te do what the majority in this chamber considered to be an act of rebellion against the Premiers plan? The Commonwealth joined with the other States . to squeeze New South Wales, anc! demanded that <inline font-weight="bold">Mr. Lang</inline> should be denied the right to distribute the revenue of his State in whatever manner he thought fit. However, while denying that right to <inline font-weight="bold">Mr. Lang,</inline> the Commonwealth claims as against South Australia, or any of the other States which were parties to the agreement, that it, has the right to decide what reductions shall be made in taxation, and how it shall distribute the unearned increment it has received. I deny that the Commonwealth has that right. The obvious duty of the Federal Government, which has entered into a compact with the States, is not to introduce any alteration in the plan without first consulting the other parties, thereto. For that reason, though I differ politically from the present Premier of South Australia, I am in absolute agreement with him on this point, and any one who supports the principle of federation must take the same view. </para>
+          <para>Apart from &#39; the question of the distribution of the surplus, we in- South </para>
+          <para class="block">Australia are not yet out of the wood. We are not in the happy position of New South Wales, which has been able toremit taxation to the extent of &#163;4,500,000&#39;. South Australia is a primary-producing State, and its people have had to shoulder a heavy burden, and surely it was entitled, to have been consulted by the Commonwealth and asked whether it considered the distribution of the relief to bo equitable. Were the conditions of South Australia considered in arriving at theremissions of sales tax, income tax and land tax? Not, for one moment. Because of that we find ourselves in the position to which <inline font-weight="bold">Senator O&#39;Halloran</inline> has referred to-day, of remissions being, made in taxation which cannot conceivably be passed on to the people whom they are intended to benefit. The following criticism of the budget appears in the <inline font-style="italic">Financial Journal</inline> published by the National Bank of Australasia Limited : - </para>
+          <quote>
+            <para>The budget provides for a. wide dispersion of further benefits in which the sections referred to will participate. It is trusted that they will accept those benefits in the spirit of the Premiers plan and the budget speech, and pass on a Full share of them to the general public. In this way the effects of the fall in nominal wages, in interest, dividends and rents can be minimized, and the sacrifices borne by the people equalized through lower charges bringing about reductions in the cost of living. </para>
+          </quote>
+          <para class="block">Already the rubber industry has stated that the relief of &#163;200,000 which is to be given to it will not he passed on to the public. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3759</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- Who said that? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3759</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- I read it in the press two or three weeks ago. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3759</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- Has it been stated by a representative of the company ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3759</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- I do not know; but it would be more interesting if the Leader of the Government were able to say that the Government had been given an assurance that a reduction of prices would take place. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3759</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- If the honorable senator can produce any proof that the statement referred to was made by a representative of the company, the Government will give it serious consideration. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3760</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- The industries of Australia are essentially within the jurisdiction of the States? The Commonwealth has only a limited control of Australia, and the extent to which we can relieve industry is a matter which is more peculiarly within the knowledge and power of the respective States than it is within that of the Commonwealth. For example, it has been stated that the price of the working man&#39;s beer would be reduced, but the reduction of excise has not enabled the price of beer to be reduced sufficiently to benefit anybody except the brewers and the publicans. I admit that if I buy a bottle of beer a;t a hotel I pay for it Id. leas than before, but if I desire to have a glass of beer at the bar I do not benefit by any reduction of price. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3760</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- The glass will be larger. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3760</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- That is like a tailor saying to a customer, &#34;I have not reduced the price of your suit, but I have given you an oversize &#34;. That is not my idea of rehabilitation. Had the Commonwealth consulted the States on this matter they would have been told that the working man was concerned, not with the size of the glass, but with the price of beer. Certain remissions of sales tax will benefit industry directly or indirectly; but I fail to see why the Commonwealth Government did not consult&#39; the States in its endeavour to lift from the back of industry the burden which was preventing it from providing more employment. </para>
+            </talk.start>
+          </continue>
+          <para>We are told, moreover, that these remissions of taxation &#39;will bring about&#34; certain changes of conditions. What is the opinion of the banking institutions? The National Bank of Australasia Limited advises everybody else to distribute the benefits, but this is what it states on its own. behalf - </para>
+          <quote>
+            <para>As a matter of fact, the banks, although entitled as other taxpayers to share in the remissions, have made it clear that they will pass on to the borrowers the recently announced taxation reductions; but this must be done in their own way, and time, for the remissions per bank are not so very considerable and probably - on the average - would not equal more than, say, an all-round reduction _ of 1/1 (i per cent, in overdraft rates. </para>
+          </quote>
+          <para class="block">Would the South Australian Government, if it had been consulted by the Commonwealth Government, have favoured the allocation of money in order to bring about a reduction of 1/16 per cent. in. overdraft rates, or would it have decided in favour of assisting the primary producers? Which of the two proposals would be in the best interests of the unemployed? South Australia would certainly have preferred to assist the primary producers. This Government has done extremely well in keeping its expenditure within its revenue. It is fortunate, in times like this, to have been able to announce a surplus. But if the Commonwealth and the States are to emerge triumphant from this crisis, the Commonwealth will certainly need to give greater recognition to the claims of the States. </para>
+          <para>The budget reveals an error in connexion with old-age pensioners and public servants. The Prime Minister, when making his budget statement, drew a comparison between the purchasing power of the pension in 1933 and that in 1925, yet the Commonwealth Statistician in every book that he has published has deplored the fact that people will persist in referring to his index figures as the cost of living index, when it is nothing of the sort. Professor Giblin, in his book <inline font-style="italic">Wages and Prices,</inline> says - </para>
+          <quote>
+            <para>It may lie noted that the popular term &#34;cost of living index &#34; is not recognized  by the Bureau of Statistics. The term is of doubtful meaning, and might be taken to imply that account should be taken of changing standards to meet altered conditions - a rising standard after the war, and a falling standard in the present depression. Measurement of the cost of living would require also that account should be taken of the possibility of substituting one food for another, mutton for beef when beef is high, anil beef for mutton when mutton is high, and other natural devices of the practical housewife. </para>
+          </quote>
+          <para class="block">When a demand for mutton exists, the price of mutton rises; but when the PricE rises so high that&#39; mutton disappears from the workers&#39; basket, and something else is substituted for it, the price falls, and it is said that the fall represents a reduction of the cost of living to the workers. lt really is not so, because there was no mutton in his basket when prices were high. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3760</page.no>
+                <time.stamp />
+                <name.id>KOJ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HAYS, Herbert</name>
+                <name role="display">Senator Herbert Hays</name>
+              </talker>
+              <para>- Does Professor Giblin argue from that point of view? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3761</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- Of course he docs; he could not argue from any other point of view. I commend Professor Giblin&#39;s book to honorable senators. It is one of the best treatises on the relationship of the Statistician&#39;s figures to wage fixation that I have read. When the price of a tailor-made suit is, say, &#163;10 10s., there is a demand by the workers for readymade clothes, which, because of the demand, become dearer. Conversely, the lack of demand for tailor-made clothes causes the price of those garments to fall. The worker, who has never had a tailormade suit at &#163;10 10s., is told &#39;by different courts that his cost of living has fallen because tailor-made suits are cheaper. The first court in Australia to take a stand against that view was the South Australian Industrial Arbitration Court. A few months ago, that court decided that, notwithstanding that the so-called cost of living figures disclosed a fall from 10s. 6d. to 9s. 4d. a day, the living wage should remain at 10s. 6d. </para>
+            </talk.start>
+          </continue>
+          <para>I am pleased with the statement of the Minister in Charge of Development in relation to the fishing industry, and am glad that the Government is endeavouring to create in this country that psychology which is necessary for the development of what I believe will be one of our most important industries. The Government is also to be complimented on the steps it has taken to develop the shale oil industry in Australia. I sincerely trust that it will not mar its efforts by doing anything detrimental to the best interests of the Northern Territory. I commend to the Minister an excellent speech made by <inline font-weight="bold">Mr. Randolph</inline> Bedford who represents Warrego in the Queensland Parliament, as reported in the Queensland <inline font-style="italic">Hansard</inline> for Thursday, the 14th September, 1933. <inline font-weight="bold">Mr. Randolph</inline> Bedford&#39;s speech is an excellent exposition of the case against giving concessions to any chartered company for the purpose of developing any Australian territory. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3761</page.no>
+                <time.stamp />
+                <name.id>KS9</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MACDONALD, John Valentine</name>
+                <name role="display">Senator MacDonald</name>
+              </talker>
+              <para>- Behind the backs of the people, the Government is negotiating with British capitalists to take up land in the Northern Territory. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3761</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- I warn the Government, that if it proceeds further to deal with the development of the Northern </para>
+            </talk.start>
+          </continue>
+          <para class="block">Territory by chartered companies, it will not be in the best interests of Australia. <inline font-weight="bold">Mr. Bedford&#39;s</inline> speech contains irrefutable arguments, supported by facts which cannot be disputed, concerning the history of Australia and other countries which have resorted to that method of developing their territories. The concluding paragraph of <inline font-weight="bold">Mr. Bedford&#39;s</inline> speech reads - </para>
+          <quote>
+            <para>The territory can be developed by the States resuming big pastoral properties in the States near railways. There are so many pastoralists who desire their sous to stick to the business of wool-growing, and who desire mass production methods to obtain - people who certainly cannot expect to get land within existing reach of railways in sufficient quantities for that mass production - that if the States were gradually to resume these lands near railways and the Commonwealth to give the dispossessed special consideration - they being Australians and knowing the joi)- to acquire large areas of land in the territory to a greater extent, then the territory would be practically on the same footing as Queensland was 50 or GO years ago. From the point of view of White Australia, from the point of view of the economic position of the States immediately bordering on this, especially Queensland, and in view of the fact that it is an absolute repudiation of the agreement entered into by the Commonwealth with the State of South Australia and with every State of the union - on all these grounds the idea of developing any part of Australia by any other authority than that of the Commonwealth Government can be opposed with reason and with justice. It should be a declaration from the people of Australia to the present Commonwealth Government that in no circumstances will Australia consider parting with one acre of its country to any alien authority, and that it knows in advance that such alien authority must fail because in no circumstances can the mere ownership or over-lordship of land give the right to the overlord to govern the people in it. The thing must absolutely fail. It will be a success for the first few promoters. It will mean that in the years to come - probably a very few years - Australia will have to finance this proposition itself while still permitting these people some of the privileges they were given by the original charter, and finally having to take back its own property at a frightful waste of money and time. </para>
+          </quote>
+          <para class="block">That speech clearly demonstrates <inline font-weight="bold">Mr. Bedford&#39;s-</inline> intimate knowledge of the conditions which exist in the Northern Territory. He deals with the development which has taken place in Australia and South Africa from the time of John Batman in Melbourne to Cecil Rhodes in South Africa. He shows how it was necessary to clean up the mess created by those to whom was entrusted the development of certain territories. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3762</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator Duncan-Hughes</name>
+              </talker>
+              <para>-  Could anything be worse than the present position in the territory? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3762</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- Yes. At least we still have our heritage - a heritage of which we have no reason to be ashamed. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>3762</page.no>
+                <time.stamp />
+                <name.id>K3L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SAMPSON, Burford</name>
+                <name role="display">Senator Sampson</name>
+              </talker>
+              <para>-  We should be ashamed of what we have done with our heritage. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>3762</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- The party with which I am associated is not re&#39;sponsible for what has been done. Labour governments have not been in control of the Commonwealth for any considerable period. If there has been any despoliation of our heritage the party opposite must accept the responsibility for it. But I do not admit that our heritage in the Northern Territory has been despoiled. We have there a territory of which we have good reason to be proud&#62; and we should not do anything to harm that heritage in any way. I regret that, owing to the limited time at my disposal, I cannot carry the debate further. I join with <inline font-weight="bold">Senator Payne</inline> in the hope that next year may find us in a happier financial position and I assure the Government, on behalf of the&#39; party of one which I constitute, that if it brings forward legislation which, in my opinion, will be of service in this crisis, it will have my cordial support. I urge the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> to give heed to what I have said concerning the part which the States should be permitted to take in the rehabilitation scheme initiated by a government of which I was a member, and carried on by the present Ministry. </para>
+            </talk.start>
+          </continue>
+          <para>Debate (on motion by <inline font-weight="bold">Senator Carroll)</inline> adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SUSPENSION OF SITTING</title>
+        <page.no>3762</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3762</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for Defence</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;3.18&#93;.- I regret that the bill which gives effect to the Government&#39;s financial  propsals  mentioned in the budget has not yet been received from the House of Representatives, and, as I wish to move the second reading this afternoon, I suggest that you, <inline font-weight="bold">Mr. President,</inline> suspend the sitting of the Senate until it is to hand. </para>
+        </talk.start>
+        <para class="italic">
+          <inline font-style="italic">Sitting suspended from 8.18 to 3.25 p.m.</inline>
+        </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>FINANCIAL RELIEF BILL 1933</title>
+        <page.no>3762</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill received from the House of Representatives. </para>
+      <para>Standing and Sessional Orders suspended, and bill read a first time. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>3762</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3762</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>UAP</party>
+              <role>Minister for Defence</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;3.36&#93;.- I move - </para>
+          </talk.start>
+          <quote>
+            <para class="block">That the bill be now read a second time. </para>
+          </quote>
+          <para class="block">This bill is a comprehensive measure which incorporates practically all of the special budget proposals except those relating to income tax rates, which will be made the. subject of a separate measure. It is designed to give effect to the proposals that were announced in the budget speech, which cover a wide range of legislation. I shall outline the main features of the measure, leaving detailed information on individual clauses to be dealt with in committee. </para>
+          <para>Last year there was a reduction of land tax by 33$ per cent. The bill provides for a reduction to 50 per cent, of the former rates and the relief to taxpayers in the assessments for 1933-34 will be &#163;400,000. </para>
+          <para>The chief alterations in respect of income tax relate to life insurance companies and overseas shipping. Provision is made for an important variation in the basis of assessment of life insurance companies. There is to be an exemption from tax of a company which, according to the actuarial valuation of its insurance liabilities, is not making a profit. In cases where a profit- is being made, there is provision for a deduction in the assessment of an amount equal to .4 per cent, of that part of the valuation of liabilities at the end of the year in which the assessable income of the company was derived, which bears to that valuation the same proportion  a3  the value, at that date, of assets from which the company derives assessable income bears to the aggregate of the value at that date of all the assets of the company. Owing to differences in the accumulation rate of interest at which companies have valued their liabilities, a simple method is provided for converting all the different bases to a common 4 per cent, basis. A definition of &#34; Valuation of liabilities &#34; is also included. </para>
+          <para>To some extent, these alterations as affecting life insurance companies are directed to effect a reduction of interest rates charged to industry. One important concern, the Australian Mutual Provident Society, has already announced that so soon as this legislation is agreed to, it will reduce its rates of interest. </para>
+          <para>The existing taxation is forcing some of the weaker companies into an actuarially unsound position, and an alteration of the law is necessary. The estimated reduction of tax from these proposals is &#163;710,000. The Australian Mutual Provident Society estimates that the amount involved in the relief that it proposes to give will be &#163;277,000. </para>
+          <para>In the case of overseas shipping companies, the tax is at present an arbitrary basis of assessment representing 7&#189; per cent, of total receipts in respect of goods, &#38;c, shipped in Australia. It is proposed to reduce this arbitrary rate from7&#189; per cent, to 5 per cent., and the estimated reduction of tax will be &#163;25,000. </para>
+          <para>The bill contains proposed amendments of the several sales tax assessment acts, to give effect to the following: - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Further exemptions as announced in the budget speech. </para>
+            </item>
+            <item label="2.">
+              <para>Exemption of goods sold to, or imported by, unregistered persons for resale to Government departments. </para>
+            </item>
+            <item label="3.">
+              <para>Exemption in respect of sale, in certain circumstances, of goods which have been used by registered persons as plant, machinery or equipment in the ordinary course of their business. </para>
+            </item>
+            <item label="4.">
+              <para>Continuance of the exemptions temporarily allowed under the Financial Relief Act 1932. </para>
+            </item>
+            <item label="5.">
+              <para>Reduction of the rate of sales tax f rom 6 per cent, to 5 per cent. </para>
+            </item>
+          </list>
+          <para>With regard to No. 1, the principal exemptions may he divided broadly into :  - </para>
+          <list type="loweralpha">
+            <item label="(a)">
+              <para>Assistance to primary industry. </para>
+            </item>
+            <item label="(b)">
+              <para>Medicines, surgical and dental appliances and dressings. </para>
+            </item>
+            <item label="(c)">
+              <para>Items of food. </para>
+            </item>
+            <item label="(d)">
+              <para>Building material. </para>
+            </item>
+          </list>
+          <para>The further exemptions affecting primary industry will have the effect of exempting from sales tax practically every item used by primary producers. </para>
+          <para>Regarding No. 2, under the law, as it now stands, &#34;registered&#34; persons, that is, wholesale merchants and manufacturers, are not required to pay sales tax on goods sold to Government departments. The provision, however, did not allow freedom from tax where the person who sold goods to Government departments had already borne the tax either in the purchase price or when importing the goods. </para>
+          <para>To meet these cases, the law was amended as from the 5th October, 1932, to authorize the Commissioner to refund the tax already borne on goods sold to Government departments, provided that tax was excluded from the sale price. It is now proposed to amend the law so as to grant the necessary exemption in these cases and avoid refunds. </para>
+          <para>Concerning No. 3, it may be stated that these assets, as distinct from land and buildings, are &#34;goods&#34;, and as such are subject to sales tax when sold by registered persons. In many cases where the businesses of taxpayers have been sold as going concerns, reconstructed, or wound up, liability to sales tax has been avoided by so framing the agreements of transfer as to cause the whole of the assets, including assets which are not goods, to be sold for a lump sum consideration. In such cases, there is no amount for which the goods, as distinct from other assets, are sold, and liability to tax does not arise. When, however, the goods are sold for a specified amount, sales tax is payable in respect &#39; of that amount. It is considered that freedom from tax should be allowed in respect of sales of plant in all such cases, and also in respect of sales of similar goods by persons who have taken possession thereof under bills of sale. </para>
+          <para>As in No. 4, it is proposed to continue the exemption of those items which were temporarily exempted under the Financial Relief Act of 1932. The items in question were mentioned in detail in the budget speech. </para>
+          <para>Provision is also made for the reduction of the rate of sales tax from 6 per cent, to 5 per cent., and the reduction will begin to operate on the date on which the amending legislation receives the Royal assent. </para>
+          <para>The annual reductions of taxation as a result of these proposals willbe - </para>
+          <para class="block">
+            <graphic href="141332193310206_22_0.jpg" />
+          </para>
+          <para class="block">This is the largest single item of taxation remission in the budget proposals, and all sections of the community will benefit. </para>
+          <para>In part V., provision is made for the repeal of the entertainments tax. This will involve a loss of revenue of &#163;140,000 a year. </para>
+          <para>Part VI. deals with invalid and oldage pensions. Provision is incorporated in the bill for the restoration of the reductions in the rates of pension which were made by the Financial Emergency Act 1932, and, as the result, about 38 per cent, of the pensioners will have their pensions increased by an amount up to 2s. 6d. a week. In addition, the limit of income, including pension, will be increased from 27s. 6d. to 30s. a week. The pensioners concerned will receive an aggregate benefit of &#163;635,000 a year. </para>
+          <para>When the budget speech was delivered it was announced that the pensions law would be amended so that, in future, the rate of pension would be varied automatically in accordance with the rise or fall in the retail price index-number for food and groceries, provided that the maximum pension was not greater than &#163;1 a week, or less than 17s. 6d. a week. The necessary amendment is made in the bill now under discussion, and the following scale for determining the maximum rate of pension is provided: - </para>
+          <para class="block">
+            <graphic href="141332193310206_22_1.jpg" />
+          </para>
+          <para class="block">The effect of these amendments will be that the rate of all pensions will be varied by 6d. a week, between the minimum and maximum proposed, for every increase or decrease of 100 units in the index-number. </para>
+          <para>When the amendments included in this bill become law, it is intended to increase immediately all pensions by 2s. 6d. a week, provided that the rate shall not exceed 17s. 6d. a week. The result of this will be to bring about a small overpayment in the case of a limited class of pensioners until their cases are reviewed, and the exact pension determined in accordance with the new provisions. These cases relate to persons whose rate of pension is affected to a slight extent by income of less than 2s. 6d. a week, or by the possession of a property of small value. To review the pensions before making the increase would cause delay. These pensioners must, therefore, expect to have their payments reduced when the proper amount of the pension for which they are eligible has been determined. The aggregate amount of the overpayment will not be large, and will not be recovered from the pensioner, but provision will be made in the Supplementary Estimates to cover the overpayment. </para>
+          <para>The Financial Emergency Act 1932 introduced a new feature into the pensions law by charging the estate of a pensioner at his death with the amount of pension paid after the 12th October, 1932, as a debt due to the Commonwealth. Since that act was passed the Government decided that, where a pensioner died before the 31st December, 1932, or where he surrendered his pension, before that date, there would be no charge on his estate for pension paid, and that where a pension was surrendered after the 31st December, 1932, the pension paid between the 12th October, 1932, and the 31st December. 1932, would be excluded from the Commonwealth charge. The necessary amendments with retrospective effect are made by the present bill. Under the present law, encumbrances on real property of a pensioner existing at the 12th October, 1932, or to which the Commissioner has subsequently granted consent, and encumbrances on any property of a pensioner created bona fide for value before the pension was granted, have priority over the Commonwealth charge. The present bill extends such priority to all encumbrances on personal property, whether created before or after the grant of a pension. Moreover, the consent of the Commissioner will not be necessary to enable a pensioner to borrow moneys on the security of his personal property. </para>
+          <para class="block">To protect the security for the Commonwealth charge, the Financial Emergency Act 1932 requires every pensioner to furnish an undertaking that he will not mortgage or transfer without the prior consent of the Commissioner. It also makes it an offence for any person to accept a mortgage or transfer without the prior consent of the Commissioner, and it voids any mortgage or transfer made in contravention of the act. The present bill repeals the provision voiding mortgages or transfers. </para>
+          <para>Careful consideration has been given by the Government to the effect of the recent property provisions of the pensions act, with the object of ascertaining whether they were operating harshly and called for amendment. The conclusion arrived at was that the law was based on sound principles, and that adequate provisions existed for granting relief in cases of hardship. It is interesting to note that, since the Government&#39;s policy in this direction was announced, no fewer than 12,074 pensions have been voluntarily surrendered, and that the claimants for pensions have numbered only 31,500 compared with 44,750 for the corresponding period of the previous year, a reduction of 13,250. These figures are a clear indication that in the past pensions had been paid to a large number of persons, whose circumstances, including the circumstances of their relatives, were such that, although they were eligible for, they were not in need of, a pension. The Government was, therefore, unable to remove these property provisions; but in view of very strong repre.sentat.ions that have been made, the Government proposes further to investigate the matter, and will submit the question to Parliament for consideration before the end of the present session. </para>
+          <para>After the passing of the Financial Emergency Act, the Government decided to exclude from income, for the purposes of the pensions act, the value of sustenance or food relief to the unemployed, or wages for work in lieu thereof; also to exclude minors&#39; phthisis allowance from income for the purpose of determining whether a person is eligible for a pension in excess of 15s. per week. Provision is made in the bill to give effect to these decisions. Other amendments, mainly of a drafting character, are designed to clarify the intention of the law, and these will be explained in detail when the bill is being considered in Committee. </para>
+          <para>Part VII. deals with war pensions. When the Financial Emergency Bill was under consideration in 1931, a Soldiers&#39; Committee was set up to advise the last Government as to what reductions of war pensions should be made in order to effect the saving desired. The recommendation of that committee was acted upon by the government of the day, and the reductions were limited entirely to certain dependants of  deceased  soldiers, and to dependants of  ex-soldiers  who were drawing pensions. Pensions in respect of disabled soldiers - their own pensions - war widows, orphan children, and widowed mothers of deceased unmarried sous - provided they became widows within three years of the soldier&#39;s decease - were not subject to any reduction. The pensions of wives of incapacitated ex-soldiers were reduced by 22$ per cent. The bill provides that the reduction shall be 10 per cent, instead of 22$ per cent., and in the case of widows of deceased incapacitated soldiers who died from causes not attributable to service, it is provided that there shall be no reduction from the pensions payable to them at the time of their husbands&#39; deaths. A total of 57,698 widows are affected, and the annual cost of this concession will be &#163;136,000. In the case of other dependants, the reduction was 22$ per cent., and the pension was granted only if the pensioner was without adequate means of support. This reduction operated harshly in many cases, and the bill provides for the removal of the 22$ per cent, reduction. The pensions in this case will thus be restored in full, provided pensioners are without adequate means of&#39; support. This means that the pensions will be payable where the personal income is less than 30s. a week, or where the pensioner&#39;s property, other than a home, is of less value than &#163;200. The num&#62;ber of pensions in this group is 15,138, and the annual cost of the restoration will be &#163;111,000. </para>
+          <para>Under the various regulations relating to cost of living adjustments, in conjunction with further reductions under the Financial Emergency Act, the salaries of officers have been reduced, compared with salary standards of the 1st July, 1930, by &#163;42 on account of the cost of living adjustment, plus a further reduction in real wages under the Financial Emergency Act which varies from approximately 1 per cent, to 24 per cent. </para>
+          <para>The bill provides for a restoration of the reduction in real wages - the reduction in excess of that due to the cost of living; - of (a) &#163;S in the case of an adult male officer (or such lesser amount as was deducted in 1932), and proportionate amounts for females and minors; <inline font-style="italic">(b)</inline> a further 2$ per cent, calculated on salaries according to the standard at the 1st July, 1930. </para>
+          <para>In the case of members of the Naval, Military and Air Forces, the adjustments will be made in such manner and to such extent as in the opinion of the.-. Minister is fair and reasonable, having regard t?&#62; the reductions provided for in respect of members of the Public Service. There are also consequential alterations which will bo explained in committee. The cost of these restorations will be approximately &#163;550,000 a year. The proportionate benefit will be mainly derived by the lower-paid ranks of the Service. For instance, in cases where salaries were paid up to &#163;250 as on the 1st July, 1930, all reductions imposed over and above the cost of living reduction will be fully restored. The following table shows the effect of the proposed legislation in the case of adult males : - </para>
+          <para class="block">
+            <graphic href="141332193310206_24_2.jpg" />
+          </para>
+          <para class="block">It is not intended to interfere with the operation of the cost of living adjustment as provided for under Public Service Regulation 106a. Provision is made in the bill for this method of adjustment to apply to salaries generally. Should, however, .the cost of living fall so as <inline font-style="italic">&#39;:o</inline> warrant another reduction next year, such reduction will be first absorbed by any existing reduction there may be over and above the cost of living reduction. </para>
+          <para>Provision is also made in the bill for partial restoration of parliamentary &#39; allowances and Ministers&#39; salaries. The amount to be restored will be the amount of the reduction made last year, together with a further 2-J per cent. With this restoration, honorable members, senators, and Ministers will bc placed in the same </para>
+          <para class="block">
+            <graphic href="141332193310206_24_2.jpg" />
+          </para>
+          <para>relative position as the Public Service generally. </para>
+          <para>Under the Financial Emergency Act 1931, superannuation pensions were reduced by 20 per cent, of the share of the .pension payable by the Commonwealth. Owing to the advanced ages of many of the pensioners, the  Commonwealth  share of the pension is much more than &#163;1 for &#163;1, consequently the deduction is greater than 10 per cent, of the full pension, the average reduction being about 18 per cent. In many cases the effect was to reduce the superannuation pension below that of au old-age pension. For instance, a widow formerly in receipt of a superannuation pension of &#163;52 per annum, may now be receiving less than &#163;42 per annum. The cost of this restoration is estimated at about &#163;67,000 a year. . </para>
+          <para>The bill also provides for restoration of judges&#39; pensions. </para>
+          <para>Provision is made in Part I. for the several parts and sections of this bill, other than Parts I. andIV., to commence on such dates as are fixed by proclamation. In the case of sales tax, the reduction in the rates and the further exemptions will take effect on the date on which the amending legislation receives the Royal assent. In the case - of restorations of reductions in salaries and pensions, the same principle is being incorporated in the bill as was followed when the reductions were originally effected. The restoration of these reductions will be applied to the first pay day after the commencement of the respective sections in pursuance of proclamation. No time will be lost in issuing the proclamation, and I trust the bill will be passed without delay in order that the concessions provided for may take effect as early as possible. </para>
+          <para>Debate (on motion by <inline font-weight="bold">Senator O&#39;Halloran)</inline> adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DAY OF MEETING</title>
+        <page.no>3767</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator Sir George</inline> Pearce) agreed to - </para>
+      <quote>
+        <para>That the Senate, at its rising, adjourn till Tuesday next at 3 p.m. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>3767</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <para>Wheat Industry : Newspaper Misrepresentation -CIVIL. Aviation - Government Policy. </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3767</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for Defence</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;3.51&#93;. - I move - </para>
+        </talk.start>
+        <quote>
+          <para>That the Senate do now adjourn. </para>
+        </quote>
+        <para>It is not my practice to bring newspaper reports under the notice of the Senate; but in justice to the Senate itself, I feel that I should direct attention to the headline of a report of the debate in the Senate yesterday which appeared in <inline font-style="italic">the Sydney Morning Herald</inline> of to-day&#39;s date. It reads, &#34; Wheat scheme - Motion for minimum price defeated &#34; That is an absolute misrepresentation of the motion that was before the Senate. No motion was moved providing for the payment of a minimum price, and therefore such a motion could not have been defeated. The motion which was before the Senate, and which was defeated, was for the adjournment of the Senate to an unusual hour to enable honorable senators to discuss a matter raised by <inline font-weight="bold">Senator Dunn.</inline> The carrying of that motion would not have had any effect upon a minimum price. Neither those who voted for the motion uor those who opposed it were voting on that issue. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3767</page.no>
+              <time.stamp />
+              <name.id>KS9</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, John Valentine</name>
+              <name role="display">Senator MacDonald</name>
+            </talker>
+            <para>- That is not the only instance of bitter misrepresentation by certain newspapers. </para>
+          </talk.start>
+        </interjection>
+        <para>
+          <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.Perhaps not, butI regret that, a newspaper of the standing of the. <inline font-style="italic">Sydney Morning Herald</inline> should contain a headline which totally misrepresents the character of the vote taken yesterday. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3767</page.no>
+            <time.stamp />
+            <name.id>JYB</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNN, James Patrick Digger</name>
+            <name role="display">Senator DUNN</name>
+          </talker>
+          <para>. - The report in the <inline font-style="italic">Sydney Morning Herald</inline> referred to by the Leader of the Government in the Senate <inline font-weight="bold">(Senator Pearce)</inline> relates to a motion I moved for the adjournment of the Senate to discuss the advisability of the Commonwealth Bank providing the necessary funds to pay the Australian wheat-growers at least 3s. a bushel for this season&#39;s crop. That motion was defeated.I am not concerned with the reports that appear in newspapers, but apparently the Government has come out of this business rather badly, and the Minister is squealing instead of taking it on t he chin. Honorable senators on this side of the chamber have to submit to th e criticism which appears in the Australian press, but they do not squeal. The Minister should not complain of the report in the paper mentioned, because,  since the 13th October, the Government has been backing and filling on the wheat question. That is shown by the varying nature of the statements issued from time to time by the publicity officer of the Prime Minister&#39;s Department. The Government will not say what it intends to do to assist the wheat-growers. When the Leader of the Senate finds himself in a difficult position ho runs for cover to a political funkhole; and, when a press stink-bomb is thrown into that funk-hole, he runs out squealing like a rat that has been caught in a trap. </para>
+        </talk.start>
+        <para>The  PRESIDENT <inline font-weight="bold">(Senator the</inline> Hon. P. J.  Lynch). - Order!  I  ask the honorable senator  to  withdraw the  expression that  he  has  just used. </para>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>3768</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>- I  withdraw it. I  assure the  Leader of the Senate that  I  have no personal animus against  him. As a  matter of fact,  I  respect  his old age.  When  I  am  30  years older  I  shall probably be  as  finicky  us he is. I  ask the right honorable gentleman  to  comment upon the following telegram that I received  to-day  from Melbourne . * - </para>
+          </talk.start>
+        </continue>
+        <para>Referring Pearce&#39;s refusal in Senate yesterday appoint royal commission on aviation we can prove most glaring favoritism harassing, coercion, obstructive tactics, passive resistance and repudiation with documentary evidence carefully preserved over a period of years. Fully expect thorough probe by royal commission would reveal worse.If Pea rce honestly considers our charges baseless and his officials blameless, why not give them opportunity clear their names before royal commission. This would also be fair other officials whose records are blameless. Government has had nine requests for investigation including those from Colonel White and Auditor-General. In personal capacity I am preparing forPearce&#39;s prima facie case but he is delaying completion by not complying with request in my letter 12th September, for copies east-west tenders current contract and other relevant documents. Australia-wide air policy referendum resulted in644 voles in favour exhaustive inquiry and withholding any further expenditure meantime only 22 voted against. </para>
+        <para class="block">Shaw, Chairman Air Convent ion. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3768</page.no>
+            <time.stamp />
+            <name.id>K1Z</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">RAE, Arthur</name>
+            <name role="display">Senator RAE</name>
+          </talker>
+          <para>. -  There  is  no doubt that Labour members generally suffer a good deal from press misrepresentation. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3768</page.no>
+              <time.stamp />
+              <name.id>KS9</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, John Valentine</name>
+              <name role="display">Senator MacDonald</name>
+            </talker>
+            <para>-  The <inline font-style="italic">Sydney Morning Herald</inline> is not the only newspaper which is guilty of misrepresentation. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>3768</page.no>
+              <time.stamp />
+              <name.id>K1Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">RAE, Arthur</name>
+              <name role="display">Senator RAE</name>
+            </talker>
+            <para>-I  do not know that  any  section  of  the press  is  entirely  free from  blame in that respect. On one occasion,  I  was most unfairly criticized  by  the <inline font-style="italic">Sydney Morning Herald.</inline></para>
+          </talk.start>
+        </continue>
+        <para>Question put - &#39; </para>
+        <para>That the Senate do now adjourn. </para>
+        <para>Question resolved  in  the affirmative. </para>
+      </speech>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>3768</page.no>
+        <time.stamp>16:00:00</time.stamp>
+      </adjournmentinfo>
+      <para>Senate adjourned at 4 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

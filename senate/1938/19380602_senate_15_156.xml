@@ -1,251 +1,2559 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1938-06-02%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1938-06-02%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1938-06-02%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1938-06-02%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1938-06-02%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1938-06-02%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1938-06-02%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1938-06-02/19380602_senate_15_156.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1938-06-02</date>
+    <parliament.no>15</parliament.no>
+    <session.no>1</session.no>
+    <period.no>1</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>1785</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1938-06-02</day.start>
+      <para>The <inline font-weight="bold">President (Senator the Hon. P.J. lynch)</inline> tookthe chair at 3 p.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1785</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>OFFICIAL RESIDENCE FOR THE TREASURER</title>
+          <page.no>1785</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1785</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>- Following upon a statement made in this chamber yesterday, canthe Postmaster-General supply the Senate with the fullest information concerning the erection of an official residence in Canberra for the Treasurer? I understand that that gentleman intends to contributea certain amount- </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1785</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate>SOUTH AUSTRALIA</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator A J McLACHLAN</name>
+              </talker>
+              <para>- Is this a speech ora question? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1785</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- I am merely trying to explain the nature of my question. Can the Minister give the Senate, the fullest information concerning the residence to be erected for the Treasurer, the estimated cost, and also the amount, if any, which the Treasurer proposes to contribute towards its cost? </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1785</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>- If it is proposed to erect any official residence fora Minister in Canberra, the fullest opportunity will be given to honorable senators andtothe members of the House of Representatives to discuss such a proposal. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1785</page.no>
+                <time.stamp />
+                <name.id>KMK</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, Charles</name>
+                <name role="display">Senator Grant</name>
+              </talker>
+              <para>- The building is already partly built. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1785</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>EXPORT OF IRON ORE</title>
+          <page.no>1785</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1785</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>- I ask the Leader of the Senate if the attention of the Government has been drawn to the reported statement by Lord Stanley, Secretary of State for the Dominions, in the House of Commons, denying that the decision of the Commonwealth Government to place an embargo on the export of iron ore from Yampi Sound had been suggestedby the British Government, and emphasizing that the action had been taken entirely on the responsibility of the Commonwealth Government? Will the Minister confirm the&#39; statement in order to make the position clear to those persons in Australia who, on the statement of <inline font-weight="bold">Mr. C.</inline> A. Moreing, M.P.,have been misinformed on this point? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1786</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>- There will be no objection to confirming Lord Stanley&#39;s statement in that regard. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1786</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>STOCK DISEASE IN NEW ZEALAND</title>
+          <page.no>1786</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1786</page.no>
+              <time.stamp />
+              <name.id>KAY</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIBSON, William</name>
+              <name role="display">Senator GIBSON</name>
+            </talker>
+            <para>- Is the Leader of lbc Senate aware that a consignment of 150 sheep from New Zealand is arriving inone of our capital cities? Ishe satisfied that a thorough inspection of the sheep is to bc made to ensure that they are free from that dread disease, eczema? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1786</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>- The honorable senator brought a similar matter undermy notice some time ago, and I immediately communicated with the authorities concerned. I was then assured that steps had boon taken to prevent the spread of the disease into Australia. Having regard to the particular consignment mentioned, I shall see that a message is sent immediately to the Acting Minister for Health. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1786</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CONSCRIPTION</title>
+          <page.no>1786</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1786</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- I ask the </para>
+          </talk.start>
+          <para>Minister representing the Prime Minister (1) Has the Prime Minister seenthe press reports to the offect that conscription will bc submitted to the British Parliament for introduction immediately war occurs? (2) If so, can he say whether in this, as in other allied matters, Australia will bo committed to taking action similar to that of the British Government? </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1786</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>- This a matter of broad policy which it is not customary or appropriate to deal with in reply to a question. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1786</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>EMPIRE DAY</title>
+          <page.no>1786</page.no>
+        </subdebateinfo>
+        <para>Broadcastfrom Station 2FC. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1786</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>asked the Postmaster-General, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it afactthatonthe morning of Empire Day,National Broadcasting Station 2FC(Sydney) was utilizer for the wide dissemination of propaganda, in favour of unification and the abolitionof Stateparlia- mentsandStategovernments? 2.Is it not a fact that the views expressed were entirely opposed to the spirit ofEmpire Day,andonthataccount doubly inopportune and objectionable; </para>
+            </item>
+            <item label="3.">
+              <para>Will representative persons opposedto unification and desirous of retaining the sovereign States oftheCommonwealth with their present powershe given a similar opportunity to express their political views over thenationalstations.&#34; </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1786</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>- The Australian Broadcasting Commission has been asked for its comments on the questions raised by the honorable senator. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1786</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>WOOLPURCHASESBYJAPAN</title>
+          <page.no>1786</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1786</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Commerce, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Will theMinister inform the Senate if there is a trade agreement with Japan whereby Japanhascontractedto purchasea specified number ofba les of wool during the1937-38 wool-selling season ? 2.If so. how manybales of wool were to be purchased? </para>
+            </item>
+            <item label="3.">
+              <para>How many bales of wool have been purchased to date? </para>
+            </item>
+            <item label="4.">
+              <para>What is the date, of the termination of the present agreement? 5 In the event of Japan not lifting the number ofbales of wool agreed upon, what steps (if any) does theGovernment intend to take tosee that the terms of the agreement aru complied with? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1786</page.no>
+              <time.stamp />
+              <name.id>KS7</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>UAP</party>
+              <role>Minister without portfolio assisting the Minister for Commerce</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, Allan</name>
+              <name role="display">Senator MacDONALD</name>
+            </talker>
+            <para>- The Acting Minister for Commerce has supplied the following answers: - 1and2. An arrangementwas entered into on the 2(lth December, 1936, between the Government of Japan and the Commonweatlh Government, but the arrangement does not embody a purchase contract. The agreement provided thatthe Government of Japan would permit the importation of not less than 800,000 bales of Australian wool during the period 1st January,1937 -30June,1938. Any sheep&#39;s wool exportedfrom Australia for which import permission hasbeen accorded during the period ended 30th June,1938, shall bc admitted into Japan up to the30th September.1938. </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="3.">
+              <para>Exports of wool from Australia to Japan during the period 1st January. 1937-30th April, 1938, have been recorded at 478,308 bales. 4.The arrangement expires on the , 10th June, 1938. </para>
+            </item>
+            <item label="5.">
+              <para>During the currency of the arrangement the. Japanese. Government informed the Commonwealth Government that, as a result of unexpected and Abnormal circumstances which neither the negotiators nor the governments could have foreseen in 1936, the Japanese Governmenthad no alternative but to assume stringent control over the imports of raw materials, and that a curtailment of Japanese importations of wool and other commodities was unavoidable. At the same time, the Japanese Government assured the Commonwealth Government that it would do its utmost to facilitate the purchase of as much wool as possible in the Australian market. The Commonwealth Government considered it had no alternative but to accept the position. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1787</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>DROUGHT RELIEF</title>
+          <page.no>1787</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1787</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>asked the Leader of  the Government in the Senate, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>In view of the disastrous drought which primary producers have passed through, especially in the greater portion of New South Wales, and of the reported refusal of their appeals for financial assistance by the State financial institutions, will the Prime Minister confer with the States and request that the Commonwealth Bank make advances to State institutions to give relief that will en able the primary producers so affected to carry on, and rehabilitate themselves in their industry? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1787</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>- The Treasurer has supplied the following answer: - </para>
+          </talk.start>
+          <quote>
+            <para>This is a matter of broad policy which it is not customary or appropriate to deal with in reply to questions. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1787</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>NEWNES OIL SHALE</title>
+          <page.no>1787</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1787</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>asked the Minister representing the Treasurer, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Has any money, under the National Oil Proprietary Limited Agreement Act, been applied for? </para>
+            </item>
+            <item label="2.">
+              <para>Has any amount been paid over? </para>
+            </item>
+            <item label="3.">
+              <para>If so, what amount? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1787</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>- The Treasurer has supplied the following answer :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>2 and 3. No money has yet been applied for. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1787</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SMALL LOANS BY BANKS</title>
+          <page.no>1787</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1787</page.no>
+              <time.stamp />
+              <name.id>JTK</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CUNNINGHAM, James</name>
+              <name role="display">Senator CUNNINGHAM</name>
+            </talker>
+            <para>asked the </para>
+          </talk.start>
+          <para>Leader of the Government in the Senate, <inline font-style="italic">upon notice -</inline></para>
+          <quote>
+            <para>What financial arrangements have been entered into by the Commonwealth Bank and private banks respecting the granting of small loans to persons on low incomes? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1787</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>- On receipt of the report of the Committee on Small Loans, the Government communicated with a number of financial institutions with a view to ascertaining whether each individual institution would he prepared to establish either on its own account, or in conjunction with other institutions, facilities on the lines recommended by the committee. I am informed that the Bank of Australasia  hopes to  be in a position to undertake this class  of  business at one of its branches in the near future. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1787</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>COMMONWEALTH BANK</title>
+          <page.no>1787</page.no>
+        </subdebateinfo>
+        <para>Credit to Japanese Company</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1787</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>- On Wednesday, the 1st June, <inline font-weight="bold">Senator Leckie</inline> asked the Minister representing the Acting Minister for Commerce the  following  questions, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that the Commonwealth Bank has granted  a  credit of &#163;850,000 to  a  company in Japan for the buying of wool on90-day terms ? </para>
+            </item>
+            <item label="2.">
+              <para>If so, will the Minister arrange similar credits with the Commonwealth Bank to enable Australian and British buyers to buy on the same extended terms instead of the usual cash in fourteen days? </para>
+            </item>
+          </list>
+          <para>The question wasreferred to the Treasurer who has supplied the following answers :  - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>The Government has no knowledge of any such transaction. </para>
+            </item>
+            <item label="2.">
+              <para>It is not the policy of the Government to take any part in the management of the Commonwealth Bank, which is controlled by the Bank Board in the terms of&#39; the Commonwealth Bank Act. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1787</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CUSTOMS TARIFF 1938</title>
+          <page.no>1787</page.no>
+        </subdebateinfo>
+        <para>
+          <inline font-style="italic">In committee:</inline>Consideration resumed  from the 1st June <inline font-style="italic">(vide</inline> page 1638). </para>
+        <para>Division I. - Ales, Spirits and Beverages</para>
+        <para>Item 1 agreed to. </para>
+        <para>Item 9 (Spirituous preparations). </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1787</page.no>
+              <time.stamp />
+              <name.id>JY7</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNCAN-HUGHES, John</name>
+              <name role="display">Senator DUNCAN-HUGHES</name>
+            </talker>
+            <para>. - Owing to the way in which the items are set out it is extremely difficult to determine whether the duties under these items have been increased or decreased. The Minister may be in  a  position to answer that question offhand without reference to the officials. It is exceedingly hard for an ordinary person who refers to the item, or to the memorandum setting out details of the changes, to say whether the proposed alteration will mean an increase or a decrease at the outset, or whether there will eventually he an increase as the quantity increases. Will the Minister say whether this -alteration involves an increase or a decrease, and if so, will it be constant over the whole item? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1788</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - Under present exchange conditions the proposed British preferential rates represent an effective reduction of the ad valorem duties by 2&#189; per cent. The specific duty provided according to the spirit content of the goods is reduced from a basis of 30s. a proof gallon, less exchange adjustment, to a basic rate of 25s. a proof gallon, British preferential tariff. The proposed reductions in the general tariff are:6&#188; per cent. ad valorem, plus a reduction of the specific duty by 6s. a proof gallon. </para>
+          </talk.start>
+          <para>Item agreed to. </para>
+          <para>Items 11 and 16 agreed to. </para>
+          <para>Division 2.  -  Tobacco and Manufactures thereof. </para>
+        </speech>
+        <para>Item 20 (Tobacco.)</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1788</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>. - I should like the Minister for Repatriation <inline font-weight="bold">(Senator Foll)</inline> to enlighten me on this item. How much Australian tobacco leaf is mixed with imported leaf, and how do the new rates compare with the previous rates? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1788</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - Concurrent with the increase from 3s. 6d. to 5s. per !b. made in May, . 1.936, in tbe import duties on tobacco leaf used in the manufacture of tobacco in which the proportion of Australian leaf used was less than 13 per cent., corresponding increases were made in the duty on imported manufactured tobacco, in order that Australian manufacturers, who purchase practically the whole of the local tobacco crop, would be adequately safeguarded against importation of the manufactured product. The amendment now made is for a reduction on cut tobacco of United Kingdom manufacture containing 13 per cent. of Australian leaf to the level of the duties obtaining prior to May, 1936. The reduction is from 10s. 6d. to 9s. 3d. per lb. The amendment is made in order that United Kingdom manufacturers may incorporate tbe required percentage of Australian leaf in the tobacco which they export to Australia and receive the benefit of the lower tariff rate. That rate still provides adequate protection to Australian manufacturers who incorporate the required percentage of Australian leaf in their blends, as they, in turn, are granted the lower import rate of 3s. 6d. per lb. on their tobacco loaf. Moreover, satisfactory evidence that the imported manufactured product contains the required percentage of Australian leaf is demanded before entry at the lower rate of 9s. 3d. per lb. is permitted. While it is not expected that there will bc a substantial development in the immediate future in the use of Australian leaf by United Kingdom manufacturers, due in some measure to the necessity for acquiring matured stocks of better quality leaf, the Government&#39;s proposal opens the way for the use of Aus-&#34; tralian leaf by British manufacturers in their export tobaccoes and, if it achieves that end, there is the further possibility of its use in the domestic trade of the United Kingdom. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1788</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>-  Has the Tariff Board reported  on.  this subject? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1788</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- There have been a number of reports from the Tariff Board. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1788</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>-  Were representatives of the. Australian manufacturers heard in evidence? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1788</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- They were given every opportunity to be heard. In addition, a select committee reported fully on the tobacco industry. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1788</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>. - I should like to know whether Great Britain is using any Australian tobacco leaf. It seems strange that we are importing more fine-grown tobacco every year. In 1933 imports amounted  to  11,600,000 lb. and grew to 17,000,000 lb. in 1935, and to 19,500,000 lb. in 1936-37. It is strange that while the Government claims that it is doing its best for the industry, there should be a constant growth of importations of foreign tobacco. Personally, I doubt whether the contemplated action will aid the Australian tobacco industry. The action taken by a Labour government some years ago gave a great impetus to the tobacco-growing industry. It then became possible for hundreds of additional men to go on the land to grow tobacco leaf. We know what action was  taken by the tobacco combine. Manufacturers refused to blend Australian tobacco, and the Australian consumer did not like it unblended. There was no demand for Australian leaf. The tobacco trust at that time did not wish to see the development in Australia of the tobacco-growing industry. I understand that, in Queensland, particularly in the Mareeba district, a light-leaf tobacco sought after by Australian consumers is being grown. Instead of playing with the business as it is doing, the Government, if it is really serious, should take other action to foster and develop the industry. There has been a tremendous increase in the profits of the British-Australasian Tobacco Company in recent years. &#34;While the grower of tobacco leaf is struggling to maintain himself in reasonable comfort, the profits of that company have developed extraordinarily. In 1935 they were &#163;585,000 ; in 1936, &#163;667,000 ; and in 1937, &#163;911,000. L am using only round figures. Also, in the last-mentioned year, &#163;307,000 was distributed on ordinary shares in the form of a special dividend .of 3$ .per cent. That should be of interest to the so-called representatives in this chamber of primary producers. Members of the Labour party represent the primary producers; but there are some honorable senators on the Government side who flatter themselves- that .they represent the man on the land better than we do. They contend that they are the true representatives of .the country. They should be deeply interested in this item. Tobacco-growers are primary producers, and every effort should be made by representatives of the Country party to develop the industry. Before <inline font-weight="bold">Sir Earle</inline> Page joined the Ministry he was an active supporter of our ideas, but he has since fallen from grace. Perhaps getting into the Ministry has a demoralizing effect on members of Parliament. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1789</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B Johnston</name>
+              </talker>
+              <para>- <inline font-weight="bold">Mr. Thompson</inline> deserves some credit. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1789</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- The honorable member for New England was a very ardent supporter of those engaged in the tobacco industry, and he put up a strong fight for them. I should be the la.Pt man in the world to deny due credit to any one. I have given credit .to <inline font-weight="bold">Senator Abbott</inline> for the magnificent work he has done, by urging the adoption of a universal language, to bring about peace in the world. I give <inline font-weight="bold">Mr. Thompson</inline> credit for the work he has done, but, he, too, has fallen from grace since he has become a member of the Government. Many men who will fight on the floor- of the House as private members, become less militant when they enter the Government. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1789</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B Johnston</name>
+              </talker>
+              <para>- But not <inline font-weight="bold">Mr. Thompson.</inline></para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1789</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- It is very nice to know that. Both <inline font-weight="bold">Mr. Thompson</inline> and <inline font-weight="bold">Sir Earle</inline> Page may have carried on the fight in the Cabinet-room and been beaten. Carreras Limited have increased their dividends from 12f per cent, in 1935 to 33$ per cent, in 1937. The two companies I have mentioned manufacture about 90 per cent, of the tobacco grown in Australia. They are the sole buyers, and they dominate the market. They can give what price they like to the poor devil of a producer,, who is working hard on the land to make a bare living. If there were competition in the purchase of leaf, the grower would be likely to get a better price. Tho price will continue low if the buying is confined to one or two companies. I doubt very much, whether the action taken under this item will increase competition for Australiangrown leaf. I should like the Minister to demonstrate how the item will work, and prove to me that Great Britain will buy Australian tobacco leaf, manufacture it, and send it back to us. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1789</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- Canada exports to Great Britain about 10,000,000 lb. of tobacco a year. Australian tobacco .maybe mixed with that. The request for the new duty came from an English company that wants to blend Australian leaf with other leaf. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1789</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- Ten million pounds is only a small proportion of the tobacco manufactured in the Old Country. The Government flatters itself that it has done much for the tobacco-growers. If that is so, it is strange that there should be a constant growth of importations of black-grown tobacco. If the Government were doing its duty to Australian growers, more tobacco would be grown here and less would be imported. </para>
+            </talk.start>
+          </continue>
+          <para class="block">That is. the burden of my argument and I should like the Minister to reply to it. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1790</page.no>
+              <time.stamp />
+              <name.id>KAY</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIBSON, William</name>
+              <name role="display">Senator GIBSON</name>
+            </talker>
+            <para>:The object of this concession is to enable Australian leaf to be shipped to Great Britain to be manufactured and mixed there and returned to Australia as the finished product. What is the quantity of the mixture that has been returned in that way to Australia, and what are the countries of origin of the tobacco with which this Australian leaf is blended in Great Britain? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1790</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - Up to the present no British blend, including Australian leaf, has been sent to Australia. This alteration of duty has been decided upon because a tobacco manufacturing company in England is desirous of using a certain percentage of Australian leaf in its blends, and the Government considered that the proposition merited a concession of duty. At the moment it is impossible to say what the result of this duty will be, but it is well worth trying in the hope that a new market for Australian leaf will be opened up. The last report of the Tariff Board on the tobacco industry was published in January, 1932, but the Leader of the Opposition is aware that it is not necessary to refer to the Tariff Board excise duties, which are imposed wholly for revenue purposes. </para>
+          </talk.start>
+          <para>In reply to <inline font-weight="bold">Senator Brown</inline> I point out that the whole of the light leaf being produced in Australia is being bought readily and at prices considerably higher than world parity. Six companies are operating at the tobacco sales and are buying all offerings of this kind of leaf. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1790</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator Brown</name>
+              </talker>
+              <para>- They are buying only a small proportion of this leaf. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1790</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- I assure the honorable senator that all of the light leaf, and all higher grades of leaf grown at Mareeba are being readily purchased. In 1927-2S the total usings of Australian leaf amounted to 1,331,871 lb., or 5.8 per cent. of the total of tobacco leaf used in manufacture in Australia. By 1930-31 that figure increased to 3,595,146 lb., and in 1936-37 to 5,308,886 lb., or 22.2 per cent. of the gross total. I do not think that any honorable senator need have any fear of the effect of the Government&#39;s policy in regard to this in dustry. I do not know what has been the experience of other honorable senators from Queensland, but for many months past I have not had any representations made to me from tobacco-growers in that State. That is a valuable sign, because in the past growers lost no opportunity to ventilate any grievance as quickly as possible. Briefly reviewing the action taken by the Government in respect of this industry, I point out that in November, 1933, the protection to growers was increased by the imposition of an additional 6d. a lb. on imported |tobacco leaf, bringing the total duty up to 3s. 6d. a lb. In September, 1935, the excise duty on tobacco manufactured wholly from Australian leaf was reduced by 8d. from 4s. 6d. to 3s.10d. a lb. In May. 1936, a higher import duty was charged on tobacco leaf used in the manufacture of tobacco in which less than 13 per cent., by weight, of Australian leaf was used, and in the manufacture of cigarettes in which less than2&#189; per cent. by weight, of Australian leaf was used. The effect of the 1936 measure was to force manufacturers to incorporate the required percentage of Australian leaf in their blends. The combined result of the legislation introduced by this Government with respect to tobacco has been the creation of a much wider demand for tobacco products containing Australian leaf. This fact is demonstrated by the figures which I .  have just cited. Presumably, one reason why import figures are higher is that there has been an increased demand for tobacco manufactures generally. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1790</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator Brown</name>
+              </talker>
+              <para>- Could the Minister supply the name of the English company which he said was prepared to buy Australian light leaf for blending? Is it the British Imperial Tobacco Company, or any company associated with that concern ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1790</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- Without the consent of the Minister I would not be justified in disclosing the name of the company to which I have referred. I assure the honorable senator, however, that it is not the British Imperial Tobacco Company or any subsidiary of that company. </para>
+            </talk.start>
+          </continue>
+          <para>Item agreed to. </para>
+          <para>Items . 21 and 22 agreed to. </para>
+          <para>Division IV.  -  Agricultural Products and Groceries. </para>
+          <para>Item 42 agreed to. </para>
+          <para>Item 44 (Cocoa beans, caramel, and confectionery, &#38;c). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1791</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>.- This item deals mainly with raw materials for confectionery, and, in some cases imports of confectionery. These two divisions represent totally different interests. Although some small relief has beengiven to the confectioners I do not think that the Government has been very generous to them. Some months ago I accompanied a deputation which waited upon the Minister on behalf of the confectionery interests; and it put up a very good case for relief. The confectioners&#39; main complaint was that the raw materials which they had to import, such as cocoa beans, nuts, gum arabic, aluminium foil, tin plate, ginger, and liquorice, were subject also to primage duty. I do not know how honorable senators generally view primage duty, but we were given to understand that primage, particularly in respect of raw materials, would be removed at the earliest opportunity. A definite promise to that effect was given. There is no indication in this item, however, that primage duty, or for that matter any other duty, has been reduced on what are essential raw materials of the confectionery industry. For that reason the Government cannot claim that it has been generous to this important industry which employs a large number of people. I disagree with the view held by some people that confectionery is a luxury; it is a necessary food. At any rate, the industry is of sufficient importance to be well worth fostering, and I urge the Minister to see whether relief cannot be given to confectionery manufacturers in respect of the duties on the raw materials. Of course, sugar, which is the main article required by the trade, is grown in Australia, but the other raw materials of the trade are not grown in Australia, and imports of such cannot be said to compete with any home grown product. The only article in respect of which there might be a slight doubt in that regard is almonds, which alone of all the raw materials required by the trade, are grown in Australia. However, they are not grown here in anything like sufficient quantities to meet local requirements. I am aware that the almond growers of South Australia are experiencing a fairly bad time and need all the protection that they can get. I point out, however, that the Australian production of almonds is very small. Furthermore, the quality of the Australian almond leaves room for improvement and growers might well pay attention to that aspect of their industry. I again ask the Minister to see whether some further relief can be given to confectioners in respect of customs and primage duty on their raw materials. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1791</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party>NAT; UAP from 1931</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. -  I assure <inline font-weight="bold">Senator Leckie</inline> that his request will receive careful consideration. However, the removal of primage duty is a matter of Government policy. I remind the honorable senator that in respect of quite a number of industries the Government has already removed primage duty. Unfortunately the confectionery manufacturing industry has not benefited in that direction. The Government, however, recognizes that this is not a luxury industry and is supported in that opinion by the report of the Tariff Board. This industry has an output of approximately &#163;5,000,000 per annum and is a large consumer of Australian products. It gives employment to about 7,000 people, whose wages total about &#163;1,000,000 annually. I assure the honorable senator that, when the finances permit, sympathetic consideration will be given to his representations for the removal of primage duty on raw materials required by this industry. I undertake to bring his remarks under the notice of the Minister. </para>
+          </talk.start>
+          <para>Item agreed to. </para>
+          <para>Items 56, 57, 64, 79, and 84 agreedto. </para>
+          <para>Item 88 (Table salt). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1791</page.no>
+              <time.stamp />
+              <name.id>JY7</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNCAN-HUGHES, John</name>
+              <name role="display">Senator DUNCAN-HUGHES</name>
+            </talker>
+            <para>. -  I should be glad to hearan explanation of this item, and also of item 89. I take it that item 88 relates mainly to table salt and item 89 to stock salt. What is the reason for the increased duties? Salt is a fairly weighty substance, and as it is found on the surface of the land and the winning of it does not require any elaborate mining process, it  seems improbable that foreigners could dump large quantities of salt into this country and undersell local producers. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1792</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>.- The duty on foreign salt, has been increased, but that on salt from Britain has been lowered. I realize that exchange adjustments affect the situation, leaving it practically what it was before, but instead of requiring us to make somewhat intricate calculations it would be better to set out the position more clearly. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1792</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator Foll</name>
+              </talker>
+              <para>- When the exchange adjustment is taken into consideration, the duty is not lower. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1792</page.no>
+                <time.stamp />
+                <name.id>KR9</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LECKIE, John</name>
+                <name role="display">Senator LECKIE</name>
+              </talker>
+              <para>- Salt is manufactured in Victoria, South Australia, Western Australia and Queensland, in each of which States there are large deposits. When the Tariff Board inquiry was held in 1936, it was claimed that Australian dairy salt was unsuitable, but the board expressed the opinion that Australian butter does not suffer from being mixed with the best Australian dairy salt. Australian companies are able to supply the whole of the local requirements. Five companies are operating in Victoria, eight in South Australia, five in Western Australia and one in Queensland. In addition, several individual propiietors are in the business. The Australian production totals about 100,000 tons a year. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1792</page.no>
+                <time.stamp />
+                <name.id>KAY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GIBSON, William</name>
+                <name role="display">Senator Gibson</name>
+              </talker>
+              <para>- The honorable senator must be referring to stock salt, which is covered by item 89. The production of table salt in Australia does not reach 100,000 tons a year. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1792</page.no>
+                <time.stamp />
+                <name.id>KR9</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LECKIE, John</name>
+                <name role="display">Senator LECKIE</name>
+              </talker>
+              <para>- Altogether, about 100,000 tons of salt is produced in Australia. The wages paid in the industry are from 55 per cent. to 58 per cent. higher than in competitive countries. This industry is worthy of protection. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1792</page.no>
+              <time.stamp />
+              <name.id>KAY</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIBSON, William</name>
+              <name role="display">Senator GIBSON</name>
+            </talker>
+            <para>.- I think that <inline font-weight="bold">Senator Leckie</inline> is under a misapprehension. The figures cited by him relate, not to table salt covered by item 88, but to stock salt, which is covered by item 89. In respect of item88, the duty under the general tariff has been increased by 10 per cent., whereas in respect of item 89 the British preferential duty has fallen from. 20s. to 5s. a ton. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1792</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - In the memorandum which has been issued to honorable senators it will be seen that the duty under the British preferential tariff was previously 15 per cent. net. The exchange adjustment reduces the 20 per cent. to 15 per cent. As was stated by <inline font-weight="bold">Senator Leckie,</inline> the Australian salt industry has grown considerably during recent years. For some time it was subjected to intense competition from the United States of America. Most of the work of salt production is associated, not with the gathering of the salt, but with processing, packing and distributing. The total quantity of very fine table salt produced in Australia is about 120 tons a year. Several firms in Australia are producing salt equal to that produced in any other country. </para>
+          </talk.start>
+          <para>Item agreed to. </para>
+          <para>Item89 (Salt, n.e.i.). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1792</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>.- In respect of this item the duty has been reduced from 20s. a ton to 5s. a ton British preferential tariff, and from 30s. a ton to 22s. 6d. a ton under the general tariff. I should like the Minister to explain why such a substantial reduction has been made in respect of what is practically a primary industry, particularly as it employs a lot of labour at good wages. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1792</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - The previous duty of 20s. a ton was subject to exchange adjustment, so that the reduction is not from 20s. to 5s.; but rather from 15s. to 5s. Salt can be produced at little cost, and consequently only a low duty is necessary to protect the industry. The investigation of the Tariff Board revealed no necessity for high rates of duty, as overseas competitors found it practically impossible to compete with local producers. The Government accepted its recommendation, and the industry itself made no protest. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1792</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- Did the board consider the higher wagespaidin Australia? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1792</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- The Tariff Board always takes economic factors into consideration. In its report the board stated - </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>In view of the fact that it is only, in the higher grades of salt that protection is neces- sary, consideration has been given to  the question  of applying duties to those grades only, but in view of the great difficulties in administration which would arise  from the  necessity to distinguish between  the  various  grades, the  boardhas arrived at the conclusion that all salt imported  in  hulk or in packages over 14 lb. net should be accorded similar treatment for tariff purposes. </para>
+            <para>All the avenues of investigation followed by the hoard lead to the conclusion that a reduction in duty is desirable. The boardis satisfied that thelocal industry will continue to operate successfully under a duty of5s. per ton ( British preferential tariff) while exchange is at its present level. Owing to the wide variations in f.o.b. prices and the differences in packing, it is extremely difficult to arrive at a figure representing an average protection per ton afforded by exchange, but the board is satisfied that the local industry will be adequately protected if the duty under the British preferential tariff is brought up to its existing rate of 20s. per ton in the event of exchange r everting to par. </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1793</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>.  -Unless the duties be raised instead of lowered, Australian manufacturers of salt will foreverbe prevented from manufacturing those finer qualities of table salt, and packing them in the better containers which are to be found on the market. It will be admitted that they are offering to the public salt of good quality. Australia will never be able to produce the higher qualities of salt unless the industry is adequately protected. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1793</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - TheCheetham Salt Proprietary Limited, which manufactures the fine grade of table salt, is gaining more and more ground. I am afraid that the Leader of the Opposition <inline font-weight="bold">(Senator Collings)</inline> is confusing fine table salt with the coarser salt, which is included in this item. Actually, more salt is being exported from Australia than is being imported. In 1934-35, our imports totalled 3,750 tons; in 1935-36, 3,484 tons ; in 1936-37. 3,876 tons, and for the eight months of the present financial year, 2,392 tons. Our exports increased from 11,382 tons in 1934-35 to 15,402 tons in 1.936-37, and for the eight months of the present financial year they totalled 9,872 tons. There are 22 companies engaged in tin&#39;s industry, giving employment to281 persons, and the average annual wages bill is &#163;54,969. </para>
+          </talk.start>
+          <para>Item agreed to. </para>
+          <para>Division V. - Textiles, Felts and Furs, and Manufactures thereof, and Attire. </para>
+          <para>Items 105, 116 and118 agreed to. </para>
+          <para>Item 120 (Textiles, cotton and linen handkerchiefs, &#38;c). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1793</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>. - This item covers a fair number of textile piece-goods of various kinds. I shall be obliged if the Minister will furnish the committee with some information, particularly with respect to subitem (a), dealing with furnishing drapery and napery. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1793</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - In sub-item (a) the proposed rates compare with the rates under the 1933-36 tariff as follows:In 120(a)(1) and (2) there is an increase of1&#188; per cent. in the British preferential tariff. In 120 (a) (1) there is a reduction of 5 per cent., and in (a) (2) a reduction of 7&#189; per cent in the intermediate tariff. There is no change in the general tariff. The amendment now proposed is the result of a recommendation of the Tariff Board contained in its report of the 28th September, 1937. There was little evidence at the Tariff Board&#39;s inquiry with respect to the general level of the duties under this item. Consequently, the board recommended no material alteration of the rates. In the main, the evidence tendered to the Tariff Board related to requests for special treatment of certain classes of goods included in the item. </para>
+          </talk.start>
+          <para>The principal requests on which the Tariff Board made comment were, first, piece-goods for the manufacture of art needlework, and, secondly, printed cotton bedspreads and dimity quilts. The local manufacturers of art needlework requested . admission from the United Kingdom free of duty and primage of all textile piece-goods, except those of wool or containing wool, whether defined or not for cutting up, provided they were used in the manufacture of art needlework. The Tariff Board did not make a definite recommendation upon this request, but specially brought the request under notice. The Government gave very careful consideration to it, but in view of the importance of textiles from the revenue point of view, was unable to concede free admission.However, the </para>
+          <para class="block">Government recognized that the art needlework manufacturers were labouring under difficulties as regards defined piece-goods, such as coloured bordered materials, as such piece-goods .-were dutiable at the same rate of duty as the finished articles into which they were made. Accordingly, action was taken under the proposals now before the committee by an amendment of tariff items 105 (b) and 105 (m)(1), to admit at the ordinary piece-goods rates, defined cotton or linen piece-goods for the manufacture of cosies,  doyleys,  pillow-shams, tablecentres, table-covers, table-runner3 or tray-cloths. This action should enable the art needlework manufacturers profitably to extend their range of production. </para>
+          <para>At the time of the board&#39;s inquiry, dimity quilts and printed cotton bedspreads were dutiable under the item now before the committee. Dimity quilts are similar to  marcella  quilts, provided for at the lower revenue rates under item 120 (f) and are principally used in hospitals. The board expressed the opinion that dimity quilts should be included with the other quilts under item 120 (f) and action was taken along these lines in the present proposals. Printed cotton bedspreads are used as a substitute for quilts by persons who cannot afford the higher-priced articles. Consequent upon the Tariff Board&#39;s recommendation, action was taken under the present proposals to include them in item 120 (f), subject to departmental by-laws. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1794</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>.- I should like some information about sub-item (n), which imposes the duties on cotton or linen handkerchiefs. It would seem that there has not been any alteration; but I remind the committee that the duties were reduced by 5 per cent, in 1932, subject to a further reduction of the British preferential tariff when the Exchange Adjustment Act came into operation. Apparently .the old duties were 30 per cent., whereas the duty now proposed in the British preferential tariff is 22&#163; per cent., with exchange adjustment, which, I understand, will make the rates the same as formerly. Importations in 1934-35 amounted in value to &#163;128,000, and in 1936-37 to &#163;206,000, or an increase of nearly 70 per cent. As the Australian manufacturers in 1935-36 produced 1,278,000 dozen handkerchiefs, valued at a little over &#163;200,000, there appears to be no reason why they should not have the bulk of the trade in these goods.; but figures given to me show that in 1935-36 Ave imported 2,270,000 dozen. As the major costs are for labour and packing, this is an industry that might very well be encouraged. A lowering of the duty will not have that effect. 3 have not heard any one complain of the price of handkerchiefs; on the contrary, I think most people are rather surprised that they are so cheap. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1794</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>. - The item to which <inline font-weight="bold">Senator Leckie</inline> has directed attention deserves more than passing attention. Australian manufacturers of cotton arid linen handkerchiefs are producing goods equal to those made in any other part of the world, with the possible exception of the finer kinds of embroidered handkerchiefs, which, I understand, are imported in considerable quantities from Switzerland. The fact remains that in the matter of output the Australian manufacturers of cotton and linen handkerchiefs are going backward instead, of forward, owing to the increased severity of the competition particularly from the United Kingdom. According to the information at my disposal the imports in 1932-33 were 527,000 dozen; in- 1935-36, S44,000 dozen, and in 1936-37, 882,000 dozen. The Australian manufacturers, who previously enjoyed 60 per cent, of the local market, have now only 50 per cent, of it. Moreover, a great deal of the excessive competition is coming from Japan, due, largely, to the . trade diversion policy adopted by this Parliament. The members of the Opposition would like the duties on cotton and linen handkerchiefs increased considerably, in order to reduce the severity of the competition from other countries, and. thus give to Australian manufacturers a better opportunity to capture more of the local market. Yesterday I referred to the fact that every reduction of duty threatens persons already in employment, or closes possible avenues to others who are unemployed. Can the Minister satisfy the committee - I do not see how he can, in view of the figures I have quoted - that efforts are being made to ensure that Australian manufacturers shall not he prevented from holding a reasonable portion of the local trade? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1795</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>.- When 1 spoke previously on this item, I overlooked sub-item (u) (2) which relates to cotton or linen serviettes. The figures I gave covered both cotton or linen handkerchiefs and cotton or linen serviettes. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1795</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - I should like to correct the statement made by the Leader of the Opposition <inline font-weight="bold">(Senator Collings)</inline> that importations from Japan are increasing. The official figures show that the importations from that country have been as follow: 1934-35, 21,773 dozen, valued at &#163;1,180; 1835-36, 1S,514 dozen, valued at &#163;1,164; and 1936-37, 11,385 dozen, valued at &#163;599. For the first eight months of 1937-38, 4,058 dozen, valued at &#163;263, were imported. The proposed rates under the British preferential and intermediate tariff columns are those recommended by the Tariff Board, while the general tari g rates on both handkerchiefs and serviettes include a margin for the purposes of treaty negotiations. In respect of. both handkerchiefs and serviettes, local manufacturers import the cloth in the piece, and perforin the hemming or hemstitching processes in Australia. Practically the whole of the cloth is of United Kingdom origin, and is admitted at the rates of id. a square yard or 5 per cent., whichever is the lower in the case of cotton; and 5 per cent.  :i.d  valorem in the case of linen. The proposed rates on the complete handkerchiefs and serviettes, therefore, provide a minimum net protection over the duties on the cloth of 17-^ per cent. British and 45 per cent, foreign, on handkerchiefs, and 15 per cent. British, and 40 per cent, general on serviettes. Figures supplied at the Tariff Board&#39;s inquiry showed that there has been a steady increase since 1932 in the Australian production of handkerchiefs, and that local manufacturers are catering for about 60 per cent, in quantity and value of tho requirements of all classes of handkerchiefs, and for the bulk of requirements of plain handkerchiefs. The figures in respect of Australian production are - </para>
+          </talk.start>
+          <para class="block">
+            <graphic href="156332193806025_10_0.jpg" />
+          </para>
+          <para class="block">The intermediate tariff rates under this item are not operative; therefore the amendment does not alter .the effective rates under the 1933-36 tariff on handkerchiefs, but increases the British preferential tariff rate on serviettes by li-per cent. I may repeat the assurance given by the Acting Minister for Trade and Customs that if a prima facie case for increased protection can be presented to the department the matter will be referred to the Tariff Board for further inquiry. If the position is as stated by the Leader of the Opposition those engaged in the industry can again bring the matter before the Tariff Board. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1795</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>-  When was the last inquiry conducted? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1795</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- The last report was dated the 23rd September, 1937: &#91;tern agreed to. </para>
+            </talk.start>
+          </continue>
+          <para>Item 121 agreed to. </para>
+          <para>Item 130 (Cotton, or containing a mixture of fibres). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1795</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>.- 1 congratulate the Government upon the alteration which has been made in this item. It appears that it has at last realized the accuracy of the statements made in this chamber when the last tariff schedule was under discussion that undyed material was being imported into Australia, and; after being dyed, entered into competition with Australianmade denims and drills. After two years of agitation by the manufacturers the Government at last realized that we were right when we said that that practice was being adopted. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1795</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>. - I should like to know the extent to which these duties have been increased, whether the action taken is based on a recommendation ofthe Tariff Board, and if so, when such a recommendation was made. In view of SenatorLeckie&#39;s remarks it would appear that another burden has been placed upon primary industries by the duties imposed under this item. I cannot imagine that the Government would act in this undesirable way without a recommendation from the Tariff Board. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1798</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - I cannot understand <inline font-weight="bold">Senator Johnston</inline> suggesting that the Government has acted in an undesirable way. Actually the position is as stated by <inline font-weight="bold">Senator Leckie.</inline></para>
+          </talk.start>
+          <para>Protective duties were imposed because certain importers, in order to defeat the object of the duties recommended by the Tariff Board on cotton drills and similar cloths, had availed themselves of a loophole in the tariff and had been importingundyed cotton duck at the comparatively low revenue rates of duty prevailing, dyeing the cloth locally and using it in the manufacture of overalls in substitution for heavyweight cotton drills of Australian manufacture. Had the cotton duck been imported in the dyed state it would undoubtedly have been liable to the protective duties under tariff item 105(a)(1) (b), but, being imported in the undyed state, it could not be stated that upon importation the principal use of the undyed duck was for manufacture into male outer clothing as, in that state, the cloth was similar to that used mainly in the manufacture of tents and sails. The result was, as has already been stated, that the undyed cotton duck for overalls escaped the protective duties under tariff item 105(a) (1)(b) and was entered at the revenue rates under item 130(b)(1). </para>
+          <para>I tem agreed to. </para>
+          <para>Item 131 (Tents and sails). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1798</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>. - I should like to emphasize the growing importance of the industry referred  to  in this item. In every capital city there are firms manufacturing materials for tents and sails, and some of them are supplying government  departments  extensively. It cannot be argued that the Australian industry is not efficient, or is not making the goods satisfactorily. The industry employs a large a mount of labour, and should, in my opinion, be protected up to the hilt. Can the Minister tell me what the position of the industry is? Are local manufacturers holding their own ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1798</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - Australian manufacturers have practically the whole of the local market. Importations in 1934-35 were valued at &#163;815 ; in 1935-36, &#163;1,050; in 1936-37, &#163;2,824;  and  for eight months of 1937-38, &#163;3,454. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1798</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>-  That is more than a 100 per cent. increase. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1798</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- The honorable senator should bear in mind the size of the canvas industry. The value of the output in. 1936-37 was &#163;586,000, while the imports of tents and sails were only &#163;2,824. The importations represent only  a  fraction of the local production. The number of factories is 69, and they employ807 persons, who earn annually &#163;103,000 in wages. </para>
+            </talk.start>
+          </continue>
+          <para>SenatorCollings.  -  Being as efficient as it is, the industry should have absolute protection. There should be an  embargo on importations. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1798</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- The item increases the duty in the interests of the Australian manufacturer. I assume that that will meet the honorable senator&#39;s wishes. </para>
+            </talk.start>
+          </continue>
+          <para>SenatorCollings.  -  Except that in cases of this sort, where the Australian manufacturer can do the whole job, he should be allowed to do it. </para>
+          <para>Item agreed to. </para>
+          <para>Item 133 (Meat wraps). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1798</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>.- My remarks on a previous item apply also to this one, which, I am inclined to think, provides another loophole in the tariff. Certain goods that should come under this heading, are imported as &#34; knitted lock-stitched piece-goods in tubular-form, or otherwise &#34;. This loophole needs to be stopped. Manufacturers of meat wraps  say  that tubular-form goods, knitted goods, and lock-stitched cotton goods imported  as meat wraps  at a cheap rate, compete with their products unfairly. I ask the Minister  to  investigate that statement and see whether there is any truth in it. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1798</page.no>
+              <time.stamp />
+              <name.id>KAY</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIBSON, William</name>
+              <name role="display">Senator GIBSON</name>
+            </talker>
+            <para>.- If there  is a  loophole it is  in the  interests of one of  the  biggest exporting industries. Practically the whole of the wrappings  imported are used for the export of lamb and beef. I do not know whether the exporters receive a rebate of duty on the wrapping. I suggest that they ought to be placed on the same footing as importers of raw materials. The importations should be allowed on as cheap a basis as possible in order to assist the export of lamb and beef. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1797</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - I understand that there is a draw-back of duty when the goods are re-exported as wrappings for mutton and beef. I. shall have that statement confirmed and advise the honorable senator. The position is as <inline font-weight="bold">Senator Leckie</inline> has stated. There is a loophole, and it provides no benefit for the meat industry. Articles imported under the heading of meat wraps have been sold by various companies for polishing and cleaning purposes, thus defeating the object of the protection&#39; granted on knitted goods. </para>
+          </talk.start>
+          <para>Item agreed to. </para>
+          <para>Division VI. (Metals and Machinery.) </para>
+          <para>Item 136- </para>
+          <quote>
+            <para>By adding the following to sub-item (d) :  - &#34; &#39;Provided further that the rate of duty payable on iron and steel plate and sheet dutiable under this sub-item and entered for home consumption on and after 8th September, 1937, and on or before 28th February, 1939, shall be, ad. val. - British, 10 per cent.; intermediate, 15 per cent.; general, 27&#189; percent. ; and per ton, intermediate, 20s.; general, 20s.: with a maximum of per ton. British, 28s.&#34; </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1797</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>. - Why is it proposed to impose such a heavy increase of duty as from the 1st March next? </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1797</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- To protect Australian industries. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1797</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B JOHNSTON</name>
+              </talker>
+              <para>- It seems tome that it is to place a burden on primary producers who use iron and steel. Until the 28th February next, the duties will be, British preferential 10 per cent., with a maximum of 28s. a ton ; intermediate, 15 per cent. and 20s. a ton ; and general,27&#189; per cent. and 20s.  a.  ton. After the 28th February next, the rates will go up to - British preferential, 15 per cent.; intermediate, 15 per cent. and 70s. a ton ; and general,27&#189; per cent. and 70s. a ton. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1797</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - The item has the effect of reducing duties for a limited period, and that has been done because local manufacturerscannot meet the local demand. To prevent various works from being held up, certain classes of steel will have to be imported. It is thought that by February, 1939, the local industry will be able to meet all requirements. If the shortage is still acute at that date, the duty will be reconsidered. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1797</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>. - I should like an assurance that the demand will be met by local manufacturers by the end of next February. The factories cannot now meet the demand for corrugated and galvanized iron, and the Government has allowed importations under by-law. There was a strike at Lysaght&#39;s works for a considerable time. We have no assurance from the Minister that the local manufacturers will be able to meet the demand next February. I move- </para>
+          </talk.start>
+          <quote>
+            <para>That the House of Representatives be requested to amend the item by leaving out &#34; 1930&#34; and inserting &#34;1942&#34; in lieu thereof. </para>
+          </quote>
+          <para>That will have the effect of continuing for another three years the reduction, which, the Minister says, is necessary at the present time and the low duties will operate while imports of galvanized and sheet iron are necessary to meet the normal Australian consumption. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1797</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - A large expansion of the iron and steel industry at Port Kembla is taking place, and it is thought that by the 28th February, 1939, the local industry will be able to supply all requirements. If it is found on that date that the local demand has so far increased that it cannot be met locally, the reduction of duty will be continued. I can see no reason why we should specify 1942 as the date for reverting to the higher duty. I want to say frankly to the honorable senator, and to the committee generally, that if there is one industry that should be encouraged it is the production of iron and steel. There is a world shortage of iron and steel, and if we do not develop the local industry, we may be faced with a serious shortage of supplies in Australia. That would hold up building construction, the rearmament programme, and country development. There is a danger of finding  ourselves in a serious plight. It is estimated by the Government that the developments at Port Kembla will enable local manufacturers to supply local requirements by the datementioned in the item. In view of the development now taking place at Port Kembla, it would be very unfair to postpone the operation of this duty until 1942. On behalf of the Government, I assure honorable senators that if the demand cannot be met by local suppliers, the higher duty will be further deferred. As this matter has been fully investigated by the Government, I ask the committee not to fix a date haphazardly, but to reject the request. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1798</page.no>
+              <time.stamp />
+              <name.id>KOJ</name.id>
+              <electorate>Tasmania&#34;</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYS, Herbert</name>
+              <name role="display">Senator HERBERT HAYS</name>
+            </talker>
+            <para>. -  The Minister has given an undertaking that if Australian manufacturers cannot meet local demands, the date on which the higher duty shall come into operation will be further extended. The question that arises is as to what the Minister, or the suppliers, would call an adequate supply to meet local demands. The supply apparently is equal to the demand in Australia, but we should not overlook the difficulties that arise through uneven distribution. In respect of galvanized iron, for instance, it is well known that, whilst supplies may be readily available in metropolitan areas, they are unobtainable in country districts, which are completely starved for certain periods. The supplies come practically from the one centre, and the manufacturers themselves have a great deal to do with the transport of these materials to their customers in different parts of the Commonwealth. Instances frequently occur in which builders in country districts are held up while awaiting supplies of both constructional steel and galvanized iron, whilst elsewhere merchants have large stocks which they are prone to hold for fear that they may be unable to supply the demand in their own localities. We desire that this industry shall expand and flourish, but, despite the assurance given by the Minister, due regard is not being paid to the interests of those requiring these materials, unless steps are taken to ensure that the distribution is made more equitable. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1798</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>.- I commend the Government in respect of this item. It has reduced the duty for a short period for reasons known to all honorable senators. All of us are aware that for three or four months there was a serious strike at Lysaght&#39;s works at Newcastle. Fortunately, the men have now returned to work. I do not know the merits of the strike, but the factis that the works were closed for a long period. Australian galvanized iron is cheaper than the overseas product, and, in normal times, just as much difficulty is experienced in getting supplies from overseas as in getting them locally. This applies to many other iron products. Any honorable senator who has seen the extensive alterations being made at the Port Kembla works, and the big factory being built there for the manufacture of steel sheets of all kinds, will realize that the Broken Hill Proprietary Company Limited and the Australian Iron and Steel Company are undertaking something of which Australians can be proud, and which will undoubtedly supply not only the Australian market, (but also markets overseas. The fact is well known that the Australian steel billets and other billets are cheaper than the overseas product. We have supplied New Zealand with all its requirements in this respect. If there is an industry which requires looking after, it is surely the iron and steel industry, because it is to a large extent the basis of our prosperity and. certainly, the basis of the successful defence of this country. I do not doubt that there is a shortage of galvanized iron, but the Government is taking steps to see that a certain quantity is imported in order to enable the present deficit to be made up. It is just as well to remember, however, that that deficit was caused in the first place through a strike as. the result of which our main factory was closed down for three or four months. The new factory now being erected at Port Kembla will undoubtedly be capable of supplying the whole of Australia&#39;s requirements for some years to come. </para>
+          </talk.start>
+          <para>Request negatived. </para>
+          <para>Item agreed to. </para>
+          <para>Item 147 (Iron and steel plates and sheets). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1799</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>. - I ask the Minister1 why a deferred duty is proposed in respect of this item. I have been told that the Tariff Board has not re ported on this item, and .1 should like the Minister to tell me whether this alteration is being made without a recommendation from the Tariff Board. It may interest <inline font-weight="bold">Senator Leckie</inline> to know that I have received a request from the Western Australian Chamber of Manufactures for the abolition of primage duty on this item, and that that body has informed me that the Victorian Chamber of Manufactures supports its request. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1799</page.no>
+                <time.stamp />
+                <name.id>KR9</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LECKIE, John</name>
+                <name role="display">Senator Leckie</name>
+              </talker>
+              <para>- The Victorian Chamber of Manufactures has asked for the abolition of primage duty on tin plates, but not on anything else. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1799</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B JOHNSTON</name>
+              </talker>
+              <para>- If it objects to the primage, it would oppose doubly the operation of this heavy. deferred duty. I point out that this proposed duty, which will come into operation on the 1st January, 1939, will affect our canners very severely. I am as anxious as any other honorable senator that fair consideration should be given to the producers of iron and steel. All of us are aware of the importance of that industry. In respect of tin plates, however, I submit that it is wrong for us to replace the present free British preferential tariff by this tremendous duty of 76s. a ton. with a duty of 115s. in. the intermediate and general tariffs. Our present imports are considerable. I oppose this great increase of duty which will come into operation as from the 1st January next. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1799</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for .Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - The reason why this duty is deferred until the 1st January next, is that under the Ottawa Agreement an increase of duty cannot become operative until after the Tariff Board has made an inquiry and reported on the item. This matter has been submitted to the board and will be dealt with in its turn, but until such time as a recommendation in respect of it isreceived from the board, the existing duty will continue to operate. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1799</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B Johnston</name>
+              </talker>
+              <para>- If a report is a condition precedent to the imposition of this duty, why should we impose a deferred duty now? Will the Minister agree to a request to strike out the item? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1799</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- There is no occasion to strike out the item, because it is an indication to the local manufacturer that when he is ready to produce, he will have adequate protection. </para>
+            </talk.start>
+          </continue>
+          <para>Item agreed to. </para>
+          <para>Item 152 agreed to. </para>
+          <para>Item 153 (Cast iron pipes). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1799</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>. - I dealt with this matter in my secondreading speech, and I should now like an explanation from the Minister as to why a variation has been made in this item, in view of the report by the Tariff Board that there is no evidence that local manufacturers, have been taking undue advantage of the existing duties. The board ako stated that there was a good deal of internal competition between the local producers, in respect of not only cast iron pipes, but also other materials, such as  fibrolite  In the light of that commendation from the Tariff Board, I do not see any reason why the protection previously given to the industry should be reduced. The report of&#34; the board shows that the wages of moulders and dressers in Australia are &#163;5 ls. lid. and &#163;4 3s., respectively, for a 44-hour week. In the United Kingdom, where the working week is 48 hours, the wages of moulders, expressed in sterling, are &#163;3 7s. Id. a week, and of dressers, &#163;2 16s. 6d. a week. I do not know whether the moulders were associated with the recent trouble with the Australian ironfounders, but, as the report says that the industry has not taken advantage of the higher duties, I do not understand why it has been exposed to danger. Some firms have reduced the wages of their employees, and, in the circumstances, we on this side are not so enthusiastic about granting them protection as we would be if they treated their employees fairly. I should like an explanation of the reduction of the duty when no request for it was made. It may be that some competitors in the industrial  field  engaged in subterranean tactics to bring about a reduction. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1800</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for  Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>.- The Tariff Board is within its rights in making an investigation into an industry, notwithstanding that no request for an inquiry has been made. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1800</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>-  Usually the board does not undertake an investigation without first receiving a request for it. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1800</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- The usual practice &#187;is for the Government to refer certain matters to the Tariff Board for investigation and report, but the act under which the board was constituted empowers that body to undertake investigations on its own initiative. That power strengthens rho effectiveness of the tribunal; should it consider that an industry is exploiting the public, it can set an inquiry in motion and reveal the facts. In February, 1937., the board investigated this industry, and later it gave reasons for recommending a reduction of the duty. In its report it pointed out that the situation could easily be met by local manufacturers reducing prices. The most important section of Australian industry which receives protection under this item is that which manufactures cast-iron pipes other than soil and rain-water pipes. There are two methods of production, namely, the sandcast method and the spun method. The value of Australian production is considerably in excess of &#163;1,000,000 yearly, of which about 40 per cent, is represented by pipes produced by the spun method. Under the existing duties, overseas competition has been practically eliminated, and importations are insignificant when compared with Australian requirements. The selling price in Sydney of the locally-made spun pipes, which are manufactured at Port Kembla, is lower than the c.i.f and e. price of imported spun pipes, but the margin in favour of the local manufacturer is not sufficient to cover the cost of freight to other States. The local manufacturer could not, therefore, compete with imported spun pipes in all States on a duty-free basis. Again., the locally-produced -spun pipes could not compete on a duty-free basis with imported sand-cast pipes. Although the existing duties are rather too high, there is no evidence that the local manufacturers have taken undue advantage of the position. There exists a good deal of  internal competition, not only between manufacturers of cast-iron pipes, but also between these manufacturers and the makers of fibrolite, steel, concrete and wood pipes. _ This competition has the effect of keeping prices at reasonable levels. In addition to providing employment in the foundries, the manufacture of cast-iron pipes absorbs a large tonnage of pig-iron annually, and thus indirectly provides further employment in Australia. </para>
+            </talk.start>
+          </continue>
+          <para>Soil and rain-water pipes of cast-iron are manufactured in all mainland States.  Al though at least thirteen manufacturers are engaged in this industry, only two gave evidence before the Tariff Board. Importations have been small, and even before the depreciation of Australian currency local manufacturers -had practical .y the whole of the market in Australia. The Tariff Board expressed the opinion that prices could well be reduced by local manufacturers of cast-iron soil and rain-water pipes. </para>
+          <para>The duties provided for soil and rainwater pipes are on ait ad valorem basis, while other cast-iron pipes are subjected to specific rates of duty. The Tariff Board stated that two separate branches of the iron and steel industry are involved. Soil and rain-water pipes are required in a variety of sizes, and the demand therefor is only about onetenth of that for other cast iron pipes. That results in higher overhead and selling costs, and justifies a different basis of duty. Soil and rainwater pipes are sold on a unit basis - usually a length of six feet - while other cast iron pipes are sold on a. weight basis. On a tonnage basis, the price of locally made soil and rainwater pipes of the size in greatest demand is &#163;26 a ton, whilst other types of cast iron pipes sell at from &#163;9 to &#163;14 a ton. </para>
+          <para>As regards cast iron pipes produced by the spun method, tariff protection is needed only to offset the cost incurred in transferring the goods interstate. The proposed duties are sufficient for that purpose. </para>
+          <para>In respect of soil and rainwater pipes, the board is of the opinion that the prices charged for the local product are capable of reduction. Local manufacturers are in a position to offset any reduction of the landed cost of imported pipes by a reduction of their own selling prices. As Australian manufacturers have practically controlled the market for some years there is little likelihood that moderate reductions of duty will affect their sales to any extent, particularly if they follow the lead given by the Tariff Board and reduce the price of their product. </para>
+          <para>Item agreedto. </para>
+          <para>Item 161 agreed to. </para>
+          <para>Item 173 (&#34;Weighing machines, &#38;c). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1801</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>. - I know that weighing machines, computing machines, weighbridges, scales and balances are being made in Australia.&#39; In Queensland there are firms manufacturing some of them, and in the southern States there are probably other firms even better equipped to do so. I should like to know whether any request has been made for an alteration of the duties. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1801</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - The value of the importations of these machines during the first eight months of the present financial year was &#163;38,623. Imports for the whole of the previous year were valued at &#163;43,709 and for 1935-36, at &#163; 13,220. </para>
+          </talk.start>
+          <para>Under present exchange conditions the proposed duties represent effective reductions of5/8 per cent. under the British preferential tariff and 7&#189; per cent. under the intermediate tariff. The general tariff level is increased by 1&#188; per cent. In this case the intermediate tariff is not operative. </para>
+          <para>At least four manufacturers are producing weighing machines locally, one being a branch of a leading British manufacturer. Another Australian manufacturer is associated with an important American producer. The item under review covers a wide group of machines, the use of which in industry is widespread. Many types are not yet manufactured in Australia. The board estimates that local manufacturers at present supply about one-fourth of the Australian requirements. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1801</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>-  Do they supply any computing machines? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1801</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- Computing machines are not made in Australia. They were included in the Tariff Board&#39;s inquiry in February, 1937. At the conclusion of its investigation the board reported that local manufacture had progressed under the existing duties. The proposed rates, which are on practically the same level as the effective duties now operative, should enable Australian manufacturers to expand their trade gradually, and at the same time to increase the range of their production. </para>
+            </talk.start>
+          </continue>
+          <para>Item agreed to. item 174 agreed to. </para>
+          <para>Item 176 (Laundry machines and appliances). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1801</page.no>
+              <time.stamp />
+              <name.id>JY7</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNCAN-HUGHES, John</name>
+              <name role="display">Senator DUNCAN-HUGHES</name>
+            </talker>
+            <para>; - I have received the following telegram from Laundries and Dry Cleaners Limited, Bowden, South Australia :  - </para>
+          </talk.start>
+          <quote>
+            <para>As employers of 120 persons view with alarm suggested increased duty on laundry machines. Laundry industry employs over 7,000 persons as against approximately 100 in local laundry machinery manufacturing. Continual demand for machines covered by present scientifically adjusted sliding scale which local manufacture is unable to meet. Any serious increase in duty on laundry machinery must tend to cause unemployment. </para>
+          </quote>
+          <para class="block">I should like the Minister for Repatriation to give some&#39; answer to the statements contained in the telegram - I take it they arc correct - and say whether by the duties on sub-item 176 (e) it is going to create difficulties for the large local employers in the laundry industry in order to provide work for a much smaller number of employees in the business of manufacturing laundry machines. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1801</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - I shall be glad if the honorable senator will give me the date of the telegram which he has just read. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1801</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator Duncan-Hughes</name>
+              </talker>
+              <para>- -  I received it on the 19th May. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1801</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator FOLL</name>
+              </talker>
+              <para>- I understand that the matter raised by the honorable gentleman was discussed in the House of Representatives when this sub-item was before the Committee there, and that the acting </para>
+            </talk.start>
+          </continue>
+          <para class="block">Minister for Trade and Customs gave an assurance that it would be referred back to the Tariff Board. It was thought that importers who had machines in transit would have to pay higher rates of duty. 1. am informed that no higher rates will operate until the Tariff Board has made an inquiry and submitted its report. </para>
+          <para>Item agreed to. </para>
+          <para>Items 178, 179, 180, 181, 185, 203, 204!, and 206 agreed to. </para>
+          <para>Item 20S (Metal sashes and metal frames for windows). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1802</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>. - I shall be obliged if the Minister will give the Committee some information with regard to metal sashes and metal frames for windows, and state whether the Australian manufacturers are holding their share of the trade or whetherthey are suffering excessively from overseas competition. Building activity in Queensland has been responsible for a strong demand for these goods. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1802</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - Several Australian manufacturers are engaged in the production of metal window frames and sashes. The capital invested in the industry approximates &#163;100,000, the number of persons employed is 330) and the output is about &#163;140,000 a year. The wages bill is about &#163;50,000 annually. The industry is, therefore, a comparatively large one. Australian requirements are estimated at &#163;175,000 annually, so the local industry supplies about 80 per cent, of the market. About 60 per cent, of the metal sections used in the manufacture of window frames is of local origin. Certain sections of special design are not at present rolled in Australia and require to be imported. </para>
+          </talk.start>
+          <para>Item agreed to. </para>
+          <para>Item 209 (Malleable iron castings). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1802</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>. - The reduction of the duties in this item seems to be so drastic that I should like the Minister to give us some explanation. The proposed British preferential tariff is 1&#188;d. per lb., 20 per cent, with exchange adjustment, as against a duty formerly of 2d&#39;, per lb., or 33J per cent, ad valorem. I understand that some difficulty is being experienced in procur ing the raw materials. This may  be  the explanation of the reduction of the duty. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1802</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - The reductions imposed by this item are: British preferential tariff, a reduction of 13f per cent, ad valorem, and reduction  of  alternative specific duty from  2d.  per lb. (less exchange adjustment) to lid. per lb. The effective specific duty reduction would approximate  4d.  per lb. General tariff, reduction of 16i per cent, ad valorem, and &#188;d. per lb. in the alternative specific duty. The intermediate tariff has been fixed at a level 27 &#163; per cent, ad valorem, or &#163;d. per lb. lower than the existing general tariff, but is not operative. </para>
+          </talk.start>
+          <para>The wording of the proposed item has been amended in order to make it &#34;clear that malleable iron castings, when subsequently subjected to a process of machining, are covered by the item. This, however, does not involve any change of practice as such castings were previously classified under tariff item 209. This drafting amendment is proposed solely with a view to avoiding any misinterpretation of the item. </para>
+          <para>During the last few years the demand for malleable iron castings has increased considerably, owing to new uses having been found for this kind of material. The Tariff Board estimated the value of the Australian production at about &#163;150,000 per annum. Several Australian manufacturers are in production. Importations for a number of years have been small, and represent less than 5 per cent, of the local output. The production of malleable iron castings is sheltered to a large extent, as much of the business is to order. In this class of trade, that is, trade outside stock lines, the local manufacturer has a decided advantage over overseas firms. Australian manufacturers are maintaining a high standard of quality in respect of the loca.lly-m.ade castings. </para>
+          <para>This industry was established under rates of duty lower than those now existing. The Tariff Board had little information regarding the landed costs of imported lines competitive with Australian production. Taking into account the duties recommended for related industries, and the fact that high rates of  profit were being earned by Australian manufacturers of malleable castings, reduced duties were recommended. </para>
+          <para>Evidence given before the board suggested that a large percentage of importations of malleable castings, particularly those from the United States of America comprised special and highly machined automobile replacement parts. During the inquiry requests were made that a number of these parts, which are not commercially produced in Australia, should be excluded from tariff item 209, and made dutiable at the lower rates provided for motor vehicle chassis under tariff item 359d. </para>
+          <para>It was contended that, with respect to these parts, each make or type of chassis required a different design, and, as the parts were for replacement of worn parts only, the demand was so small that local manufacture was an uneconomic proposition. Notwithstanding the comparatively high general tariff these parts have been imported. It is, therefore, obvious that the duty under item 209 has added to the cost of these parts without resulting in any material proportion of the demand being supplied locally. The board, therefore, recommended that the following automobile replacement parts of malleable cast iron be excluded from tariff item 209, and be classified at the chassis rates provided under item 359(d)(4) : differential eases, differential carriers, gearbox covers, clutch and flywheel housings, propeller tube housings. </para>
+          <para>The board&#39;s recommendation in this respect was put into operation by ministerial parts order as on and from the 10th June, 1937. These parts, when imported separately, are now dutiable under tariff item 359(d)(4). </para>
+          <para>This industry is sheltered to a certain extent. In the past it has supplied the bulk of Australian requirements with the exception, principally, of machined castings of special designs, the demand for which is too small to permit of economic local production. High rates of profit have been made by Australian manufacturers in the past, and it is evident that a moderate reduction of the duties as now proposed will not be harmful to the industry. </para>
+          <para>Item agreed to. </para>
+          <para>Items 210 and 216 agreed to. </para>
+          <para>Division VII. - Oils, Paints, and Varnishes. </para>
+          <para>Items 224, 231 and 232 agreed to. </para>
+          <para>Division VIII. - Earthenware, Cement, China, Glass,and Stone. </para>
+          <para>Items 234, 237, 240, 241 and 250 agreed to. </para>
+          <para>Division IX. - Drugs and Chemicals. </para>
+          <para>Items 267, 280, 2S1 and 290 agreed to. </para>
+          <para class="block">Division X. - Wood, Wicker and Cane. </para>
+          <para>Item 291 (Hickory, undressed). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1803</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>. - Will the Minister explain why undressed hickory is to be admitted free? Is it not possible to find amongst our valuable Australian timbers some which can be used for the purposes for which hickory is now employed? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1803</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - By this proposal the rates of duty from all countries have been reduced by 5 per cent. The estimated annual, Australian requirement of axe handles is 70,000 dozen, with a wholesale value of &#163;45,000, of which the local manufacturers supply about 30,000 dozen, valued at approximately &#163;12,000. Most of the Australian manufacturers of tool handles use local timbers, and they have secured most of the available trade in tool handles for which Australian timbers are suitable. There is, however, a large demand for hickory handles, particularly in axe handles. The Tariff Boardhas pointed out that those Australian manufacturers who produce handles from imported hickory are disadvantageously placed in comparison with Canadian manufacturers. Both Canadian and Australian manufacturers are dependent upon the United States of America for their supplies of hickory ; but, in addition to higher freight charges, the Australian manufacturer has to pay the present duty of 5 per cent. ad valorem on the hickory used by him. The removal of this duty will not seriously interfere with the production of handles from local timbers, but it will afford local manufacturers a better opportunity to compete with imported hickory handles. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1803</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- When was this matter last inquired into? </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1804</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party>NAT; UAP from 1931</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>- On the 28th April, 1937. The duty on hickory hasbeen removed to assist the manufacture of axe handles at such places at Bundamba, in Queensland. </para>
+          </talk.start>
+          <para>Item agreed to. </para>
+          <para>Item 301 agreed to. </para>
+          <para>Item 303 (Wood, articles made of). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1804</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>.  - Will the Minister state whether the duties previously imposed under this item enabled Australian manufacturers to hold the business? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1804</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - By the proposal the present British preferential rate is reduced by 12&#189; per cent. and the general tariff by16&#188; per cent. The rates recommended by the Tariff Board provide for a marginal preference of 20 per cent., which is 2&#189; per cent. above the formula marginonthe proposed British preferential tariff rate. As the United Kingdom holds the bulk of the trade after importations under by-law have been deducted, there does not appear to be any necessity to adopt the board&#39;s , margin ; consequently the formula margin of17&#189; per cent. has been applied in the proposal. </para>
+          </talk.start>
+          <para>In addition to the reductions of the rates, the following alterations in the wording of the item are proposed, namely: - (a) the words &#34;Sashes and frames for windows &#34; to be amended to read &#34; Wood sashes and wood frames for windows &#34;, and <inline font-style="italic">(b)</inline> the words &#34; principally of wood &#34; to be added after the word &#34;rakes&#34; and also after the words &#34;grain shovels&#34;. At present item 303(a) covers sashes and frames for windows irrespective of the material from which they are made. The Tariff Board has suggested that metal sashes and metal frames would be more appropriately placed under Division VI., which covers &#34; Metals, etc.&#34;. This suggestion has been adopted and a new item, namely, item 208 (i) covering &#34; Metal sashes and metal frames, for windows &#34;, has been inserted in the schedule. All rakes and grain shovels are at present covered by tariff item 303(a), but the board has recommended that, as the item refers principally to articles made from wood, the rakes and grain shovels mentioned in the item should be limited to those made principally from wood. This recommendation has also been adopted in the proposal, and, therefore, rakes and grain shovels manufactured from metal will be excluded from the item, and will now come under tariff items 219(b), Hand tools wholly or principally of metal, and 219(d), Shovels n.e.i., respectively. The balance of the item covers a variety of goods, and it is not possible to arrive at any exact conclusions as to the variety and quantity produced in Australia. The bulk of the raw materials used in the manufacture of these classes of goods are of local origin. The general wood ware and furniture trade is closely allied to the manufacture of the goods covered by this item, and the rates recommended by the board are practically in line with those previously recommended and adopted for furniture under tariff item 305(a). The protection afforded is, I believe, adequate, but this item really represents a rearrangement of the articles which it covers. </para>
+          <para>Item agreed to. </para>
+          <para>Division XI. - Jewellery and Fancy Goods. </para>
+          <para>Item 310 agreed to. </para>
+          <para>DivisionXIL.-Hides,Leatherand Rubber. </para>
+          <para>Item 333 agreed to. </para>
+          <para>Division XIII. - Paper and Stationery. </para>
+          <para>Items 334, 342 and 343 agreed to. </para>
+          <para>Item 352 and 359 agreed to. </para>
+          <para>Item 362 agreed to. </para>
+          <para>Item 395 agreed to. </para>
+          <para>Item 440 (Goods for use in the pearling industry) . </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1804</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>.- Will the Minister state the nature of the goods used in the pearling industry which are being admitted free under departmental by-laws? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1804</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>Queensland</electorate>
+              <party>UAP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>. - I have a list of articles, includingmuntz metal  plates and sheets and similar material used for repairing vessels engaged in the pearling industry. At present these goods, which are not manufactured in Australia, are admitted free under departmental by-law in order to assist those engaged in that industry. </para>
+          </talk.start>
+          <para>Item agreed to. </para>
+          <para>Schedule agreed to. </para>
+          <para>Title agreed to. </para>
+          <para>Bill reported without requests; report adopted. </para>
+          <para>Bill read a third time. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>CUSTOMS TARIFF (EXCHANGE ADJUSTMENT) BILL 1938</title>
+        <page.no>1805</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Debate resumed from the 31st May <inline font-style="italic">(vide</inline> page 1530), on motion by <inline font-weight="bold">Senator Foll</inline> - </para>
+      <quote>
+        <para>That the billbe now read a second time. </para>
+      </quote>
+      <para>Question resolved in the affirmative. </para>
+      <para>Bill read a second time and passed through its remaining stages without amendment or debate. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>CUSTOMS TARIFF (CANADIAN PREFERENCE) 1938</title>
+        <page.no>1805</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Debate resumed from the 31st May <inline font-style="italic">(vide</inline> page 1531), on motion by <inline font-weight="bold">Senator Foll</inline> - </para>
+      <quote>
+        <para>That thebill be now read a second time. </para>
+      </quote>
+      <para>Question resolved in the affirmative. </para>
+      <para>Bill read a second time and passed through its remaining stages without requests or debate. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SPECIAL ADJOURNMENT</title>
+        <page.no>1805</page.no>
+        <type>special adjournment</type>
+      </debateinfo>
+      <para>
+        <inline font-weight="bold">Senator A.</inline>J. McLACHLAN (South </para>
+      <para>Australia - Postmaster-General) &#91;5.50&#93; . - I move - </para>
+      <quote>
+        <para>That the Senate at its rising adjourn till a day and hour to be fixed by the  President,  which time of meeting shall be notified to each <inline font-weight="bold">Senator by</inline> telegram or letter. </para>
+      </quote>
+      <para>I regret that I am unable to indicate even approximately the date on which honorable senators will be asked to return to Canberra. Progress in the House of Representatives on a measure that we desire to discuss appears to be so slow that I do not anticipate that honorable senators will be recalled during next week at least. </para>
+      <para class="block">Question resolved in the affirmative. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>1805</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <para>Stock Disease in New Zealand - N orthern Territory : Report of Payne-Fletcher Committee - Replies toQuestions by Senators - Duty on Meat Wraps. </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1805</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>SOUTH AUSTRALIA</electorate>
+            <party>NAT</party>
+            <role>Postmaster-General</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator A J McLACHLAN</name>
+          </talker>
+          <para>. - I move - </para>
+        </talk.start>
+        <quote>
+          <para>That the Senate do now adjourn. </para>
+        </quote>
+        <para class="block">I should like to make a further reply to <inline font-weight="bold">Senator Gibson&#39;s</inline> question this afternoon regarding the importation of sheep from New Zealand. I find that prior to the despatch of my letter to the Acting Minister for Health <inline font-weight="bold">(Mr. Archie Cameron)</inline> some weeks ago action had been taken by the Minister, who had noticed that sheep were likely to come into Australia. The honorable member for Corangamite <inline font-weight="bold">(Mr. Street)</inline> had brought the subject under notice in the House of Representatives, and on the 3rd May, the Acting Minister for Health gave an assurance that every possible step would be taken to protect the flocks of Australia from the intrusion of the dreaded disease of eczema. It appears that the disease in New Zealand is, to some extent, localized. It is considered to be largely the result of the high fertilization of New Zealand soil. It is a blood disease, and, I understand, is contagious. Assurances have been received from New Zealand that no infected sheep will be exported. In addition, the sheep are examined on arrival in Australia by Commonwealth officers. I have taken special steps this afternoon to urge that the 150 sheep to be landed within the next day or two shall be subjected to rigid inspection. That will be done whether the sheep are certified by the New Zealand Government as free from disease or not. If <inline font-weight="bold">Senator Gibson</inline> will look at <inline font-style="italic">Hansard</inline> of the 3rd May, he will find a complete statement by the Acting Minister for Health regarding the steps that had been taken up to that date. The Acting Minister is conferring with <inline font-weight="bold">Dr. Cumpston</inline> this afternoon on the matter. The Government is fully alive to the danger, and is doing everything possible to meet it. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>1806</page.no>
+              <time.stamp />
+              <name.id>JQY</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COURTICE, Benjamin</name>
+              <name role="display">Senator Courtice</name>
+            </talker>
+            <para>-  Why take the risk of allowing the sheep to enter the country at all? </para>
+          </talk.start>
+        </interjection>
+        <para>
+          <inline font-weight="bold">Senator A.</inline>J. McLACHLAN.The flock masters have made their contracts, which cannot very well be departed from. The New Zealand Government has given an assurance that no sheep will be allowed to be exported from New Zealand except from those districts that are free from disease. Exported sheep will be given a clean bill of health before they leave New Zealand and will be again examined when they arrive in Australia. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>1806</page.no>
+              <time.stamp />
+              <name.id>KTX</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>UAP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, James</name>
+              <name role="display">Senator JAMES McLACHLAN</name>
+            </talker>
+            <para>-  Will they be put in quarantine? </para>
+          </talk.start>
+        </interjection>
+        <para>
+          <inline font-weight="bold">Senator A.</inline>J. McLACHLAN.Quarantine, I understand, is of no use. If the sheep have been free from infection for a certain time the disease will not develop. If six sheep are grown to the acre, where nature only intended that there should be one or two, -the result is disease. The same thing happens to human beings in similar circumstances. That conclusion was reached as the result of an investigation in South Africa, where there was a similar outbreak, and it coincides with views expressed to me by <inline font-weight="bold">Mr. Lee</inline> Martin, a New Zealand Minister who visited Australia some time ago. The matter has been before the Agricultural Council, where there seemed to be unanimity of opinion on the matter. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1806</page.no>
+            <time.stamp />
+            <name.id>K7P</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLLINGS, Joseph</name>
+            <name role="display">Senator COLLINGS</name>
+          </talker>
+          <para>. - As the Senate is about to adjourn for at least a week, and I shall have no opportunity to speak in the meantime, I wish to devote a few minutes now to asking the Leader of the Government what it is intended to do about the serious state of affairs in the Northern Territory. That territory has been a white elephant for many years. Recently the services of two gentlemen from Queensland were made available to the Commonwealth Government for the purpose of submitting once again a report. Very many reports have been called for over a period of years, and although they have cost a lot of money, nothing has been done to give effect to the recommendations in them. </para>
+        </talk.start>
+        <para>Once again the Government has been supplied with an excellent report regarding the development of the </para>
+        <para class="block">Northern Territory, and the danger again arises that recommendations contained in it will not be given effect. It has been furnished by two gentlemen, one a pastoralist, <inline font-weight="bold">Mr. Fletcher,</inline> and the other, <inline font-weight="bold">Mr. Payne,</inline> who has been a very faithful and efficient officer in the lauds administration of the Queensland Government. Apparently no action whatever is to be taken on this report until certain things have happened. The ex-Minister for the Interior <inline font-weight="bold">(Mr. Paterson),</inline> also had a report before him on this matter, but delayed acting upon it until he had made a trek to the territory. The new Minister for the Interior, for whom I have the greatest respect, apparently intends to follow the example of his predecessor. He has said in effect that he can take no action on the Payne-Fletcher report until he has visited the Northern Territory and seen for himself the conditions there. I presume that this report has been made available to honorable senators. It is a somewhat voluminous document, but I have read every word of it, because as a senator for Queensland, and as an &#34;Australian, I am deeply interested in the development of that part of the Commonwealth. I refer to the subject now solely in order to impress upon the Government, and particularly upon the Minister for the Interior, the absolute necessity for acting on this report. Ho should not suspend action merely because he intends to make a trip to the territory. Such a trip will occupy .some weeks, and I suggest that in the meantime the department should make inquiries as to the feasibility of the different propositions made in the report so that when the Minister returns he will have available all the necessary data to enable him to act promptly. If this be not done I predict that what happened in similar instances before will be repeated and the report will be pigeonholed. For quite a long time the Queensland Government has recommended the construction of a railway from Dajarra in the direction of Camooweal, and this report supports that proposal on the ground that such a railway will not only aid in the development of the territory, but will also be invaluable for defence in time of national emergency. Departmental officials could be engaged in the absence of the Minister in collecting nil t lie information possible regarding that proposal. They should he able to say at a moment&#39;s notice when and where such construction should &#39;be commenced. That is only one item contained in the report, and it is not &#39;by any means the most important. I should imagine it would bc- impossible to get a more comprehensive report dealing with the development of tho territory. I repent my very fervent hope that this document will not ho pigeon-holed, but that the Government will got on with the job immediately. I make this suggestion, first, because I arn Fully acquainted with the history and difficulties of the territory; and secondly, because I know that certain: interests arc now willing to embark upon activities on the  &#93;inc3  recommended in the PayneFletcher report, and I suggest that those interests will not wait if the Government dilly-dallies any longer. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1807</page.no>
+            <time.stamp />
+            <name.id>KR9</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">LECKIE, John</name>
+            <name role="display">Senator LECKIE</name>
+          </talker>
+          <para>.- To-day I received from the Minister representing tho Treasurer an answer to a question which I asked on notice yesterday. I a in not blaming the Leader of the Senate <inline font-weight="bold">(Senator A. J. Mclachlan)</inline> in this respect, but I point out that the terms in which the reply was couched were not so courteous as a senator has a right to expect when he asks for information. The reply given to mo is on a par with the recent utterances made by the Treasurer <inline font-weight="bold">(Mr. Casey)</inline> regarding this chamber. If that is the way he intends to treat honorable senators he will n*o t receive any courtesy from mc. f had read in n Japanese journal that the Commonwealth Bank had granted certain credits to a company in Japan for the buying of wool on  00-day  terms, and I asked if that was a fact. The answer supplied to me was, &#34; The Government Isas no knowledge of such transaction.&#34; At least an effort could have been made to find out if the statement to which I referred was true. I also asked whether rho Government could arrange with the Commonwealth Bank similar credits to enable Australian and British buyers to buy on the same extended terms. The answer seems to show a callous disregard for the welfare of the wool-growers. I was told, &#34;It is not the policy of the Government to take any part in tho management of the Commonwealth Bank Board &#34;. I made my suggestion because  1  believe that if such credits were arranged our growers would get higher prices for their wool. The answer to my question is such  as  should not bo given to any honorable senator who is legitimately seeking information on a matter of public concern; I resent both the tone and the manner in which my inquiry was baulked. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1807</page.no>
+            <time.stamp />
+            <name.id>KS7</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Assistant Minister</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MACDONALD, Allan</name>
+            <name role="display">Senator MacDONALD</name>
+          </talker>
+          <para>. - 1 assure the Leader of the Opposition <inline font-weight="bold">(Senator Collings),</inline> that already extensive inquiries have been made by officers of tho Department of tho Interior in respect of the proposals recommended in tho Payne-Fletcher report. In fact, a couple of the mutters raised have been referred back to <inline font-weight="bold">Mr. Payne</inline> for further consideration: one is the matter of seaborne trade between Fremantle and Darwin.  Thu9  the collection and collation of the necessary data as suggested by the honorable senator has already been commenced. The Minister for the Interior <inline font-weight="bold">(Mr. McEwen)</inline> intends to visit the territory at tho end o.F this month to mako personal acquaintance with that part of tho Commonwealth with which the report deals, and I submit that that is a much more desirable way of trying to decide the matter than by merely studying the report in Canberra. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1807</page.no>
+            <time.stamp />
+            <name.id>JY7</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNCAN-HUGHES, John</name>
+            <name role="display">Senator DUNCAN-HUGHES</name>
+          </talker>
+          <para>- The trouble is that this is only the sixth ministerial visit to the territory within the last fifteen years. </para>
+        </talk.start>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>1807</page.no>
+              <time.stamp />
+              <name.id>KS7</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, Allan</name>
+              <name role="display">Senator MacDONALD</name>
+            </talker>
+            <para>- It will bc the first visit by the present Minister who is bringing a fresh mind to bear on the administration of the territory. I promise to bring the honorable senator&#39;s remarks under his notice before he departs. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1807</page.no>
+            <time.stamp />
+            <name.id>JZD</name.id>
+            <electorate>Queensland</electorate>
+            <party>UAP</party>
+            <role>Minister for Repatriation</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">FOLL, Hattil</name>
+            <name role="display">Senator FOLL</name>
+          </talker>
+          <para>. -  During the debate on the tariff this afternoon <inline font-weight="bold">Senator Gibson</inline> asked whether a drawback of duty is allowed on meat wraps used in the export trade. I have ascertained that a* these meat wraps are made from imported stockinet upon which no duty is payable there can be no drawback.  </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1807</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>SOUTH AUSTRALIA</electorate>
+            <party>NAT</party>
+            <role>Postmaster-General</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator A J McLACHLAN</name>
+          </talker>
+          <para>
+            <inline font-style="italic">. - in reply</inline>- I offer  anr  apology to <inline font-weight="bold">Senator</inline></para>
+        </talk.start>
+        <para class="block">Leckie in respect of the answer of which he complained.I myself noticed the abruptness of the reply furnished to kim. In fairness tothe Treasurer, however, I must say thathe personally did not furnish the reply, nor did it bear his initials. Other instances of this kind have occurred recently, and when opportunity has offered 1 have referred back such answers to the department from which they came. Had I not been so busy to-day . I would have sent back the answer snpplied to <inline font-weight="bold">Senator Leckie&#39;s</inline> question. I shall take steps to see that Ministers themselves have an opportunity to look at all answers supplied to honorable senators&#39; questions before they are distributed. I make it a rule to initial every answer supplied by me to questions asked by members, whether in this chamber or in the House of Representatives. </para>
+        <para>Question resolved in the affirmative. </para>
+        <para>Senate adjourned at6.15p.m.., till a day and hour to be fixed by the  President. </para>
+      </speech>
+    </debate>
+  </chamber.xscript>
+</hansard>

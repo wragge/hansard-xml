@@ -1,251 +1,2113 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1937-06-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1937-06-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1937-06-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1937-06-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1937-06-25%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1937-06-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1937-06-25%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1937-06-25/19370625_senate_14_153.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1937-06-25</date>
+    <parliament.no>14</parliament.no>
+    <session.no>2</session.no>
+    <period.no>1</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>433</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1937-06-25</day.start>
+      <para>The <inline font-weight="bold">President (Senator the Hon. P. J. Lynch)</inline> took the chair at 11 a.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>TARIFF SCHEDULES</title>
+        <page.no>433</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>433</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>West ern Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>. - <inline font-style="italic">by leave</inline> - I have made inquiries and find that the tariff resolutions to which <inline font-weight="bold">Senator Leckie</inline> referred last night were distributed in the usual way before the dinner adjournment last evening. They were placed in the letter boxes of honorable senators, but there were not sufficient copies to hand round in the chamber. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PERSONAL EXPLANATION</title>
+        <page.no>433</page.no>
+        <type>personal explanation</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>433</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>. - <inline font-style="italic">by leave</inline> - I have here a copy of the <inline font-style="italic">Canberra Times,</inline> of to-day&#39;s date, containing what is alleged to be a report of the debate on the Inter-State Commission Bill in the Senate yesterday. Dealing with <inline font-weight="bold">Senator E.</inline> B. Johnston&#39;s criticism that no provision had been made in the bill by which Commonwealth railway freights could be inquired into, I am reported as having said - </para>
+        </talk.start>
+        <quote>
+          <para>If the Common wealth railway was brought under the same provisions as provided for interstate railways, and the commission found that the Commonwealth railway was giving unfair preference or discrimination, they would have the anomaly, if <inline font-weight="bold">Senator Johnston&#39;s</inline> amendment was carried, of the AttorneyGeneral having to prosecute himself before the High Court to carry out the hoard&#39;s finding. For that reason, the Commonwealth railway had been excluded from the provisions. </para>
+        </quote>
+        <para class="block">That is entirely contrary to what I did say, although the preliminary part of the report is correct. According to an uncorrected <inline font-style="italic">Hansard</inline> proof of my speech I said - </para>
+        <quote>
+          <para>For that reason Part IV. of this measure cannot he applied to the Commonwealth railways. I assured <inline font-weight="bold">Senator Johnston,</inline> however, when he was speaking, that the Commonwealth railways do come within the province of this bill, and I now give <inline font-weight="bold">Senator Allan</inline> MacDonald and <inline font-weight="bold">Senator Marwick</inline> the same assurance. </para>
+        </quote>
+        <para>I pointed out that they came under clause 18, from which I then quoted. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>NATIONAL INSURANCE</title>
+        <page.no>433</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>433</page.no>
+            <time.stamp />
+            <name.id>KTX</name.id>
+            <electorate>SOUTH AUSTRALIA</electorate>
+            <party>UAP</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, James</name>
+            <name role="display">Senator JAMES McLACHLAN</name>
+          </talker>
+          <para>- <inline font-style="italic">by leave</inline> - In the <inline font-style="italic">Sydney Morning Herald</inline> of the 24th June, the following statement appeared in a leader entitled &#34; National Insurance &#34; : - </para>
+        </talk.start>
+        <quote>
+          <para>A conference of Federal and State Governments is to be held in August, promptly after the Prime Minister&#39;s return, to debate not only the merging of present overlapping services, but also the constitutional difficulty of federal powers under the Constitution.Without employment cover the present scheme would be shorn of its chief recommendation to the immense body of the public. Yet trade and industry are powers reserved for State sovereignty and not that of the Commonwealth. The Canadian Government&#39;s Employment and Social Insurance Act of 1935 crashed upon precisely this rock; the Privy Council, upon reference, held last January that the Dominion Parliament&#39;s legislation was <inline font-style="italic">ultra vires</inline> the Constitution, since trade and industry are provincial powers, and that the Federal Act was an encroachment. Alone, therefore, Parliament in Canberra cannot legislate for insurance affecting industrial contracts. Experience of referendum submissions suggests that the course to-day must be for the States to hand over the necessary powers to the Commonwealth. </para>
+        </quote>
+        <para class="block">I now ask the Leader of the Senate if he will have made available to honorable senators a synopsis of the Canadian case to which reference is made in the article. Although the Canadian and Australian Constitutions differ in some respects there is a great deal of similarity between them, and the synopsis for which I have asked would be of considerable value to honorable senators. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>433</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>- When an honorable senator asks for leave to make a statement based on a newspaper paragraph, it is assumed that he himself is affected by the paragraph. So far as I can judge from the statement which the honorable senator has read, he is not implicated. Unless he is personally concerned to the extent of having been misrepresented or misreported by a press statement, an honorable senator should not adopt the procedure that has been adopted by <inline font-weight="bold">Senator James</inline> McLachlan this morning. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>433</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>- I shall have inquiries made and see if it is possible to comply with the honorable senator&#39;s request. </para>
+          </talk.start>
+        </interjection>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>TARIFF BOARD REPORTS</title>
+        <page.no>434</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>434</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>- On behalf of the Postmaster-General, I lay on the table reports and recommendations of the Tariff Board on the following subjects : - </para>
+        </talk.start>
+      </interjection>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Alpacas, Sicilians, Lustres and Mohairs</title>
+          <page.no>434</page.no>
+        </subdebateinfo>
+        <para>Cutback Bitumen; Asphaltic Flux (being a residual oil) for use in the manufacture of Road Dressing Preparations and Crude Petroleum for use in the same purpose; and Cutback Distillate Oil for use in the preparation of bitumen for road making. </para>
+        <para>Cylindrical Cement Driers and Coolers and similar Cylindrical Containers. </para>
+        <para>Fire Extinguishers, hand. </para>
+        <para>Handset Telephones and Bell Boxes for use with Telephones. </para>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Metal Split Pulleys</title>
+          <page.no>434</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Metal Wool and Metal Shavings</title>
+          <page.no>434</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Round or Split Enamelled Cane</title>
+          <page.no>434</page.no>
+        </subdebateinfo>
+        <para>Sanitary and Lavatory Articles of Earthenware including glazed or enamelled Fireclay manufactures. </para>
+        <para>Wicker, Bamboo, and Cane, all manufactures of,n.e.i., whether partly or wholly finished, including Bamboo Rules, tariff item 301(d); Wood, all articles made of, n.e.i., whether partly or wholly finished; and all articles specified in tariff item 303(a); Bobbins, Pirns, Spools and similar articles manufactured of Wood or Wood in combination with other materials, imported as parts of machines admissible under tariff item 174. </para>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>434</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>NATIONAL INSURANCE</title>
+          <page.no>434</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>434</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>asked the Minister representing the Prime Minister, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Was evidence received in Australia by <inline font-weight="bold">Sir Walter</inline> Kin near and <inline font-weight="bold">Mr. G.</inline> H. Ince, the visiting experts on National Insurance? </para>
+            </item>
+            <item label="2.">
+              <para>Why was <inline font-weight="bold">Mr. C.</inline> H. Iffla, the  President  of the Australian Pensioners&#39; League, refused permission to give evidence before these gentlemen? </para>
+            </item>
+          </list>
+          <para>
+            <inline font-weight="bold">Senator SIR</inline>GEORGE PEARCE. The information is being obtained and will be furnished as soon as possible. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>434</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>OVERSEAS TRANSPORT</title>
+          <page.no>434</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>434</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>asked the </para>
+          </talk.start>
+          <para>Minister representing the Minister for Commerce, <inline font-style="italic">upon notice -</inline></para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Has the Government received a resolution from the Primary Producers&#39; Association of Western Australia, urging that Australian steamship companies - such as the Wesfarmers Shipping Line - should be given the right to share the advantages conferred on the Australian Overseas Transport Association, under the provisions of the Australian Industries Preservation Act 1900-1930? </para>
+            </item>
+            <item label="2.">
+              <para>If so, what decision has been arrived at in the matter? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>434</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>UAP</party>
+              <role>Minister without portfolio assisting the Minister for Commerce</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator BRENNAN</name>
+            </talker>
+            <para>- The Minister for Commerce has supplied the following answers to the honorable senators questions : - 1 and 2. Early in the negotiations between the Government, ship-owners and shippers in regard to rates of freight on certain Australian export commodities, the Primary Producers&#39; Association of Western Australia made representations somewhat on the lines set out in the above question. These representations were subsequently withdrawn when satisfactory agreement was reached between Westralian Farmers&#39; and the Oversea Shipping Representatives&#39; Association. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>434</page.no>
+              <time.stamp />
+              <name.id>KNC</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MARWICK, Thomas</name>
+              <name role="display">Senator MARWICK</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Commerce, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What are the details of the freight reductions made by the Oversea Shipping Representatives Association on Australian exports? </para>
+            </item>
+            <item label="2.">
+              <para>Have shipping freights to Australia been increased recently, or has an announcement been made to the effect that such freights are to be increased? </para>
+            </item>
+            <item label="3.">
+              <para>What were the freights on wheat and metals a year ago and what are they to-day? </para>
+            </item>
+          </list>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>434</page.no>
+                <time.stamp />
+                <name.id>K2Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BRENNAN, Thomas</name>
+                <name role="display">Senator BRENNAN</name>
+              </talker>
+              <para>- The Minister forCommerce has supplied the following answers to the honorable senator&#39;s questions : - </para>
+            </talk.start>
+          </continue>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Wool -1/8d. per lb. </para>
+            </item>
+          </list>
+          <para>Fresh apples and pears - 3d. a case. </para>
+          <para>Chilled beef- l/16d. per lb. </para>
+          <list type="decimal-dotted">
+            <item label="2.">
+              <para>The Commonwealth Government has not had any negotiations in regard to freight rates to Australia, and has not made any announcement in regard thereto. </para>
+            </item>
+            <item label="3.">
+              <para>Wheat - Charter rates in June 1936 varied around 25s. per ton. At present they vary around 50s. per ton. </para>
+            </item>
+          </list>
+          <para>Metals - Full details will be foundin the Quarterly Summary of Australia Statistics. As far as the Commonwealth Government is aware, there has not been any change during the last twelve months. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>434</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>APPLE PRICES IN LONDON</title>
+          <page.no>434</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>434</page.no>
+              <time.stamp />
+              <name.id>KOF</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYES, John</name>
+              <name role="display">Senator J B HAYES</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Commerce, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>If he has read the reports of the sale of apples in London and Liverpool this week? </para>
+            </item>
+            <item label="2.">
+              <para>If it is a fact that the prices obtained barely pay expenses and leave practically nothing for growers? </para>
+            </item>
+            <item label="3.">
+              <para>Will the Government give consideration to this matter, and make the grant to growers this year more liberal than last year? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>435</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate />
+              <party>UAP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator BRENNAN</name>
+            </talker>
+            <para>- The Minister for Commerce has supplied the following answers to the honorable senator&#39;s questions : - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. </para>
+            </item>
+            <item label="2.">
+              <para>It is noticed that prices have fallen from previous high levels, hut the Government is not in a position to say whether growers are receiving practically nothing. </para>
+            </item>
+            <item label="3.">
+              <para>The Government has not received representations from growers. It is understood that growers have freely sold their fruit to agents, who may have incurred losses owing to the fall in London prices. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>435</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>OIL PROSPECTS IN NEW GUINEA AND PAPUA</title>
+          <page.no>435</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>435</page.no>
+              <time.stamp />
+              <name.id>K3L</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SAMPSON, Burford</name>
+              <name role="display">Senator SAMPSON</name>
+            </talker>
+            <para>asked the Minister in Charge of Development, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What are the names of the companies prospecting for oil in New Guinea and Papua who have received advances from the Government? </para>
+            </item>
+            <item label="2.">
+              <para>What amounts have been paid to date? </para>
+            </item>
+          </list>
+          <para>SenatorSIRGEORGEPEARCE.The answer to the honorable senator&#39;s questions are as follows: - 1 and 2. No advances have been made under the Petroleum Oil Search Acts1936 to companies for the purpose of prospecting in New Guinea or Papua. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>435</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CANBERRA ROADS</title>
+          <page.no>435</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>435</page.no>
+              <time.stamp />
+              <name.id>K08</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARKINS, James</name>
+              <name role="display">Senator ARKINS</name>
+            </talker>
+            <para>asked the Minister representing the Minister for the Interior, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Will the Minister bring under the notice of the Minister for the Interior the fact that owing to the layout of roads within the City of Canberra, visitors find extreme difficulty in finding their location or retaining the geography of the road system? </para>
+            </item>
+            <item label="2.">
+              <para>In view of these difficulties will the Minister consider the advisability of introducing the coloured road scheme (either strip or full road colour) as used in the United States of America, especially the City of Philadelphia? </para>
+            </item>
+          </list>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.The Minister for the Interior has supplied the following answers to the honorable senator&#39;s questions : - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. </para>
+            </item>
+            <item label="2.">
+              <para>The matter will be investigated by the Department of the Interior. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>435</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PUBLIC SERVICE RECLASSIFICATION</title>
+          <page.no>435</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>435</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>asked the Minister representing the Prime Minister <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>On what date was the most recent reclassification of officers in charge of Commonwealth Departments in the various States declared ? </para>
+            </item>
+            <item label="2.">
+              <para>Oil what date did the resultant increases in salaries take effect? </para>
+            </item>
+            <item label="3.">
+              <para>What was the increase in each of the salary grades in the different Departments in each of the States? </para>
+            </item>
+          </list>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>435</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEOEGE PEARCE</name>
+              </talker>
+              <para>- Information is being obtained and will be made available at as early a date as possible. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>TRANSPORT WORKERS BILL 1937</title>
+        <page.no>435</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill read a third time. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>435</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ELECTORAL DIVISIONS</title>
+          <page.no>435</page.no>
+        </subdebateinfo>
+        <para>proposal forredistribution of Western Australia. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>435</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>ALP; NAT from 1917; UAP from 1931</party>
+              <role>Minister for External Affairs</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;11.13&#93;.- I move- </para>
+          </talk.start>
+          <quote>
+            <para>That the Senate approves of the distribution of the State of Western Australia into Electoral Divisions as proposed by Messrs. R. H. Bandy, J. P. Camm and S. R. H. Roberts, the Commissioners appointed for the purpose of distributing the said State into Divisions, in their report laid before Parliament on the seventeenth day of June, 1937, and that the names of the Divisions suggested in the report be adopted. </para>
+          </quote>
+          <para class="block">Following the census taken on the 30th June, 1933, commissioners were appointed, pursuant to the provisions of the Electoral Act, to propose a redistribution of the Electoral Divisions in the States of New South Wales, Victoria, Queensland, South Australia and Western Australia. The respective commissioners duly submitted their proposals, and those relating to the States of New South Wales, Queensland and South Australia, were adopted and given effect prior to the general elections held on the 15th September, 1934. With regard, however, to the States of Victoria and Western Australia, the commissioners&#39; original proposals were disapproved by the House ofRepresentatives, and as time did not permit of fresh proposals being obtained and dealt with before the dissolution, the 1934 elections in the States mentioned necessarily had to be held on the then existing boundaries. Subsequently a direction was issued to the commissioners for these two States to submit fresh re-distribution proposals. These were received, and while the proposals in respect of the State of Victoria were, in due course, adopted, those in respect of the State of Western Australia were, on the 14th May, 1936, again disapproved by the House of Representatives, mainly with the object of enabling further proposals to be submitted by the Commissioners On the basis of up-to-date figures. The previous proposals for the redistribution of the electoral divisions in Western Australia were based on the enrolment figures as at the 30th December, 1933. On those figures the Division of Kalgoorlie was considerably below the allowable minimum, and, therefore, the Commissi oners were compelled i n any scheme of redistribution based thereon to increase the territory of that already extremely large division. Since 1933. however, the enrolment for Kalgoorlie division has advanced at a much greater rate than that of any other division in the State, and when the last proposals were disapproved that division was already well within the margin permitted by law. In the circumstances it was considered advisable to obtain entirely new proposals based on up-to-date figures, and accordingly a fresh proclamation directing a redistribution of the electoral divisions in Western Australia was issued in October last, and the proposals now before the House, based on the enrolment as at the 31st October, 1936, are the outcome. These proposals were duly published by the Commissioners as required by the Electoral Act before submitting their report, and as no objections or suggestions were lodged in respect of them within the period of 30 days allowed therefor, it would appear that they are wholly acceptable to the electors of the State concerned. </para>
+          <para>The principal features of the proposals are, first, that provision is made for a reduction of the size of the extremely extensive Division of Kalgoorlie by transferring therefrom a considerable portion of the Subdivision of Irwin, and, secondly, that by re-arranging the boundaries of the Divisions of Freemantle, Perth and Swan, not only is a more equitable distribution of representation provided for, but also greater effectiveness is given to the principle of community of interest than obtains at present. Having due regard to the provisions of the Electoral Act, I commend the proposals now before the Senate as making for a fair and reasonable distribution of the electoral divisions in the State of Western Australia, and urge their approval accordingly. </para>
+          <para>Question resolved in the affirmative. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>INT ER-S TATE COMMISSION BILL 1937</title>
+        <page.no>436</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>
+        <inline font-style="italic">In committee:</inline>(Consideration resumed from the 24th June <inline font-style="italic">vide</inline> page 341). </para>
+      <para>Clause18 - </para>
+      <quote>
+        <list type="decimal-dotted">
+          <item label="1.">
+            <para>The commission shall inquire into and report to the Governor-General upon - </para>
+            <list type="loweralpha">
+              <item label="(b)">
+                <para>any alleged contravention of the provisions of the Constitution relating to Inter-State commerce; </para>
+              </item>
+            </list>
+          </item>
+        </list>
+      </quote>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>436</page.no>
+            <time.stamp />
+            <name.id>KP8</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">JOHNSTON, Edward</name>
+            <name role="display">Senator E B JOHNSTON</name>
+          </talker>
+          <para>. - I move- </para>
+        </talk.start>
+        <quote>
+          <para>That after paragraph (b) the following paragraph be inserted: - (ba) the effect and operation of any tariff act or other law or regulation of the Commonwealth on primary industries, revenue, manufactures or trade and commerce in any State or States. </para>
+        </quote>
+        <para>I can see no objection to the commission conducting such an inquiry, if it is to have any real power to assist the weaker States against the repression of the tariff, or if it is to exercise the same power as the previous commission had. In the remarks made by the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> last night, it would appear that I require this merely as a basis for grants to the State. It is nothing of the kind. Sub-clause c deals with that aspect - </para>
+        <list type="decimal-dotted">
+          <item label="1.">
+            <para>The commission shall inquireinto and report to the Governor -General upon - </para>
+            <list type="loweralpha">
+              <item label="(c)">
+                <para>applications made by any State to the Commonwealth for the grant by the Parliament of financial assistance in pursuance of section ninety-six of the Constitution; </para>
+              </item>
+            </list>
+          </item>
+        </list>
+        <para class="block">But I want the commission to have the power to inquire into the effects of the  tariff and Commonwealth laws and regulations, quite apart from the matter of grants to States. I want the commission to have this power in order that it may give relief to primary producers, or any other section of the community, in any State or States, adversely affected by the tariff. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>437</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir George Pearce</name>
+            </talker>
+            <para>-  What relief ? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>437</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>- Relief of the nature that the first royal commission on the disabilities of Western Australia under federation recommended in 1925. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>437</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir George Pearce</name>
+            </talker>
+            <para>-  That was monetary relief. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>437</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>- Pardon me, it was not. It. recommended that, by a constitutional alteration, Western Australia should have, for 25 years, control of its own tariff - I wish those who suffer from the tariff to receive real relief of that nature - or be given such other relief as might be thought fit by the Inter-State Commission after a full inquiry into the facts. It is quite likely that the Inter-State Commission, if it had delegated to it the power for which my amendment provides, would recommend, as did the Royal Commission in 1925, that Western Australia should have fiscal autonomy for a period of 25 years. Of course, if the commission had power to inquire into the tariff and other federal laws, it might evolve some remedy that does not occur to me in the hasty consideration which the committee has to give to the bill. If, however, we are going to withhold from it a power which was specifically given to its predecessor to investigate tariff matters, the whole work of the commission is going tobe rendered, if &#34;not abortive, then of much less value to the smaller States than was the work of the previous commission, which <inline font-style="italic">inter alia</inline> was empowered to investigate the following : - </para>
+          </talk.start>
+        </continue>
+        <list type="loweralpha">
+          <item label="(d)">
+            <para>The effect and operation of any tariff act or other legislation of the Commonwealth in regard to revenue, Australian manufactures, and industry and trade generally. </para>
+          </item>
+        </list>
+        <para class="block">That is a power similar to the one which I seek in my amendment. In fact, I adopted the same wording, giving prominence, however, to primary industries. </para>
+        <para class="block">The previous commission had power finally to investigate other matters referred to it by either House of the Parliament by resolution. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>437</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator Brennan</name>
+            </talker>
+            <para>-  That power is given to this commission in subclause <inline font-style="italic">g.</inline></para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>437</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>- I know. Power for the commission to investigate the incidence of the tariff and other federal laws at&#39; the request of the State was given specifically in the previous act, and it should be continued in this legislation. Why not make it clear that if any State thinks that it suffers from the Navigation Act or any other Commonwealth law or regulation, it has the right to have its complaint investigated by the commission? Why should not the commission have a direction to inquire into these matters? We want something more than a general provision, which may or may not be regarded as conclusive. Yesterday, <inline font-weight="bold">Senator Pearce</inline> tried to floor me with a Latin quotation. I am not floored, and I am not discouraged from proceeding with this amendment which is essential if the case of the smaller States is to receive due consideration by the commission. A Latin tag dug up from ministerial legal archives has nothing to do with the present and future needs of Western Australia, or with its position under the burden of high tariff protection. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>437</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;11.25&#93;.- First I point  out  to <inline font-weight="bold">Senator Johnston</inline> that it is not wise to seek to re-enact a provision of the Act of 1912 without considering what has been done since. When that law was passed the Tariff Board was not in existence, and the intention then was that the commission should have, amongst other duties, those now entrusted to the Tariff Board. In 1921, the Tariff Board Act was passed, and section 15 2 provides - </para>
+        </talk.start>
+        <list type="decimal-dotted">
+          <item label="2.">
+            <para>The Minister may refer to the board for their inquiry and report the following matters : - </para>
+            <list type="loweralpha">
+              <item label="(a)">
+                <para>The general effect of the working of the Customs Tariff and the Excise Tariff, in relation to the primary and secondary industries of the Commonwealth ; </para>
+              </item>
+              <item label="(b)">
+                <para>The fiscal and industrial effects of the customs laws of the Commonwealth : </para>
+              </item>
+              <item label="(c)">
+                <para>The incidence between the rates of duty on raw materials and on finished or partly finished products; and </para>
+              </item>
+              <item label="(d)">
+                <para>Any other matter in any way effecting the encouragement of primary or secondary industries in relation to the tariff. </para>
+              </item>
+            </list>
+          </item>
+        </list>
+        <para class="block">The first objection to <inline font-weight="bold">Senator Johnston&#39;s</inline> amendment is that, if it were carried, there would be two authorities doing exactly the same class of investigation. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>438</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B Johnston</name>
+            </talker>
+            <para>- No; I contemplated for the commission, work entirely different from that done by the Tariff Board. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>438</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>- Parliament has placed the obligation on the Tariff Board to investigate the effect of the tariff on all industries, whether they be primary or secondary, and I repeat that if <inline font-weight="bold">Senator Johnston&#39;s</inline> amendment be carried, we shall have two bodies doing the same class of work. <inline font-weight="bold">Senator Johnston</inline> referred to the Royal Commisison into the disabilities of Western Australia in 1925, but he did not read to the Senate what that commission was charged to do. Here is the patent which was issued to the commission - </para>
+          </talk.start>
+        </interjection>
+        <quote>
+          <para>Know ye that we do by these our letters patent issued in our name by our GovernorGeneral of our Commonwealth of Australia, acting with the advice of our Federal Executive Council, and in pursuance of the Constitution of our said Commonwealth the Royal Commissions Act 1902-1912, and all other powers himthereunto enabling, appoint you to be commissioners to inquire into and report upon the effect of federation upon the financial position of the State of Western Australia, and as to any special financial disability suffered by that State as a result of federation which is not suffered by the other States of the Commonwealth, and to recommend what steps should be taken to remedy such financial disability, if any, sufferedby that State. </para>
+        </quote>
+        <para class="block">As I said last night, all that that commission said could be done by the InterState Commission can be done under the paragraphs in this clause, to which <inline font-weight="bold">Senator Johnston</inline> wishes to add the following paragraph : - &#34; (ba) The effect and operation of any Tariff Act or other law or regulation of the Commonwealth on primary industries, revenue, manufactures or trade and commerce in any State or States.&#34; </para>
+        <para>This is already provided for in the Tariff Board Act, and if a State wants an inquiry as to the effects of Commonwealth law on the financial position of the State, or on its industries, it can move the commission under paragraphs <inline font-style="italic">d, e</inline> andf. </para>
+        <para>I gave honorable senators that assurance last night, not on my own authority, but on the authority of the legal advisers of the Commonwealth; the services of those officers are available to honorable senators also. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>438</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B Johnston</name>
+            </talker>
+            <para>- Where are these gentlemen? </para>
+          </talk.start>
+        </interjection>
+        <para>
+          <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.They are in the chamber to assist Ministers and honorable senators who wish to be informed on any legal points. <inline font-weight="bold">Senator Johnston</inline> will find that the matters covered by his amendment can be fully inquired into and reported upon by the commission under the powers set out in paragraphs <inline font-style="italic">d, e</inline> andf. The Inter-State Commission will have power to assess the facts and the finanical disabilities ofany State, and that is a point in which Western Australia is particularly interested. In these circumstances, I suggest that the amendment is entirely unnecessary. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>438</page.no>
+            <time.stamp />
+            <name.id>KNC</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MARWICK, Thomas</name>
+            <name role="display">Senator MARWICK</name>
+          </talker>
+          <para>. - The amendment moved by <inline font-weight="bold">Senator Johnston</inline> is identical with an amendment moved some time ago by the honorable member for Swan <inline font-weight="bold">(Mr. Gregory)</inline> to the Commonwealth Grants Commission Bill. The powers of the Inter-State Commission are sufficiently wide, and are much more comprehensive than those of the Commonwealth Grants Commission. Having obtained legal advice on the subject, I have not the slightest doubt in this matter; otherwise I would support the amendment moved by <inline font-weight="bold">Senator Johnston.</inline> The Inter-State Commission will have sufficient power to inquire into any disabilities which Western Australia, or, in fact, any other State, may suffer. If we start to itemize by including subjects which should be inquired into, it will be necessary to include everything. The work of the commission in Western Australia should be much broader than of assessing the disabilities of that State due to federation. For instance, it will have powerto inquire fully into the disability which Western Australia Buffers owing to the enormous area of country which the government and people of that State must develop in the interests of national security. Western Australia with its comparatively small population and large productive capacity also suffers the disability of being far removed from the &#39;big consuming centres in the Commonwealth. Having perused the bill most carefully, and obtained legal advice, I feel that the powers of the commission are sufficiently comprehensive to enable it to inquire into any claim which a State may make. In these circumstances, I trust that <inline font-weight="bold">Senator Johnston</inline> will withdraw his amendment. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>439</page.no>
+            <time.stamp />
+            <name.id>KRZ</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">LYNCH, Patrick</name>
+            <name role="display">Senator LYNCH</name>
+          </talker>
+          <para>. -  This important measure provides for the reconstitution of the InterState Commission to ensure that the States individually will receive a fair deal as &#39;between one another, and that the States as a whole will obtain just treatment from the Commonwealth. Honorable senators will recall those wise wor ds of that fine statesman, the late <inline font-weight="bold">Mr. Alfred</inline> Deakin, that the &#34; Inter-State Commission is the eyes and the ears of the Federal Parliament&#34;. Such a commission should he not only the eyes and ears, but also the conscience of this Parliament. I shall state, somewhat briefly, how some of the States and particularly Western Australia will be affected by this measure unless adequate safeguards are provided. I direct the attention of honorable senators, and of <inline font-weight="bold">Senator Leckie</inline> particularly, to the fact that, while coastal vessels and transcontinental trains are constantly carrying the products of eastern States to Western Australia, and to one another, there is practically no traffic in goods from Western Australia to the eastern States. Western Australian products are carried principally by overseas vessels to other countries, where they are sold in open competition. The products of New South Wales, Victoria, Queensland, Tasmania, and South Australia are sold extensively in the western State; but Western Australia, as a primary-producing State, has to dispose of its products in overseas markets. The tariff policy, which affects Western Australia so detrimentally, both now and hitherto, is one which I helped to create and have always supported, but adequate safeguards are still necessary in this bill to ensure that the people of my State may be compensated in some way for the undoubted losses they incur under the tariff and in other ways. That is the object of <inline font-weight="bold">Senator E.&#39;B.</inline> Johnston&#39;s amendment. An overwhelming majority of the electors in Western Australia who cast their votes in favour of secession originally resided in the eastern States, but after living in Western Australia for some time, they realized that &#34; something is rotten in the State of Denmark &#34;, and, despite their previous allegiance to and association with eastern States, they supported* the secession movement in an endeavour to secure some measure of justice. We feel aggrieved, and justly so, when asked to support a policy from which we cannot extract any benefits to compensate us for our lossses. Commission after commission has been appointed, and all their reports have told the same story of Western Australia&#39;s unsatisfied and unsatisfactory position. In these circumstances, we feel that there is some justification for the complaints we lodge and the requests we make. Jibes are hurled, quite unjustifiably, at the western State. Thirty years ago &#38; newspaper published in the State represented in this chamber by <inline font-weight="bold">Senator Leckie</inline> referred to the railway from South Australia to Western Australia as &#34;the desert railway&#34; in an endeavour to convey the impression that such a line would traverse only desert country to an unjustified destination ; that is only one of many instances of the unreasonable prejudice displayed by responsible elements in other States against Western Australia. When I was first elected to this chamber in 1907 I supported a protectionist policy, and from that day to the present, I have advocated reasonable protection in the interests of the Commonwealth. Therefore, I am justified in finding some fault when adequate consideration is not extended to the western State, which is not only a big market for eastern manufacturers, but also actually their feeding ground, if not the fattening paddock for their interests. Although Western Australia imports millions of pounds worth of eastern products, the quantity  of Western Australian produce which the people in the eastern States purchase could be transported in a single train. Honorable senators will therefore see the disabilities under which Western Australia labours. The possibilities of additional development in Western Australia are tremendous, and the Inter-State Commission should have the fullest possible power to inquire into every phase of that States&#39; disabilities and to recommend the best way in which relief can be afforded. Much of the light land which is being worked in Western Australia would be regarded in the eastern States as rubbish; our settlers, in their endeavours to extract a living from the unwilling soil, are doing wonderful work in the face of great handicaps. This fact has a direct bearing upon the proposals in this bill now before the committee, because if settlers in Western Australia do not receive a fair deal they will be forced to abandon their holdings, crowd into the cities, and intensify economic competition in the more populous centres. This they will be provoked to do if they are called upon to carry further unreasonable burdens whilst, at the same time, industries in the eastern States are pandered to by every government, without exception. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>440</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator Foll</name>
+            </talker>
+            <para>- Do not forget Queensland. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>440</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator LYNCH</name>
+            </talker>
+            <para>- I had experience on the land in Queensland long before the honorable senator was born, and I repeat that land which is being worked in Western Australia would not be even looked at in Queensland. It has been said that Western Australians are all right at the moment, and that their difficulties will be attended to fully in good time. They might be; but history has the habit of repeating itself. I urge, therefore, that provision should be made here, and made emphatically, in this measure, to alleviate those conditions under which Western Australian settlers are obliged to strain every nerve and sinew in order to win a living from the soil. The argument advanced by the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> in respect of the amendment now before the committee is that if any specific subjects for inquiry are stipulated in the measure, we shall run the risk of excluding other subjects which may be of equal importance. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>440</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir George Pearce</name>
+            </talker>
+            <para>- If provision is made for inquiry in respect of specific subjects it can be argued, should occasion arise in the future, that only the specific subjects are to be dealt with, and that all others are excluded from investigation. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>440</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator LYNCH</name>
+            </talker>
+            <para>- That means if we include one provision which, by unanimous consent, ought to be included - such as is now suggested in <inline font-weight="bold">Senator Johnston&#39;s</inline> amendment, for instance - we may exclude something of no moment at this stage but which may arise for consideration inthe near or distant future. I recognize the great work achieved by the pioneers who wrote the golden headlines of our early history, and who laid down many great principles for our guidance. But as an example of the necessity for making specific provision for particular cases in our legislation, as <inline font-weight="bold">Senator Johnston</inline> now proposes, 1 recall a scene from <inline font-style="italic">The Merchant of Venice.</inline> When Shylock was asked to relent in the bargain he had made with Antonio, he invariably insisted that such and such a concession had not been nominated in the bond. He paid no heed to the pleading of the keeneyed Portia when she pointed out that Antonio&#39;s life would be in danger if he insisted on his pound of flesh; again, he replied that no such eventuality was mentioned in the bond. Then, dramatically, the tables were turned when Portia declared that the law of Venice was superior to Shylock&#39;s bond, and that if in cutting his pound of flesh he shed one drop of christian blood his lands and goods would be confiscated. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>440</page.no>
+            <time.stamp />
+            <name.id>K3L</name.id>
+            <electorate>TASMANIA</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">SAMPSON, Burford</name>
+            <name role="display">The CHAIRMAN (Senator Sampson</name>
+          </talker>
+          <para>- The honorable senator&#39;s time has expired. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>440</page.no>
+            <time.stamp />
+            <name.id>K08</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">ARKINS, James</name>
+            <name role="display">Senator ARKINS</name>
+          </talker>
+          <para>. - The honorable senator who has just resumed his seat has painted so dismal a picture of the trying conditions in Western Australia that 1 am prompted to ask him why he made his home in that State. If his description of the difficulties confronting settlers in Western Australia were true it would he impossible for them to remain there. He himself  has lived in the west for many years and he has grown white and honorable in the service of that great State and in the service  of  this Parliament. One  of  the reasons why I welcome this measure is that for quite a number of years representatives of the smaller States, and even senators from New South &#34;Wales, have said in this chamber within my hearing, that the eastern States, the largest of which I represent, are over-bearing in their attitude towards, the smaller States. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>441</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator Collings</name>
+            </talker>
+            <para>-  I rise to a point of order, <inline font-weight="bold">Mr. Chairman.</inline> I suggest that the preceding speech and the speech now being made would have been more appropriately delivered during the secondreading debate on this measure; they have nothing whatever to do with the amendment now before the committee. </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>441</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CHAIRMAN, The</name>
+            <name role="display">The CHAIRMAN</name>
+          </talker>
+          <para>- I ask the honorable senator to confine his remarks to the clause under discussion and, in particular, to the amendment submitted by <inline font-weight="bold">Senator Johnston.^</inline></para>
+        </talk.start>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>441</page.no>
+              <time.stamp />
+              <name.id>K08</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARKINS, James</name>
+              <name role="display">Senator ARKINS</name>
+            </talker>
+            <para>- I shall not support the honorable senator&#39;s amendment. On the contrary, I agree entirely with the contention of <inline font-weight="bold">Senator Marwick,</inline> that if any particular matter be specifically referred to the commission, the scope of its investigation powers will be restricted. I believe that the proposed commission will serve a very useful purpose, because I am firmly of the opinion that its members, like justice, will be blind; it will be free of State influences and prejudices, and being practically a judicial tribunal, will weigh carefully the merits of the claims of the smaller States as against the benefits enjoyed by the larger States. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>441</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLeay</name>
+            </talker>
+            <para>-  Why use the term &#34; against &#34; ? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>441</page.no>
+              <time.stamp />
+              <name.id>K08</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARKINS, James</name>
+              <name role="display">Senator ARKINS</name>
+            </talker>
+            <para>- I use it in the sense that for quite a number of years we have been told that the eastern States have been rather unfair in their attitude towards the smaller States. The honorable senator who has just resumed his seat has advanced that view in very pronounced language. I have repeatedly reminded honorable senators who represent the smaller States that honorable senators as a whole always endeavour to give them a square deal. I supported the second reading of this measure because </para>
+          </talk.start>
+        </continue>
+        <para class="block">I want to see that perfect justice, if possible, is done in respect of the smaller States. As a member of the Senate,  I  have no purpose other than to see that the smaller units of this federation receive equitable treatment. I believe that, as the result of the re-constitution of the Inter-State Commission many misunderstandings and difficulties now existing between the smaller and the larger States will be removed. </para>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>441</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CHAIRMAN, The</name>
+              <name role="display">The CHAIRMAN</name>
+            </talker>
+            <para>- I ask the honorable senator to confine his remarks to the clause under consideration. </para>
+          </talk.start>
+        </continue>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>441</page.no>
+              <time.stamp />
+              <name.id>K08</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARKINS, James</name>
+              <name role="display">Senator ARKINS</name>
+            </talker>
+            <para>- I do not believe that <inline font-weight="bold">Senator E.</inline> B. Johnston&#39;s amendment will serve any useful purpose. On the contrary it will probably hamper the commission in dealing with many matters which, we hope, it will be able to consider. I hope that the commission will, as has been my endeavour as a senator, guarantee justice, and even something more than justice to the smaller States. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>441</page.no>
+            <time.stamp />
+            <name.id>KRZ</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">LYNCH, Patrick</name>
+            <name role="display">Senator LYNCH</name>
+          </talker>
+          <para>. -  When I was interrupted in my remarks a few minutes ago I was stressing the importance of making specific provision in a measure of this nature for investigation into a particular matter, and I suggested that this fact was clearly demonstrated in the scene enacted in <inline font-style="italic">2&#39;he Merchant of Venice,</inline> which I endeavoured to describe. In this instance, also, we shall do well to express what we mean and intend &#34; in the bond &#34;..  I  should like to have the assurance of the Minister that it is the intention  of  this_ Government that the claims of a State on the ground of disability, due to the operation of the tariff, shall come within the investigatory powers of- the commission. Furthermore, I point out that no provision is made in this measure to enable the commission to deal with disabilities which might arise in respect of transport either by water or by air. I remind the committee that in 1912, when the principal act was passed, the present development of aerial transport was not foreseen. Then, again, if we are to believe the words of the Leader of the Opposition <inline font-weight="bold">(Senator Collings),</inline> other difficulties may arise if the policy of his party is put into full operation in this country. </para>
+        </talk.start>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>442</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CHAIRMAN, The</name>
+              <name role="display">The CHAIRMAN</name>
+            </talker>
+            <para>- I ask the honorable senator to confine his remarks to the clause before the committee. </para>
+          </talk.start>
+        </continue>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>442</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator LYNCH</name>
+            </talker>
+            <para>- If the Labour party is returned to power and gives effect to its policy in its entirety, as it will have every right to do, it is possible that we shall have a fleet of ships carrying goods in Australian waters at rates comparable with those now charged by the Government of New South Wales for the carriage of goods by rail to Broken Hill to the detriment of South Australia. <inline font-weight="bold">Senator James</inline> McLachlan has clearly shown how South Australia is being seriously prejudiced  by  the &#34; cut &#34; rates on New South Wales railways. We should make provision for such a contingency. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>442</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir George Pearce</name>
+            </talker>
+            <para>-  The definition of &#34; commerce &#34; is allembracing; it covers commerce of all descriptions carried by sea, on the land, or in the air. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>442</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator LYNCH</name>
+            </talker>
+            <para>-  I am glad to have the assurance of the Leader of the Senate, but I should feel easier in my mind if the bill expressly stated that all forms of transport were fully covered, so that there would he no doubt whatever that any disabilities which might be suffered by the smaller States would be the subject of investigation by the commission. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>442</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator Brennan</name>
+            </talker>
+            <para>-  The definition clause is sufficiently wide to meet the position. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>442</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator LYNCH</name>
+            </talker>
+            <para>- It is as wide as the definition furnished to a London lecturer, on one occasion, when asked for an expansive term to describe a lecture which he was to deliver. One of his hearers suggested that he should style it &#34; The universe and collateral subjects&#34;. Perhaps the definition clause may he so described ; but I should be better pleased if I had an assurance from the Leader of the Senate that the commission would investigate any disabilities which  a  State might suffer from any form of transport. <inline font-weight="bold">Senator Sir George</inline> Pearce.  -  In the definition clause &#34; commerce &#34; includes &#34;trade and traffic of all descriptions by land, water or air &#34;. That is sufficient. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>442</page.no>
+            <time.stamp />
+            <name.id>KP8</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">JOHNSTON, Edward</name>
+            <name role="display">Senator E B JOHNSTON</name>
+          </talker>
+          <para>.- The Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> is quite wrong in saying that my amendment, if carried, would result in a duplication of the work of the Tariff Board. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>442</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir George Pearce</name>
+            </talker>
+            <para>-  I said that would be its effect. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>442</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>- My sole purpose is to give the Inter-State Commission the duty and the right to make inquiries concerning all disabilities which may be suffered by a State as the result of federal legislation. All similar tribunals are vested with wide authority. The five economists appointed by the Bruce-Page Government some years ago to report on the economic effect of the tariff, pointed out that certain States, particularly Western Australia and Tasmania, suffered definite and severe disabilities under federation, whilst other States benefited from the incidence of Commonwealth tariff policy and other forms of legislation. Even with the partial measure of relief given at certain seasons of the year to Tasmania, that State has suffered definite injury from the operation of the Navigation Act. The same may be said of citizens of the north-west of Western Australia. I have received many complaints from constituents in that portion of my State that they are not permitted to travel by or receive goods from British-owned vessels which touch at the north-western ports of Western Australia. These complaints have been brought under the notice of the Assistant Minister <inline font-weight="bold">(Senator Brennan),</inline> who has very courteously given them his attention. For the reasons given I am anxious that the Inter-State Commission shall have full power and a direct responsibility to investigate, on behalf of the smaller States, any unjust incidence of the tariff or other Commonwealth legislation. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>442</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir George Pearce</name>
+            </talker>
+            <para>-  The commission could do that. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>442</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>- I am indebted to <inline font-weight="bold">Senator Arkins</inline> for his kindly interest in the welfare of the smaller States, and I appreciate the help which he has given to us. But we may not always have in this chamber sympathetic representatives from the eastern States, and I wish to be quite sure that it will be the duty of the InterState Commission to investigate their disabilities, particularly these resultant from federal legislation. It is fitting that the bill should be introduced in the Senate, which is the States&#39; House. I hope that the amendment which I have moved will be carried so that we may be quite sure that this independent tribunal will investigate all disabilities and do justice to the smaller States. </para>
+          </talk.start>
+        </continue>
+        <para>Amendment negatived. </para>
+        <para>Clause verbally amended, and,  as  amended, agreed  to. </para>
+        <para>Clause  19 - (1.) The Governor-General may cause any report made under paragraph (a), (b) or (c) of sub-section (1.), the last preceding section to be laid before each House of the Parliament and shall, before any proposed law relating to the subject of the report originates in the Parliament, cause the report to be laid before each House thereof. </para>
+        <para>
+          <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE (Western Australia - Minister for External Affairs)  &#91;12.8&#93;.-  I move- </para>
+        <quote>
+          <para>That the letters (c), (d) or (e) be left out with a view to insert in lieu thereof the letters (c), (d) or (e). </para>
+        </quote>
+        <para>These alterations are consequential on those made in clause  18. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>443</page.no>
+            <time.stamp />
+            <name.id>KMK</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GRANT, Charles</name>
+            <name role="display">Senator GRANT</name>
+          </talker>
+          <para>. - This is the clause to which I directed attention last night in my speech on the second reading. Notwithstanding the explanation given by the Minister, I am still of the opinion that it should be mandatory on the part of the GovernorGeneral to lay before Parliament any report made by the Inter-State Commission relating to investigations made by that body of disabilities suffered by the States, or applications by them for financial assistance. It should not be possible for a government to withhold from the Parliament reports or recommendations of the commission, thus depriving members of the opportunity to peruse them. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>443</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator SirGeorge Pearce</name>
+            </talker>
+            <para>-  That would be an extreme case surely. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>443</page.no>
+              <time.stamp />
+              <name.id>KMK</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GRANT, Charles</name>
+              <name role="display">Senator GRANT</name>
+            </talker>
+            <para>- It might be, but  it  is not an impossible contingency. I  am  aware that a government may consider that a report,  if  laid before Parliament, would disclose its probable budget proposals, which are confidential before presentation to Parliament. But I see a weakness in the clause in its present form, and I think the committee should accept my suggestion to substitute the word &#34;shall&#34; for  the word &#34;may&#34;  There will then  be  an obligation  on the  Government to lay all reports on the table of the Parliament. </para>
+          </talk.start>
+        </continue>
+        <para>
+          <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE (Western Australia - Minister for External Affairs)  &#91;12.15&#93;. -  I think  the  honorable senator is visualizing an extreme set  of  circumstances. If some future government should withhold a report of the commission from Parliament or fail to introduce legislation to give effect to the commission&#39;s recommendations, the commission will still have an opportunity to make its views known to the legislature. Clauses  26  and  27  provide that the commission shall present an annual report containing; a summary of the work done, togetherwith its recommendations, and there is  an  obligation on the Minister to lay that report before each House of the Parliament within fifteen sitting days. Therefore, if by any chance a government did not lay before Parliament reports on specific investigations, we may be quite sure that, in its annual report, the commission would comment strongly on this fact, and members would, have ample opportunity to criticize the Government. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>443</page.no>
+              <time.stamp />
+              <name.id>KMK</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GRANT, Charles</name>
+              <name role="display">Senator Grant</name>
+            </talker>
+            <para>-  But the annual report of the commission might be presented much later in the year. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>443</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>- That is true, but if it disclosed that a government had stifled a report,  members  of Parliament could be trusted to ventilate the matter. I feel sure that such an extreme case is not likely to arise. </para>
+          </talk.start>
+        </interjection>
+        <para class="block">Amendment agreed to. </para>
+        <para class="block">Clause, as amended, agreed to. </para>
+        <para class="block">Clause  20  agreed to. </para>
+        <para class="block">Clause  21  (Undue preferences upon State railways.) </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>443</page.no>
+            <time.stamp />
+            <name.id>KP8</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">JOHNSTON, Edward</name>
+            <name role="display">Senator E B JOHNSTON</name>
+          </talker>
+          <para>. -  This clause relates to Inter-State traffic on railways. I move - </para>
+        </talk.start>
+        <quote>
+          <para>That after the word &#34; for&#34;, first occurring, the words &#34; the Commonwealth or &#34; bo inserted. </para>
+        </quote>
+        <para class="block">If my amendment be accepted, I shall move a further amendment to make the clause read: - </para>
+        <quote>
+          <para>It shall not be lawful for the Commonwealth, or any State, or for any Commonwealth or State railway authority, to give or make upon any railway the property of the Commonwealth or of the State, in respect of Inter-State commerce, or so as to affect such commerce, any preference or discrimination which the commission adjudges undue and unreasonable, or unjust toany State. </para>
+        </quote>
+        <para>The object of the amendment is to bring the Commonwealth Railways under exactly the same control asthat which may be exercised over State railways. The Commonwealth railway between Port Augusta and Kalgoorlie is the only line connecting &#34;Western Australia with the eastern States; therefore, unless this amendment is carried, Western  Australia  will have no protection whatever under Part IV.  14  of this bill. In his secondreading speech the Leader of  the  Senate <inline font-weight="bold">(Senator Pearce)</inline> inferred that Commonwealth and State railways were similarly controlled . </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>444</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir George Pearce</name>
+            </talker>
+            <para>-  They are controlled in other Parts of the bill. </para>
+          </talk.start>
+        </interjection>
+        <para>SenatorE.  B.  JOHNSTON.- In those other Parts no action can be taken except on a complaint either of a State or of the Governor-General. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>444</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir George Pearce</name>
+            </talker>
+            <para>-  Or of any of the authorities mentioned in clause  23. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>444</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>- Those authorities may submit complaints against any State railway, but not against a Commonwealth railway. Clause  23  applies only to Part IV., which deals with State railways. It means that a State Railways Commissioner may complain against another State Railways Commissioner, but not against the very railway that is exercising unjust discrimination in respect of freights on goods to Western Australia - the Commonwealth railway. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>444</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir George Pearce</name>
+            </talker>
+            <para>-  There is nothing to prevent a State Railways Commissioner from taking action against the Commonwealth under section  99  of the Constitution. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>444</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>- The right honorable gentleman is attempting to drag a red herring across the trail. We have no redress to-day under section  99. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>444</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir George Pearce</name>
+            </talker>
+            <para>-  This bill must be read in conjunction with the Constitution, which already contains the necessary powers. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>444</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>- Under this bill the Inter-State Commission will be given direct power over State railways and the freights charged thereon. My amendment would give to it the same power over freights on Commonwealth railways. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>444</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator Brennan</name>
+            </talker>
+            <para>-  What does the honorable senator think is likely to happen, and what does he want to prevent ? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>444</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>- The bill provides that, should any freight rates on State railways be regarded as discriminatory or unfair, any State railway authority, or any borough, municipality, body politic, harbour board, marine board, or other State authority, or any association of traders or freighters, or chamber of commerce, manufactures, or agriculture may make complaint, whereupon the whole machinery of this legislation will be set in motion, and such discrimination may be declared to be illegal. No such power is given to those bodies in respect of Commonwealth railways. I. want that power to be vested in them in respect of Commonwealth railways; the Commonwealth railway freights are most unjust to Western Australian primary and secondary industries, and I hope, therefore, that the Government will accept my amendment. Unless it be incorporated in the bill, State railway authorities who prescribe discriminatory freights will be subject to control by the Inter-State Commission, whereas the Commonwealth railways authorities may not be challenged for similarly offending, unless the authority of a State government or of the Governor-General is invoked, if at all. From the point of view of a State which is responsible for making its railways pay, the carriage of onions and potatoes on a Commonwealth line from one side of Australia to the other at low freights is a matter of considerable importance. If the Inter-State Commission is to be empowered to deal with a complaint against a State railway, it should be able to act similarly when the complaint is against the Commonwealth railway authorities. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>444</page.no>
+            <time.stamp />
+            <name.id>K2Z</name.id>
+            <electorate>VictoriaAssistant Minister</electorate>
+            <party>UAP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BRENNAN, Thomas</name>
+            <name role="display">Senator BRENNAN</name>
+          </talker>
+          <para>.- I like to give the honorable senator credit for being solicitous for the welfare of his State when he persists in his statement that, unless they are manacled, the other States will do an injustice to  &#34;Western Australia. It should not he necessary for me to disclaim any such intention on the part of the representatives of the other States. I should have thought that <inline font-style="italic">every</inline> honorable senator sits in this chamber as an Australian, not only to represent his own State, but also to have careful regard to the rights of every other State. &#34;When the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> was speaking, <inline font-weight="bold">Senator Johnston</inline> interjected somewhat heatedly that the right honorable gentleman was attempting to drag a red herring across the trail. <inline font-weight="bold">Senator Pearce</inline> stated an elementary fact when he said that this legislation must be read in conjunction with other legislation already on the&#34; statute-book, particularly the Constitution Act. I remind <inline font-weight="bold">Senator Johnston</inline> that even the High Court cannot wipe out the Constitution, or any portion of it. Nor can this Parliament do so, other than by the methods set out in the Constitution itself. The honorable senator must have in his mind the possibility of something happening; otherwise he would not have moved an amendment designed to make provision for that happening. When I asked him what he feared would happen, he replied that, in the event of a State railway providing for discriminatory freights, a number of bodies could make complaint to the Interstate Commission with a view to the discontinuance of the objectionable practice, whereas, should the Commonwealth railways discriminate in respect of freights, there would be no means of cheeking it. For that reason, it is necessary to look elsewhere in the Constitution. Yesterday, <inline font-weight="bold">Senator Pearce</inline> gave some reasons why the Commonwealth railways were not mentioned in the bill in exactly the same connexion as the State railways. There is a further reason why the honorable  senator&#39;s amendment is not necessary, namely, should the Commonwealth railways authorities discriminate against the railways of a State their action will come within the scope of section 99 of the Constitution, which provides that - </para>
+        </talk.start>
+        <quote>
+          <para>The Commonwealth shall not, by any law or regulation of trade, commerce, or revenue, give preference to one State or any part thereof over another State or any part thereof. </para>
+        </quote>
+        <para class="block">Moreover, the Constitution empowers an individual to move under that section, as <inline font-weight="bold">Mr. James</inline> did recently. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>445</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B Johnston</name>
+            </talker>
+            <para>- Not every individual can afford the expense of fighting the Commonwealth. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>445</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator BRENNAN</name>
+            </talker>
+            <para>- Let us assume that goods are in transit across Australia by rail. I take it that the idea in <inline font-weight="bold">Senator Johnston&#39;s</inline> mind is that when those goods reach the portion of the railway which is under the jurisdiction of the Commonwealth, a differential ratu might apply to them. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>445</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir George Pearce</name>
+            </talker>
+            <para>- The argument is that .the rate charged on the&#39; Commonwealth railways from Port Augusta to Kalgoorlie is unfair to the trade and commerce of Western Australia. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>445</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator BRENNAN</name>
+            </talker>
+            <para>- Under section 99 of the Constitution there can be no differentiation against goods coming from any part of Australia to Western Australia, and section 92 provides that there shall be no interference with the free flow of trade between the States. It is not intended that the Inter-State Commission shall take control of either the Commonwealth railways or the railways of the States. All that it will do in this connexion is to ensure that there shall be no discrimination or differentiation as between the States. The provisions of the Constitution meet anything that can be imagined by <inline font-weight="bold">Senator Johnston.</inline> If agreed to, his amendment would serve no good purpose, and I ask the committee to reject it. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>445</page.no>
+            <time.stamp />
+            <name.id>JZD</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">FOLL, Hattil</name>
+            <name role="display">Senator FOLL</name>
+          </talker>
+          <para>. - It would not be possible, in any circumstances, for the Commonwealth railways to discriminate against any one State, seeing that there is only one railway line over which goods passing between Western Australia and the other States can be conveyed. I cannot imagine that on a railway on which goods from New South Wales, Victoria and South Australia are being carried, the Commonwealth railways authorities would prescribe differential rates according to the State of origin. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>445</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir George Pearce</name>
+            </talker>
+            <para>- The Commonwealth railways authorities could charge a higher rate on goods travelling eastward than on similar goods travelling in the opposite direction. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>445</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>- That is not likely. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>446</page.no>
+            <time.stamp />
+            <name.id>KS7</name.id>
+            <electorate>WESTERN AUSTRALIA</electorate>
+            <party>UAP; LP from 1944</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MACDONALD, Allan</name>
+            <name role="display">Senator ALLAN MACDONALD</name>
+          </talker>
+          <para>. - I assure the Assistant Minister <inline font-weight="bold">(Senator Brennan)</inline> that what is agitating <inline font-weight="bold">Senator Johnston&#39;s</inline> mind is not what might happen at some distant date on the transAustralian railway, but what actually has already happened. There have been instances in which the Commonwealth freight rates in Western Australia have been much lower than those of the State. Complaints on that score have certainly been countered by the Commonwealth Commissioner of Railways declaring that the State rates were too high. To a degree, I agree with him. The point raised by <inline font-weight="bold">Senator Johnston</inline> also exercised my mind during the secondreading debate, but the Leader of the Senate <inline font-weight="bold">(Senator Pearce),</inline> in his reply, convinced me that more than sufficient authority exists under this bill to cope with the very position with which <inline font-weight="bold">Senator Johnston</inline> wishes to deal by his amendment. Confirmation of what he said was given to me by the qualified legal officers of the Crown Law Department. 1 am assured by them that, in the event of discriminatory railway freights being charged by the Commonwealth to the detriment of a State, that State may take appropriate action under clause 18 1 <inline font-style="italic">a,</inline> and I have no doubt that in such an event a State government would have no hesitation in exercising its right to do so. I am also assured by legal authority that it is impossible to insert <inline font-weight="bold">Senator Johnston&#39;s</inline> amendment in thebill, because it would mean that a. set of circumstances might arise which would demand the Attorney-General of the Commonwealth to take action against himself; such a situation would be ridiculous. Some years ago a similar Gilbertian situation arose in an outback part of Western Australia, when, assecretary to the local hospital board, a public servant applied to himself, as Registrar of Titles, for the grant of a piece of Crown land for the purpose of building a hospital. As Registrar of Titles he wrote to himself as secretary to the hospital board refusing the application on the ground that the land was the inalienable right of the Crown, and pointing out that if the hospital board wanted a site for a hospital it would have to purchase land in the normal way. Then, as the representative of the hospital board, the gentleman appealed to the Minister against the decision which he himself had reached in his official capacity as a State officer. And so the comedy went on. <inline font-weight="bold">Senator Johnston</inline> could himself have ascertained what I have already learned from competent legal authorities, namely, that his amendment could not possibly be inserted in the bill. There is no need for the honorable senator to be anxious about the position in our State. Every Western Australian senator is equally anxious to see that nothing is done in respect of railway freights to prejudice the position of that State. I respectfully urge him to withdraw his amendment because, according to legal advice, there is no virtue in it. </para>
+        </talk.start>
+        <para>Amendment negatived. </para>
+        <para>Clause agreed to. </para>
+        <para>Clause 22 agreed to. </para>
+        <para>Clause 23- (1.) The Commission may commence an investigation of any alleged contravention of the provisions of this Part either of its own motion or on the complaint of any of the following authorities, that is to say - </para>
+        <list type="loweralpha">
+          <item label="(e)">
+            <para>any such association of traders or freighters, or chamber of commerce, manufactures, or agriculture, as is in the opinion of the Commission, a proper body to make the complaint. </para>
+          </item>
+        </list>
+        <para>Amendment (by <inline font-weight="bold">Senator E.</inline> B. </para>
+        <para class="block">Johnston) agreed to - </para>
+        <quote>
+          <para>That after the word &#34; freighters,&#34; paragraph (e), the words &#34;or producers&#34; be inserted. </para>
+        </quote>
+        <para>Clause, as amended, agreed to. </para>
+        <para>Clauses 24 and 25 agreed to. </para>
+        <para>Clause 26 verbally amended, and, as amended, agreed to. </para>
+        <para>Clause 27 agreed to. </para>
+        <para>Clause 28 consequentially amended, and, as amended, agreed to. </para>
+        <para>Clauses 29 to 34 agreed to. </para>
+        <para>Clauses 35 and 36 consequentially amended, and, as amended, agreed to. </para>
+        <para class="italic">
+          <inline font-style="italic">Sitting suspended from 12.45 to 2.15 p.m.</inline>
+        </para>
+        <para>Clause 37 consequentially amended, and, as amended, agreed to. </para>
+        <para>Clauses 38 to 44 agreed to. </para>
+        <para>Clause 45 - </para>
+        <quote>
+          <para>The Governor-General may make regulations . . . </para>
+          <list type="loweralpha">
+            <item label="(a)">
+              <para>for regulating the conduct of proceedings before the commission; </para>
+            </item>
+            <item label="(b)">
+              <para>for enabling the commission in cases to be specified in such regulations to exercise its powers by any one commissioner ; and </para>
+            </item>
+            <item label="(c)">
+              <para>for prescribing penalties (not exceeding in the case of a pecuniary penalty One hundred pounds and in the case of imprisonment a period of three months) for any breach of the regulations. </para>
+            </item>
+          </list>
+        </quote>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>447</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;2.18&#93;.- I move - </para>
+        </talk.start>
+        <quote>
+          <para>That paragraph (b) be left out, and that the word &#34; and &#34; be inserted in lieu thereof. </para>
+        </quote>
+        <para class="block">This paragraph enables a commissioner to be empowered to exercise the powers of the commission. The provision is similar to that contained in the original act ; but, as the powers contained in the other two paragraphs are sufficiently wide, it is considered unnecessary to confer any additional regulation-making power. </para>
+        <para>Amendment agreed to. </para>
+        <para>Clause, as amended, agreed to. </para>
+        <para>Title agreed to. </para>
+        <para>Bill reported with amendments. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>GENEVA CONVENTION BILL 1937</title>
+        <page.no>447</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Secondreading. </para>
+      <para>Debate resumed from the 23rd June (vide page 241), on motion by <inline font-weight="bold">Senator Sir Geoege</inline> Pearce - </para>
+      <quote>
+        <para class="block">That the bill be now read a second time. </para>
+      </quote>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>447</page.no>
+            <time.stamp />
+            <name.id>K7P</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLLINGS, Joseph</name>
+            <name role="display">Senator COLLINGS</name>
+          </talker>
+          <para>. - In view of the fact that Article 28 of the International Convention was agreed to on the 27th July, 1929, will the Minister <inline font-weight="bold">(Senator Pearce)</inline> explain why the introduction of this bill, which I intend to support, has been so long delayed ? </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>447</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;2.22&#93;. - <inline font-style="italic">in reply</inline> - In moving the second reading of the measure, I explained that originally the Commonwealth was included in the British act; but, since the last Convention was drawn up, it has been decided that we should legislate in this matter ourselves. The Government waited until the amending British act, which was passed only last March, became operative before introducing this measure. </para>
+        </talk.start>
+        <para>Question resolved in the affirmative. </para>
+        <para>Bill read a second time, and reported from committee without amendment or debate; report adopted. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>THERAPEUTIC SUBSTANCES BILL 1937</title>
+        <page.no>447</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>447</page.no>
+        </subdebateinfo>
+        <para>Debate resumed from the 23rd June (vide page 242), on motion by <inline font-weight="bold">Senator Brennan</inline> - </para>
+        <quote>
+          <para>That the billbe now read a second time. </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>447</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>. - I remind the Assistant Minister <inline font-weight="bold">(Senator Brennan)</inline> of a serious happening which occurred at Bundaberg some years ago, due to carelessness in the preparation or the handling of vaccine. I trust that that incident will not be overlooked, and that every precaution will be taken to prevent a recurrence. I support the bill. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>447</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>.- Does the bill apply only to therapeutic substances imported into or exported from Australia? Does it protect the Australian public from therapeutic substances manufactured and sold in Australia? If it does not, I trust that the Commonwealth will request the State authorities to make the necessary provision to ensure that local substances below the proper standard are not used. I wish to be informed by the Minister whether that is so. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>447</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate>Victoria</electorate>
+              <party>UAP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator BRENNAN</name>
+            </talker>
+            <para>. - <inline font-style="italic">in reply</inline> - I point out to <inline font-weight="bold">Senator Leckie</inline> that the Commonwealth has no control over a substance which is manufactured in a State, and is not exported from that State, either to another State or to  a  foreign country. The Commonwealth can only take action through its powers of control over exports and imports, but, as I said in my second-reading speech, arrangements have been entered into by the Government with the States in order to effect control over that very limited class of substances which are not intended for export from the State in which they are manufactured. Any State legislation along these lines would be complementary to this legislation; thus the Commonwealth will have powers of control over both imports and exports, and, through the agency of the States, material manufactured in  a  State, but  not sent outside  that State, will also be controlled. </para>
+          </talk.start>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time, and reported from committee without amendment or debate; report adopted. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>LEAGUE OF NATIONS</title>
+        <page.no>448</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>17TH Assembly: Report of Australian Delegation. </para>
+      <para>Debate resumed from the 18th June <inline font-style="italic">(vide</inline> page 45) on motion by <inline font-weight="bold">Senator Sir George</inline> Pearce - </para>
+      <quote>
+        <para>That the paper be printed. </para>
+      </quote>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>448</page.no>
+            <time.stamp />
+            <name.id>K7P</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLLINGS, Joseph</name>
+            <name role="display">Senator COLLINGS</name>
+          </talker>
+          <para>. - -I have very little to say in respect of this document. It represents more or less a method of conveying information to honorable senators, and contains quite a deal of informative matter; for that reason, we are glad to have it. It  i3  desirable that these conferences be held, and that Australia be represented at them, for we should do everything in our power to support the League. Probably I shall have an opportunity on some future occasion to deal more fully with that phase of the matter. The speech of the Right Honorable S. M. Bruce at the 17th Assembly of the League of Nations on 29th September, 1936, which is published in Appendix D. of the report, is worthy of more than passing notice; it is an admirable address, and I recommend it particularly to the attention of the Government. In the course of his remarks, <inline font-weight="bold">Mr. Bruce</inline> said - </para>
+        </talk.start>
+        <quote>
+          <para>It is urged in some quarters that, unless the existing practice is abandoned in favour of the literal interpretation .of obligations, certain nations will take advantage of that freedom to refuse co-operation. That view I challenge, because I suggest it takes no account of the greatest potential&#39; force in the world to-day, namely, the will to peace of the great mass of ordinary men and women in every country. In the minds of a large proportion of the populations of the world are vivid recollections of the horrors of the Great War. They remember how, in that ghastly cataclysm, the use of modern weapons a&#176;dded to the  barbarity  of war. Nowadays, through the media of the press, the cinema and other methods of modern publicity, the world is learning bow the discoveries of science are 6till further adding to the horrors and terrors of war. As a result, there is, in most countries to-day, such a detestation of war as to create an almost incalculable force of public opinion which demands that the League shall not be allowed to fail, that temporary failure, though severe; shall be converted into an opportunity for the re-adaptation of League machinery so that it may become more effective in the preservation of world peace. </para>
+          <para>The strength and pressure of that world public opinion, to which I have referred, will grow progressively in force and will, in the last resort, compel statesmen to act with justice and righteousness whenever the issue is that of the maintenance of world peace or the restraint of an aggressor. </para>
+        </quote>
+        <para>I impress upon the Government that it cannot afford to ignore that statement. Included among the allies of this Government, along with a section of the press,, are many who are victims of a war hysteria, which is merely a psychological reaction to all that is going on in the world to-day. In support of <inline font-weight="bold">Mr. Bruce&#39;s</inline> remarks, I wish to impress upon the Government that we in this Parliament should recognize that the peoples, not the governments, of the world do not want war and do not want any of us to do any of those things which would ultimately lead to war. Other remarks made by <inline font-weight="bold">Mr. Bruce</inline> in concluding his speech also are worthy of the most careful attention of the Government - </para>
+        <quote>
+          <para>It is almost impossible tr&#62; exaggerate the possibilities for the improvement of the world&#39;s standard of living and of comfort, of culture and even of leisure, that the achievement of mankind in the fields of science have made possible. </para>
+        </quote>
+        <para>That is the plea which I have made consistently on behalf of the Opposition in this chamber, and I wish that the Government would thoroughly digest that very pregnant statement by <inline font-weight="bold">Mr. Bruce.</inline> He continued - </para>
+        <quote>
+          <para>It is our duty to ensure by co-operative action that these possibilities shall be opened up to the people of all nations. </para>
+          <para>The nutrition campaign launched at last year&#39;s Assembly is a step in the right direction, but we should regard it as a spear point of a movement to substitute for the policy of restriction of production, the wiser one of increased consumption. </para>
+        </quote>
+        <para>Coming from <inline font-weight="bold">Mr. Bruce,</inline> that statement is most noteworthy. It represents all that the Opposition has ever pleaded for in this connexion. We urge the Government to concentrate on the fact that it is essential to increase the consumption of our goods; the demand is there if only the consumers can be enabled to secure the wherewithal to purchase them. I wish, the members of the Cabinet, particularly, would take notice of the fact that <inline font-weight="bold">Mr.</inline></para>
+        <para class="block">Bruce is not now in the hurly burly of political controversy, and, therefore, is perfectly free to express opinions which in the circumstances existing earlier in his political career, he would not have expressed on the floor of the Parliament. 1 shall preserve his speech, and probably resurrect it on numerous appropriate occasions in the future; it is indeed worthy of the most careful study. </para>
+        <para>Debate (on motion of SenatorFoll) adjourned. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>INTERNATIONAL LABOUR CONFERENCE</title>
+        <page.no>449</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Maritime Sessions : Reportof Australiandelegation</title>
+          <page.no>449</page.no>
+        </subdebateinfo>
+        <para>Debate resumed from the 18th June (vide page 47) on motion by <inline font-weight="bold">Senator Sir Georgepearce</inline> - </para>
+        <quote>
+          <para>Thatthe paper be printed. </para>
+        </quote>
+        <para>SenatorCOLLINGS (Queensland) &#91;2.45&#93;. - I have taken advantage of the opportunity afforded to me during the last two or three days to read the report very carefully, and I shall be obliged if the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> will furnish me with some information with respect to certain portions of it. In that section of the report dealing with the liability of ship-owners to pay wages to seamen in cases of sickness, there appears the following: - </para>
+        <quote>
+          <para>Wages are payable, in full, so long as the sick or injured seaman remains on board his ship. If he is landed, wages in whole or in part, as may be prescribed by national laws, shall be paid (but only where the manhas persons dependent upon him) until he is cured or the sickness, or incapacity has been declared to be permanent. National laws may fix a minimum period during which payment continues, being in anycase not less than sixteen weeks from the day of the injury or commencement of the sickness. </para>
+        </quote>
+        <para class="block">My reading of that paragraph is that a seaman with no person dependent upon him will not receive payment for sickness, and I shall be obliged if the Minister can explain the reason for that. In another section dealing with the promotion of seamen&#39;s welfare in ports, it is stated - </para>
+        <quote>
+          <para>It is desirable to create in every important port an official or officially recognized body which might comprise representatives of shipowners, seamen, national and local authorities and the chief associations concerned. The function of such body would be to collect all useful information and suggestions on the conditions for seamen in the port, to put forward measures for the improvement of such conditions and to collaborate in the carrying outof such measures. In order that these measures maybe co-ordinated, it is desirable that the maritime States should furnish the International Labour Office every three years with a report on the experience acquired and on the progress made in this field. </para>
+        </quote>
+        <para class="block">Will the Minister tell the Senate what action the Commonwealth Government has taken in this matter? The report states further - </para>
+        <quote>
+          <para>During the discussion and prior to the final vote for adoption being taken in the conference, the Australian Government delegate announced that because of constitutional limitations on the powers of the Commonwealth Government to deal with various matters covered by the recommendations, he would abstain from voting. He had been instructed to state, however, that any recommendation adopted would be brought by the Commonwealth Government to the notice of the several State governments with a request for sympathetic consideration. </para>
+        </quote>
+        <para class="block">Will the Leader of the Senate inform us if communications have been sent to the various State governments with a view to their adoption of the convention, and if there is some means by which we can avoid this frequent reference to halfadozen State governments before taking action to implement decisions at the conference. I am not suggesting that the Government is in agreement  with  this section of the report, hut I should like to know what is being done? In some cases I know that Commonwealth legislation overrides State laws dealing with the same subject. I turn now to the report of the Australian workers&#39; delegate. It contains some interesting information which, if time permitted, I should like to read to the Senate. I admit that the generally accepted feelingof members of the various industrial and political organizations with which I am associated, as  well  as other sections of  the  people,  is  that  these  conferences arc of  little  value. I strongly dissent from that view. I  believe  that the Labour Organization at Geneva is one of the best institutions we have ever had, and I consider that we should have full representation there of the different sec  tions  of the community. <inline font-weight="bold">Mr. Tudehope,</inline> the Australian workers&#39; delegate, states - </para>
+        <quote>
+          <para class="block">Once again the Australian delegation only included one Government delegate, although </para>
+          <para>Australia is, as you are aware, entitled to two Government delegates with full voting power at the Conference. As it is to the obvious interest of Australia to secure the adoption of international labour conventions establishing progressive standards of working conditions, it is desirable that the Commonwealth should exercise its full voting power at sessions of the Conference. I would therefore urge that the Government send complete delegations, including in each case two Government delegates, to future sessions of the Conference. </para>
+        </quote>
+        <para>I commend that recommendation to the consideration of this Government. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>450</page.no>
+              <time.stamp />
+              <name.id>K08</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARKINS, James</name>
+              <name role="display">Senator Arkins</name>
+            </talker>
+            <para>- The honorable senator&#39;sparty should cease from criticizing the cost of overseas delegations. </para>
+          </talk.start>
+        </interjection>
+        <para>SenatorCOLLINGS. - Iam not sure that my friend is competent to judge what my party, or any member of it, should say or do. I am not aware that any responsible member of my party has objected to the expense incurred by delegates to the International Labour Conference, although he may have objected to the expense incurred at the League of Nations Assembly. The International Labour Conference is a subsidiary body, and is differently constituted. Whatever <inline font-weight="bold">Senator Arkins</inline> may have heard about Labour objection to the cost of overseas delegations, I at least believe that expenditure on account of the International Labour Conference is fully justified, in order that Australia may benefit from the deliberations and decisions of that body. I should like to know now what action is being taken by the Government to implement the conventions? Is the mere tabling of the report the end of the business? I hope it is not, but that legislation will be introduced, having for its effect the progressive improvement of the conditions of labour. </para>
+        <para>Debate (on the motion of <inline font-weight="bold">Senator Foll)</inline> adjourned. </para>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SPECIAL ADJOURNMENT</title>
+        <page.no>450</page.no>
+        <type>special adjournment</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator Sir George</inline> Pearce) agreed to - </para>
+      <quote>
+        <para>That the. Senate, at its rising, adjourn till Tuesday next at 3 p.m. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>450</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <para>InterStateCommissionHeadquarters. </para>
+      <para>Motion (by <inline font-weight="bold">Senator Sir George</inline> Pearce) proposed - </para>
+      <quote>
+        <para>That the Senate do now adjourn. </para>
+      </quote>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>450</page.no>
+            <time.stamp />
+            <name.id>K7P</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLLINGS, Joseph</name>
+            <name role="display">Senator COLLINGS</name>
+          </talker>
+          <para>. - This morning, during the discussion in committee of the Inter-State Commission Bill, I omitted to obtain from the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> information as to the intention of the Government with regard to the headquarters of the commission. Can the right honorable gentleman now say whether that body will be located in Canberra or, as is too frequently the case with commissions, will it function from some other centre? </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>450</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;2.56&#93;. - The matter mentioned by the Leader of the Opposition (SenatorCollings) has not yet been considered. My strong personal view is that the headquarters ofthe commission should be in Canberra. </para>
+        </talk.start>
+        <para>SenatorCollings. - If it had not slipped my memory when the bill was being considered in committee, I should have moved for the insertion of a clause making it mandatory for the head-quarters of the commission to be established in Canberra. </para>
+        <para>
+          <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.No decision has been reached because, as I have already told honorable gentlemen, the matter has not been considered by the Government. </para>
+        <para>Question resolved in the affirmative. </para>
+      </speech>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>450</page.no>
+        <time.stamp>14:57:00</time.stamp>
+      </adjournmentinfo>
+      <para>Senate adjourned at 2.57 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

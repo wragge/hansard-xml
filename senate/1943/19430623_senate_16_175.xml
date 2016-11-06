@@ -1,251 +1,635 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #010214; } body { background-image: url(/images/body-home-dusk-blurred.jpg); background-color: #010214; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-06-23%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-06-23%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-06-23%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-06-23%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-06-23%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-06-23%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-06-23%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1943-06-23/19430623_senate_16_175.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1943-06-23</date>
+    <parliament.no>16</parliament.no>
+    <session.no>1</session.no>
+    <period.no>9</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>268</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1943-06-23</day.start>
+      <para>The Senate, on the 1st April, 1943, adjourned to a date and hour to be fixed by the  President,  and to be notified to each honorable senator. The Senate met pursuant to such notification. </para>
+      <para>The <inline font-weight="bold">President (Senator theHon. J. Cunningham)</inline> took the chair at 3 p.m., and read prayers. </para>
+      <para class="block">DEATH OF THE HONORABLE JOHN McNEILL. </para>
+      <para>
+        <inline font-weight="bold">Senator COLLINGS</inline>(Queensland - </para>
+      <para>Minister for the Interior). - It is with very deep regret that I inform honorable senators of the death in Sydney on the 14th June of the Honorable John McNeill, a former member of the House of Representatives and Minister of the Crown. <inline font-weight="bold">Mr. McNeill</inline> was first elected in 1922 to the House of Representatives as member for Wannon. He was defeated at the 1925 elections, but was re-elected in 1929, after which he was again defeated in 1931. During bis final term he was appointed Minister for Health and Repatriation, holding office from the 3rd March, 1931, until the resignation of the Government on the6th January, 1932.  His  public service included, in addition to his parliamentary activities, membership of the Trade Unions Advisory Panel, on which he was the representative of the Australian Workers Union, and as a member of the Central Wool Committee. As general  president  of the Australian Workers Union and secretary of the New South Wales branch,he was an important figure in the industrial life of Australia, to which he devoted many years of untiring service. </para>
+      <para>The passing of John McNeill makes one more break in a long line of Australians who have been truly remarkable in the development of this country. It seems to me almost impossible to realize that John McNeill has gone from us for ever. Not many months ago he was here inCanberra consulting with Cabinet Ministers on important matters of public interest. It is difficult for me to remember a time when I did not have fairly close associations with John McNeill&#39;s many activities. As honorable senators well remember, we had in this chamber for many years as Leader of the Opposition and as a member of the Government, . a great mate of John McNeill&#39;s in the person of <inline font-weight="bold">Senator Barnes.</inline> Between John Barnes and John McNeill and others, but between those two particularly, there was a wonderful bond not only of friendship, but of similarity of ideas and ideals which lasted throughout their lives. In my connexion with industrial and labour work in Queensland, as well as in this Parliament, the counsel of John McNeill and John Barnes was of very great value. &#91;We have our differences in our daily lives and in our political alliances, but what I said just now is undeniably true, namely, that this kind of man is slowly but surely passing from us. Modern times do not develop the type. Consequently, I feel that in paying this tribute to John McNeill&#39;s work we honour, not only his memory, but also ourselves and all that has been done in the struggle to develop this country. Having passed through similar experiences, I know something of the struggle that these men endured in order to improve the conditions of their fellows. I remember the time when I stood reverently at some distance from these &#39;brave old pioneers and admired the way in which they risked everything that life held, although it did not hold much for them in those days. Men like John McNeill risked much in what they honestly and sincerely believed was for the benefit of their fellows. Without any of the advantages of a superior education, and certainly without any of the advantages of wealth, these men carved their rugged way to places of honour in the annals of this country. And so it is that this afternoon I feel more than usually moved because it has fallen to my lot to submit this motion. I extend my personal sympathy to those he has left behind. I am proud indeed to be able to tell the Senate that, at the instigation of the Prime Minister, who also knew John McNeill well, the deceased gentleman was granted a State funeral. </para>
+      <para>I move - </para>
+      <para>T&#93; at the Senate expresses its deep regret at the death of the Honorable John McNeill, a former member of the House of Representatives and Commonwealth Minister, places on record its appreciation of his meritorious public service, and tenders its sincere sympathy to his widow and family in their bereavement. </para>
+      <para>
+        <inline font-weight="bold">Senator</inline>McLEAY  (South Australia - Leader of the Opposition). - On behalf of the Opposition, I second the motion, and join with the Leader of the Senate <inline font-weight="bold">(Senator Collings)</inline> in expressing sincere sympathy with the family of the deceased gentleman in their bereavement. </para>
+      <para>
+        <inline font-weight="bold">Senator GIBSON</inline>(Victoria).- The Country party also desires to be associated with the motion moved by the Leader of the Senate <inline font-weight="bold">(Senator Collings)</inline> and seconded by the Leader of the Opposition <inline font-weight="bold">(Senator McLeay).</inline> The late <inline font-weight="bold">Mr. McNeill</inline> was a very fine character. He led the biggest organization of labour in Australia - an organization which never created any trouble. <inline font-weight="bold">Mr. McNeill&#39;s</inline> motto in life was, &#34;Peace in Industry &#34; and he succeeded in keeping peace in the industry which he represented. He and I at one time represented two adjoining Victorian electorates in the House of Representatives - Wannon and Corangamite, respectively - but I never heard any one say a word against the late <inline font-weight="bold">Mr. McNeill.</inline> He was indeed a very fine man, and the Labour party will have great difficulty in filling the place that he occupied as leader of a great industrial union. I extend my sympathy to his widow and family at this sad time. </para>
+      <para>
+        <inline font-weight="bold">Senator</inline>KEANE  (Victoria - Minister for Trade .and Customs). - As one who knew the late <inline font-weight="bold">Mr. McNeill</inline> well and was actively associated with him in the political and industrial life of this country, I support the motion moved by the Leader of the Senate <inline font-weight="bold">(Senator Collings).</inline> John McNeill will need no monument; he built his own. As <inline font-weight="bold">Senator Gibson</inline> has said, he helped to build the great union of which he was  president  - a union that serves those who are engaged in the hardest class of labour. The Australian Workers Union was the first union to organize what may be described as the unskilled workers, particularly the unskilled rural workers, in this country. It is, as <inline font-weight="bold">Senator Gibson</inline> stated, one of the biggest unions in this country, if not in the world. The late <inline font-weight="bold">Mr. McNeill</inline> was a good father, a capable politician, a trusted industrial leader, and an exemplary citizen. As has been stated, he always strove for industrial peace, and he succeeded in a great measure. As the Leader of the Senate has said, John McNeill, together with John Barnes. E. W. Grayndler and others, fought hard in the days before arbitration to improve the position of the workers of this country, cheerfully accepting all the risks associated with their activities. Australia is the poorer for the passing of John McNeill. I join with other speakers in expressing sympathy with his family in this time of sorrow. </para>
+      <para>
+        <inline font-weight="bold">Senator ARTHUR</inline>(New South Wales). - It is with feelings of the deepest grief that I rise to support a motion -relating to the death of one whom I knew well for more than 40 years. Poor old John McNeill has gone, as has also his former mate, Jack Barnes; and I extend to hia family my sincere sympathy. Many years have passed since I first came to know John McNeill. He and I were among the few who had tickets testifying to our association with the new Labour party in 1893. At my home at 95 St. Thomasstreet, Clovelly, there is evidence of our association in those early days. I well remember the time when the station owners of the Eden-Monaro district went to John McNeill for advice, which he freely gave to them. I was associated also with the late John Barnes in the mines at Broken Hill before I became associated with John McNeill in clipping wool from sheep. I regard John McNeill .and John Barnes as two of Australia&#39;s greatest men. Now both of them have gone, and I am grieved. . I extend my sincere sympathy to the widow of my late friend, and also to his brother-in-law, Jim Scullin, a former Prime Minister. I desire to record in <inline font-style="italic">Hansard</inline> my sense of loss at the passing of one of the greatest men that Australia has produced. Rest in peace, John McNeill. </para>
+      <para>Question resolved in the affirmative, honorable members standing in their places. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF EX-SENATOR ALBERT WILLIAM ROBINSON</title>
+        <page.no>270</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>270</page.no>
+            <time.stamp />
+            <name.id>K7P</name.id>
+            <electorate>Queensland</electorate>
+            <party>ALP</party>
+            <role>Minister for the Interior</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLLINGS, Joseph</name>
+            <name role="display">Senator COLLINGS</name>
+          </talker>
+          <para>. - I desire to announce to the Senate the death on the 25th May, of a former senator, <inline font-weight="bold">Mr. Albert</inline> William Robinson. He was appointed to this chamber on the 10th April, 1928, to fill the vacancy caused by the resignation of <inline font-weight="bold">Sir Henry</inline> Barwell on his appointment as Agent-General for South Australia in London, and he ceased to hold office on the election of his successor on the 10 th Novem ber, 1928. <inline font-weight="bold">Mr. Robinson</inline> first entered politics in 1915 as a member of the South Australian House of Assembly and was a prominent member of that House for the greater portion of the remaining 28 years of his life. In addition to his parliamentary activities, he was closely identified with the farming and grazing industry. &#34;I had not the pleasure or privilege of personal acquaintance with the late <inline font-weight="bold">Mr. Robinson,</inline> but, especially in these times, I am sure that we all agree that any individual in the community who has given 28 years of his life in some way or other to assist the governments of this country is entitled to our respect and homage, and so, to the relatives and friends of the departed gentleman, I express regret at his passing. I move - </para>
+        </talk.start>
+        <quote>
+          <para>That the Senate expresses its deep regret at the death of <inline font-weight="bold">Mr. Albert</inline> William Robinson, a former senator and a member of the House of Assembly of South  Australia, places on record its appreciation- of his meritorious public service, and tenders its sincere sympathy to his widow and family in their bereavement. </para>
+        </quote>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>270</page.no>
+            <time.stamp />
+            <name.id>KUA</name.id>
+            <electorate>South Australia</electorate>
+            <party />
+            <role>Leader of the Opposition</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLEAY, George</name>
+            <name role="display">Senator McLEAY</name>
+          </talker>
+          <para>. - On behalf of the Opposition, I second the motion, and in doing so I desire to endorse the remarks with which the Leader of the Senate <inline font-weight="bold">(Senator Collings)</inline> expressed our appreciation of the service of the late <inline font-weight="bold">Mr.</inline> Albert William Robinson, a former senator, and a member of the House of Assembly of South Australia. We wish to convey our deepest sympathy to his widow and family in their bereavement </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>270</page.no>
+            <time.stamp />
+            <name.id>KTX</name.id>
+            <electorate>SOUTH AUSTRALIA</electorate>
+            <party>UAP</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, James</name>
+            <name role="display">Senator JAMES McLACHLAN</name>
+          </talker>
+          <para>- I associate myself with the motion. The late <inline font-weight="bold">Mr. Albert</inline> William Robinson was my life-long friend. He was also my colleague in the Parliament of South Australia for a number of years. He was also  chairman  of what was known as the Railways Standing Committee, which afterwards became the Public Works Committee, for a considerable time, and in that capacity he performed valuable work for  South Australia. As has been pointed out bv the Leader of the Senate <inline font-weight="bold">(Senator &#39;Collings),</inline> the deceased gentleman had a long parliamentary career which, with short breaks, lasted from 1915 until his death, and, for practically all that time, he was the representative of the same district. He took a  keen interest in the development of primary production and his opinion was often sought on agricultural matters. I joinwith the Leader of the Senate and the Leader of the Opposition in expressing to his widow and family sincere regret at his passing. </para>
+        </talk.start>
+        <para>
+          <inline font-weight="bold">Senator COOPER</inline>(Queensland).Members of the Country party in the Senate desire to associate themselves with this motion, and to express their deep regret at the passing of the late <inline font-weight="bold">Mr. AlbertWilliam</inline> Robinson. We extend our deepest sympathy to his widow and family. </para>
+        <para>Question resolved in the affirmative, honorable senators standing in their places. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>271</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>War Loans - Commonwealth Finance - Tinned Plate - Flare Bombs</title>
+          <page.no>271</page.no>
+        </subdebateinfo>
+        <para>Motion (by <inline font-weight="bold">Senator Collings)</inline> proposed - </para>
+        <quote>
+          <para>That the Senate do now adjourn. </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>271</page.no>
+              <time.stamp />
+              <name.id>KTX</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>UAP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, James</name>
+              <name role="display">Senator JAMES McLACHLAN</name>
+            </talker>
+            <para>.- On the 14th May, 1943, the Burnie <inline font-style="italic">Advocate</inline> published the following paragraph: - </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>271</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>OPPOSITION MEMBERS ACCUSED OF ATTEMPTS TO SABOTAGE WAR LOAN</title>
+          <page.no>271</page.no>
+        </subdebateinfo>
+        <para>That Opposition members in the Federal Parliament, and particularly U.A.P. members of the National Service Group, had tried to embarrass the Government by sabotaging the recent war loan was proved by the fact that, since the loan was oversubscribed, nothing further had been heard front them about alleged inflation, said the Postmaster-General and Minister for Information <inline font-weight="bold">(Senator Ashley)</inline> at a public meeting; in the Leven Theatre, Ulverstone, last night. &#34;Less than a week before the loan closed,&#34; said <inline font-weight="bold">Senator Ashley,</inline> &#34; a mayor and returned soldier in South Australia publicly accused three leading members of the National Service Group of the U.A.P. in South Australia of sabotaging the loan by publicly stating, at the same time that the Government was asking for public money for the prosecution of the war, that inflation would result from the Government loan appeals and high taxation.&#34; </para>
+        <para>This, I think, calls for some comment. The accusation could emanate only from political bias ; it was uncalled for and unnecessary, and it also was untrue. In connexion with the flotation of that loan, the Government asked all political parties to assist, and many meetings were addressed by Opposition members, the subjectmatter being solely the necessity of the loan and the duty of the public to subscribe. </para>
+        <para>These meetings were called for that specific purpose. On the 14th April my colleagues and I were invited to speak at Kapunda on politics generally; at the eleventh hour we were asked to allow an appeal to be made onbehalf of the loan. We realized that people generally were getting genuinely alarmed at the apathy of the public. Not only government supporters, but all those with a full realization of their responsibility as citizens regarded the position as serious. So we gladly acquiesced, and were only too pleased to endorse the remarks of speakers in the time allotted to us - approximately five minutes each - by the mayor of the town, who presided. </para>
+        <para>Our meeting was entirely political, and each speaker was very forcible in his denunciation of the present Administration, its bungling in handling the food position, its biased attitude in the allocation of man-power, its inability to control the numerous hold-ups in the coalmining industry and on the waterfront, and also its handling of finance, with its attendant dangers of inflation. But in support of the war loan we were unanimous in our appeal for contributions. </para>
+        <para>The facts of the case are that the selected  speaker  for the appeal was in the audience during our meeting, and was apparently annoyed at our criticism of Government policy. On his return to the city, at a press interview, he drew his conclusions not from our remarks on the war loan, but statements made on general policy. However, the whole matter regarding the accusation was proved to be without foundation, as can be substantiated by reference to the South Australian press of the 16th and 17th April. Personally, I had made appeals to the public both before and after the date of this meeting, so can hardly be accused of opposing it. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>271</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator Collings</name>
+            </talker>
+            <para>- What did the <inline font-style="italic">Advertiser</inline> have to say? </para>
+          </talk.start>
+        </interjection>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>271</page.no>
+              <time.stamp />
+              <name.id>KTX</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>UAP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, James</name>
+              <name role="display">Senator JAMES McLACHLAN</name>
+            </talker>
+            <para>- As the Leader of the Senate implies, there was controversy in South Australia over the matter, but the fact stands that I travelled considerable distances in response to the appeal that members of </para>
+          </talk.start>
+          <para class="block">Parliament should help to make the loan a success, and it is poor thanks to be told that we tried to sabotage the loan and that in another State the PostmasterGeneral <inline font-weight="bold">(Senator Ashley)</inline> should distort the facts in an unworthy attempt to make politics^ capital. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>272</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>ALP</party>
+              <role>Minister for External Territories</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator FRASER</name>
+            </talker>
+            <para>- What did the  chairman  of the meeting say? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>272</page.no>
+                <time.stamp />
+                <name.id>KTX</name.id>
+                <electorate>SOUTH AUSTRALIA</electorate>
+                <party>UAP</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, James</name>
+                <name role="display">Senator JAMES McLACHLAN</name>
+              </talker>
+              <para>- The mayor of Kapunda was chairman. What he said was reported in the following paragraph in the Adelaide <inline font-style="italic">Advertiser</inline> of the 16th May, 1943 :- </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>The Mayor of Kapunda <inline font-weight="bold">(Mr. H. H. Rees)</inline> said last night that he had definitely made no protest to the State War Loan Committee, nor had he made any criticism of the federal members&#39; speeches. He had had a telephone conversation with the State War Loan organizer <inline font-weight="bold">(Mr. C. F. Lewis ) , but in that he had referred only to being disappointed with the response of the meeting. &#34; It had been said that I rebuked the three federal members, but if I did it had a general application to all federal members and had no reference to anything said that night &#34;, he added. &#34;What I said was that the present apathy and complacency of the Australian people towards the present loan was due to lack of confidence in the present Australian Parliament. I added that while the Parliament, which was elected by the people, continued on party lines to the detriment of the war effort instead of diverting the whole of its energies to the main issue at stake - the winning of the war - it could not expect anything else on the part of the people but complacency. At the same time, I appealed to overlook party bickerings and to support the present loan.&#34;</inline></para>
+          </quote>
+          <para class="block">In view of that report it cannot be said that <inline font-weight="bold">Mr. Rees</inline> accused me or my colleagues of attempting to sabotage the loan. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>272</page.no>
+              <time.stamp />
+              <name.id>JTR</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DARCEY, Richard</name>
+              <name role="display">Senator DARCEY</name>
+            </talker>
+            <para>. - <inline font-weight="bold">Senator James</inline> McLachlan has referred to the last war loan. According to a report in yesterday&#39;s press the Government&#39;s estimated expenditure of &#163;540,000,00,0 for the current financial year will be exceeded by &#163;20,000,000. As the result of the action of the private banks in placing all of their so-called surplus deposits with the Commonwealth Bank, one would think that the Government would not need to raise another public loan for some considerable time. The newspapers reported that these deposits exceed &#163;100,000,000, and that these funds would be used to finance the war. That is a fallacy. The reason why the private banks have those deposits is because business men are selling out their stocks, and have no avenue for ordinary private investment. Many depositors who have had overdrafts with the private banks for years past, now have a credit balance; and the private banks have decided to lend this credit to the Commonwealth Government at a certain rate of interest. On previous occasions in this chamber I have endeavoured to find out the amount of surplus deposits in the private banks. I know now. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>272</page.no>
+                <time.stamp />
+                <name.id>KAY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GIBSON, William</name>
+                <name role="display">Senator Gibson</name>
+              </talker>
+              <para>- From what paper is the honorable senator quoting? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>272</page.no>
+                <time.stamp />
+                <name.id>JTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DARCEY, Richard</name>
+                <name role="display">Senator DARCEY</name>
+              </talker>
+              <para>- I quote the following report from the Sydney <inline font-style="italic">Daily Telegraph : -</inline></para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>So far in the war period it appears that the major part of the U.S. Government&#39;s deficit has been financed by bank credit. </para>
+            <para>This is explained in a survey by the Guarantee Trust Company of New York. </para>
+            <para>Treasury Department figures, i.t is said, indicate that 62 per cent, of the increase in the national debt, direct and guaranteed, during the 12 months ended November 30, 1942. was taken by commercial banks. </para>
+            <para>About 13 per cent, was absorbed by the Federal Reserve Banks, 2 per cent, by mutual savings banks, 8 per cent, by insurance companies, 2 per cent, by Government agencies, and trust funds. </para>
+            <para>The remaining 13 per cent, was absorbed by others - that is by the general investing public, including corporations and individuals. </para>
+            <para>Commercial banks held approximately half of the total debt, as against 46 per cent, n year earlier. </para>
+            <para> With the holdings of the Federal Reserve Banks included, the commercial banking system held about 50 per cent, of .the debt outstanding at the end of November. </para>
+            <para>While the banks&#39; holdings of Government obligations have increased rapidly, other forms of bank credit have contracted. </para>
+          </quote>
+          <para>Honorable senators, perhaps, will recall the great victory loan which was floated in the United States of America during the last war. It has since been disclosed that only 5 per cent, of that great loan was subscribed by the American people. The other 95 per cent, was subscribed by Wall-street in the usual way by sending cheques to the Treasury. Commenting upon the above report, the <inline font-style="italic">New Era</inline> states - </para>
+          <quote>
+            <para>It will be seen from the foregoing that the private banks of U.S. (the Federal Reserve Banks are also private concerns) are taking advantage of America&#39;s pre-occupation with the war to obtain a debt stranglehold over the na.tion. </para>
+          </quote>
+          <para>Many people in the United States of America, like many people in this country, think that the Federal Reserve Bank is a government bank; but, like the Bank of England, it is a private institution, -which provides credit. In this country, the private hanks combined hold only  &#163;15,000,000  in notes and silver and copper, and even that does not belong to the banks because it represents deposits. I repeat that the private banks do not lend money at all, but simply create credit against their deposits. This latest idea of placing surplus funds held by private banks with the Commonwealth Bank came from Britain. That racket was carried on in that country during the last war. The <inline font-style="italic">New Era</inline> comment continues - </para>
+          <quote>
+            <para>The last war loan racket was aptly described by Thomas Johnson, Secretary for Scotland in the present British Ministry, as &#34; the greatest act of grand larceny in British History.&#34; </para>
+            <para>Had the Federal Government countenanced this racket in this war, it was the intention of organizations all over Australia to organize the necessary volume of public opinion to stop it. I have no doubt .that they would have succeeded . . . </para>
+            <para>While one evil has been stopped in Australia, however, the Treasury BUI racket is still suffered, and a new one, known as  special war time deposits,&#34; has been started. </para>
+          </quote>
+          <para>The private banks can draw against that amount of  &#163;100,000,000  of surplusdeposits and obtain as many  &#163;1  notes, half-crowns and florin pieces as they want, but that money does not belong to them. Indeed, no money is transferred from the private banks to the Treasury, but only cheques. It is a wonder to me why honorable senators opposite do not endeavour to check up on what I am saying. The <inline font-style="italic">New Era&#39;s</inline> comment proceeds - </para>
+          <quote>
+            <para>The position in regard to Treasury Bills is interesting. At March 31 the Federal Government had issued Treasury Bills to the value of &#163;268,000,000 of which only &#163;00,000,000 had been taken up by the private banks. </para>
+          </quote>
+          <para>A treasury-bill is a three-months promissory note. A private bank can convert a treasury-bill into currency by simply presenting it to the Commonwealth Bank and drawing notes for its value. In the first place, however, the banks purchase treasury-bills by cheque. The comment continues - </para>
+          <quote>
+            <para>Special war-time deposits held by the trading banks at the Commonwealth Bank now exceed &#163;100 million. </para>
+          </quote>
+          <para>The quotation I have just made appeared recently in the <inline font-style="italic">Sydney Morning Herald.</inline> In the same paper, I read a report that the private banks, in transferring their surplus deposits to the Commonwealth Bank had acted patriotically with the desire of helping the Government, because the private banks could have lent that money out at interest at the rate of  5  per cent, or  6  per cent. That is another banker&#39;s lie, because that is not actually money. The transfer of those deposits to the Commonwealth Bank is of no advantage whatever to Australia. They cannot be used for financing the war. The private banks have been told that they cannot buy war bonds, and must not advance money to private individuals to enable them to purchase war bonds. I know that the Treasurer <inline font-weight="bold">(Mr. Chifley)</inline> has now given consent to the private banks to buy war bonds, and they are doing so. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>273</page.no>
+                <time.stamp />
+                <name.id>KBH</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WILSON, Keith Cameron</name>
+                <name role="display">Senator Wilson</name>
+              </talker>
+              <para>-  What is the Government doing about it? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>273</page.no>
+                <time.stamp />
+                <name.id>JTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DARCEY, Richard</name>
+                <name role="display">Senator DARCEY</name>
+              </talker>
+              <para>- I am not the Government. I am simply explaining our financial position. It is time that honorable senators opposite realized the racket now been indulged in by the private banks. The comment of the <inline font-style="italic">New Era</inline> continues - </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>No doubt .the public is hoarding more money than usual. The greater the feeling of insecurity, the more people hoard - of everything. </para>
+            <para>But the disappearance of so many millions of the Note Issue is probably explained by the fact that more people are carrying notes around with them. It&#39;s a long time since Tom, Dick and Harry enjoyed the inarticulate pleasure of having five or six pounds in the wallet, if it doesn&#39;t actually give them a sense of power ( ! ) , it certainly relieves them of that feeling of penurious indigence (i.e., &#34; broke &#34; ! ) which haunted them for years in the depression. What is NOT emphasized in the Press announcements about the Note Issue is that, of the &#163;137,000,000 issued to date, &#163;47,000,000 are held in reserve by the Commonwealth Bank. </para>
+          </quote>
+          <para>We have been told by honorable senators opposite that the note issue has  increased  from  &#163;47,000,000  to  &#163;137,000,000  since the outbreak of the war, but they have not told us that the private banks hold the bulk of that amount. Why should not the Commonwealth Bank increase the note issue? Otherwise, how can industry pay the wages of those thousands of people who are now earning wages for the first time in their lives. The Government of the day, regardless of its political colour, would be obliged to increase the note issue in order to meet this want. Ninety-nine per cent, of the world&#39;s business is done on credit, but the only interests who can create credit are the private banks. We are told that the Commonwealth Bank is now issuing credit; but why is it not issuing that credit to the Government free of interest? Under the old private banking system, the private banks could cash their treasury-bills, and these were funded in the national debt. We commenced this war with a national debt of &#163;1,200,000,000, and obviously that debt will be greatly increased before the war ends. It is time that honorable senators opposite asked themselves where these millions are coming from. I get tired of pointing out the facts. However, not one honorable senator on the other side has yet declared that what I have said on this matter is incorrect. I shall continue to deal with the matter as I have been doing in the past until honorable senators are prepared to listen to the truth, and act accordingly. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>274</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator AYLETT</name>
+            </talker>
+            <para>. - Honorable senators opposite have complained of a report of a statement by the Postmaster-General <inline font-weight="bold">(&#39;Senator Ashley),</inline> which appeared in the Tasmanian press. That statement dealt with the action of certain honorable senators opposite with regard to the recent loan. I point out that at the time that report was first published no objection was taken to it by any supporter of honorable senators opposite. Not even the honorable member for Denison <inline font-weight="bold">(Mr. Beck),</inline> who is the secretary of the National Service group, protested. That statement appeared a considerable time before the PostmasterGeneral addressed the meeting at Ulverstone to which honorable senators opposite have referred. This attempt on the part of supporters of the Opposition in this Parliament to sabotage our last loan prompts me to bring to the notice of the Government other acts of sabotage which agents of the Opposition are perpetrating. I appeal to the Minister representing the Minister for Supply and Shipping to ensure that an adequate supply of tinned plate is released at &#62;an early date for the manufacture of all classes of tin  ware.  Country storekeepers have been unable to obtain sufficient quantities of saucepans, billycans, pots and kettles to meet the demand. When they lodge an order with the wholesaler, he replies: &#34;I am sorry that I cannot fulfil your order. The goods are unobtainable because of the policy of a certain gentleman named Dedman, who does not understand his job.&#34;  The  wholesaler who wrote that letter to a retailer did not even have the decency to apply to the Department of Supply and Shipping for the release of these goods, or inform it of the shortage. That is the other part of the story. When other representations were made, that wholesaler resented what he described as &#34; this interference &#34;. </para>
+          </talk.start>
+          <para>In the cities, people are able to get supplies of kitchen utensils, but the shortage in the country is acute. For example, a miner has to take his tea in a billycan. If he cannot get a billycan, he cannot make tea. The Government is urging people in the country districts to produce more vegetables, but they have no saucepans in which to cook such foods. This position is brought about largely because some storekeepers and wholesalers are deliberately sabotaging the Department of Supply and Snipping. They blame the department for lack of supplies, although they do not lodge orders with the department for the release of these utensils. The department in Tasmania has already made arrangements for the manufacture of saucepans, pots, kettles and billycans; all that it requires is the release of tinned plate by the Department of Supply and Shipping. I express the hope that when the utensils become available, the department will see that nothing is supplied to the wholesaler who wrote the letter mentioned. Honorable senators opposite frequently accuse the workers of sabotage. The instance which I have cited is an excellent example of another kind of sabotage. Some storekeepers are the agents of the United Australia party, and take a delight in informing customers that lack of supplies is due to governmental action. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>274</page.no>
+              <time.stamp />
+              <name.id>KOL</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCBRIDE, Philip</name>
+              <name role="display">Senator MCBRIDE</name>
+            </talker>
+            <para>-  Do not cry about the Labour Government. The honorable senator supports it. </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>275</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator AYLETT</name>
+              </talker>
+              <para>- The agents of the United Australia party are deliberately inconveniencing the general public. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>275</page.no>
+                <time.stamp />
+                <name.id>KOL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCBRIDE, Philip</name>
+                <name role="display">Senator McBride</name>
+              </talker>
+              <para>- The honorable senator seems to be most impressed. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>275</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator AYLETT</name>
+              </talker>
+              <para>
+                <inline font-weight="bold">- Senator McBride</inline>does not like this exposure of the sabotage that is being committed by his agents. Although some goods are definitely unobtainable for reasons beyond the control of the Government, the agents of the United Australia party blame the Department for &#34;War Organization of Industry. &#34;Who gives those agents their instructions, I do not know. They will not even apply to the department for release of supplies. Honorable senators opposite have complained from time to time that the Labour party is taking advantage of the war to implement its domestic policy. I hope that the Government will move more rapidly in that direction by wiping out these saboteurs who are causing the general public such great inconvenience. I know some of them. They have attended meetings of the United Australia party in. Launceston and have subscribed &#163;40 and &#163;60 to party funds for the purpose of defeating me at the next general elections. They will be sadly disappointed. I hope that the Government will take immediate action to relieve the shortage of cooking utensils in the country districts of Tasmania, particularly in the far west, where transport is difficult. Unless something is done immediately the position will become desperate. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>275</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate>&#34;New South &#34;Wales</electorate>
+              <party>ALP</party>
+              <role>Postmaster-General</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>. - <inline font-weight="bold">Senator James</inline> McLachlan saw fit to criticize a statement that I made in Tasmania recently, but I see no reason to justify my withdrawing any of those remarks. When &#91; visited South Australia last April, the press invited me to comment upon the &#34; breakaway group &#34; of the Opposition, led by <inline font-weight="bold">Senator McLeay.</inline> I remarked that, as members of the National Service Group were constantly parading their patriotism, they should address public meetings in support of the Third Liberty Loan instead of assailing the policy of the Minister for Commerce and Agriculture <inline font-weight="bold">(Mr. Scully).</inline> That statement was published in South Australian newspapers, and the Leader of the Opposition <inline font-weight="bold">(Senator McLeay)</inline> did not reply to it. I certainly said, and I repeat it, that certain members of the Opposition, during the -campaign of the Third Liberty Loan, bleated loudly throughout Australia about inflation. When the loan was filled, they were silent. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>275</page.no>
+                <time.stamp />
+                <name.id>KOL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCBRIDE, Philip</name>
+                <name role="display">Senator McBride</name>
+              </talker>
+              <para>- The PostmasterGeneral is premature. He will hear more about the subject. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>275</page.no>
+                <time.stamp />
+                <name.id>K0W</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">ASHLEY, William</name>
+                <name role="display">Senator ASHLEY</name>
+              </talker>
+              <para>- The interjection is most helpful. It supports my contention that honorable senators opposite openly attempted to sabotage the Third Liberty Loan by preaching the dangers of inflation. The statement to which <inline font-weight="bold">Senator James</inline> McLachlan objected was made, not only in Tasmania, but also in other States, and I am mystified that the honorable senator evidently overlooked it until <inline font-weight="bold">Senator Sampson</inline> directed his attention to it. The <inline font-style="italic">Daily News</inline> published the following news item on Friday, the 16th April, under the heading, &#34; Claim United .Australia Party Speakers Sabotaged Loan&#34;: - </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>Strong protests have been made to the State War Loan Committee by Mayor of Kapunda, H. Bees, and Warrant Officer Frank Legg over the attitude of members of the National Service Group of the United Australia party towards the war loan at their Kapunda meeting on Tuesday night. <inline font-weight="bold">Mr. Rees</inline> presided at the meeting and Warrant Officer Legg, a returned soldier of the 9th Division, spoke on behalf of the State War Loan Committee. &#34; Instead of supporting the loan these men sabotaged it on party policy lines &#34;, said Warrant Officer Legg. <inline font-weight="bold">Mr. Bees</inline> said he was astounded at the address of <inline font-weight="bold">Mr. Duncan-Hughes,</inline> M.H.R. The other two speakers were <inline font-weight="bold">Senator McLeay</inline> and <inline font-weight="bold">Senator James</inline> McLachlan. &#34;After these three men had spoken I had to untangle everything they had said &#34;, Warrant Officer Legg said. &#34;If they are going to continue this practice on their ten weeks&#39; tour, they will do untold damage. Their attitude made mo furious.&#34; </para>
+          </quote>
+          <para>The ten weeks&#39; tour which Warrant Officer Legg mentioned prompted my comment that the honorable senators would have been better employed in appealing for subscriptions for the Third Liberty Loan instead of criticizing the Minister for Commerce and Agriculture. Incidentally, the wheat-growers and graziers&#39; organizations in South Australia strongly protested through the press against the tactics of the Leader of the Opposition. The article continued - </para>
+          <quote>
+            <para>Warrant Officer Legg said that <inline font-weight="bold">Mr. DuncanHughes</inline> had said that a man on a big income could not possibly support the loan, because of his tax liabilities, neither could a man on a small income afford to subscribe. </para>
+          </quote>
+          <para>While those honorable senators bleated about inflation, they complained at the same time about heavy taxation. Every honorable senator knows that a degree of inflation is inevitable in war-time, and has occurred in every belligerent country. Taxation is one method of controlling it. Immediately the Third Liberty Loan closed, the Commonwealth Government placed a ceiling on prices in order to control inflation. That action aroused protests from honorable senators opposite, who represent vested interests, that the fixation of ceiling prices would reduce profits. Immediately the Government makes an effort to control inflation honorable senators opposite take up the cudgels on behalf of the exploiters and the profiteers. The paragraph continued - </para>
+          <quote>
+            <para>
+              <inline font-weight="bold">Mr. Duncan-Hughes</inline>said that the loan would probably not be filled, and that the banks would then have to take up a large part of it. This would increase the national debt and lead to national ruin. He implied that support for the loan amounted to support for what he called the inflationary policy of the Federal Government, said <inline font-weight="bold">Mr. Legg.</inline></para>
+          </quote>
+          <para>That is a patriotic utterance by an honorable member who loses no opportunity to parade his patriotism. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>276</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLeay</name>
+              </talker>
+              <para>- He has a better record than the Postmaster-General. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>276</page.no>
+                <time.stamp />
+                <name.id>K0W</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">ASHLEY, William</name>
+                <name role="display">Senator ASHLEY</name>
+              </talker>
+              <para>- My record will compare favorably with his. &#39; The people of Australia gave the lie to that statement, because the loan was successfully filled. Shortly afterwards, another member of the Opposition, the honorable member for Warringah <inline font-weight="bold">(Mr. Spender),</inline> declared that the Third Liberty Loan was not a &#34; people&#39;s loan &#34;. </para>
+            </talk.start>
+          </continue>
+          <para>Only last Friday, in Sydney, I had an investigation made with regard to loans recently floated under the direction of the Treasurer <inline font-weight="bold">(Mr. Chifley)</inline> and those raised under the regime of the honorable member for Warringah <inline font-weight="bold">(Mr. Spender)</inline> and the present Leader of the Opposition in the House of Representatives <inline font-weight="bold">(Mr. Fadden). Mr. Spender&#39;s</inline> recent statement with regard to loans is merely another attempt to sabotage the Government&#39;s financial standing. Had the honorable member been honest enough to mention the number of contributions of amounts up to &#163;100 which were made, for example, to the first three loans raised in 1940, and the two &#163;100,000,000 loans raised by the Labour Government in 1942 and 1943, the public would have been able to appraise the political significance of his criticism. Admittedly, he referred to the fact that financial institutions such as life assurance companies had made large contributions. There is nothing secret about the figures. They have all been published, and the details which I have before me are most illuminating. When <inline font-weight="bold">Mr. Spender</inline> was Treasurer in 1940, loans for &#163;18,000,000 and &#163;20,000,000 were raised, and of the total number of subscribers to the first of those loans 47.65 per cent, contributed amounts of &#163;100 or less, which represented 2.43 per cent, of the total sum raised. In the second loan, subscribers of sums up to &#163;100 represented 56 per cent, of the total number contributing, and their subscriptions represented 5.6 per cent, of the total amount. The third loan of 1940, when <inline font-weight="bold">Mr. Fadden</inline> was Treasurer, was for &#163;28,000,000, and of 21,830 subscribers in this case 46.5 per cent, were small subscribers who contributed up to &#163;100 each, representing 2.37 per cent. The lie is given to <inline font-weight="bold">Mr. Spender&#39;s</inline> statement that recent loans were not people&#39;s loans by the fact that the percentage of subscribers of sums up to &#163;100 had increased from 47 per cent., 56 per cent, and 46 per cent, in* 1940, to 88 per cent, and 90 per cent, for the last two loans raised by the Labour Government. In the &#163;100,000,000 Austerity Loan raised last year by th present Treasurer, 88 per cent, of the subscribers contributed amounts up to &#163;100, their total contribution representing 14 per cent, of the over-subscribed total. The loan in March this year attracted 384,131 subscribers who contributed up to &#163;100, this figure being 90 per cent, of the total number of subscribers and 10 per cent, of the total amount. <inline font-weight="bold">Mr. Spender&#39;s</inline> political outburst can be judged when it is viewed with the background of attempts to sabotage the Third Liberty Loan. In view of the report in the South Australian press and other newspapers bearing on the matter, I stand by all that I have said, and I intend to repeat it on the public platform at every opportunity. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>277</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role>Leader of the Opposition</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>. - <inline font-weight="bold">Senator James</inline> McLachlan and I have helped the Government by responding to every request made to us for assistance in appealing for contributions to war loans. I had the privilege of speaking on this subject in conjunction with the Prime Minister <inline font-weight="bold">(Mr. Curtin),</inline> and I also had an opportunity to make an appeal to the people through the national broadcasting network. It is deplorable that Ministers should rely on reports entirely and refrain from making true statements from those reports. The Mayor of Kapunda, according to a report published in the Adelaide <inline font-style="italic">Advertiser,</inline> denied the statement attributed to him. As far as I am concerned, I appealed to the best of my ability for public support of the loan. I drew attention to the point taken by <inline font-weight="bold">Senator Wilson</inline> by way of interjection that it was regrettable that out of 3,000,000 income-earners in this country only 10 per cent. had contributed to the loan. The honorable member for Wakefield <inline font-weight="bold">(Mr. Duncan-Hughes),</inline> speaking in support of the loan, said that the people of Kapunda who contributed to it would help to retard inflation. For the PostmasterGeneral to travel over Australia and use the money of the taxpayers to tell the people that members of the Opposition had said the very opposite is to be guilty of a lie in keeping with that of the Minister for Labour and National Service <inline font-weight="bold">(Mr. Ward),</inline> with regard to &#34; the Brisbane line &#34;. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>277</page.no>
+                <time.stamp />
+                <name.id>K0W</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">ASHLEY, William</name>
+                <name role="display">Senator Ashley</name>
+              </talker>
+              <para>-  I ask for the withdrawal of the accusation that I lied. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>277</page.no>
+              <time.stamp />
+              <name.id>JTK</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CUNNINGHAM, James</name>
+              <name role="display">The PRESIDENT (Senator the Hon J Cunningham</name>
+            </talker>
+            <para>- As the words used are offensive to the Minister I ask for their withdrawal. </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>277</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLEAY</name>
+              </talker>
+              <para>- I withdraw them. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>277</page.no>
+              <time.stamp />
+              <name.id>K0N</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARNOLD, James</name>
+              <name role="display">Senator ARNOLD</name>
+            </talker>
+            <para>.  - I draw the attention of the Minister representing the Minister for Air to a tragedy that occurred within the last two months in the Macquarie district. A number of children found a flare bomb, and in playing with it five of them lost their lives. A fortnight ago two more flare bombs were found in this area by other  children, but, fortunately, the bombs were recovered before any damage was done. </para>
+          </talk.start>
+          <para class="block">I ask the Minister to see that all precautions are taken in this and other areas against the possible misuse of flare bombs or other objects which might prove of danger to the public. I understand that certain precautions have been taken, but I desire an assurance from the Minister that all possible precautions will be observed to prevent a recurrence of such tragedy as that experienced recently. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>277</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party>ALP</party>
+              <role>Minister for the Interior</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>. - <inline font-style="italic">in reply</inline> - The matter referred to by <inline font-weight="bold">Senator Arnold</inline> will be placed before the Minister for Air <inline font-weight="bold">(Mr. Drakeford)</inline> and a reply will be communicated to the honorable senator. </para>
+          </talk.start>
+          <para>Question resolved in the affirmative. </para>
+          <para>Senate adjourned at 4.9  p.m. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+  </chamber.xscript>
+</hansard>

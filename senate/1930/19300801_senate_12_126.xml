@@ -1,251 +1,1920 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1930-08-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1930-08-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1930-08-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1930-08-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1930-08-01%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1930-08-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1930-08-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1930-08-01/19300801_senate_12_126.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1930-08-01</date>
+    <parliament.no>12</parliament.no>
+    <session.no>1</session.no>
+    <period.no>2</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>5108</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1930-08-01</day.start>
+      <para>The <inline font-weight="bold">President (Senator the Hon. W. Kingsmill)</inline> took the chair at 11 <inline font-style="italic">a.m.,</inline> and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>PAPER</title>
+        <page.no>5108</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>The following paper was presented: - </para>
+      <para>Particularswith regardto the Omnibus Serviceat Canberra. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SALES TAX</title>
+        <page.no>5108</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>
+        <inline font-weight="bold">Senator Sir GEORGEPEARCE.I</inline>have received the following telegram  from <inline font-weight="bold">Mr. Saw,</inline> secretary of the Perth Chamber of Commerce: - </para>
+      <para>Furtherto our protest  of16th  July, this Chamber, representative  of  the commercial community, desires the postponement  of  im- position of Sales Tax until such timeacts been definitely passed by both  Houses  of Parliament. No copies bill available here and Deputy Commissioner of Taxation can afford  no  information. Impossible commercial communities understand operation of proposed tux without copy bill.If bills passed strongly urge operation of tax be deferred until  1st  September. </para>
+      <para class="block">I brought this matter under the notice of the Leader of the Senate in order that he might be in a position this morning to make a statement. I should like to know whether it is intended to make the information available to the taxation officers in Perth, and whether copies of the bill have been despatched; also if the Government will give consideration to the request to defer the postponement of the tax until the 1st September? </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>5108</page.no>
+            <time.stamp />
+            <name.id>JTL</name.id>
+            <electorate>SOUTH AUSTRALIA</electorate>
+            <party>ALP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DALY, John</name>
+            <name role="display">Senator DALY</name>
+          </talker>
+          <para>- My attention has been directed to the telegram which the right honorable senator has received. The information asked for has been supplied. Honorable senators will, however, realize that as the figures contained in the budget were prepared on the assumption that the Sales Tax would commence on the 1st August, it is impossible for the Government, without interfering with its financial arrangements, to extend thedate as requested. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>5108</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CANBERRA OMNIBUS SERVICE</title>
+          <page.no>5108</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5108</page.no>
+              <time.stamp />
+              <name.id>K1L</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister assisting the Minister for Works and Railways</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARNES, John</name>
+              <name role="display">Senator BARNES</name>
+            </talker>
+            <para>- On the 3rd July, <inline font-weight="bold">Senator H.</inline> E. Elliott asked the following questions, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What has been the gross cost to date of the Government (formerly Federal Capital Commission) omnibus service atCanberra, embracing (infer alia) separate totals under eachof the following headings: - (a) Repairs and maintenance; (b), wages; (c), petrol, oils, and greases;(d), tyres and tubes? </para>
+            </item>
+            <item label="2.">
+              <para>What were the total expenses for each of the half-years ended: - (a).31st December. 1926; (b), : 30th June. 1927; (c) 31st December, 1927;(d), . 30th June, 1928; (e), 31st December. 1928.: (f), 30th June, 1920; (g), 31st December,1929;(h) <inline font-style="italic">,30th</inline> June, 1930? </para>
+            </item>
+            <item label="3.">
+              <para>What were the gross takingsofsuch service for each of the half-years abovementioned? </para>
+            </item>
+            <item label="4.">
+              <para>What was the total mileagerun during thehalf-years above-mentioned? 5.How many omnibuses have been purchased for and used in such service? 6.What was the cost of each such omnibus? </para>
+            </item>
+            <item label="7.">
+              <para>What was the carrying capacity of each of same? </para>
+            </item>
+            <item label="8.">
+              <para>What was the date of purchase of each of same? </para>
+            </item>
+            <item label="9.">
+              <para>Who were the owners and selling agent? of each of same? </para>
+            </item>
+            <item label="10.">
+              <para>Have any of such omnibuses, and (if any) which, been fitted with - (i) Extra wheels to convert them into twin rearwheeled vehicles? (ii) new engines? (iii) newchassis ? </para>
+            </item>
+            <item label="11.">
+              <para>What is the present estimated valueof each of the omnibuses now in use? </para>
+            </item>
+            <item label="12.">
+              <para>Which of the omnibuses (if any) are being or are to be presently converted into motor lorries? </para>
+            </item>
+            <item label="13.">
+              <para>Which ofthem (if any) are obsolete or unsuitable, and/or are to be presently retired from use? </para>
+            </item>
+            <item label="14.">
+              <para>How is it proposed to replace any such vehicles (omnibuses) as arebeing or may presently he converted into motor trucks, or are obsolete or unsuitable, and/or are to bo presently retired from use. </para>
+            </item>
+          </list>
+          <para class="block">I am now in a position to advisehim as follows :  - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>(a), &#163;12,181 17s. 8d.; (b), &#163;23,597 16s. 5d;  (c),  &#163;12,41311s.; (d), &#163;4,598 13s. The figures indicate the position as at the 30th June, 1930. </para>
+            </item>
+            <item label="2.">
+              <para>3. and 4 - </para>
+            </item>
+          </list>
+          <para class="block">
+            <graphic href="126332193008011_0_0.jpg" />
+          </para>
+          <list type="decimal-dotted">
+            <item label="5.">
+              <para>Thirteen. </para>
+            </item>
+          </list>
+          <para class="block">
+            <graphic href="126332193008011_1_0.jpg" />
+          </para>
+          <list type="decimal-dotted">
+            <item label="10.">
+              <para>(i), (ii).(iii); 4 Bean omnibuses. </para>
+            </item>
+            <item label="12.">
+              <para>Therehas been no decision to convert any of the vehicles into lorries. 13 and 14. The general condition of the omnibus fleethas been the subject of consideration, which is not yet completed., and I am, therefore, not in a position to indicate what action it may be decided to take in re- gard to the retention or disposal of thevarious vehicles. </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5109</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- I suggest to honorable senators that it in future they seek detailed information such as that contained in the answers given by the Assistant Minister in reply to questions asked by <inline font-weight="bold">Senator H.</inline> E. Elliott, it would be much better to move for the preparation of a return to be laid upon the table. I hope they will adopt that course. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PRICE OF BOTTLED BEER</title>
+        <page.no>5109</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>5109</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>- </para>
+        </talk.start>
+      </interjection>
+      <para>Some time ago, in consequence of an announcement by hotel-keepers, that it was proposed to increase the price of bottled beer and ale, because of the effect of the tariff,I asked whether inquiries would be made and information supplied. I should like to know if the desired particulars have been obtained? </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>5109</page.no>
+            <time.stamp />
+            <name.id>JTL</name.id>
+            <electorate />
+            <party>ALP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DALY, John</name>
+            <name role="display">Senator DALY</name>
+          </talker>
+          <para>- The matter is in the hands of the customs authorities. I understand it is the subject of diplomatic investigation. I am informed that sometimes the price of bottled beer may not be raised but smaller glasses may be used. As soon as the customs officers are in <inline font-style="italic">a</inline> position to supply the information, it will be furnished to the right honorable gentleman. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>COMMONWEALTH EMPLOYEES&#39; COMPENSATION BILL</title>
+        <page.no>5109</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator Daly)</inline> agreed to - </para>
+      <quote>
+        <para>That leavebegiven to introducea bill for an act relating tocompensation to employees of the Commonwealth for injuries suffered in the course of their employment. </para>
+      </quote>
+      <para class="block">Bill brought up, and read a first time. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>POST ANDTELEGRAPHRATES BILL</title>
+        <page.no>5109</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Assent reported. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>FLAX AND LINSEED BOUNTIES BILL</title>
+        <page.no>5109</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator Barnes)</inline> proposed  - </para>
+      <quote>
+        <para>That the billbenow read a third time. </para>
+      </quote>
+      <division>
+        <division.header>
+          <time.stamp />
+          <para>Question put. The Senate divided. (ThePresident - SenatortheHon. W.Kingsmill.)</para>
+        </division.header>
+        <division.data>
+          <ayes>
+            <num.votes>17</num.votes>
+            <title>AYES</title>
+          </ayes>
+          <noes>
+            <num.votes>10</num.votes>
+            <title>NOES</title>
+          </noes>
+        </division.data>
+        <para>Majority . . 7 </para>
+        <para class="block">
+          <graphic href="126332193008011_2_1_3_P.jpg" />
+        </para>
+        <para>AYES</para>
+        <para class="block">
+          <graphic href="126332193008011_1_1_1_A.jpg" />
+        </para>
+        <para>NOES</para>
+        <para class="block">
+          <graphic href="126332193008011_2_1_2_N.jpg" />
+        </para>
+        <division.result>
+          <para>Question so resolvedin the affirmative. </para>
+        </division.result>
+        <para>Bill read a third time. </para>
+      </division>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SUPERANNUATION BILL</title>
+        <page.no>5110</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para class="block">Message received from the House of </para>
+      <para>Representatives intimating that it had agreed to the amendments made by the Senate in thisbill. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>CONCILIATION AND ARBITRATION BILL</title>
+        <page.no>5110</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para class="block">Question proposed - </para>
+      <para class="block">That the report be adopted. </para>
+      <para class="block">Motion (by <inline font-weight="bold">Senator</inline> Daly)  agreed to - </para>
+      <quote>
+        <para class="block">That the bill be recommitted for the consideration of clauses 9. 24, 44a and 57. </para>
+      </quote>
+      <para class="block">
+        <inline font-style="italic">In committee :</inline>(Recommittal). </para>
+      <para class="block">Clause 9 - </para>
+      <quote>
+        <para>Section 18c of the principal act is repealed and the following section inserted in its stead. </para>
+        <list type="decimal-dotted">
+          <item label="9.">
+            <para>Any award or order made bya conciliation commissioner pursuant to the power conferred by this section shall for all purposes be and be deemed to be an award or order of the court. </para>
+          </item>
+        </list>
+      </quote>
+      <para>Motion (by <inline font-weight="bold">Senator</inline> Daly)  agreed to - </para>
+      <quote>
+        <para>That the words &#34; for all purposes &#39;&#39;, subsection <inline font-style="italic">9,</inline> be left out with a view to insert in lieu thereof the words &#34;subject to section 31a of this act.&#34; </para>
+      </quote>
+      <para>Clause, as further amended, agreed to. </para>
+      <para>Clause 24 - </para>
+      <quote>
+        <para>Section 31 of the principal act is amended </para>
+        <para class="italic">
+          <inline font-style="italic">Section proposed to be amended -</inline>
+        </para>
+        <list type="decimal">
+          <item label="(1)">
+            <para>
+              <inline font-style="italic">No award or order of the court shall be challenged, appealed against, reviewed, quashed, or called in question or be subject to prohibition, mandamus or injunction, in any other court on any account whatever.</inline>
+            </para>
+          </item>
+        </list>
+      </quote>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>5110</page.no>
+            <time.stamp />
+            <name.id>K0S</name.id>
+            <electorate>VICTORIA</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PLAIN, William</name>
+            <name role="display">The CHAIRMAN (Senator Plain</name>
+          </talker>
+          <para>- I understand that <inline font-weight="bold">Senator Sir Hal</inline> Colebatch has an amendment to move to this clause. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>5110</page.no>
+              <time.stamp />
+              <name.id>K7F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLEBATCH, Hal</name>
+              <name role="display">Senator Sir Hal Colebatch</name>
+            </talker>
+            <para>- I have no wish to move an amendment to this clause. I am content to leave it in the muddle it is now in. I hope; however, that the Minister will decide to leave the section in its present form. </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>5110</page.no>
+            <time.stamp />
+            <name.id>JTL</name.id>
+            <electorate>South Australia</electorate>
+            <party>ALP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DALY, John</name>
+            <name role="display">Senator DALY</name>
+          </talker>
+          <para>. - I suggest to the committee that the section in the principal act could be amended by adding after the words &#34;in any other court&#34; the words &#34;other than the High Court&#34;. As the present Chief Judge expressed some doubt concerning its validity, perhaps it would be better to leave it as it is until our legal friends can determine whether the provision is, or is not, within our constitutional powers. In any case it may be of some service if the referendum proposals are carried next year. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>5110</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>South Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator McLACHLAN</name>
+          </talker>
+          <para>.  - There is a further point to which I wish to direct the Minister. The section reads - </para>
+        </talk.start>
+        <quote>
+          <para>No award or order of the court shall be challenged, appealed against, reviewed, quashed, or called into question, or be subject to prohibition, mandamus or injunction in any other court on any account whatever. </para>
+        </quote>
+        <para class="block">It appears to me that the limited right of appeal might be misconstrued. As there is some doubt as to the validity of the section, perhaps it would he better to allow the clause to pass in its present form. If the words &#34;appealed against&#34; remain they may give rise to a considerable amount of litigation, having regard to the other provisions which have been inserted. </para>
+        <para>Amendment (by <inline font-weight="bold">Senator</inline> Daly)  proposed - </para>
+        <quote>
+          <para>That the following new paragraph be inserted: - 1. (a) by inserting in sub-section 1, before the words&#39; &#34; no award or order &#34; the words &#34; except as inthis act provided &#34;. </para>
+        </quote>
+        <para>
+          <inline font-weight="bold">Senator Sir HAL</inline>COLEBATCH (Western Australia) &#91;11.34;&#93;. - Last night I expressed my willingness to let the provision go through as it stood because the Leader of the Government in the Senate <inline font-weight="bold">(Senator Daly)</inline> led me to believe that sub-section 1 of section 31 was to be carefully considered . with a view to redrafting a provision to overcome, among other things, the constitutional objection raised by me. If, however, instead of following that course, it is now proposed to draft amendments to the sub-section, I propose to take a hand in the matter, and I shall move the following amendment :  - </para>
+        <quote>
+          <para>That the following paragraph be inserted: - <inline font-style="italic">&#34;(a)by</inline> omitting sub-section 1&#34;. </para>
+        </quote>
+        <para class="block">Sub-section 1 of section 31 provides that there shall be no appeal, whereas another section sets out what sort of appeal there shall be, and, therefore, from that point of view, it is useless. </para>
+        <para>The <inline font-weight="bold">CHAIRMAN (Senator Plain).The</inline> amendment submitted by <inline font-weight="bold">Senator Daly</inline> will take precedence over the honorable senator&#39;s amendment. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>5111</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir George Pearce</name>
+            </talker>
+            <para>- Would it not be better to take <inline font-weight="bold">Senator Colebatch&#39;s</inline> amendment first, because, obviously, if the committee decides to omit sub-section 1, there will be no occasion to consider an amendment to insert any words in the sub-section? </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>5111</page.no>
+            <time.stamp />
+            <name.id>JTL</name.id>
+            <electorate>South Australia</electorate>
+            <party>ALP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DALY, John</name>
+            <name role="display">Senator DALY</name>
+          </talker>
+          <para>. - The committee may not feel inclined to omit the sub-section in an amended form. I appreciate to the full the constitutional point raised by <inline font-weight="bold">Senator Colebatch.</inline> I interpret the judgments of the High Court to mean exactly what the honorable senator placed before the Senate. So far as section 31 proposes to take away the right of appeal to the High Court, it is <inline font-style="italic">ultra vires .</inline> of thi3 Parliament, but the omission of the subsection would give rise to the legal question  as to whether prohibition would lie. to a State court. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>5111</page.no>
+              <time.stamp />
+              <name.id>K7F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLEBATCH, Hal</name>
+              <name role="display">Senator Sir Hal Colebatch</name>
+            </talker>
+            <para>- I admit that, but why has the provision not been redrafted to overcome that difficulty? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>5111</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>- In its present form the sub-section prevents any one from taking out. a writ of prohibition or mandamus in any court other than one over which the Commonwealth Parliament has power. The cases referred to by the honorable senator go to show that the provision is <inline font-style="italic">ultra vires</inline> in so far as it attempts to prevent the High Court from dealing with the matter, but. it is valid in its present form against any State court. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>5111</page.no>
+              <time.stamp />
+              <name.id>K7F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLEBATCH, Hal</name>
+              <name role="display">Senator Sir Hal Colebatch</name>
+            </talker>
+            <para>- Amend the section by inserting the words &#34; other than the High Court&#34;, and I shall be satisfied . </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>5111</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>- I have no objection to doing so, as a method of conciliation. </para>
+          </talk.start>
+        </continue>
+        <para>Amendment agreed to. </para>
+        <para>Amendment (by <inline font-weight="bold">Senator Daly)</inline> agreed to. </para>
+        <para>That the following paragraph be inserted: - &#34; (ab) by inserting in sub-section 1 after the words&#34; in any other court &#34;, the words &#34; other than the High Court &#34;. </para>
+        <para>Clause, as further amended, agreed to. </para>
+        <para>Clause 44a verbally amended, and, as amended, agreed to. </para>
+        <para>Clause 57 amended to read as clause 24a and, as amended, agreed to. </para>
+        <para>Bill reported with further amendments. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SEWING MACHINE BOUNTY BILL</title>
+        <page.no>5111</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>5111</page.no>
+        </subdebateinfo>
+        <para>Debate resumed from 29th July(vide page 4834), on&#39; motion by <inline font-weight="bold">Senator Barnes</inline> - </para>
+        <quote>
+          <para>That the bill be now read a second time. </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5111</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>. - Picking up the threads of the argument on the proposal of the Government to grant a bounty to the sewing machine industry, I recall to the memories of honorable senators that the right honorable the Leader of the Opposition <inline font-weight="bold">(Senator Pearce)</inline> stated that this was the &#34; hottest &#34; proposition that the Government had yet fathered.  The  policy of this Government is, wherever possible, to give favorable consideration to the recommendations of the  Tariff Board,  whether they relate to primary or secondary  industries.  A  fear  appears to  be  agitating the mind of <inline font-weight="bold">Senator Pearce</inline> that the Government has goneoutof its way to manufacture a case to support the granting of a bounty to the sewing machine industry. Actually the project is based upon a report of the Tariff Board, which was instructed by the Bruce-Page Government to investigate the sewing machine industry with a view to ite receiving assistance. The Government adopts no parochial attitude in these matters.  If  a proposal promises to advance the interests of Australia, it receives the support, of this Government, no matter whence it emanates. To illustrate that, I recall the recent Western Australian Agreement (Wiluna Gold Mines) Bill. That was a project affecting the welfare of Western Australia, the State which <inline font-weight="bold">Senator Pearcerepresents</inline> in this chamber. A casewas presented to the Government asking itto take over the obligations oftheWestern State in connexion with the Wiluna. Gold Mining Company Limited.Therequest was viewed nationally and it received the support of the Government. In the  present case the Tariff Board recommended that a bounty should be paid to the sewing machine industry, in order to enable it to become strongly established in Australia. The investigation was made in 1925, under the regime of the Bruce-Page Government, when <inline font-weight="bold">Senator Pearce</inline> was Vice-President of the Executive Council. This Government merely proposes to carry on the good work originated by the Bruce-Page Government in this connexion, and to endeavour to consolidate the establishment of what should be a sound secondary industry. It appears certain, from the comments that have emanated from honorable senators opposite, that they will throw cold water on the proposal. No doubt <inline font-weight="bold">Senator Sir Hal</inline> Colebatch will subject it to a very rough handling. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5112</page.no>
+                <time.stamp />
+                <name.id>K7F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLEBATCH, Hal</name>
+                <name role="display">Senator Sir Hal Colebatch</name>
+              </talker>
+              <para>- Does the honorable senator think that it is worth the trouble? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5112</page.no>
+                <time.stamp />
+                <name.id>JYB</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNN, James Patrick Digger</name>
+                <name role="display">Senator DUNN</name>
+              </talker>
+              <para>- Apparently the Bruce-Page Government considered that the industry was worth assisting. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5112</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- That Government refused to accept the recommendation of the Tariff Board. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5112</page.no>
+                <time.stamp />
+                <name.id>JYB</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNN, James Patrick Digger</name>
+                <name role="display">Senator DUNN</name>
+              </talker>
+              <para>- I have here a circular from the Metal Trades Employers Association of New South Wales, a very strong organization of its kind, whose sympathies are certainly not extended to the Labour Government,. The communication is dated the 22nd July last, and reads - </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>5112</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SEWINGMACHINEINDUSTRY</title>
+          <page.no>5112</page.no>
+        </subdebateinfo>
+        <para>This industry is of far greater importance to  the country than is generally realized, and  in  England, Germany, and America is looked  on  as one  of  the important secondary industries. </para>
+        <para>At  the present time 40,000 to 45,000 domestic- type sewing machine heads are imported into Australia each year. The oversea manufacturing countries are chiefly Britain, Germany, and America. </para>
+        <para>It  is proposed  to  manufacture them in Bendigo and also in Sydney. The first unit  of  theNew South Wales plant will he in operation in a few months&#39; time, and will have  an  output  of  10,000 machines per annum. At the start the output will he 5,000 machines, and this will increase within two or three months of starting to 10,000 machines. Both vibratory and rotary type machines will be manufactured. At the present time, good quality British or foreign machine heads cost in Australia, when purchased  in  large quantities, &#163;3 10s. each. The Australian head will be sold in wholesale quantities at approximately &#163;2 10s. each. This shows n very decided saving, and the industry will be the means of considerably reducing the price of sewing machines to the consumer, and, in addition to costing less, the selling costs will be very much lower. </para>
+        <para>The bounty is to be paid on domestic heads only, and not on manufacturing machines. This is necessary while the industry is in the &#34; infant &#34; stage of development. The established reputation of imported machines, distributed as they are by large scale selling organizations, is such that any bounty must be sufficient to off-set these things as well as to eliminate the possibility of dumping. </para>
+        <para>The Australian machines will be equal in quality and workmanship to any imported machines. Estimates have been made, and it canbe reliably stated that locally-made cabinet machines will bc sold to the public at from &#163;15 10s. to &#163;17 each, the quality and finish of which will compare quite favorably with the present imported article selling at &#163;22. Only a large output, secured and made possible by the. bounty requested, can bring about this satisfactory position. </para>
+        <para>At the start, the number of employees in the Sydney works will be 00, and will be increased to 100 within a few &#39;months. It is anticipated that the industry will eventually employ 10,000 workers, and it will create employment among foundries, engineering shops, and wood-working shops. </para>
+        <para>I am not going to fall to apple-sauce of that character; but I do know that the industry will provide employment for many hundreds of workers - not 10,000 - and anything that will bring about that desirable result will receive my support. No doubt the idea that the industry would employ 10,000 workers was conceived in a moment of intense enthusiasm. It continues - </para>
+        <quote>
+          <para>The present duty of 10s. on British and &#163;1 on foreign heads should bc sufficient to pay the cost of the bounty for some time, so that the bounty will not in any way affect the revenue of the country. </para>
+          <para>We feel confident you will agree as to the advisability of this industry being established and assistance being given at the start, and look forward to receiving your co-operation. </para>
+          <para>With anticipatory thanks, </para>
+          <para>Yours faithfully. (Sgd.) G. F. Caldwell, </para>
+        </quote>
+        <para>Tariff Officer</para>
+        <para>The right honorable the Leader of the Opposition explained at considerable length that the granting of the proposed bounty would be derogatory to the Government, and would inflict upon the working women of this country a considerable hardship. He pointed out that in these strenuous times middle-class families have to rely on the use of the domestic sewing machine to economize;  that a bounty would increase the price of machines, and force housewives to return to the drudgery of hand sewing. The right honorable senator claimed that the machine was the capital investment of many widows, who were forced to earn their livelihood with its aid. He then quoted Thomas Hood&#39;s &#34; Song of the Shirt,&#34; followed by a paraphrase, the product of his fertile imagination. I believe that I could do better. The establishment of the Australian industry will enable Australian sewing machines to be sold to widows for &#163;15 10s. each, as against &#163;25 10s. for imported machines. It will, therefore, be seen that the Government has thought of the widows to whom the Leader of the Opposition made such pathetic reference. In 1925 the Tariff Board investigated a request that a bounty of &#163;2 10s. per machine be given on sewing machines ordinarily used in Australian households. A few days ago the Senate had before it a bill to provide a bounty on cotton. Honorable senators who supported that bounty said that cotton could be grown in Queensland and manufactured into cloth in Australia. This bill goes a step further, for it provides forthe making in Australia of sewing machines to manufacture into clothes the cotton grown in Queensland. I am a 100 per cent. protectionist; I believe in protection to the limit, although I admit that at times it might be advisable to give preference to imported machines in order to assist in establishing an Australian industry. Until such time as Australia is able to supply her own sewing machine requirements, I am prepared to give British manufacturers preference over those from other countries. In 1922-23 Australia imported from the United States of America sewing machines valued at &#163;60,851. In the following year the importations from that country were valued at &#163;51,479. Bather than give preference to the United States of America, I prefer to give it to Britain for articles which Australia is, as yet, unable to manufacture. In 1922-23 we imported from Germany - that nation with which at one time we said we would never trade again - sewing machines valued at &#163;1,293. In the following year the sewing machines we obtained from that country were valued at &#163;6,152. Sewing machines imported from the United Kingdom during the two years mentioned were valued at &#163;113,419 and &#163;99,034, respectively. It will therefore be seen that, whereas our imports of sewing machines from the Mother Country decreased during that year, the volume of imports from our late enemy increased considerably. During the war Australian traders had a good deal to say about &#34; Empire &#34; and &#34;flag&#34;; but when it comes to trading, Empire and flag are forgotten. &#34;What was wrong with British machines in 1923-21 that Australian importers preferred machines made in Germany? When I was returning to Australia from active service on a troopship which sailed from Glasgow, I saw from the deck of the vessel a huge factory, in the tower of which there was a clock whose face was the biggest I have ever seen. I inquired what building it was, and was informed that it was the factory of the Singer Sewing Machine Company. That huge building had been built up with British capital, British brains, and British workmen. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>5113</page.no>
+              <time.stamp />
+              <name.id>K7F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLEBATCH, Hal</name>
+              <name role="display">Senator Sir Hal Colebatch</name>
+            </talker>
+            <para>-  Without bounties or protection. </para>
+          </talk.start>
+        </interjection>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5113</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>- I do not know about that. Is it not strange that although  that  British factory exists and employs men who fought for the Empire, Australian traders prefer to send their orders to Germany and the United States of America? Their patriotism is the patriotism of pounds, shillings and pence. When an application was made by Bendigo Sewing Machines Limited for  a  bounty on sewing machines, the undermentioned witnesses appeared at  the  inquiry and gave evidence on oath in favour of the request for a bounty: - Charles Edmund Cording, manage.&#34; and director of Bendigo Sewing Machines Limited; Robert Donaldson, secretary of the Australian Sewing Machine Company, Melbourne; and Herbert Keck, nurseryman and citrus-grower, and  a  director of Bendigo Sewing Machines Limited. The report of the Tariff Board states that the evidence tendered in favour of the request was to the following effect :  - </para>
+          </talk.start>
+          <quote>
+            <para>The Bendigo Sewing Machine Company was originally formed to carry on the business of motor and general engineering in Bendigo; but, owing to lack of scope for expansion in that direction, as the result of investigation it was decided to undertake the manufacture of sewing machines. In deciding upon the making of sewing machines the company had in mind the fact that the existing Customs Tariff provided for a deferred duty on sewing :machines. The directors of the company realised that a considerable outlay would be required to bring the project to the stage of commercial manufacture, and that some time must necessarily elapse before any return could be expected. </para>
+          </quote>
+          <para class="block">The company referred to applied for a  bounty  in 1925; hut its request was refused by the then Government. Had Australian traders been as loyal as&#39; they professed to be during the war, and supported the Australian firm instead of sending their money to foreign countries, that factory might now be working. But it was allowed to starve. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5114</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>- Are any sewing machines manufactured at Bendigo now? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5114</page.no>
+                <time.stamp />
+                <name.id>JYB</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNN, James Patrick Digger</name>
+                <name role="display">Senator DUNN</name>
+              </talker>
+              <para>- No. The factory, with its plant, is there; but no machines are being made. If another war broke out&#39; to-morrow the traders in sewing machines would, in effect, wrap themselves &#39;in Union Jacks; but, when it comes to assisting an Australian industry, they prefer to send their money to other countries. The Tariff Board&#39;s report, with reference to the evidence tendered in favour of the request, continues - </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>The matter was, however, proceeded with, and in the course of twelve months so satisfactory was the progress made that the company was in a position to make sample machines. At the time of the public inquiry the output of the company had reached 40 machines per week, or about - 2,000 machines per annum. It was considered that if a bounty, as requested, were paid, the output would be very considerably increased. It was estimated that, given the demand, the output of the- company could within twelve months be increased to 40,000 machines per annum, or the total estimated requirements of the Commonwealth. </para>
+          </quote>
+          <para class="block">Each year about 54,000 sewing machines of British, American, and German manufacture enter this country. Honorable senators will, therefore, see that there is a home market to be&#39; exploited. I cannot understand honorable senators, especially those representing Victoria, not supporting a measure to assist the establishment of what in time will be a flourishing Australian industry, if granted a little assistance now - </para>
+          <quote>
+            <para>The company had from its inception to the date of the inquiry, manufactured 500 machines, while a further 5,000 machines were in the course of construction, and the company also had on hand large quantities of spare parts. </para>
+          </quote>
+          <para class="block">The Leader of the Opposition <inline font-weight="bold">(Senator Pearce)</inline> gave us to understand that it was not possible to manufacture in Australia the more intricate parts of a sewing machine. I am wondering if the right honorable gentleman has inspected the Lithgow small arms factory? I had an opportunity to dp so a few months ago in company with a number of my colleagues on this side of the Senate, and I was amazed at the large quantity of modern plant engaged in manufacturing the most . intricate machinery parts. I invite other honorable senators to accept the invitation that has been extended by the management to visit Lithgow, and see w.hat is being done there. The <inline font-style="italic">Sydney Morning Herald,</inline> in an article published in yesterday&#39;s issue, announced that the Lithgow factory was now manufacturing certain portions of electrical equipment required for talking machines to be used in Australian picture houses. This report effectively destroys the contention- of the right honorable the Leader of the Opposition that Australian manufacturing establishments -are not in -a position &#39; to produce the more intricate parts of sewing machines. The report goes on to state - </para>
+          <quote>
+            <para>The castings, though not made by the applicant company, are made in Australia. The cabinet work is also done in Australia - some at the works of the Bendigo Sewing Machine Company) and the remainder by outside firms. Australian timber is used in making the cabinets, while the metal used in the manufacture is of Australian production. The greater proportion of the company&#39;s manufacturing plant is of Australian manufacture. </para>
+          </quote>
+          <para class="block">No one can find fault with Australian timbers. I am sure we are all glad of the opportunity, when friends visit us in Canberra, to conduct them on a tour of inspection of this magnificent building, and we point with pride to the many Australian timbers which are used in the construction, and for the numerous articles of furniture. The walls of this chamber are panelled with wonderful timbers. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5114</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator Payne</name>
+              </talker>
+              <para>- Does the honorable senator know where it came from? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5114</page.no>
+                <time.stamp />
+                <name.id>JYB</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNN, James Patrick Digger</name>
+                <name role="display">Senator DUNN</name>
+              </talker>
+              <para>- Some of it, I believe, came from Tasmania, and some from the forests in Western Australia and Queensland. Australia has some of the finest timbers in the world. It is idle, therefore, to suggest that local timber is not suitable for the manufacture of cabinets of Australian sewing machines. The report continues </para>
+            </talk.start>
+          </continue>
+          <para>In the actual manufacture of sewing machines, 60 employees were engaged by the Bendigo Sewing Machines Limited at the time of the public inquiry, while the making of the castings and cabinet provided employment for at least fifteen more. The weekly wages paid amounted to &#163;180. </para>
+          <para>Further employment will be given in subsidiary industries. I cannot understand the attitude of those honorable senators opposite who would prefer to see Australian money sent to Germany or some other foreign country in payment for imported sewing machines. <inline font-weight="bold">Senator Colebatch</inline> would have Australian workers walking the streets in search of employment, while German workers were fully employed manufacturing articles for use in Australian homes. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5115</page.no>
+                <time.stamp />
+                <name.id>K7F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLEBATCH, Hal</name>
+                <name role="display">Senator Sir Hal Colebatch</name>
+              </talker>
+              <para>- The honorable senator knows that what he is saying is absolutely untrue. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5115</page.no>
+                <time.stamp />
+                <name.id>JYB</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNN, James Patrick Digger</name>
+                <name role="display">Senator DUNN</name>
+              </talker>
+              <para>- If the honorable senator will vote for this bill, I shall apologize through the  President  for what I have said concerning him. The report states further - </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>The company is at present making only household sewing machines, and it is claimed the locally-made machines arc equal to the imported. Severe competition from overseas is being experienced by the local industry. The price at which the locally-made machines arc sold is &#163;15 15s. net cash, whereas some similar imported machines are sold as low as &#163;12 10s. Some of the imported machines are sold at higher prices than the locally-made machines. For instance, the Singer machine is sold on extended terms for &#163;24 4s., and for cash at &#163;10 4s. Whereas imported machines can be landed in any State at the same prices, locallymade machines have of necessity to pay freight to the different States. </para>
+          </quote>
+          <para class="block">This is an effective answer to the statement made by <inline font-weight="bold">Senator Cooper</inline> by way of interjection. </para>
+          <para>I well remember the sound advice given by the right honorable the Leader of the Opposition when he was VicePresident of the Executive Council in the Bruce-Page Administration. He urged senators to read carefully all bills presented and, if possible, to become conversant with their provisions. Being new to the Senate at the time, I took his advice to heart. I have since been read ing all bills carefully, and, generally, I know their contents. It is some satisfaction to me to know that all my statements concerning this industry are borne out by the report of the Tariff Board. Apparently, <inline font-weight="bold">Senator Cooper</inline> is not well informed. There appears to be a disposition, on the part of some honorable senators opposite, not to support this measure, because the factory which will manufacture the sewing machine heads is housed in an unpretentious galvanized iron building in Bendigo, Victoria. Possibly, if it were ft huge structure like the Singer Manufacturing Company&#39;s establishment, or some of the larger American concerns in Philadelphia, they would be prepared to assist the industry. &#34; Why Bendigo ?&#34; asked the Leader of the Opposition, referring to the city in which it is proposed to establish this&#39; industry. That remark was typical of the right honorable gentleman&#39;s attitude to the proposal. He went on to point out that Bendigo had no coal supply, that it had to depend on the State Electricity Commission for its electric power, and that altogether the &#34;environment&#34; was not suitable. Surely young people in country towns should have an opportunity to learn a trade? And why should not the children of farmers also be given a chance to become skilled artisans? We can make this possible if we encourage the establishment of secondary industries in provincial cities and the larger centres in different parts of the Commonwealth. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5115</page.no>
+                <time.stamp />
+                <name.id>K7F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLEBATCH, Hal</name>
+                <name role="display">Senator Sir Hal Colebatch</name>
+              </talker>
+              <para>- Unfortunately, trade unions will not give anybody a chance to lea.rn a trade nowadays. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5115</page.no>
+                <time.stamp />
+                <name.id>JYB</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNN, James Patrick Digger</name>
+                <name role="display">Senator DUNN</name>
+              </talker>
+              <para>- The same might be said of the organizations governing the medical and. legal professions. The Sunshine Harvester Company, now one of the largest concerns of its kind in Australia, was established originally at Ballarat, in Victoria. I am a wholehearted supporter of this proposal, and I hope that it will bc accepted by the Senate. </para>
+            </talk.start>
+          </continue>
+          <para>The Leader of the Opposition gave us a new version of the &#34; Song of the Shirt &#34; which, as everyone knows, was written by Tom Hood. He was forced by economic circumstances to earn his living on the Continent, and he dedicated this poem to the widows and wage workers in England whose position, in those days, was appalling. But the Leader of the Opposition quoted only the first two verses. I intend to read the last two. They are as follow: - </para>
+          <quote>
+            <para>Oh! but for oue short hour! </para>
+            <para>A respite however brief! </para>
+            <para>No blessed leisure for Love or Hope, </para>
+            <para>But only time for Grief! </para>
+            <para>A little weeping wouldease my heart, </para>
+            <para>But in their briny bed </para>
+            <para>My tears must stop, for every drop </para>
+            <para>Hinders needle and thread! &#34; </para>
+            <para>With fingers weary &#34;and worn, </para>
+            <para>With eyelids heavy and red. </para>
+            <para>A woman sat in unwomanlyrags, </para>
+            <para>Plyingherneedle and thread. - </para>
+          </quote>
+        </speech>
+        <para>Stitch! Stitch! Stitch!</para>
+        <para>In poverty, hunger, and dirt, </para>
+        <para>And still with a voice of dolorous pitch, </para>
+        <para>Would that its tone could reach theRich! </para>
+        <para>She sang this &#34;Song of the Shirt! &#34; </para>
+        <para class="block">Unlike honorable senators opposite, I do not claim to be a great reader of poetry or an authority on verse; but I have composed a better poem than that written by the Leader of the Opposition <inline font-weight="bold">(Senator Pearce).</inline> SenatorPearce&#39;s effort was as follows :  - </para>
+        <quote>
+          <para>Work, work, work! </para>
+          <para>My labour neverflags. </para>
+          <para>But what of its wages? Part of that goes </para>
+          <para>To pay for the sewing machines! </para>
+          <para>And now from my scanty store </para>
+          <para>The Labour Government plans and schemes </para>
+          <para>To add another ten shillings or more </para>
+          <para>To the cost of sewing machines! </para>
+        </quote>
+        <para class="block">As the Leader of the Opposition was permitted to quote poetry, I trust that the same courtesy will be extended to me while I read my contribution to the poetry of the nation, which is the Australian Song of the Shirt, up-to-date - </para>
+        <quote>
+          <para>Work, work, work is the sweater&#39;s cry; </para>
+          <para>Work, work, work until you die. </para>
+          <para>No hymn of Hope in my factory or mill, </para>
+          <para>Because your liberty I&#39;ll surely kill. </para>
+          <para>This then be the wail and cry </para>
+          <para>Of politicians who strive to try </para>
+          <para>And curb the spirit of Labour&#39;s might. </para>
+          <para>Fighting for widows and childrens right. </para>
+          <para>To blazes with Shylocks, then, we say; </para>
+          <para>Let sewing machines &#34; Pearce &#34; their way </para>
+          <para>For widows and orphans in this sunny clime, </para>
+          <para>And make for happiness every time. </para>
+          <para>Pearce, Pearce, Pearce! from morn till night! </para>
+          <para>The widows lament their sorry plight </para>
+          <para>That statesmen such as he should try </para>
+          <para>To preach the doctrine - Starve and Die. </para>
+          <para>With never a gleam of joy to show, </para>
+          <para>They pinned their faith on Bendigo; </para>
+          <para>But many a curse, both long and fierce, </para>
+          <para>That ever they heard thename of Pearce! </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5116</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>.- I am afraidI shall be unable to create the same merriment as was caused by the honorable senator who has preceded me as it is my intention to confine my remarks to the bill before the Senate. This measure provides for the payment of a bounty of &#163;2 on sewing machine heads manufactured in Australia. The way in whichthe Government is providing bounties on the production of certain commodities and imposing high customs duties and embargoes on the importations of other commodities, is a striking example of its rash fiscal policy. The result of this policy, which was introduced with the intention of relieving the unemployment which unfortunately is so prevalent in Australia at present has not been as anticipated. The Assistant Minister for Customs <inline font-weight="bold">(Mr. Forde),</inline> when speaking before a gathering of manufacturers in December last, said that the Government&#39;s tariff proposals would provide immediate work for 30,000 men, and that after the policy had been in operation for a while, work could be found for an extra 100,000men. We have only to study the present position to see how inaccurate was the statement of the Assistant Minister. Instead ofunemployment decreasing, the percentage at present is the highest in the history of the Commonwealth, and more prevalent than when the Assistant Minister made his statement. When this assurance was given, the Assistant Minister overlooked the fact that, in providing one man with a job, probably two others would lose their employment. That is what has actually happened, as is, unfortunately, shown in the latest figures available. Many of the men who have lost their positions were in receipt of salaries on which income taxation was payable, and, consequently, the Government has also lost money from that source. This is the result of giving effect to an uneconomic and ill-considered policy, under which the general community always suffer. Bounty bills previously introduced have been to assist industries which are being or can be carried on in practically any part of the Commonwealth; but this measure provides for the payment of bounties to assist an industry which is to be established at Bendigo. Although it has been said that a sewing machine factory will be established in Sydney, no definite decision has been reached, and it appears that Bendigo is the only place that is likely to be selected for the establishment of this industry. The duty imposed on sewing machines during the past seven or eight months has been 10s. British preferential, and 20s. general tariff; previously they were imported free. The duties now proposed are, 75 per cent. on the table and 45 per cent. on the iron stand, which, in addition to the duty on the machine, means a heavy advance on the price of sewing machines in Australia. It is proposed that from January of next year the duties on machine heads shall be &#163;2 10s. British, &#163;3 intermediate, and &#163;3 10s. general tariff. These higher duties will still further increase the price to users of sewing machines in Australia. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5117</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- It has been admitted that the factory to be established cannot produce anything approaching our requirements during the first year. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5117</page.no>
+                <time.stamp />
+                <name.id>JQP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COOPER, Walter</name>
+                <name role="display">Senator COOPER</name>
+              </talker>
+              <para>- That is so. Sewing machines are used very largely in the homes of persons of moderate means, and are, perhaps, the greatest labour-saving devices in domestic use-. At present, when there is so much unemployment among the bread-winners, it is reasonable to assume that the income of many homes has been augmented by the womenfolk doing sewing for others. As the cost of sewing machines will be heavily increased, the prospects of those using sewing machines as a means of making a living will be seriously affected. The payment of bounties and the imposition of high duties usually result in the consumers having to pay higher prices. This measure, instead of being a means of reducing prices, and thus benefiting the general community, as. one would expect, has been introduced to assist, with the taxpayers&#39; money, one company, which is to be reconstructed. This company manufactured sewing machines in 1922, when conducting a motor and general engineering works. In 1925, when economic conditions were infinitely better than they are to-day, the Tariff Board reported that the company was manufacturing only 40 sewing machines a week or approximately 2,000 a year. I understand that the comipany discontinued the business some years ago, and it has not since been undertaken by other manufacturers. The proposed bounty is not to assist an industry already established and likely to develop. </para>
+            </talk.start>
+          </continue>
+          <para class="italic">
+            <inline font-style="italic">Sitting suspended from 12.45 to 2.15 p.m.</inline>
+          </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5117</page.no>
+                <time.stamp />
+                <name.id>JQP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COOPER, Walter</name>
+                <name role="display">Senator COOPER</name>
+              </talker>
+              <para>- The bounty proposed to be paid on sewing machines is not to help an already-established industry, but appears to me to be for prospectus purposes, sought by persons who hope to persuade investors to put their money into a company which will commence to manufacture sewing machines. At the present time about 40,000 sewing machine heads are imported every year and for the last eight months a duty of from 10s. to &#163;1 a machine has been payable on imported machines. Notwithstanding this duty, no company has thought it worth while or advisable to commence manufacturing. Looking at the proposition from unpractical point of view we find that evidence was given to the Tariff Board that a company commenced manufacturing sewing machines at Bendigo, Victoria, reached a certain stage of proficiency, and competed with imported machines. But it subsequently went out of business, and we are expected to believe that another company will have a better chance of manufacturing now that there is a duty of from 10s. to &#163;1 in operation and if a bounty is paid. Sewing machines are largely produced by mass production. That can be deduced from the description <inline font-weight="bold">Senator Dunn</inline> has given of Singer&#39;s huge factory on the river Clyde. To my mind we should be doing more to assist the people of Australia by concentrating on the stands and frames of the machines, and allowing the heads to be imported at a reasonable price, than by paying a bounty on the manufacture of sewing machines in Australia. A factory with such a small output as the Bendigo factory must have had, because it had to close down, cannot keep up to date. The sewing machine is constantly being improved by new inventions. In recent years we have seen the advance from the hand machine to the treadle machine, and then to the electric machine. A factory needs to have a very large output to keep pace with the different inventions that comeon the market. The machine which <inline font-weight="bold">Senator Dunn</inline> said costs &#163;19 cash arid &#163;24 term? is an expensive one, and it is merely one of a number of makes on the market at the present time and sold freely throughout Australia. There is a good treadle machine on the market which can be bought for &#163;12 10s. The Tariff Board, in its report, says - </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>The price at which the locally-made machines aru sold is &#163;15 -15s. net cash, whereas some similar imported machines are sold as low as &#163;12 10s. </para>
+          </quote>
+          <para class="block">If we are to force the people to pay &#163;15 15s. for their machines, those who prefer to buy machines which now C03t &#163;12 10s. will he called upon to pay &#163;3 or &#163;4 more than they otherwise would have to pay. Although it is said that the Bendigo machine can be turned out at &#163;15 15s., the cost of distribution has to be added. I do not wish it to be thought that an inland town such as Bendigo should not be a manufacturing town, but these machines are to be used in every part of the Commonwealth. The freightage on them from Bendigo to Townsville would be more than the freightage on sewing machines from London to Townsville. If the Bendigo machines are to be sent all over the Commonwealth the cost of distribution must be added to their price. . </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5118</page.no>
+                <time.stamp />
+                <name.id>K1L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BARNES, John</name>
+                <name role="display">Senator Barnes</name>
+              </talker>
+              <para>- The proposition is that the machines will be delivered in every capital city at a standard price. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5118</page.no>
+                <time.stamp />
+                <name.id>JQP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COOPER, Walter</name>
+                <name role="display">Senator COOPER</name>
+              </talker>
+              <para>- There is nothing to that effect in the report of the Tariff Board. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5118</page.no>
+                <time.stamp />
+                <name.id>K6I</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CHAPMAN, John</name>
+                <name role="display">Senator Chapman</name>
+              </talker>
+              <para>- Who can give that guarantee seeing there is no company yet in- existence? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5118</page.no>
+                <time.stamp />
+                <name.id>JQP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COOPER, Walter</name>
+                <name role="display">Senator COOPER</name>
+              </talker>
+              <para>- Until the projected company gets on a proper working basis it will be difficult for any one to say what the machines will cost. I fail to see that a company, which, in 1925, could produce a machine costing &#163;15 15s., can deliver that same machine in every part of the Commonwealth at that standard rate. One factor to be considered is that the vendors of all standard lines of sewing machines give widespread service. No matter where a machine is sold the owner can always get service for it. If anything goes wrong there is a man right on the spot who will fix it up. It is the fact that service can be obtained that causes so much patronage to be given to well known makes of . machines, although there are other machines on the market which can be obtained at lower prices. When a machine is taken into a household it is a novelty, and it is a very delicate thing to run . until it is thoroughly understood. It is a great disadvantage to a purchaser of a sewing machine not to have the service to which I have referred. I object to the payment of this bounty, because -the industry has not yet been started, or, at any rate, has not yet got beyond the embryo stage ; also because of the extra cost it will entail on purchasers of sewing .machines throughout Australia, a class of people who are least able to bear any hurden at the present time, and, furthermore, because of the financial position of the country. If we holster industries which have not yet started, and which the  evidence  indicates have only a remote chance of success, Australia will find itself in a. very much worse state than it is at the present time. After careful consideration I find that I cannot vote for the bill. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5118</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator PAYNE</name>
+            </talker>
+            <para>.- I have been looking into this proposal to pay a. bounty on the production of sewing machine heads in Australia for domestic purposes, in an endeavour tofind some justification for the introduction, of a bill of this kind. No greater exploitation of the public is done than in connexion with the sale of , sewing, machines. Many sowing machines which have found their way into the homes of&#39; the people have proved to be a source of continual worry and trouble to housewives. I mention this because I find in the bill that a bounty will be payable when machines axe. turned out of good merchantable quality. The. only person who can test the quality of a sewing machine is the housewife, who has to useit. An unlimited number of sewingmachine heads may be turned out in Australia in, apparently,, perfect condition, yet may be no betterthan some of the types of sewing machines which have proved such a source of worry to housewives,, and the manufacturers will receive a bounty on them. One particular brand of machine has found general favour in Australia. One reason for its popularity - is that suggested by <inline font-weight="bold">Senator Cooper</inline> that- its distributors are able to provide such excellent and continuous service to purchasers. The price that the people of this country have been charged for sewing machines is out of all reason. It is claimed that one of the causes for the high price is that the distributing companies have to take enormous risks. That may be a sound reason. I do not think that I am exaggerating when I say that fully eight out of every ten sewing machines sold in Australia are sold on the hire purchase system. That practice exposes the distributors to the probability of heavy losses. A purchaser may default, and possibly the machine that the company has to take back is so dilapidated that it is worth only a fraction of its original price. Undoubtedly the popularity of the hire purchase system is accountable for many of the economic difficulties with which we are at present faced. If the Government advanced a proposal to impose a duty on. imported sewing machine heads in order to establish a manufacturing concern that would provide satisfactory machines at a reasonable price, I should probably support it. I have here a letter from the Metal Trades Employers&#39; Association, of Sydney, signed by G. F. Caldwell, from which <inline font-weight="bold">Senator Dunn</inline> has already quoted extensively. Its contents confirm my attitude to the bill. Portion of it reads - </para>
+          </talk.start>
+          <quote>
+            <para>It is proposed to manufacture them in Bendigo and also in Sydney. The first unit of the New South Wales plant will be in operation in a few months time, and will have an output of 10,000 machines per annum. At the start the output will be 5,000 machines, and this will increase within two or three months of starting to 10,000 machines. Both vibratory and rotary type machines will be manufactured. At the present time, good quality British or foreign machine heads cost in Australia, when purchased in large quantities, &#163;3 16s. each. The Australian head will be sold in wholesale quantities at approximately &#163;2 10s. each. This shows a very decided saving, and the industry will be the means of considerably reducing the price of sewing machines to the consumer, and in addition to costing less, the selling costs will be very much lower. </para>
+            <para>The Australian machines will be equal in quality and workmanship to any imported machines. Estimates have been made and it can be reliably stated that locally made cabinet machines will be sold to the public at from &#163;15 l0s. to &#163;17 each. </para>
+            <para>At the start, the number of employees in the Sydney works will be 60, and will be increased to 100 within a few&#39; months. It is anticipated that the industry will eventually employ 10,000 workers, and it will create employment among foundries, engineering shops and wood- working shops. </para>
+          </quote>
+          <para class="block">Take the last statement in conjunction with the claim that good quality machine heads can be produced and sold in Australia at &#163;2 10s. each. I think it is an impertinence to ask for a bounty to assist such exploitation. The price of &#163;15 10s. or &#163;17 10s. includes the stand and cabinet, to which two or three drawers may be fitted, I have taken the trouble to estimate the cost of these stands. I am assured that a serviceable stand, without any accessories in the form of superfluous drawers, can be supplied in wholesale quantities at from 30s. to &#163;3 each, according to the grade. Even taking the highest grade, the complete machine should be available wholesale at &#163;5 10s. It is ridiculous to suggest that a bounty is required in order to place Australian made sewing machines in our homes at &#163;15 10s. or &#163;17 if the estimate given by this association is correct, If it is correct there is no reason why housewives of Australia, if they are prepared to pay cash, should not be able to buy a useful sewing machine at from &#163;8 to &#163;9 at the outside. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5119</page.no>
+                <time.stamp />
+                <name.id>JZ6</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">O&#39;HALLORAN, Michael</name>
+                <name role="display">Senator O&#39;halloran</name>
+              </talker>
+              <para>- What does the finished article at present cost? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5119</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- It does not matter if it costs &#163;50. I have definitely stated the figures given by this association. The whole project appears to be aimed at the exploitation of the housewives of Australia. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5119</page.no>
+                <time.stamp />
+                <name.id>K1L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BARNES, John</name>
+                <name role="display">Senator Barnes</name>
+              </talker>
+              <para>- Who wrote that letter? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5119</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- The tariff officer of the Metal Employers&#39; Association, Sydney. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5119</page.no>
+                <time.stamp />
+                <name.id>JVF</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DOOLEY, John</name>
+                <name role="display">Senator Dooley</name>
+              </talker>
+              <para>- What does the honorable senator consider to be a fair profit on a sewing machine? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5119</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- This association ought to know what it is talking about, and it declares that a good quality Australian machine head can be sold in wholesale quantities at about &#163;2 10s. Is there any justification for the costs of distribution amounting to over 100 per cent.? We should not encourage that  sort of thing any longer. I am prepared to take a stand to fight the prevalence of this cursed time-payment system, that piles up the cost of living. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5120</page.no>
+                <time.stamp />
+                <name.id>JVF</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DOOLEY, John</name>
+                <name role="display">Senator Dooley</name>
+              </talker>
+              <para>-  Would the honorable senator take a stand to reduce profits? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5120</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- Of course I would. I have taken a particular interest in sewing machines. I suppose that I could name a dozen varieties that are at present marketed. I remember the first one that my mother purchased in Australia - an A.B.C. Then there was the Wheeler and Wilson, the Wertheim, and eventually the Singer. Since then quite a number of machines have been imported into Australia from one factory, but under the trade names of the local distributors. Very few have given satisfaction. One or two of the German machines that used to be sold in Australia have disappeared entirely from our market. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5120</page.no>
+                <time.stamp />
+                <name.id>KN7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GUTHRIE, James</name>
+                <name role="display">Senator Guthrie</name>
+              </talker>
+              <para>-  Were not the machines made in Bendigo quite good? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5120</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- I have endeavoured, without success, to discover a housewife who has used one, in order to get her opinion upon it. We should not grant this bounty until we are satisfied that a worth-while article is being produced in Australia. I am opposed to granting n bounty simply to enable promoters to float companies. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5120</page.no>
+                <time.stamp />
+                <name.id>JRW</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CRAWFORD, Thomas</name>
+                <name role="display">Senator Crawford</name>
+              </talker>
+              <para>-  I think that a company is already established in Sydney to manufacture sewing machine heads. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5120</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- We should receive an assurance that Australia is capable of manufacturing a satisfactory machine - one that will not drive the housewives frantic because of its mechanical deficiencies. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5120</page.no>
+                <time.stamp />
+                <name.id>JYB</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNN, James Patrick Digger</name>
+                <name role="display">Senator Dunn</name>
+              </talker>
+              <para>-  Does the honorable senator believe in an Australian-made machine? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5120</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- Of course I do, if it is satisfactory. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5120</page.no>
+                <time.stamp />
+                <name.id>JYB</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNN, James Patrick Digger</name>
+                <name role="display">Senator Dunn</name>
+              </talker>
+              <para>-  Then why not vote for the bill? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5120</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- Because we are not yet making satisfactory sewing machines in Australia. Apparently this bill is designed to encourage the flotation of a company that will direct its attention to the manufacture of sewing machine heads. If we were asked to vote for a certainty, it would be a different proposition. Instead, we are merely asked to vote for a possibility. The facts that I have stated convince me that the granting of a bounty of this nature would merely bring about the further exploitation of the workers of Australia. For that reason I shall vote against the bill. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5120</page.no>
+              <time.stamp />
+              <name.id>KNF</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MASSY-GREENE, Walter</name>
+              <name role="display">Senator GREENE</name>
+            </talker>
+            <para>. -  As I had something to do with the early activities of this industry in Bendigo, I feel that I ought to say a word or two on the bill. When the proposal was first mooted, it was definitely promised that &#39; certain large financial interests would co-operate with a view to establishing a factory at Bendigo to manufacture sewing machine heads. I was Minister for Trade and Customs at the time, and I told those gentlemen that they could go ahead with their proposition ; that if they brought it to fruition I was prepared to place their proposal before the Government for favorable consideration. The negotiations broke down; but a few enthusiasts, who thought that it was possible to establish the industry with a very limited capital - I think&#39; about &#163;14,000  -  persisted in their attempt to attain the impossible. When the Government, places before Parliament &#187; proposal to grant such a bounty as this,, it should, at all events, be able to givehonorable senators an assurance that the promoters of the scheme will be able to operate on a sufficiently large scale to establish the industry successfully in this country. I entirely agree with <inline font-weight="bold">Senator Payne</inline> that the sewing machine businessis one of the best examples we could find of the exploitation of the people -by what is practically a monopoly. That exploitation has been going on for manyyears. I admit that the company isentitled to much praise for the excellent, service it has been rendering to the public. But it has made the public pay ; and I think that it will continue to doso until effective steps are taken to break. &#39; down the virtual monopoly which now exists. Those steps, however, must beadequate, and must be backed up with sufficient capital. Should a proposition be brought, before us which gives reason-  able promise of success, I shall be prepared to support it. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5121</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>- Was not a proposition put to the honorable senator when Minister for Trade and Customs, i hai the industry should be established on the basis of a deferred duty? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5121</page.no>
+                <time.stamp />
+                <name.id>KNF</name.id>
+                <electorate>NEW SOUTH WALES</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MASSY-GREENE, Walter</name>
+                <name role="display">Senator GREENE</name>
+              </talker>
+              <para>- Yes. But the deferred duty proposition was to be contemplated only provided a company on adequate lines was formed. The proposal did not materialize, and consequently the deferred duty was not brought into operation. One has only to turn to the report of the Tariff Board, which is now brought forward as a ground for the granting of this bounty, to see that the whole project of manufacturing sewing machine heads in Australia is still in a nebulous form. I do not think that the present proposal can hope to succeed. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5121</page.no>
+                <time.stamp />
+                <name.id>K3L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SAMPSON, Burford</name>
+                <name role="display">Senator Sampson</name>
+              </talker>
+              <para>- It certainly is i.ll  &#34;ifs&#34;  and &#34;buts&#34;. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5121</page.no>
+                <time.stamp />
+                <name.id>KNF</name.id>
+                <electorate>NEW SOUTH WALES</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MASSY-GREENE, Walter</name>
+                <name role="display">Senator GREENE</name>
+              </talker>
+              <para>- It certainly is not a proposition which a business mau  can  accept. I am convinced that this industry cannot be established in a holeandcorner way; it must be started on a big scale and give adequate service.  1ndeed,  service is a matter of paramount importance in an undertaking of this kind. One of the chief causes of the high price of sewing machines  to-day  is the cost of distribution. <inline font-weight="bold">Senator Payne</inline> was right when he said that more than 50  per cent of the price which the purchaser of a sewing machine pays&#39; represents the cost of distribution. The prime cost of the machine to the manufacturer is. a small item when machines are turned out on mass production lines. There is nothing very intricate in a sewing machine: practically the whole of the work can  Ik?  done by machinery. Apart from the cabinet work in the stand, very little skilled labour is required to produce a sewing machine. If the industry is to succeed, machines must be turned out by mass production methods; and there must be a market for them. To attempt to establish the industry on any other basis would be to throw money away. I, therefore, do not propose to support the bill.  If  the basis of the proposition were, different I might, even in these times of financial stress, support it, but in view of the tremendous strain on the Treasury to make both ends meet, and the burden which the taxpayer has to bear, I do not think that we are justified in spending public money in a project of this nature. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5121</page.no>
+              <time.stamp />
+              <name.id>JRW</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRAWFORD, Thomas</name>
+              <name role="display">Senator CRAWFORD</name>
+            </talker>
+            <para>. - In a few words I desire to give my reasons for supporting this bill. I agree with all that has been said regarding the exploitation of the people of this country by foreign manufacturers of sewing machines. It is time that the exploitation was stopped. I agree also with what has been said regarding our serious  economic  position, but I believe that, the only cure for our present ills is to increase Australian production for home consumption. We shall assist in thai direction by passing this measure. I do not see how we can expect people to invest money in a business unless there is a reasonable prospect of its success. The manufacture of sewing machine heads cannot be successfully undertaken in Australia unless the industry is protected, either by a tariff or a bounty, as other secondary industries are protected. Were the industry established on such a scale as seriously to threaten the interests of the importers of sewing machines, there would unquestionably be a big reduction in the price of imported machines. That has happened before. &#93; sec no reason why Australian mechanics, using Australian material, cannot produce as good a sewing machine as is manufactured in any part of the world, f understand that the Sydney company proposes to use Australian material almost exclusively; that the value of the imported materia&#93; in each machine will not exceed 2s. 6d. </para>
+          </talk.start>
+          <para>Doubt lias been expressed regarding the possibility of success in connexion with this venture because of the intention to commence the manufacture of sewing machines at Bendigo. That ii is proposed to establish this industry in a country centre is an added reason for granting it assistance. It is unfortunate that, hitherto, nearly all of our manufactories have been established in the capital cities. I am reminded, however, that when a Swiss company, renowned throughout the world for the excellence of its products, desired to start a branch factory in Australia for the manufacture of underwear and other goods, it decided to establish its factory at Bendigo. The products of that factory are now obtainable at almost every centre in the Commonwealth. </para>
+          <para>SenatorRae. - What were the reasons which decided the company to establish its factory at Bendigo? </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5122</page.no>
+                <time.stamp />
+                <name.id>JRW</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CRAWFORD, Thomas</name>
+                <name role="display">Senator CRAWFORD</name>
+              </talker>
+              <para>-One important factor was the supply of the necessary labour. . There is a limit to the supply of certain classes of labour. Evidently this company was convinced that, in that respect, Bendigo offered advantages over other centres. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5122</page.no>
+                <time.stamp />
+                <name.id>KN7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GUTHRIE, James</name>
+                <name role="display">Senator Guthrie</name>
+              </talker>
+              <para>- Bendigo is a very suitable centre for the establishment of factories. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5122</page.no>
+                <time.stamp />
+                <name.id>JRW</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CRAWFORD, Thomas</name>
+                <name role="display">Senator CRAWFORD</name>
+              </talker>
+              <para>- I point out that unless a considerable number of machines is manufactured and sold, the drain on the revenue of the Commonwealth will not be great. Should the venture be successful, and the locallymade machine displace the imported article, employment will be provided for numbers of Australians, and money, which now goes to other countries, will be retained here. In the present state of our finances that is an important consideration. The percentage of unemployed in the community is greater than ever before. Unfortunately, that condition obtains in many other countries; so that it cannot be said that the unemployment prevailing here is entirely the result of local circumstances. Australia is sharing a world-wide depression. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5122</page.no>
+                <time.stamp />
+                <name.id>KNF</name.id>
+                <electorate>NEW SOUTH WALES</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MASSY-GREENE, Walter</name>
+                <name role="display">Senator GREENE</name>
+              </talker>
+              <para>- The depression is as great in low wage countries as it is in countries where wages are high. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5122</page.no>
+                <time.stamp />
+                <name.id>JRW</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CRAWFORD, Thomas</name>
+                <name role="display">Senator CRAWFORD</name>
+              </talker>
+              <para>- It is exceedingly difficult to increase our wheat and wool production to any great extent, or to find a market for our beef, butter and other products. The only way to increase production, and so provide further employment, is to manufacture for the home market. Many industries which are carried on with the assistance of our protectionist policy are not more important than the industry which this bill seeks to encourage, might reasonably be expected to become. It may be that the manufacture of sewing machines is; of itself, not likely to reach huge dimensions, or to employ large numbers of workers; but the cumulative effect of a number of relatively small industries is considerable. In the aggregate, they would employ large numbers of workers, to whom a considerable sum would be paid each year in wages. Most of that money would be retained in this country, instead of being sent abroad as at present. </para>
+            </talk.start>
+          </continue>
+          <para>There has been a good deal of discussion with respect to the curtailment of the expenditure on defence. Indeed, the Government&#39;s action in that connexion has been roundly condemned by many who are opposed to the establishment in Australia of the sewing-machine industry. I ask honorable senators what good a . Defence Force would be if, in the event of attack, we were unable to manufacture our own munitions. Such an industry as this would prove useful in circumstances like that. It is all very well for opponents of the scheme to laugh incredulously. Evidently they are unaware of the action taken by the British Government during the war period, when among the thousands of factories commandeered for war purposes, was a London establishment devoted exclusively to the production of Egyptian curios! It is, therefore, not too much to say that such an industry as this, devoted to the manufacture of sewing machine heads might, during a war period, be of use to the nation. It would be employing a number of trained operatives, and would be equipped with machinery which could be usefully employed in the manufacture of munitions or some other commodity equally important for war purposes. </para>
+          <para>There appears to be a growing feeling in . certain quarters against the granting of further assistance to secondary industries in Australia; but those who oppose this protection have no satisfactory proposal to find employment for our people in any other way. Their one idea seems to be to force wages to a lower level in the belief, no doubt, that cheaper costs of production will mean prosperity. Even if wages were reduced considerably it would still be extremely difficult to find a market overseas for Australian products. The home market is always the best. I read recently a report of an illuminating address on this subject delivered by the  chairman  of Bovril. We are all familiar with the products of that company, which, I understand, has large interests in Australia. The  chairman  emphasized that in the near future the producers of beef in Australia would have to look chiefly to the consumers in the capital cities of the Commonwealth for the sale of their stock. Every one who reads market reports must be impressed with the large numbers of cattle and sheep that are sold from week to week at Homebush, Flemington, Enoggera, and other metropolitan stock markets. In all the circumstances, it is obvious that the establishment of new industries which are likely to lead to an increase in employment will widen the home market, and, therefore, be beneficial even to the pastoral industry. I hope a majority of honorable senators will vote for the bill. </para>
+          <para>Something has been, said about the high costs of distribution. It is, I think, admitted that local&#39; manufacturers must charge a price which will cover these Costs. because,. naturally, the retailer wall push the sale of the commodity which offers him the greatest margin of profit. When the last tariff schedule was under discussion, it was discovered that certain departmental firms would not. handle Australian pianos, not because they were more difficult to sell, but because a cheaper and inferior German piano offered a much higher profit than could be obtained from the sale of the Australian instrument. This, I suggest, is one of the reasons why Australian manufacturers, for the time being at all events, will have to charge what appears to be a high price for . their commodities. But there is a wide margin between &#163;15 for the Australian sewing machine, and &#163;24, which is charged for an imported machine of the same quality. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5123</page.no>
+                <time.stamp />
+                <name.id>JXZ</name.id>
+                <electorate>NEW SOUTH WALES</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN, Walter</name>
+                <name role="display">Senator DUNCAN</name>
+              </talker>
+              <para>- That is not what the Tariff Board says. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5123</page.no>
+                <time.stamp />
+                <name.id>JRW</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CRAWFORD, Thomas</name>
+                <name role="display">Senator CRAWFORD</name>
+              </talker>
+              <para>- I understand it is possible &#39; to purchase cheaper machines, but I am informed that imported machines exactly similar in all respects to the Australian article are sold at a higher price by the retailers because they offer a larger margin of profit. It is time we checked this importation df foreign products to the detriment of Australian industries. I have often wondered why the Housewives Association has not directed attention to this matter instead of devoting so much time to the price of tomatoes, potatoes, and another Australian production which I need not mention. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5123</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>- The Housewives Association tackled the problem in Melbourne four years ago. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5123</page.no>
+                <time.stamp />
+                <name.id>JRW</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CRAWFORD, Thomas</name>
+                <name role="display">Senator CRAWFORD</name>
+              </talker>
+              <para>- If the association did so, I am afraid its action was not given prominence in the newspapers. I sincerely hope that honorable senators will not, as they seem inclined, deal with this proposal flippantly; but that, on the contrary, they will give it earnest consideration. I hope they will pass the bill so that we may make an honest endeavour to manufacture sewing machines in Australia. </para>
+            </talk.start>
+          </continue>
+          <para>
+            <inline font-weight="bold">Senator DUNCAN</inline>(New South Wales) &#163;3.6&#93;. - <inline font-weight="bold">Senator Crawford</inline> advanced two arguments as justification for the payment of a bounty on the manufacture of sewi ng machine heads. He told us that if the bill is passed the industry to be established will solve our defence problems and provide a market for our primary products, particularly beef. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5123</page.no>
+                <time.stamp />
+                <name.id>JRW</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CRAWFORD, Thomas</name>
+                <name role="display">Senator Crawford</name>
+              </talker>
+              <para>- The honorable senator must not accuse me of saying something which I did not say. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5123</page.no>
+              <time.stamp />
+              <name.id>JXZ</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNCAN, Walter</name>
+              <name role="display">Senator DUNCAN</name>
+            </talker>
+            <para>- I cannot agree with the honorable senator. I cannot see how the establishment of this industry, to the extent contemplated, will in any way solve any problem whatever. I do not think it can be charged against me that I have not been a. friend of Australian industries since I have been a member of this Parliament. On the contrary, it has often been said of me that I am an over-optimistic supporter of them. But this scheme is too much even for me. It looks very much like one of those &#34; getrichquick Wallingford &#34; proposals, conceived chiefly for the benefit of certain gentlemen whose one purpose is to make money quickly. It certainly would not be Of any benefit to the people ultimately, and undoubtedly it would cost the taxpayers of the Commonwealth a good deal of money. <inline font-weight="bold">Senator Crawford</inline> argued that the bounty would not be a charge against the revenue unless this new manufacturing industry proved successful. But we all know that once the industry is established we shall be committed to its continued support whether or not  it  is economically sound. I can easily imagine what will happen. If business falls away, requests, will  be  voiced in this chamber on behalf of the interests concerned fora further measure of protection. We shall be told of the large number of operatives employed in the industry  and  of the unemployment which must inevitably result if further protection is  not  granted, and, finally, that  the  works  will  close down unless Parliament grants further assistance, either  by  way  of  additional bounty or higher protection. I do not think there is any possibility  of the  enterprise being successful. If there  is,  the evidence has not  been  placed before  the  Senate. I listened with  the  keenest  interest  to the Assistant Minister <inline font-weight="bold">(Senator Barnes),</inline> in moving the second reading of the bill, and also to  the  speeches  of  those honorable senators  who  spoke  in  support of it. I could  not  help feeling that many important matters  were  overlooked. <inline font-weight="bold">Senator Greene</inline> and, I think, another honorable senator, doubted  that  any honorable senator would risk  his own  capital in this enterprise. Many  important  facts in connexion with  the  manufacture of sewing machineswere omitted by supporters of the proposal.  Most  of us are aware that many parts of  a  sewing machine are protected by worldwide patents. We have not been told whether the company about to  be  formed will be able to secure the Australian rights and, if so, how much it will have to pay for them. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5124</page.no>
+                <time.stamp />
+                <name.id>K1Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">RAE, Arthur</name>
+                <name role="display">Senator Rae</name>
+              </talker>
+              <para>-  I think the majority of patents have expired. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5124</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>-  Those patents referred to the old type of machine. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5124</page.no>
+                <time.stamp />
+                <name.id>K1L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BARNES, John</name>
+                <name role="display">Senator Barnes</name>
+              </talker>
+              <para>-  I am informed that the total  cost  of the patent rights will be 3s. 7d. for each machine. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5124</page.no>
+                <time.stamp />
+                <name.id>JXZ</name.id>
+                <electorate>NEW SOUTH WALES</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN, Walter</name>
+                <name role="display">Senator DUNCAN</name>
+              </talker>
+              <para>- That information has not been placed before the Senate. The entire scheme is altogether too indefinite. We are being asked to risk too much. This is not the first time that an attempt has been made to place upon the Australian market an Australian sewing machine, although I admit that when the attempt was made previously it was not proposed that the machine should be wholly manufactured in Australia. Many years ago Mr.O. C. Beale, the wellknown manufacturer of Australian pianos, commenced the manufacture of what was known as the Beale sewing machine. He persevered for many years, and although he produced a perfectly efficient machine, he found the cost of distribution so high and the competition by importing interests so keen, that perforce he had to turn his attention to another branch of manufacture. It is true that his was not an all-Australian sewing machine. A considerable number of the parts were imported and assembled in Australia. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5124</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator McLachlan</name>
+              </talker>
+              <para>-  And he was manufacturing in Sydney. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5124</page.no>
+                <time.stamp />
+                <name.id>JXZ</name.id>
+                <electorate>NEW SOUTH WALES</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN, Walter</name>
+                <name role="display">Senator DUNCAN</name>
+              </talker>
+              <para>- That is so, and he would be enjoying certain advantages which would not be available to the Bendigo company. We have been told, further, that if this bill is passed a Sydney company will also be formed to manufacture sewing machines. This may be the intention, but as one of the representatives of New South Wales in this chamber, I have not been approached, and I have not heard anything of it. It looks as if some one in Sydney intends to &#34; hop in &#34; for his cut if this Parliament can -be induced to pass the bill. The gentlemen interested will, I assume, float a company, and when public money has been subscribed, they will get from under and allow some one else to nurse the baby.I have never, in all my experience, heard of such an extraordinary scheme as is outlined in this bill. It has nothing whatever to commend it. It is pretty smellful and I shall have nothing whatever to do with it. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5124</page.no>
+              <time.stamp />
+              <name.id>K1Z</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">RAE, Arthur</name>
+              <name role="display">Senator RAE</name>
+            </talker>
+            <para>. - The criticism of the right honorable the Leader of the Opposition <inline font-weight="bold">(Senator Pearce),</inline> and the remarks of other honorable senators, are deserving of careful consideration. But I cannot see why the operations of a company such as that which will be established to manufacture sewing machine heads should be exclusively confined to that particular business. It seems to me that the making of sewing machine heads might well be undertaken by a company formed to manufacture other mechanical contrivances. There is nothing so intricate or complex in sewing machines as to render it necessary to establish large works for their manufacture. I do not wish to repeat the arguments which have already been adduced, but there is something in the criticisms levelled against this project, particularly in regard to one aspect of the business. If a factory is established at Bendigo and also in Sydney, as has been suggested, and sewing machines arc produced at the price of approximately &#163;15 when the charge for imported machines is &#163;24, a considerable saving could be effected. That would be of advantage, particularly to those who have to earn their living by using them. An attempt must, however, be made to devise some means to considerably reduce distribution costs if purchasers are not to be exploited to an extortionate degree. Many years ago, when living at Deniliquin, I became acquainted with a man who was engaged in selling sewing machines. It was before the days of motor transport, and he had a wagonette and a pair of horses which he used in traversing the country selling machines, and also calling upon previous purchasers to effect any necessary adjustments. That man assured me that, in addition to his salary, he received a commission of &#163;5 on each new machine he sold. There was a branch office under the control of a manager at Deniliquin who also received a good salary, and various other persons connected with the sale and distribution of machines. The costs at that time, as they are to-day, were piled up to such an extent that the ultimate price of a machine must have been five or six times its actual cost. There was such a hierarchy of beneficiaries in the handling of them that if they cost only 2s. 6d. to produce the price charged would have to be many pounds to cover the actual costs incurred. I do not know how this can be guarded against; but the existing system of handling, not only sewing, but other machines, is unnecessarily expensive. In the early days of federation the Commonwealth Government appointed a select committee or a royal commission to inquire into the cost of machinery produced by the Sunshine Harvester Company. Similar sample machines were built for the Victorian Government at the Newport Government railways workshops when it was discovered that the actual cost of production, even for single machines, was one-quarter or one-fifth of the price at which they were being sold. That is the position in connexion with sewing machines, and bread-winners depending on the ownership of such machines to make a living, are being penalized to a greater extentthan can bc met by the imposition of high duties or by the payment of bounties. Unless we can prevent these parasitic and semi-parasitic persons living on the game, the actual cost to the user will always be excessive. One way to overcome the difficulty to some extent is by using some of the machinery now largely lying idle, and capable of manufacturing anything from a gun to a telephone receiver, at the Small Arms Factory at Lithgow, Cockatoo Island Dockyard, and, perhaps, at the Munitions Factory in Victoria. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5125</page.no>
+                <time.stamp />
+                <name.id>K2L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">REID, Matthew</name>
+                <name role="display">Senator Reid</name>
+              </talker>
+              <para>-  There is not much machinery at Cockatoo Island Dockyard suitable for the manufacture of this product. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5125</page.no>
+                <time.stamp />
+                <name.id>K1Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">RAE, Arthur</name>
+                <name role="display">Senator RAE</name>
+              </talker>
+              <para>- At the Lithgow Small Arms Factory there is machinery which, with slight adaptations or adjustments, could be used for producing almost any mechanical contrivance, and for which extravagant and extortionate prices are being charged. If this Government cannot, or will not, utilize the plant in that way, we must, I suppose, depend upon the formation of companies to manufacture machines. A strong point which has been made, and which cannot truthfully be refuted, is that the passage of this measure will immediately compel importers to reduce prices, which are now unjustifiably high. That alone will justify this Parliament in making some effort to prevent the public from further exploitation by the ruinous prices at present charged for sewing machines. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5125</page.no>
+              <time.stamp />
+              <name.id>K3X</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CARROLL, William</name>
+              <name role="display">Senator CARROLL</name>
+            </talker>
+            <para>. - A few days ago I asked the Minister representing the Minister for Trade and Customs the following question :  - </para>
+          </talk.start>
+          <quote>
+            <para>Are any companies at present engaged in the manufacture of sewing machines in Australia ? </para>
+          </quote>
+          <para class="block">The answer I received was &#34;No !&#34; Many bills have been introduced into this Parliament providing for the payment of a  bounty on primary or secondary production; but I think this is the first time that the Senate has been asked to provide a bounty on an article which is not being manufactured in Australia. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5126</page.no>
+                <time.stamp />
+                <name.id>K1L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BARNES, John</name>
+                <name role="display">Senator Barnes</name>
+              </talker>
+              <para>- A bounty was paid ou sewing machines by a previous government. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5126</page.no>
+                <time.stamp />
+                <name.id>K3X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CARROLL, William</name>
+                <name role="display">Senator CARROLL</name>
+              </talker>
+              <para>- I believe that between &#163;4,000 and &#163;5,000 was expended to assist an industry at Bendigo, which bad a precarious existence. Some time ago an effort was made to re-establish the sewing machine industry at Bendigo, and the late <inline font-weight="bold">Mr. Pratten,</inline> who was then Minister for Trade and Customs, on receiving a report from the Tariff Board giving its unqualified support to the proposal, personally went into the matter and reported to the then government that he was not in favour of giving effect to the recommendation of the Tariff Board. Whatever may be said concerning the late <inline font-weight="bold">Mr. Pratten,</inline> no one could accuse him of being other than a wholehearted protectionist. On that occasion, however, he could not support the proposal to encourage, in this way, the industry at &#34;Bendigo. We must have regard to the views of so staunch a protectionist, who said that it was not worth while spending money on such a venture. </para>
+            </talk.start>
+          </continue>
+          <para>The establishment of this factory by means of a bounty and increased duties, was made a leading feature at Bendigo prior to the last general election. It was brought prominently under the notice of the electors of Bendigo, and was a trump card of the Labour party. Although I was in Western Australia at the time, I have a vivid recollection of having read in the newspapers of <inline font-weight="bold">Mr. Scullin</inline> . visiting Bendigo and making this matter a feature of his electioneering speech. On that occasion he stated that if the Labour party were returned to power a bill would be introduced to provide for a bounty on sewing machines, and that as a result a magnificent industry would flourish in Bendigo. The Minister in charge of the bill would be well advised to withdraw it in order to save its defeat at the hands of the Senate. If that were done the Government could bring forward another measure when the industry was established. There would then be some justification for the payment of a bounty. I am in hearty accord with those honorable &#39;senators who have referred to the exorbitant prices charged for sewing machines. Those who have supported this measure have not shown how the extraordinary costs of distribution can be reduced. So far as I can see the cost of distributing Australian-made machines will be quite as high as is the case with the imported article. I am not going to assist in granting a bounty on some commodity not yet produced here, and the production of which, in Australia, is problematical. The Assistant Minister will, doubtless, say that there is no harm in passing the bill, be cause if machines are not produced the Commonwealth will not incur any financial liability. It would be ridiculous to pass a bill of thi3 description under which a bounty would never be paid. In further replying to the question I . submitted, the Minister said that another company is to be established in Sydney. The whole answer given by the Minister is the strongest possible justification for the rejection pf the bill. Not only are no machines being manufactured,, but a company has not yet been formed for the purpose. We have been informed that if this hill is passed, a company may engage in the business for the purpose, I suppose, of participating in the taxpayers&#39; money which the Government wishes to distribute. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5126</page.no>
+                <time.stamp />
+                <name.id>K1L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BARNES, John</name>
+                <name role="display">Senator Barnes</name>
+              </talker>
+              <para>- Nothing will be paid in those circumstances. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5126</page.no>
+                <time.stamp />
+                <name.id>K3X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CARROLL, William</name>
+                <name role="display">Senator CARROLL</name>
+              </talker>
+              <para>- Certainly not. But if we pass a bounty bill to pay a bounty to some non-existent industry at a time like this, when, the finances of Australia are in a serious condition, we shall &#39; be laying ourselves open to the very just censure of the people. I strongly urge the Minister to withdraw the bill, and re-introduce it when the company has been formed and is ready to manufacture sewing machines. </para>
+            </talk.start>
+          </continue>
+          <para>Debate (on motion by <inline font-weight="bold">Senator</inline> McLachlan)  adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>HOUR OF MEETING</title>
+        <page.no>5126</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator Daly)</inline> agreed to - </para>
+      <quote>
+        <para>That the Senate at its rising adjourn till Tuesday next at 11 a.m. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>5127</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <para>complimentaryremarks. </para>
+      <para class="block">Motion (by <inline font-weight="bold">Senator Daly)</inline> proposed - </para>
+      <para class="block">That the Senate  do now  adjourn. </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>5127</page.no>
+            <time.stamp />
+            <name.id>K3X</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CARROLL, William</name>
+            <name role="display">Senator CARROLL</name>
+          </talker>
+          <para>.- When the Senate adjourns to-day, so far as I am concerned, it will be the end of the present sittings of the Senate, because my arrangements arc such that I cannot be here next week. I take the opportunity to thank all honorable senators for the treatment that has been meted out to me individually during the session, and particularly to bear testimony to the courtesy, tactfulness, and unfailing good humour with which <inline font-weight="bold">Senator Daly,</inline> as Leader of the Government in the Senate, has carried on the business of the Senate. I am not. of the same political faith as he is, and I cannot see eye to eye with him on many things; but I cannot help expressing my appreciation of the manner in which he has treated those opposed to him in this chamber. </para>
+        </talk.start>
+        <para>SenatorDALY (South Australia - Vice-President of the Executive Council)  &#91;3.34&#93;. -  I thank the honorable senator for the very generous compliment he has paid to me. I also appreciate the very valuable assistance he has given to the Senate. He is one of those who, although he differs from me politically - it would not make very much difference if he were on my side - can keep silent when he finds there is no need to stonewall a measure. </para>
+        <para>Question resolved in the affirmative. </para>
+      </speech>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>5127</page.no>
+        <time.stamp>15:34:00</time.stamp>
+      </adjournmentinfo>
+      <para>Senate adjourned at 3.34 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

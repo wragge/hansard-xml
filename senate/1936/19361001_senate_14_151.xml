@@ -1,251 +1,1961 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1936-10-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1936-10-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1936-10-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1936-10-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1936-10-01%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1936-10-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1936-10-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1936-10-01/19361001_senate_14_151.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1936-10-01</date>
+    <parliament.no>14</parliament.no>
+    <session.no>1</session.no>
+    <period.no>5</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>725</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1936-10-01</day.start>
+      <para>The <inline font-weight="bold">President (Senator the Hon. P. J. Lynch)</inline> took the chair at 3 p.m. and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>725</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers were presented :  - </para>
+      <para>Seat of Government Acceptance Act and Seat of Government (Administration) Act - Ordinances of 1936 - </para>
+      <para>No. 38- City Area Leases (No. 2). </para>
+      <para>No. 39 - Insane Persons and Inebriates (Committal and Detention) Agreement. </para>
+      <para>No. 40 - City Area Leases (No. 3). </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>BUSINESS AND SITTINGSOF THE SENATE</title>
+        <page.no>725</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>725</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;3.2&#93;. - <inline font-style="italic">by leave</inline> - For the convenience of honorable senators I propose to intimate to them the nature of the business to be brought before the Senate this week and next. Four bills dealing with grants to the States are now before the other branch of the legislature, and, I understand, are the next business to be taken there. These measures must be passed before the 31st October, and will have to be disposed of by the Senate before a lengthy adjournment of this chamber will be possible. The Invalid and Old-Age Pensions Appropriation Bill must also be passed prior to the end of October. Several bounty bills are now before the Senate, and a bill is to be brought forward dealing with a bounty on oranges. We also have the Defence Equipment Bill and the  Financial Relief Bill, but, as these are not particularly urgent, they can stand over for the present. It is assumed that prior to the time when honorable senators will board their trains to-night, the small bills on the notice-paper will be carried to the third reading stage, and the Senate will adjourn until next Thursday morning at 11 o&#39;clock. It is hoped that by that time the House of Representatives will have dealt with the bill providing for grants to the States, and that the Senate will dispose of them next week. Then the Senate can adjourn until the House of Representatives has completed its consideration of the budget and the tariff schedule. As it is impossible to fix the time when the House will finish dealing with those two important measures, it is proposed to ask the Senate to adjourn to a date to be fixed, on which honorable senators will be called together by <inline font-weight="bold">Mr. President.</inline> It is obvious that three or four weeks will be occupied by the House of Representatives in dealing with the two important and highly contentious measures to which I have referred. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>725</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>NEW GUINEA</title>
+          <page.no>725</page.no>
+        </subdebateinfo>
+        <para>Supplies of Cement</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>725</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- In what Commonwealth newspapers was an advertisement published regarding the calling of tenders for the supply of 1,000 casks of cement to the administration at Rabaul? </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>725</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- The reply I gave yesterday was that tenders were not called for the cement, but that quotations were asked for by the Administrator. Probably the merchants dealing in this particular commodity in Rabaur were invited to submit prices. </para>
+            </talk.start>
+          </interjection>
+          <para>SenatorCollings. - The cement interests in Australia were not aware of the order. </para>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.They could not have competed in any case. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>725</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TRADE TREATIES</title>
+          <page.no>725</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>725</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>- As I understand that the ban has been lifted on Aldous Huxley&#39;s <inline font-style="italic">Eyeless in Gaza,</inline> can the Leader of the Senate say when the ban will be lifted on the questions which I have asked regarding the trade treaties being arranged with European countries by the Minister in charge of the negotiations for trade treaties <inline font-weight="bold">(Sir Henry Gullett)</inline> ? </para>
+          </talk.start>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.There is no ban on the honorable senator&#39;s questions, apart from the restrictions imposed by the Standing Orders. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>726</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BARELY TABLELAND</title>
+          <page.no>726</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>726</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- In view of the answer given to my question yesterday by the Minister for External Affairs regarding the development of the Barkly Tableland to the Gulf of Carpentaria, will the terms of any proposed agreement in that regard be submitted to Parliament for ratification, rejection or amendment, before it is signed on behalf of the Commonwealth? I submit that the answer furnished yesterday did not provide a reply to my question. I desire to know whether the Senate will have an opportunity to amend any such agreement before it is signed by the parties concerned. </para>
+          </talk.start>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.A hypothetical question of this nature is very difficult to answer. Whether the agreement will he submitted to the Parliament depends upon whether it involves any alteration of the law, or does something which is not already provided for under the law of the Northern Territory or the Commonwealth. Let me assure honorable senators generally that the Government has no desire to go behind the back of Parliament in this matter. Before any agreement of an important character is entered into with regard to the lands of the Northern Territory, Parliament will be fully advised. It can then say whether it considers the agreement to be such that it should be submitted to Parliament for ratification. It is conceivable that it will comply with the present law of the Commonwealth and the Northern Territory, and therefore will not require ratification by this Parliament. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PEARLING INDUSTRY</title>
+        <page.no>726</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>726</page.no>
+            <time.stamp />
+            <name.id>KP8</name.id>
+            <electorate>WESTERN AUSTRALIA</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">JOHNSTON, Edward</name>
+            <name role="display">Senator E B JOHNSTON</name>
+          </talker>
+          <para>asked the </para>
+        </talk.start>
+        <para>Minister representing the Minister for Trade and Customs, <inline font-style="italic">upon- notice -</inline></para>
+        <list type="decimal-dotted">
+          <item label="1.">
+            <para>Has the Tariff Board&#39;s reporton the pearling industry been received by the Government? </para>
+          </item>
+          <item label="2.">
+            <para>If so, what assistance to the industry is recommended by the Board? </para>
+          </item>
+          <item label="3.">
+            <para>When will the report be available to Parliament? </para>
+          </item>
+        </list>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>726</page.no>
+            <time.stamp />
+            <name.id>KTR</name.id>
+            <electorate>SOUTH AUSTRALIA</electorate>
+            <party>NAT</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLACHLAN, Alexander</name>
+            <name role="display">Senator A J McLACHLAN</name>
+          </talker>
+          <para>- The Minister for Trade and Customs has supplied the following answers: - </para>
+        </talk.start>
+        <list type="decimal-dotted">
+          <item label="1.">
+            <para>Yes. </para>
+          </item>
+          <item label="2.">
+            <para>and 3. The Tariff Board&#39;s report will be tabled next week. </para>
+          </item>
+        </list>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>726</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>DROUGHT AND GRASSHOPPER PLAGUE IN WESTERN AUSTRALIA</title>
+          <page.no>726</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>726</page.no>
+              <time.stamp />
+              <name.id>KNC</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>CP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MARWICK, Thomas</name>
+              <name role="display">Senator MARWICK</name>
+            </talker>
+            <para>asked the Loader of the Senate, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>In view of the disastrous result of drought and grasshopper plagues in the agricultural and pastoral areas of Western Australia, as reported to the Treasurer by a deputation on Monday last, 28th September, will the Minister state what action the Government proposes to take, and what action (if any) has been suggested by the State Government, to assist the sufferers? </para>
+          </quote>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCEThe Treasurer has supplied the following answer :  - </para>
+          <quote>
+            <para>The situation created by the drought in Western Australia, was brought to the notice of the Government by a deputation of Western Australian senators and members, including <inline font-weight="bold">Senator Marwick,</inline> which waited upon the Treasurer. The Premier of Western Australia has now applied to the Treasurer in his capacity as  chairman  of the Loan Council for an increase in the Western Australian loan programme for 1936-37 as approved by the Loan Council. In view of the considerable distress that evidently exists over a wide area in Western Australia, the Commonwealth Government is sympathetic to this requestand is willing to co-operate with other members of the Loan Council in giving a larger allotment to Western Australia of the loan moneys that will be raised during this financial year. The Premier&#39;s request is now under consideration by the Loan Council. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>726</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>IMPORTATION OF CEMENT</title>
+          <page.no>726</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>726</page.no>
+              <time.stamp />
+              <name.id>K7M</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLETT, Herbert</name>
+              <name role="display">Senator COLLETT</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Trade and Customs, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that, despite information to the contrary appearing in the press, considerable quantities of cement from abroad are arriving in Western Australia, and only recently consignments of 9,000 tons were reported ? </para>
+            </item>
+            <item label="2.">
+              <para>Does the Government propose to take action to protect local manufactures against the effects of low prices and cheap freights? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>726</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>- The Minister for Trade and Customs has supplied the following answers: - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Five thousand tons of cement were imported by the Western Australian Government for urgent public works owing to the Western Australian cement manufacturers being unable to supply and the eastern States&#39; manufacturers being prevented from supplying owing to the existence of coastal shipping trouble at the time of the placing of the orders. Apart from the 5,000 tons mentioned, there has been only one importation of importance, namely. 3,000 tons imported, per the <inline font-style="italic">Brattdal,</inline> towards the end of August. </para>
+            </item>
+            <item label="2.">
+              <para>In cases where shipments land at prices which are detrimental to the Australian industry, deposits of duty to cover any possible dumping duty are being required pending inquiry by the Tariff Board. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>727</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PUBLIC SERVICE BOARD</title>
+          <page.no>727</page.no>
+        </subdebateinfo>
+        <para>Appointmentof Chairman</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>727</page.no>
+              <time.stamp />
+              <name.id>K2F</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRAND, Charles</name>
+              <name role="display">Senator BRAND</name>
+            </talker>
+            <para>asked the Minister representing the Prime Minister, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Is it a fact that, except in isolated instances, all the permanent heads of Commonwealth departments are non-returned soldiers; if so, will the Government give every consideration to filling the position of chairman of the Public Service Board with a qualified returned soldier cither from within or outside the Public Service? </para>
+          </quote>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>727</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- The Prime Minister has supplied the following answer :  - </para>
+            </talk.start>
+          </interjection>
+          <quote>
+            <para>Yes. The representations of the honorable senator will receive consideration in connexion with the filling of the position of  chairman  of the Public Service Board. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>727</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>COMMONWEALTH MILITIA FORCES</title>
+          <page.no>727</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>727</page.no>
+              <time.stamp />
+              <name.id>K2F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRAND, Charles</name>
+              <name role="display">Senator BRAND</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Defence, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What was the strength of the Australian Military Forces (militia), by arms, on 30th September, 1936? </para>
+            </item>
+            <item label="2.">
+              <para>What were the enlistments during the quarter ending on that date, and what was the number of discharges and resignations during the same period? </para>
+            </item>
+          </list>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.The Minister for Defence states that the information will be obtained and a reply furnished to the honorable senator as soon as possible. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>727</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>WIRELESS BROADCASTING</title>
+          <page.no>727</page.no>
+        </subdebateinfo>
+        <para>B Class Stations</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>727</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>asked the Post- master-General, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What is the amount paid annually by B class broadcasting stations for licences? </para>
+            </item>
+            <item label="2.">
+              <para>Is the amount charged the same in each case? </para>
+            </item>
+            <item label="3.">
+              <para>For what term are licences issued? </para>
+            </item>
+            <item label="4.">
+              <para>Has his department any record of the earnings of B class stations? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>727</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>- The answers to the honorable senator&#39;s questions are as follows: - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>&#163;25. </para>
+            </item>
+            <item label="2.">
+              <para>Yes. </para>
+            </item>
+            <item label="3.">
+              <para>One year. </para>
+            </item>
+            <item label="4.">
+              <para>No. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>727</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SURF LIFE SAVING ASSOCIATION</title>
+          <page.no>727</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>727</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>asked the Minister representing the Treasurer, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Has the Government received any application by the Surf Life Saving Association for assistance by way of subsidy? </para>
+            </item>
+            <item label="2.">
+              <para>Has the Government at any time subsidized this association? </para>
+            </item>
+            <item label="3.">
+              <para>If not, will the Government favorably consider any application for subsidy? </para>
+            </item>
+          </list>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>727</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- The Treasurer has supplied the following answers :  - </para>
+            </talk.start>
+          </interjection>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>An application was received from this association last year, for a. grant towards the cost ofa proposed world tour in 1936 of 24 Australian surf life savers. This application was not approved. </para>
+            </item>
+            <item label="2.">
+              <para>No. </para>
+            </item>
+            <item label="3.">
+              <para>It is regretted that the Government is unable to agree to a subsidy to this association or to associations of a similar nature. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>HOUSE COMMITTEE</title>
+        <page.no>727</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator Sir George</inline> Pearce) agreed to - </para>
+      <quote>
+        <para>That <inline font-weight="bold">Senator Uppill</inline> be appointed to fill the vacancy now existing on the House Committee. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ACTS INTERPRETATION BILL . 1936</title>
+        <page.no>727</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill read a third time. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>WOOL TAX ASSESSMENT BILL (No. 2) 1936</title>
+        <page.no>727</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>727</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>727</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role>Postmaster-General</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>. - I move - </para>
+          </talk.start>
+          <quote>
+            <para class="block">That the bill be now read a second time. </para>
+          </quote>
+          <para class="block">The measure provides for certain necessary variations of the present machinery provisions of the Wool Tax Assessment Act passed earlier in the year. In explaining the reasons for these variations, which do not disturb the basic principle of the tax, 1 may state that inquiries made after the enactment of the Wool Tax Assessment Act and cognate acts disclosed that some of the provisions of those acts would result in serious inconvenience to certain branches of the wool trade, and involve considerable expenditure in effectively policing the tax. It is anticipated that the enact- . ment of the present amendments, which are to have effect as from the commencement of the principal act, will eliminate practically all these inconveniences and reduce administrative costs to a negligible figure. Conferences held in four States by the Commissioner of Taxation with representatives of the wool-brokers, banks, manufacturers, ships&#39; agents, and graziers, showed that all sections of the wool trade are in agreement with the proposed alterations. </para>
+          <para>The bill is designed to impose a tax on wool, first, when it is received by wool-brokers, manufacturers, scourers, or approved dealers; secondly, in the case of wool produced by such persons, at the time of actual production; and thirdly, when it is exported. Provision is made to ensure that wool which has once passed through the hands of a taxpayer shall not again be subject to tax. A variation of the class of taxpayers has been made to cover all wool-brokers, and not merely those wool-brokers who are members of the National Council of Wool-selling Brokers of Australia. At the same time, certain small classes of dealers, hawkers, and like persons, who tour the country districts buying small quantities of wool from share-farmers, mixed farmers, and small graziers, have been excluded. I &#39; need not stress the difficulties in effectively administering the tax so as to ensure payment, as is required under the present scheme, by persons who receive wool from the producers. The inclusion of wool-scourers as taxpayers enables the administration to treat all scoured wool as free of tax, as obviously it will have previously been received by a scourer. This removes all possibility of a double tax, which would otherwise inevitably occur, both in respect of scoured wool when it is resorted and baled, and in respect of wool which has been taxed in the greasy state and, when scoured, is not identifiable with the greasy wool on which the tax has been paid. Persons who pay the tax on wool received by them are authorized under this measure to recover the amount of the tax from the persons from whom they received the wool, thus ensuring that the tax will be borne, as intended, by the producer of the wool. The bill authorizes  the giving of securities in certain cases where such action is considered neces sary to ensure compliance with the law. This provision is similar in its terms to comparable provisions &#39;in the sales tax legislation. Opportunity is taken in the bill to provide for four minor matters, viz :  - </para>
+          <list type="loweralpha">
+            <item label="(a)">
+              <para>An amendment to enable returns to be required of all wool received or produced by a taxpayer, and not merely of wool which is subject to tax. </para>
+            </item>
+            <item label="(b)">
+              <para>A declaratory provision stating in precise terms the meaning of the word &#34; receive &#34;. Tax is  payable on wool &#34; received &#34;, and this definition will enable all persons to know/ when wool is received by them for a specific purpose, whether or not they are liable to pay tax thereon. </para>
+            </item>
+            <item label="(c)">
+              <para>An amendment to require compliance with the export procedure prior to the acceptance by a ship&#39;s agent of the order for shipment, so that there will be no delay at the ship&#39;s side pending production to the ship&#39;s agent of the requisite documents. </para>
+            </item>
+            <item label="(d)">
+              <para>A variation of the position, in regard to wool produced by a broker, dealer, or manufacturer. </para>
+            </item>
+          </list>
+          <para class="block">Such a taxpayer will now he required to pay tax within 21 days after the date of production and not, as previously, within 21 days after the time of use by him in his business. </para>
+          <para>The remaining provisions of the bill consist of amendments to remove minor drafting defects. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>728</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>. - The members of the Opposition do not intend to oppose this measure, which concerns a very important primary product. We regret that, owing to the serious internal difficulties which have manifested themselves recently, the members of the Country party in this chamber are absent, and that we shall not have the benefit of their opinions on. the measure. The Opposition is always pleased to support legislation which curtails the control exercised by private enterprise over the natural products of this country, and places greater power in the hands ofthe </para>
+          </talk.start>
+          <para class="block">Government. Of course, we have been told on previous occasions in grandiloquent terms by those concerned in the production of wool, or their representatives in this chamber, that the- woolgrowers have never appealed to the Government for assistance. I know that that was true; but their internal problems have now become so great that at last they have decided that improved organization is necessary. They have been advised to engage in an extensive advertising campaign in order that the people of Australia might realize the value of their product, and to enable them to compete against synthetic substitutes. Realizing that the law of the jungle always prevails in private enterprise, the woolgrowers have now appealed to the Government to legalize the methods they have adopted for ensuring that the industry shall be conducted on a more satisfactory basis. We are glad that the Government is coming to their assistance, and we intend to support the bill. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>729</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>.- It is always interesting to listen to the fantastic fallacies of the Leader of the Opposition <inline font-weight="bold">(Senator Collings)</inline> concerning private enterprise. The honorable senator will be interested to learn that the object of this measure is not to bring the wool industry under Government control. The wool-growers are contributing every penny to be expended on publicity work, and all that they ask is that those who are to benefit by the advertising campaign shall be compelled to contri-bute towards its cost. The wool-growers have not come to the Government for assistance, and, so far as I know, they do not intend, to do so. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>729</page.no>
+              <time.stamp />
+              <name.id>KNZ</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HARDY, Charles</name>
+              <name role="display">Senator HARDY</name>
+            </talker>
+            <para>. -  I understand that during the temporary absence of some members of the Country party, owing to somewhat unusual circumstances, the Leader of the Opposition <inline font-weight="bold">(Senator Collings)</inline> did not fail to take advantage of the opportunity to make political capital out of the incident. I remind the Leader of the Opposition that when legislation affecting the primary producers is before this chamber the members of the Country party will always be in their places, and that their efforts will always be more effective than those of the Opposition. </para>
+          </talk.start>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time and reported from committee without amendment or debate; report adopted. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PRUNE BOUNTY BILL (No. 2) 1936</title>
+        <page.no>729</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>729</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>729</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate>Victoria</electorate>
+              <party>UAP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator BRENNAN</name>
+            </talker>
+            <para>. -  I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the bill be now read a second time. </para>
+          </quote>
+          <para>This bill, in the form of an amendment of the Prune Bounty Act No. 6 of 1936, provides for payment of id. per lb. to the prune-growers of Australia on prunes exported during the year 1936. The estimated cost of the bounty is &#163;4,500. The bounty will be paid on the prunes exported, or on the equivalent of dried prunes if such prunes were processed prior to export. </para>
+          <para>In February of this year, representations were made to the Government by the growers from all the producing States. They approached the Government for financial assistance to meet losses sustained on their products during 1935. Export prices overseas fell to an alarming extent in that year, and the returns to growers decreased to such an extent that they found, themselves in financial difficulties. This was due primarily to reductions of imports of Califor nian prunes by Germany, with a resultant increase of supplies to the markets of the United Kingdom. </para>
+          <para>Since the war, increased plantings of prunes under repatriation schemes have resulted in a considerable expansion of production, with the result that practically 50 per cent, of the crop has to be exported. &#39; Markets have been developed in the United Kingdom, New Zealand and Canada, and under normal conditions a reasonable return on exports and local sales is obtained. Conditions over the last two years, however, have been extremely difficult. Prices f.o.b. of prunes exported from California to the United Kingdom fell from 5f cents per lb. in January, 1934, to  44  cents per lb. in January, 1935, and to 2J cents per lb. in January, 1936. The market did not show any signs of recovery until April this year, and latest quotations indicate an increase of about 1 cent per lb. </para>
+          <para class="block">Californian prunes dominate the market in the United Kingdom, so that the position is still unsatisfactory for the Australian producer, whilst the prices of Californian prunes are depressed. </para>
+          <para>In view of all the circumstances, the Government decided to render some assistance to the industry to enable it to meet immediate losses. A bounty of |d. per lb. on exports during 1935 and id. per lb. on exports during 1936 was approved at estimated costs of &#163;8,400 and &#163;4,500 respectively. The bounty for 1935 was given effect by the passing of the Prune Bounty Act last session, and the bill now submitted sanctions the bounty in respect of exports for this year. In the Prune Bounty Act 1936, provision was made under section 6 for the quantity of prunes in respect of which bounty shall be payable to a grower to be the quantity certified by the prescribed authority within the meaning of the Dried Fruits Act 1928-1935 to have been exported. As the latter act is affected by the decision in the Privy Council case of <inline font-style="italic">James</inline> v. <inline font-style="italic">the Commonwealth,</inline> it is necessary to provide for &#34; a prescribed authority&#34; instead of a prescribed authority under the Dried Fruits Act. The section has been amended accordingly. </para>
+          <para>The Government does not desire to encourage this industry to seek a continuance of bounties on export and has indicated that no further bounties will be paid on this commodity. The market requirements overseas have not been given sufficient attention by those engaged in the industry, and &#38; large quantity of small sized prunes has been exported, although the demand greatly favours prunes of larger size. This high proportion of small fruit is a very unsatisfactory  feature  of the industry, which at present is capable of much improvement. In this regard, the Government has taken steps to improve the efficiency of the industry. The Agricultural Council at its meeting in May, 1936, discussed this matter and approved of the Government&#39;s plan, that a conference be called to deal with proposals for the improvement of efficiency and of -marketing methods. Following on the recommendation of the Agricultural Council, the Government convened a conference of representatives of the  industry,  the Departments of Agriculture, the Council for Scientific and Industrial Research, and the Department of Commerce, in Sydney, on the 31st August last, when suggestions for the betterment of the industry were discussed. The conference was of the opinion that the elimination of small prunes is desirable and decided to request the State Departments of Agriculture, in conjunction with growers&#39; organizations, to carry out the necessary investigational and extension work with a view to bringing this about, The departments were also asked to encourage growers to work over the less desirable varieties, and extend publicity work in connexion with the picking, handling, and drying of prunes. It is hoped that in this way. a general improvement of the industry will be achieved. South Australia has already undertaken the preliminary work of a survey of prune orchards, with the object of determining, from district to district, the chief factors concerned in the production of small, inferior prunes. The other &#39;States are working along similar lines. </para>
+          <para>It is fully recognized that very difficult problems await solution before the prune industry in Australia can be regarded as : being on a  satisfactory basis. But the difficulties are not insurmountable, and it is felt that the Departments of Agriculture, with the assistance of the industry, will be able to work towards a general and progressive improvement in the production of marketing of prunes. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>730</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>. - I rise with some timidity, because invariably my remarks call down on my devoted head the wrath of some honorable senators, particularly <inline font-weight="bold">Senator Leckie</inline> and the leader of the Country party <inline font-weight="bold">(Senator Hardy).</inline> Nevertheless, it is impossible for me, as Leader of the Opposition,, to let pass this opportunity to emphasize the few innocent remarks which I made on the bill immediately preceding this one. What are the outstanding facts which present themselves to this Senate in the second-reading speech made by the Assistant Minister <inline font-weight="bold">(Senator Brennan)</inline> ? Probably honorable senators opposite do not form the same conclusions from it as I do, and probably they will say that I approach consideration of measures such as this with a jaundiced vision; but it is for them to show that my judgment is astray. The admission by the Minister that 50 per cent, of the prunes grown within the Commonwealth have to bc exported shows, I contend, that there is no local demand for more than 50 per cent, of tho Australian crop. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>731</page.no>
+                <time.stamp />
+                <name.id>K2Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BRENNAN, Thomas</name>
+                <name role="display">Senator Brennan</name>
+              </talker>
+              <para>-  Put it in another way  -  50 per cent, of what is produced supplies the local market. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>731</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- That is what I mean. The Minister inverts my statement because he realizes that, if I accept his words, my argument will not be so obvious. There are within Australia thousands of families which would be glad to accept a share of the prune crop, and would be able to do so if the policy of the Government were such as to increase their purchasing power. If that were done, their children would be able to enjoy this highly beneficial fruit. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>731</page.no>
+                <time.stamp />
+                <name.id>KNZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HARDY, Charles</name>
+                <name role="display">Senator Hardy</name>
+              </talker>
+              <para>-  How does the honorable senator know that the people have a taste for prunes? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>731</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- &#34;Well, I have. That raises another self-evident feature of this legislation. I know that my family likes to got the best prunes. Nothing short of the best should be good enough for tho Australian family. We are told that this industry, in the hands of private enterprise, is incompetent, and unable to arrange an orderly system of marketing or any thi sg else; in spite of having been warned how damaging to their industry is the export of inferior prunes, the growers continue to send them abroad. In other words, in spite of the furore caused by my few innocent remarks on the last bill, the fact is manifest that again the Government is coming to the aid of industry because private enterprise cannot carry on without such help. More and more the Government is taking out of the hands of private enterprise control of the products of this country. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>731</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator Foll</name>
+              </talker>
+              <para>-  We are to eat the small prunes and send the big ones overseas. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>731</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- As a matter of fact, that is the policy followed in respect of every primary product. We send the best of our beef away. The local consumer pays a higher price for a range of products inferior to those which are shipped abroad. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>731</page.no>
+                <time.stamp />
+                <name.id>KNZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HARDY, Charles</name>
+                <name role="display">Senator Hardy</name>
+              </talker>
+              <para>-  What about the sugar industry ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>731</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- The interjection by the Leader of the Country party, so far from disturbing me, supplies me with ammunition. <inline font-weight="bold">Senator Hardy</inline> mentions the Queensland sugar industry on every conceivable occasion ; it has no connexion whatever with the subject under discussion. The statement is made, over and over again, and entirely without justification, that the people in this country arc paying too much for their sugar. No other Australian primary industry has been developed on such scientific lines, and in no other industry is there the same uniformly high quality of product. It does not export the best of its production and market sugar of inferior quality in Australia. The whole of the production is f.a.q., and so efficient is the industry that in Australia a greater return per ton of cane sugar is obtained than in any other country. </para>
+            </talk.start>
+          </continue>
+          <para>I heartily support the bill. We on this side wish to see the growers of prunes placed on a sound basis. I was sorry to hear the Minister say that in no circumstances in the future would the Government pay a bounty to prune-growers. It is our duty to do everything that is possible to ensure the well-being of every section of our producers, primary or secondary. If, as the Minister has said, the industry cannot meet the Californian competition in the United Kingdom, due to the reduced imports by Germany, obviously the industry is not properly organized either as to production or distribution, and there is need for more Government oversight. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>731</page.no>
+              <time.stamp />
+              <name.id>JNM</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BADMAN, Albert</name>
+              <name role="display">Senator BADMAN</name>
+            </talker>
+            <para>. -  The growers of prunes in South Australia are more concerned with the passage of this legislation than are growers in any other State. Early in the present year the representatives of the industry at Clare and Angaston came to Canberra to interview the Minister for Commerce <inline font-weight="bold">(Dr. Earle Page)</inline> with a view to obtaining Government assistance to place the industry on a sounder basis. The price to the Australian consumer is determined by the quantity and quality available. The  difficulties of producers are not due, as the Leader of the Opposition <inline font-weight="bold">(Senator Collings)</inline> has suggested, to the fixation of a price beyond the reach of Australian consumers, thus rendering Government control necessary. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>732</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- I never said that. What I said was that if the working classes had a greater purchasing power, they would be able to consume a larger proportion of the Australian production of prunes. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>732</page.no>
+                <time.stamp />
+                <name.id>JNM</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BADMAN, Albert</name>
+                <name role="display">Senator BADMAN</name>
+              </talker>
+              <para>- And my reply to the Leader of the Opposition is that if the tariff policy of the Commonwealth made it possible for primary producers to lower their costs of production there would be no need to appeal to the Government for assistance in any form. The prune-growers did not approach this Parliament until their business was absolutely flat. I came to Canberra with the representatives of the industry, the position of which, at that time, was extremely serious. The Leader of the Opposition complained that the best of the product was exported, leaving only fruit of inferior quality for the Australian market. The Minister, on the other hand, has pointed out that the real trouble is that fruit of inferior quality has been exported. I heartily support the action of the Government and hope that a market will be found for the Australian production at a satisfactory price. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>732</page.no>
+              <time.stamp />
+              <name.id>KNZ</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HARDY, Charles</name>
+              <name role="display">Senator HARDY</name>
+            </talker>
+            <para>. - The burden of the complaint by the Leader of the Opposition <inline font-weight="bold">(Senator Collings)</inline> seems to be that we are exporting 50 per cent, of the prune production. May I assume that his desire is to increase the purchasing power of the Australian people so that they may consume the whole of the crop? Does he go further and argue that the same principle should apply to all of our exportable primary products, and does he suggest, for instance, that increased purchasing power would enable Australian consumers to take the whole of our butter production ? </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>732</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- Of course not. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>732</page.no>
+                <time.stamp />
+                <name.id>KNZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HARDY, Charles</name>
+                <name role="display">Senator HARDY</name>
+              </talker>
+              <para>- If the whole of the butter production were marketed in Australia at a nominal price, the people here would be unable to consume it. Does the honorable senator suggest also that increased purchasing power would so strengthen the local market as to render unnecessary 90 per cent, of our present export trade in primary products?  His  statement was really one of the most illogical that we have heard in this chamber. He complained that we were exporting the best of our prunes. But we must look facts in the face. Undoubtedly the more difficult market is the one overseas. What would be the consequences to our prune-growers if we exported the inferior portion of the crop  and marketed the best in Australia? Would not the industry be entirely destroyed? Obviously the overseas market must be catered for, at least until out prune-growers are able to standardize their products. </para>
+            </talk.start>
+          </continue>
+          <para>
+            <inline font-weight="bold">Senator ALLAN</inline>MacDONALD (Western Australia) &#91;3.56 1. - I should like the Minister to inform me whether some of the amendments made to the parent act by this bill have relation to the recent decision of the Privy Council in the <inline font-style="italic">James</inline> case. Section 4 of the principal act states that the bounty shall be payable on prunes exported during 1935 &#34; in respect of which the provisions of the Commerce (General Exports) Regulations (being Statutory Rules 1926, No. 22, as amended to the date of tho export of the prunes) were complied with.&#34; I notice also that clause 5 amends section 6 of the principal act which mentions &#34; the prescribed authority within the meaning of the Dried Fruits Act 1928-1935.&#34; These words are eliminated and the words &#34; a prescribed authority &#34; are inserted in their stead. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>732</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate>Victoria</electorate>
+              <party>UAP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator BRENNAN</name>
+            </talker>
+            <para>. - <inline font-style="italic">in reply</inline> - The amendment to section 4 has no relation to the dried fruits case, but tho amendment to section 6 has. Whereas the Dried Fruits Boards were originally the authority, these boards haying possibly, as a result of tho Privy Council decision, become invalid, thcwords &#34; a prescribed authority &#34; have been substituted for the words &#34; the prescribed authority within the meaning of the Dried Fruits Act 1928-29-1935.&#34; It may well be that the prescribed authority under the amended act will be the Dried Fruits Boards at present in existence. </para>
+          </talk.start>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time. </para>
+          <para class="italic">
+            <inline font-style="italic">In committee:</inline>
+          </para>
+          <para>Clauses 1 to 3 agreed to. </para>
+          <para>Clause 4 (Rate of bounty). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>733</page.no>
+              <time.stamp />
+              <name.id>JY7</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNCAN-HUGHES, John</name>
+              <name role="display">Senator DUNCAN-HUGHES</name>
+            </talker>
+            <para>. - From the Minister&#39;s second-reading speech, I understand that the anticipated additional payment due to the continuance of the bounty, but at the reduced rate of Jd. per lb. will be about &#163;4,500. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>733</page.no>
+                <time.stamp />
+                <name.id>K2Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BRENNAN, Thomas</name>
+                <name role="display">Senator Brennan</name>
+              </talker>
+              <para>- Yes. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>733</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator DUNCAN-HUGHES</name>
+              </talker>
+              <para>- And that the payment in respect of prunes exported during the year ended the 31st December, 1935, at the rate of &#163;d. per lb. will work out at &#163;S,400. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>733</page.no>
+                <time.stamp />
+                <name.id>K2Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BRENNAN, Thomas</name>
+                <name role="display">Senator Brennan</name>
+              </talker>
+              <para>- That is the estimated amount. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>733</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator DUNCAN-HUGHES</name>
+              </talker>
+              <para>- Apparently it was estimated at &#163;8,500 early this year when the first bill was introduced. I take it that the amount of &#163;12,500 contained in the Estimates for the present year represents the payment for two years. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>733</page.no>
+                <time.stamp />
+                <name.id>K2Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BRENNAN, Thomas</name>
+                <name role="display">Senator Brennan</name>
+              </talker>
+              <para>- That is so. The bounty for 1935 has not yet been paid. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>733</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator DUNCAN-HUGHES</name>
+              </talker>
+              <para>- In other words, the payment for 1935 will bo nearly double that for 1936. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>733</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate>SOUTH AUSTRALIA</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator A J McLACHLAN</name>
+              </talker>
+              <para>- Exports arc decreasing because of the check placed by the Government on the quality of the fruit which may be exported. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>733</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator DUNCAN-HUGHES</name>
+              </talker>
+              <para>- In theory at least, we all approve of that check from one point of view. It is pleasing to note that, in regard to this industry, there is a tendency to decrease, rather than increase, the amount of the bounty. I wish that the same could be said of other industries. After all, the purpose of granting assistance to an industry is to enable it to place itself on such a footing that, after a while, it will be able to carry on without government assistance. Apparently that is what is happening in the prune industry. When the previous bill was introduced it was said that the bounty would operate for two years, and that no assistance would be given by way of bounty after the expiration of the second year. I should like to know whether that is still the position. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>733</page.no>
+                <time.stamp />
+                <name.id>K2Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BRENNAN, Thomas</name>
+                <name role="display">Senator Brennan</name>
+              </talker>
+              <para>- Yes. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>733</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator DUNCAN-HUGHES</name>
+              </talker>
+              <para>- It is refreshing to find that, as a result of the assistance given to them, the growers of prunes will be able to manage without government assistance after the expiration of the present year, and that the amount of the assistance has already been reduced considerably. I do not know whether we should congratulate the growers of prunes on not having made further demands, or the Government for refusing to accede to demands; but, as I have said, it is refreshing to find that in this industry at least there is a tendency towards a reduced measure of assistance by the Government. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>733</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>. - <inline font-weight="bold">Senator Hardy</inline> unfairly suggested that I had said that Australia should consume all its products. I did not say anything of the kind. I suggested that if the purchasing power of the people were increased, such conditions would be set up that population would be attracted here, and the local market enlarged. That <inline font-weight="bold">Senator Duncan-Hughes</inline> agrees with me makes me fear that I am wrong. He agrees that there should not be any watering clown of the support accorded to this industry, and no threat that, irrespective of what happens, the industry will not be assisted further. The honorable senator has overlooked the fact that the reduction of the amount of the bounty is not entirely due to the decrease of the rate from fd. to <inline font-style="italic">ii.</inline> per lb., but is largely the result of the Government&#39;s insistence on a better quality in the product exported. That the higher standard will reduce the quantity available for export shows the incompetency of those engaged in the production of  prunes.  I agree with <inline font-weight="bold">Senator Duncan-Hughes</inline> that the amount of the assistance should not be decreased; but, in saying that, I do not suggest that the growers of prunes should be given money that they do not require. It is the duty of this Parliament to see that no primary producer is forced to live under conditions that should not exist in any industry which is of value to the nation. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>733</page.no>
+              <time.stamp />
+              <name.id>JNM</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BADMAN, Albert</name>
+              <name role="display">Senator BADMAN</name>
+            </talker>
+            <para>. - The Leader of the Opposition <inline font-weight="bold">(Senator Collings),</inline> in referring to the higher standard required by the </para>
+          </talk.start>
+          <para>Government for export fruit, said that the reduced exports indicated incompetency on the part of the growers of prunes. I remind him that the size of the&#39; fruit is governed largely by seasonal conditions. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>734</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>-  Seasonal conditions did not control the fall of the price of Californian prunes in 1935. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>734</page.no>
+                <time.stamp />
+                <name.id>JNM</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BADMAN, Albert</name>
+                <name role="display">Senator BADMAN</name>
+              </talker>
+              <para>- Seasonal conditions affect the price of prunes for both home consumption and export. It may be that, because of seasonal conditions, a large percentage of the crop is suitable for export one year, whereas in another season the quality will not be so good, and the quantity available for export will, consequently, be smaller. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>734</page.no>
+              <time.stamp />
+              <name.id>JY7</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNCAN-HUGHES, John</name>
+              <name role="display">Senator DUNCAN-HUGHES</name>
+            </talker>
+            <para>. - The Leader of the Opposition <inline font-weight="bold">(Senator Collings)</inline> has misunderstood me. He seems to think that I am in agreement with him, whereasI am not. I said that it was a matter for gratification that, in respect of prunes there was a tendency towards a reduction, rather than an increase, of the bounty. I hope that, there is no intention to diminish bounties in order to force growers of prunes, or, indeed, any primary producers, into marketing schemes. I dislike the idea of a bounty being in any sense used as a lever to force people into  Borne  form of control which they do not desire. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>734</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>-  Would the honorable senator hand them the money and let them do what they like with it? </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>734</page.no>
+              <time.stamp />
+              <name.id>JY7</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>UAP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNCAN-HUGHES, John</name>
+              <name role="display">Senator DUNCAN-HUGHES</name>
+            </talker>
+            <para>-HU GHES. - That may  be  the honorable senator&#39;s method of dealing with things; but, whatever I may have done in a private capacity, as a members of this Parliament I have not often agreed to the disbursement of public funds without trying to get some return. In dealing with export goods generally, we certainly face an awkward problem. We do &#34;not desire that, in the country of production, the people should be offered inferior fruit, but, at the same time,  we  know that if we are to develop an overseas market, particularly in prunes, we must send fruit equal to that obtainable from France. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>734</page.no>
+                <time.stamp />
+                <name.id>KNZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HARDY, Charles</name>
+                <name role="display">Senator Hardy</name>
+              </talker>
+              <para>-  It will be cheaper now with the devaluation  of  the franc. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>734</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator DUNCAN-HUGHES</name>
+              </talker>
+              <para>- With few exceptions, it does not appear to me that Australian dehydrators have managed to achieve what the French people have accomplished in the separation of the stone from the fruit. Australian prunes have a tendency to cling to the stone, which indicates that the prune is not properly dry. I do not criticize those engaged in the industry in this country, because I know that years of experience are required to attain the high standards of the French growers, who have been* engaged in the industry for many years. However, if we desire to develop our overseas market, we must send abroad a fairly large percentage of the best that we can produce, even if that means that the home market is deprived of it. What applies to dried fruits applies also to fresh fruits, for honorable senators know that the fresh fruit obtainable in hotels is not always of the highest quality. If the prunes exported cannot compete in the overseas market with fruit from other countries, the Government would be justified in refusing to pay the bounty. I hope that the Leader of the Opposition is now clear as to where I stand. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>734</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate>Victoria</electorate>
+              <party>UAP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator BRENNAN</name>
+            </talker>
+            <para>. -  I am glad that <inline font-weight="bold">Senator Duncan-Hughes-</inline> has made it clear that he is not in agreement with the Leader of the Opposition <inline font-weight="bold">(Senator Collings)</inline> on this subject. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>734</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>-  That shows that the honorable senator is wrong. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>734</page.no>
+                <time.stamp />
+                <name.id>K2Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BRENNAN, Thomas</name>
+                <name role="display">Senator BRENNAN</name>
+              </talker>
+              <para>- Representatives of the industry admit that there is room for improvement of the quality of the prunes they produce, and they are in consultation with the various State Departments of Agriculture with a view to improving the quality. The Leader of the Opposition has a tendency towards exaggeration, of which perhaps he is not aware. He attempted to put into my mouth words that I did not use. He attributed to me the statement that in no circumstances whatever would the bounty be continued. I did not say that. I was dealing with the policy of the Government, and I said - </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>The Government does not  desire to en courage this industry to  seek  a continuance of bounties  on  export, and  has  indicated that no further bounties willbepaidonthis commodity. </para>
+          </quote>
+          <para class="block">I did not say that in no circumstances would tho bounty be continued. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>735</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- The Minister&#39;s remarks could not mean anything else. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>735</page.no>
+                <time.stamp />
+                <name.id>K2Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BRENNAN, Thomas</name>
+                <name role="display">Senator BRENNAN</name>
+              </talker>
+              <para>- The honorable senator has expressed regret that the policy of the Government is not to continue indefinitely the payment of bounties. I agree entirely with <inline font-weight="bold">Senator DuncanHughes</inline> that the purpose of a bounty of this kind is to help an industry to get into a position in which it will not require further government assistance. As has happened in many cases in recent years, circumstances may justify the granting of temporary assistance, but, if this policy were continued as a permanent policy, it - would be thoroughly uneconomic. </para>
+            </talk.start>
+          </continue>
+          <para>Clause agreed to. </para>
+          <para>Clause 5 agreed to. </para>
+          <para>Claus() 6 (Condition of payment). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>735</page.no>
+              <time.stamp />
+              <name.id>KS7</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>UAP; LP from 1944</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, Allan</name>
+              <name role="display">Senator ALLAN MACDONALD</name>
+            </talker>
+            <para>. - I return to the point I raised on the second reading as to the connexion between the payment of this &#39;bounty and the recent decision of the Privy Council in the /ames case. I still think an effort is being made here to enlist the support of a prescribed authority, which the Minister admitted, in his reply, would no doubt be the Dried Fruits Board. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>735</page.no>
+                <time.stamp />
+                <name.id>K2Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BRENNAN, Thomas</name>
+                <name role="display">Senator Brennan</name>
+              </talker>
+              <para>- Does the honorable senator realize that the committee has dealt with clause 5, and is now discussing clause 6? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>735</page.no>
+                <time.stamp />
+                <name.id>KS7</name.id>
+                <electorate>WESTERN AUSTRALIA</electorate>
+                <party>UAP; LP from 1944</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MACDONALD, Allan</name>
+                <name role="display">Senator ALLAN MACDONALD</name>
+              </talker>
+              <para>- We are considering the condition of payment of an export bounty, and applications for payment can bo made only under restrictive regulations. If the decision in the <inline font-style="italic">James</inline> case means anything at all, it means that those restrictions should not apply. I hope the Minister will give an assurance that we are not incorporating an invalid condition. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>735</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate>Victoria</electorate>
+              <party>UAP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator BRENNAN</name>
+            </talker>
+            <para>. - The Government has no such intention. The position of the Dried Fruits Board being in some doubt, &#34; a prescribed authority &#34; was substituted for that board in an earlier clause. This was done because of the decision in the <inline font-style="italic">James</inline> case, but the clause now under discussion has no relation whatever to that case. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>735</page.no>
+                <time.stamp />
+                <name.id>KS7</name.id>
+                <electorate>WESTERN AUSTRALIA</electorate>
+                <party>UAP; LP from 1944</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MACDONALD, Allan</name>
+                <name role="display">Senator ALLAN MACDONALD</name>
+              </talker>
+              <para>- This clause deals with the payment of the bounty, and that is, virtually, the whole of the bill. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>735</page.no>
+                <time.stamp />
+                <name.id>K2Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BRENNAN, Thomas</name>
+                <name role="display">Senator BRENNAN</name>
+              </talker>
+              <para>- No. The fixing of specific dates for the payment of bounties of this description <inline font-style="italic">has</inline> at times left -the Government in the position that applications were made after the closing dates, and, in some instances, notably in connexion with the fertilizer subsidy, good reasons were submitted as to why. applications had been forwarded late. Under this clause a date, is fixed, but a certain discretion is given to the Minister to extend the period for the lodging of claims, if satisfactory reasons can be given for late applications. </para>
+            </talk.start>
+          </continue>
+          <para>Clause agreed to. </para>
+          <para>Clause 7 agreed to. </para>
+          <para>Preamble and title agreed to. </para>
+          <para>Bill reported without amendment; report adopted. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>APPLE AND PEAR BOUNTY BILL (No. 2) 1936</title>
+        <page.no>735</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>735</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>735</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate>Victoria</electorate>
+              <party>UAP</party>
+              <role>Assistant Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator BRENNAN</name>
+            </talker>
+            <para>. - I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the bill be now read a second time. </para>
+          </quote>
+          <para class="block">This measure, like the similar bills with which we have been dealing, lias a background. In 1933 the Government granted the sum of &#163;125,000 to growers of apples and pears to compensate them for lossesincurred on exports for that year. This amount was made available to the States in proportion to their share in the export trade, and payment to the growers actually took the form of a bounty on each case exported. The same amount and form of assistance was granted to apple and pear-growers in respect of the 1934 season. Greatly improved prices, compared with those for 1933 and 1934, were obtained in the United Kingdom for 1935 exports. It was, therefore, considered that a reduction of the grant was justified. The Government, accordingly, granted a bounty of 4d. a case on apples and pears exported during 1935. It was anticipated that this bounty would absorb approximately &#163;80,000. The distribution of the bounty for 1935 was arranged through State authorities in accordance with section 11 of the Apple and Pear </para>
+          <para class="block">Bounty Act 1936. The amount of bounty payable in respect of each State was approximately as follows: - </para>
+          <para class="block">But the Government&#39;s assistance to the industry did not stop there, for in addition to the bounty paid to growers a sum of &#163;20,000 was made &#39;available to the Council for Scientific and Industrial Research in conjunction with State departments of agriculture for research in connexion with the production of apples and pears, and the improvement of orchard practices. The total amount of assistance granted to growers of apples and pears in respect of the year 1935 was therefore &#163;101,551. </para>
+          <para>The Government has been requested by various organizations in the industry to continue the assistance in respect of the present year. Growers, it was said had not been able to make ends meet on account of the disappointing returns from sales in the United Kingdom market. The State Fruit Board of Tasmania estimates that orchardists lost &#163;194,000 on the season&#39;s operations in that State, and claims that the mainland States suffered proportionately. </para>
+          <para>Another disturbing factor in the distribution of the apple crop overseas is the inability, because of exchange difficulties, to place a fair proportion of the crop on the German market. If. this quantity, which normally might be assessed at 1,000,000 cases, were placed on the British market in addition to the present supplies prices would further recede. The representatives of the industry claim that the problems of the industry have been attacked on every front, but a large quantity of prime fruit is still found to be an unbalancing factor in the marketing arrangements. </para>
+          <para>An examination by the Department of Commerce of the financial results of the 1936 apple export season discloses that returns fell considerably below the returns for 1935. This season&#39;s prices </para>
+          <para class="block">
+            <graphic href="151332193610010_11_1.jpg" />
+          </para>
+          <para class="block">opened well in April, but rapidly declined during the following months. It  is  difficult to calculate definitely the average drop of the amount realized  for  each case in 1936, as  compared  with 1935, but 2s. is considered a reasonable estimate. The Deputy Statistician has supplied the following figures indicating the average f .o.b. realizations  of  all  overseas  shipments of apples  from Tasmania  since 1931 : - </para>
+          <para class="block">
+            <graphic href="151332193610010_11_1.jpg" />
+          </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>736</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- None of those prices were payable. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>736</page.no>
+                <time.stamp />
+                <name.id>K2Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BRENNAN, Thomas</name>
+                <name role="display">Senator BRENNAN</name>
+              </talker>
+              <para>- Probably  the top prices were payable.  But,  undoubtedly, fruit-growers  have suffered  through the fall of overseas  prices  this year. After fully considering  the case presented by the representatives of the industry, and carefully reviewing the  position, the Government has  decided  to pay a bounty of 4&#189;d.  a bushel case to  growers in respect of  apples and pears  exported from Australia during  the year  ending the 31st December, 1936. </para>
+            </talk.start>
+          </continue>
+          <para>Exports of apples and pears  from  the Commonwealth this  year  totalled 5,508,621 cases, compared with 4,853,610 cases exported in 1935, or  an increased  export of 655,011 cases. As  a  result of the increase in export and the increase of <inline font-style="italic">id.</inline> a case in the rate of bounty, an expenditure of approximately &#163;103,287 will be involved in respect of  this  year. The amounts allocated to the States will be approximately as follows: </para>
+          <para class="block">
+            <graphic href="151332193610010_11_2.jpg" />
+          </para>
+          <para class="block">This bill, which provides for the payment of a bounty this year, is an amendment of the Apple and- Pear Bounty Act 1936, which gave legislative approval to the bounty for the year 1935. The principal amendment relates to the closing date for  applications for bounty. Provision is being made that the Minister may accept claims lodged after the due date provided he is satisfied that the circumstances warrant such action. Past experience in connexion with bills of a similar character, which fixed a rigid closing date for applications, has been that the applications of certain producers who, through unforeseen circumstances, neglected to lodge their claims within the time specified, could not be granted until further legislation had been passed to extend the date. In order to ensure that the bouncy shall be paid to growers in every case, section 6 of the principal act is to be amended to  make it clear that bounty will be paid to growers only on apples or pears exported by them, and only if the claim is certified correct by the prescribed authority within each State. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>737</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>. - It is essential that something should be said on this bill. It may be asked why a senator from Queensland should be specially interested in the arrangements for marketing fruits of the kind we have been considering this afternoon, because the figures given by the Minister in his second-reading speech show that the value of the Queensland exports of such fruits is very small; but it is necessary to say that the Labour party has a definite policy in connexion with the organized production and distribution of all essential products, and that that policy is distinct from that of honorable senators who do not belong to the Opposition. We believe that primary production in Australia is a national and essential operation, and therefore we are always ready to support without too much inquisitorial questioning the payment of bounties on primary products. Another reason why definite consideration should be given by honorable senators to bills of this description, and, incidentally, why I interest myself in the subject, is that this chamber should study these problems regardless of their effects on one State as against another State. Therefore, the representatives of the Opposition will always be found to be taking an intelligent, and, I hope, scientific interest in proposals that come before us for the encouragement of primary production in this country. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>737</page.no>
+                <time.stamp />
+                <name.id>KS7</name.id>
+                <electorate>WESTERN AUSTRALIA</electorate>
+                <party>UAP; LP from 1944</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MACDONALD, Allan</name>
+                <name role="display">Senator ALLAN MACDONALD</name>
+              </talker>
+              <para>- 1 thought the honorable senator said that we should consider this subject on other than party grounds. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>737</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- The trouble is that I find so many different opinions among honorable senators who support the Government. As the Minister stated in his second-reading speech an amount of &#163;125,000 was provided in 1934 for the encouragement of the apple and pear industry. In 1935 an amount of &#163;100,000 was provided for the same purpose, but &#163;20,000 of that sum was earmarked for certain research work in the interests of the industry by the Council for Scientific and Industrial Research. The Opposition considers that the growers of apples and pears are not being sufficiently generously treated under this measure. The amount of bounty to be paid should be much greater than that proposed, and if I thought that there was an opportunity to increase the amount, I would move an amendment to that effect. During the war when the growers of apples and pears were unable to export their product because all available shipping space was required for more important purposes, thousands of tons of good fruit was allowed to r.ot under the trees or was used as pig feed. At that time tens of thousands of families in Australia would have been glad to have used Hie fruit. Moreover, there were then thousands of men in military camps in Australia to whom the fruit should have been supplied by making transport facilities available. After the war, boom prices were realized, but a quota system was adopted &#39; which prevented the growers from exporting anything approaching the large quantities they had shipped previously. Since 1933. over &#163;18,000,000 has been devoted to the encouragement of primary production, and of that amount &#163;15,000,000 has been expended to assist the wheatgrowing industry. Of the &#163;15,000,000, &#163;12,000.000 was obtained from revenue, and &#163;3,000,000 by some form of taxation. Of the total of &#163;18,000,000, less than &#163;500,000 was used to assist those engaged in the fruit-growing industries. According  to tho statements made at a recent conference of interested parties, the growers of apples and pears should receive at least 8s. for every bushel case placed on the British market. I believe it is certain that this year the growers will lose 2s. 6d. on every case shipped overseas. Why has no attempt been made to secure a reduction of overseas freights and in that way assist the growers? On numerous occasions the Government has approached this subject in the interests of primary producers without any satisfactory result. Is it afraid to tackle the great overseas shipping interests? If we- were to ask the growers of apples and pears in those States where the largest quantity is produced what the present freight charges mean to them, they would say that they are an important factor in rendering the industry unprofitable. Prompt stops should be taken by the Government to see if freights can bc reduced. Under existing conditions the growers pay freight charges and exchange in Australia. The position is very different from what it was some years ago. \vhen the exchange rate was not so favorable to the Australian primary producers as it is to-day, the shipping companies insisted upon the paying of freight in Australia. When an endeavour was made to ascertain, the reason, their representatives said that the money was needed in Australia and not in England. Now, when the exchange rate is favorable to the producers, the shipping companies still insist on payment of freight and exchange in Australia. A deputation representing the growers of apples and pears asked the Minister to recommend to the Government a bounty of ls. a case, and had that recommendation been accepted a great deal of the difficulty now confronting the growers would have been overcome. Although I know a case of oranges contains one and a half bushels, upon which a bounty of 2s. a case is paid, I cannot understand the relationship between 2s. a case and the 4-id. a bushel case of apples and pears proposed in this bill. The fruit-growing industry employs a good deal of labour; in fact, I estimate that it employs as many as are employed in growing wheat. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>738</page.no>
+                <time.stamp />
+                <name.id>KNZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HARDY, Charles</name>
+                <name role="display">Senator Hardy</name>
+              </talker>
+              <para>-  That is only a rough guess. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>738</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I have not the official figures before me, but I should say that there are as many engaged in growing fruit as there are in growing wheat. This measure is of particular interest to Tasmania, and if I thought I could enlist the sympathy of honorable senators representing that State, I would move an amendment to increase the rate. Tasmania produces more than one-half of the total quantity of apples and pears grown in Australia. The Tasmanian Fruit Board declared that on all apples shipped overseas on consignment this year, the Tasmanian growers will lose 2s. <inline font-style="italic">id.</inline> a case. Some honorable senators opposite know of the conditions prevailing in this industry, and are aware of the fact that many of the growers not only do not receive the full reward of their industry, but also fail to make the basic wage. I put it to the Government that the bounty should be increased to at least ls. a case. As I said when I was speaking on the prune bounty, there is an immense market in Germany for apples and pears. Is the Government doing anything to secure a share of this market for Australia? Of course not. As  i3  the case, incidently, in respect of many other primary products, it is failing to do much that it could do to encourage more efficient and more profitable marketing. </para>
+            </talk.start>
+          </continue>
+          <para>In spite of what the Assistant Minister has said, I should still like to be told to whom this bounty is to be paid. It appears that the agent is to be charged with the duty of computing the amount of payment due, but, so long as the bounty is to be paid direct to the grower, I shall bo satisfied. I ask the Assistant Minister to give me an assurance on this point, because I object to the Government acting as a debt collector on behalf of any one. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>738</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator PAYNE</name>
+            </talker>
+            <para>.- As a representative for Tasmania in this chamber, I naturally take a keen interest in this measure. I am very gratified to find the Leader of the Opposition <inline font-weight="bold">(Senator Collings)</inline> so vigorously supporting the proposals it embodies for the assistance of this industry. I welcome his sup-  port, and, with him, I would have liked to see the bill provide a larger sum to aid this deserving section of our primary producers. Apple-growers, not only in Tasmania, but also on the mainland, particularly those who grow for export, have been having a very bad time this year. I. propose to speak particularly of the industry in Tasmania because 1 am familiar with its history in that State almost from the time it started exporting. A large number of people are engaged in it, and, unfortunately, during the three or four years prior to last year they had almost a disastrous time. Last year, as the Minister has pointed out, conditions improved, but figures which have been carefully checked show that unless further substantial assistance be given, many growers will have to go out of the industry. In that event we shall not be able to use the areas now devoted to orchards for any other purpose. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>739</page.no>
+                <time.stamp />
+                <name.id>KS7</name.id>
+                <electorate>WESTERN AUSTRALIA</electorate>
+                <party>UAP; LP from 1944</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MACDONALD, Allan</name>
+                <name role="display">Senator ALLAN MACDONALD</name>
+              </talker>
+              <para>- A similar argument was used in respect of sugar. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>739</page.no>
+                <time.stamp />
+                <name.id>K09</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PAYNE, Herbert</name>
+                <name role="display">Senator PAYNE</name>
+              </talker>
+              <para>- The circumstances are altogether different in this case. Honorable senators generally are aware of the fact that land which can be used effectively for orchards cannot be used to advantage for any other purpose. The largest fruit district in Tasmania to-day was once regarded, next to the rocky regions in the centre of the island, as the poorest land in the State. Yet, to-day, it has been found to be perfectly suitable for the growing of apples and pears. Furthermore, its occupation provides one of the best examples of closer settlement in the Commonwealth. I suppose that that applies equally to the industry in each State in which orchardists are engaged commercially in the production of apples and pears. The bounty proposed under this measure is 4&#189;d. acase, compared with last year&#39;s bounty of 4d. a case. With other honorable senators., I tried to have the bounty last year increased, but that move was unsuccessful, and, notwithstanding the very heavy losses suffered recently by growers, it is now proposed to increase the bounty this year by only&#189;d. a case. </para>
+            </talk.start>
+          </continue>
+          <para>Honorable senators will no doubt be interested to hear something about the industrial and commercial ramifications of this industry. In this connexion, I propose to deal only with Tasmanian figures, but I have no doubt that corresponding figures for the other States would reveal a similar position. The State Marketing Board in Tasmania, which is a very fine institution indeed, in conjunction with the Apple and Pear Export Council of Australia, has gone to much trouble to prepare a statement, which is so clear that it should convince any one who reads it of the necessity for substantial assistance to be given to this industry if it is to be preserved. This statement, which covers export transactions for the 1936 season, shows the expenditure and receipts a case in respect of 2,866,204 cases of apples and pears, as follows: - </para>
+          <para class="block">Expenditure. </para>
+          <para class="block">
+            <graphic href="151332193610010_14_0.jpg" />
+          </para>
+          <para class="block">
+            <graphic href="151332193610010_15_4.jpg" />
+          </para>
+          <para>Those details are very interesting, particularly when supplemented by the following . statement, which bears the signature of the  chairman  of the State Fruit Board of Tasmania: - </para>
+          <quote>
+            <para>To save unnecessary repetition I am giving the net f.o.b. price only, which at date works out at 2s. Od. per  case.  There are account sales covering 10 per cent, of the total shipments yet to como to hand, and these include the lowest sales of bbc season. I anticipate the final average for the season will not be more than 2s. Od. per case on a f.o.b. basis, which latter figure leaves a debit of 2s.  4&#189;d.  per case to the grower. </para>
+          </quote>
+          <para>That statement shows that growers who exported on consignment lost 2s. 4-Jd. a case, and when this figure is considered in conjunction with the total number of cases of fruit exported, as given by the Assistant Minister, honorable senators will realize the enormous losses which have been suffered in the industry. </para>
+          <para>Although I welcome this bill I deplore the fact that it does not give such substantial assistance as is needed. Nevertheless, it will be welcomed by the industry as it is some contribution towards its permanent restoration. <inline font-weight="bold">Senator Collings</inline> showed wisdom in some of his remarks Concerning efficiency in production and marketing, but I have been supplied with details &#62;by the Tasmanian Fruit Board, showing that the growers, under the supervision of the various organizations in Tasmania, have expended an enormous amount of money in bringing about more efficient production and more economical handling and marketing. The Tasmanian growers admittedly are not yet perfect, hut they have not shirked their obligation to do everything possible to improve the efficiency of the industry. After a good deal of consideration, lasting over some years, the growers have eliminated from their orchards certain varieties of apples which were not considered suitable for export, and are replacing them with better export varieties. This has involved the growers in very heavy expenditure and also in delay. A bounty of at least ls. a case is needed to place the industry on a permanent economic basis, and I hope that, after the passage of this bill, the Government will make further investigations to ascertain whether some supplementary assistance cannot be granted. The bounty now proposed is small in comparison with the enormous losses sustained by the growers last year. The previous season was good, but it recouped the growers to only a limited extent for the losses sustained in the preceding four years. Their condition is such that a larger bounty is required, and I hope that if during the current financial year the Treasury outlook is sufficiently bright, the Government will decide to provide the additional assistance that is necessary. </para>
+          <para>It is vital that the bounty should be paid to those who are entitled to it, namely, the growers, as speedily as possible. I received the following letter from the Tasmanian Fruit Board today: </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ASSISTANCE TO APPLE AND PEAR INDUSTRY</title>
+        <page.no>740</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>If the portion of the grant applicable to shipments to the United Kingdom and continental ports could be distributed as soon as possible without waiting until the 3.1st December, 1936, it would help to finance the growing crop. The final figures for that portion of the overseas exports are available now, whereas the final figures for the1 eastern trade probably won&#39;t be ready for some time. I should be much obliged if you would see ii this can be done as the position is serious. </para>
+      <para class="block">Although it may seem that this industry has received, in the aggregate, a large measure of assistance, if the amounts voted to it are compared on a percentage basis with the assistance given to other industries, it will be seen that they have not been large. I was pleased to see a bill passed to-day to continue the assistance given to . the prune industry until it is no longer needed. </para>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>741</page.no>
+            <time.stamp />
+            <name.id>KS7</name.id>
+            <electorate>WESTERN AUSTRALIA</electorate>
+            <party>UAP; LP from 1944</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MACDONALD, Allan</name>
+            <name role="display">Senator ALLAN MACDONALD</name>
+          </talker>
+          <para>- The amount voted for the assistance of that industry was reduced. </para>
+        </talk.start>
+      </interjection>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>741</page.no>
+            <time.stamp />
+            <name.id>K09</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PAYNE, Herbert</name>
+            <name role="display">Senator PAYNE</name>
+          </talker>
+          <para>- Yes, the amount was reduced; nevertheless the prunegrowers are to receive 17 per cent, of the value of their crop as a bounty, whilst the orange-growers are to receive 40 per cent, based on a local price of 5s. a case. I do not know whether my estimate of the price is too low. The bounty proposed for the apple and pear growers represents only 7-J per cent, of the value of the crop. I impress upon honorable senators that this industry is not merely a Tasmanian industry; it is well developed in five States. Should any disaster f ollow the limitation of the apple and pear bounty to 4-Jd. a case, involving a breakdown of the export trade,, an enormous number of people will bo thrown on to the labour market. That fact must carry a great deal of weight with the Government. A reliable statement of the distribution of the costs of production in the apple and pear industry is as follows: - </para>
+        </talk.start>
+        <para class="block">
+          <graphic href="151332193610010_16_5.jpg" />
+        </para>
+        <para class="block">ft will be seen, therefore, that a large proportion of the total cost of production is absorbed in labour. The Minister is in possession of the full statistics of the number of persons engaged directly and indirectly in this industry. In Tasmania alone there are 2,500 registered fruit-growers, and approximately 18,000 persons are employed either directly or indirectly in the industry. In view of the facts I have given, and in view of the desire of the Government to promote as much as possible an increase of primary production within economic limits, E hope that it will give further consideration to requests that the bounty should be considerably increased. </para>
+        <para>I join with <inline font-weight="bold">Senator Collings</inline> in his suggestion that the Government should communicate with the oversea shipping companies with a view to obtaining a reduction of freight charges for apples and pears. If the industry is forced to the wall, the business of the shipping companies will suffer greatly because of smaller cargoes, and it is, therefore, in their interests that the maintenance of the industry should be ensured. If the shipping companies could be induced by the Government to make a reduction of freight charges the Government could supplement that relief to the extent of bringing the amount of assistance given to the industry up to ls. a case. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>741</page.no>
+            <time.stamp />
+            <name.id>KS7</name.id>
+            <electorate>WESTERN AUSTRALIA</electorate>
+            <party>UAP; LP from 1944</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MACDONALD, Allan</name>
+            <name role="display">Senator ALLAN MACDONALD</name>
+          </talker>
+          <para>. - I heartily agree that on the figures quoted by <inline font-weight="bold">Senator Payne</inline> 4^d.  a case i3 not nearly enough assistance for this industry, which is of great importance to the Commonwealth. In Western Australia, the apple industry has expanded tremendously during the last twenty years, and in recent competitions overseas Western Australian apples, in their red jarrah cases, have won favorable notice. It seems alarming that sellers of apples on an f.o.b. basis obtain approximately on&#93;}7 Id. a case for their product. Orcharding is a hard job entailing work all the year round. Recently, many orchardists replanted their orchards in order to eliminate undesirable varieties, and yet, after all their labour and expense. <inline font-style="italic">ir.</inline> many instances their reward is only Id. a case. In my State, drought conditions are more severe than any experienced since the great drought of 1914. This applies particularly to the Bridgetown and the Mount Barker districts, in which the orchards are mostly situated. At Mount Barker, the residents have had to draw water supplies from an old well which had not been used for 30 years, but which played its part in the old coaching days on the route from Perth to Albany. At Bridgetown the season has also been unusually dry. Therefore, in addition to the high cost of production, and the difficulties arising from low prices, the orchardists in Western Australia have to overcome the additional handicap of a bad season. I appeal to the Government to increase the bounty. I do not say offhand that it should be ls. a case, because I am not competent to express an opinion as to the actual rate. After hearing the figures quoted by <inline font-weight="bold">Senator Payne,</inline> however, I am convinced that 4jd. is not enough. </para>
+        </talk.start>
+        <para>I commend the Government upon the provision in the bill making more elastic the conditions under which growers may apply for the bounty. It is not always possible for growers to lodge their applications by a specific date, and the amendment will be appreciated. I suggest that &#171; similar provision be inserted in respect of the fertilizers subsidy. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>742</page.no>
+            <time.stamp />
+            <name.id>KOF</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">HAYES, John</name>
+            <name role="display">Senator J B HAYES</name>
+          </talker>
+          <para>.- I associate myself with the protest made by <inline font-weight="bold">Senator Payne,</inline> who stated that a bounty of 4^d. a case was not sufficient. The bounty should be larger, and it should be made permanent. I do not propose to go over <inline font-weight="bold">Senator Payne&#39;s</inline> figures, but I can epitomize them by saying that&#34; from Tasmania last year 1.600,000 cases were exported on consignment, the average return being 2s. 6d. a case on the wharfs. It is estimated that, after picking, grading and casing the apples, it costs the growers 2s. 7-Jd. a case to put them on the wharfs. If we allow 2s. 3d. a case as a  co3t  of growing tho fruit - and I know it is difficult to arrive at a reliable estimate, due to varying conditions - it means that a loss of 2s. 4d. a case is sustained on apples exported from Tasmania on consignment. The f.o.b. sellers fare a little better. The orchardists cannot go on doing that. As a matter of fact, they are worse off than are any other primary producers in Australia. With the exception of wool, very little can be grown in Australia at the present time and exported without assistance. Sometimes that assistance is given in the form of a bounty, but more often it is in the form of a homeconsumption price. For my part, I cannot see any difference between creating a home-consumption price, and thus collecting an increased amount from the public, and paying a straightout bounty from the proceeds of taxation. In both cases the assistance comes from the public. In regard to wheat, prices are abnormal this year because of world seasonal conditions, but when they recede to their ordinary level, a homeconsumption price will be imposed in Australia. The wheat-growers have already received &#163;14,000,000 by way of special grant, butter enjoys the benefits of an equalization scheme, and the interests of dried fruit-growers are guarded by the Dried Fruits Marketing Board. I do not begrudge the producers of these commodities the benefits they receive: they cannot get along without them. The point is, however, that these methods of assistance are not available to the growers of apples and pears, which are perishable, and, therefore, not amenable in the same degree to organized marketing. Further complications are introduced by the existence of different varieties, and by having to meet different competition at the various seasons of the year. &#39; Altogether it is not practicable to establish a homeconsumption price. I maintain, however, that the growers of apples and pears are as much entitled to a -livelihood as are the growers of dried fruits. Under the dried fruits marketing scheme, it is laid down that four-fifths of the crop shall be exported, leaving one-fifth to be disposed of in Australia at an average price of &#163;17 a ton more than London parity, which represents an additional &#163;238,000 collected by the producers from tho Australian public. Thus the dried fruits producers receive special assistance from the public to the extent of &#163;238,000, while the apple and pear growers, whose industry is in many respects comparable, are to receive only &#163;100,000. Now we are told that the growers must limit exports. That means that they will have to dump an increasing quantity of apples on the Australian market. The position of the growers is going from bad to worse. Some friends of mine grubbed their apple-trees but, as <inline font-weight="bold">Senator Payne</inline> has told the Senate, the areas are not large enough, and very often the land is unsuitable for any other form of production. The position of the apple-growers in Tasmania is . extremely serious.  If  they could come under marketing regulations such as those governing other forms of production, have a marketing board and obtain a fixed price for the quantity consumed in Australia, their position, perhaps, could be improved. But they are unable to do this. Apple-growers are an essential part of the Australian population. The industry means as much to Tasmania as the wheat industry means to some of the mainland States. Applegrowing provides, or should provide, producers in Tasmania with a living. As at present the industry does not give them, a decant living, they feel that they have a claim - I use the word advisedly - on the Commonwealth Government for assistance. The suggestion made by <inline font-weight="bold">Senator Payne</inline> for a- bounty of1s. a case is not a bit too high. I do not know how the bounty was fixed at 4&#189;d.  a  case. I suggest that the Government appoint a board or commission of business men - the industry is importantenough to warrant such a course - to inquire fully into the position of the growers and recommend what would be a fair bounty for the Government to pay, having in mind the financial assistance given to other primary producers by the public in the form of home-consumption prices. I urge the appointment of a commission of business men, not because I have anything adverse to say about departmental officers, but because I think that the inquiry should be made by persons having a thorough knowledge of the industry. There is ample precedent fortius course. For years representations were made with respect to the amounts granted by the Commonwealth to the States, and finally the Government appointed the Commonwealth Grants Commission, which took evidence and obtained information that &#39; would not otherwise have been available to Parliament. The commission now makes its recommendations to the Government,- and the amounts so recommended are paid. Such a commission to inquire into the apple industry would satisfy itself about the difficulties of the orchardists, and would be in a position to recommend to the Government that a bounty should be paid, and what other measures should be adopted to stabilize the industry. I could offer some suggestions, but I am not sufficiently <inline font-style="italic">au fait</inline> with all phases of the industry to say definitely what should be done to ensure its safety. It isno exaggeration to say that the apple and pear-growers in Tasmania are worse off than any other primary producers in Australia. Last season they exported 3,000,000 cases, and for a considerable portion of the shipment the return barely covered thecost of picking, packing, freight, paper, and other incidental charges. I urge the Government to institute a full inquiry to ascertain the facts and then  do  what is fair for the growers. &#39; I  am  sure that such an inquiry would result  in  a largely-increased and permanent bounty. - </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>743</page.no>
+            <time.stamp />
+            <name.id>KMK</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GRANT, Charles</name>
+            <name role="display">Senator GRANT</name>
+          </talker>
+          <para>.- Although most  of  the speakers who preceded  me  mentioned  high  shipping freights  as  one  of  the difficulties  of  the apple-growers, they did not, in my opinion) stress sufficiently its effects  on  the industry. I doubt that many people realize what&#39; proportion of the net realizations is paid  to  the shipping companies. The figures for  1935  show that the freight  on 1,900,000  cases exported last year,  at 3s. 6d. a  case, amount  to &#163;858,050,  plus  18 per  cent.,  or  approximately 7&#189;d.  a  case for exchange.I ask leave  to  continue  my  remarks. </para>
+        </talk.start>
+        <para>Leave granted;  debate  adjourned. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>743</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SUSPENSION OF SENATE STANDING ORDER</title>
+          <page.no>743</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>743</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>NAT</party>
+              <role>Postmaster-General</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator A J McLACHLAN</name>
+            </talker>
+            <para>. - Since the third reading  of  the Wool Tax Assessment  bill  was made  an  order  of  the day for the next day  of  sitting, I have been informed that  it is  urgently necessary, for the purpose-  of  making some regulations  Under  the measure, for the third reading  to be  taken this afternoon. Neither  my  Leader nor I was apprised  of  this fact until about half  an  hour ago. I therefore ask the Senate  to  support  a  motion which I intend  to  move  to  enable  me, &#39;at a  later stage,  to  move the third reading  of  the bill. I now move - </para>
+          </talk.start>
+          <quote>
+            <para>That so much of Standing Order 134 be suspended as would prevent the moving of a motion for the rescission of the order made by the Senate this day in connexion with the date for the third reading of the Wool Tax Assessment Bill (No. 2) 1936. </para>
+          </quote>
+          <para class="block">I  move  this motion with some reluctance, but I  am  assured that, unless the third reading  of  the  hill is  carried to-day, considerable inconvenience  will be  caused to the department which desires early next week  to  promulgate regulations under the measure. </para>
+          <para>Question resolved  in  the affirmative  by&#39; an  absolute majority  of  the members  of  the Senate without any dissentient voice. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>WOOL TAX ASSESSMENT BILL (No. 2) 1936</title>
+        <page.no>744</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator A.</inline> j. MoLachlan) proposed - </para>
+      <quote>
+        <para>That the order of the Senate made this day fixing the third reading of the Wool Tax Assessment Bill (No. 2) as an order of the day for the next day of sitting he rescinded. </para>
+      </quote>
+      <para>Question resolved in the affirmative, there being at least one-half of the whole number of senators voting in favour of the motion. </para>
+      <para>Standing and Sessional Orders suspended. </para>
+      <para>Bill read a third time. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SPECIAL ADJOURNMENT</title>
+        <page.no>744</page.no>
+        <type>special adjournment</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator A.</inline> J. McLachlan) agreed to - </para>
+      <quote>
+        <para>That the Senate at its rising adjourn till Thursday next at 11 a.m. </para>
+      </quote>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>744</page.no>
+        <time.stamp>17:30:00</time.stamp>
+      </adjournmentinfo>
+      <para>Senate adjourned at 5.30 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

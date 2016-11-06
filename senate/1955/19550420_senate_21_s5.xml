@@ -1,251 +1,2088 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #010214; } body { background-image: url(/images/body-home-dusk-blurred.jpg); background-color: #010214; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1955-04-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1955-04-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1955-04-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1955-04-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1955-04-20%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1955-04-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1955-04-20%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1955-04-20/19550420_senate_21_s5.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1955-04-20</date>
+    <parliament.no>21</parliament.no>
+    <session.no>1</session.no>
+    <period.no>2</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>5</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <business.start>
+      <day.start>1955-04-20</day.start>
+      <para>The <inline font-weight="bold">President (Senator the Hon. A. M. McMullin)</inline> took the chair at 3 p.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>ASSENT TO BILLS</title>
+        <page.no>5</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Assent to the following bills reported .  - </para>
+      <quote>
+        <para>Aged Persons Homes Bill 1954. </para>
+        <para>Bankruptcy Bill 1954. </para>
+        <para>Broadcasting Bill 1954. </para>
+        <para>Cocos (Keeling). Islands (Request and Consent) Bill 1954. </para>
+        <para>Customs Tariff Validation Bill 1954. </para>
+        <para>Excise Tariff Validation Bill 1954. </para>
+        <para>Gold-mining Industry Assistance Bill 1954. </para>
+        <para>Leigh Creek North Coal-field to Marree ( Conversion to Standard Gauge) Railway Bill 1954. </para>
+        <para>River Murray Waters Bill 1954. </para>
+        <para>South-East Asia Collective Defence Treaty Bill 1954. </para>
+        <para>Stevedoring Industry Bill 1954. </para>
+        <para>Sulphuric Acid Bounty Bill 1954. </para>
+        <para>Wheat Export Charge Bill 1954. </para>
+        <para>Wheat Industry Stabilization Bill 1954. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>WATER SUPPLY STORAGE SYSTEM, CANBERRA</title>
+        <page.no>5</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Report of Public Works Committee</title>
+          <page.no>5</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5</page.no>
+              <time.stamp />
+              <name.id>JYA</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;BYRNE, Justin</name>
+              <name role="display">Senator O&#39;BYRNE</name>
+            </talker>
+            <para>- I present the report of the Public Works Committeeon the following subject :  - </para>
+          </talk.start>
+          <quote>
+            <para>Extension of the Water Supply Storage System, Canberra. </para>
+          </quote>
+          <para>Ordered to be printed. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>COMMONWEALTH AVENUE BRIDGE,. CANBERRA</title>
+        <page.no>5</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Report of Public Works Committee;</title>
+          <page.no>5</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5</page.no>
+              <time.stamp />
+              <name.id>JYA</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;BYRNE, Justin</name>
+              <name role="display">Senator O&#39;BYRNE</name>
+            </talker>
+            <para>- I present the report of the Public Works Committee on the following subject:- - </para>
+          </talk.start>
+          <quote>
+            <para>Proposed Construction at Canberra of a new bridge over the Molonglo River to replace the existing Commonwealth Avenue Bridge. </para>
+          </quote>
+          <para>Ordered to be printed. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>5</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SHARK LIVER OIL</title>
+          <page.no>5</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5</page.no>
+              <time.stamp />
+              <name.id>K4S</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SANDFORD, Charles Walter</name>
+              <name role="display">Senator SANDFORD</name>
+            </talker>
+            <para>- I wish to direct to the appropriate. Minister a question relating to the supply of shark liver oil for the manufacture of aspros. I assure him that the question has not been inspired by fear on the part of honorable senators on this side of the chamber about a shortage of that commodity. Representations have been made to me by a number of Victorian fishermen who have been, until recently, selling sharks&#39; livers, from which the oil is obtained, to Nicholas Proprietary Limited at 8s. 6d. per lb. However, the price has been recently reduced to 3s. 3d. per lb. As the oil obtained from the shark&#39;s livers is a basic ingredient in the manufacture of aspros, and as the fishermen have been advised that from the 1st May Nicholas Proprietary Limited will not be wanting any more sharkslivers, will the Minister allay the fishermen&#39;s fears that this oil may be imported from Japan, in an endeavour to reduce further the price of the local product! </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party>CP</party>
+              <role>Minister for Repatriation</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>- I should think that this question might appropriately be dealt with by the Minister for Health, and I shall obtain a suitable reply to the honorable senator&#39;s question from that Minister as early as possible. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>5</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SHIPPING</title>
+          <page.no>5</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5</page.no>
+              <time.stamp />
+              <name.id>KFW</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GUY, James Allan</name>
+              <name role="display">Senator GUY</name>
+            </talker>
+            <para>- I desire to ask the Minister for Shipping and Transport whether it is a fact that <inline font-style="italic">Taroona</inline> is the only vessel which provides a regular passenger service between the mainland of Australia and Tasmania. Is it a fact that <inline font-style="italic">Taroona is</inline> to be taken out of this service for approximately three months for general survey? Is the Minister in a position to make a statement outlining the efforts that his department has made in order to- secure a vessel to replace <inline font-style="italic">Taroona</inline> for the period during which it will be off the run ? Can he say whether the vessel will be replaced, and,, if so, when? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>5</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>LP</party>
+              <role>Minister for Shipping and Transport</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- In reply to the honorable senator, I invite his attention to the fact that a question similar to that which he has asked is numbered 4 on. the notice-paper. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6</page.no>
+                <time.stamp />
+                <name.id>KFW</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GUY, James Allan</name>
+                <name role="display">Senator Guy</name>
+              </talker>
+              <para>-  Do I understand that the Minister is not going to answer the question ? Question No. 4 on the noticepaper deals with a subsidy. It lias nothing whatever to do with the removal of <inline font-style="italic">Taroona</inline> from the service for three months nor does it relate to a replacement vessel. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>K1T</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BENN, Archibald</name>
+              <name role="display">Senator BENN</name>
+            </talker>
+            <para>- Is the Minister for Shipping and Transport aware of the present state of the shipping services&#39; between Queensland ports and Darwin? If be 13 not, will he have those services investigated with a view to ascertaining whether they are adequate and satisfactory? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>6</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLEAY</name>
+              </talker>
+              <para>- I think that the best service that has been given for twenty years is now being given there. Two modern ships are permanently on the run, one terminating its voyage in Melbourne, and the other in Brisbane. Recently, we have had requests from members of Parliament to see what could be done to lift the cargo available in Brisbane, and we have pointed out to the people interested that the best-laid plans are often upset by troubles on the waterfront. In order to get a clear picture of what is available in Brisbane or Darwin, I have made arrangements for the manager of the Australian Shipping Board to visit Brisbane shortly and confer with the interested parties. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>KOW</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENTY, Norman</name>
+              <name role="display">Senator HENTY</name>
+            </talker>
+            <para>- Will the Minister for Shipping and Transport inform me whether a decision has been reached in connexion with representations that have been made to him for the provision of a direct &#34; E &#34; class shipping service from Ulverstone to Sydney! </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>6</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLEAY</name>
+              </talker>
+              <para>- That matter has been under active consideration for some time. The latest report received from the acting manager of the Australian Shipping Board indicated thai delivery would be taken of <inline font-style="italic">Noongah</inline> this week, and that that vessel would be making a direct voyage to Burnie. As a result of the assistance provided by that ship and <inline font-style="italic">Nilpena,</inline> it is hoped that the board will be able to provide an &#34; E &#34; class shipping service from Ulverstone to Sydney. It is expected that a decision in this connexion will be reached within a few days. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>6</page.no>
+                <time.stamp />
+                <name.id>KFW</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GUY, James Allan</name>
+                <name role="display">Senator GUY</name>
+              </talker>
+              <para>- The Minister for Shipping and Transport has directed my attention to - question No. 4 on the notice-paper in the &#39; name of <inline font-weight="bold">Senator Wardlaw.</inline> Question No. 4 on the notice-paper deals with a subsidy which is payable in respect of vessels which trade between Melbourne and Launceston and requests the Minister to consider the utilization of that subsidy for i lie purchase of a vessel within two years. I asked the Minister whether he was aware that <inline font-style="italic">Taroona</inline> was the only passenger vessel trading between the mainland and Tasmania. I asked&#39; him whether he was aware that that vessel would be taken ofl the run within a few weeks for a period of three months. I wanted to know what effort he and his department had made to replace <inline font-style="italic">Taroona,</inline> not in two years&#39; time, but in three weeks&#39; time. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>6</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLEAY</name>
+              </talker>
+              <para>- For over six months it has been anticipated that <inline font-style="italic">Taroona</inline> would have to be withdrawn from service for survey. My department has made the most extensive inquiries in Australia and other parts of the world in order to ascertain whether a suitable ship could be chartered for that period. A substitute ship for the period that <inline font-weight="bold">Senator Guy</inline> has mentioned is under consideration in conjunction with the matters that were raised by <inline font-weight="bold">Senator Wardlaw</inline> and I am hopeful that it will be possible to get a suitable passenger ship to provide a service dunn? the three months  that <inline font-style="italic">Taroona</inline> will be under survey. The matter has not been finalized, but I can assure <inline font-weight="bold">Senator Guy</inline> that my department and others concerned have done their best to ensure that the people of Tasmania who wi-h <inline font-style="italic">*o</inline> travel by ship will not bo stranded.  We have experienced great difficulty in getting a ship anywhere in the world, but I hope to pull one out of the hat shortly. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6</page.no>
+              <time.stamp />
+              <name.id>KAL</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WARDLAW, Robert</name>
+              <name role="display">Senator WARDLAW</name>
+            </talker>
+            <para>asked th, Minister for Shipping and Transport, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>la it a fact that the volume of shipping between Tasmania and the nui inland is increasing? </para>
+            </item>
+            <item label="2.">
+              <para>Is it a fact that  the  Commonwealth Governnent .is  paying  an annual  subsidy  of &#163;125,000 to maintain the Bass  Strnit service  from Melbourne  to  Launceston and that this subsidy, together with any payments following the four-yearly survey next falling due this year, and in connexion with which surveys the Commonwealth Government may be asked to pay &#163;200,000, in each instance, will make an. aggregate paymentover a ten years&#39; period of approximately &#163;1,750,000? </para>
+            </item>
+            <item label="3.">
+              <para>If so, will the Government consider spend ingthis money within two years on a fast, modern passenger steamer of 5,000 to 6,000 tons register, capable of carrying in addition to passengers 100 cars and 300 tons minimum of cargo, costing in the vicinity of &#163;1,750,000. fittedas an oil-fired steamer or with diesel engines, with a minimum speed of 20 knots, and which will make the journey from Tasmania to the mainland in thirteen hours? </para>
+            </item>
+            <item label="4.">
+              <para>If this proposal is agreed to, will the Government charter the ship, on completion, to a regular shipping company to be run on efficient and proper business lines, so as to give the ultimate in service to Tasmania? </para>
+            </item>
+          </list>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>7</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLEAY</name>
+              </talker>
+              <para>- The answer to the first question is, of course, &#34; Yes &#34;. I am pleased to be able to report to the honorable senator that extra ships have been provided. According to the latest report <inline font-style="italic">i</inline> have seen, there was some difficulty in filling the last one on its voyage to the north-west coast. In reply to the honorable senator&#39;s second question, it is estimated that the subsidy paid by the Australian Government for the Bass Strait service this year will be approximately &#163;150,000, after making provision for the amount received for the carriage of mails. The honorable senator also asked whether the Government proposed to expend money on a fast passenger steamer to take the place of <inline font-style="italic">Taroona.</inline> Negotiations in connexion with that matter have taken place with various shipping companies and inquiries have been made overseas as to the cost of a suitable ship. The matter is under active consideration now, and various plans and specifications a nd costs have been considered. <inline font-weight="bold">Senator Wardlaw</inline> asked finally whether action would be taken to provide a substitute ship for the Tasmanian service while <inline font-style="italic">Taroona</inline> was undergoing its four-yearly survey. As I stated earlier in reply to <inline font-weight="bold">Senator Guy,</inline> that matter has been under consideration for at least six months. The problem is difficult, but I am hopeful that we shall be able to get a substitute ship to provide a service for Bass Strait passengers who prefer to travel by sea. These ships have to undergo a survey every four years and in view of the importance of the service to Tasmania and the high cost of running <inline font-style="italic">Taroona,</inline> the Government has decided to meet the cost of the survey. It is estimated that this will amount to &#163;130,000. Honorable senators, particularly those representing Tasmania, will appreciate thatthe Government has not been unmindful of Tasmania&#39;s problems. I believe I can say with confidence that everything that can be done in this connexion is being done. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>7</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TRACTORS</title>
+          <page.no>7</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>7</page.no>
+              <time.stamp />
+              <name.id>K0C</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>ALP; ALP (N-C) 1941-42</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARMSTRONG, John Ignatius</name>
+              <name role="display">Senator ARMSTRONG</name>
+            </talker>
+            <para>- Will the Minister for Trade and Customs kindly inform the Senate why duty is now imposed on wheel-tractors of 40 belt horsepower and over from countries other than the United Kingdom? It is understood that wheel-tractors of this class are not available for export from the United Kingdom. If this is so, it appears wrong to impose duty on these tractors which are almost exclusively used in primary industry. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>7</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party>LP</party>
+              <role>Minister for Trade and Customs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- The question of the honorable senator relates to a very important matter and I am not prepared to answer it at the moment. The honorable senator knows that the Australian. Government pays a bounty on tractors that are manufactured in Australia. Tractors which cannot be manufactured in this country are, for the most part, admitted duty free. I shall supply the honorable senator with a considered answer to his question in due course. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>7</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TAXATION</title>
+          <page.no>7</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>7</page.no>
+              <time.stamp />
+              <name.id>K2S</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ROBERTSON, Agnes</name>
+              <name role="display">Senator ROBERTSON</name>
+            </talker>
+            <para>- As a means of encouraging the investment of outside capita&#93; in the north of Australia, will the Minister for National Development request the Treasurer to reconsider propositions that were placed before him by deputations and supported byWestern Australian members of the House of Representatives and the Senate tothe effect that the whole region north of the 26th parallel should be declared a taxfree area for all wage and salary earners; and that 60 per cent. of income from all business enterprises in that area should be tax free and the remaining 40 per cent. free if invested in the north ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>7</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>LP</party>
+              <role>Minister for National Development</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- I shall convey to the Treasurer the honorable senator&#39;s request .that he should reconsider bis decision on (hat .matter. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>KSS</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MATTNER, Edward</name>
+              <name role="display">Senator MATTNER</name>
+            </talker>
+            <para>- Under existing taxation laws, donations made by primary producers to voluntary rural fire-fighting services are allowable deductions for income tax purposes. &#34;Will the Minister for National Development ask the Treasurer to make the same concession available to all donors of subscriptions to voluntary fire-fighting organizations ? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>8</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>- I shall convey the honorable senator&#39;s representations to the Treasurer and let him know the result. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>8</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BROADCASTING</title>
+          <page.no>8</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>K7Y</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">TANGNEY, Dorothy</name>
+              <name role="display">Senator TANGNEY</name>
+            </talker>
+            <para>- I desire to ask the Minister for Repatriation whether it is a fact that &#34; live &#34; broadcasts of the children&#39;s session of the air are to be discontinued in Western Australia and that programmes from the eastern States will replace them. Is it also a fact that the &#34;Western Australian session of the Kindergarten of the Air from the Perth studios is also to be discontinued and replaced by recorded programmes from studios in eastern States? Is it not also a fact that the kindergarten sessions were originated in the Perth studios and that they have reached a very high standard over the years? In -view of the widespread discontent that is being felt in Western Australia, not only at the prospect of the unemployment of local artists, but also because of the danger of a deterioration in programme standards, will the Minister investigate this matter with a view to re-establishing these .programmes in Western Australia? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate />
+              <party>CP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>- I am afraid I am not able to answer the honorable senator&#39;s question right away, but I assure her that I will bring her question to the notice of the Postmaster-General, obtain a considered reply, and let her have it as soon as possible. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>8</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CRAYFISH TAILS</title>
+          <page.no>8</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>K5K</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SCOTT, Malcolm</name>
+              <name role="display">Senator SCOTT</name>
+            </talker>
+            <para>- Can the Minister for Shipping and Transport say whether it is a fact that a large quantity of crayfish tails- is awaiting &#39;shipment from Western Australia? If the answer is in the affirmative, can the Minister also say what action the Government has taken to provide transport to America for this important dollar-earning .commodity? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- I;am pleased to be able to report to the Senate that arrangements have been made for the <inline font-style="italic">City of Canberra</inline> to take 11,000 cases, which should relieve considerably the position in Western Australia. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>8</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>WHEAT</title>
+          <page.no>8</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>K0L</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARSON, Rex</name>
+              <name role="display">Senator PEARSON</name>
+            </talker>
+            <para>--Can the Minister representing the Minister for Commerce and Agriculture give the Senate any information regarding the volume of sales of wheat already made from the 1953-54 pool, or regarding sales which are likely to be made in the foreseeable future? If he is not in a position at the moment to supply such figures, will he endeavour to obtain that information for me? Can he also indicate when further payment to growers may be expected in respect of wheat supplied to the 1953-54 pool? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- I .shall be pleased to get that information for the honorable senator. To enable me to obtain the most up-to-date information, I suggest that the honorable senator place his question on the notice-paper. If he does not desire to do that, I shall confer with my colleague and get the information for him. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>8</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>POLIOMYELITIS</title>
+          <page.no>8</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>JYA</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;BYRNE, Justin</name>
+              <name role="display">Senator O&#39;BYRNE</name>
+            </talker>
+            <para>- I point out to the Minister representing the Minister for Health that on the 16th .September, 1953, in answer to a question relating to the mass vaccination of children against poliomyelitis in the United States of America, the Minister informed me that a medical officer had been detached from the Commonwealth Serum Laboratories to undertake research and to study production technique of poliomyelitis vaccine in the United .States of America. Has the Minister seen a report by <inline font-weight="bold">Dr. Jonas</inline> Salk, discoverer of the successful antipoliomyelitis vaccine, in which he said. &#34; I am amazed to learn that your country has not begun full-scale production of my vaccine. You have had all the details of &#39;how to produce it for a &#39;long time. in fact, your country has been the first one in the world to have this information and has had&#39; continuous up-to-date progress reports on our experimental work and successes &#34;. I ask the Minister why we are told now that the Department of Health expects a delay of up to twelve months in the manufacture of this vaccine in Australia. Is it because the private enterprise drug houses wish to get a monopoly of its production ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>9</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate />
+              <party>CP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>- &#39;Appreciating the degree of publicity that <inline font-weight="bold">Dr.</inline> Salk&#39;s  poliomyelitis vaccine had received throughout the Commonwealth, and anticipating questions such as that asked by the honorable senator, I took the opportunity to obtain from the Minister for Health a considered report of just what had taken place. Therefore, with the permission of the Senate, I shall read a statement about what has been done by the Government and the Minister for Health in  connexion  with the production of poliomyelitis vaccine - </para>
+          </talk.start>
+          <quote>
+            <para>In November, .1952, arrangements were made for <inline font-weight="bold">Dr. Bazeley,</inline> an officer of the Commonwealth Serum Laboratories, to join <inline font-weight="bold">Dr. Salk</inline> at the Pittsburgh University with the express object of working on a poliomyelitis vaccine. </para>
+            <para>At that time, the firm arrangement was made that when the vaccine was developed <inline font-weight="bold">Dr. Bazeley</inline> would return to the Commonwealth Serum Laboratories and make all his experience and knowledge available at the Serum Laboratories to produce a vaccine. The work at Pittsburgh has been closely followed by the Commonwealth Serum Laboratories and, in fact, the know-how has been followed in experimental processes at the Commonwealth Serum Laboratories. Small batches of the Salk vaccine have actually been produced there on an experimental basis. </para>
+            <para>When the work began to show promise, all the initial steps necessary were taken to plan yie supply of the necessary monkeys, chemicals, plant, laboratory and other facilities in Australia so that, if the large-scale trials being carried out in America were successful, production would be put in hand in Australia as quickly as possible. </para>
+            <para>When the final results were announced by Or. Francis at Ann Arbor last week, the Government authorized the implementation of the plans which had been prepared for mass producing the vaccine. Already <inline font-weight="bold">Dr. Bazeley</inline> had drawn up- a full list of laboratory equipment and. supplies, and this list has been authorized, for procurement in the United States for immediate despatch to Australia. Sufficient monkeys to initiate the work are actually on the water, and when <inline font-weight="bold">Dr. Bazeley</inline> arrives here wo- will have adequate, supplies of monkeys for him to commence work. The major buildings to house the plant and equipment are being provided on a priority basis. </para>
+            <para>With all these arrangements well in hand, the production of the vaccine on a fairly large scale at the Commonwealth Serum Laboratories is assured, not only with the minimum delay but under the expert and experienced direction of an officer of the Commonwealth Serum Laboratories who has been intimately associated with all <inline font-weight="bold">Dr. Salk&#39;s</inline> work. </para>
+            <para>In the meantime, it may be possible to obtain some supplies of the vaccine from the United States manufacturers. As soon as the announcement was made of the success of the vaccine, arrangements were made for a meeting of representatives of the six United States firms known to be producing this vaccine with thu Commonwealth representatives in Sydney on Friday, the 22nd April, to ascertain &#34;what supplies could be obtained and when these supplies could be made available. This was necessary because of reports that the United States Government had placed an embargo on the export of this vaccine. </para>
+            <para>Because of the problem that is created by limited supplies in the initial stages, it will be necessary to determine the proper use of whatever vaccine is available and, therefore, the Minister for Health has referred this question to the National Health .and Medical Research Council for its consideration and advice. </para>
+            <para>In addition, official representations have been made on a government-to-government level to Washington for the maximum available quantity of the vaccine to be made available to Australia. In reply to these representations, we have been informed that the United States Department of Commerce will not make any decision available regarding export for some time yet. In the meantime, we are continuing our representations in the hope that some subsequent quantities might become available. </para>
+            <para>It will, therefore, be seen that all the initial steps necessary to obtain whatever quantities ace- available- from the United States have been taken and that for two and a half years the Government has been working towards mass producing a successful poliomyelitis vaccine at the Commonwealth Serum Laboratories. </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>9</page.no>
+              <time.stamp />
+              <name.id>KNR</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HANNAFORD, Douglas</name>
+              <name role="display">Senator HANNAFORD</name>
+            </talker>
+            <para>- I desire to direct a question to the Minister repre*  senting  the Minister for Health with reference to the importation of Rhesus monkeys for the preparation of poliomyelitis vaccine. According to a recent press report, both England and America import monkeys by air. However., the- Australian quarantine authorities insist on their importation by sea,, because they are delicate animals and there, might, be a risk of the introduction of disease to this country if infected monkeys were brought here by air. As this; difficulty has been apparently overcome by the British and American authorities, will the Government consider modifying our quarantine requirements in connexion with monkeys in order to obviate the considerable wastage that takes place in sea transport, and thus reduce the ultimate cost to the authorities of the preparation of anti-poliomyelitis vaccine? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>10</page.no>
+                <time.stamp />
+                <name.id>JQP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COOPER, Walter</name>
+                <name role="display">Senator COOPER</name>
+              </talker>
+              <para>- I shall be very pleased to direct the attention of the Minister for Health to the honorable senator&#39;s question, and request that a reply be furnished as early as possible. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>- In view of the heavy taxation that is being imposed in order to provide a national health scheme, will the Government give consideration to the provision of free anti-poliomyelitis vaccine, and free medical attention in that connexion when supplies of the vaccine are available in this country? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>10</page.no>
+                <time.stamp />
+                <name.id>JQP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COOPER, Walter</name>
+                <name role="display">Senator COOPER</name>
+              </talker>
+              <para>- I shall be very pleased to direct the attention of the Minister for Health to the honorable senator&#39;s question, and I am quite sure that he will give it full consideration. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>10</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>AERO- ASIAN CONFERENCE</title>
+          <page.no>10</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>K2A</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>CP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">RANKIN, George</name>
+              <name role="display">Senator GEORGE RANKIN</name>
+            </talker>
+            <para>- I ask the Minister representing the Prime Minister whether he will urge the Government to ensure that the Afro-Asian conference shall be notified that <inline font-weight="bold">Dr. Burton</inline> does not represent the Government of the Commonwealth of Australia or any section of the Australian people except a small, traitorous fellow-traveller minority. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- I shall place the honorable senator&#39;s remarks before the Prime Minister. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>10</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>OVERSEAS TRADE</title>
+          <page.no>10</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>JSB</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRITCHLEY, John</name>
+              <name role="display">Senator CRITCHLEY</name>
+            </talker>
+            <para>- According to reports in the Australian press, much of the time of Ministers who recently made trips overseas was taken up in trying to secure increased markets for Australian primary products. Is the Minister representing the Minister for Commerce and Agriculture in a position to state the result of these overseas deliberations? Can Australian primary producers rest assured that there will be increased over seas markets for commodities such as dried fruits, dairy produce, and wine? Quite a lot of publicity has been given to the activities of Australian Ministers overseas, and I am sure that any information that can be made available on this subject will be of value to the Senate. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- I think all honorable senators are aware of the increased difficulty that Australia is experiencing in maintaining its overseas markets. The change from government-to-government trading to the old trader-to-trader basis has caused new problems. During my recent visit to Great Britain, I made it my business to concentrate mainly on discussions with representatives of boards representing the wheat and wine and other industries. I also took the opportunity at Edinburgh, Glasgow, Liverpool, Bristol and London to hold conferences with the buyers and distributors of Australian products. As honorable senators are no doubt aware, there has been a decline of the volume and the price of many Australian primary exports. 1 assure <inline font-weight="bold">Senator Critchley</inline> that the Department of Commerce and Agriculture, and Australian trade commissioners in various parts of the world, are doing their best to meet the situation. I am not unmindful of the fact that substantial surpluses of certain products exist, particularly in the United States of America, and that the problem has been accentuated by the decision of the British Ministry of Food to unload reserve stocks. The result is that there axe surpluses of certain commodities where previously there were shortages. I am pleased to be able to say, however, that the selling organizations, in some instances, have surprised even themselves by the amount of goods they have been able to sell. There has been a great improvement in the economy of the United Kingdom, and, for instance, in ten days, distributors were able to sell no less than &#163;A.12,500,000 worth of canned fruits. I believe that when the surpluses have been disposed of - that may take most of 1955 to accomplish - Australia will once more enjoy an expanding market for its primary products. However, we must be prepared to stand up to reduced prices, and that may cause certain difficulties. From time to time, the Minister for Commerce and Agriculture and I will make statements in connexion with particular commodities. </para>
+          </talk.start>
+          <para>
+            <inline font-weight="bold">Senator Critchley</inline>referred particularly r,o the wine industry. I am sorry to Iia ve to state that sales of Australian wines to the United Kingdom fell from 3,000,000 gallons a year to 750,000 gallons last year. That was due largely to a very substantial increase of duty on Australian wine. The duty was increased from. 4s. a gallon to 40s. a gallon. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>11</page.no>
+                <time.stamp />
+                <name.id>KBC</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WILLESEE, Don</name>
+                <name role="display">Senator Willesee</name>
+              </talker>
+              <para>- But that applies to other countries also. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>11</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLEAY</name>
+              </talker>
+              <para>- The increase did extend to foreign countries, but it has had a disastrous effect on our trade. The Minister for Commerce and Agriculture and other Ministers took the opportunity while overseas to stress again the importance of this industry to Australia and the disastrous effect that the increase of duty has had on sales. </para>
+            </talk.start>
+          </continue>
+          <para class="italic">
+            <inline font-style="italic">Later:</inline>
+          </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>11</page.no>
+              <time.stamp />
+              <name.id>KQQ</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LAUGHT, Keith</name>
+              <name role="display">Senator LAUGHT</name>
+            </talker>
+            <para>- I direct a question to the Minister for Shipping and Transport in the light of his answer to <inline font-weight="bold">Senator Critchley&#39;s</inline> question. If the Minister makes a statement concerning his recent observations abroad, will he deal particularly with the question of the export at competitive prices of Australian manufactured products to the Asian countries lying to the north of Australia? </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>11</page.no>
+                <time.stamp />
+                <name.id>JQN</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COOKE, Joseph</name>
+                <name role="display">Senator Cooke</name>
+              </talker>
+              <para>- The Minister did not have time to look into that matter. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>11</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- At the instigation of the Prime Minister, the Cabinet appointed me associate Minister for Commerce and Agriculture. Since then I have been concentrating on the question of trade promotion. Two trade missions have been organized - one to Africa and the other to Asian countries. We have a trade arrangement with Djakarta. New trade commissioners have been appointed in Africa and other parts. Wherever I had an opportunity - and I did in practically all of the main ports when going to and from London - I discussed these problems with our trade commissioners. It is evident that we are now living in a very competitive world. Germany, Japan and Italy are coming right into the picture and competition is very keen. During the period that the world was suffering from shortages, the Australian manufacturing industry was able to make good sales in various countries, particularly those near Australia. However, highly competitive conditions which now exist, combined with the high costs in Australia, have made the position very difficult. It was brought home to me by the various trade commissioners that both employers and employees in this country have a job to do, if we are to expand our prims ry and secondary production. 1 think that we can do it, but the competition is going to be very keen. From time to time I shall be pleased to make available to the Senate statements of what has been and what is being done and the extent to which our trade with various countries has increased or fallen off. The reports of the trade missions were excellent, but dow the high costs in Australia are making the position very difficult for everybody. That is the real problem thai we have to solve. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>11</page.no>
+              <time.stamp />
+              <name.id>K5T</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SEWARD, Harrie</name>
+              <name role="display">Senator SEWARD</name>
+            </talker>
+            <para>- I desire to ask the Minister for Shipping and Transport whether any report has been received by the Government from the trade and business delegation which visited the countries to the north of Australia towards the end of last year. If such a report has been received, will the Minister make it available to honorable senators? If no such report Las been received, will the Minister obi a in one and make it available to honorable senators ? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>11</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLEAY</name>
+              </talker>
+              <para>- I understand that a report has been received and that the matter is being handled by the Minister for Commerce and Agriculture. I shall ascertain whether a. copy of the report is available. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>11</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TELEVISION</title>
+          <page.no>11</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>11</page.no>
+              <time.stamp />
+              <name.id>KH5</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GORTON, John</name>
+              <name role="display">Senator GORTON</name>
+            </talker>
+            <para>- Can the Minister for Trade and Customs say whether it is intended to print and circulate among members of Parliament the report recently made by the board which has been investigating the issue of television licences in this country? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- At the moment I am not aware of the intention of the Government in this matter, but I shall ascertain the position and let the honorable senator know. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>JYA</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;BYRNE, Justin</name>
+              <name role="display">Senator O&#39;BYRNE</name>
+            </talker>
+            <para>- I remind the Minister for Trade and Customs that I was in the United States of America about eighteen months ago when he was in that country, and I had the good fortune on that occasion to have a conversation with technicians of the Telecommunications Division. They advised me to make sure, when it was decided to introduce television into Australia, that the people were not sold black and white television sets but were provided with colour television sets. Will the Minister assure me that colour television sets will be provided for the Australian public and that the PostmasterGeneral&#39;s Department will be suitably instructed in relation to the provision, of. television services? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>12</page.no>
+                <time.stamp />
+                <name.id>JZI</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">O&#39;SULLIVAN, Neil</name>
+                <name role="display">Senator O&#39;SULLIVAN</name>
+              </talker>
+              <para>- I shall bring the honorable senator&#39;s question to .the notice of the Postmaster-General. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>12</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>REPATRIATION</title>
+          <page.no>12</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>JQN</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOKE, Joseph</name>
+              <name role="display">Senator COOKE</name>
+            </talker>
+            <para>- Can the Minister for Repatriation explain the position of members of the permanent forces who have  received  their discharges after having served overseas and have applied for rehabilitation under the Reestablishment and Employment Act ? In many cases the period of two years following, their return to Australia has elapsed, and therefore they are not entitled to rehabilitation. Will the Minister give consideration to extending the provisions of the act to provide benefits to members of the Navy, the Air Force and the Army who come within this category? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate />
+              <party>CP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>- I take it that the honorable senator&#39;s question relates to the rehabilitation of ex-service men and women. In respect of men who served in the war of 1939-45 there was a period of five years after their discharge, or in certain instances a special time, in which they were- entitled to certain benefits. Similar arrangements have been made in respect of men who served in Korea and Malaya. I understand! the honorable senator&#39;s question to relate to men who have made a career of the Army and have served overseas, and continue in the Army until they have completed their career, and then desire to obtain rehabilitation benefits. Is that the position ? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>12</page.no>
+                <time.stamp />
+                <name.id>JQN</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COOKE, Joseph</name>
+                <name role="display">Senator COOKE</name>
+              </talker>
+              <para>- Not .exactly. Certain members of the permanent forcer who served overseas and were discharged in Australia within two years of the cessation of fighting were entitled to rehabilitation benefits, but others with similar service who served under a contract extending beyond two years are excluded from those benefits. There is a distinct anomaly in the treatment of  these  two classes of ex-servicemen. .1 desire to know whether the  Government  is prepared to recognize that a man who served overseas, and desires rehabilitation on his return to Australia but is prevented from obtaining it by reason of h contract entered into, will be able to enjoy those benefits on the expiration of his period of service? </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>12</page.no>
+                <time.stamp />
+                <name.id>JQP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COOPER, Walter</name>
+                <name role="display">Senator COOPER</name>
+              </talker>
+              <para>- I shall look. int.. the matter raised by the honorable senator, and if there is an anomaly I shall see what can be done to remedy th, position. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>12</page.no>
+                <time.stamp />
+                <name.id>JQP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COOPER, Walter</name>
+                <name role="display">Senator COOPER</name>
+              </talker>
+              <para>- On the 4th November last, <inline font-weight="bold">Senator Sandford</inline> asked the following questions, <inline font-style="italic">upon notice: - &#60;L</inline> What is the number of .staff .employed at the Repatriation General Hospital, Heidelberg, and what is the number of the approved establishment? </para>
+            </talk.start>
+          </continue>
+          <list type="decimal-dotted">
+            <item label="2.">
+              <para>Is there any shortage of nursing staff: if so, to what extents </para>
+            </item>
+            <item label="3.">
+              <para>What was the total number of hours of overtime worked by the staff at this hospital during the years 1931-52, 1952-53 and 1953-54? </para>
+            </item>
+            <item label="4.">
+              <para>What was the total amount paid in overtime to officers and employees of the hospital during 1953-54? </para>
+            </item>
+            <item label="5.">
+              <para>What was the reason for withdrawing free bus transport for the staff between Melbourne and the hospital? 6-. How often was &#34; free &#39;bus transport &#34; featured in advertisements, seeking -staff in the last six years? </para>
+            </item>
+            <item label="7.">
+              <para>How many wards have been closed during 1954; and if any were closed, what were the reasons ? </para>
+            </item>
+          </list>
+          <para>The following are answers to the honorable senator&#39;s questions : - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>On the 31st October, 1954, the total number of employees at  Repatriation  General Hospital, Heidelberg, was 1,234; the ceiling establishment, for Heidelberg &#60;at that date wa&#171; 1,266. </para>
+            </item>
+            <item label="2.">
+              <para>The establishment for nursing stait&#39; is 40 Senior Sisters and 204 Sisters. On the 31st October, 1954, the numbers employed were respectively 38 and 173, the deficiency being two Senior Sisters and 31 Sisters. </para>
+              <list type="upperalpha-dotted">
+                <item label="I.">
+                  <para>
+                    <inline font-style="italic">The total</inline>number of hours of overtime worked at the Heidelberg Hospital were - 1951-52, 78,746; 1.952-53, 02,080; 1953-54, 67,759. </para>
+                </item>
+              </list>
+            </item>
+            <item label="4.">
+              <para>The total amount paid in overtime during the year 1953-54 was 35,714. </para>
+            </item>
+            <item label="5.">
+              <para>The reason for -withdrawing bus transport was conveyed to the honorable senator on At&#93; November, 1954, when I wrote - </para>
+            </item>
+          </list>
+          <para>As previously stated I have given consideration to this matter and have found that the cost of the service, which was a charge against public funds, is not warranted in view of the adequate transport facilities which exist in relation to the institution. </para>
+          <para>Similar bus services do not operate at other Repatriation General Hospitals in Australia, some of which are situated as far a-way from the centre of the respective State capital cities, or farther, than is the Repatriation General Hospital, Heidelberg, and there is no longer justification for a special departmental bus service at Heidelberg. </para>
+          <list type="decimal-dotted">
+            <item label="6.">
+              <para>It is not possible to ascertain how often &#34; free bus transport &#34; has been featured in advertisements in the last six years. Records of advertisements, particularly advertising temporary employment, are not kept for any length of time. However, bus transport between the hospital and Melbourne was featured in advertisements for staff, nursing and other varieties, over the past six years up to and including March of this year. -No advertisement of this facility was made during the seven months prior to discontinuance of the bus service.. 7.. Wards are opened or closed at all Repatriation General Hospitals, according to the number of patients requiring in-patient treatment, and- the numbers of nursing staff available for their care. </para>
+            </item>
+          </list>
+          <para>At Repatriation General Hospital, Heidelberg, in January of this year, there were 2.-1 wards open. This number increased in July to 28 but has now decreased to 25. </para>
+          <para>For some years- there has been a shortage of trained nursing staff throughout the community which has affected all hospitals including those administered by the Repatriation Department. </para>
+          <para>Although wards have been closed over the past few. months at. Heidelberg, it will be seen, that there, is now one more open than there was at the beginning, of the year. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>13</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>NATIONAL- SERVICE</title>
+          <page.no>13</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>13</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator AYLETT</name>
+            </talker>
+            <para>- My question, which is directed to the Minister representing; the Minister for Labour and National Service,, refers to trades apprentices who are called up for &#34;National </para>
+          </talk.start>
+          <para class="block">Service training. Will the Minister inform me whether it is compulsory for apprentices, at the end of their original apprenticeship period, to serve a period equivalent to the period of their .National Service training? </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>13</page.no>
+              <time.stamp />
+              <name.id>K6Z</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>LP</party>
+              <role>Attorney-General</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPICER, John</name>
+              <name role="display">Senator SPICER</name>
+            </talker>
+            <para>- Offhand I should have thought that the apprentice would have to serve the full period of his apprenticeship, whatever it may be. I know of nothing that would  relieve  him of that obligation. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>13</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator Aylett</name>
+              </talker>
+              <para>- What would be thu position in respect of his period of National Service training? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>13</page.no>
+                <time.stamp />
+                <name.id>K6Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPICER, John</name>
+                <name role="display">Senator SPICER</name>
+              </talker>
+              <para>- I assume that the honorable senator refers to the case of an apprentice who has entered into an agreement to serve for a term and during that term is called away to render service as a National Service trainee. As I have said, offhand I know of nothing that counts that as part of his apprenticeship period. However, I shall make inquiries and see if there is anything in the point that the honorable senator has raised. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>13</page.no>
+              <time.stamp />
+              <name.id>K3I</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">RYAN, John</name>
+              <name role="display">Senator RYAN</name>
+            </talker>
+            <para>asked the Minister representing the Minister for the Army, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Is the Minister yet  in  a position to furnish further particulars relating to the delay in meeting the compensation claim of a national service trainee named Luxton with respect to his illness in Dawes-road Repatriation Hospital, South Australia, which illness was contracted at Woodside Military Camp? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>13</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- The Minister for the Army has now supplied the following information : - </para>
+          </talk.start>
+          <quote>
+            <para>A reply to the earlier representations by the honorable senator on behalf of Private F. S. Luxton was furnished to him in my letter, dated 22nd  February,  1955. The position in this case i? flint the complete file,  including  medical evidence, was forwarded to the delegate of the Commissioner for Employees&#39; Compensation who, in accordance with his powers under  the  relevant legislation, decided that the onus of proof bad not been discharged bv the claimant and accordingly the claim hadbeen disallowed. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>13</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>AUSTRALIAN CONSTITUTION</title>
+          <page.no>13</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>13</page.no>
+              <time.stamp />
+              <name.id>KBW</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WRIGHT, Reginald</name>
+              <name role="display">Senator WRIGHT</name>
+            </talker>
+            <para>- Wilt the Attorney-General inform the Senate of the stage that has- been reached in con.nexion with the proposed appointment of a committee to undertake a review of the Constitution? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>14</page.no>
+              <time.stamp />
+              <name.id>K6Z</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPICER, John</name>
+              <name role="display">Senator SPICER</name>
+            </talker>
+            <para>- I am afraid that all I can do is to consult the Prime Minister on the matter. I shall let the honorable senator know the result in due course. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>14</page.no>
+              <time.stamp />
+              <name.id>KTN</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCKENNA, Nicholas</name>
+              <name role="display">Senator McKENNA</name>
+            </talker>
+            <para>- Will the Attorney-General, when he is carrying out the undertaking given to <inline font-weight="bold">Senator Wright,</inline> direct the attention of the Prime Minister to a report that appeared in the press on the 11th January last, wherein the Prime Minister is reported as having stated, on the previous day, that legislation to appoint such a committee would be introduced in the next session of Parliament, probably in April? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>14</page.no>
+                <time.stamp />
+                <name.id>K6Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPICER, John</name>
+                <name role="display">Senator SPICER</name>
+              </talker>
+              <para>- I have no doubt, if that report is correct, that that statement is in the mind of the Prime Minister, but I shall direct his attention to it. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>14</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>MEAT</title>
+          <page.no>14</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>14</page.no>
+              <time.stamp />
+              <name.id>JZY</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PALTRIDGE, Shane</name>
+              <name role="display">Senator PALTRIDGE</name>
+            </talker>
+            <para>- Will the Minister representing the Minister for Commerce and Agriculture inform the Senate whether the committee which was appointed to inquire into the possibility of transporting beef by air from northern Australia has presented a report to the Government ? If so, when will the report be tabled? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>14</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- =1 shall refer the honorable senator&#39;s question to the Ministor for Commerce and Agriculture and obtain a reply for him. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>14</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ELECTRIC POWER</title>
+          <page.no>14</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>14</page.no>
+              <time.stamp />
+              <name.id>KMN</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GRANT, Donald</name>
+              <name role="display">Senator GRANT</name>
+            </talker>
+            <para>- Has the Minister for National Development discussed with the appropriate scientific authorities the possibility of using nuclear generating units in connexion with hydro-electric power? If the Minister has not discussed this subject will he refer it to those who are in charge of the Snowy Mountains hydro-electric scheme for consideration ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>14</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- <inline font-weight="bold">Senator Grant</inline> has raised a very wide subject which has been under fairly constant consideration by those who are charged with the generation of electricity. The question concerns technical problems, but I shall give the answer as a layman and trust that I shall not offend my technical officers in doing so. The present consensus of thought amongst those who are charged with the generation of electric power is that when atomic power can be used for industrial purposes, which will not be in the immediate future in Australia, by and large, atomic power stations will replace thermal power stations. By and large, hydro-electric power stations produce what is termed &#34; peak-load power Thermal stations produce what is termed &#34; base-load power &#34;. The present view of the professional people concerned is that the hydro-electric power stations, which now produce peak-load power, will continue to produce that peak-load power and that the atomic power stations will produce base-load power. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>14</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ROYAL AUSTRALIAN NAVY</title>
+          <page.no>14</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>14</page.no>
+              <time.stamp />
+              <name.id>KSN</name.id>
+              <electorate>TASMANIA</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MARRIOTT, John</name>
+              <name role="display">Senator MARRIOTT</name>
+            </talker>
+            <para>- I desire to remind the Minister for National Development that it is an acknowledged fact that the reputation of the Royal Australian Navy and the trust of the people in the Navy are enhanced considerably by courtesy visits by units of the Australian fleet to Australian ports. In view of the fact that, as a  result  of the Government&#39;s policy, the Royal Australian Navy will shortly receive one of the latest and most powerful aircraft carriers, will the Minister for National Development urge the Minister for the Navy, within the limits of operational and training requirements, to arrange visits to capital city ports of the new aircraft carrier as soon as possible after the arrival of this ship in Australian waters? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>14</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- I shall be very glad to bring the suggestion of the honorable senator before the Minister for the Navy. I can see very great value in the proposal. Whether it can be executed within the limits of the real work of the aircraft carrier is another matter. Unfortunately, in the world in which we live, carriers are not only ornamental. They have a job to do. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>14</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SUGAR</title>
+          <page.no>14</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>14</page.no>
+              <time.stamp />
+              <name.id>KBW</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WRIGHT, Reginald</name>
+              <name role="display">Senator WRIGHT</name>
+            </talker>
+            <para>- Will the Minister for Trade and Customs state whether it is a fact that the present sugar agreement is due to expire  in  1956 ? Have negotiations for the renewal of the agreement been commenced? If not, when is it likely that negotiations will be commenced ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>15</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- The renewal of the agreement over the years generally is negotiated by the Premier and the Prime Minister, some time before the date of expiry. I am not aware that any negotiations have yet been opened in regard to it. No doubt they will be, and when they are, and if I have anything to say, T shall let the honorable senator know. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>15</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BERRY FRUITS</title>
+          <page.no>15</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>15</page.no>
+              <time.stamp />
+              <name.id>KBW</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WRIGHT, Reginald</name>
+              <name role="display">Senator WRIGHT</name>
+            </talker>
+            <para>- I expect that it has come to the notice of the Minister representing the Minister for Commerce and Agriculture that, despite the pessimistic predictions with regard to last season&#39;s market for berry fruits, the price yielded by the market rose, towards the end of the season, to lOd. and ls. per lb., although the Fruit Industry Sugar Concession Committee took the responsibility of basing its minimum price, for the purpose of sugar rebate, on 7d. per lb., and although the numerous trade agencies of the Department of Commerce and Agriculture had reported that there were no markets for these fruits. I ask the Minister whether he has arranged for a report, to be furnished concerning the surprising result of the market, and whether he is in a position to make the results of that report available to the Senate as an explanation of the difference between the forecast and the results. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>15</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- I have had an opportunity to read that report. Of course, it conveys very good news. The reason for the sudden change was a short crop in Canada. If I remember correctly, the report stated that a contract had been let at a satisfactory price to a British firm, but as Canada was in such desperate need of this fruit, it was prepared to take all that was available at a higher price, and our friends in the United Kingdom agreed to release us from that obligation this year. That is, perhaps, one of the bright spots. It was brought about very largely by the short crop in Canada. The other questions raised by the honorable senator are now being investigated by the department, and I shall be pleased to give him a departmental report setting out the whole position and the prospects for next year. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>15</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>LIQUOR FOR RUSSIAN EMBASSY</title>
+          <page.no>15</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>15</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- On the 11th November last, <inline font-weight="bold">Senator Grant</inline> asked the following questions : - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Has the attention of the Minister been drawn to the serious allegations made by the honorable member for East Sydney, in another place, regarding the black-marketing of Scotch whisky, imported duty free through the Soviet Embassy? </para>
+            </item>
+            <item label="2.">
+              <para>Is the Minister in a position to furnish information as to whether the supplies of Scotch whisky, imported through the Soviet Embassy, have been abnormal during recent years? </para>
+            </item>
+            <item label="3.">
+              <para>Will the Minister have this matter immediately and thoroughly investigated? </para>
+            </item>
+          </list>
+          <para>The following answers are now supplied : - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. </para>
+            </item>
+            <item label="2.">
+              <para>No. </para>
+            </item>
+            <item label="3.">
+              <para>The matter has been investigated and the result of the investigation is at present under consideration. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>15</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>MARKHAM RIVER BRIDGE</title>
+          <page.no>15</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>15</page.no>
+              <time.stamp />
+              <name.id>K1T</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BENN, Archibald</name>
+              <name role="display">Senator BENN</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Territories, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>What is the estimated cost of the bridge now being constructed across the Markham  River  and is it being built of wood, steel or concrete? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>15</page.no>
+              <time.stamp />
+              <name.id>K6Z</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPICER, John</name>
+              <name role="display">Senator SPICER</name>
+            </talker>
+            <para>- The following is the answer to the honorable senator&#39;s question : - </para>
+          </talk.start>
+          <quote>
+            <para>The total cost of construction of the Markham River bridge, including a 2-i-mile access road from the north end of the bridge to the Nadzab Road, and expenditure on reinforcement of the river banks, is &#163;300,000. The bridge is of timber and steel construction, timber being used for decking, running plank, and intermediate pier construction, and steel for the piers at each end of the bridge and for the remaining sections of the superstructure. The Markham River is the third largest _ river in New Guinea, and the bridge, which is located at a point approximately&#39; 8 miles from the mouth of the river, is l!f&#62;00 feet in length, consisting of seventeen steel spans of Bailey bridging. The bridge is 10 miles from Lae and SB miles from Wau. It forms an important link in thu road from Lae to Wau, which serves the valuable gold, timber and agricultural areas which lie between those points, and also the plywood  industry  which has been established in the Bulolo Valley by Commonwealth-New Guinea Timbers Limited. It is- anticipated that,, when this company&#39;s factory builds up to full capacity, 48,000,000 square feet of plywood will pass over the bridge&#39; each year on its- way to Australian and overseas markets. The bridge, which was opened to traffic on the 29th January, 1955, has eliminated the need for ferry crossing between  Labu  and Lae and has thus reduced travelling time for vehicles between Wau-Bulolo and Lae by a minimum of one and a half hours. The new route over the bridge to the Nadzab Road has also cut out a 9-mile stretch of highway to  Labu  which has been subject to heavy erosion by flooding and entailed high maintenance costs. It is the first major bridge constructed for civil purpose? in the Territory. The bridge was constructed for the Administration by Hornibrook Construction Company under the supervision of the Commonwealth Department of Works. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>TRADE MARKS BILL 1955</title>
+        <page.no>16</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator Spicer)</inline> - <inline font-style="italic">by leave</inline> - agreed to - </para>
+      <quote>
+        <para>That leave be given to bring in a Bill for an Act relating to Trade Marks. </para>
+      </quote>
+      <para>Bill presented, and read a first time. </para>
+      <para>Standing Orders suspended. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>16</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>16</page.no>
+              <time.stamp />
+              <name.id>K6Z</name.id>
+              <electorate>Victoria</electorate>
+              <party>LP</party>
+              <role>AttorneyGeneral</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPICER, John</name>
+              <name role="display">Senator SPICER</name>
+            </talker>
+            <para>. - I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the bill be now read a second time. </para>
+          </quote>
+          <para class="block">The purpose of this bill is to provide in the Commonwealth a modern code of trade marks law. When the new legislation comes into force, it will replace the various Trade Marks Acts passed by this Parliament since 1905. The bill marks the completion of the second stage in the Government&#39;s programme of reviewing the Commonwealth&#39;s industrial property laws. As honorable senators will know, a new Patents Act was passed in 1952. </para>
+          <para>Trade marks and the law regulating their use occupy quite an important place in the everyday life of the community. Most of us will, at some time or other in the course of making our day-to-day purchases, have asked for goods bearing a particular trade mark. It is important that the goods we get are the goods for which we have asked. That is one of the purposes of trade marks legislation - the protection of the buying public. To the trader, ownership of a trade mark is a. valuable right. The law protects that right and the law should, so far as possible, keep pace with changing methods of business. There&#39; is, therefore,  a  need for a periodical review of the legislation such as has just been undertaken. </para>
+          <para>Under the Constitution, the Commonwealth Parliament has power to make laws with respect to &#34; copyrights, patents of inventions and designs and trade marks &#34;. Acting under this power, the Parliament in 1905 passed a Trade Marks Act, which is the foundation of our present law on the subject. That act was amended in important particulars in 1912 when a number of amendments which had been made to the law of Great Britain in 1905 were adopted by the Commonwealth. There have been further amendments to the law since thai time, the last having been made in 194&#39;S. </para>
+          <para>The need for a revision of our trade marks legislation was recognized by the then Attorney-General, our present Prime Minister, the Right Honorable Robert G. Menzies, in 1938. A committee, of which the late <inline font-weight="bold">Sir George</inline> Knowles was  chairman,  made a thorough investigation and prepared a draft bill to replace the legislation then on the statutebook. Unfortunately, the war intervened and the committee&#39;s draft bill was not enacted. Since the Knowles committee carried out its inquiry, Great Britain, Canada. and the United States of America have reviewed their Trade Marks laws, and, having regard, in any case, to the lapse of time since the Knowles report, it seemed desirable that another committee should be appointed to advise upon the matter before amending legislation was introduced in Australia. Accordingly, I appointed the committee whose report forms the basis of the legislation now before the Senate. </para>
+          <para>On this occasion, we were fortunate to obtain the services as  chairman  of the Honorable Arthur Dean, Ll.M., a judge of the Supreme Court of Victoria. Prior to his appointment to the Bench, <inline font-weight="bold">Mr. Justice</inline> Dean had a very extensive practice in all branches of the law relating to industrial property and, while still at the Bar,  His  Honour was a member of the Knowles Trade Marks Committee to which I have already referred. More recently, <inline font-weight="bold">Mr. Justice</inline> Dean presided over the Patent Law Review Committee whose investigation led to the passing of the  new Patents Act&#39; in 1952&#39;. The Commonwealth is indeed fortunate that His Honour has found it possible to give such continuity of public service in this particular field. </para>
+          <para>On the 2lst October last the Dean Committee signed a unanimous report which was laid on the table of the Senate and of the House of Representatives during the last sittings of the Parliament. Ample opportunity, therefore, has been given to interested persons to examine, not only the report of the committee, but also the terms of a bill drafted by the committee, the adoption of which it recommended. It is a great tribute to the work of the committee to be able to record that, although a. few criticisms of a minor nature have been received in relation to some sections of the bill recommended by it, the most general satisfaction has been expressed with the committee&#39;s report and with the terms of the recommended legislation. Such amendments as have been suggested have been referred to the committee for further consideration,- and as a result I now present to the Senate, not the original bill recommended by the committee, but that bill with some minor amendments of which the committee itself approves. The bill is necessarily technical in character, but it is desirable that I should indicate shortly the principal alterations which are proposed to bc made to the existing law. </para>
+          <para>Apart from standardization marks, of which I shall have more to say later, the only marks which can be registered under the present act are those which satisfy the test of distinctiveness, or in other words marks which are adapted to distinguish the goods of the proprietor from those of other persons. The mark may be inherently distinctive in that sense or it may have become distinctive in fact by reason of actual use, but unless the mark when registration is sought is distinctive inherently or in fact, it is not capable of registration. The bill now before the Senate makes a substantial alteration to this position in that it provides for a four-part register. </para>
+          <para>Part A of the register will include all the marks which have already been registered and will also be the part under which marks which are distinctive at the time of registration can be registered in future. Under Part B it will be possible to register, not only marks which are distinctive, but also marks which are not and have not become distinctive at the time of registration, but which are capable of becoming distinctive through use. The introduction of a new Part B of the register will not add to the rights which Australian traders may acquire in Australia, but it will enable Australian traders to obtain rights in some other countries which will not give protection to a mark used in Australia unless the mark is registered here. In providing for a part of the register to serve this purpose we are adopting legislation which, has been in force in Great Britain for some time and maintaining uniformity with Great Britain in this regard. </para>
+          <para>Part C of the register will provide for the registration of what are referred to in the existing legislation as &#34; standardization marks &#34;. In conformity with United Kingdom and United States of America practice, these marks will in future be known as &#34; certification marks &#34;. This term more clearly describes the nature of such marks. They are not trade marks in the usual sense, but are used by certifying authorities, as, for example, the Standards Association of Australia, for the purpose of certifying as to the origin, material, mode or conditions of manufacture, quality, accuracy or other characteristic of goods. The law at present requires the proprietor of a standardization or certification mark to examine, in every case, the goods to which the mark is to be applied. Under modern methods of mass production this is an impracticable requirement. The bill, following generally what has been done in Great Britain, dispenses with the requirement, subject to the safeguard that the proprietor must be able to satisfy himself that goods bearing his certification mark are in accordance with the requisite standards. In future, applications for registration of certification trade marks will be made to the Registrar, and will not require ministerial consideration as at present. The decision of the Registrar, as in the case of his decision with respect to other marks, will be subject to an appeal to the Appeal Tribunal provided for in the bill. </para>
+          <para>Part D of the register will enable the registration of what are described as &#34; Defensive Marks &#34;. The relevant provisions of the bill relating to &#34;Defensive Trade Marks&#34; will be found in Part 12, commencing at clause 93. The purpose is to enable registration to be made under the part in respect of a mark which is used to such an extent in relation to the particular goods in respect of which it is registered that its use in relation to other goods would be likely to be taken as indicating a connexion between those other goods and the registered proprietor of the mark. A good illustration is provided by the word &#34;Kodak&#34;, which has acquired such a wide reputation in relation to the particular goods in respect of which it is used that its use in relation to other goods perhaps entirely different in nature might well suggest that those other goods were the product of the proprietors of the trade mark &#34; Kodak &#34;. In this respect the committee has again adopted a provision of the English legislation, but it recommends the application of the English provisions with some variation. In England a word can only be registered as a defensive mark if it is an invented word. The committee felt that there could be instances in which a word which was not an invented word, such as, for example, the word &#34; lion &#34;, might be so extensively used in relation to particular goods that its use with respect to other goods would be likely to deceive. For this reason, it has recommended that the register of defensive marks should not be limited to invented words. </para>
+          <para>Under the existing law, an appeal lies from a decision of the Registrar to the law officer, as well as to the High Court. As in the ease of the Patents Act, the committee has recommended the abolition of the appeal to the law officer and has made provision for the creation of the High Court as an appeal tribunal for the purposes of the act. The provisions with respect to the Appeal Tribunal will be found in Part 15 of the bill. </para>
+          <para>The present Trade Marks Act does not require a person acting in trade marks matters to have any special qualifications. The bill does impose restrictions as to the persons who will in future be eligible to carry on such business. However, the conditions have been framed so as not to prejudice a person who, while not possessing the necessary qualifications, has, by carrying on a trade marks business for a reasonable period, acquired an adequate knowledge of trade marks practice and procedure. The qualification provisions were in fact made more liberal following representations received after the committee&#39;s report became public. In addition to persons possessing certain named technical qualifications, any person who has for a continuous period of two years immediately before the 1st  January,  1955, practised as a trade marks agent in Australia will, under the bill, be eligible to act in trade marks matters. </para>
+          <para>The committee directed a good deal of attention to the consideration of proposals for extending the protection which registration of a trade mark gives to the registered proprietor under the existing law. The present provisions with respect to infringement are to be found in section 53 of the present act. That section provides that the rights acquired by registration of a trade mark shall be deemed to be infringed by the use, in respect of the <inline font-style="italic">goods</inline> in <inline font-style="italic">respect</inline> of which it is registered, of a mark substantially identical with the registered mark, or so nearly resembling it as to be likely to deceive. Experience has shown that the registered proprietor of a mark may suffer injury as the result of dealings with his goods which do not involve the application to them of an identical mark or one closely resembling the registered mark. The state, condition and get-up, or packing of the goods may be so altered as to cause injury to the proprietor of the mark when the goods are sold under his mark, or the trade mark itself may be defaced, obliterated, or removed, and injury may arise in that way. Provisions to cover such a situation are contained in clause 63 of the bill. That clause enables the registered proprietor of a mark to take steps to protect himself against the type of conduct to which I have referred, and in appropriate circumstances enables him to sue for infringement as a result of such conduct. </para>
+          <para>The English act contains another provision with regard to infringement which has not been adopted in the bill before the Senate. This provision gives protection to the registered proprietor of a trade mark where the mark is used by some other person, not for the purpose of indicating his own goods, but for the purpose of indicating the goods of the registered proprietor. The evil to which this provision is directed is well illustrated by the <inline font-style="italic">Yeast-Vite</inline> case  1934 (51  R.P.C. JIO) in which the House of Lords held that the use of the phrase &#34; a substitute for Yeast Vite &#34; by another trader was not an infringement of the trade mark &#34; Yeast Vite &#34;. As the committee points out, this decision appeared to come as a shock to the commercial world in England, though it could hardly have surprised lawyers, and representations were made to the Board of Trade Committee to remedy what was represented as a defect of the law. The Board of Trade Committee did recommend the adoption of a provision to cover the case, and section  41 <inline font-style="italic">(b)</inline> of the British act of  1938  was enacted in consequence. The Knowles Committee recommended the enactment of a similar provision here, with some alteration. Since then the English legislation has been subjected to severe criticism in the courts. One learned Lord J ustice said, in relation to the English section, &#34; I doubt if the entire statutebook could be successfully searched for a sentence of equal length which is of more fuliginous obscurity &#34;. That appeared in relation to <inline font-style="italic">Bismag Limited</inline> v. <inline font-style="italic">The Ambling (Commissions) Limited,</inline> 1940  Chancery  667,  and <inline font-style="italic">Aristoc Limited.</inline> v. <inline font-style="italic">Rysta Limited</inline> reported in  1945  Appeal cases  68.  It is not surprising, in these circumstances, that the committee has hesitated to recommend the adoption of the English provision. Its reasons for not doing so, so cogently stated in paragraph  27  of the report, appear to me to be ample justification for their view. </para>
+          <para>There is one other respect in which the Dean Committee rejected a major proposal made by the Knowles Committee. The latter committee, in its report, recommended the adoption of proposals which would enable the proprietor of a trade mark to fix a minimum price for the sale to the public of goods sold under his mark and to sue for infringement an\ trader who sold the goods below the price so fixed. Since the time when that recommendation was made the same ques tion has been before the Board of Trade Committee in England, and the Dean Committee, had before it the report of the Board of Trade Committee submitted to the Parliament of Great Britain in  1951.  No proposal for such legislation has been adopted in Great Britain, or indeed, a.? far as the committee could discover, in any other country. It is of importance in considering this matter to bear in mind that the Commonwealth has no general power to legislate for price maintenance. If in any particular trade there is a case for legislation to prevent price-cutting, the necessary provision can. it seems, best be made by legislation of the State parliaments which would apply generally to goods sold in that trade. Although the committee did not consider itself qualified to enter upon the economic and commercial considerations which legislation of this character raises, the Government agrees that provisions of this kind are not appropriate to a law which is limited in its operation to goods sold under a trade mark. </para>
+          <para>The committee also gave consideration to a proposal that the registered proprietor of a trade mark should be able to restrain the use of his mark, not merely in relation to goods covered by his registration, but also upon goods which are so closely allied to those specified in the registration that the public could suppose that those other goods were of his manufacture. Some fresh protection in relation to this matter is afforded by the provisions of the bill relating to defensive trade marks and, for the rest, it seems that the matter is more appropriately left to the protection afforded to a trader in a passing-off action where that is applicable. To enable a proprietor to obtain protection in respect of goods not specified in his registration could, I am convinced, lead to the kind of injustice adverted to in paragraph  36  of the report. A trader may abstain from opposing an appplication for a trade mark limited to goods which he does not manufacture because the application on its face does not extend to his trade. If he could subsequently be sued for infringement of that trade mark he might, as the committee points out, be unable to show that his use of his own mark with respect to his own goods was prior to that of the registered proprietor. </para>
+          <para>There is one other proposal which the committee considered and rejected. It was proposed that provision should be made for the registration of marks used in tertiary industries, signifying that the goods to which the mark was attached had at some time been cleaned or repaired or otherwise treated by the owners of the mark. There are provisions of this kind in America and in Canada, but an attempt to register such a mark under the English act of 1938 was rejected by the House of Lords. It is open to doubt whether legislation with respect to the registration of such marks would be authorized under the powers conferred on this Parliament by the Constitution, having regard to the decision of the High Court in the <inline font-style="italic">Union Label</inline> case, reported in 6 C.L.. 469. Other objections stated by the committee to the proposal provide strong reasons why such a proposal should not be adopted. There appears, as the committee says, little or no public demand for such protection, the law of passing-off probably being sufficient to meet such cases as may a.rise. </para>
+          <para>I have endeavoured to indicate the more important matters to which the committee gave consideration and the nature of the principal alterations to the law which they recommend and which are embodied in the bill now before the Senate. In addition, a number of other changes in the law have been recommended with relation to the procedure for obtaining registration, for opposition, and for the cancellation of registration wrongly effected. These will facilitate procedure and remove some existing difficulties. It will be convenient to deal with these in committee. If the bill as recommended be adopted it will, I am satisfied, constitute aconsiderable improvement upon our existing legislation, bring it more into line with that now in operation in Great Britain, and provide us with an efficient and workable set of principles and rules in this important branch of our industrial property legislation.  Icommendthe  bill to the Senate. </para>
+          <para>Bill (on motion by <inline font-weight="bold">Senator McKenna)</inline> adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PATENTS BILL 1955</title>
+        <page.no>20</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator Spicer)</inline> - <inline font-style="italic">by leave</inline> - agreed to - </para>
+      <quote>
+        <para>That leave be given to bring in a Bill for an Act to amend the Patents Act 1952-1954. </para>
+      </quote>
+      <para>Bill presented, and read a first time. </para>
+      <para>Standing Orders suspended. </para>
+      <para>Secondreading. </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>20</page.no>
+            <time.stamp />
+            <name.id>K6Z</name.id>
+            <electorate>Victoria</electorate>
+            <party>LP</party>
+            <role>AttorneyGeneral</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">SPICER, John</name>
+            <name role="display">Senator SPICER</name>
+          </talker>
+          <para>. - I move - </para>
+        </talk.start>
+        <quote>
+          <para>That the bill be now read a second time </para>
+        </quote>
+        <para>The amendments proposed in this short bill are intended to meet some technical points arising in connexion with the new patents legislation whichcame into force last year. There are three main amendments. Of these, two are felt to  be  desirable  to  cover what I may call a transitional period following the commencement of the Patents Act 1952. The third point is that dealt with in clause 9. which will bring our law into conformity with. United Kingdom practice on the matters dealt with in the clause. </para>
+        <para>The Patents Act 1952 came into force on the 1st May, 1954. The act introduced a whole new code of patents law. But, because , of the special procedures applying to applications for grants of Letters Patent, it was realized that the old act could not be terminated and the new act be brought into force, for all purposes, at one and the same time. Some provision to meet these circumstances was made in section 5 of the new act. However, that act is not altogether adequate in two respects. These relate to what are known in the technical language of patents law as cognate inventions and divisional applications. With regard to cognate inventions, the situation which we have thought it desirable to cover is briefly as follows :  - </para>
+        <para>Under the Patents Act previously in force, it was possible for an applicant, within certain time limits, and where the inventions were closely related, to obtain a single patent in respect of two or more applications for Letters Patent. There  are corresponding provisions in the new act in regard to applications lodged under that act.But there is at present no provision to meet the. case where one application was lodged under the old and one under the new act. Clauses 6 and 7 of the bill cover this circumstance and make necessary incidental provision. </para>
+        <para>A somewhat similar situation exists in regard to the so-called divisional applications. It may be that an applicant who has lodged an application under the old act desires, in accordance with normal patents procedure, to divide the application. In these circumstances, he must lodge one or more further applications. Clause 5 makes necessary provision, which is at present lacking, in regard to these further applications. </para>
+        <para>Both the Commissioner of Patents and the practising patent attorneys favour the inclusion of specific provisions to meet the points Ihave mentioned. In proposing such provisions, we are in fact going further than did the United Kingdom when it was faced with similar problems on the introduction of a new Patents Act in 1949. There, the difficulty would appear to have been met administratively, but, in all the circumstances, we think it preferable to include special provisions in the legislation itself. At the same time, the opportunity is being taken to include a new section 142a in the Patents Act, which will enable our practice to be brought into line with that of the United Kingdom in regard to the priority to be accorded to certain overseas applications. This will be achievedby clause 9 of the hill. </para>
+        <para>I have stated this is a technical measure, and I assure honorable senators that it raises no points of a contentious nature. I commendthebill to the Senate. </para>
+        <para>Debate (on motion by <inline font-weight="bold">Senator McKenna)</inline> adjourned. </para>
+        <para class="italic">
+          <inline font-style="italic">Sitting suspended from4.36 to 9.25 p.m.</inline>
+        </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>FOREIGN AFFAIRS AND DEFENCE</title>
+        <page.no>21</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>21</page.no>
+            <time.stamp />
+            <name.id>JZI</name.id>
+            <electorate>QueenslandMinister for Trade and Customs</electorate>
+            <party>LP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">O&#39;SULLIVAN, Neil</name>
+            <name role="display">Senator O&#39;SULLIVAN</name>
+          </talker>
+          <para>. - To-night, as honorable senators know, the Prime Minister <inline font-weight="bold">(Mr. Menzies)</inline> in another place made a very important statement on foreign affairs and defence. I now lay on the table the following paper : - </para>
+        </talk.start>
+        <quote>
+          <para>Foreign Affaire and Defence - Statement made by the Eight Honorable the Prime Minister in the House of Representativeson 20th April, 1955. and move - </para>
+          <para>That the paper be printed. </para>
+        </quote>
+        <para>Debate (on motion by <inline font-weight="bold">Senator McKenna),</inline> adjourned. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SPECIAL ADJOURNMENT</title>
+        <page.no>21</page.no>
+        <type>special adjournment</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator O&#39;Sullivan.</inline> agreed to - </para>
+      <quote>
+        <para>That the Senate, at its rising, adjournto Wednesday next, at 3 p.m. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>21</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers werepre- sented : - </para>
+      <quote>
+        <para>Public Service Act - Thirtieth Report onthe Commonwealth Public Service bythe Public Service Board, for year 1953-54. </para>
+      </quote>
+      <para>Ordered to be printed. </para>
+      <para>Air Force Act - Regulations - Statutory Rules 1054, No. 132. </para>
+      <para>Air Navigation Act - Regulations - Statutory Rules 1954, No. 119. </para>
+      <para>Aliens Act - Regulations - StatutoryRule- 1954, No. 114. </para>
+      <para>Apple and Pear Export Charges Act - Regu lations- Statutory Rules 1954, No. 121. </para>
+      <para>Bankruptcy Act - Regulations - Statutory Rules - 1954, No. 131. 1955, No. 17. </para>
+      <para>Brodcasting Act - </para>
+      <para>Australian Broadcasting Commission - Twenty-second Annual Report and Finan cial Statement, for year 1953-54. </para>
+      <para>Regulations - Statutory Rules 1955, No. 11. </para>
+      <para>Canned Fruits Export Charges Act - Regu lations - Statutory Rules 1954, No. 124. </para>
+      <para>Canned Fruits Export. Control Act - Regulations - Statutory Rules 1955, No. 24. </para>
+      <para>Commonwealth Bank Act - AppointmentR. E. Balehin. </para>
+      <para>Control of Naval Waters. Act - Regulations - Statutory Rules 1955, No. 22. </para>
+      <para>Copyright Act - Regulations - Statutory Rules 1954, No. 130. </para>
+      <para>Customs Act - Regulations - StatutoryRule- 1955, No. 15. </para>
+      <para>Customs Act and Commerce (Trade Descriptions) Act - Regulations - Statutorv Rule- 1955, Nos. 18, 19, 20,21. </para>
+      <para>Defence Act - Regulations - Statutory Rules - 1954, Nos.113. 1 17.118. 1955, No. 7. </para>
+      <para>Defence Forces Retirement Benefits Act - Regulations - Statutory Rules 1955, No. 14. </para>
+      <para class="block">Defence Transition (Residual Provisions) Act - National Security (Industrial Property ) Regulations - Orders - Inventions and Designs (47). </para>
+      <para class="block">Dried Fruits Export Charges Act - Regulations - Statutory Rules 1954, No. 127. </para>
+      <para class="block">Elections, 1954  -  Statistical Returns showing the voting within each Sub-division in relation to the general elections for the House of Representatives, 1954. viz.: - </para>
+      <para>New South Wales. </para>
+      <para>Queensland. </para>
+      <para>South Australia. </para>
+      <para>Tasmania. </para>
+      <para>Victoria. </para>
+      <para>Western Australia. </para>
+      <para>Explosives Act - Regulations - Orders - Berthing of a vessel (2). </para>
+      <para>Fisheries Act - Regulations - Statutory Rules 1954, No. 116. </para>
+      <para>Flax Fibre Bounty Act - Regulations - Statutory Rules 1955, No. 3. </para>
+      <para>Immagration Act - Regulations - Statutory Rules 1955, No. 6. </para>
+      <para>Income Tax and Social Services Contribution Assessment Act - Regulations - Statutory Rules - 1954, No. 112. 1955, No. 23. </para>
+      <para>Lands Acquisition Act - </para>
+      <para>Land, &#38;c, acquired for - </para>
+      <para>Commonwealth Departments and  authorities purposes - Coburg, Victoria. </para>
+      <para>Commonwealth Scientific and Industrial Research Organization purposes - Griffith, New South Wales (2). </para>
+      <para>Defence purposes - </para>
+      <para>Amberley, Queensland (2). </para>
+      <para>Boble River (Townsville), Queensland. </para>
+      <para>Cairns, Queensland. </para>
+      <para>Cahungra, Queensland. </para>
+      <para>East Hills, New South Wales. </para>
+      <para>Garbutt (Townsville), Queensland. </para>
+      <para>Geelong, Victoria. </para>
+      <para>Greenbank, Queensland. </para>
+      <para>Nowra, New South Wales. </para>
+      <para>Port Pirie, South Australia. </para>
+      <para>Randwick, New South Wales. </para>
+      <para>St. Lucia, Brisbane, Queensland. </para>
+      <para>Windsor, New South Wales (2). </para>
+      <para>Department of Civil Aviation purposes - </para>
+      <para>Armidale, New South Wales. </para>
+      <para>Cairns, Queensland. </para>
+      <para>Coff&#39;s Harbour, New South Wales. </para>
+      <para>Coolangatta, New South Wales. </para>
+      <para>Eagle Farm (Brisbane Airport), Queensland. </para>
+      <para>Maryborough. Queensland. </para>
+      <para>Monto,Queensland. </para>
+      <para>Department of Shipping and Trans  port (Marine Branch) purposes - Cape Willoughby, South Australia. </para>
+      <para>Department of Supply purposes - Port Wakefield, South Australia. </para>
+      <para>Department of Trade and Customs purposes - Loxton, South Australia. </para>
+      <para>Postal purposes - </para>
+      <para>Armidale, New South Wales. </para>
+      <para>Asliford, New South Wales. </para>
+      <para>Bullarat, Victoria. </para>
+      <para>Barmedman East, New South Wales. </para>
+      <para>Braybrook, Victoria. </para>
+      <para>Carroll, New South Wales. </para>
+      <para>Cookardinia, New South Wales. </para>
+      <para>Courabyra, New South Wales. </para>
+      <para>Cowell, South Australia. </para>
+      <para>Cremorne, New South Wales. </para>
+      <para>Crescent Head, New South Wales. </para>
+      <para>Darlow, New South Wales. </para>
+      <para>Deloraine, Tasmania. </para>
+      <para>Eden Creek, New South Wales. </para>
+      <para>Fitzroy South, Victoria. </para>
+      <para>Gladstone, South Australia. </para>
+      <para>Glossop, South Australia. </para>
+      <para>Hatherleigh, South Australia. </para>
+      <para>Huonville, Tasmania. </para>
+      <para>Kensington, Victoria. </para>
+      <para>Larras Lee, New South Wales. </para>
+      <para>Loxton East, South Australia. </para>
+      <para>Mair jimmy, New South Wales. </para>
+      <para>Malvern, Victoria. </para>
+      <para>Maragle, New South Wales. </para>
+      <para>Mernda, Victoria. </para>
+      <para>Monash, South Australia. </para>
+      <para>Mount Dandenong, Victoria. </para>
+      <para>Mount Martha, Victoria. </para>
+      <para>Nangkita, South Australia. </para>
+      <para>Naracoopa (King Island), Tasmania. </para>
+      <para>Port MacDonnell, South Australia. </para>
+      <para>Richmond, Victoria. </para>
+      <para>Richmond East, Victoria. </para>
+      <para>Shepparton, Victoria. </para>
+      <para>Taroona, Tasmania. </para>
+      <para>TheChannon, New South Wales. </para>
+      <para>Toorak, Victoria. </para>
+      <para>Wagga Wagga, New South Wales. </para>
+      <para>Postal (Broadcasting Station) purposes - Colevale, Queensland. </para>
+      <para>Land disposed of under Section 63 - Returns (4) showing manner of disposal. </para>
+      <para>National Health Act - Regulations - Statutory Rules 1954 No. 128. </para>
+      <para>Nationality and Citizenship Act - Regulations - Statutory Rules 1955, No. 9. </para>
+      <para>Naval Defence Act - Regulations - Statutory Rules - 1954, Nos. 115. 123, 129. 1 955, Nos. 5, 8, 12,16. </para>
+      <para>Norfolk Island Act - Ordinance  -  1954  -  No. 11  -  Customs. </para>
+      <para>Northern Territory (Administration) Act - Crown Lands Ordinance - Reasons for resumption of recreation reserve, Katherine. </para>
+      <para>Papua and New Guinea Act - Ordinances - 1953- </para>
+      <para>No. 15  -  Transactions with Natives (Papua) 1952. </para>
+      <para>No. 57  -  Mines and Works Regulation (New Guinea) Ordinance Amendment 1952. </para>
+      <para class="block">No. 69  -  Inflammable Liquid 1953. </para>
+      <para>No. 82  -  Animals and Birds Protection 1953. </para>
+      <para>No. 84  -  Pharmacy 1953. </para>
+      <para>No. 88- Pure Food 1953. </para>
+      <para>No. 91  -  Diocese of New Guinea Property 1953. </para>
+      <para>No. 92  -  Business Names 1953. </para>
+      <para>No. 100  -  Suppression of Hansen&#39;s Disease 1863. </para>
+      <para>1954- </para>
+      <para>No. 2  -  Real Property (Papua) 1953. </para>
+      <para>No. 4  -  Navigation (Papua) 1953 </para>
+      <para>No. 5  -  Firearms 1953. &#39; </para>
+      <para>No. 17- Supply (No. 1) 1954-55. </para>
+      <para>No. 19  -  Animal Disease and Control 1954. </para>
+      <para>No. 20- Customs Tariff Surcharge Ordinance Amendment 1954. </para>
+      <para>No. 21  -  Pure Food Ordinance Amendment 1954. </para>
+      <para>No. 22  -  Bamu River Mission 1954. </para>
+      <para>No. 23- Treasury (Validation) 1054. </para>
+      <para>No. 30  -  Service and Execution of Process 1954. </para>
+      <para>No. 43  -  Supreme Court 1954. </para>
+      <para>Public Service Act - </para>
+      <para>Appointments- Department - </para>
+      <para>Army - A. Kerr, A. R. Solway. </para>
+      <para>Attorney-General&#39;s - D. D. Bollard, C. H. Friemann, J. Marshall, G. C. Overton. Civil Aviation -R. M. Diamond, C. A. Etchells, I. D. Fowler, H. E. R. Kingsford, W. E. Kneale, D. B. Little, C. G. Perry, H. I. Newell, E. Stern, K. A. Upham, A. R. White. </para>
+      <para>Commerce and Agriculture - R. D. D. Corkhill, M. P. Feud,K. S. Mulherin. </para>
+      <para>Defence - F. Hodgson, M. N. Madden. </para>
+      <para>Defence Production - S. J. Attwood, M. D. Boadle, C. L. Carrel, D. Hart, J. T. Hinde, L. B. James, L. L. Kemp, E. Lions, A. B. Robison, E. R. Taylor, L. G. Walters. </para>
+      <para>Health- D. G. Noble, R. Pengelly. </para>
+      <para>Interior - F. W. Hannagan, L. P. LeggeWilkinson, L. C. Moroney, J. New, M. M. T. O&#39;Shannassey. </para>
+      <para>Labour and National Service  -  E. F. Boulton, W. P. Donegan, P. M. Guthridge, E. N. Hayes, A. W. Marner, C. J. Ryan. </para>
+      <para>National Development - D. J. Belford, A. Cordingley, L. V. Hawkins, J. S. Howard, C. O. Leary, P. <inline font-style="italic">E.</inline> Mann, A. G. Spence, J. R. Stewart, W..A. C. J. Wiebenga. </para>
+      <para>Postmaster-General&#39;s  -  I. G. Cook, K. M. Ferguson, G. F. Frith, G. Greatorex. I. D. Herbert, V. L. McCahon. R. R. Melville, A. D. Robinson, M. Strobfeldt. </para>
+      <para>Prime Minister&#39;s - W. Barrow. </para>
+      <para>Repatriation - T. R. M. Furber, C. R. Morgan, E. A. Lorimer, R. G. McEwin.G. M. S. May, B. M. Shaw, J. C. Squires, J. W. de W. G. Thornton, J.E. Williams. </para>
+      <para>Shipping and Transport - A. I. Twentyman. </para>
+      <para>Social Services - A. M. Hunt, M. J. Nottage, F. B.Rajola. </para>
+      <para>Supply- D. A. H. Bird, N. J. Canny, R. D. Carman, R. Field, R. G. Furze, J. S. Gilbert, R. F. Haymes, A. Horton, D. T. Kenny, N. R. Labrum, C. Laing, A. D. McRonald, R. D. Munro, S. W. Smith, F. M. Spurway, J. Wood. </para>
+      <para>Territories - L. D. Crawford. </para>
+      <para>Trade and Customs - W. H. Bousfield, A. If rim. </para>
+      <para class="block">Works - C. Baldwin, E. M. Barrington, J. A. Beatty, A. Blumentals, N. H. Cant, D. A. Clamp, K. H. Collins, R. E. Connelly, P. Dubaus, K. . J. Grace, A. Grakovich, R. M. Greenwood, N. P. Hansen, J. V. Knowles, A. Lax, W. M. Leavey, N. J.Lobley, J. F. R. McGeough, J. A. Mooney, D. N. Redmond, A.&#39; C. Silbert, J. R. Wild, I. S. Wood. </para>
+      <para class="block">Regulations - Statutory Rules 1954, Nos. 120 (Parliamentary Officers), 126 </para>
+      <para class="block">Quarantine Act - Regulations - Statutory Rules 1955, No. 10. </para>
+      <para class="block">Rayon Yarn Bounty Act - Regulations - Statutory Rules 1955, No. 2. </para>
+      <para class="block">Seat of Government Acceptance Act and Seat of Government (Administration) Act- </para>
+      <para class="block">Ordinances  -  1955 - </para>
+      <para class="block">No. 1  -  Motor Traffic. </para>
+      <para class="block">No. 2- Traffic </para>
+      <para>No. 3  -  Law Reform (Miscellaneous Provisions). </para>
+      <para>Regulations  -  1955 - </para>
+      <para>No. 1 (Aborigines Welfare Ordinance). </para>
+      <para class="block">No. 2 (Advisory Council Ordinance). </para>
+      <para class="block">No. 3 (Motor Traffic Ordinance). </para>
+      <para class="block">No. 4 (Cemeteries Ordinance). </para>
+      <para class="block">Seat of Government (Administration) Act - Statement of Receipts and Expenditure of the Australian Capital Territory for year 1953-54. </para>
+      <para class="block">Snowy Mountains Hydro-electric Power Act  - Regulations - Statutory Rules 1955, No. 13. </para>
+      <para class="block">Sulphuric Acid Bounty Act - Regulations - Statutory Rules 1955, No. 4. </para>
+      <para class="block">Superannuation Act - Regulations - Statutory Rules 1954, No. 125. </para>
+      <para>United Nations - General Assembly - Ninth Session, New York, September to December, 1954  -  Summary. Report of Australian Delegation. </para>
+      <para>War Service Homes Act - Land, &#38;c.,. acquired at- </para>
+      <para>Cabramatta, New South Wales. </para>
+      <para>Cabramatta, New South Wales - Revocation. </para>
+      <para>Wine Grapes Charges Act - Regulations - Statutory Rules 1954, No. 122. </para>
+      <para>Wireless Telegraphy Act - Regulations - Statutory Rules 1955, No. 1. </para>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>23</page.no>
+        <time.stamp>12:26:00</time.stamp>
+      </adjournmentinfo>
+      <para class="block">Senate adjourned at0.26 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

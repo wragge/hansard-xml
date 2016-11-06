@@ -1,251 +1,1034 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1930-12-12%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1930-12-12%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1930-12-12%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1930-12-12%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1930-12-12%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1930-12-12%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1930-12-12%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1930-12-12/19301212_senate_12_127.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1930-12-12</date>
+    <parliament.no>12</parliament.no>
+    <session.no>1</session.no>
+    <period.no>3</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>1397</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1930-12-12</day.start>
+      <para>The <inline font-weight="bold">President (Senator the Hon. W. Kingsmill)</inline> took the chair at 2.30 p.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1397</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>AUSTRALIAN IMPERIAL FORCE</title>
+          <page.no>1397</page.no>
+        </subdebateinfo>
+        <para>Captain Conway&#39;s Appointment</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1397</page.no>
+              <time.stamp />
+              <name.id>K1L</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>ALP</party>
+              <role>Assistant Minister assisting the Minister for Works and Railways</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARNES, John</name>
+              <name role="display">Senator BARNES</name>
+            </talker>
+            <para>- Yesterday <inline font-weight="bold">Senator Dunn</inline> asked several questions relating to the termination of the temporary appointment of Captain T. P. Conway as  Deputy  Assistant Adjutant-General (Australian Imperial Force), in New South Wales, and in my . reply I stated that information to enable a reply to be furnished to question No. 2 was not then available, and that it would be furnished later. I am now in a position to inform the honorable senator that nothing can be  found in the report of the Royal Commission on Defence Administration to the effect that the transfer of Captain Conway from the position of  Deputy  Assistant Adjutant-General was not in the best interests of the service. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1397</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>WHEAT INDUSTRY</title>
+          <page.no>1397</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1397</page.no>
+              <time.stamp />
+              <name.id>KNF</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MASSY-GREENE, Walter</name>
+              <name role="display">Senator GREENE</name>
+            </talker>
+            <para>- Is the Leader of the Senate in a position to state what are the intentions of the Government with regard to assisting the wheat industry? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1397</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party>ALP</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>- I have an appointment this afternoon with the Acting Prime Minister in connexion with a bill whichhas been prepared to deal with that matter. When moving the adjournment of the Senate this afternoon I may be able to tell the honorable senator what the Government proposes to do. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1397</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PAPER-PULP INDUSTRY</title>
+          <page.no>1397</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1397</page.no>
+              <time.stamp />
+              <name.id>KOJ</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYS, Herbert</name>
+              <name role="display">Senator HERBERT HAYS</name>
+            </talker>
+            <para>- Has the Government come to any decision yet with reference to the assistance which it is likely to give to encourage the establishment of the paper-pulp industry in Australia? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1397</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>- The matter mentioned by the honorable senatorhas been engaging my attention for some time. When the right honorable the Leader of the Opposition <inline font-weight="bold">(Senator Pearce)</inline> was administering the activities of the Council for Scientific and Industrial Research, considerable research work was done. I have taken it up from the point where the honorable gentleman left off. Negotiations are taking place between two companies, and, in addition, <inline font-weight="bold">Mr. Gepp</inline> and <inline font-weight="bold">Mr. Boas</inline> are carrying out certain investigations. It has also been found necessary to conduct further research into the conditions affecting the living tree, and for that purpose, through the courtesy of the Minister for Home and Territories <inline font-weight="bold">(Mr. Blakeley),</inline> I was able to make available to the Government of Tasmania the services of <inline font-weight="bold">Mr. Lane-Poole,</inline> the forestry adviser to the Commonwealth Government. He left for Tasmania yesterday. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1398</page.no>
+              <time.stamp />
+              <name.id>JZR</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">OGDEN, James</name>
+              <name role="display">Senator OGDEN</name>
+            </talker>
+            <para>- Has the Government abandoned the idea of introducing legislation to provide for the payment of ii bounty to the paper-pulp industry? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1398</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- No; but the form of assistance to be given will depend to a large extent upon the economic possibilities of the industry. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1398</page.no>
+                <time.stamp />
+                <name.id>JZR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">OGDEN, James</name>
+                <name role="display">Senator Ogden</name>
+              </talker>
+              <para>-  They have been proved. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1398</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- I admit that they have been proved up to a certain point, but there are other problems to be considered. One, it would not be wise for me to discuss at this stage, but I can assure the honorable senator that the Government is giving close attention to the whole subject. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1398</page.no>
+                <time.stamp />
+                <name.id>KOJ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HAYS, Herbert</name>
+                <name role="display">Senator HERBERT HAYS</name>
+              </talker>
+              <para>- Oan the Minister indicate when the Government will be in a position to announce its final decision? </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1398</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- I have limited the investigations by the three gentlemen mentioned to three weeks, so that when Parliament reassembles early in the new year, I hope to be able to make an announcement of the Government&#39;s intentions. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1398</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator PAYNE</name>
+            </talker>
+            <para>- Is it not a fact that the former Prime Minister <inline font-weight="bold">(Mr. Bruce)</inline> gave the people interested a definite assurance that provision would be made for a bounty on the production of newsprint in commercial quantities? Is it not also a fact that the present Prime Minister <inline font-weight="bold">(Mr. Scullin)</inline> stated publicly that the undertaking given by <inline font-weight="bold">Mr. Bruce</inline> would bc honored by him? </para>
+          </talk.start>
+          <para class="block">If so, is it the intention of the Government to honour the undertaking given by the present Prime Minister? </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1398</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- The honorable senator need have no fear on that point. This Government will attempt to honour every undertaking given by the Prime Minister. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1398</page.no>
+                <time.stamp />
+                <name.id>JZR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">OGDEN, James</name>
+                <name role="display">Senator Ogden</name>
+              </talker>
+              <para>-  It ib not doing so in this matter. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1398</page.no>
+                <time.stamp />
+                <name.id>JTL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DALY, John</name>
+                <name role="display">Senator DALY</name>
+              </talker>
+              <para>- Those interested in the production of paper pulp do not claim that the absence of a bounty i&#187; the chief obstacle, at the moment, to the development of the industry. The main problem, provided the investigations lead to conclusions which we anticipate will be reached, is the question of obtaining necessary credits to establish the industry. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1398</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PARLIAMENTARY REFRESHMENT ROOM</title>
+          <page.no>1398</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1398</page.no>
+              <time.stamp />
+              <name.id>JXZ</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNCAN, Walter</name>
+              <name role="display">Senator DUNCAN</name>
+            </talker>
+            <para>- I should like to know, <inline font-weight="bold">Mr. President,</inline> if you are in a position to make a statement to the Senate with regard to the refreshment room staff. Can you indicate whether further action has been taken or is contemplated ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1398</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- No further action has yet been taken. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SHALE OIL PRODUCTION</title>
+        <page.no>1398</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1398</page.no>
+            <time.stamp />
+            <name.id>KRZ</name.id>
+            <electorate>WESTERN AUSTRALIA</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">LYNCH, Patrick</name>
+            <name role="display">Senator LYNCH</name>
+          </talker>
+          <para>- In view of the public declaration of the Government that it intended to take legislative action to encourage the production of oil from the shale deposits in the  Commonwealth, I should like to know what stage the matter has reached, and what is the nature of the help that the Government proposes to give to the enterprise, with a view to rendering the Commonwealth independent of outside oil supplies. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1398</page.no>
+            <time.stamp />
+            <name.id>JTL</name.id>
+            <electorate />
+            <party>ALP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DALY, John</name>
+            <name role="display">Senator DALY</name>
+          </talker>
+          <para>- Up to the present the only assistance that the Commonwealth Government has given to the Australian shale oil industry has been to bring into conference all the people vitally concerned, the States, the miners&#39; federation and the leaseholders. From such conferences held in New South Wales and Tasmania, two strong and representative committees have been formed, and they are at present active. I propose to meet the New South Wales committee in that State during the coming week-end. The committees have been instructed to inquire into the obstacles which prevent the successful exploitation of the shale oil industry in this country, with a view to their removal. Honorable senators will understand that the Commonwealth has no jurisdiction over the shale oil resources of Australia. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>1399</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>- ls the Leader of the Government in the Senate <inline font-weight="bold">(Senator Daly)</inline> aware that, under the auspices of the British Government, the problem of the economic extraction of oil from shale has been thoroughly investigated in recent years? I believe that a report on the subject is in the possession of the Council for Scientific and Industrial Research, and I suggest that the honorable senator should have it brought under the notice of these committees. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>1399</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>- <inline font-weight="bold">Senator Pearce</inline> is quite correct in saying that such a report exists. <inline font-weight="bold">Dr. Rivett,</inline> in the course of his trip to Europe, is making special inquiries as to the position of the industry overseas. The problem that is agitating the minds of those engaged in the industry is the successful retorting of the oil. I may point out that, from a mining standard, the shale of Scotland is vastly different from that of Australia, and even the shale of Tasmania is vastly different from that of New South Wales. Those are the practical problems which are being investigated. </para>
+          </talk.start>
+        </continue>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1399</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>EXTRACTION&#34; OF PETROL FROM COAL</title>
+          <page.no>1399</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1399</page.no>
+              <time.stamp />
+              <name.id>K8P</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">THOMPSON, William</name>
+              <name role="display">Senator THOMPSON</name>
+            </talker>
+            <para>- Will the Leader of the Government in the Senate state whether the report . by <inline font-weight="bold">Dr. Rivett</inline> on his investigation into the extraction of petrol from coal can he made available to honorable senators? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1399</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>- Any report that has been submitted to the Government by <inline font-weight="bold">Dr. Rivett</inline> will be made available to the Senate. If the honorable senator will give notice of his question, I shall ascertain whether any such report exists. </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1399</page.no>
+                <time.stamp />
+                <name.id>K8P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">THOMPSON, William</name>
+                <name role="display">Senator THOMPSON</name>
+              </talker>
+              <para>- I give notice accordingly. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>BUSINESS OF SENATE</title>
+        <page.no>1399</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>
+        <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE Before the Senate adjourns to-day will the Leader of the Government  in this  chamber endeavour to make a statement as to its business for next week, so that honorable senators may be able definitely to make their train arrangements for their home going. </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1399</page.no>
+            <time.stamp />
+            <name.id>JTL</name.id>
+            <electorate />
+            <party>ALP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DALY, John</name>
+            <name role="display">Senator DALY</name>
+          </talker>
+          <para>- Unfortunately, I am unable to see the Acting Prime Minister <inline font-weight="bold">(Mr. Fenton)</inline> before 2.45 p.m. to-day. I hope to be in a position this afternoon to make a statement to the Senate regarding the adjournment. I personally Tegret that, through unforeseen circumstances, I was prevented from carrying out the undertaking that I gave in all honesty to the Senate as to an adjournment to-day. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1399</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SHALE OIL INQUIRY</title>
+          <page.no>1399</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1399</page.no>
+              <time.stamp />
+              <name.id>JYB</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DUNN, James Patrick Digger</name>
+              <name role="display">Senator DUNN</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Industry, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>In view of the large number of unemployed coal-miners in the State of New South Wales, will the Minister name the date for the com- mencement of the sittings of the committeeformed in New South Wales to investigate the possibilities of development of shale oil resources in that State? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1399</page.no>
+              <time.stamp />
+              <name.id>K1L</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARNES, John</name>
+              <name role="display">Senator BARNES</name>
+            </talker>
+            <para>- The sittings of the committee formed in New South Wales to investigate the possibilities nf development of the shale oil resources in that State will commence in Sydney at 10 a.m. on Monday next, the 15th December. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1399</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SHARK FISHERIES LIMITED</title>
+          <page.no>1399</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1399</page.no>
+              <time.stamp />
+              <name.id>K1Z</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">RAE, Arthur</name>
+              <name role="display">Senator RAE</name>
+            </talker>
+            <para>asked the Leader of the Government in the Senate, <inline font-style="italic">upon notice -</inline> 1: Has his attention been called to the existence of a new primary industry being developed in -Australia by a company known as &#34;Shark Fisheries Limited&#34;? </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="2.">
+              <para>Is it a fact that fish-meal, oils of various kinds, valuable fertilizers and other products, for which there is a large and profitable market, are being produced by this company from what was formerly waste material? </para>
+            </item>
+            <item label="3.">
+              <para>Is it also a fact that this company has added to the safety of the public by capturing over 1,000 sharks during the present year, between Newcastle and Wollongong? </para>
+            </item>
+            <item label="4.">
+              <para>Is the Government prepared to render any assistance in the further development of this enterprise? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1399</page.no>
+              <time.stamp />
+              <name.id>JTL</name.id>
+              <electorate>through Senator Barnes</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DALY, John</name>
+              <name role="display">Senator DALY</name>
+            </talker>
+            <para>-  The answers to the honorable senator&#39;s questions are as follow: - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. </para>
+            </item>
+            <item label="2.">
+              <para>The companyhas made this claim. </para>
+            </item>
+            <item label="3.">
+              <para>I have no information on this point. </para>
+            </item>
+            <item label="4.">
+              <para>The Government is at present giving careful consideration to the development of fisheries resources, and proposals put forward by Shark Fisheries Limited will bc examined in connexion with other similar proposals which have been submitted. </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1400</page.no>
+              <time.stamp />
+              <name.id>K09</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PAYNE, Herbert</name>
+              <name role="display">Senator PAYNE</name>
+            </talker>
+            <para>asked the Minister representing the Prime Minister, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What wouldbe the saving of expenditure in connexion with the maternity bonus if the paymen t of same was restricted to parents whose total income per annum did not exceed: (a) &#163;300, (b) &#163;400? </para>
+            </item>
+            <item label="2.">
+              <para>Has the Government, in their efforts to reduce the national expenditure, given consideration to such a saving being made; . and, if so, with what result? </para>
+            </item>
+          </list>
+          <para>
+            <inline font-weight="bold">Senator DALY</inline>(through <inline font-weight="bold">Senator Barnes).</inline> - The answers to the honorable senator&#39;s questions are as follow :  -  1. (a) Approximately &#163;120,000: <inline font-style="italic">(b)</inline> approximately &#163;40,000. </para>
+          <list type="decimal-dotted">
+            <item label="2.">
+              <para>The question of savings in all branches of expenditure has been carefully considered. The result is shown in the financial statement presented to Parliament by the Acting Treasurer on the 5th November last. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>1400</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers were presented :  - </para>
+      <para>New Guinea Act - Ordinance No. 22 of 1930- Appropriation 1930-1931. </para>
+      <para>Northern Australia Act - Ordinances of 1930- </para>
+      <para>Central Australia - </para>
+      <para>No. 15 - Employees&#39; accommodation. North Australia- </para>
+      <para>No. 18 - Employees&#39; accommodation. </para>
+      <para>No.1 9- Pearling.&#39; </para>
+      <para>Seat of Government (Acceptance) Act and Seat of Government (Administration) Act - Ordinance No. 21 of 1930 - Court of Petty Sessions (No. 2). </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SEAT OF GOVERNMENT</title>
+        <page.no>1400</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>City Area Leases Regulations</title>
+          <page.no>1400</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1400</page.no>
+              <time.stamp />
+              <name.id>K1L</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BARNES, John</name>
+              <name role="display">Senator BARNES</name>
+            </talker>
+            <para>-by <inline font-style="italic">leave.- In</inline> answer to an inquiry by SenatorH. E. Elliott, I am now able to say that, on carefully perusing the regulation to which the honorable senator referred, it is considered that it can be improved materially from a drafting point of view. With the honorable senator&#39;s concurrence, I shall go into the subject and see what action can be taken to meet his wishes. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SOUTH AUSTRALIA GRANT BILL</title>
+        <page.no>1400</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Assent reported. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>INCOME TAX BILL (No. 2) 1930</title>
+        <page.no>1400</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill returned from the House of Representatives with a message intimating that it had made the amendment requested by the Senate. </para>
+      <para>Bill (on motion by <inline font-weight="bold">Senator Barnes)</inline> read a third time. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SEAT OF GOVERNMENT</title>
+        <page.no>1400</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>City Area Leases Regulations : Motion to Disallow No. 9</title>
+          <page.no>1400</page.no>
+        </subdebateinfo>
+        <para>Debate resumed from the 11th December <inline font-style="italic">(vide</inline> page 1288), on motion by <inline font-weight="bold">Senator H.</inline> E. Elliott - </para>
+        <quote>
+          <para>That regulation 9 of the City Area Leases Regulations, made on 20th October, 1930, under the Seat of Government (Administration) Ordinance 1930, and the City Area Leases Ordinance 1924-1929, of the Territory for the Seat of Government, be disallowed. </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1400</page.no>
+              <time.stamp />
+              <name.id>KTR</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLACHLAN, Alexander</name>
+              <name role="display">Senator MCLACHLAN</name>
+            </talker>
+            <para>. - As no one appears to be prepared to proceed with this debate, owing probably to the statement by the Honorary Minister that he proposed to look further into this . matter with a view to recasting the ordinance, I rise merely to say that, in my opinion, the Government would be wise to recast it. It is true that, under the original ordinance, there is power to make regulations of this nature;but it seems to me that, in the framing of this regulation, there has been an improper exercise of that power. I suggest to the Minister that, if he wants to prevent a recurrence of the things outlined by him yesterday, he should act under the ordinance relating to the municipal control of the Federal Capital. I am not now concerned with the verbiage of the ordinance, although objection might be taken to it. A man who takes a lease subject to certain conditions should know the penalties for breaches of its covenants. I suggest that the Minister should not oppose the motion to disallow this regulation. That would enable him to approach the matter again from the proper angle. My attention has been drawn to an ordinance relating to the Court of Petty Sessions at Canberra. It would appear that, having made certain things an offence, an offender may be imprisoned for a period not exceeding twelve months. I do not think the Government had in mind so severe a penalty for a breach of a covenant of a lease. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1401</page.no>
+                <time.stamp />
+                <name.id>K1L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BARNES, John</name>
+                <name role="display">Senator Barnes</name>
+              </talker>
+              <para>-  I am prepared to agree to the disallowance of the regulation. </para>
+            </talk.start>
+          </interjection>
+          <para>Question, resolved in the affirmative. </para>
+        </speech>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Regulationdisallowed</title>
+          <page.no>1401</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>NORTHERN TERRITORY (ADMINISTRATION) BILL</title>
+        <page.no>1401</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>
+        <inline font-style="italic">In committee:</inline>Consideration resumed from11th December <inline font-style="italic">(vide</inline> page  1323). </para>
+      <para>Clause  5 - </para>
+      <quote>
+        <para>After section 3 of the principal act the following sections are inserted: - </para>
+      </quote>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1401</page.no>
+            <time.stamp />
+            <name.id>K1L</name.id>
+            <electorate>Victoria</electorate>
+            <party>ALP</party>
+            <role>Assistant Minister</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BARNES, John</name>
+            <name role="display">Senator BARNES</name>
+          </talker>
+          <para>. - In view of the vote taken last night, which resulted in the elimination of the definition of &#34;the Council &#34;, it would appear that proposed now sections  4a  to  4l  should be deleted from the bill, seeing that they relate to the advisory council for the territory which the Senatehas decided shall not be constituted. </para>
+        </talk.start>
+        <para>Amendment (by <inline font-weight="bold">Senator McLachlan</inline> ) agreed to. </para>
+        <para>That proposed new sections 4a to 4L inclusive be left out. </para>
+        <para>Clause; as amended, agreed to. </para>
+        <para>Clause6 - </para>
+        <quote>
+          <para>After section 5 of the principal act the following sections are inserted: - &#34; 21. - ( 1. ) Until the Parliament makes other provision for the Government of the territory, the council may, subject to this section, make ordinances having the force of law and in relation to the territory. &#34; (2.) An ordinance, the object or effect of which is to dispose of, or create any charge upon, the Consolidated Revenue . Fund or upon any revenue of the territory, shall not be proposed in or made by the Council. &#34; (3.) Every ordinance made under this section shallbe inoperative until it has been approved by the Governor-General.&#34; </para>
+        </quote>
+        <para>Amendments (by <inline font-weight="bold">Senator Barnes)</inline> agreed to - </para>
+        <quote>
+          <para>That the words &#34;council may, subject to this section &#34; be left out with a view to insert in lieu thereof the words &#34; Governor- General &#34;. </para>
+          <para>That sub-sections 2 and 3 of proposed new section 21 be left out. </para>
+        </quote>
+        <para>Clause, as amended, agreed to. </para>
+        <para>Title, agreed to. </para>
+        <para class="block">Bill reported with amendments. </para>
+        <para class="block">Standing and Sessional Orders suspended, and report adopted. </para>
+        <para class="block">Bill read a third time. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SPECIAL ADJOURNMENT</title>
+        <page.no>1401</page.no>
+        <type>special adjournment</type>
+      </debateinfo>
+      <para>
+        <inline font-weight="bold">Senator DALY</inline>(South Australia - </para>
+      <para>Vice-President of the Executive Council)  &#91;3.9&#93;. -  I move - </para>
+      <quote>
+        <para>That the Semite at its rising adjourn till Tuesday next at 3 p.m. </para>
+      </quote>
+      <para class="block">I desire to inform the Senate that I have conferred with the Acting Prime Minister (Mr.Fenton)who regrets that the Senate has been inconvenienced, and that the promise I made a day  or  two ago concerning the date on which the present sittings of the Senate would terminate cannot be fulfilled. The Acting Prime Minister desires me to assure the Senate that the alteration in the arrangement, which it was believed could be carried out, is due to the fact that the Government felt thatsomething should be done immediately to assist the wheatgrowers, and a measure to give them some assistancehas  now  been introduced in another place. He informs me that another place will meet, on Tuesday, and that he will use his best endeavours to see that the measure reaches this chamber in time for proper consideration to he given to it, and to allow honorable senators to leave for their homes by Wednesday night. </para>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>1401</page.no>
+            <time.stamp />
+            <name.id>K09</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PAYNE, Herbert</name>
+            <name role="display">Senator Payne</name>
+          </talker>
+          <para>-  Is there any other bill to come forward? </para>
+        </talk.start>
+      </interjection>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1401</page.no>
+            <time.stamp />
+            <name.id>JTL</name.id>
+            <electorate />
+            <party>ALP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DALY, John</name>
+            <name role="display">Senator DALY</name>
+          </talker>
+          <para>- Yes, the Port Augusta to Red Hill Railway Bill, which is not yet through another place. The second-reading speech on the Wheat Bill is being made this afternoon, and it will be late on Tuesday before we receive that measure, but I hope that we shall have the Port Augusta to Red Hill Railway Bill for immediate consideration when we meet on Tuesday. </para>
+        </talk.start>
+        <para class="block">Question resolved in the affirmative. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>1401</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <para>Financial Situation : Non-Party Government or Conference of all Parties. </para>
+      <para>Motion (by <inline font-weight="bold">Senator Daly)</inline> proposed - </para>
+      <quote>
+        <para>That the Senate do now adjourn. </para>
+      </quote>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1401</page.no>
+            <time.stamp />
+            <name.id>KRZ</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">LYNCH, Patrick</name>
+            <name role="display">Senator LYNCH</name>
+          </talker>
+          <para>. -  As we are getting near the time when the- present sittings of this Parliament must draw to a close, and the period of peace and goodwill is about to dawn upon us, may I suggest that the </para>
+        </talk.start>
+        <para class="block">Government should take into its most earnest consideration the needs of the country at the present time. I am not overstating the case when I say that those who have studied the conditions of the country from varying viewpoints, are satisfied that it has not been in such a serious position for many a long day, if, indeed, it has ever been in such a position. That being the case, it is about time to muster the best talent available in the nation for the purpose of coping &#34;with a situation which, in my opinion, has not yet reached its worst. We have only to look abroad to note on the one hand falling prices, and an inability to keep industries going, which, necessarily, must result in increased unemployment; and on the other hand, in the field of industry a want of co-operation - a sort of unwelcome desire to pull apart instead of together - the consequences of which must necessarily be serious, if not disastrous, to this our common country. When we know that our country is in jeopardy, or, at any rate, approaching danger, there is need for us to muster its best talents, its wisdom, and .its patriotism, if I may so call it, so that by a combined effort it may be steered through the troubled waters into which it has got. That is not possible while the party system is still rife, while we are given to the practice of waging political sham fights, as they really are compared with the more serious battle of righting the country&#39;s affairs. During the war we were forced to cast aside all party attachments, affiliations and predilections. We let them drop a thousand fathoms deep, because the necessities of the country demanded it. It is equally necessary that this should be done to-day with our country approaching an equally dangerous crisis. No matter what our ideas may be, the time has arrived for us to form a government from all parties with the determination to achieve the only thing that matters to-day, namely, the safety of the country. I do not know whether the Government will seriously regard my proposal or not, but if we could only overcome our party  squabblings,  our inclination to be at daggers drawn with each other over minor matters or mere shadows, our foolish sense of self-sufficiency - these things might be right at other times and places, but they are quite out of place now - if we could only look to the higher, the greater, the more commanding, nay, the imperious need for serving the nation first, forgetful of all party interests, much good would be accomplished. The idea is not novel. It has been mooted in different places, and by men who are by no means ciphers in the public life of this country. Months ago, in Western Australia, we discussed the need for dropping our party differences a thousand fathoms out of sight, and for getting together for the purpose of righting the ship of State. That is our first duty, to put the ship of State once more on an even keel, and thus be again in a position to hold our heads high and maintain our good name. Above all, must we restore that confidence in us which has been lost; otherwise the time will arrive when we shall be forced to take action, whether we like it or not. But it may&#34; then be too late. There is nothing at present to give us heart or hope, unless in the makeup of our nation there still adheres that spirit of determination that our pioneers possessed - the spirit to buckle on our armour and determinedly face the miserable difficulties of the hour. If we continue fighting our political battles as we are doing, the ship of State must necessarily continue on an uneven keel, and be finally swamped. When a vessel is labouring for its life in a hurricane there is no dissension among its crew. I have been in such a crisis. Before that hurricane came down upon us we had our paltry disputations; there were dissensions between sections of the crew and between the crew and master, and even between the master and his officers; but when the hurricane struck the .ship all dissensions vanished, and, from the captain down to the cabin boy, all had to pull on the ropes to keep the ship afloat. Why? Because our common safety demanded it. In exactly the same way the people of Australia, whether they be Nationalist, Labour, or members of any other party, must all pull together. In order to save the country that is so dear and has been so kind to us for so many years, it is our duty to drop our attachments to party, and put our country before all else all the time, so that it may be pulled out of its besetting troubles. </para>
+        <para>We have accumulated liabilities on every hand in London and Australia. Where are the funds to meet them? They are not in sight and will not be, unless the spirit of the people is so improved that we will all pull together in the field of industry, make new wealth by our united efforts and so pay our way. l t is time we got outside of ourselves and paid less heed to party interests. The time has come for us to have regard, first of all, for a policy framed in the best interests of Australia, to which we owe so much. If all the members of this chamber and another place dropped dead to-morrow - which God forbid - they would be replaced by men who would be just as good in every respect. Therefore, let us recognize our nothingness, and, above all, the supreme obligation that rests upon us at this moment. In our position of responsibility, commissioned as we are to discharge duties involving high purpose, we should see to it that in all we do we place the welfare of our country first. Let us cast a reflective eye upon that country to which we owe so much. Let us, if we want to be sincere - sincerity requires but one test of its worth, namely, sacrifice - sacrifice our attention to contemptible trifles and centre it upon ways and means of saving the nation&#39;s good name. Let us for the time blot out all considerations of parties; let us forget party affiliations, which so blind us to the higher purposes of public life; let us work together in the true interests of the commonweal. Otherwise we shall continue to fight our sham battles here and elsewhere, and ignore the higher purpose of doing something to ensure the safety of our country. </para>
+        <para>I again appeal to the Leader of the Senate and his colleagues to accept the suggestion which I have made. Let us dose up our ranks. Let us mobilize our strength. Let us stop grasping at the deceptive shadow and seize the vital substance. Let us cease idle speech and get to action, because it requires the most disinterested action, inspired by the highest motives, to surmount the fateful, if not fatal, difficulties pressing on our  course </para>
+        <para>We have heard a great deal lately about the mobilization of resources. Suppose we mobilize the best talent of this country to meet the present crisis. Would not. that be an act of mobilization worthy of the name? Suppose we mobilized the patriotism of the people of Australia. Would not that, too, be a mobilization equally worthy of the name? Suppose, also, that we made an effort to mobilize the best spirit of our citizens in support of a non-party government to keep this country clear of its looming dangers. Would not that be the best act of mobilization it would be possible to conceive? Therefore, in all seriousness, I urge the Government to dp all these things, irrespective of the consequences to myself, as I have been prepared to do throughout my life. &#93; ask the Ministry to give this matter&#39; its most thoughtful consideration during the recess upon which we arc about to enter, to see if something cannot be done to bridge the gulf that divides the parties in this Parliament. It can be done if only we have the will. This gulf has been bridged before by dint of urgent necessity. The need is urgent - never more so than how - and it is the duty of every member of this Parliament to come together and to make sacrifices in the interests of our country. What, after all, would be the sacrifice? We should be expected to sacrifice party political advantages, and I repeat that it is about time that we put the interests of Australia, now in sore need, before the interests of party which, in comparison, are quite ephemeral. It is high time that we did something to advance Australia, truly in the best sense of the word, by discarding some of our barren illusions and party attachments and working together in a spirit of unity for the good of Australia. </para>
+        <para>
+          <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE (Western Australia) &#91;3.24&#93;. - I desire to say a few words on the subject which has been raised by the honorable senator who has just resumed his seat <inline font-weight="bold">(Senator Lynch).</inline> I agree with him as to the necessity for prompt action to save this country; but I do not see eye to eye with him as to the manner in which this may be done. 1 personally do not believe that it is necessary to form a coalition government for that purpose. Nor do I think that that is advisable. In my opinion, co-operation can be secured without the formation of a coalition ministry. The circumstances in which the parties find themselves to-day indicate the urgent necessity for a strong effort being made to deal with the situation in the only way in which it will be possible to deal with it. if this country is to bo saved. T nin not blaming the Ministry for its apparent inaction. It is only natural that the party in power should hhesitate  in a crisis like this. But while the Ministry has one eye on the possibility of party advantage and the other on the safety of the nation, the probability is that the party will gain at the expense of the country. In our judgment, this has already happened. I expect that honorable senators supporting the Government will agree with me on this point. I believe that, if f.hi3 state of affairs continues much longer, the position of Australia will become more  dangerous  than ever it has been. To get the country out of its present difficulties some things will have to be done for which no one party will take the responsibility. I do not blame the party occupying the treasury bench any more than I would blame my own* party. The probability is that, if we were in office, Ave should endeavour to avoid doing unpleasant things which might have to be done before this country can be put in a safe position. One cannot say the things which, in other circumstances, one would like to say as to the condition in which this country finds itself to-day. There are obvious reasons why it would be inadvisable to do so. I am quite sure that members of the Government know to what I am referring, but I doubt that many of their supporters do. The position of the Commonwealth is drifting dangerously, both overseas and in Australia. When is this drift going to stop ? Can it be urged that anything which this Parliament has done since it reassembled a few weeks ago will stop the drift? Do supporters of the Government really believe that any legislation which we have passed within the last few weeks will improve our position? 1 cannot see any hope of that. If anything, the latest legislative measures will only accentuate our difficulties. And what about our position overseas? Every one knows that it is steadily becoming worse. One has only to study the commercial barometer to see how serious is our position. Unless action is taken very soon, it will be too late. Wc cannot go on indefinitely as we are now. And who will be the principal sufferers? Clearly, those to suffer most will be the &#34;mass of the people - those who are nearest the poverty line. In view of these facts is it not worth &#34;while to make some sacrifice to avert that suffering, if it is possible? I believe it is possible. 1 believe that what is wanted in this country and overseas is a restoration of confidence. Political action will do this, although I do not suggest that political action can escape economic laws. At the moment there is a definite lack of confidence in the Commonwealth, overseas and in Australia. I believe that confidence can bc restored by strong, urgent and immediate political action, but &#34;the consequences of such political action are such that I would not blame any one party for shirking the issue unsupported by other parties. The Leader of the Opposition in another place this week offered a suggestion, which, if the Government had been alive, not only to its own interests, but also to the interest of Australia, it would have grasped with both hands. Had the offer been accepted, action could have been taken to do what is necessary to ensure the safety of. this country. It is not yet too late. I urge the Government to give further consideration to the matter. I also urge the Labour party to re-consider its decision. L warn the Government and its supporters that, if they put party before the nation&#39;s interests, they may gain an immediate political advantage; but, in the long run, their policy will have a boomerang effect, which will be seen in the suffering that will come to the people of Australia. If we continue along the path down which we are now drifting, the consequences to the Labour party and its supporters will be more serious than to any other political party in this country. I warn them that in their own interests they would be wise to see that the action which must be taken in the immediate future is joint action, the responsibility for which would rest upon all parties in this Parliament. No political party would gain any advantage from joint action. Certainly the party which I have the honor to lead in this chamber would derive no political advantage from it. It we had regard only to the interests of our party, we should sit back and fill the role of critics, because, being in opposition, we have no responsibility for the governmental legislative proposals. The responsibility lies with the Government and the party which supports it. It is imperative, however, that something should be done immediately to bring about concerted action during the terrible times that are ahead of us. Have honorable members of the Government forgotten the recent political history of Australia ? Is it not a fact that, no matter what was its political colour, every government that has gone to the poll during the last few years has been defeated. Why? Because, in desperation, the suffering people have sought some scapegoat, and they blamed the Government, that was, for the time being, in power. That which has already happened will happen again to this Government when it presents itself to the electors. There is no political advantage to bo gained by the Opposition making this proposal, which is put forward in all sincerity. I do not urge that a coalition government is necessary or advisable. Its formation might even lend suspicion to the idea that the Opposition is trying to guin political advantage from the situation. Neither the Nationalist party nor the Country party desires any political advantage whatever from this offer. Neither party can see any possibility of deriving political advantage from it. On the contrary, it might result in the political disadvantage of each. Surely it is evident that from a purely political point of view it would be more advantageous to the Opposition to remain in the role of critics. I urge the Government to give the proposal the most, serious consideration. </para>
+        <para>
+          <inline font-weight="bold">Senator DUNN</inline>(New South Wales) &#91;3.32 1 . - While the Government appreciates the words that have fallen from thu lips of <inline font-weight="bold">Senator Pearce</inline> and <inline font-weight="bold">Senator Lynch,</inline> it must be evident to all who are in close contact with the Labour movement politically that the idea of a coalition with the Opposition is quite impracticable. The Leaders of the National and </para>
+        <para class="block">Country parties, both in another place and in this chamber, have seen fit to make public utterances on this subject for the edification of the community. I make it clear that this Government declines to accept the responsibility for the present unfortunate economic position of Australia. The Leader of the Opposition in the Senate <inline font-weight="bold">(Senator Pearce)</inline> was a member of tory governments which occupied the treasury bench for fourteen years prior to the accession to office of the present Labour Government, and it is upon the right honorable senator and his colleagues that the responsibility for Australia&#39;s position must fall. Labour has assumed control of the destinies of the country at. a most vital moment in its history. Upon the termination of the world war, there followed it period of artificial prosperity, but profligate governments in this and other countries refused to read the writ; ing on the wall. Now wo are reaping the whirlwind. Australia, with other nations, has been caught in the vortex of the international financial maelstrom.. Depression and unemployment abound. So when the Leader of the Opposition inthe Senate and <inline font-weight="bold">Senator Lynch</inline> give utter;,ance to proposals which are intended to. harass the Government at such a hazard-, ons time, they can receive but one reply, that of &#39;rejection! </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>1405</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator Lynch</name>
+            </talker>
+            <para>- Do not introduce party pettiness. </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1405</page.no>
+            <time.stamp />
+            <name.id>JYB</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DUNN, James Patrick Digger</name>
+            <name role="display">Senator DUNN</name>
+          </talker>
+          <para>- Let the  honorable  senator put his own house in order. When he returns to Western Australia in a few days let him impress upon the people of that State the error of their ways as to secession and other pinpricks that can only embarrass the Government. I shall not labour the issue, but for a moment shall discard my minor official mantle of Government whip and say that, so far as I arn concerned, my voice and vote, bothinside and outside party meetings, will be&#39; directed against any coalition on the part of this Government with the Opposition. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1405</page.no>
+            <time.stamp />
+            <name.id>K3X</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">CARROLL, William</name>
+            <name role="display">Senator CARROLL</name>
+          </talker>
+          <para>. - Very briefly, on behalf of the Country party, I desire to associate myself with the appeal that has been made to the Government by <inline font-weight="bold">Senator Pearce</inline> and <inline font-weight="bold">Senator Lynch.</inline> It is repeating a mere platitude to say t.hat the position is far too serious for- the intrusion of party politics. However, as <inline font-weight="bold">Senator Dunn</inline> has set a lead in that direction, I may say that if the present difficulties which face Australia are the result of the administration of previous Nationalist Governments, it shows a very generous spirit on the part of the adherents of that party when they come forward and offer to share theblame, and co-operate with the Government to cope with the problem. The offer has been made in all sincerity with but one desire, to assist Australia, and it must be placed far above petty party politics. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1406</page.no>
+            <time.stamp />
+            <name.id>JVF</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DOOLEY, John</name>
+            <name role="display">Senator DOOLEY</name>
+          </talker>
+          <para>. - Some two years ago <inline font-weight="bold">Mr. Theodore.made</inline> reference in another place to the prosecution of a man named Jacob Johnson, at the time secretary of the Seamen&#39;s Union. Proceedings went on for a considerable time, and there was <inline font-style="italic">a</inline> feeling in union circles that Johnson did not receive a fair trial, the impression being that many who gave evidence against him were perjurers, and people of very low reputation. It is to the disadvantage of the country that such an impression should be allowed to exist. <inline font-weight="bold">Mr. Latham,</inline> who was then Attorney General in the Bruce-Page Government, gave an assurance that the complaint would be investigated and reported upon, but nothing further was made public. I have spoken to the Leader of the Government in the Senate <inline font-weight="bold">(Senator Daly),</inline> who is at present Acting Attorney-General, and gather that inquiries have since been made, and that the honorable senator has a report dealing with the matter, and also that he will make a statement with regard to it. I should like to know whether the Leader of the Senate can give us any definite information in the matter. </para>
+        </talk.start>
+        <para>
+          <inline font-weight="bold">Senator Sir WILLIAM</inline>GLASGOW (Queensland) &#91;3.41&#93;,  -  I draw the attention of the Leader of the Senate to the fact that the Commonwealth Bank, in conjunction with the trading banks, has pegged the exchange in the interests of the Commonwealth and State Governments to enable them to meet external obligations. In view of the statement made by <inline font-weight="bold">Senator Colebatch</inline> last night that he was aware of one exporter of meat- . who had been&#39; able to get&#163;14 per cent, exchange on certain credits which he was able to provide in London, will the Government request the Commonwealth Bank, if possible, either to close up the leakage in the exchange, with a view to giving effect to the intention beforementioned, or to unpeg the exchange so that all exporters will be placed on the same footing, and the producers of exportable products will know what price they may expect- for their goods ? </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1406</page.no>
+            <time.stamp />
+            <name.id>JTL</name.id>
+            <electorate>South Australia</electorate>
+            <party>ALP</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DALY, John</name>
+            <name role="display">Senator DALY</name>
+          </talker>
+          <para>. - With regard to the matter raised by <inline font-weight="bold">Senator Lynch,</inline> I agree with the Leader of the Opposition that the solution of our problems will not be found in the formation of a coalition .  govern ment. </para>
+        </talk.start>
+        <para>As to the matter raised by the Leader of the Opposition <inline font-weight="bold">(Senator Pearce)</inline> himself, the subject was brought up in another place, as he no doubt is aware. Seeing that the Acting Prime Minister <inline font-weight="bold">(Mr. Fenton)</inline> proposes to make a considered statement on these proposals before the Christmas vacation, the right honorable gentleman will agree that it would not be right for me to enter into a discussion of them at this juncture. </para>
+        <para>Regarding the matter raised by <inline font-weight="bold">Senator Dooley,</inline> it is true that I told the honorable senator that I took it up from the point at which <inline font-weight="bold">Mr. Latham</inline> and <inline font-weight="bold">Mr. Brennan</inline> left it. It is a matter which involved a. great deal, of investigation, because there were numerous statements and testimonies to be examined. I am now in a position to make a report to Cabinet. The honorable senator will agree that it would not be proper for me to make a statement to the Senate until I have consulted my colleagues. </para>
+        <para>
+          <inline font-weight="bold">Senator Glasgow</inline>informed me that he would raise the question of the unpegging of the exchange, and that gave me an opportunity to confer with the Acting Prime Minister on the subject. The Acting Prime Minister will refer the matter to the Treasury officials and supply me with a report, which I hope to make available to the Senate next week.&#39; </para>
+        <para>Question resolved, in the affirmative. </para>
+      </speech>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>1406</page.no>
+        <time.stamp>15:45:00</time.stamp>
+      </adjournmentinfo>
+      <para>Senate adjourned  at  . 3.45  p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

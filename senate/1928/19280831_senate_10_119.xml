@@ -1,251 +1,1011 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1928-08-31%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1928-08-31%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1928-08-31%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1928-08-31%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1928-08-31%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1928-08-31%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1928-08-31%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1928-08-31/19280831_senate_10_119.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1928-08-31</date>
+    <parliament.no>10</parliament.no>
+    <session.no>1</session.no>
+    <period.no>3</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>6250</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1928-08-31</day.start>
+      <para>The <inline font-weight="bold">President (Senator the Hon. Sir John Newlands)</inline> took the chair at 11 a.m.,  and  read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>6250</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>COUNTRY PARTY AND THE TARIFF</title>
+          <page.no>6250</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6250</page.no>
+              <time.stamp />
+              <name.id>KNF</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MASSY-GREENE, Walter</name>
+              <name role="display">Mr GREENE</name>
+            </talker>
+            <para>- I ask the VicePresident of the Executive Council <inline font-weight="bold">(Senator Sir George Pearce)</inline> if his attention has been . directed to a paragraph which appeared in the Sydney <inline font-style="italic">Sun</inline> of the 30th August, headed &#34; Challenge - Country Party to Nationalists - Lower Tariff.&#34; Is the right honorable gentleman in a position to deny the truth of the statement, which purports to be a report of certain proceedings at a meeting of the Country party? </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6250</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- I saw the paragraph to which the honorable senator refers a few minutes ago. As I am  not  a member of the Country party I am unable to affirm or deny its correctness; but the source from which it comes makes me somewhatsuspicious as to its accuracy. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>6250</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers were presented :  - </para>
+      <quote>
+        <para>Report of  the  Australian Delegate <inline font-weight="bold">(Sir</inline> W.  Harrison-Moore)  to the  International Copyright Conference held  in  Rome, May and  June,  1928. </para>
+        <para>Defence - Report by Lieutenant-General <inline font-weight="bold">Sir H.</inline> G. Chauvel, G.C.M.G., K.C.B. (for Inspector-General), on  the Australian Military Forces (Part I., 31st May, 1928.) </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ESTIMATES AND BUDGET PAPERS1928-29</title>
+        <page.no>6250</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6250</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>NAT</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;11.5&#93;. - I lay upon the table of the Senate, by command, Estimates of Receipts and Expenditure, Estimates of Expenditure for Additions, New Works, Buildings, &#38;c, and Estimates of Expenditure from Loan Fund, for the year ending30th June, 1929, together with the budget  Papers  1928-29, presented by the Treasurer . <inline font-weight="bold">(Dr. Earle Page)</inline> on the occasion of opening the Budget of 1928-29. I move- </para>
+        </talk.start>
+        <para class="block">That the papers be printed. </para>
+        <para>In accordance with the usual custom, I propose to give the Senate a summary of the financial position as set out in the budget. </para>
+        <para class="block">Transactions for the Year 1927-28. </para>
+        <para>The transactions of the Consolidated Revenue Fund for the year 1927-28 were  as  follows: - </para>
+        <para class="block">
+          <graphic href="119332192808312_0_0.jpg" />
+        </para>
+      </speech>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Revenue 1927-28</title>
+          <page.no>6250</page.no>
+        </subdebateinfo>
+        <para>The revenue collected under Part I. of the budget amounted to &#163;60,832,461, a decrease of &#163;2,535,752 compared with the collections of 1926-27. The chief cause of this decrease was a decline of &#163;2,105,748 in the revenue from customs and excise. The revenue from direct taxation was &#163;251,203 less than the actual collections of 1926-27, but was &#163;1,441,128 in excess of the estimate. </para>
+        <para>Land tax amounted to &#163;857,206 in excess of the estimate. This was due largely to the assessments for the year being in a very forward position and the collection of large amounts of arrears. </para>
+        <para>Collections from income tax exceeded the estimate by &#163;365,175, chiefly owing to  exceptional payments of tax and penalties arising out- of a recent case of taxation evasion. Estate duties realized &#163;352,118 more than was expected. </para>
+        <para class="block">Expenditure from Revenue 1927-28. </para>
+        <para>Omitting payments made from the surplus brought forward from the 30th June, 1927, the expenditure under Part I. of the Estimates was &#163;51,432,274 as compared with the estimate of &#163;50,855,434, an increase of &#163;576,840. The main items of increase were as follows: - </para>
+        <para class="block">
+          <graphic href="119332192808312_1_1.jpg" />
+        </para>
+        <para>Tour years ago the Government entered upon a special programme of naval fleet construction, now almost completed. In the budget of last year, &#163;200,000 of the accumulated surplus at 30th June, 1927, was allocated for national insurance,  and &#163;50,000 for prospecting for oil. These amounts were not required during the year for the purposes indicated. They were, therefore, ultimately used for naval construction, and the sum appropriated for naval construction from the surplus of 1926-27 was thus increased from &#163;1,880,000 to &#163;2,130,000. The total cost of this programme is &#163;7,400,000. Of this amount &#163;6,630,000 has been provided out of surplus revenue available from previous years. The practice of setting aside the sums required out of surpluses was followed, as the expenditure was of a nonrecurring nature, and this procedure has been adopted rather than making provision in annual budgets, thus involving additional taxation. The balance making up the total cost of the &#39; programme, namely, &#163;770,000, has been charged to the accounts of the year 1927-28, as it was not considered desirable to impose special taxation in the year 1928-29 to meet this expenditure. This decision had the effect of increasing the deficit for 1927-28, and this amount has been left for liquidation with the deficit. </para>
+        <para>The actual transactions under Part II. of the budget, Business Undertakings, show a deficit of &#163;43S,034, due mainly to the fact that the estimated surplus in respect of postal operations was not realized. </para>
+        <para>The deficit under Part III., Territories of the Commonwealth, amounted to &#163;509,204, as compared with an estimated shortage of &#163;446,215. The reason for the increase in the deficit was that the Treasury did not receive from the- Federal Capital Commission interest on loans. The revenue received by the Commission in 1927-28 was all required to meet working expenses. The interest for the year not paid to Commonwealth revenue has been added to the indebtedness of the Commission. It is estimated that the Commission will have surplus revenue amounting to &#163;75,000 in 1928-29 available for payment of interest on loans. </para>
+        <para>It was estimated that the amount to be contributed from revenue to meet payments to or for the States under Part IV. of the budget was &#163;11,147,912. The actual amount proved to be &#163;11,0S3,186. </para>
+        <para>Estimated Expenditure out of Revenue, 1928-29. </para>
+        <para>On pages 6 to 9 of the printed budget papers, honorable senators will find a summary of the budget 1928-29, together with the corresponding figures for previous financial years. </para>
+        <para>PART I. - Departments and Services other than Business Undertakings and Territories of the Commonwealth. </para>
+        <para>The estimated expenditure for 1928-29 under Part I. of the Estimates is &#163;51,669,717, an increase of &#163;237,443, as compared with the expenditure of 1927-28 after omitting payments made out of the surplus at the 30th June, 1927. The chief items of increase were: - </para>
+        <para class="block">
+          <graphic href="119332192808312_2_0.jpg" />
+        </para>
+        <para>Every effort has been made to reduce the expenditure to the lowest possible minimum. It must be borne in mind, however, that 86 per cent, of the expenditure is represented by war, repatriation, defence, and invalid and old-age pensions. It will thus be realized that the field in which reductions of expenditure can be effected is very limited. Departmental estimates have been prepared having in view the need for the greatest economy possible, whilst efficiently discharging public services. A continuous departmental economy campaign will be maintained, and every possible saving will be made. </para>
+        <para>The increase in invalid and old-age pension payments is due to the normal increase in pensioners and to further concessions which have been granted. </para>
+        <para>The increase of &#163;25,717 under miscellaneous services is accounted for by a vote of &#163;115,000 for the general elections and referendum. Decreases amounting, to &#163;140,717 under other heads account for the net increase of &#163;25,717. The increase of &#163;51,995 under additions, new works and buildings is accounted for by the war memorial, for which &#163;50,000 has been provided. </para>
+        <para>The reduced wine export bounty mainly accounts for the decrease of &#163;256,096 under statutory payments. </para>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>War Pensions</title>
+          <page.no>6252</page.no>
+        </subdebateinfo>
+        <para>The estimated expenditure on war pensions in 1928-29 is estimated at &#163;7,610,000. This amount is larger than in any previous year. These pensions are still increasing in number and in total amount, chiefly owing to the increased number of dependent children entitled to pensions. The Government proposes to establish a War Pensions Appeal Board, to which an appeal may be made against the assessment of war pensions. Before doing so, however, it desires toobtain the experience of other countries, so that the system adopted by the Commonwealth may be based on the best possible experience. </para>
+        <para>Previously, widows of soldiers who were killed or died as a result of war injuries, who were supporting dependent children or were not in receipt of any income beyond their pension, received a pension of &#163;2 2s. a week. Other widows received a pension of &#163;1 3s. 6d. per week. The Government has now decided to remove this discrimination between soldiers&#39; widows, and in future will provide a pension of &#163;2 2s. per week without any condition. </para>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Repatriation</title>
+          <page.no>6252</page.no>
+        </subdebateinfo>
+        <para>The estimated expenditure on repatriation in 1928-29 is &#163;930,663, an increase of &#163;55,129 as compared with the expenditure of 1927-28. This increase is due in the main to new benefits, approved during 1927-28, for the transportation of certain classes of soldiers, living allowances for the third and subsequent children, increased cost of training of children under the educational scheme, and the greater number of persons receiving medical treatment. </para>
+        <para class="block">Invalid and Old-age Pensions. </para>
+        <para>The annual liability in respect of invalid and old-age pensions at 30th June, 1928, was &#163;9,900,000. The actual payments in 1927-28 were &#163;9,790,000. The estimate for 1928-29 is &#163;10,000,000. </para>
+        <para>At present war pensions are exempted from income for the purpose of calculating invalid and old-age pensions to any person receiving a pension by reason of his being a dependant within the meaning of the War Pensions Act. It has now been decided to grant, this concession to ex-soldiers who themselves are applicants for old-age pensions. </para>
+        <para>With regard to pensioners who are inmates of asylums or hospitals, the Government has decided that the asylum and hospital pension will be increased to 5s. 6d. per week, and that payments to the institutions will he increased to 14s. 6d. per week. Necessary legislation to effect these amendments will he introduced before Parliament rises. </para>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>National Insurance</title>
+          <page.no>6253</page.no>
+        </subdebateinfo>
+        <para>The Government proposes to introduce without delay a bill to provide for a scheme of national insurance, the cost of which will be shared amongst the Commonwealth, the employer and the employee. </para>
+        <para>Part II. - Business Undertakings. </para>
+        <para>The estimated revenue of the PostmasterGeneral&#39;s Department in 1928-29 is &#163;12,997,000 and the estimated expenditure is &#163;12,889,000. A surplus of &#163;108,000 is therefore expected, as compared with a deficit of &#163;44,000 in 1927- 28. The estimated expenditure is &#163;495,140 more than that of 1927-28, the increase being due chiefly to automatic increases in salaries under arbitration awards and Public Service regulations, new mail services and increased frequencies of existing services, additional payments to railways for carriage of mails, increased payments to non-official postmasters, interest and sinking fund on new loans, increased maintenance charges due to additions to telephone, telegraph and postal asset? and general expansion of business. </para>
+        <para>As regards Commonwealth railways a deficit of &#163;427,465 is expected, as compared with a deficit of &#163;393,606 in 1927- </para>
+        <list type="decimal-dotted">
+          <item label="28.">
+            <para>The estimated expenditure is &#163;1,086,465, whilst the revenue is estimated to be &#163;659,000. </para>
+          </item>
+        </list>
+        <para>Part III. - Territories of the Commonwealth. </para>
+        <para>It is estimated that the expenditure on the Territories under the control of the Commonwealth will be &#163;592,000 in 1928- 29, whilst the estimated revenue is &#163;19,000, the result being an estimated deficit of &#163;573,000, as compared with the deficit of &#163;509,000 in 1927-28. The increased deficit is more than explained by the provision of &#163;75,000 for the  GoulburnCanberra  road and &#163;42,500 for machinery for the Government printing office, Canberra. The provision for printing office machinery includes &#163;36,000 to reimburse the Federal Capital Commission for expenditure incurred in purchasing the initial equipment. </para>
+        <para>Part IV. - Payments to or for the States. </para>
+        <para>Provision has been made under this part of the budget for making payments contemplated by the financial agreement between the Commonwealth and the States. Honorable senators will find a brief summary of the agreement, with explanatory tables, on pages 118 to 120 of the budget papers. </para>
+        <para>Omitting the item, &#34; Interest on loans raised for the States,&#34; which is recovered in full from the States, the amount provided for 1928-29 is &#163;11,035,000. </para>
+        <para>Under the States Grants Act 1927, a special grant of &#163;378,000 was paid to the State of Tasmania for the years 1926-27 and 1927-28. After discussing with the Premier of that State the question of giving further assistance to Tasmania, the Government has decided to provide a grant of &#163;220,000 during 1928-29. The benefits to Tasmania under the financial agreement and the improved financial and industrial position- of Tasmania generally were taken into consideration in arriving at the grant for the current year. </para>
+        <para class="block">Estimated REVENUE, 1928-29. </para>
+        <para>The estimated revenue for 1928-29, apart from that of business undertakings and territories and interest on loans raised for the States, is &#163;63,610,000, as compared with &#163;60,832,000 collected in 1927-28- an increase of &#163;2,778,000. </para>
+        <para>Customs and excise revenue is expected to reach &#163;43,300,000. The revenue collected under these heads in 1927-28 was &#163;41,447,000. . The experience of the Commonwealth has been that after previous trade depressions there has been a quick recovery, which has been reflected in the Customs revenue. This experience, together with the prospects of a good harvest and an increased wool clip, justifies the expectation of increased Customs revenue in 1928-29. </para>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Land Tax</title>
+          <page.no>6253</page.no>
+        </subdebateinfo>
+        <para>It is expected that land tax will yield &#163;2,600,000, which is &#163;427,000 less than the collections of 1927-28. The forward 0 position . of the assessments for 1927-28 has had the effect of reducing the arrears of taxation which will be collected in 1928-29. </para>
+        <para>Land tax rates are not to be altered. </para>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Income Tax</title>
+          <page.no>6254</page.no>
+        </subdebateinfo>
+        <para>The estimated revenue from this source is &#163;10,550,000, as compared with &#163;10,165,000 in 1927-28- an increase of &#163;385,000. </para>
+        <para>It is not proposed to alter income tax rates in respect of individuals and ordinary companies. Amendments of the law will, however, be introduced to remove anomalies which have resulted in certain income escaping taxation. </para>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>The Deficit</title>
+          <page.no>6254</page.no>
+        </subdebateinfo>
+        <para>After very careful consideration, the Government has decided not to impose special taxation to liquidate the deficit of &#163;2,629,000. It is proposed to place the deficit in suspense and future surplus revenue will be applied to liquidate the deficit before further taxation relief is provided. </para>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Loan- Expenditure</title>
+          <page.no>6254</page.no>
+        </subdebateinfo>
+        <para>The estimated loan expenditure for 1927-28 was &#163;14,750,000, made up as follows :  - </para>
+        <para class="block">
+          <graphic href="119332192808312_4_0.jpg" />
+        </para>
+        <para>As a result of a revision by the Loan Council of the loan programme, made necessary owing to the straitened financial position, members of the council agreed to curtail their, expenditures. This is reflected in the actual loan expenditure of the Commonwealth, which was as follows :  - </para>
+        <para class="block">
+          <graphic href="119332192808312_4_1.jpg" />
+        </para>
+        <para class="block">The loan expenditure for the Commonwealth in 1928-29 is estimated at &#163;9,024,375. The following table shows the principal items included in this estimate in comparison with the actual expenditure 1927-28: - </para>
+        <para class="block">
+          <graphic href="119332192808312_4_2.jpg" />
+        </para>
+        <para>The amount of &#163;7,780,157 shown as Commonwealth expenditure on works &#38;c. in 1927-28 represents the actual expenditure before deducting a credit of &#163;163,216 on account of the sale of ships. The net loan expenditure for the year was &#163;7,616,941. </para>
+        <para>The estimated loan expenditure exceeds that of 1927-28 by &#163;1,244,218. Parliament House, Canberra, accounts for &#163;638,500 of this increase. This amount will be paid to the Federal Capital Commission, and a corresponding deduction has been made from the provision for Capital Territory works. </para>
+        <para>It will be noted that there is an increase of &#163;1,047,417 under war service homes. . It has been the practice to pay into a trust fund interest and rent on war service homes, and to use these moneys in the . provision of new homes. In this way a reserve has been built up out of revenue. The Government considers that the time has arrived when such interest and rent should be credited to revenue, and set off against the interest payable by the Commonwealth on loans raised for war service homes purposes. The sum of &#163;800,000, representing estimated receipts for interest and rents on&#39; war service homes has therefore been included in the Estimates of the Consolidated Revenue Fund for 1928-29. Amending legislation will be introduced to give effect to this proposal. Thus, in future, practically the full amount required for war service homes will be provided in the Loan </para>
+        <para class="block">Estimates. The actual expenditure on war service homes in 1927-28 was &#163;1,646,000. </para>
+        <para>The two increases mentioned amount to &#163;1,685,917. The net increase inthe Loan Estimates is &#163;1,244,218. Sundry increases and decreases account for the net decrease of &#163;441,699 in respect of the remaining items. </para>
+        <para>The total loan programme for the Federal Capital Commission is &#163;750,000. Of this sum &#163;638,500 will be made available when payment is made to the Commission of the cost of Parliament House, and &#163;100,000 will be borrowed by the Commission from the Commonwealth Bank. The balance of &#163;11,500 is included in the Loan Estimates. </para>
+        <para>In addition, &#163;4,400,000 is provided in the Loan Estimates for the States for development and migration, and &#163;100,000 for loans for the North Australia Commission. </para>
+        <para>I have stated in outline only the budget proposals for 1928-29. Full details are given in the Estimates and budget papers now in the hands of honorable senators. At this point I desire to remind them that, if they wish to debate the general principles underlying this budget, they should take the opportunity to do so when the motion for the printing of the budget papers is before the Senate, as the appropriate bill generally comes before this chamber late in the session, when there is usually sufficient time only to discuss the items in the Estimates. </para>
+        <para>Debate (on motion by <inline font-weight="bold">Senator Needham)</inline> adjourned. </para>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>6255</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>HOUSING SCHEME</title>
+          <page.no>6255</page.no>
+        </subdebateinfo>
+        <para class="block">Operation in Victoria. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6255</page.no>
+              <time.stamp />
+              <name.id>JYX</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FINDLEY, Edward</name>
+              <name role="display">Senator FINDLEY</name>
+            </talker>
+            <para>asked the Leader of the Government in the Senate, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>The number of houses erected in Victoria under the Commonwealth Housing Act? </para>
+            </item>
+            <item label="2.">
+              <para>The rate of interest charged to persons to whom advances have been made? </para>
+            </item>
+            <item label="3.">
+              <para>The maximum amount advanced to an applicant under the act? </para>
+            </item>
+          </list>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6255</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- It is not possible for the Commonwealth housing scheme to be brought into &#34;operation in Victoria until the Government of Victoria, by legislative action, intimates its willingness to take advantage of the funds available for housing through the Commonwealth Savings Bank. The Commonwealth Government has asked the Government of Victoria to indicate its intentions in this matter. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>6255</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>DEVELOPMENT AND MIGRATION COMMISSION</title>
+          <page.no>6255</page.no>
+        </subdebateinfo>
+        <para>Expenditure and Recommendations</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6255</page.no>
+              <time.stamp />
+              <name.id>JYX</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FINDLEY, Edward</name>
+              <name role="display">Senator FINDLEY</name>
+            </talker>
+            <para>asked the Leader of the Government in the Senate, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>On what date was the Development and Migration Commission appointed ? </para>
+            </item>
+            <item label="2.">
+              <para>What is the total salary paid each member of the commission since his appointment? </para>
+            </item>
+            <item label="3.">
+              <para>The total travelling expenses paid each member for the same period? </para>
+            </item>
+            <item label="4.">
+              <para>The total expenditure incurred to date in connexion with the commission? </para>
+            </item>
+          </list>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.The information is being obtained. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6255</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator NEEDHAM</name>
+            </talker>
+            <para>asked the Minister representing the Prime Minister, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What is the total amount that has been expended by the Development and Migration Commission since its inception? </para>
+            </item>
+            <item label="2.">
+              <para>What works have been actually carried out or commenced, as a result of the recommendation of this commission? </para>
+            </item>
+          </list>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.The information is being obtained. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>6255</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CRIMES ACT</title>
+          <page.no>6255</page.no>
+        </subdebateinfo>
+        <para>Deportations</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6255</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator NEEDHAM</name>
+            </talker>
+            <para>asked the Leader of the Government in the Senate, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Have any deportations been made under the Crimes Act; and, if so, how many? </para>
+            </item>
+            <item label="2.">
+              <para>Have any organizations been disbanded under the Crimes Act; and, if so, how many? </para>
+            </item>
+          </list>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.The answers are as follow :  - 1 and 2. No. The act has been most effective as a deterrent of the activities against which it was directed. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>6255</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>THE JERVIS BAY</title>
+          <page.no>6255</page.no>
+        </subdebateinfo>
+        <para>Alleged Mutiny</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6255</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator NEEDHAM</name>
+            </talker>
+            <para>asked the Minis ter representing the Prime Minister, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Will the Minister lay on the table ofthe Senate all the papers and correspondence relating to the alleged mutiny on the <inline font-style="italic">Jervis Bay,</inline> including the report of the captain and any other officer or person? </para>
+          </quote>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6256</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- The Australian Commonwealth Shipping Board is being asked to forward the papers in connexion with this matter, and they will be made available when received. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>6256</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SOUTHERN EUROPEANS</title>
+          <page.no>6256</page.no>
+        </subdebateinfo>
+        <para>Remittances prom Australia. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6256</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator NEEDHAM</name>
+            </talker>
+            <para>asked the Minis ter representing the Treasurer, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>What was the amount of money remitted to southern European countries by natives of those- countries who are or were resident in Australia, for the years 1924-28, showing each country separately? </para>
+          </quote>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6256</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>-I regret that this information is not available. The Postal Department advises that the remittances by money order by all classes of persons in the Commonwealth to Italy and Malta in 1927 totalled &#163;90,710 and &#163;21,170 respectively. The remittances to other southern European countries through the post office cannot be readily ascertained. An examination of all the money orders would be necessary for this purpose, and difficulty would be met with in determining whether the persons who remitted the moneys were natives of the southern European countries. As regards remittances made through the banks to southern European countries, the Government has no information. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>6256</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>HANDLING OF FRUIT</title>
+          <page.no>6256</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6256</page.no>
+              <time.stamp />
+              <name.id>KOF</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYES, John</name>
+              <name role="display">Senator J B HAYES</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Markets, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Will he, in view of the many thousands of pounds lost annually through the rough handling of fruit, have inspectors placed in the holds of sea-going ships to endeavour to stop this practice? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6256</page.no>
+              <time.stamp />
+              <name.id>JRW</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party>NAT</party>
+              <role>Honorary Minister</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRAWFORD, Thomas</name>
+              <name role="display">Senator CRAWFORD</name>
+            </talker>
+            <para>- The matter is having consideration. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>6256</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>FLAX INDUSTRY</title>
+          <page.no>6256</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6256</page.no>
+              <time.stamp />
+              <name.id>KOF</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYES, John</name>
+              <name role="display">Senator J B HAYES</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Trade and Customs, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Has the Tariff Board&#39;s report on the request for assistance to the flax industry been received? If so, will it be given effect to at once in order to assist in the preparation of this season&#39;s crop? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6256</page.no>
+              <time.stamp />
+              <name.id>JRW</name.id>
+              <electorate />
+              <party>NAT</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRAWFORD, Thomas</name>
+              <name role="display">Senator CRAWFORD</name>
+            </talker>
+            <para>- The report has not been received. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>6256</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>FEDERAL CAPITAL</title>
+          <page.no>6256</page.no>
+        </subdebateinfo>
+        <para>Canberra Swimming Baths - Railway to Ainslie</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6256</page.no>
+              <time.stamp />
+              <name.id>JXJ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NEEDHAM, Edward</name>
+              <name role="display">Senator NEEDHAM</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Home and Territories, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it the intention of the Government to provide swimming baths at Canberra? </para>
+            </item>
+            <item label="2.">
+              <para>If so, when will the work be commenced? </para>
+            </item>
+            <item label="3.">
+              <para>If not, why? </para>
+            </item>
+          </list>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.The answers are as follow: - 1 and 3. It is the intention of the Commission to provide swimming baths. </para>
+          <list type="decimal-dotted">
+            <item label="2.">
+              <para>As soon as the financial position permits. Sufficient funds cannot be made available to the Commission for the erection of baths during this financial year. </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6256</page.no>
+              <time.stamp />
+              <name.id>JYG</name.id>
+              <electorate>through Senator Foll</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ELLIOTT, Harold</name>
+              <name role="display">Senator ELLIOTT</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Works and Railways, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is the Minister aware whether tradesmen and business men at Civic Centre and Ainslie are being penalized by the heavy cost of transport from the present station site to their places of business, and arc anxiously awaiting a decision on the question of the re-opening of the line to Ainslie station? </para>
+            </item>
+            <item label="2.">
+              <para>When is it expected that the line to Ainslie will be re-opened? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6256</page.no>
+              <time.stamp />
+              <name.id>JRW</name.id>
+              <electorate />
+              <party>NAT</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRAWFORD, Thomas</name>
+              <name role="display">Senator CRAWFORD</name>
+            </talker>
+            <para>- This matter will be inquired into, and a reply will be furnished at a later date. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>6256</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>DROUGHT LOSSES</title>
+          <page.no>6256</page.no>
+        </subdebateinfo>
+        <para>Railway Proposals</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6256</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>asked the Minister re presenting the Prime Minister, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Has the Government considered the report of the Pastoral Advisory Board appointed to advise the Government as to the best means of avoiding losses occasioned by drought? </para>
+            </item>
+            <item label="2.">
+              <para>Is the Minister aware that in its report the board has strongly recommended that the best way to overcome a great deal of the difficulties occasioned in drought time, and to avoid the great losses of sheep that occur in Western Queensland, would be to connect by rail Bourke, in New South Wales, with Cunnamulla, in Queensland, and Charleville with Blackall? </para>
+            </item>
+            <item label="3.">
+              <para>In view of the strong recommendation of this board, will the Government get into touch with the Government of New South Wales and the Government of Queensland to see whether it is possible to apportion the cost of such a project between the Commonwealth and the States concerned, or will it ascertain if it is possible to secure the necessary funds from the money available for developmental work under the migration agreement with Great Britain? </para>
+            </item>
+          </list>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6257</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para />
+            </talk.start>
+          </interjection>
+          <para>The answers are as follow: - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. 2 and 3. The report of the Pastoral Committee indicates the necessity for the construction of some connecting link north and south to join the existing railways in Queensland for the purpose of saving stock during periods of drought. The Government considers that this is a matter of . vital national necessity and would be prepared to discuss with the States concerned the question of taking action in the direction suggested. At present, however, owing to financial stress and the difficulty of obtaining loan money, no action can be taken; but it is hoped that, when there is a better appreciation of the purposes for which loan money is needed in Australia, it will be possible to make arrangements to provide facilities for removing stock in times of drought. When the time is opportune the Government will be prepared to give the matter its earnest consideration. Money for the purpose would be available under the agreement with the British Government; but it would be for the States concerned to submit some scheme for approval. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>COMMONWEALTH PUBLIC SERVICE BILL</title>
+        <page.no>6257</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>6257</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6257</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>NAT</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEOEGE PEARCE</name>
+            </talker>
+            <para>&#91;11.36&#93;.  -  I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the bill be now read a second time. </para>
+          </quote>
+          <para>This is a short bill to amend the existing provisions of the Public Service Act in relation to the attachment of salaries of officers. The present act provides that where a judgment has been obtained against an officer of the Public Service, the person who has obtained the judgment may serve a copy of it on the paying officer of the department in which the officer is employed together with a statutory declaration that the judgment has not been satisfied. The paying officer then notifies the officer in writing, and requires him to furnish evidence that the debt has been paid, or, if it has not been paid, to state the amount remaining due. If the officer fails to prove that the judgment has been paid, the paying officer is authorized to deduct from any moneys due to the officer such sums as are, in his opinion, necessary to enable the judgment to be satisfied, provided that the salary of the officer must not be reduced below a specified amount. These provisions apply only to permanent officers of the Public Service, but it is proposed by the bill to extend them to all officers of the Public Service, including temporary officers. They will also apply to another class of officers. Section 8 of the Public Service Act provides that the Governor-General may, on the recommendation of the board, declare that the act shall not apply to any officer or any particular class of officers, or any employee or class of employees. The bill provides, however, that, unless the GovernorGeneral otherwise directs, the section relating to attachment of salary shall apply to such officers and employees. It is also proposed to make a slight alteration in the procedure relating to attachment by authorizing the chief officer to appoint any officer to act as paying officer for the purposes of these attachment provisions. This amendment is intended to meet the somewhat awkward position which might arise if the judgment debtor happened to be an officer senior to the paying officer. In such a case it is proposed that the chief officer shall have power to appoint some other officer to act as paying officer for the purposes of the section, and the officer so appointed may serve notice on the judgment debtor as required by this section, and, where the debt has not been paid, may determine the amount of the deductions to be made, and direct the paying officer to make those deductions from the salary of the judgment debtor. Honorable senators will remember that the principal act enables the salaries of public servants to be garnisheed for debt, the same as the salaries of any other citizens. It was thought that we should not make members of the Public Service a privileged class who were not amenable to  a  law that applied to every other section. The act placed them on an equality with private individuals, but it was found that, as it was not made to apply specifically to temporary employees, a loop-hole had been left. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6257</page.no>
+                <time.stamp />
+                <name.id>KOF</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HAYES, John</name>
+                <name role="display">Senator J B Hayes</name>
+              </talker>
+              <para>-  This measure will place everybody on the same footing. </para>
+            </talk.start>
+          </interjection>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.Yes. </para>
+          <para>Debate (on motion by <inline font-weight="bold">Senator Needham)</inline> adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>NEW GUINEA BILL</title>
+        <page.no>6258</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>6258</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6258</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>NAT</party>
+              <role>Vice-President of the Executive Council</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;11.41&#93;. - I move - </para>
+          </talk.start>
+          <quote>
+            <para class="block">That the bill be now read a second time. </para>
+          </quote>
+          <para class="block">The New Guinea Act 1920-1926 provides that, until the Parliament makes other provision for the Government of the Territory, the Governor-General may make ordinances having the force of law in and in relation to the Territory. From the commencement of civil administration in New Guinea in May, 1921, until last year, the white population of the Territory consisted mainly of Government officers and quasi-Government officials, such as officers of the Expropriation Board. It was felt that while such a state of affairs existed, the granting of a measure of local government was not warranted. The expropriated properties are now, and Lave been for some time, <inline font-style="italic">in</inline> private hands, and it is considered that the proportion of non-official residents to official residents at present existing warrants the granting of a form of local government. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6258</page.no>
+                <time.stamp />
+                <name.id>JXJ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">NEEDHAM, Edward</name>
+                <name role="display">Senator Needham</name>
+              </talker>
+              <para>- What is the white population now? </para>
+            </talk.start>
+          </interjection>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE There are about 2,070 Europeans, while Asiatics and others number about 1,320, making a total nonindigenous population of 3,399. Tho system of local government which, it is proposed, shall be instituted for New Guinea is similar to that in force in the neighbouring Territory of Papua. At the present stage of development of New Guinea, it is considered desirable to make a commencement on the lines which have proved so successful in Papua, and to await actual experience of the operation of the system in New Guinea before giving consideration to any question of a change in the constitution of the legislative body. The Executive Council is to consist of nine members, who will be appointed, by the Governor-General and hold office during his pleasure. Eight of the members are to be officers of the Territory, and one is to be chosen by and from the non-official members of the Legislative Council. The Legislative Council is to consist of the Administrator, the official members of the Executive Council, eight in number, and five nonofficial members, namely, nine official members and five non-official members. The Legislative Council is empowered to make ordinances for the peace, order and good government of the Territory, but may not impose higher import duties on any goods produced or manufactured in, or imported from, Australia than are imposed on the like goods produced or manufactured in, or imported from, other countries. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6258</page.no>
+                <time.stamp />
+                <name.id>JXZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN, Walter</name>
+                <name role="display">Senator Duncan</name>
+              </talker>
+              <para>- But it may impose higher duties upon goods from other countries. </para>
+            </talk.start>
+          </interjection>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE.Yes. No ordinance has any force until it has been assented to. Within six months after the Administrator assents to. an ordinance, the Governor-General may disallow it. Ordinances relating to certain matters set out in clause 3 of the bill, section 11w, must be reserved for the Governor-General&#39;s pleasure, and an ordinance so reserved has no force unless and until within one year from the date of its presentation to the Administrator, the latter publishes within the Territory a notification that it has received the Governor-General&#39;s assent. Every ordinance assented to by the Administrator or by the Governor-General must be laid before both Houses of Parliament. </para>
+          <para>It is proposed to include in the bill a clause which will guard against the possibility of any interference by the Legislative Council with the obligations imposed upon Australia by the mandate. That accounts for the difference between this bill and the Papua Act. Honorable senators will recognize the necessity for this provision. We could not allow the Legislative Council of New Guinea to pass any ordinance relating to the matters for which we are responsible to the Mandates Commission, unless it had the approval of the Executive Council. In view of the recent alteration of the status o&#39;f dominions, it is proposed that the annual report to the Council of the League of Nations on the Territory of New Guinea shall in future be made by the Minister administering the New Guinea Act instead of by the GovernorGeneral. </para>
+          <para>Debate (on motion by <inline font-weight="bold">Senator Needham)</inline> adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SEAT OF GOVERNMENT RAILWAY BILL</title>
+        <page.no>6259</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>6259</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>6259</page.no>
+              <time.stamp />
+              <name.id>JRW</name.id>
+              <electorate>QueenslandHonorary Minister</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRAWFORD, Thomas</name>
+              <name role="display">Senator CRAWFORD</name>
+            </talker>
+            <para>. - P move - </para>
+          </talk.start>
+          <quote>
+            <para>That the bill be now read a second time. </para>
+          </quote>
+          <para class="block">The bill that I am now submitting to the House deals with the railway between Queanbeyan and Canberra, and its object is to vest the railway in the Commonwealth Railways Commissioner, properly and legally. In the ordinary course this railway, like all others owned by the Commonwealth would, under the provisions of the -Commonwealth Railways Act 1917-25, be vested in the Commissioner. But the railway was built some considerable time before the passing of the Railways Act referred to, and not being built under a specific railway authorizing act it did not, like the other railways owned by the Commonwealth, become automatically vested in the Commonwealth Railways Commissioner when the Commonwealth Railways Act of 1917 was passed by the Senate. Under section 16 of the Commonwealth Railways Act 1917-25 provision is made for vesting in the Commissioner - </para>
+          <quote>
+            <para>All railways and all rolling-stock heretofore constructed or acquired by or on behalf of the Commonwealth pursuant to any act in force for the time being authorizing the construction or acquisition of railways or rollingstock. </para>
+          </quote>
+          <para class="block">The railway embraced by the bill now before us, however, was not constructed or acquired pursuant to any act, and, as I said before, did not on the passing of the Commonwealth Railways Act in 1917 automatically become vested, in the Commissioner. This legislation is therefore necessary. The railway was constructed primarily for the carriage of materials for the building of the Federal Capital, and it was proposed in the first instance to construct the line of second-hand material of a comparatively light type, making it more a tramway than a railway. Eventually, however, it was decided to construct the line of a heavier type of rails, &#38;c, than those originally proposed and 80 lb. rails, standard sleepers, ballast, &#38;c, were used. The railway, which is now carrying heavy passenger and goods traffic, was built by the State of New South Wales for and on behalf of and at the cost of the Commonwealth Government, and was first used for traffic on 25th May, 1914. The cost of the work carried out by New South Wales represented approximately &#163;45,000. Since then deviations have been carried out, station buildings, sidings, &#38;c, provided, and the total cost of the railway to the 30th June, 1928, as recorded in the books of the Commonwealth Railways Commissioner,, amounted to approximately &#163;87,000. </para>
+          <para>There are no peculiar features in the bill. It simply seeks properly to vest the railway property in the Commonwealth Railways Commissioner. The line being only in a temporary location, none of the lands are permanently vested in the Commonwealth Railways Commissioner. Under the bill they are. being leased by the Federal Capital Commission for the exclusive use of the Commonwealth Railways Commissioner on the understanding that when the railway is placed in its permanent location such of the lands being leased by this bill as are certified to by the Commonwealth Railways Commissioner as being no longer required will automatically revert to the Federal Capital Commission. The matter- of vesting in the Commonwealth Railways Commissioner the lands that will be required when the railway is built in its permanent location will be dealt with when the bill for the construction of the railway in the permanent location is submitted to this House. For the present it will be sufficient, as provided in the bill, to set aside for the use of the Commonwealth Railways Commissioner the strip of land one chain on each side of the centre line of the railway between Queanbeyan and Canberra and also lands at Canberra for the railway station and sidings, &#38;c, as shown in the schedule of the bill. The Commonwealth Railways Commissioner and the Chief Commissioner of the Federal Capital Commission have been dealing with this matter aud they have arrived at an agreement iu so far as the lands required by the Commonwealth Railways Commissioner are concerned. A plan showing the railway lands is now laid on the table of the Senate for the information of honorable senators. The railway does not form part of the Federal Capital Commission property. Its cost is not a liability of the </para>
+          <para>Federal Capital Commission nor are the earnings of the railway credited to the Federal Capital Commission&#39;s accounts, and the Commission will be charged the same as the general public for transport. </para>
+          <para>The introduction of this Railway Bill was contemplated previously, but there were difficulties particularly with regard to the lands which have now been adjusted, and for the time being an ordinance, the Seat of Government Railway Ordinance No. 8 of 1923, was issued. That ordinance, however, does not enable the Commissioner to exercise all the powers conferred upon him by the Commonwealth Railways Act 1917-25. The powers under the ordinance are limited, and the only solution is the passing of an act of Parliament. </para>
+          <para>As honorable senators are aware, the railway is only a short one, approximately four miles 75 chains, but it has grown in importance considerably since the establishment of the Seat of Government at Canberra. Numbers of trains, both passenger and goods, are already running over the railway daily, and the traffic will largely increase in the future. Until recently it was managed and maintained by the New SouthWales Railways Commissioners for and on behalf of the Commonwealth, but a short time since arrangements were completed for its management and maintenance to be undertaken by the Commonwealth Railways Commissioner, who now has a controlling officer at Canberra. This arrangement took effect on 1st July last, and is proving satisfactory and economical. </para>
+          <para>The bill now submitted for the consideration of the Senate deals with the railway as it is, and does not concern it as it will eventually become. All we are concerned with to-day is the passing of legislation properly to cover the railway in its present position, and the bill is introduced accordingly. </para>
+          <para>Debate (on motion by <inline font-weight="bold">Senator Needham)</inline> adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PATENTS BILL</title>
+        <page.no>6260</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>6260</page.no>
+        </subdebateinfo>
+        <para class="block">
+          <inline font-weight="bold">Senator CRAWFORD</inline>(Queensland- </para>
+        <para>Honorary Minister) &#91;11.52&#93;. - I move - </para>
+        <quote>
+          <para>That the bill be now read a second time. </para>
+        </quote>
+        <para>This bill deals with two matters - the form of the document granting a patent, and the fees payable in respect of applications for patents. It is not proposed to alter the present form of patent to any extent. The main alteration is the substitution of the Australian coat of arms for the Royal coat of arms at the head of the document. The other alterations are merely consequential upon the amendments proposed in regard to fees. At present the fees payable in regard to patents are very low and it is proposed by the bill to increase them. The existing scale of fees was originally fixed in 1904, and has not been altered since that date although, as honorable senators know, the purchasing power of the sovereign has decreased by almost onehalf since that date, and the cost of services has been proportionately increased. </para>
+        <para>When the patent law was administered by the various States the total amount of the fees payable in respect of a patent enforceable throughout Australia was in the neighbourhood of &#163;100. Under the Commonwealth Act of 1904 the fees were fixed at &#163;13. These fees are quite inadequate to cover the cost of examination and administration at the present time. The amount of &#163;13 which I have mentioned is made up as follows :  - </para>
+        <para class="block">
+          <graphic href="119332192808312_10_0.jpg" />
+        </para>
+        <para>Many applications tor patents are not granted, and in these cases the fee payable is only &#163;1, although a great deal of work may be necessary before it can be determined that the application cannot be allowed. For instance, an application may be made for a patent for an intricate piece of machinery. This may involve a long period of patent research by a skilled examiner, and at the end of that time he may determine that the invention is not novel. In such a case no patent would be granted, and the total sum received by the patent office for the work performed would be &#163;1. Obviously this amount is not sufficient to cover the cost of the service rendered. </para>
+        <para>Another factor which has a bearing on the question of fees is that as the number of  patents increases, so the work of the patent examiner - also increases. Each new invention adds to the fields which must be covered by the examiner when making his search in connexion with any claim for a patent for an invention in that class. Consequently the amount of work entailed in determining whether an application for a patent should be granted is much greater at the present time than it was in 1904. </para>
+        <para>For the current year, the salaries for the examination staff of  the  Patent Office will amount to &#163;12,675, and it is hoped that under the scale provided in the bill this amount will be covered by lodgment fees. The Patent Office is also under heavy expense for printing, the  coBt  of printing specifications for 1927-28 being approximately &#163;11,159. The present cost of printing is over 100 per cent, higher  than it was before the war. The Government considers that it is, reasonable that a part at least of these increased costs should be borne by those who, by obtaining patents, receive benefits under the act. In this connexion, it may be mentioned that, in many cases, the persons who receive these benefits are resident outside Australia. Only 43 per cent, of the patents sealed in 1927 were granted to Australians. </para>
+        <para>Debate (on motion by <inline font-weight="bold">Senator Needham)</inline> adjourned. </para>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>6261</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <para>Business of the Session  -  Date of General Election. </para>
+      <para>
+        <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE (Western Australia - Vice-President of the Executive Council &#91;11.58&#93;. - I move - </para>
+      <para>That the Senate do <inline font-style="italic">now</inline> adjourn. </para>
+      <para>In doing so I desire to intimate to honorable senators that, whilst we shall not meet till Wednesday next, it is probable that, in the following week, we shall have to meet either on Monday or Tuesday. I ask honorable senators to bear in mind, when making their arrangements, that the pressure of business in this chamber will be fairly continuous from next week onwards. </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6261</page.no>
+            <time.stamp />
+            <name.id>JXJ</name.id>
+            <electorate>Western Australia</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">NEEDHAM, Edward</name>
+            <name role="display">Senator NEEDHAM</name>
+          </talker>
+          <para>. -  One would imagine, from the intimation that has been given by the right honorable the Leader of the Senate, that a desire exists to hurry away from this Parliament to do something else. I wonder if the right honorable gentleman will tell us the reason for all this hurry. Why is the Senate to meet an extra day a week in the near future? So far honorable senators have not received any definite information as to the reason for hurry. There have been some rumours about a Federal election in the near future, but we still lack authoritative information on the subject from either the Prime Minister or the right honorable the Leader of the Senate. If the Government has determined that Parliament shall be dissolved this year with a consequent appeal to the people, an official statement could well be made to that effect. I am somewhat surprised that the right honorable gentleman has moved that the Senate do now adjourn, because the business paper is not exhausted. There are two interesting measures on the business-paper, the Post and Telegraph Bill and the Post and Telegraph Rates Bill, to which the remainder of this sitting might well be devoted. I am at a loss to understand why the Government will not proceed with the business before the Senate.I am sure that quite a lot of useful discussion could take place on the measures I have mentioned. Will the right honorable the Leader of the Senate indicate why it is not intended to proceed with them? </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6261</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>NAT</party>
+            <role>Vice-President of the Executive Council</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;12.1&#93;. - The pose of the honorable senator in professing to be ignorant of the reasons which are actuating the Government in urging the expedition of business reminds one of the attitude of a judge who affects not to see a legal luminary who appears before him without wig and gown, although it is quite apparent to all that he can see him. The honorable senator &#39; cannot see the reasons which actuate the Government in trying to push on with business, yet he knows quite well what they are. In case, however, the honorable senator&#39;s desire to observe punctiliously every technicality does obscure his vision, and he is thus prevented from realizing why Ministers are anxious to expedite business, I may tell him that it is the intention of the Government to advise  His Excellency  the Governor-General to dissolve this Parliament so that an election may be held on the 17th November next. I trust that the information I have now supplied may have a cheering effect on the Leader of the Opposition. In regard to the postal bills referred to by the honorable senator, the Government recognizes that they do not command a majority in the Senate, and therefore does not propose to waste the time of the chamber in further discussing them. </para>
+        </talk.start>
+        <para class="block">Question resolved in the affirmative. </para>
+        <para class="block">Senate adjourned at 12.3 p.m. </para>
+      </speech>
+    </debate>
+  </chamber.xscript>
+</hansard>

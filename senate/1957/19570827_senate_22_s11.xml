@@ -1,251 +1,1834 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #010214; } body { background-image: url(/images/body-home-dusk-blurred.jpg); background-color: #010214; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1957-08-27%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1957-08-27%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1957-08-27%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1957-08-27%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1957-08-27%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1957-08-27%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1957-08-27%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1957-08-27/19570827_senate_22_s11.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1957-08-27</date>
+    <parliament.no>22</parliament.no>
+    <session.no>2</session.no>
+    <period.no>2</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>3</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">COMMONWEALTH OF AUSTRALIA </para>
+    <para class="block">PARLIAMENTARY DEBATES. </para>
+    <para>(HANSARD.) </para>
+    <para class="block">Second Session of the Twenty-Second Parliament. (Second Period.) </para>
+    <para>SENATE. </para>
+    <para>The Senate, on 22nd May, 19S7, adjourned to a date and hour to be fixed by the  President. </para>
+    <para>The  President  summoned the Senate to meet on Tuesday, 27th August, 1957, at 3 p.m. </para>
+    <business.start>
+      <day.start>1957-08-27</day.start>
+      <para>The <inline font-weight="bold">PRESIDENT (Senator the Hon. Sir Alister McMullin)</inline> took the chair at 3 p.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF SENATOR JOHN JOSEPH DEVLIN</title>
+        <page.no>3</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>- It is with very great regret that I have to announce to the Senate the death of <inline font-weight="bold">Senator John</inline> Joseph Devlin, which occurred on 26th May last. On behalf of honorable senators, I conveyed an expression of sympathy to <inline font-weight="bold">Mrs. Devlin,</inline> pending the more formal resolution of the Senate. A reply has been received from <inline font-weight="bold">Mrs. Devlin</inline> expressing her appreciation and thanks for the message of sympathy. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>REPRESENTATION OF VICTORIA</title>
+        <page.no>3</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Senator C. W. Sandford Sworn</title>
+          <page.no>3</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>3</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- I have to inform the Senate that, pursuant to the provisions of the Constitution, I notified the Governor of the State of Victoria of the vacancy caused in the representation of that State in the Senate by the death of <inline font-weight="bold">Senator John</inline> Joseph Devlin, and I have received, through  His Excellency  the Governor-General, a certificate from the Lieutenant-Governor of Victoria of the choice by the Parliament of that State of Charles Walter Sandford as a senator to fill the vacancy. </para>
+          </talk.start>
+          <para>Certificate laid on the table and read by the Acting Clerk. </para>
+          <para>
+            <inline font-weight="bold">Senator Sandford</inline>made and subscribed the oath of allegiance. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF SENATOR JOHN JOSEPH DEVLIN</title>
+        <page.no>3</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3</page.no>
+            <time.stamp />
+            <name.id>JZI</name.id>
+            <electorate>QueenslandVicePresident of the Executive Council and Attorney</electorate>
+            <party>LP</party>
+            <role>General</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">O&#39;SULLIVAN, Neil</name>
+            <name role="display">Senator O&#39;SULLIVAN</name>
+          </talker>
+          <para>. - by leave - I am sure the Senate learned with great regret of the death on 26th May of our late colleague, John Devlin. The late senator lived all his life in the Violet Town district of Victoria. He was born at Violet Town and was educated at Tamleugh, where he spent his life as a farmer. He took a great interest in local government matters, as well as&#39; in politics. He was the  president  of his local shire for three terms, he represented country shires on the Victorian Health Commission for many years and he was a member of the Australian Labour party from his -early days. He was a member of the Victorian State executive of the Australian Labour party for more than twenty years and was1 Victorian State  president  in 1937-38. He was first elected to the Senate in 1946, to fill a casual vacancy caused by the death of <inline font-weight="bold">Senator Keane,</inline> and was re-elected at the elections in 1949, 1951 and 1953. </para>
+        </talk.start>
+        <para>Those of us who were privileged to know the late <inline font-weight="bold">Senator Devlin</inline> will remember him for his great generosity and kindness. I remember that when I came into the Senate first I was the recipient at his hands of infinite kindness and consideration. Neither inside nor outside the chamber did I ever hear the late senator say an unkind or a hurtful word. It was a great pleasure and a great privilege to know him. Those of us who knew him were very distressed at the long and lingering illness which resulted in his death. Our sympathy goes out to his bereaved family. May he rest in peace. I move - </para>
+        <quote>
+          <para>That the Senate expresses its deep regret at the death of <inline font-weight="bold">Senator -John</inline> Joseph Devlin, senator for the State of Victoria, places on record its appreciation of his long and meritorious public service, and tenders its sincere sympathy to his widow and the members of his family in their bereavement. </para>
+        </quote>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>4</page.no>
+            <time.stamp />
+            <name.id>KTN</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role>Leader of the Opposition</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCKENNA, Nicholas</name>
+            <name role="display">Senator McKENNA</name>
+          </talker>
+          <para>. - On behalf of the Opposition, I second the motion which the Leader of the Government .in the Senate <inline font-weight="bold">(Senator O&#39;sullivan)</inline> has proposed. As he indicated, the last illness of <inline font-weight="bold">Senator Devlin</inline> was very prolonged. It commenced with a very severe stroke, suffered in Canberra, as long ago as February, 1956. That left him partially paralysed and he was quite unable to attend the sittings of the Senate &#34;thereafter. It transpired that &#39;that stroke was the culmination of a number -of Jess severe strokes that the late senator had .suffered over .many .years. .All of them left their mark on .him, but their effects were masked by !his tremendous physical strength and great strong-mindedness. Those strokes or visitations, unfortunately, impaired the great effectiveness that had been the outstanding characteristic of a long, loyal and useful service to the Australian Labour party in both the administrative and political fields. </para>
+        </talk.start>
+        <para>
+          <inline font-weight="bold">Senator O&#39;sullivan</inline>has indicated the &#60;major &#39;part that the late senator played .in the administration of that party in Victoria.  His  friends, particularly his Victorian colleagues, never forgot that service rendered by the late <inline font-weight="bold">Senator Devlin.</inline> I am able to say to-day that they bestowed their affectionate consideration on him during the many years of his illnesses and ill health. I had occasion to visit him a number of times after February, 1956, when he was in hospital in central Victoria and Melbourne, and I count him as being fortunate, too, in the loving care with which he was tended by that very fine lady, his wife, and members of his family. </para>
+        <para>I thank the Leader of the Government for his very kind references to our late colleague. We of the Opposition mourn his passing and extend to his sorrowing widow and members of his family our deepest sympathy in their great loss. We trust that that will give them strength to bear their loss and the burden of their grief. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>4</page.no>
+            <time.stamp />
+            <name.id>JQP</name.id>
+            <electorate>Queensland</electorate>
+            <party>CP</party>
+            <role>Minister for Repatriation</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COOPER, Walter</name>
+            <name role="display">Senator COOPER</name>
+          </talker>
+          <para>. - <inline font-weight="bold">Mr. President,</inline> the members of the Australian Country party desire to be associated with the motion that has been proposed by the Leader of the Government in the Senate <inline font-weight="bold">(Senator O&#39;sullivan)</inline> and seconded by the Leader of the Opposition <inline font-weight="bold">(Senator McKenna).</inline> We wish to express our deep regret at the death of our late colleague, <inline font-weight="bold">Senator J.</inline> J. Devlin, and to take advantage of this opportunity to tender our sincerest sympathy to his widow and family in their sad and great loss. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>4</page.no>
+            <time.stamp />
+            <name.id>K6W</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role>Leader of the Australian Democratic Labour party</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLE, George</name>
+            <name role="display">Senator COLE</name>
+          </talker>
+          <para>. - I desire to add the condolences of the party that I represent to those which &#34;have already been extended to the family and relatives of the late <inline font-weight="bold">Senator John</inline> Devlin. <inline font-weight="bold">Senator Devlin</inline> was associated with the Senate for a decade. He had a long and honorable record of service to his party, and also in municipal affairs as a shire  president.  &#39;To <inline font-weight="bold">Mrs. Devlin</inline> and her children the members of my party offer their sincerest sympathy. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>4</page.no>
+            <time.stamp />
+            <name.id>KPK</name.id>
+            <electorate>Victoria</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">KENNELLY, Patrick</name>
+            <name role="display">Senator KENNELLY</name>
+          </talker>
+          <para>- More particularly on behalf of my Victorian colleagues, I wish to join the Leader of the Government in the Senate <inline font-weight="bold">(Senator O&#39;sullivan)</inline> and other honorable senators who have spoken :in tendering : sincere sympathy to the wife of one of our colleagues who was with  us  for .many years. 1 -knew Jack </para>
+        </talk.start>
+        <para class="block">Devlin in what was, I suppose, the heyday of his life. Unfortunately, the majority of honorable senators present knew him only after his health had failed. As a young man, Jack Devlin was a credit, not only to himself, but also to those who were close to him.  His  knowledge of rural matters in particular was of great assistance to the party of which he was a life-long adherent. We mourn his loss, because it means that another Jink in the chain has been broken. I join with <inline font-weight="bold">Senator O&#39;sullivan</inline> in .praying that God may have mercy on his soul. </para>
+        <para>Question resolved in the affirmative, honorable senators standing in their places. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF THE HONORABLE HUBERT LAWRENCE ANTHONY, M.P</title>
+        <page.no>5</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>5</page.no>
+            <time.stamp />
+            <name.id>JZI</name.id>
+            <electorate>QueenslandVicePresident of the Executive Council and Attorney</electorate>
+            <party>LP</party>
+            <role>General</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">O&#39;SULLIVAN, Neil</name>
+            <name role="display">Senator O&#39;SULLIVAN</name>
+          </talker>
+          <para>- by leave - I am sure that members of the Senate will have learned with regret that on 12th July last Larry Anthony passed away. The late <inline font-weight="bold">Mr. Anthony,</inline> who for six years of his political life held the portfolio of PostmasterGeneral and Minister for Civil Aviation, began his working life as a telegraph messenger al Warren, in New South Wales. He resigned from the Public Service to join the first Australian Imperial Force and served at Gallipoli, where he was wounded. As a result of his war injuries, he was discharged from the army. </para>
+        </talk.start>
+        <para>On his return to Australia, he settled in the Tweed district in northern New South Wales, where he became a successful banana planter, with interests also in cane-growing and dairying. He founded the Banana Growers Federation of New South Wales in 1928, and was its first  president.  As  chairman  of the Tweed District Hospital Board, he gave great service in the civic sphere. He first entered the Federal Parliament in 1937, and was returned for the division of Richmond at each subsequent election until his death. <inline font-weight="bold">Mr. Anthony</inline> was first Commonwealth Minister for Transport. He had very wide ministerial experience and was, at various times, Assistant Minister for Commerce and Assistant Treasurer. He also acted as Minister for the Interior and as Minister for Health. </para>
+        <para>In 1941, <inline font-weight="bold">Mr. Anthony</inline> visited New Zealand to discuss trade agreements. In 1952, he visited South Africa on the inaugural </para>
+        <para class="block">Qantas service, and he was the first Australian Minister to visit South Africa officially. From South Africa, he proceeded to the United Kingdom, Europe and the United States of America, where he investigated television services. Subsequently, <inline font-weight="bold">Mr. Anthony</inline> made recommendations to the Cabinet which resulted in the establishment of television services in Australia. He was .keenly interested in aviation and, as Minister for Civil Aviation, made many visits to New Zealand as  chairman  of the South Pacific Air Transport Council. </para>
+        <para>Those who were associated with <inline font-weight="bold">Mr. Anthony,</inline> particularly as his colleagues in the Cabinet and in the Parliament, will ever remember the vigour and loyalty with which he pursued the course in which he believed. He was a most devoted colleague and an able debater, and .made a great contribution to the prestige of the Parliament.  His  loyalty and comradeship will be long treasured by those who had the privilege of knowing him. I move - </para>
+        <quote>
+          <para>That the Senate expresses its deep regret at the death of the Honorable Hubert Lawrence Anthony, former Commonwealth Minister, who was, at the time of his death, member of the House of Representatives for the Division of Richmond, places on record its appreciation of his long and meritorious public service, and tenders its sincere sympathy to his widow and the members of his family in their bereavement. </para>
+        </quote>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>5</page.no>
+            <time.stamp />
+            <name.id>KTN</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role>Leader of the Opposition</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCKENNA, Nicholas</name>
+            <name role="display">Senator McKENNA</name>
+          </talker>
+          <para>. - On behalf of the Opposition, I second the motion that the Leader of the Government <inline font-weight="bold">(Senator O&#39;sullivan)</inline> has put before the Senate. Although we on the Opposition side knew that the late <inline font-weight="bold">Mr. Anthony&#39;s</inline> health was failing, we were shocked by the tragic suddenness of his death. We find it a very -sobering thought that one who, until comparatively recently, was engaged in the most virile debates in this Parliament, should now have completed his earthly course. I have no doubt that the strain inseparable from ministerial office contributed to his untimely death. It is given to very few to gain the distinction of Cabinet rank, and the fact that <inline font-weight="bold">Mr. Anthony</inline> won to that position is, in itself, an acknowledgment of his personal worth, his character and his ability. Unquestionably, he gave of his best to his party, to the Parliament and to the nation. </para>
+        </talk.start>
+        <para>As the Leader of the Government has intimated, <inline font-weight="bold">Mr. Anthony&#39;s</inline> life was largely one devoted to community service. It is always a tragedy for a community and a country when a life so devoted comes to an end. I extend to supporters of the Government and, particularly, to members of the Australian Country party, the sympathy of honorable senators on this side of the chamber in the loss of their very distinguished colleague. I join with the Leader of the Government in offering my condolences to the widow and relatives of the late <inline font-weight="bold">Mr. Anthony.</inline></para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6</page.no>
+            <time.stamp />
+            <name.id>JQP</name.id>
+            <electorate>Queensland</electorate>
+            <party>CP</party>
+            <role>Minister for Repatriation</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COOPER, Walter</name>
+            <name role="display">Senator COOPER</name>
+          </talker>
+          <para>. - Members of the Australian Country party desire to be associated with the motion that has been proposed by the Leader of the Government <inline font-weight="bold">(Senator O&#39;sullivan)</inline> and seconded by the Leader of the Opposition <inline font-weight="bold">(Senator McKenna).</inline> We express our deep regret at the death of the late <inline font-weight="bold">Mr. Anthony.</inline> Larry Anthony, as he was known to all his colleagues, had a lengthy career of public service in the community. One might say that he continuously served the community from the age of 14 years until his death. He had the unique experience of joining the Postmaster-General&#39;s Department as a telegram delivery boy at the age of fourteen years and of later holding the highest office in that department, that of PostmasterGeneral, in the present Government. </para>
+        </talk.start>
+        <para>He entered Parliament in 1937 as the Country party member for the electorate of Richmond, in New South Wales. It was not long before his ability received recognition, for, in 1940, he was Minister without portfolio assisting the Treasurer and the Minister for Commerce. In 1941, he became Minister for Transport. In 1949, he became Postmaster-General in the present Government, and held that portfolio until his retirement, through ill-health, some twelve months ago. He was a man whom we always recognized as a forceful speaker and vigorous debater. He was loyal to his party and assiduous in attending to his parliamentary duties, and throughout his career he took a very prominent interest in all activities, especially those connected with primary production, that were carried on in his electorate. </para>
+        <para>He had many friends, both in Parliament and in his electorate, where he will be -greatly missed. We take this opportunity of expressing our deepest sympathy to his widow and family in their sad bereavement. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6</page.no>
+            <time.stamp />
+            <name.id>K6W</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role>Leader of the Australian Democratic Labour party</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLE, George</name>
+            <name role="display">Senator COLE</name>
+          </talker>
+          <para>. - On behalf of my party, I desire to support the motion submitted by the Leader of the Government in the Senate <inline font-weight="bold">(Senator O&#39;sullivan).</inline> The late Honorable Larry Anthony left his mark on the political life of this country, and was respected, both as a private member and as a Minister of the Crown. To his sorrowing family, our party extends its sincere sympathy in their sad bereavement. </para>
+        </talk.start>
+        <para>Question resolved in the affirmative, honorable senators standing in their places. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF THE HONORABLE ARTHUR SAMUEL DRAKEFORD</title>
+        <page.no>6</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6</page.no>
+            <time.stamp />
+            <name.id>JZI</name.id>
+            <electorate>QueenslandVicePresident of the Executive Council and Attorney</electorate>
+            <party>LP</party>
+            <role>General</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">O&#39;SULLIVAN, Neil</name>
+            <name role="display">Senator O&#39;SULLIVAN</name>
+          </talker>
+          <para>. - by leave - I am sure that honorable senators will have heard with great regret that <inline font-weight="bold">Mr. Arthur</inline> Samuel Drakeford passed away on 9th June last. The late <inline font-weight="bold">Mr. Drakeford&#39;s</inline> political life extended from 1927 until 1955, and included periods of service in both the Victorian Legislative Assembly and the House of Representatives. He was a member of the Victorian Legislative Assembly from 1927 to 1932 and a continuous member of the House of Representatives from 1934 to 1955, representing the division of Maribyrnong. </para>
+        </talk.start>
+        <para>As Minister for Air and Minister for Civil Aviation, portfolios which he held from 1941 to 1949, <inline font-weight="bold">Mr. Drakeford</inline> played a major part in developing Australian civil aviation. He attended international civil aviation conferences in 1944 and 1946, and was elected  president  of the First Assembly of the International Civil Aviation Organization in 1947. Another distinguished position to which he was elected was that of  president  of the South Pacific Air Transport Council. </para>
+        <para>
+          <inline font-weight="bold">Mr. Drakeford</inline>was a member of the War Cabinet from 1941 to 1946. He was also a member of the Man-power and Resources Survey Committee and the Australian Advisory War Council. In his earlier years, he was for a lengthy period  president  of the Australian Federated Union of Locomotive Enginemen. </para>
+        <para>
+          <inline font-weight="bold">Mr. President,</inline>when first I came here, <inline font-weight="bold">Mr. Drakeford</inline> was a member of the Cabinet, and I well remember the many courtesies and kindnesses which he extended to me as a youthful politician. I use the term youthful as relating to political experience. I had not been here very long when I realized that Arthur Drakeford enjoyed the esteem and affection, not only of the members of his own party, but also of many other persons here. He was greatly liked and highly esteemed by all with whom he came in contact. 1 am sure that his memory will live long and verdantly in the hearts of those who had the privilege of knowing him. I move - </para>
+        <quote>
+          <para>That the Senate expresses its deep regret at the death of the  Hon.  Arthur Samuel Drakeford, former Commonwealth Minister and Member of the House of Representatives for the Division of Maribyrnong, places on record its appreciation of his long and meritorious public service, and tenders its sincere sympathy to his widow and the members of his family in their bereavement. </para>
+        </quote>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>7</page.no>
+            <time.stamp />
+            <name.id>KTN</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role>Leader of the Opposition</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCKENNA, Nicholas</name>
+            <name role="display">Senator McKENNA</name>
+          </talker>
+          <para>. - On behalf of the Opposition I second the motion proposed by the Leader of the Government <inline font-weight="bold">(Senator O&#39;sullivan).</inline> The Minister has recited to the Senate the official record of the late Honorable Arthur Samuel Drakeford in the parliamentary life of Australia. May 1 add that he was a leading figure in the trade union movement of this country. The Leader of the Government referred to the fact that <inline font-weight="bold">Mr. Drakeford</inline> had been  president  of the Australian Federated Union of Locomotive Enginemen. He had a very long history of association with that union. He joined it in 1901, was secretary of the Benalla branch in 1903, was elected to the Victorian executive in 1908, was  president  for the year 1916-17 and then, from 1918 until 1929, was either acting federal secretary, or the federal secretary, of that great union. From 1929 to 1948,- when he voluntarily relinquished the position, he was its federal  president.  He was known and respected throughout the whole trade union movement, and his passing has left great grief in that circle. </para>
+        </talk.start>
+        <para>He left a firm mark on the history of this nation in many respects. Not only, as the Leader of the Government has chronicled, was he a very efficient and able service Minister throughout the whole of the war but also he played a major part in building the Royal Australian Air Force into the splendid fighting unit it was in the later years of the war. </para>
+        <para>It was during his regime that TransAustralia Airlines was established in this country and that we saw a very great development in the sphere of civil aviation. It is true to say that the late <inline font-weight="bold">Mr. Drakeford</inline> laid the foundations for what are commonly acknowledged to be the finest and safest airlines in the world, those now operating in Australia. </para>
+        <para>He suffered the hurt of being defeated in the exceptional circumstances of the 1955 general election. He accepted that defeat gallantly and without bitterness of any kind.  His  defeat had the great virtue and reward of enabling him to spend his remaining days peacefully and happily in the bosom of his family, to whom he was whole-heartedly devoted. </para>
+        <para>Arthur Drakeford was a great man and a great Australian. He was a gentleman by nature, and by practice always a gentleman.  His  great efficiency and his powerful debating powers were exercised with unfailing courtesy and consideration for others. If asked to express in a single sentence my opinion of Arthur Drakeford I should say that he was a most wholesome man. In saying that I would be paying tribute to a multitude of sterling qualities; to his decency, his kindness, his straightforwardness and his truly Christian character. I would be paying tribute to a worthy husband and father, to one through whose whole life ran the golden thread of loyalty, to one who understood and practised mateship in the truest Australian sense. </para>
+        <para>I had a very close association with Arthur Drakeford in the Chifley Government, in which we were both privileged to serve.  His  passing has deprived me and every member of the Opposition of a great mate whose memory will &#39;not fade but will live with us. The large attendance at his funeral was an indication of the respect and affection in which he was universally held. <inline font-style="italic">I</inline> thank the Leader of the Government for his kindly references to our late colleague. I extend to <inline font-weight="bold">Mrs. Drakeford</inline> and to the members of the family of our late colleague our deepest sympathy in their bereavement. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>7</page.no>
+            <time.stamp />
+            <name.id>JQP</name.id>
+            <electorate>Queensland</electorate>
+            <party>CP</party>
+            <role>Minister for Repatriation</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COOPER, Walter</name>
+            <name role="display">Senator COOPER</name>
+          </talker>
+          <para>. - The members of the Australian Country party wish to be associated with the motion before the Senate. We express our deep regret at the death of the late Honorable A. S. Drakeford. </para>
+        </talk.start>
+        <para class="block">Arthur Drakeford was a very likeable man, and during the lengthy period he was in this Parliament I am sure he made many good friends amongst members of all shades of political opinion. He was quiet in his ways but, when necessary, he could express his views with force and vigour. He was a family man who liked to be with his family in his own home. He held the important portfolio of Minister for Air during the greater part of World War II. and the postwar years, until December, 1949. We take this opportunity of expressing our deepest sympathy to <inline font-weight="bold">Mrs. Drakeford</inline> and her family in their very sad bereavement. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>8</page.no>
+            <time.stamp />
+            <name.id>K6W</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role>Leader of the Australian Democratic Labour party</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLE, George</name>
+            <name role="display">Senator COLE</name>
+          </talker>
+          <para>. - On behalf of the Australian Democratic Labour party, J desire to support the motion moved by the Leader of the Government in the Senate <inline font-weight="bold">(Senator O&#39;Sullivan).</inline> The late Arthur Drakeford had a long and honorable career, first in the Victorian Parliament, and later in the Commonwealth Parliament, where he served for almost a quarter of a century. During that time he was a Minister of the Crown. We offer to his family our sincere sympathy in their bereavement. </para>
+        </talk.start>
+        <para>Question resolved in the affirmative, honorable senators standing in their places. </para>
+        <para>
+          <inline font-weight="bold">Senator O&#39;SULLIVAN</inline>(Queensland - Vice-President of the Executive Council and Attorney-General).  -  I suggest that as a mark of respect to the memory of the late <inline font-weight="bold">Senator J.</inline> J.. Devlin, the late Honorable H. L. Anthony, and the late Honorable A. S. Drakeford, the sitting of the Senate be suspended until 8 p.m. </para>
+        <para>Sitting suspended from 3.33 to 8 p.m. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ASSENT TO BILLS</title>
+        <page.no>8</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Assent to the following bills reported: - </para>
+      <para>Sulphuric Acid Bounty Bill 1957. </para>
+      <para>Public Service Bill 1957. </para>
+      <para>High Commissioner (United Kingdom) Bill 1957. </para>
+      <para>Papua and New Guinea Bill 1957. </para>
+      <para>National Service Bill 1957. </para>
+      <para>Appropriation Bill (No. 2) 1956-57. </para>
+      <para>Appropriation (Works and Services) Bill (No. 2) 1956-57. </para>
+      <para>Supply Bill 1957-58. </para>
+      <para>Supply (Works and Services) Bill 1957-58. </para>
+      <para>Wheat Tax Bill 1957. </para>
+      <para>Wheat Research Bill 1957. </para>
+      <para>Wool Tax Bill (No. 1) 1957. </para>
+      <para>Wool Tax Bill (No. 2) 1957. </para>
+      <para>Wool Tax Assessment Bill 1957. </para>
+      <para>Wool Research Bill 1957. </para>
+      <para>Wool Use Promotion Bill 1957: </para>
+      <para>Norfolk Island Ordinances Bill 1957. </para>
+      <para>Norfolk Island Bill 1957. </para>
+      <para>Stevedoring Industry Charge Bill 1957. </para>
+      <para>Dairying Industry Bill 1957. </para>
+      <para>Flax Fibre Bounty Bill 1957. </para>
+      <para>Explosives; Bill&#39; 1957. </para>
+      <para>Australian Capital Territory Supreme Court Bill 1957. </para>
+      <para>Australian Antarctic Territory Bill 1957. </para>
+      <para>Heard Island and McDonald Islands Bill 1957. </para>
+      <para>Customs Bill 1957. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>8</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>JAPANESE TRADE AGREEMENT</title>
+          <page.no>8</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator AYLETT</name>
+            </talker>
+            <para>- Will the Minister representing the Minister for Trade endeavour to prevail on the Government to take immediate steps to afford a long-term protection to the textile industries of Australia by imposing adequate tariffs on textiles imported into this country, thus enabling full, employment to be maintained in the industry so that it may expand in the way that has been planned? At. the present time, there is a great deal of unemployment in the textile industry in this country, due to the scare that the conclusion of the recent trade agreement with Japan will enable considerably larger quantities of textiles to come into Australia from that country. In Tasmania, it appears likely that many more textile workers will be thrown out of employment as a result of the agreement. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- Order ! </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>LP</party>
+              <role>Minister for National Development</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- I am glad that the honorable senator described the present condition as a scare. That is an appropriate description because the ink on the trade treaty is hardly yet dry. There are as yet no practical results one way or the other, but to the extent that the scare exists to a material degree I should describe it as a self-inflicted wound by the textile industry which is causing this situation. So far as protection to the industry is concerned, the Government&#39;s policy remains unaltered. The Tariff Board is ready and prepared to deal with applications that are made and that are referred to it by the Minister. I have no doubt that its decisions will be as wise in the future as they have been in the past. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>8</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SHIPBUILDING</title>
+          <page.no>8</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>K5K</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SCOTT, Malcolm</name>
+              <name role="display">Senator SCOTT</name>
+            </talker>
+            <para>- Will the Minister for Customs and Excise inform me whether plans and specifications for the construction of a new Customs launch for service at Fremantle have been completed? Will he assure me that all shipbuilders in Western Australia will be afforded an opportunity to tender for the construction of the vessel? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>9</page.no>
+              <time.stamp />
+              <name.id>KOW</name.id>
+              <electorate>TASMANIA</electorate>
+              <party>LP</party>
+              <role>Minister for Customs and Excise</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENTY, Norman</name>
+              <name role="display">Senator HENTY</name>
+            </talker>
+            <para>- There has been a long-standing demand for a new Customs launch for service at the port of Fremantle. The plans for the new vessel have not yet been completed; they are still on the way. Provision has been made in this year&#39;s Estimates for the construction of the launch, and 1 hope that the money will remain available. I assure the honorable senator that all shipbuilders in Australia will be afforded an adequate opportunity to tender for the supply of the launch when it is decided to invite tenders. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>9</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>JAPANESE TRADE AGREEMENT</title>
+          <page.no>9</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>9</page.no>
+              <time.stamp />
+              <name.id>JYA</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;BYRNE, Justin</name>
+              <name role="display">Senator O&#39;BYRNE</name>
+            </talker>
+            <para>- The question that I shall direct to the Minister representing the Minister for Trade is supplementary to the question that was asked by <inline font-weight="bold">Senator Aylett.</inline> Is the Minister aware that  70  members of the Australian Textile Workers Union residing in Hobart have already received termination notices, and that many more textile workers are to be retrenched this week? Is he aware that a large percentage of the employees engaged in fabric printing by Silk and Textile Printers Limited have already been affected by the impact of the trade agreement with Japan, which has resulted in customers withholding orders? Further, is the Minister aware that Japan&#39;s chief textile products include cotton and rayon printed goods, as well as ordinary woven goods and knitwear? Will the Minister take action to have an immediate review of these sections made by the Tariff Board, because they Will become adversely affected by the application of the terms of the trade agreement with Japan? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>9</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- I am not aware of the various circumstances detailed by the honorable senator in respect of the number of men given notices of dismissal and so on. <inline font-style="italic">i</inline> shall take the honorable senator&#39;s word, as I am sure he would not incorrectly cite the figures. The point that I want to make is the point that I made in reply to an earlier question, namely, that the Japanese trade treaty has only just been signed. I think it is correct to say that practically no goods have arrived in Australia under the terms of that treaty. Therefore, it is manifestly incorrect to say that any situation that has arisen has occurred as a result of the operation of the treaty. Whatever has occurred is the result of a fear of what will happen. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>9</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SHIPPING</title>
+          <page.no>9</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>9</page.no>
+              <time.stamp />
+              <name.id>KUD</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCMANUS, Francis</name>
+              <name role="display">Senator McMANUS</name>
+            </talker>
+            <para>- I direct a question to the Minister for Shipping and Transport. Following the admission by <inline font-weight="bold">Mr. W.</inline> Bird, the Victorian secretary of the Australian Seamen&#39;s Union, that certain shipowners had made payments to Australian maritime unions in return for permission to man certain ships voyaging between Australia and overseas countries with non-Australian crews at less than Australian award rates, will the Minister make inquiries and furnish to the Senate a statement covering the following questions: -  (1)  What shipowners made such payments?  (2)  What unions received such payments?  (3)  What ship&#39;s were involved?  (4)  Did the sum involved on this score in respect of the Commonwealth ship &#34;Tyalla&#34; exceed  &#163;3,000? </para>
+          </talk.start>
+          <list type="decimal">
+            <item label="(5)">
+              <para>Was this payment included in the price obtained by the Australian Shipping Commission for &#34; Tyalla &#34; and, if not, why not? </para>
+            </item>
+            <item label="(6)">
+              <para>Does the Government propose to stop these practices, which are alleged to constitute a form of blackmail Sand which threaten the &#39;conditions and employment of members of maritime unions? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>9</page.no>
+              <time.stamp />
+              <name.id>JZY</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>LP</party>
+              <role>Minister for Shipping and Transport</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PALTRIDGE, Shane</name>
+              <name role="display">Senator PALTRIDGE</name>
+            </talker>
+            <para>- The question asked by the honorable senator is a lengthy one, and because I should like to have an opportunity to examine it in some detail, I ask him to put it on the noticepaper. However, I take this opportunity to tell him that the incomes and the sources of income of the various unions to which he refers are matters for those unions. I have no knowledge of their sources of income, and I am doubtful whether any form of inquiry that I could make would reveal the sources of their income. I say at once that when this news story was written I exhibited some concern and asked in the department how this practice might affect Commonwealth ships. I was given the assurance that none of the Commonwealth&#39;s shipping operations was in any way connected with these alleged payments. Having said that, I ask again that the question be placed on the notice-paper, so that I may have a look at it in detail. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>10</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>LUNG CANCER</title>
+          <page.no>10</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>KAC</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">VINCENT, Victor</name>
+              <name role="display">Senator VINCENT</name>
+            </talker>
+            <para>- I direct a question to the Minister representing the Minister lor Health. In view of the recently expressed views of certain British public health authorities concerning the consequences of smoking in relation to lung cancer, is the Minister prepared to make a considered statement on this important question for the information of the public? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate />
+              <party>CP</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>- 1 shall be very pleased to bring the honorable senator&#39;s question to the notice of my colleague, the Minister for Health, and ask him whether he is prepared to make such a statement. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>10</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BLANKETS FOR PENSIONERS</title>
+          <page.no>10</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>KOU</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENDRICKSON, Albion</name>
+              <name role="display">Senator HENDRICKSON</name>
+            </talker>
+            <para>- I ask the </para>
+          </talk.start>
+          <para class="block">Leader of the Government in the Senate whether the Government, having decided that national service training shall be curtailed, will give favorable consideration to making available to age and invalid pensioners in the various States, who are now suffering because of the present bitter winter, especially in Victoria, some of the surplus blankets and wearing apparel that will not now be used by national service trainees. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- I think that the suggestion which has been made by the honorable senator is well worthy of examination, and I shall have pleasure in bringing it before the notice of my colleague, the Minister for Labour and National Service. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>10</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>IMPORT LICENSING APPEAL BOARDS</title>
+          <page.no>10</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>KBW</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WRIGHT, Reginald</name>
+              <name role="display">Senator WRIGHT</name>
+            </talker>
+            <para>- I am in doubt about who is the appropriate Minister to whom my question, which relates to an announcement during the last sessional period concerning the establishment of import licensing appeal boards, should be addressed. I ask whether such appeal boards have been constituted in each State capital and, if so, what form their constitution has taken from the viewpoint of parliamentary authority. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- The boards have been constituted and their membership has been announced publicly. I am sorry that I do not understand the purport of the last part of the question. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>10</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>POLITICAL PARTIES</title>
+          <page.no>10</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>JYA</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;BYRNE, Justin</name>
+              <name role="display">Senator O&#39;BYRNE</name>
+            </talker>
+            <para>- I ask you, <inline font-weight="bold">Mr. President,</inline> whether the Democratic Labour party is recognized in the Senate as a political party for the purpose of granting leadership privileges to any honorable senator, and who is the leader of that party. Is the Anti-Communist Labour party recognized as a party in the Senate? Who is the leader of that party? Is he given leadership privileges? Is the Queensland Labour party recognized as a party in the Senate, and who is its leader? Are the privileges that are normally extended to party leaders to be afforded to all or any of the leaders of those parties? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- The presiding officer is not in the habit of answering questions of that sort - without notice, anyway. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>10</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>DEFENCE PRODUCTION</title>
+          <page.no>10</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>KTN</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCKENNA, Nicholas</name>
+              <name role="display">Senator McKENNA</name>
+            </talker>
+            <para>- In the light of recent developments, will the Minister representing the Minister for Defence ask the Minister for Defence and the service Ministers to make comprehensive statements at an early date regarding the future establishment of Australia&#39;s defences, particularly in relation to aircraft equipment for the Royal Australian Air Force and defence production? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>-r-I think it would be rather presumptuous of me to indicate to my colleagues how they should run their departments. I am quite sure that in the future they will continue to perform their very onerous duties with a proper sense of responsibility and with satisfaction to the people of Australia, whom they serve. I am quite sure that as, and when, occasion arises for a public statement to be made, it shall be made. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>10</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>COPPER</title>
+          <page.no>10</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>K5K</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SCOTT, Malcolm</name>
+              <name role="display">Senator SCOTT</name>
+            </talker>
+            <para>- Has the Minister for National Development noted the recent drastic fall in the overseas price of copper? In view of this alarming recession of prices, can he inform me of any steps that have been taken by the Government to preserve the large-scale marginal producers? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- The honorable senator has directed attention to a problem that has been worrying the Minister for Trade and me. The present situation is that the Tariff Board is conducting an inquiry into the copper-mining industry. That inquiry is almost completed and it is difficult for us to take any action until the board&#39;s report has been delivered. We expect it in the near future, and the Minister for Trade and I will ensure that it is dealt with promptly once it is available. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>11</page.no>
+                <time.stamp />
+                <name.id>KBW</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WRIGHT, Reginald</name>
+                <name role="display">Senator Wright</name>
+              </talker>
+              <para>-  When was the inquiry started? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>11</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>-  I can speak only from memory. The inquiry began comparatively recently - three or four months ago. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>11</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>UNIFORM TAXATION</title>
+          <page.no>11</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>11</page.no>
+              <time.stamp />
+              <name.id>KNU</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HANNAN, George</name>
+              <name role="display">Senator HANNAN</name>
+            </talker>
+            <para>-  In view of the recent decision of the High Court of Australia in the uniform taxation case, and the feeling of frustration among the people of Victoria, will the Minister representing the Treasurer give an assurance on behalf of the Government that it will call an immediate conference between the Commonwealth and the States for the purpose of resolving the complex taxation position that obtains now in Australia? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>11</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>-  I do not consider that  1  should be called upon to give such an assurance. As I understand the decision of the High Court of Australia, it leaves the position unaltered for all practical purposes. If that is so, and if the States desire a conference, I should think that it would be proper for them to originate such a proposal. I do not think that the Commonwealth is called upon to commence such a proceeding. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>11</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ITALIAN IMMIGRANTS</title>
+          <page.no>11</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>11</page.no>
+              <time.stamp />
+              <name.id>K1T</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BENN, Archibald</name>
+              <name role="display">Senator BENN</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Immigration, upon notice - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Has the Minister seen the article which appeared in the Brisbane &#34; Telegraph &#34; of 16th May under thi heading 11 Job lack for new arrivals &#34; and the sub-heading &#34; Five hundred Italian migrants face unemployment when their ship reaches Cairns next Thursday &#34;? </para>
+            </item>
+            <item label="2.">
+              <para>ls it a fact that the Cairns district is now overrun with men seeking work and that when the Italian migrants arrive at Cairns on 23rd May there will be more than 1,000 men at Cairns unemployed? </para>
+            </item>
+            <item label="3.">
+              <para>Did those responsible for bringing the Italian migrants to Cairns make an error of judgment as to the labour required for this year&#39;s sugar harvesting operations and, if so, what action does the Government propose to take to correct the situation? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>11</page.no>
+              <time.stamp />
+              <name.id>KOW</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENTY, Norman</name>
+              <name role="display">Senator HENTY</name>
+            </talker>
+            <para>-  The Minister for Immigration has supplied the following replies to the honorable senator&#39;s questions: - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>I understand that articles to this effect have appeared in the Brisbane press under the dateline quoted by the honorable senator. </para>
+            </item>
+            <item label="2.">
+              <para>It can only be expected that, in areas where the cane harvesting is about to commence, there will be a number of men unemployed  until  the sign-ons are completed. The situation at Cairns this year has been accentuated by the unprecedented movement of labour from southern Queensland cane-fields, where crops are not up to expectations, to the Cairns area where crops are heavy. Also, more cane-cutters have remained in the northern areas after the 1956 season than was the case in previous years. My latest information is that all suitable males registered for employment with the Cairns District Employment Office will be absorbed  as  soon as the commencement of the cane-harvesting season, plus a number of the migrants who are arriving by the &#34; Toscana &#34; at Cairns at the end of this week. We estimate also that the remainder of these new arrivals will be absorbed as the season progresses. </para>
+            </item>
+            <item label="3.">
+              <para>There was no error of judgment in bringing migrants to Cairns for this year&#39;s harvesting operations, and, in fact, the number whom we are introducing in accordance with the practice of  previous  years is considerably less than the demand which had been notified to us by the Queensland Cane Growers Council. I have been assured by my colleague, the Minister for Labour and National Service, that the position is being watched carefully by his department and, although  it  will take some short while to absorb all of the migrant arrivals, there will not be a surplus of suitable labour when the harvest season gets under way. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>11</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>COMMONWEALTH CAPITAL WORKS</title>
+          <page.no>11</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>11</page.no>
+              <time.stamp />
+              <name.id>JQN</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOKE, Joseph</name>
+              <name role="display">Senator COOKE</name>
+            </talker>
+            <para>asked the Minister representing the Treasurer, upon notice - </para>
+          </talk.start>
+          <quote>
+            <para>How much was spent on Commonwealth works of a capital nature in each State during the years ended 30th June, 19S5 and 19S6, respectively, and what is the anticipated expenditure for the year ending 30th June, 1957? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>11</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate />
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- The Treasurer has supplied the following answer: - </para>
+          </talk.start>
+          <quote>
+            <para>Parliamentary appropriations are not restricted, generally, to expenditure in any particular State. The Commonwealth&#39;s expenditure is recorded  in  respect of each vote from details of individual  payments which are brought to account through the Sub-Treasury in each State and in each Commonwealth territory. An attempt to allocate the expenditure between States would be a major undertaking and, moreover, the analysis would be of very doubtful value. Expenditure brought to account by a particular Sub-Treasury may include, for example, payments to interstate and overseas suppliers. Further, expenditure in one State is often for equipment and supplies for projects in another State. In short, the payments recorded in any Sub-Treasury do not purport to indicate the expenditure which may be attributable to Commonwealth activities or services in that State or territory. I ask, therefore, that the honorable senator reconsider his request for an allocation of the expenditure. Alternatively, arrangements will be made for him to inspect the returns to 30th June, 1957, from the Sub-Treasuries, of expenditure brought to account through their offices. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SENATOR C. B. BYRNE</title>
+        <page.no>12</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>12</page.no>
+            <time.stamp />
+            <name.id>K3R</name.id>
+            <electorate>QUEENSLAND</electorate>
+            <party>ALP; QLP from 1957; DLP from 1968</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BYRNE, Condon</name>
+            <name role="display">Senator BYRNE</name>
+          </talker>
+          <para>- by leave - I wish to inform the Senate that from now on I shall be sitting in this chamber representing the Queensland Labour party. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>AUSTRALIAN DEMOCRATIC LABOUR PARTY</title>
+        <page.no>12</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>12</page.no>
+            <time.stamp />
+            <name.id>K6W</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role>Leader of the Australian Democratic Labour party</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLE, George</name>
+            <name role="display">Senator COLE</name>
+          </talker>
+          <para>. - by leave - I desire to inform the Senate that as a result of the conference held in Canberra with Australia-wide representation, it has been decided by the constituent branches of my party that the former name of the party, the Australian Labour party - AntiCommunist, be changed and that in future it shall be known as the Australian Democratic Labour party. </para>
+        </talk.start>
+        <para>The reasons for the change are apparent. The former name, Anti-Communist, was, rather hastily conceived. At the time, we were looking for a name that would make if completely obvious to the people that the portion of the Labour party which we supported was opposed to communism whereas the party designated the Australian Labour party supported communistic ideals. Now our policies are so divergent from those of the. present Evatt party that we form a truly democratic Labour party. The Australian Labour party&#39;s policies are so un-Australian that we would have nothing more to do with them.&#39; </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>KOU</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENDRICKSON, Albion</name>
+              <name role="display">Senator Hendrickson</name>
+            </talker>
+            <para>-  What about the representative of the Queensland Labour party? Do you not want him? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>K6W</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLE, George</name>
+              <name role="display">Senator COLE</name>
+            </talker>
+            <para>-  I wish that- the Victorian branch of the Evatt party would quickly decide who is to be placed No. I on its &#34; How to vote &#34; card so that <inline font-weight="bold">Senator Hendrickson</inline> may be quietened. He feels that he must open his mouth- </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>12</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>-  Order! </para>
+        </talk.start>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>K6W</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLE, George</name>
+              <name role="display">Senator COLE</name>
+            </talker>
+            <para>-  He does it in order to bring himself to the notice of Stout and company. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>KOU</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENDRICKSON, Albion</name>
+              <name role="display">Senator Hendrickson</name>
+            </talker>
+            <para>-  Thank you. You have made me a certainty for the No. 1 position. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>K6W</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLE, George</name>
+              <name role="display">Senator COLE</name>
+            </talker>
+            <para>-  That will precipitate a fight between <inline font-weight="bold">Senator Hendrickson</inline> and <inline font-weight="bold">Senator Kennelly.</inline></para>
+          </talk.start>
+        </continue>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- Order! </para>
+          </talk.start>
+        </continue>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>K6W</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLE, George</name>
+              <name role="display">Senator COLE</name>
+            </talker>
+            <para>-  I desire very emphatically to notify this Senate that my party will in the future be known as the Australian Democratic Labour party. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>KOU</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENDRICKSON, Albion</name>
+              <name role="display">Senator Hendrickson</name>
+            </talker>
+            <para>-  I ask for leave to make a statement. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>-  Is leave granted? </para>
+          </talk.start>
+        </continue>
+        <para>Several honorable senators interjecting and calling &#34; No &#34;, </para>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>-  I think I hear several calls of &#34; No &#34;. Are honorable senators serious in calling &#34; No &#34;? Is leave, granted? </para>
+          </talk.start>
+        </continue>
+        <para>There being no dissentient voice, </para>
+        <para>Leave granted. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>12</page.no>
+            <time.stamp />
+            <name.id>KOU</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">HENDRICKSON, Albion</name>
+            <name role="display">Senator HENDRICKSON</name>
+          </talker>
+          <para>-  by leaveFor the information of this chamber, and of the electors of Australia, I wish to say that I still belong to the- great Australian Labour party, but I suggest that <inline font-weight="bold">Senator Cole</inline> and every representative in this chamber- </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>KAC</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">VINCENT, Victor</name>
+              <name role="display">Senator Vincent</name>
+            </talker>
+            <para>-  I rise to- order. Is the honorable senator in order in using the privilege extended to him under the standing order for the purpose of making a speech? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>KOU</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENDRICKSON, Albion</name>
+              <name role="display">Senator HENDRICKSON</name>
+            </talker>
+            <para>-  I am not making a speech. </para>
+          </talk.start>
+        </continue>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>KT8</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCCALLUM, John</name>
+              <name role="display">Senator McCallum</name>
+            </talker>
+            <para>-  I also rise to order. From my knowledge of the Standing Orders, if any honorable senator objects to leave being&#39; granted to make a. statement, such leave may not be granted without a vote having first been taken. When the  President  put the question, I distinctly heard, two honorable senators behind me call out &#34; No &#34;. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>13</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>-  When I put the question regarding leave there was a good deal of laughter and I was of the opinion that 1 heard calls of &#34; No &#34;. Unsure as to whether they were made seriously, I stated the question a second time and there was then no opposition to leave being granted. <inline font-weight="bold">Senator Hendrickson</inline> has leave to make a statement, but he may not discuss the statement of a previous  speaker.  I ask him to restrict himself to his own statement. </para>
+          </talk.start>
+        </continue>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>13</page.no>
+              <time.stamp />
+              <name.id>KOU</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HENDRICKSON, Albion</name>
+              <name role="display">Senator HENDRICKSON</name>
+            </talker>
+            <para>- The statement that I wish to make is that the party which <inline font-weight="bold">Senator Cole</inline> represents here to-night has, in its short life of about two years, seen fit to change its name on several occasions. But it is still a long; way - a good furlong - behind the people who sit on the treasury bench. During my political lifetime they have changed the name of their political party on seven or eight different occasions for precisely the reason given by the honorable senator to-night. He will probably emulate them in the years to come. </para>
+          </talk.start>
+        </continue>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>LEAVE OF ABSENCE</title>
+        <page.no>13</page.no>
+        <type>leave of absence</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator O&#39;sullivan)</inline> - by leave - agreed to - </para>
+      <quote>
+        <para>That <inline font-weight="bold">Senator Wordsworth</inline> be granted leave of absence for two months on account of absence overseas. </para>
+      </quote>
+      <para>Motions (by <inline font-weight="bold">Senator McKenna)</inline> - -by leave - agreed to - </para>
+      <quote>
+        <para>That <inline font-weight="bold">Senator Ryan</inline> be granted leave of absence for two months on account of absence overseas. </para>
+        <para>That <inline font-weight="bold">Senator Critchley</inline> be granted leave of absence for two months on account of ill health. </para>
+        <para>That <inline font-weight="bold">Senator Tangney</inline> be granted leave of absence for one month on account of ill health. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>13</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>JAPANESE TRADE AGREEMENT</title>
+          <page.no>13</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>13</page.no>
+              <time.stamp />
+              <name.id>K7A</name.id>
+              <electorate>New South WalesMinister for National Development</electorate>
+              <party>LP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPOONER, William</name>
+              <name role="display">Senator SPOONER</name>
+            </talker>
+            <para>- - by leave - Every one is familiar with the fluctuations in our balance of trade and the consequent need for import licensing. We have witnessed the recurrence of severe restrictions followed by relaxations, then further restrictions. This process of moving by fits and starts in our import trade is disturbing and it does the economy real harm. The whole of Australian industry and commerce is so geared to imports that the jobs and profits of all are at stake if we have inadequate export income or a balance of trade that fluctuates excessively. One of the major lines of policy pursued by the Government has been to; work for greater stability in. overseas earnings. The trade agreement with Japan has been a development of this policy. </para>
+          </talk.start>
+          <para>I propose to summarize what is in the agreement and&#39; compare the position under the treaty with the position that existed&#39; before the treaty was signed and finally to examine the reasons why the Government negotiated the treaty. The agreement: consists of seven articles which deal broadly with the mutual accord, of mostfavourednation treatment in tariffs, import licensing and exchange control, the operation of State trading enterprises, the relationship of the. General Agreement on Tariffs and Trade, to, the. agreement, safeguards against serious, injury to. domestic producers, consultation between the two governments and provisions for ratification. Included in the documents annexed to the agreement are letters excluding certain territories from the provisions of the. agreement and providing far the provisional operation of the agreement. </para>
+          <para>Agreed minutes which are also annexed set out specific: treatment which has been agreed for major Australian exports on entry into J Japan These minutes also cover in detail&#39; the- operation of the safeguards against serious injury to domestic, producers and- refer to the methods of consultation which will- be set up between: the two governments. </para>
+          <para>The agreement ensures that Australian exports to Japan will be treated for tariff purposes just as favorably as goods imported into Japan from any other country. It also provides that Australian goods will be treated for import licensing and exchange control purposes just as favorably as goods from any other country. All Australian commodities for which there are export opportunities have, equal rights of access to the Japanese market with the products of any competing supplier country. In addition to these guarantees of equitable treatment for our exports, we obtained after vigorous negotiations specific assurances of benefit for our major export commodities individually. </para>
+          <para>The. agreement provides that no import duty will be levied, by Japan on Australian wool for the next three years. There is a specific assurance that the. amount of foreign exchange allocated by Japan for Australian wool will not be restricted, except as necessitated by Japan&#39;s balance of payments position. The agreement also provides that 90 per cent, of Japan&#39;s total foreign exchange allocation for wool will be in the form of a world allocation. This global allocation means that Australian wool can compete in the Japanese market for up to 90 per cent, of Japan&#39;s imports. </para>
+          <para>With regard to wheat, the agreement guarantees competitive access to the Japanese market for our higher protein or premium wheats. It also gives an assurance of non-discrimination on our f.a.q., or soft wheats. </para>
+          <para>Australian sugar may now compete for up to 40 per cent, of Japan&#39;s total sugar imports, despite bilateral arrangements that Japan has with other suppliers. Australia provides about 30 per cent, of Japan&#39;s imports of barley, and Japan is our best market for barley. This important trade has been safeguarded against unfair trade practices and non-commercial arrangements. On a range of other commodities, such as beef tallow, cattle hides, skim milk and dried vine fruits, we formerly faced difficulties in securing access to the Japanese market. We now have assurances of reasonable access for these products. In return for these important concessions, we have agreed to place Japan on the same trading basis as practically all our other foreign suppliers of goods. This applies both in relation to the tariff and to import licensing, so that Japan, for import licensing purposes, is now treated in the same way as any other non-dollar country for all its trade with Australia. </para>
+          <para>The agreement states that the Australian Government had in mind entering into discussions with the Japanese Government before the end of the first three years of the agreement, with a view to exploring the possibility of, and examining the basis for applying the General Agreement on Tariffs and Trade between the two countries. The commitment is no more than this. </para>
+          <para>So far as exports to Australia are concerned, the Japanese Government has agreed that it is important that the export of commodities from Japan shall be conducted in an orderly manner, so as to avoid serious damage to Australian industry. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>14</page.no>
+                <time.stamp />
+                <name.id>KPK</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">KENNELLY, Patrick</name>
+                <name role="display">Senator Kennelly</name>
+              </talker>
+              <para>-  Those are nice words, but can the Minister explain their meaning? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>14</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>-  As the statement points out, there is an undertaking by one government to another. Surely we have not reached a stage at which such an undertaking can be ignored. The Australian Government is not relying entirely on that undertaking; its reserves to itself powers to act. The Japanese Government will use its best endeavours to see that exports from Japan to Australia are conducted in such  a  way as to avoid serious damage to Australian industry. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>14</page.no>
+                <time.stamp />
+                <name.id>K3R</name.id>
+                <electorate>QUEENSLAND</electorate>
+                <party>ALP; QLP from 1957; DLP from 1968</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BYRNE, Condon</name>
+                <name role="display">Senator BYRNE</name>
+              </talker>
+              <para>-  So we have to rely on the Japanese to protect our interests because we cannot protect them ourselves! </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>14</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>-  If in the opinion of the Australian Government restraint at the Japanese end is ineffective and Japanese goods are causing, or are likely to cause, serious damage, special action may be taken to safeguard Australian industry. I need make no apology for the Australian Government getting the advantage both ways. There is an undertaking by the Japanese Government and a reservation to the Australian Government of power to take effective action in the unlikely event of the Japanese Government not adhering to the agreement. This action may be taken after notice in writing has been given to the Japanese authorities and after an opportunity has been provided to consult as fully as circumstances permit. </para>
+            </talk.start>
+          </continue>
+          <para>In effect, the agreement is so framed that if no other remedy can be found, or if it cannot be found in time, the Government is free to impose special or emergency duties, or to impose special import quotas against Japanese goods. Consultation is required, but in an urgent case there need be no delay. This is understood by both Governments. </para>
+          <para>Before the treaty was signed, Japanese goods were subject to the maximum rates of duty in the Australian tariff. Every foreign country with which Australia has important trade pays what is called the most-favoured-nation rate of duty. This is intermediate between the British rate and the highest rate. In effect, until signature of the agreement, we were treating Japanese goods less favorably than practically any other country. In import licensing we were operating certain measures against Japan that we did not apply against any other country in the world. We discriminated against dollar goods only because the dollar is a hard currency. We discriminated against Japan, a country in the non-dollar trading world, by restricting the proportion of his quota which any importer could spend on Japanese goods. There was no currency justification for this. With respect to a limited number of items which, however, accounted for half our imports from Japan, we placed ceilings on the amount of the quota which any importer could use for Japanese goods. On the other hand, an importer could use his whole quota on imports from any other non-dollar country. </para>
+          <para>On the export side, although Japan was a heavy buyer of our wool and barley, we could make no sales of soft wheat to this market, in the face of the American policy of surplus disposals and tied sales. We had no certainty about the treatment to be accorded to our sugar. The whole position for our exports was uncertain. Our wool was being admitted duty free, but we had good reason to believe that Japan was seriously considering imposing a duty. The total picture from both the Australian and Japanese trade viewpoints was one of uncertainty and unpredictability. </para>
+          <para>As a result of the agreement, each country now gives to the products of the other the same treatment in tariff and licensing matters as it gives to other suppliers. This is what is meant by the term &#34; mostfavourednation treatment &#34;, or &#34; m.f.n.&#34;. It does not mean that Australia gives Japan any preferred treatment. What it means simply is that any favour or benefit or privilege we give any other foreign country, we must also give Japan. This does not interfere in any way with the preferences we give British goods under our United Kingdom Trade Agreement. </para>
+          <para>This grant of m.f.n. treatment does indeed represent a major step in the light of all the circumstances of Australia&#39;s trade relations with Japan. But in taking this step, we were encouraged by the fact that the Japanese Government readily took our point that if we were to give m.f.n. treatment to them, we needed to be sure we were getting most-favoured-nation treatment from them. That is why we have the agreed minutes setting out the position on wool, wheat, barley, sugar and other products. </para>
+          <para>As I have explained, we now have an assurance that 90 per cent, of Japanese exchange allocations for wool will be available for Australian wool, and that there will be no restriction on the exchange allocated, except for balance of payments reasons. This is a real benefit, as we are now fully protected against an arbitrary cut in wool imports directed against Australia alone. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>15</page.no>
+                <time.stamp />
+                <name.id>L8E</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CAMERON, Donald</name>
+                <name role="display">Senator Cameron</name>
+              </talker>
+              <para>-  On paper only. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>15</page.no>
+                <time.stamp />
+                <name.id>KMN</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, Donald</name>
+                <name role="display">Senator Grant</name>
+              </talker>
+              <para>-  The manufacturers cannot know what they are talking about, according to the Minister. They are talking about nothing, and everything is all right. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>15</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>-  The honorable senator should listen carefully and all things will become plain to him. That is the most optimistic statement that I have ever made. Moreover, the previous uncertainty about the wool import duty position has been removed. No import duty will be levied on wool for at least the next three years. The fact is that Japan spends about 7 per cent, of her import bill on raw wool. It is about her third biggest import item. If Japan experiences difficulties in her balance of payments or her overseas funds, there is room to save foreign exchange by cutting wool imports. The inducement to save on wool imports is the greater because four-fifths of the production of Japan&#39;s wool textile industry goes into local consumption and only one-fifth goes into export. Japan, unlike some other major wool buying countries, can cut wool imports to get quite substantial savings of foreign funds without cutting into her export earnings. Again, we did not wish to maintain a course of policy which would put the Japanese Government in the position where, because of Australia&#39;s uncooperative and non-compromising trade attitude, the Japanese Government might come under pressure to facilitate or encourage a switch-over in Japan from natural wool - Australian wool - to synthetic fibres. We have a policy of wool research and wool publicity designed to help wool sustain its place in world trade against synthetic or man-made fibres. It would be foolish to frustrate that by unthinking trade policy. These undertakings on wool are very real commitments. </para>
+            </talk.start>
+          </continue>
+          <para>Let me now turn to our second major export commodity - wheat. We are natural suppliers of wheat to Japan. But Japan in post-.war years <inline font-style="italic">has</inline> got her soft wheat from America, through .American surplus disposals .and related transactions. Japan imports .over 7:5,000,0.00 bushels .of wheat a year. In -repent y.ears Australian .exports of wheat to J.apan have not .exceeded about 7,500,000 bushels in any ;one year. That wheat was mostly special grades .of wheat - the higher protein wheats of Queensland and northern New South Wales, which usually command a premium in the market. But of our average quality soft wheat or f.a.q. wheat they bought practically none, although they imported more than 37,000,000 bushels of such wheat from other sources. </para>
+          <para>With the signing of the agreement, we have assurances that we will obtain a fair share of the Japanese market -based on our ability to compete on normal commercial considerations. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>KPK</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">KENNELLY, Patrick</name>
+                <name role="display">Senator Kennelly</name>
+              </talker>
+              <para>- - Would we not have :that now? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>- We have not &#39;been getting the business up to now. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>KPK</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">KENNELLY, Patrick</name>
+                <name role="display">Senator Kennelly</name>
+              </talker>
+              <para>- The fact is that we would have that now. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>- The fact is that we are not selling wheat to Japan, and we want to sell wheat to Japan. We have assurances of fair competitive entry into this market and are insulated against the threat of unfair trade practices or surplus disposal operations. </para>
+            </talk.start>
+          </continue>
+          <para>Because of the importance Australia attached to obtaining an assured competitive outlet in Japan for soft wheat, the agreed minutes specifically state that, should our competitors in the Japanese market resort to transactions not conforming with norma&#93; fair trade or commercial practice, the Japanese Government will take steps to ensure that .our soft wheat is given an equitable share of the Japanese market. Without limiting what this equitable share would be, the agreed minutes specifically record the understanding - completely confirmed in the Minister for Trade&#39;s discussions in Japan - of the two governments that it would not be less than 7.000,000 bushels even in the early stages of the agreement, and moreover, that it would have a yearly increasing trend. </para>
+          <para>While the concern of Australia was in respect of f.a.q. or lower-quality wheat. which constitutes the bulk of our crop, the figure .of 7000,j000 bushels and upwards is a -net additional amount ,to .any quantities of -high-protein wheat exported to Japan. On the basis .of past performance, we would have expected to sell about 7,000,000 bushels of this higher protein wheat during the coming year, if it had been available. In these circumstances, the agreement would -have .resulted -in the -sale of not less than 14;000,000 bushels in the first year, with annual increasing .amounts of soft wheat thereafter. </para>
+          <para>The agreement was signed on 6th July last, and already entirely satisfactory arrangements have been made for the purchase of Australian wheat ,by the Japanese F.ood Agency. In the first seven weeks of the currency of &#60;this .agreement, 2,000,000 bushels .of Australian soft wheat have been bought. This is more than had .been purchased throughout the whole of the postwar period. The  chairman  of the Australian Wheat Board, after his recent visit :to Japan, said that, following ,on ,the new trade treaty, Japan could &#39;buy 18,000,000 bushels of Australian wheat .and could become Australia&#39;s second market for wheat. Japan is Australia&#39;s -principal export market for barley, but before the agreement was signed we had no assurance that reasonable access would continue. The agreement now gives us a definite guarantee that Japan will safeguard our barley market against unfair trade practices and non-commercial arrangements. </para>
+          <para>Australian sugar has been imported .by Japan, but we had no guarantee that bilateral arrangements made by that country would not force us out of the market. We are now assured that Australian sugar may be imported by Japan up to 40 per cent, of her total sugar imports, despite any arrangements which Japan may have with other supplying countries. The value of this may be gauged from the fact that, whereas over the five years ended 1956-57 we shipped a total of 185,000 tons of sugar, Japan has recently purchased 100,000 tons valued at &#163;6,000,000. We had no assurances that a range of other commodities such as beef tallow, hides, skim milk or dried vine fruits, could secure access to the Japanese market. These commodities will now receive reasonable access to the Japanese market as a matter of contractual right. 1 have already spoken of the basis on which Australia admitted Japanese goods before the treaty was signed. Japan had no rights in tariff or -import -licensing matters in her trade with Australia, and of course we had no rights in our trade with Japan. Under the treaty, Australia undertakes that Japanese goods will receive normal nondiscriminatory treatment, both in tariffs and in import licensing. What the treaty does is to give an Australian importer the right to use his import quota for goods from Japan to exactly the same extent that he is free to use this quota to buy goods from any other non-dollar country. The Japanese have no rights to send goods to Australia. The only right is that an Australian importer may now buy from Japan up to the level of his total quota if he wishes to do so. </para>
+          <para>A point that should be emphasized is that, if our balance of payments position should deteriorate, we are perfectly free, under the agreement, to restrict imports from Japan more than we are now doing. Similarly, if the Japanese yen should become a hard currency, we would be free to discriminate against Japanese goods as we do against dollar goods. Similarly, Japan may reduce her imports of Australian wool or other goods, but only to the extent that her balance of payments position requires, and provided she treats other countries no better. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>17</page.no>
+                <time.stamp />
+                <name.id>K3R</name.id>
+                <electorate>QUEENSLAND</electorate>
+                <party>ALP; QLP from 1957; DLP from 1968</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BYRNE, Condon</name>
+                <name role="display">Senator BYRNE</name>
+              </talker>
+              <para>- Is there any formula to determine when the balance of payments position reaches such a point? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>17</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>- I know of no formula. The honorable senator will remember that there is a specific provision in the General Agreement on Tariffs and Trade which gives to nations the right to make restrictions and to do things to protect the balance of payments position. Speaking from memory, I think there is a right of appeal from Gatt to the International Monetary Fund if the other trading nations that are members of Gatt think the provision is being used unfairly. </para>
+            </talk.start>
+          </continue>
+          <para>No government can surrender its right to control imports when this is made necessary by its overseas financial position, and this right to control imports must include the right to restrict imports more severely from hard currency countries than from soft currency countries. Accordingly, in this treaty, as in the .multilateral General Agreement on Tariffs and Trade, provision is made for this. So far as Gatt is concerned, Australia undertakes to explore, within three years, the possibility of the application of Gatt and to examine the possible basis of application. Nothing in the whole treaty, however, in any way affects Australia&#39;s rights to continue to withhold the application of Gatt to trade between the two countries. </para>
+          <para>Why did the Government negotiate this agreement? All our other major trading partners are committed to observe certain trade rules towards Australia through Gatt. However, since we have not agreed to apply Gatt between Japan and Australia, there is no commitment under Gatt to prevent Japan taking discriminatory action against our goods. Before the present agreement, there was no other contract in existence to prevent such action. Thus we were vulnerable to changes in Japanese import policy on .our major export products. </para>
+          <para>Japan has bought &#163;425,000,000 worth of goods from Australia over the past five years. Australia in return has bought about &#163;65,000,000 worth from Japan - a ratio in Australia&#39;s favour of more than 6 to 1 . In fact, because of our import restrictions and because of our specially severe restrictions against Japan alone, imports from Japan were only &#163;A.l 2,900,000 in the trading year ended 30th June last. In the same year, our exports to Japan were worth &#163;139,000,000, so the ratio in our favour this last year was about 11 to 1. </para>
+          <para>A great disparity in bilateral trading is naturally emphasized if it is accompanied by one-sided discrimination in import treatment, and there will be a great inducement to discriminate in return in order to help balance the trade - to balance it at a lower level. The provocation for and possibility of retaliation has now been removed, and we have secured specific and tangible benefits under this new agreement. The Government&#39;s attitude was that it was not enough to look at this problem from the narrow point of view which would merely seek to maintain the existing position by a few concessions in the hope of preventing a rupture in our trade relations with Japan. Whilst there were some arguments for this course, the Government took the view that, in the interests of the Australian economy as a whole, we had to seek positive and tangible concessions. </para>
+          <para>We need all the export earnings we can get if we are to fight our way clear of import restrictions. If we have not the overseas funds, we cannot finance all the imports we need for our industrialization, for our development, or for our high overall standard of living. </para>
+          <para>A great part of our manufacturing industry is dependent on imports. The factories need imported goods for processing; they need plant and equipment; they need motor vehicles and petrol, and so on. But all these imports have to be paid for out of our export earnings. They cannot be bought in any other way. Pre-war, we did in fact finance a lot of imports through loans from overseas. Funds from this source are now a mere trickle. So the manufacturing industry of Australia, and all. the workers in industry, are dependent on a high level of export earnings. The United Kingdom is no longer the certain source of loans that she was pre-war. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>18</page.no>
+                <time.stamp />
+                <name.id>JQY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COURTICE, Benjamin</name>
+                <name role="display">Senator Courtice</name>
+              </talker>
+              <para>-  You are not helping her very much now. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>18</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>-  We are giving her the preferences she has enjoyed for many years under the Ottawa Agreement and is now obtaining under the new United Kingdom - Australia Trade Agreement. The agreement with Japan will not, in any way, lower the level of preferences that stand now in the United Kingdom&#39;s favour. I repeat that the United Kingdom is no longer the certain source of loans that she was pre-war. That is one reason why we have to do all in our power to increase and stabilize our export earnings. We need as much export income as we can get, and we need it on as stable a basis as we can contrive, in order that we may keep industrial activity at a high level, eliminate import restrictions, and keep up our development programme and maintain our prosperity. In short, the trade reasons for an agreement with Japan are - </para>
+            </talk.start>
+          </continue>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>We could not continue to single out our second-largest customer and the greatest trading power in our part of the globe for specially restrictive trade treatment. </para>
+            </item>
+            <item label="2.">
+              <para>We could not afford the uncertainty, the instability and the invitation to retaliation involved in a grossly adverse trade balance, coupled with our own discrimination against Japanese imports. </para>
+            </item>
+            <item label="3.">
+              <para>We had no assurances or guarantees about the treatment to be accorded our exports by Japan. </para>
+            </item>
+          </list>
+          <para class="block">These are the reasons why the Government negotiated this agreement. A critical aspect of the operation of the agreement will be the safeguards, or provisions for emergency action. I have already briefly mentioned the safeguarding arrangements which are available to protect Australian industry from serious damage under the agreement, but I invite careful attention to them. </para>
+          <para>Firstly, the Japanese Government recognizes the importance of export from Japan being conducted in an orderly manner so as to avoid serious damage to Australian industry, and will use its best endeavours to see that export is restrained so as to avoid such damage. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>18</page.no>
+                <time.stamp />
+                <name.id>KPK</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">KENNELLY, Patrick</name>
+                <name role="display">Senator Kennelly</name>
+              </talker>
+              <para>-  They have a fair go. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>18</page.no>
+                <time.stamp />
+                <name.id>K7A</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPOONER, William</name>
+                <name role="display">Senator SPOONER</name>
+              </talker>
+              <para>-  The interjections show that the Opposition fails to realize the basic truth that, unless we can increase our export income, we will not be able to pay for the imports we need to maintain the progress of manufacturing industries that has been the distinctive feature of our development in the post-war years. </para>
+            </talk.start>
+          </continue>
+          <para>However, if this arrangement at the export end proves ineffective, the Australian Government, in effect, retains the right to act at the import end. It may impose either special duties or special import quotas to safeguard any Australian industry from serious damage. This is the case because Article V. acknowledges the right of the Government to suspend its obligations under the agreement in order to prevent serious injury to Australian industry. </para>
+          <para>The procedures provide for consultation with the Japanese Government if emergency action is contemplated by the Australian Government. In this way, it may be possible to avoid action under the escape clauses. However, consultation does not mean delay if urgent action is necessary. The Japanese Government understands this. </para>
+          <para>In considering any action under the escape clauses of the agreement, we must, however, remember that it is essential to operate it in good faith. The Government is not prepared to prejudice its standing in this respect, for irresponsible use of the escape clauses could bring to nought all the good which we hope will stem from this treaty. The Japanese are aware that the treaty will not last if our markets are flooded by their goods. On the other hand, if we were to operate the treaty in a selfish manner, so that we get all the benefits and erect obstacles to the power of Japan to trade with us, the treaty will not last, and we will be the losers. We must seek a mutually satisfactory operation of the agreement. There can be no authentic definition of satisfaction in these circumstances, but there must be a clear assessment of the consequences if we provoke the abrogation of the agreement on behalf of our own sectional interests. </para>
+          <para>Some Australian manufacturers have expressed fears that the Australian market will be flooded with cheap Japanese goods. In many cases these fears have been based on completely inaccurate information. </para>
+          <para>I have explained the ways in which the agreement provides for special action to avoid serious damage to Australian industry. In the operation of the agreement, the </para>
+          <para class="block">Government hopes for the benefit of business-like consultation with industry representatives. The Minister for Trade has offered to arrange for continuing discussions between senior officers of his department and each industry group, preferably with representatives of the Associated Chambers of Manufactures present. I am confident such discussions will contribute greatly to the successful operation of the agreement. </para>
+          <para>To summarize, <inline font-weight="bold">Mr. President,</inline> the overall position is as follows: - The agreement is designed to allow some reasonable expansion of Japanese trade with the Australian market. Safeguards are provided for Australian industry against a damaging influx of imports. The agreement is designed to give Australian exports a degree of protection overseas and to contribute to a high degree to the stability of the whole Australian economy. I lay on the table the following paper: - </para>
+          <quote>
+            <para>Agreement on Commerce between the Commonwealth of Australia and Japan. </para>
+          </quote>
+          <para>Motion (by <inline font-weight="bold">Senator</inline> 0&#39;Flaherty) proposed - </para>
+          <quote>
+            <para>That the paper be printed. </para>
+          </quote>
+          <para>Debate (on motion by <inline font-weight="bold">Senator McKenna)</inline> adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>19</page.no>
+        <time.stamp>21:15:00</time.stamp>
+      </adjournmentinfo>
+      <para class="block">Senate adjourned at 9.15 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

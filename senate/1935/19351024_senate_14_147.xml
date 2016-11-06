@@ -1,251 +1,1951 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-10-24%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-10-24%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-10-24%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-10-24%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-10-24%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-10-24%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-10-24%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1935-10-24/19351024_senate_14_147.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1935-10-24</date>
+    <parliament.no>14</parliament.no>
+    <session.no>1</session.no>
+    <period.no>3</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>1039</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <business.start>
+      <day.start>1935-10-24</day.start>
+      <para>ThePRESIDENT.- The honorable senator is entitled to introduce fresh arguments as indicated. </para>
+      <para>
+        <inline font-weight="bold">Senator E.</inline>B. JOHNSTON.- On the occasion to which I refer the Leader of the <inline font-weight="bold">Senator (Senator Pearce)</inline> was dealing with the grant of ?450,000 made to Western Australia. In making this welcome pronouncement he said - </para>
+      <para>The amount was not granted for the purpose of being splashed up in State enterprise or political adventures, but that the Commonwealth Government expected it to be used to give relief in the directions indicated by the commission to those industries which it has been proved are suffering from the tariff or from other conditions of federation that adversely affect Western Australia. One of these disabilities, the commission pointsout, is the present high rate of State income tax, particularly on the higher incomes, which is undoubtedly driving capital out of the State. </para>
+      <para class="block">The policy of the Commonwealth Government at that time was that the grant of ?450,000 was made on the understanding that it should be expended to afford relief from State income taxation, which, as was pointed out by the Disabilities Commission under the chairmanship of <inline font-weight="bold">Mr. Higgs,</inline> was very high. At that time the people ofWestern Australia were wondering whether the State Labour Government would accept the implied direction of the Federal Government. It did and taxation was reduced by 33 per cent. </para>
+      <para>
+        <inline font-weight="bold">Senator Collings.</inline>- Because the State Government wished to receive the grant. </para>
+      <para>
+        <inline font-weight="bold">Senator E.</inline>B. JOHNSTON.- Yes. It acted wisely and its policy in that respect was generally applauded. It carried out the wishes of the Federal Government, and having done so has been penalized to the amount of ?270,000 a year. </para>
+      <para>SenatorCollings. - The commission does not say that the State has been penalized on that account. </para>
+      <para>
+        <inline font-weight="bold">Senator E.</inline>B. JOHNSTON.- It does. A reference to paragraph 200 of the commission&#39;s report will show clearly that it has been penalized for this very reason. The State Government of Western Australia, having followed the direction of the federal authoritiesby reducing taxation for a term of years, is now penalized to the amount of ?270,000. The grant announced by the right honorable gentleman on that occasion was ?450,000 for the first year and ?300,000 for each of the four succeeding years. The position is perfectly clear. Has not the Government an answer to the points I have raised? Probably the members of the Commonwealth Grants Commission are not aware of the conditions laid down by the Bruce-Page Government that grants should be devoted mainly to the remission of taxation. As Western Australia is not directly represented on the commission, the Commonwealth Government should have decided that in the circumstances it is not justified in accepting that body&#39;s recommendation in this respect. If the Government accepts this recommendation, imposing as it does a penalty upon Western Australia, it is acting in bad faith, and such an action is unworthy of any National Government. </para>
+      <para>I also protest against the new policy laid down in the commission&#39;s second report with respect to the allocation of grants. It is contrary, not only to the policy of the Bruce-Page Government, but also to the policy of the present Government, as announced by the Prime Minister in 1933, and should not be allowed to pass unchallenged. State grants were paid for years before the Commonwealth Grants Commission was appointed, and have always been made as compensation for disabilities suffered as theresult of federal policy. In outlining the policy of the Bruce-Page Government in 1925 the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> said - </para>
+      <para>The Government of which I am a member took action to appoint a Disabilities Commission to investigate the effect of federation upon Western Australia. </para>
+      <para class="block">The Commonwealth Grants Commission now says that it is not considering the effects of federation upon State finances. He continued - </para>
+      <para>It is undoubted that the finding of the commission is that Western Australia is suffering and has suffered the severe disabilities as the result of federation. The Commonwealth Government, after fully considering the position, has decided to ask Parliament to make a special grant this year of ?450,000, which will be inclusive of the grant now paid. Although this proposal is for this year only, pending the holding of a conference with the State governments on Federal and State relations, to which I have already referred- </para>
+      <para class="block">This is the most important part of the right honorable gentleman&#39;s speech and with, every word of it I am in entire agreement - it is a recognition and an admission by the Commonwealth Government that the findings of the royal commission justify Western Australia receiving that amount of financial compensation and it therefore establishes a basis upon which any decision as to future financial relationships shall rest. </para>
+      <para class="block">These remarks were followed by prolonged applause. Since then no ministerial statement or legislation has been made declaring that the disabilities imposed on the States by federation are not to be regarded as the basis for assessing grants to the claimant States. The Commonwealth Grants Commission, however, has set up a policy different from that expounded in 1925 on behalf of the Bruce-Page Government by the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> The commission&#39;s policy in the future may re-act seriously against every one of the three smaller States. Its effects can be visualized from paragraph 73 of the report which states - </para>
+      <para>Some States are certainly in serious financial difficulties. It must be made possible for them to function as States of the Commonwealth at some minimum standard of efficiency. It rests with the Commonwealth to make that standard as low as it pleases, to impose a task on the State as severe as it thinks proper. </para>
+      <para class="block">I object to the commission laying down such a policy. If the Commonwealth Government endorses the proposal it should say so and we shall then know who is to blame. Paragraph 69 of the report clearly shows that the commission has made a definite departure from the policy adopted by the Commonwealth in 1925. On the one hand we have the endorsement by the Commonwealth Government of the recommendation made in 19-25 by the Disabilities Commission that grants should be made as compensation for disabilities due to federation, and, on the other hand, we have before us to-day an entirely new policy set up by the Commonwealth Grants Commission in these words - </para>
+      <para>The only ground for this assistance is the inability of the State to carry on without it. It follows then that the adverse effects of federal policy - even the net effects - are not in themselves ground for assistance to the Government any more than they are to the people of a State. </para>
+      <para>
+        <inline font-weight="bold">Senator Dein.</inline>- That seems fairly correct to me. </para>
+      <para>
+        <inline font-weight="bold">Senator E.</inline>B. JOHNSTON.- Any alteration of policy should be made only by Parliament itself, and, until the Parliament has made such an alteration, the commission is exceeding its authority in attempting to do so. </para>
+      <para>The report states - </para>
+      <para>If, in spite of the effects of federation the State can continue to function at what has been decided on as the minimum standard there is no ground for assistance. </para>
+      <para>That report cuts across the statement made by the Prime Minister <inline font-weight="bold">(Mr. Lyons)</inline> in reply to a question on the 26th April, 1933. He said then that the object of appointing the commission was &#34; to arrive at some permanent method of meeting the needs of the smaller States, so that their Treasurers would no longer be required to come cap in hand each year to the Commonwealth Under the new policy, before they will be able to obtain assistance, not only will the State Treasurers have to come cap in hand to the Commonwealth, but they will also have to crawl on their hands and knees to prove that ,their States are on the verge of bankruptcy. </para>
+      <para>
+        <inline font-weight="bold">Senator ARKINS</inline>- Is not the honorable senator tearing a passion to tatters. </para>
+      <para>
+        <inline font-weight="bold">Senator E.</inline>B. JOHNSTON.- No. This policy is causing the utmost concern in the smaller States. The conclusions in the report have been brought to my notice by those who are high in the councils of Western Australia. They are seriously alarmed and have grave misgivings at what they consider to be a complete alteration of Commonwealth policy. It would appear that the States must prove not only their disabilities but also must prove that they are so bankrupt and indigent that the only alternatives open to the Commonwealth are (1) to exclude them from the federation, (2) to take over the States and administer them as territories, or to make a grant of such amount as will enable them to eke out an existence upon whatever standard the Commonwealth pleases to impose. That is the substance of the principles which the commission adopts in paragraph 74 of its report. It also naively observes that the first alternative &#34;would leave the Commonwealth responsible for the States&#39; debts, it could hardly be chosen as a practical alternative to a special grant &#34;. </para>
+      <para class="block">The commission has exceeded its powers by setting out those alternatives. I hope that the Government will inform the Senate whether or not it accepts that new policy. I know of no authority given by the Commonwealth Parliament to the commission which would enable it to place the State Treasurers in the position of mendicants. The commission is placing itself above the government and even the Parliament itself. </para>
+      <para>
+        <inline font-weight="bold">Senator</inline>COLLINGS  (Queensland) &#91;11.8&#93;. - Instead of imputing that some sinister motives are at work against Western Australia, <inline font-weight="bold">Senator Johnston</inline> would have done better to have come straight to the point and asked that the grant to that State be increased. Yesterday and to-day the honorable senator has iterated and re-iterated <inline font-style="italic">ad nauseum</inline> charges against the Commonwealth Grants Commission and insinuations that federal policy is directed specifically against Western Australia. If he is not satisfied with the amount of the grant, he should have said so, instead of proceeding on devious by-ways and sidetracks, so that honorable senators were more confused when he finished than they were before he started. He has repeated over and over again that the Commonwealth Grants Commission has been made superior to Parliament, but I desire to impress upon his mind that that is not original. Succeeding Governments have created several bodies, including the Commonwealth Bank Board, the Australian Loan Council, and many commissions, with powers entirely superior to those of the Commonwealth Parliament, until we are not the principal actors on the stage, but merely puppets moving to strings pulled by the overlords appointed by this Parlament to do its job. It seems, moreover, that <inline font-weight="bold">Senator Johnston</inline> has pursued an illogical course. He surely does not forget that he recently voted to make a parliamentary committee superior to the Senate. </para>
+      <para>I do not desire to prolong this debate ; here are the decisions of the Government, based on the report of the Commonwealth Grants Commission. The Government has brought down these bills and says that the amounts set out in them are the amounts that it is prepared to grant. I recognize that it is within the rights of the claimant States to say whether they are satisfied or not, but, if they are not satisfied, the proper way for their representatives to act is to endeavour to obtain an increase. </para>
+      <para>
+        <inline font-weight="bold">Senator E.</inline>B.  Johnston. -  The honorable senator knows that we are powerless  to do so. </para>
+      <para>
+        <inline font-weight="bold">Senator COLLINGS.-</inline>Then it would be more honest for the honorable senator to say that straight out, and then use his influence with the Government to get an increase next year, instead of insinuating that sinister forces are at work to penalize Western Australia. I do not believe that there is the slightest scrap of evidence in support of the honorable senator&#39;s insinuations. </para>
+      <para>
+        <inline font-weight="bold">Senator</inline>FOLL -  If he is not satisfied, <inline font-weight="bold">Senator Johnston</inline> can vote against the bill. </para>
+      <para>
+        <inline font-weight="bold">Senator COLLINGS.</inline>- That is the only logical thing for him to do in the face of his arguments, or he should say: &#34; Thank you for mercies received which are not as .big as they ought to be.&#34; I should not object to that, but I do object to his constant repetitions concerning something which happened ten years ago, notwithstanding that ten years ago the grant to Western Australia amounted to &#163;450,000, whereas to-day it is nearly twice that sum. The truth of the matter is that <inline font-weight="bold">Senator Johnston</inline> is not satisfied with federation and wants his State to secede. He should not remain here in the Senate, but should go back to the State and take steps to ensure that it does secede. But I do not think he will do that, except with his tongue in his cheek, because he knows that if Western Australia seceded from the Commonwealth, its last position would he worse than its first. I resent the way in which <inline font-weight="bold">Senator Johnston</inline> carries out the duties entrusted to him as a member of this chamber. If I have a grievance I state it succinctly, and if I cannot get a remedy that ends the matter for the time being. <inline font-weight="bold">Senator Johnston,</inline> however, is a secessionist, and, on every conceivable occasion - some of them inconceivable - be wearies the Senate by a futile beating of the secession drum in this chamber. </para>
+      <para>
+        <inline font-weight="bold">Senator Sir</inline>GEORGE PEARCE  (Western Australia - Minister for External Affairs) &#91;11.13&#93;. - m <inline font-style="italic">reply</inline> - The long and laboured case that <inline font-weight="bold">Senator Johnston</inline> has endeavoured to make out this morning is capable of a very easy reply. He has endeavoured to make two points : One that theCommonwealth Grants Commission in its report has exceeded its authority and its powers, and the other that there is inconsistency between the policy of the Bruce- Page Government in 1925 and the action of the present Government in 1935 in accepting the recommendations of the commission. Regarding the first charge, the Commonwealth Grants Commission does not take its power from any statement made by me as a member of the Bruce-Page Government in 1925, or, for that matter, any statement made on behalf of that Government in that year. Nor did the commission receive its instructions from the Bruce-Page Government. It received them from a much higher authority, the Parliament itself, acting under section 96 of the Constitution, which reads - </para>
+      <para>During a period of ten years after the establishment of the Commonwealth, and thereafter until the Parliament otherwise provides, the Parliament may grant financial assistance to any State on such terms and conditions as the Parliament thinks fit. </para>
+      <para class="block">And Parliament expressed itself on this point in section 9 of the Commonwealth Grants Commission Act - </para>
+      <para class="block">The commission shall inquire into and report to the Governor-General upon - </para>
+      <para class="block">(a) applications made by any State to the Commonwealth for the grant by the Parliament of financial assistance in pursuance of section ninety-six of the Constitution ; </para>
+      <para class="block">(b) any matters relating to grants of financial assistancemade in pursuance of that section by the Parliament to any State which are referred to the commission by the GovernorGeneral; and </para>
+      <para class="block">(c) any matters relating to the making of any grant of financial assistance by the Parliament to any State in pursuance of that section, which are referred to the commission by the Governor-General. </para>
+      <para class="block">That is the charter of the Commonwealth Grants Commission, and it contains no mention of disabilities or any limitation or direction as to the factors which the commission shall take into consideration when making its recommendations. If it sees fit, the commission is entitled to ignore what the Government of 1925 said, or the Government of 1935 might say. It is guided only by what Parliament has said. </para>
+      <para>Consequently, the lengthy harangue by <inline font-weight="bold">Senator Johnston</inline> on this aspect of the commission&#39;s report meant nothing. </para>
+      <para>
+        <inline font-weight="bold">Senator Johnston</inline>also drew attention to an alleged inconsistency between the statement made on behalf of the BrucePage Government in 1925 and the action of the present Government in accepting the recommendations of the Commonwealth Grants Commission, because the commission, in making its recommendation, has taken into account the difference between the rates of taxation in the various States and the fact that the rate inWestern Australia is lower than that in other States. Although he ought to be well aware of it, <inline font-weight="bold">Senator Johnston</inline> appears to be oblivious of the fact that since 1925 a depression has intervened and wrecked the finances of every State, with the result that from 1930 onwards all State taxes, including income tax, have been increased. The commission points out that, in order to rectify its budget, South Australia, for instance, has a much higher rate of income tax thanWestern Australia. The commission also finds that New South Wales and Victoria, from which much of this grant will be drawn, also have a higher rate of income tax than Western Australia; likewise, Tasmania, another of the claimant States, and Queensland have higher rates. Pointing out that all of these States had to increase their rate of tax in a desperate effort to balance their budgets, the commission held that the fact that the rate of income tax in Western Australia was lower than in any other State should be taken into consideration in determining the amount of the grant to that State. The commission estimated the benefit which Western Australia enjoyed in this respect at &#163;270,000 per annum. The Government did not feel justified in singling out that portion of the commission&#39;s report and saying that, because the commission took the taxation factor into account, its recommendation in respect of Western Australia should not be accepted. It has accepted in full the recommendations of the commission; the reasons for them are set out in the report, and, I suggest, will be very difficult to controvert. </para>
+      <para>Question resolved in the affirmative. </para>
+      <para>Bill read a third time. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>TASMANIA GRANT BILL 1935</title>
+        <page.no>1043</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill read a third time. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SALES TAX (FINANCIAL RELIEF) BILL 1935</title>
+        <page.no>1043</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill received from the House of Representatives. </para>
+      <para>Standing and Sessional Orders suspended. </para>
+      <para>Bill (on motion by <inline font-weight="bold">Senator Sir George</inline> Pearce) read a first time. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>1043</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1043</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>West ern Australia</electorate>
+              <party>UAP</party>
+              <role>Minister for External Affairs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;11.22&#93;.- I move- </para>
+          </talk.start>
+          <quote>
+            <para>That the bill be now read a second time. </para>
+          </quote>
+          <para>The exemptions proposed in this bill will provide relief from sales tax to the amount of &#163;200,000 per annum, or about &#163;150,000 for the remainder of this financial year. Including these exemptions, the sales tax relief provided in the form of exemptions by the financial relief legislation of 1932-35 will amount to approximately &#163;2,400,000, and will embrace a field of goods, the final wholesale trade in which amounts to nearly &#163;50,000,000 per annum. These figures are conservative, because they are based on the estimated trade in the goods affected at the respective times when the exemptions became operative. The actual trade in the exempted goods has been undoubtedly higher than the estimated trade when the goods were first exempted, and, if the statistics of trade in taxable goods can be taken as a guide, it is probable that the field now exempted by way of financial relief represents a final wholesale trade of at least &#163;60,000,000 per annum, and relief from tax of at least &#163;3,000,000 per annum. </para>
+          <para>The extent and nature of the exemptions proposed by this bill are somewhat obscured by the complicated form of the bill. For the convenience of honorable senators, a classified list of the proposed exemptions, in abbreviated terms, has been circulated. </para>
+          <para>I propose to deal with the exemptions in a general way, but, before doing so, I take this opportunity to announce that, later in this session, a bill will be brought down for the purpose of consolidating the sales tax exemptions into a single self-contained schedule, classified into groups and sub-groups of associated goods and numerically itemized. That scheme should commend itself to honorable senators and the trading community. The replacement of eight separate and unclassified schedules by one classified schedule should, of itself, be of great value to both taxpayers and the Taxation Department. Nothing more should be needed to justify the scheme than the complicated form of the bill now before the Senate. I do not intend to deal with the proposed exemptions in detail. The circulated list will give to honorable senators a good idea of the extent of the proposed relief. The list is composed principally of minor items the exemption of which is designed to remove direct competitive disabilities and certain other anomalies, both commercial and administrative. The most important of the proposed exemptions are - </para>
+          <quote>
+            <para>Containers for exempt goods. </para>
+            <para>Goods for the use of public hospitals and public benevolent institutions and organizations. </para>
+            <para>Pipes for drainage, sewerage, irrigation and water supply. </para>
+            <para>Spectacles and aids to hearing. </para>
+            <para>Sole leather for boot-repairing. </para>
+          </quote>
+          <para class="block">The exemption of containers for exempt goods will remove what is probably the most troublesome feature of the tax, and will provide relief to taxpayers generally to the amount of about &#163;40,000 per annum. The exemption of goods for public hospitals and charitable institutions will satisfy a claim which has been most strongly pressed since the inception of the tax. Such an exemption was originally considered to be impracticable because of policing difficulties. It has now reached the practicable stage, because of the extensive exemptions which have already been unconditionally granted in respect of goods commonly used by such institutions. </para>
+          <para>The general exemption of pipes will remove the anomalies which at present exist in consequence of the limited exemptions of galvanized water pipes. These anomalies have several times been brought prominently under notice during debates on sales tax measures. Claims for the exemption of concrete and other pipes have until now been refused because of the loss of revenue involved. Even now it is not possible to provide for ; the  exemption of piping accessories, such as water taps and other house connexions, and, for this reason, it is probable that certain minor anomalies will still exist. The exemption of sewerage pipes will be of considerable assistance at this juncture, because of the widespread growth of sewerage works at present taking place, or in contemplation in several States. </para>
+          <para>The exemption of spectacles and aids to hearing will remove from the taxable field what are practically the only articles in- general use for the alleviation of human infirmities that now remain in that field. </para>
+          <para>The exemption of sole leather for bootrepairing will provide relief to what is, generally speaking a struggling section of the business community, without imposing burdens on any other section. At the same time, the exemption will not give rise to any appreciable administrative difficulties. </para>
+          <para>The items mentioned, and every other item on the list of proposed exemptions, have been selected only after the most careful investigations covering a&#39; considerable period. These investigations were directed to the selection and framing of exemptions in such a way as to achieve relief from tax without imposing competitive burdens or creating serious commercial and administrative difficulties. For these reasons, the Government is not prepared at this juncture to agree to any additions to the exemptions proposed by this bill. Should any honorable senator desire to bring under notice any claims for additional exemptions, he may rest assured that the claims will be noted and carefully examined. Another reason why the Government is not prepared to agree to any additions to the exemptions proposed in the bill is that it must look at the subject of exemptions and remissions of taxation of all kinds as a whole and weigh carefully the relative benefits which any proposed remissions would confer on the community generally. The Government&#39;s decisions in this respect are set out in the budget speech. The Government is conscious that this list of exemptions could be greatly added to with considerable benefit to the community. However, it is obvious that if the government exempted a certain class of goods merely because by so doing it would bestow a great benefit on certain taxpayers, the list of exemptions from sales tax would become so long that remissions of other taxes would have to be refused. Thus, in making any proposals, I suggest that honorable senators should bear in mind that we have to consider, not merely the benefits or the wisdom of making particular exemptions, but also, as the Government has done in this instance, the general scheme of relief from taxation embodied in the budget. If the list of exemptions proposed in the bill were extended the general balance of the Government&#39;s taxation relief scheme would be upset, with the result that the budget would have to be reviewed. In comparing the relative benefits to the economic life of the community resulting from remissions of sales tax and, remissions from, say, tax on income from property, one has to consider to what extent each would, for instance, relieve unemployment by encouraging the investment of capital in industry. I therefore appeal to honorable senators who, doubtless, will be able to suggest many welcome additions to the list of exemptions, to bear in mind what I have said, and I again give them an assurance that any proposals which they may make will receive the most sympathetic consideration. I trust, however, that the Senate will allow the decision to rest with the Government for the reasons which I have given. I emphasize that every exemption from sales tax has to be considered not alone from the point of view of the benefit which it would confer upon a certain section of the people, hut also in the light of its probable effect on related items, and the possibility of creating anomalies. Some of the exemptions now being added are for the purpose of removing anomalies caused by previous exemptions. It has been shown that some exemptions which appeared to be quite admirable and straightforward caused all sorts of anomalies, which are now being corrected. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1044</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>.  -  The Opposition approaches the consideration of this measure from an angle entirely different from that of the Government. There is a fundamental difference between the taxation policy of the Opposition and that of the Ministry. </para>
+          </talk.start>
+          <para class="block">We on this side stand definitely for the principle of direct taxation as against indirect taxation, &#39;because &#34;we realize that when people pay direct taxes they know exactly what amount of burden is being placed upon their shoulders, whereas under a system of indirect taxation such as the sales tax, traders may put both their hands in the pockets of the people and rob them indiscriminately. It is not possible to estimate the amount of villainy or philantrophy as the case may be, behind taxes imposed in that form: </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1045</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- Order ! The honorable senator must withdraw the word &#34; villainy &#34;. </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1045</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- Very well, shall I say philanthropy or its opposite? The vital difference between the taxation policy of the Labour party and that of the Government is that we believe always in taxing those who are best able to pay taxes and removing the burden entirely, or as far as possible, from the shoulders of those who are least able to bear it. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1045</page.no>
+                <time.stamp />
+                <name.id>JZD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FOLL, Hattil</name>
+                <name role="display">Senator Foll</name>
+              </talker>
+              <para>-  Do not the workers pay all taxation? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1045</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- No. They do not pay the land tax, because that cannot be passed on to them. We are definitely opposed to taxing those sections of our people who are not able to pay taxes and who have a definite right to be relieved of them; but we do believe that the people who get the rake-off in respect of every transaction, political and economic, should shoulder this burden. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1045</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>-  Which Government first imposed the sales tax? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1045</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- If <inline font-weight="bold">Senator Dein</inline> does not know I shall tell him. Prior to his election to this chamber he had been long enough a member of the House of Representatives to know that when the Scullin Government introduced the sales tax Australia was passing through the greatest financial and economic crisis in its history. He should know also that even the opponents of the Scullin Government have admitted over and over again in Parliament, as well as outside, that the courageous attitude of the Scullin Government in introducing its financial emergency legislation saved Australia from complete and overwhelming disaster. </para>
+            </talk.start>
+          </continue>
+          <para>The crucial test of all taxation measures is not the amount levied on the individual, but the amount left in his pockets after the tax collector has finished with him. It is all very well for some honorable senators to plead that certain sections of the community are being heavily taxed, and are therefore entitled to relief. Why should they not be taxed if they are able to bear it? It should also be remembered that when the sales tax was introduced as part of the Scullin Government&#39;s financial emergency legislation, there were then in operation other taxes which were not affected by the emergency proposals, and a definite promise was given by the Government, and by all parties in both branches of the legislature, that immediately the financial position of the Commonwealth improved sufficiently, all financial emergency taxes would be repealed. That promise has not been honoured. The Government has made excessive remissions of those other taxes to which I have alluded, without giving a full measure of relief to those who were so directly  affected by  the emergency taxes. In other words, it has granted concessions amounting to millions of pounds annually to its wealthy supporters. We believe that before those remissions were made, the whole of the special taxes on the poorer sections of the community should have been repealed. Are we to assume, from the Government&#39;s disregard of a solemn undertaking, that political promises are mere scraps of paper, to be treated as &#34;piecrust promises&#34; when the time comes for their redemption? If the promises of the Government and all political parties had been observed there would have been, before now, a complete restoration of all pension payments to the amount of &#163;1 per week, the amount that was being paid prior to the enactment of the financial emergency legislation, our public servants&#39; salaries would have been restored to their former level, and the sales tax would have been repealed. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1045</page.no>
+                <time.stamp />
+                <name.id>KNZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HARDY, Charles</name>
+                <name role="display">Senator Hardy</name>
+              </talker>
+              <para>-  Can the honorable senator suggest something to replace the sales tax? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1045</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I expected that interjection, and I am not unmindful of  the remarks made by the Leader of the Senate concerning the effect on the revenue of still further exemptions from sales tax; but it is not the duty of the Opposition to formulate a financial policy for the Government. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1046</page.no>
+                <time.stamp />
+                <name.id>KNZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HARDY, Charles</name>
+                <name role="display">Senator Hardy</name>
+              </talker>
+              <para>- It is the duty of the Opposition to expound its own policy. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1046</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- My submission, for the moment, is that there should have been no remission of other taxes until the whole of the financial emergency taxes had been repealed. It is not my duty to suggest to the Government what should take the place of the sales tax, but when the people of this country entrust this party - as they will at no distant date - with the reins of government, there will be no doubt about Labour&#39;s policy. I can assure the honorable gentleman that it will .benefit every citizen of the Commonwealth. That does not mean that the Opposition will not support the bill. On the contrary, the Opposition is pleased that the number of exemptions is being increased, and it hopes that that policy will be continued. I assure the Minister that honorable senators on this side will not be backward in accepting his offer to submit requests for further exemptions. </para>
+            </talk.start>
+          </continue>
+          <para>Another reason why the sales tax should be abolished is that, in addition to its being an  harrassing  imposition on business people, it is difficult to administer. It is harassing, not so much because of the amount of tax involved, as because of -the difficulty in ascertaining the amount really payable. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1046</page.no>
+              <time.stamp />
+              <name.id>KNZ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HARDY, Charles</name>
+              <name role="display">Senator HARDY</name>
+            </talker>
+            <para>- Does the honorable senator think that the onus of making returns should not be placed on industry? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1046</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I have said nothing of the kind; but I do say that a tax which requires so much explanation and so many intricate calculations is undesirable, and should be abolished as soon as possible. There is no great difficulty in understanding an income tax assessment. A taxpayer knows what income he has returned, and the rate at which his income is assessed. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1046</page.no>
+              <time.stamp />
+              <name.id>KMK</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GRANT, Charles</name>
+              <name role="display">Senator GRANT</name>
+            </talker>
+            <para>- The honorable senator is one of the few taxpayers who understand their assessments! </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1046</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I do not find much difficulty in preparing my income tax return; but I admit that the task is more difficult for those wealthy honorable senators opposite who have many other sources of income, and whose parliamentary allowances are merely extras. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1046</page.no>
+                <time.stamp />
+                <name.id>K08</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">ARKINS, James</name>
+                <name role="display">Senator Arkins</name>
+              </talker>
+              <para>- Does the honorable senator believe that there should be a sales tax on luxuries? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1046</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I welcome that interjection, even though it may be disorderly. I am a member of the Labour party, which understands the science of politics and government, and has a remedy for every trouble. Therefore every interjection provides an opportunity to show how my party is prepared for any emergency. I do not want individual luxuries to be taxed; but I have no objection to taxing the people who can afford them. Taxes should be placed on the shoulders of those best able to bear them, and removed from those less a&#39;ble to bear them. In my opinion, every person in the community is entitled to share the comforts and luxuries which now are enjoyed by only the wealthy sections. A Labour government would show how the good things of life could shared by all. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1046</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>- Would the honorable senator say that a high salary or a big income is a luxury? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1046</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I do not object to big incomes. In my opinion, incomes generally are disgracefully low in a country in which wealth is so easily produced. In this connexion I wish to say that the allowances of members of Parliament, which were reduced under the financial emergency legislation, should have been restored before taxation which had been in operation before that legislation was passed, was remitted. I consider that my allowance as a member of the Senate is ridiculously low. Whatever may be the views of other members on this subject, I do not suffer from an inferiority complex. I believe that the labourer is worthy of his hire, and that members of Parliament should receive a remuneration commensurate with that paid by private enterprise to persons with the requisite capacity to fill positions of responsibility. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1046</page.no>
+                <time.stamp />
+                <name.id>K08</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">ARKINS, James</name>
+                <name role="display">Senator Arkins</name>
+              </talker>
+              <para>- The honorable senator would do well to count his blessings one by one. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1047</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I am more inclined to fight for the removal of the disabilities from which I suffer than to sit down idly twiddling my thumbs and counting my blessings. I have never had a full issue of those blessings which should be enjoyed by every person in the community. </para>
+            </talk.start>
+          </continue>
+          <para>I have specified the vital and fundamental differences of principle in regard to taxation which are embodied in the policies of the Government and the Opposition. I waste no sympathy on a man with an income of &#163;10,000 a year who is compelled to pay a large amount in taxes, for even after he has paid to the Treasury several thousand pounds a year, he still has a large income - it may be &#163;20, or even &#163;S0 a week- left. I would rather be the champion of the rights of those 380,000 workers in Australia who have no income whatever. They should not be subject to any form of taxation - not even the unemployment tax. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1047</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- If they have no income, they are not liable to pay any tax. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1047</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- That is so, but the taxation authorities are always lurking round the corner, and if a man earns only &#163;1 in a year, they take it from him. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1047</page.no>
+                <time.stamp />
+                <name.id>JQP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COOPER, Walter</name>
+                <name role="display">Senator Cooper</name>
+              </talker>
+              <para>- What are the honorable senator&#39;s views regarding union fees? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1047</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I shall not pursue that subject now, but if <inline font-weight="bold">Senator Cooper</inline> wishes to know my views regarding the membership of trade unions, and the obligation to pay for benefits received, I am prepared to discuss the subject with, him on any platform in Queensland, and to pay all the expenses of the meeting, if he will agree to a vote being taken at its conclusion to decide which of us has put up the better case. If a charge were made for admission, the Commonwealth Government would probably derive a considerable sum by way of entertainments tax. </para>
+            </talk.start>
+          </continue>
+          <para>I have endeavoured to set out the basic principles which should underlie our consideration of the sales tax. For the benefit of honorable senators, I shall summarize them. They are first, that the burden of taxation should be placed where it rightly belongs secondly, that what matters is not so much what is taken from a man in taxes as what is left to him; and thirdly, that all financial emergency taxes, including the sales tax, should be abolished before taxes which were previously in force are remitted. The compact made with the people has not been kept, for the Government has remitted taxation which was in operation for many years before the imposition of the financial emergency legislation. Not one pound of land tax, or any other tax which existed prior to the passing of the emergency legislation, should have been remitted until the compact with the people had been honoured. The Opposition will support the bill, and it hopes that the Government will continue to increase the exemptions and decrease the rate of the tax until it and all other financial emergency legislation has been entirely abolished. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1047</page.no>
+              <time.stamp />
+              <name.id>KNZ</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HARDY, Charles</name>
+              <name role="display">Senator HARDY</name>
+            </talker>
+            <para>. - I listened attentively to the Leader of the Opposition <inline font-weight="bold">(Senator Collings)</inline> in the hope that I would hear from him a clear statement of the policy of the Australian Labour party in regard to taxation. I wanted to know whether it believes in high taxation or in low taxation; hut at the conclusion of the honorable senator&#39;s speech I am still as much in the dark as ever. The only point that the honorable senator made clear was that in his opinion the sales tax should be wiped out. The honorable senator did not suggest any means by which &#38; similar amount of revenue could be raised. Are not taxes a part of the national income, and do not debates on taxation involve a question as to whether national income should be spent collectively or individually? It is a noteworthy fact that those countries which have imposed high rates of taxes during the depression have emerged much more rapidly from the financial morass than those which imposed lower taxes. Taxation in the United States of America, the Dutch East Indies, New Zealand, and Fiji has been comparatively low, and all those countries are dragging along the road to recovery, while Great Britain and Australia, the two countries which have made a more speedy recovery than any others have been highly taxed </para>
+          </talk.start>
+          <para>The Leader of the Opposition <inline font-weight="bold">(Senator Collings)</inline> admitted that the Australian Labour party believed in direct taxation, but was opposed to indirect taxation. Will some honorable senator define &#34; indirect taxation ?&#34; I suggest that any industry maintaining prices bya stabilization scheme is leading directly towards indirect taxation. How can any honorable senator representing Queensland say that he is opposed to indirect taxation, and at the same time support the ratification of the sugar agreement? Australian sugar is sold at a stabilized price. If we debate this subject from an economic standpoint, we have to admit that stabilized prices result in indirect taxation. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1048</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- Nothing of the kind. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1048</page.no>
+                <time.stamp />
+                <name.id>KNZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HARDY, Charles</name>
+                <name role="display">Senator HARDY</name>
+              </talker>
+              <para>- Immediately a home consumption price for butteris fixed the Australian price of that product is increased. That increase in the general price level is equivalent to a sales tax imposed on goods sold over the counter. In both cases the price level will rise. We have to admit that when prices are increased as a result of any such arrangement the increased price is equivalent to an indirect tax. I suppose that <inline font-weight="bold">Senator Johnston,</inline> who is definitely a low-tariffist, and in fact almost a freetrader, would say that the imposition of customs duties is a tax upon the people of Western Australia. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1048</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B Johnston</name>
+              </talker>
+              <para>-  On that point I am in complete agreement with the honorable senator. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1048</page.no>
+                <time.stamp />
+                <name.id>KNZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HARDY, Charles</name>
+                <name role="display">Senator HARDY</name>
+              </talker>
+              <para>- Customs duties are regarded as indirect taxes, but immediately a tariff schedule comes before Parliament the members of the Labour party endeavour to increase duties to the highest possible level. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1048</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>-  Under certain conditions. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1048</page.no>
+                <time.stamp />
+                <name.id>KNZ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HARDY, Charles</name>
+                <name role="display">Senator HARDY</name>
+              </talker>
+              <para>- The members of the Country party believe in the imposition of reasonable customs duties to protect secondary industries and primary producers. Most governments would remit all taxes if they could carry on without them. This Government cannot afford to do that unless there is a surplus, and in every such instance taxes have been remitted in an endeavour to assist distressed sections of the community. </para>
+            </talk.start>
+          </continue>
+          <para>I contradict flatly the statement of the Leader of the Opposition that in remitting taxation the Government has shown discrimination in the interest of the wealthy. If discrimination has been shown, it has been in an endeavour to assist industry over the stile. I read recently a speech delivered by the Treasurer inthe House of Representatives giving an elaborate analysis of remissions of taxes, showing that greater remissions have been made in respect of those less able to pay the taxes than to those who pay the Companies Tax. If this country is able to continue along the road to recovery and revenue increases, further remissions of taxes will be made, but the only thing to do is to wait until that is possible. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1048</page.no>
+              <time.stamp />
+              <name.id>KS7</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>UAP; LP from 1944</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, Allan</name>
+              <name role="display">Senator ALLAN MACDONALD</name>
+            </talker>
+            <para>. -  I am pleased to know that those engaged in rural industries are to receive further benefits by additional remissions of the sales tax. In response to the intimation by the Leader of the Sena te <inline font-weight="bold">(Senator Pearce)</inline> that he would be willing to receive suggestions regarding individual items with a view to their consideration at some future date. I direct his attention to the position of those engaged in the production of egg pulp, not only in Western Australia, but also in other parts of the Commonwealth. I have received the following communication from Western Australia, directing my attention to a recent decision of the Commissioner of Taxation - </para>
+          </talk.start>
+          <quote>
+            <para>During the export season very large quantities of egg pulp are produced and sold in tin containers. For the past years, sales tax has not been paid on these containers, but the Commissioner of Taxation has now ruled that egg pulp in itself is not exempt from sales tax, thus the industry here is placed in an invidious position. </para>
+          </quote>
+          <para class="block">The decision of the Commissioner of Taxation will have a serious effect upon the industry. Such products as egg pulp consumed locally and fruit juices should be exempt from the sales tax. Those who handle egg pulp and egg producers generally will be affected severely by this decision. Sales tax not having previously been charged on containers the decision of the commissioner means that the tax will now be imposed on previous sales, and agents handling this product will be liable for a fairly substantial sum. I  hope that this reasonable request will be complied with. I support the bill. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1049</page.no>
+              <time.stamp />
+              <name.id>K6P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BROWN, Gordon</name>
+              <name role="display">Senator BROWN</name>
+            </talker>
+            <para>. - The Leader of the Opposition <inline font-weight="bold">(Senator Collings)</inline> has outlined very clearly the attitude of the Labour party in respect of taxation generally. During the debate <inline font-weight="bold">Senator Foll</inline> asked if the workers paid taxes. As a member of a socialist organization in my early days, I was associated with <inline font-weight="bold">Mr. Hyndman</inline> and <inline font-weight="bold">Mr. Quelch,</inline> and participated in intense arguments on the subject of who actually pays the taxes imposed. At our gatherings we argued on such subjects as the iron law of wages, and agreed that who ever paid the taxes imposed, the workers received only sufficient to provide them with a poor living. The workers do not receive sufficient to maintain a decent standard of living, and we have to determine the extent to which their wages are affected by taxation. It is an old saying that prices go up by the lift and wages by the stairs. Prices can be affected by taxation and rise very rapidly, but it is always a long time before there is a corresponding increase of wages to enable the workers to pay the higher prices. The members of the Labour party are always anxious to maintain a high standard of living for the workers, and to ensure that taxation shall be paid by those best able to bear it. The Government and those supporting it are always anxious to remove the burden of taxation from the wealthy section and to place it upon the workers. As the invalid and old-age pensioners were taxed to the extent of 25 per cent. of their income, I should like to ask <inline font-weight="bold">Senator Grant,</inline> who has had considerable experience as a payer of income tax, if he has ever had to pay an emergency tax of 25 per cent. of his income. The invalid and old-age pensioners had a 25 per cent. tax placed on their pension of&#163;1 a week, which was reduced to 15s. a week. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1049</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>- It was never reduced to 15s. a week. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1049</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- Then my memory must be defective. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1049</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator Duncan-Hughes</name>
+              </talker>
+              <para>- It was proposed, but it was never done. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1049</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>- The pension was reduced to 17s. 6d. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1049</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- I am open to correction, but my firm belief is that the pension was cut to 15s. a week in certain circumstances, and then increased to 17s. 6d., and now to 18s. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1049</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- For a pensioner who had no property the pension was fixed at 15s. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1049</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- That is so, and the Labour party&#39;s agitation forced the Government to introduce amending legislation to increase the pension to 17s. 6d. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1049</page.no>
+                <time.stamp />
+                <name.id>JY7</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DUNCAN-HUGHES, John</name>
+                <name role="display">Senator Duncan-Hughes</name>
+              </talker>
+              <para>- The amount of the pension depends on the amount of property owned by the pensioner. Some pensioners get no more than 5s. a week; the standard rate was never so low as 15s. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1049</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- Prior to the enactment of the Premiers plan the pensioners received &#163;1 a week; but subsequently, full rate of pension for a person without property or other income was made 15s. a week. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1049</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>- By the Scullin Government. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1049</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- I am constantly reminded by interjection that the Scullin Government did this, that and the other; but the Scullin Government had the assistance of honorable senators opposite when it took certain action to save the Commonwealth&#39;s solvency in a period of national emergency. When the supporters of the present Government aided the Scullin Government in these emergency measures, they pledged themselves to return to the pensioners the full amount of their pension so soon as the finances of the country enabled the restoration to be made. Instead of carrying out their pledges, Government supporters are standing four-square behind the Government in its remissions of millions of pounds of taxes to the wealthy sections of the community. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1049</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>- If the honorable senator&#39;s contentions are sound, the Lyons Government has restored to the pensioners 3s. a week. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1049</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- I am saying that the pension has been increased to 18s. a week; but also that the invalid and oldage pensioners are&#39; still being unjustifiably taxed 2s. a week. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1049</page.no>
+                <time.stamp />
+                <name.id>10000</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PRESIDENT, The</name>
+                <name role="display">The PRESIDENT</name>
+              </talker>
+              <para>- Order ! I direct the honorable senator&#39;s attention to the fact that thebill under discussion is to amend the sales tax acts. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1050</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- I contend that, before granting remissions of sales tax, the Government should do justice to the invalid and old-age pensioners. In the two years 1932-33 and 1933-34, the Lyons Government remitted to payers of land tax an amount of &#163;2,000,000 and to the payers of the tax on income from property an amount of &#163;1,880,000. The following table shows the annual recurring remissions of taxes to the favoured sections of the community: - </para>
+            </talk.start>
+          </continue>
+          <para class="block">
+            <graphic href="147332193510246_11_0.jpg" />
+          </para>
+          <para class="block">The Government has made those remissions in the face of its promise that invalid and old-age pensions would take precedence in any scheme of restoration. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1050</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>- Do none of those taxes represent emergency taxes? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1050</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- Some of them are emergency taxes, but many are not. My contention is that the Government has reduced the emergency taxes imposed on wealthy interests, but has neglected to carry out its duty to the aged poor. The Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> has described the sales tax as a vexatious measure full of complexities and anomalies. I agree with him entirely. The business community objects to the sales tax on those grounds. Taxation, instead of being vexatious and complex, should be made as simple as possible. That is why I support the contention of the Leader of the Opposition in the Senate <inline font-weight="bold">(Senator Collings)</inline> that taxes should be imposed directly instead of indirectly. <inline font-weight="bold">Senator Hardy</inline> declared that because the Labour party supports direct taxation it should not support a high tariff. That is a most puerile argument, typical of the arguments of the honorable senators supporting the Government. The Labour party believes in the tariff because it believes in the development of the internal industries of Australia. It believes also in the taxation of those persons best able to bear it. Without wishing to be in any way personal, <inline font-weight="bold">Senator Johnston</inline> is an example of the class better able to bear taxation than the invalid or old-age pensioner, who is at present suffering a tax of 2s. a week. As a Christian, <inline font-weight="bold">Senator Johnston</inline> should admit that he should be taxed rather than the poor pensioner. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1050</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B Johnston</name>
+              </talker>
+              <para>- I certainly do. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1050</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- I have made a convert. If the supporters of the Government believed that, they would have taken steps to remove the tax from the pensioners. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1050</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B Johnston</name>
+              </talker>
+              <para>- I voted with the honorable senator on that. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1050</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- If we can obtain a few more converts we shall do fairly well. <inline font-weight="bold">Senator Hardy,</inline> in a laboured argument regarding direct taxation, referred to the sugar industry and the tax placed on the Australian public by the internal stabilization of that industry. If all industries were similarly stabilized, there would be an improvement in the economic position. I do not understand how a Country party leader can contend that the stabilization of the sugar industry amounts to direct taxation of the people. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1050</page.no>
+                <time.stamp />
+                <name.id>JNM</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BADMAN, Albert</name>
+                <name role="display">Senator Badman</name>
+              </talker>
+              <para>- Is not that contention correct ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1050</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- If the honorable senator argues that stabilization of industry means taxation of the people, he is reducing the English language to an absurdity. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1050</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator Dein</name>
+              </talker>
+              <para>- At any rate the worker is compelled to pay increased prices. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1050</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- The Labour party believes that by increasing wages and by giving an impetus to the production of commodities by the creation of a greater demand, the workers will be assisted to a higher standard of living. The existing economic system possesses certain elasticity ; if the demand for consumable goods is increased, an impetus is given to the economic machine to produce more goods, and that can be done with little or no increase of overhead costs. The Labour movement has a definite objective and that is the stabilization of all industries in order to give to the producers the full reward of their toil. I am pleased that the Government is gradually eliminating the sales tax because business men have said that they would rather pay the same amount of taxation in a different way. The head of a prominent business firm in Brisbane told me that he would be prepared to pay &#163;1,000 more on a turnover tax than he is paying to-day as sales tax under present conditions. There must be something radically wrong with a tax of this nature when business men adopt such an attitude. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1051</page.no>
+                <time.stamp />
+                <name.id>K9I</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">UPPILL, Oliver</name>
+                <name role="display">Senator Uppill</name>
+              </talker>
+              <para>- They object to the method of application, more than to the sales tax itself. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1051</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- They object to being continually harassed by the department and also to the anomalies and stupidities of the tax. It would be a good thing for the business community of Australia if sales tax were eliminated altogether. After all the community pays the tax now in a particular way, and there should be no objection to levying the tax in a different way. The same people will have to pay it either way. I am aware that such a suggestion in respect of income tax would not be approved by those who are always anxious to place the burden of income tax on the shoulders of the workers. We commend the Government on this measure, in so far as it adds to the list of exemptions from sales tax goods which are needed by the farmers. If such exemptions should result in a reduction of costs, particularly to the primary producers, who have suffered so severely during the last few years, they will be more than warranted. I notice that rugs for sheep and pigs are to be exempted. I ask the Leader of the Go vernment in the Senate whether it is intended to exempt from sales tax rugs which are used by human beings? </para>
+            </talk.start>
+          </continue>
+          <para>Two years ago in Brisbane a deputation of master tailors waited upon <inline font-weight="bold">Senator Collings,</inline> the member for Brisbane <inline font-weight="bold">(Mr. George Lawson)</inline> and myself, and pointed out that it was not fair that they should have to pay sales tax on handmade suits. I do not know whether the Government intends to exempt tailormade suits, but this deputation strongly urged that such an exemption be made. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1051</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>- I think they objected to the method by which the tax was assessed rather than to the tax itself, and I understand that that difficulty was overcome in the last list of exemptions. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1051</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- I believe tailormade suits, as manufactured articles, are subject to sales tax. These gentlemen contended it was not fair to levy the tax on the finished article, the price of which included wages and other overhead charges, and that it would be far preferable and more just to tax the material only. I hope the Leader of the Government in the Senate will make inquiries into this matter. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1051</page.no>
+                <time.stamp />
+                <name.id>K08</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">ARKINS, James</name>
+                <name role="display">Senator Arkins</name>
+              </talker>
+              <para>- The tax on every manufactured commodity embodies a tax on wages as well as other overhead expenses. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1051</page.no>
+                <time.stamp />
+                <name.id>K6P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BROWN, Gordon</name>
+                <name role="display">Senator BROWN</name>
+              </talker>
+              <para>- This tax originally applied to wholesale goods. The tax on the value of the cloth would not be so high as that on the retail value of the suit. The master tailors to whom I have referred pointed out that at present sales tax is levied on the cost of a tailormade suit, say &#163;8, instead of, as it should be, on the value of the cloth, which would be about &#163;3. They also said that such a procedure made it more difficult for those tailors who employed hands to compete with those who sold shoddy machine-made suits. I ask the Leader of the Senate to investigate this claim. I understand that when replying to arguments on this matter in the House of Representatives, the Treasurer <inline font-weight="bold">(Mr. Casey)</inline> said that the Government had received numerous telegrams from the master tailors of Sydney - manufacturers of machine-made suits - protesting against any reduction of the sales tax on tailor-made suits. I do not know whether honorable senators are of the opinion that the Government should be subjected to pressure of this kind. While my colleagues and I commend this bill in so far as it represents another step in the removal of a tax which was originally imposed as an emergency measure, we claim that the Government is not honouring its promises to supporters of the Premiers plan that certain emergency sacrifices imposed on the poorer sections of the community would be the first to be lifted when the financial position warranted any remission. I refer particularly to the invalid and oldage pensioners. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1052</page.no>
+              <time.stamp />
+              <name.id>KMK</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GRANT, Charles</name>
+              <name role="display">Senator GRANT</name>
+            </talker>
+            <para>. - The Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> has asked honorable* senators to indicate items which the Government might include in any future list of exemptions. I have received the following telegram from the Lord Mayor of Hobart (Or. Wignall)  and the Mayor of Launceston (Or. Von Bibra) : - </para>
+          </talk.start>
+          <quote>
+            <para>Civic conference Hobart Launceston yesterday carried following resolution: - &#34;That as city and municipal councils are agents of the Government in respect of matters connected with local government delegated to them by Parliament and the State Government is exempt from the payment of sales tax the Federal Government be requested to extend a similar exemption to such councils. Strongly urge favorable consideration.&#34; </para>
+          </quote>
+          <para>I ask the Government to consider this request when providing for further exemptions from sales tax in the future. The position of city and municipal councils in this matter is clearly indicated in the telegram which I have just read, and I heartily support their request. In Tasmania and, no doubt, in all States, these councils are doing a good deal of work on behalf of this Government. Goods, such as plant, &#38;c, which would be exempt from sales tax if the Government itself carried out the work should also be exempt when the work iscarried out on behalf of the Government by city and municipal councils.. </para>
+          <para>I am particularly pleased to see that this measure exempts from sales tax containers of exempt goods. I brought up this matter in the Senate some time ago in connexion with goods used by farmers; for instance, containers of sprays, after the spray itself has been used, are of no further use. </para>
+          <para>Anomalies exist with respect to the exemption of biscuits. . I notice that another kind of biscuit - shortbread biscuits and shortbread products - are made exempt under this measure. I fail to see any special reason for the exemption of this particular kind of biscuit in preference to many other varieties which still bear tax. Many classes of biscuits already exempt are mainly used by children, but I am not aware that shortbreads are so used. </para>
+          <para>Another item which will be exempt under this measure is, &#34;Anhydrous ammonia and calcium chloride for use in refrigerating plants in cool stores . for fruit &#34;. I ask why only such material as is used solely in cool stores for fruit is exempt? Why should not similar material used in refrigerating plants for meat and other products also be exempt ? I suggest that an anomaly exists here. </para>
+          <para class="italic">
+            <inline font-style="italic">Sitting suspended from 12.45 to 2.30 p.m.</inline>
+          </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1052</page.no>
+                <time.stamp />
+                <name.id>KMK</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">GRANT, Charles</name>
+                <name role="display">Senator GRANT</name>
+              </talker>
+              <para>- I hope that when the Leader of the Senate is replying he will furnish some information with regard to the exemption of anhydrous ammonia and calcium chloride, because these chemicals are used in many cool stores in Tasmania for the storage of not only fruit but also other commodities, including hops and meat. We all admit that the Government requires the revenue provided by the sales tax, but I hope that something can be done to lessen the amount of work required of wholesale merchants in the furnishing of returns. In some cases a highly-paid clerk is engaged exclusively in the preparation of returns for sales tax purposes, because it is necessary to have separate invoices for goods that are exempt and those that are not. Very often also there is a difference of opinion even among officials of the department about the liability of certain goods for tax. I have made representations to the department in respect of one or two items, and have been informed that the best way to get a decision is for the objecting taxpayer to refuse to pay the tax. The department will then take action in the courts. One objection to that course is that no person likes to be haled before  the courts as if he were a transgressor, and if the decision went against the department, the probability is that there would be an appeal to the High Court, thus making it almost impossible for the average trader to defend his action. Something should be done without delay to make clear the position in respect of a number of items, and if the department could lessen the amount of work in connexion with the preparation of returns, traders would very much appreciate its action. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1053</page.no>
+              <time.stamp />
+              <name.id>JUD</name.id>
+              <electorate>New South Wales</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DEIN, Adam</name>
+              <name role="display">Senator DEIN</name>
+            </talker>
+            <para>. - With other honorable senators I regret that the financial position of the Commonwealth does not permit of an extension of the list of exempt goods. As the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> stated, the intention of the bill is to remove many of the existing anomalies due to the earlier exemption of certain goods to simplify the administration and, as far as may he possible, eliminate some of the clerical work required of those who are liable to pay sales tax. My principal purpose, in rising, is to correct certain statements made by <inline font-weight="bold">Senator Brown</inline> when dealing with pensions. The honorable senator said that all pensioners had been subject to a reduction of 25 per cent, under the financial emergency legislation. While the honorable senator was speaking, I interjected that his figures were wrong, and I now produce information supplied by the statistical department in support of my view. Prior to the introduction of the financial emergency legislation in 1931, the maximum pension paid was &#163;1 a week, and 87 per cent, of pensioners received that amount. Following the passage of that legislation, all pensions - full pensions and part pensions - were reduced by 2s. 6d. a week, thus making the maximum pension payable 17s. 6d. a week, or 35s. a fortnight, and 88 per cent, of the pensioners drew that amount. As the result of amendments to the Pensions Act, made by the Lyons Government in 1932, the maximum pension remained at 35s. a fortnight, but certain deductions were made in the case of pensioners in receipt of other income. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1053</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>-  That is the point which <inline font-weight="bold">Senator Brown</inline> was making. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1053</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator DEIN</name>
+              </talker>
+              <para>- That is just the point which <inline font-weight="bold">Senator Brown</inline> would not admit. As I have stated, the maximum pension remained at 35s. a fortnight and 67 per cent, of pensioners drew that amount. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1053</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>-  Every pensioner bad to prove that he or she was entitled to it. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1053</page.no>
+                <time.stamp />
+                <name.id>JUD</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DEIN, Adam</name>
+                <name role="display">Senator DEIN</name>
+              </talker>
+              <para>- <inline font-weight="bold">Senator Brown</inline> stated definitely that every pension was reduced by 5s. a week. I deny the accuracy of that statement. In June, 1931, the average pension paid was 38s. 4d. a fortnight. Later in the same year, after the financial emergency legislation had been passed, the average pension was 33s. 3d. a fortnight, an average reduction of 5s. Id. a fortnight for each pensioner. Subsequently, following amendments to the law, made by the Lyons Government, the average pension was 31s. lOd. a fortnight, a reduction of ls. 5d. a fortnight or S&#163;d. a week, although <inline font-weight="bold">Senator Brown</inline> contended that the reduction was 5s. a week. In 1934, the average pension was 33s. 8d. a fortnight, and in 1935, 33s. 7d. Strange to relate, in June, 1934, there was a higher percentage of pensioners in receipt of the maximum pension than at any other time since the inauguration of the pensions system. I do not think that <inline font-weight="bold">Senator Brown</inline> would wilfully misrepresent the position, but I deplore his lack of knowledge, and I regret that the reduction of pensions, due to financial emergency, has been made the football of party politics. Certain members representing New South Wales have misrepresented the position, but I did not think that similarly misleading statements would be made by the representative of another State. The figures which I have quoted are taken from the statistical records and therefore are unchallengable. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1053</page.no>
+              <time.stamp />
+              <name.id>KP8</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">JOHNSTON, Edward</name>
+              <name role="display">Senator E B JOHNSTON</name>
+            </talker>
+            <para>. - I am pleased that the Government is extending the list of exemptions from sales tax. The bill represents a remission of sales tax, for the remainder of this year, of &#163;150,000 and for a full year, &#163;2*00,000. It would be still more gratifying if further relief had been given, especially in view of the enormous revenue which successive governments have received from the financial emergency legislation passed a few years ago. The sales tax was introduced during the depth of the depression when  the Government of the day was faced with a prospective deficit of &#163;10,000,000. As the total revenue from this source last year was &#163;8,500,000 the relief now proposed is comparatively infinitesimal. I regard sales taxation as little short of legalized robbery. </para>
+          </talk.start>
+          <para>The <inline font-weight="bold">PRESIDENT (Senator the Hon. P. J. lynch).</inline> - Order! The honorable senator must not reflect upon legislation passed by the Parliament, unless the purpose i3 to urge its repeal. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1054</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B JOHNSTON</name>
+              </talker>
+              <para>- I will say that the sales tax is a most harassing impost on the community. Since its introduction in 1931, it has returned to the Commonwealth Government a total revenue of &#163;43,893,000,. made up as follows:- 1931-32, &#163;8,425,000 ; 1932-33, &#163;9,369,000; 1933-34, &#163;S,695,000; 1934-35, &#163;8,554,000. The estimate for this year is &#163;8,850,000. It was passed by the Senate on the distinct understanding that it was to be an emergency measure and would be repealed as soon as possible. Up to the end of this year nearly &#163;44,000,000 has been taken from industry by this tax. The best way to ensure work for our unemployed and to rehabilitate industry is to reduce all direct or indirect taxes which oppress the citizens of the Commonwealth. I refer particularly to the tariff, the sales tax, income tax, and the super income tax which are the most objectionable forms of taxation. I support the bill. My only regret is that it does not provide further exemptions. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1054</page.no>
+                <time.stamp />
+                <name.id>K08</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">ARKINS, James</name>
+                <name role="display">Senator Arkins</name>
+              </talker>
+              <para>- What taxation is not objectionable ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1054</page.no>
+                <time.stamp />
+                <name.id>KP8</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">JOHNSTON, Edward</name>
+                <name role="display">Senator E B JOHNSTON</name>
+              </talker>
+              <para>- This indirect tax is objectionable because it has to be paid by people who may have no income. It is levied on those who are least able to bear it. I note with pleasure that goods used in public hospitals and benevolent institutions have at last been exempted. I commend the Government for acceding to the requests of honorable senators in this connexion, and also for granting a further small amount of relief to the agricultural and pastoral industries. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1054</page.no>
+              <time.stamp />
+              <name.id>K3L</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SAMPSON, Burford</name>
+              <name role="display">Senator SAMPSON</name>
+            </talker>
+            <para>. - I rise now only because I may not have an opportunity in committee to express my gratification at some of the exemp tions from sales tax which are embodied in this measure. I am particularly pleased that fruit-picking bags and sole leather used for repairing boots and shoes are no longer to be subject to sales tax. As a member of the Empire Parliamentary Association 1 visited Canada in 1928, and although in various cities and towns of that dominion I met many members of the boards of trade, which are the Canadian equivalents of the Australian chambers of commerce, at no place did I hear any one say a good word for the sales tax which had been in operation in the dominion for many years, having been introduced as a wartime emergency measure. I can understand taxation officials approving of this tax because to. them it is &#34; easy money &#34;. <inline font-weight="bold">Mr. Jones,</inline> theCanadian representative who came toAustralia on loan to a previous government to advise it in relation to the sales tax, said that the tax was popular in Canada because it was so simple. Thesales tax may be simplicity itself to thetaxation officials, but to the average business man it is a veritable nightmare. It is a most complicated tax, and&#39; is a constant source of worry and expense. The very fact that the Commissioner has had to publish some hundreds of rulings is evidence of its complicated nature. Like other honorablesenators I look forward to the day when this tax will no longer exist in Australia. That there has been no great agitation by chambers of commerce and big business concerns for the repeal of this legislation is easy to understand. The tax in many cases means additional profits tothem, although it imposes a heavy burden on men in business in a small way whocannot pass it on. For instance, throughout Australia there are thousands of men who earn their livelihood by repairingboots and shoes. They are unable tobuy leather in large quantities, and asthe merchants will not be bothered with fractions of a penny these smaller men have to pay higher prices than are justified by the tax. The merchants rendertheir returns to the department on their sales over a period, thereby making handsome profits out of their small customers.. Although the sales tax was- imposed asan emergency measure and was to beabolished at the earliest possible moment,. </para>
+          </talk.start>
+          <para class="block">I see little or no chance of its repeal in the near future. One Minister told me recently that the sales tax was &#34; a real money spinner &#34;. The tax may he satisfactory as a means of raising revenue for the Commonwealth, hut&#39; the man who carries the hurden thinks otherwise. It is particularly irksome in that the man who pays the tax has to prepare the returns and furnish the particulars required by the department. I hope that I shall live to see this legislation removed from the statute-book ;. but, in view of the present condition of the finances&#39; of the Commonwealth, I am afraid that it will remain with us for a long time. I welcome the measure of relief which has been granted. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1055</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>. - On this occasion I find myself somewhat in agreement with the Leader of the Opposition <inline font-weight="bold">(Senator Collings),</inline> for I, too, look forward to the time when the sales tax will no longer be in operation. But I realize that in the present state of the Commonwealth finances the tax cannot be removed, because the Government needs the money it provides in order to meet the expenses of the year. It would be impossible at this stage to abandon the tax altogether. </para>
+          </talk.start>
+          <para>I support the request of <inline font-weight="bold">Senator Grant</inline> for the exemption from sales tax of materials required by municipalities and shire councils for road-making and roadrepairing purposes. In the far west and north of Queensland, where there are no railways, road transport is of vital importance to the settlers. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1055</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>-  Road metal is exempt from sales tax. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1055</page.no>
+                <time.stamp />
+                <name.id>JQP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COOPER, Walter</name>
+                <name role="display">Senator COOPER</name>
+              </talker>
+              <para>- I am concerned chiefly with the tax on road-graders and tractors. I have in mind the recent purchase by the Winton Shire Council of a grader and a tractor to be used solely in the making and maintenance of roads which are feeders to railways. The sales tax on that machinery places a burden on the ratepayers of the shire. In my opinion there should be no sales tax on any of the materials or plant required to make and maintain roads which are not in competition with railways. </para>
+            </talk.start>
+          </continue>
+          <para>Recently the Rockhampton Harbour Board purchased a tug. As Rockhampton is not a government harbour, the hoard is liable to pay a considerable sum as sales tax on the cost of the tug. The revenue of the &#39;board is derived chiefly from the export of wool, and any additional cost due to the sales tax is passed on to the primary producers and increases their already high production costs. I should like to see some assistance given to the Rockhampton Harbour Board and other similar bodies by exempting from sales tax the machinery they require. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1055</page.no>
+              <time.stamp />
+              <name.id>K9I</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">UPPILL, Oliver</name>
+              <name role="display">Senator UPPILL</name>
+            </talker>
+            <para>. -  I rise to support the bill and to express gratification at the exemptions from sales tax for which it provides. Like many other honorable senators, I look forward to the time when the Commonwealth will vacate this field of taxation altogether; but I realize that it is impossible to do so at this juncture, when so many claims for relief are made upon the Commonwealth Government by different sections of the community. This form of taxation is particularly unpopular with business people because it is so intricate that much time is wasted in preparing returns and satisfying the officers of the department who are sent to make investigations. I do not know if this tax is supposed to he paid by any particular section of the community, or if it is expected that it shall be borne by all; but we all realize that it is eventually paid by the consumers. It has been suggested to me that some alteration should be made, and that, perhaps, a similar amount could be collected in the form of customs duties. I realize &#34;the difficulties associated with such a change, but I trust that the Government will consider the suggestion, and see if the revenue cannot be raised in some other way. Numerous instances of injustice have been brought under my notice, including those mentioned by <inline font-weight="bold">Senator Brown</inline> in connexion with the tailoring trade, and I am inclined to agree with the honorable senator that this aggravating tax affects that section of traders most unfairly. It is not only the aggravating and pin-pricking nature of the tax that is objected to, but also the trouble and expense incurred in the compiling of the necessary returns to comply with the law. </para>
+          </talk.start>
+          <para>
+            <inline font-weight="bold">Senator Sir</inline>GEORGE PEARCE  (Western Australia - Minister for External </para>
+          <para>Affairs) &#91;3.2&#93;.  - <inline font-style="italic">in reply</inline> - I assure honorable senators that the representations made during the debate have been carefully noted by the departmental officers present, and that they will be considered when it is practicable to make further remissions. Honorable senators have mentioned the cost and worry incurred by individual traders. I can only say that the grouping of items in the new lists will save some time on the part of those conducting searches. I admit that such a concession is not great, but it may afford some small measure of relief to worried taxpayers. </para>
+          <para>The representations for the exemption of all goods purchased by municipal councils, local government authorities, and quasi-governmental bodies have been carefully considered by the Government. In 1933, and again in 1934, careful consideration was given to these claims, and lists of bodies necessarily affected were compiled for the information of the Government. These lists included the following bodies : - </para>
+          <list type="loweralpha">
+            <item label="(a)">
+              <para>Municipal and shire councils, numbering over 1,000. </para>
+            </item>
+            <item label="(b)">
+              <para>Melbourne and Metropolitan Board of Works and water works bodies in Victoria to the number of 105. </para>
+            </item>
+            <item label="(c)">
+              <para>Sydney Water, Sewerage and Drainage Board and similar boards in New South Wales and other States. </para>
+            </item>
+            <item label="(d)">
+              <para>Harbour and tramway boards and trusts. </para>
+            </item>
+          </list>
+          <para class="block">On both occasions, the Government decided that it could not afford to sacrifice the very large amount of revenue involved. The list of exemptions in the bill represents the limit to which the Government can go in respect of sales tax remissions. The estimated amount of tax that would be involved in exempting goods used by local governments and quasigovernmental bodies is &#163;100,000 per annum, and the Government is not in  a  position to lose such a large amount of revenue. This matter will,, however, be further considered by the Government. </para>
+          <para>
+            <inline font-weight="bold">Senator Grant</inline>referred to shortbread biscuits and shortbread products. As I stated in moving the second reading of the bill, a great majority of the exemptions provided in the bill are designed to remove anomalies and difficulties associated with existing exemptions. </para>
+          <para class="block">The exemption of shortbread biscuits is designed to remove a commercial anomaly and an administrative difficulty. Under the existing exemption of &#34;Pastry and Cakes&#34;, shortbread products, which are cakes and are not, in fact, biscuits, are exempt from sales tax, and pastrycooks generally are not required to register for sales tax purposes. Biscuit manufacturers have complained that whilst their shortbread products are subject to tax, the shortbread products of pastrycooks are exempt, and have asked that the anomaly be rectified. There is no doubt that the shortbread products of biscuit manufacturers are biscuits, but the Taxation Department has extreme difficulty in determining, even after investigation, whether some at least of the shortbread products of the pastrycooks are cakes or biscuits. In order to remove this administrative difficulty, and to rectify the competitive anomaly, the Government had to choose between two courses - </para>
+          <list type="loweralpha">
+            <item label="(i)">
+              <para>to require pastrycooks to register and pay tax on their shortbread products, which would, probably, be the only goods on which they would pay tax, or </para>
+              <list type="lowerroman">
+                <item label="(ii)">
+                  <para>to exempt all shortbread products. </para>
+                </item>
+              </list>
+            </item>
+          </list>
+          <para class="block">The Government chose the latter, and what is considered the wiser course, which, in addition to removing the anomalies previously referred to, will grant a certain amount of relief in respect of the tax on biscuits. The following biscuits which are used generally for infants and invalids are exempt: - </para>
+          <para>Milk Arrowroot Biscuits. </para>
+          <para>Baby Rice Biscuits. </para>
+          <para>Baby Rusks. </para>
+          <para>Allenbury&#39;s Diabetic Rusks. </para>
+          <para>Allenbury&#39;s Malted Rusks for infants. </para>
+          <para>Caillard&#39;s Casoid Biscuits. </para>
+          <para>Gluten Biscuits. </para>
+          <para>Maltovine Milk Food Biscuits. </para>
+          <para>Ovaltine Rusks. </para>
+          <para class="block">The Government is considering the remission of the tax on all biscuits, but at present that is impracticable. The Government will give close attention to the representations made in this chamber, and in the House of Representatives, and also by various public bodies. It is hoped that in the next budget the Government may be able to make provision for some further relief. This is a most unpopular tax, and no one would be more pleased than the members of the Government if it could be repealed. </para>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time. </para>
+          <para class="italic">
+            <inline font-style="italic">In committee:</inline>
+          </para>
+          <para>Clauses 1 to 3 agreed to. </para>
+          <para>Clause 4 (Exemptions - sales tax amendment). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1057</page.no>
+              <time.stamp />
+              <name.id>KS7</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>UAP; LP from 1944</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, Allan</name>
+              <name role="display">Senator ALLAN MACDONALD</name>
+            </talker>
+            <para>. - Can special consideration be given to the Broome pearl fishers in re-equipping their vessels which were so severely damaged last March? Will they have to pay sales tax on the equipment they require? </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1057</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir George Pearce</name>
+              </talker>
+              <para>-  All equipment required by those engaged in the pearl-fishing industry is already exempt. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1057</page.no>
+              <time.stamp />
+              <name.id>KS7</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>UAP; LP from 1944</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, Allan</name>
+              <name role="display">Senator ALLAN MACDONALD</name>
+            </talker>
+            <para>. - As certain registered wholesalers have to pay a higher rate of sales tax than unregistered retailers importing similar goods, principally from the United Kingdom, the registered traders are able to sell goods at a lower price than registered wholesalers. Can that position be dealt with in this bill? </para>
+          </talk.start>
+          <para>
+            <inline font-weight="bold">Senator Sir George</inline>Pearce. No. </para>
+          <para>Clause  agreed  to. </para>
+          <para>Clauses 5 to 9 agreed to. </para>
+          <para>Title  agreed to. </para>
+          <para>Bill reported without amendment; report adopted. </para>
+          <para>Bill read a third time. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PRIMARY PRODUCERS RELIEF BILL 1935</title>
+        <page.no>1057</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill received from the House  of Representatives.,  and (on motion by <inline font-weight="bold">Senator Brennan)</inline> read a first time. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>STATES&#39; GRANTS BILL 1935</title>
+        <page.no>1057</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>1057</page.no>
+        </subdebateinfo>
+        <para>Debate resumed from the 22nd October <inline font-style="italic">(vide</inline> page 897), on motion by <inline font-weight="bold">Senator Sir George</inline> Pearce - </para>
+        <quote>
+          <para>That the bill be now read a second time. </para>
+        </quote>
+        <para>
+          <inline font-weight="bold">Senator COLLINGS</inline>(Queensland) ?3.16&#93;. - We shall offer no opposition to the passage of this measure. We  understand  from the remarks made by the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> that the grants proposed have already been agreed upon as between the  repre  sentatives of the Commonwealth and the States, and that all that is required to pay the money out of the Consolidated Revenue is the authority of the Commonwealth Parliament. We, accordingly, support the bill. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1057</page.no>
+              <time.stamp />
+              <name.id>K3L</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SAMPSON, Burford</name>
+              <name role="display">Senator SAMPSON</name>
+            </talker>
+            <para>. - Last year the Commonwealth Government voted to the States, as a special aid to their budgets, ?2,000,000 from its accumulated surpluses. That money was apportioned to the States on a population basis, and Tasmania, I think, received about ?70,000. This year the Commonwealth Government apparently is not in the same happy financial position as it was in last year, and is able to spare only ?500,000 for a special grant to the States. The bill sets out the amounts which each State will receive, and I notice that Tasmania is not to participate. I should like the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> to explain why Tasmania is not to share in the distribution. I understand that the Commonwealth Treasurer <inline font-weight="bold">(Mr. Casey)</inline> this year imposed as a condition of the grant that each State government should undertake to reduce its deficit by an amount equivalent to its share of the Commonwealth contribution, plus a like amount to be found from State resources. All the State Treasurers, with the exception of the Treasurer of Tasmania, <inline font-weight="bold">Mr. Dwyer</inline> Gray, accepted that condition. He apparently rejected it with disdain; he would not undertake to obtain from State sources ?17,000 - the equivalent of the Commonwealth grant - for the reduction of the deficit. That attitude causes concern to those who represent Tasmania in this chamber. We have to plead the case of Tasmania in the Senate, and, if it is correct that the Tasmanian Treasurer absolutely declined to accept that money, with the condition that the deficit should be reduced, our presentation of the case for Tasmania will be prejudiced. Tasmania, and nearly all States, to-day are living on money which they received from the Loan Council in exchange for I.O.U.&#39;s. It seems to&#39; me that the policy of the present Government in Tasmania is simplicity itself. It gets from the Commonwealth all the money it can, and spends it, and makes itself a good fellow in the State. It takes no heed of the inevitable day of reckoning or the I.O.U.&#39;s, which, like chickens, will come home to roost. I can see very plainly that that policy, if allowed to continue, will eventually result in Tasmania having to throw itself absolutely on the mercy of the Commonwealth. On their return from the Loan Council meeting, the representatives of the State boasted that the deficit permitted for this year was double the amount for which they had hoped. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1058</page.no>
+              <time.stamp />
+              <name.id>KMK</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GRANT, Charles</name>
+              <name role="display">Senator GRANT</name>
+            </talker>
+            <para>.- I also was perturbed when I noticed that Tasmania was excluded from the benefits conferred by this bill. I thought it my duty to telegraph to the Treasurer of that State to inquire the reason which actuated the &#39;Tasmanian Government  in  declining to accept the conditions imposed by the Commonwealth Government. Yesterday I received a reply from the Treasurer of Tasmania in these words - </para>
+          </talk.start>
+          <quote>
+            <para>The Commonwealth &#163;17,000  proferred  to Tasmania was refused because there was a condition attached that, in addition to utilizing that amount in reduction of the deficit, I would have to reduce the deficit by a second amount of &#163;17,000 as a further condition of getting it. I could not conscientiously do this, as it would have involved a resumption of processes of not meeting the proper obligations of the State and the renewed application of a policy for abandoning which I have been publicly thanked in Hobart by the  Commonwealth  Grants Commission. </para>
+            <list type="upperalpha-dotted">
+              <item label="E.">
+                <para>Dwyer-Gray,  Treasurer. </para>
+              </item>
+            </list>
+          </quote>
+          <para class="block">I offer no comment on that telegram; but I should like to hear what the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> has to say in regard to those remarks of the Treasurer of Tasmania. We are naturally concerned. We feel that Tasmania is entitled to receive a proportion of the benefit conferred by this bill, and we are in the dark as to why it was refused. The telegram from <inline font-weight="bold">Mr. DwyerGray</inline> does not explain the matter satistorily </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1058</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>UAP</party>
+              <role>Minister for External Affairs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;3.25&#93;. - <inline font-style="italic">in reply</inline> - It is interesting to look back on the circumstances in which this grant was proposed. When the Loan Council met the deficit figures for the States were much beyond what could be financed. The Commonwealth Treasurer <inline font-weight="bold">(Mr. Casey),</inline> in order to get the cooperation of the States in bringing their deficits down to manageable amounts, offered, on behalf of the Commonwealth Government, to contribute &#163;500,000, to be divided among the States, if they would undertake to reduce their deficits by that amount, plus a similar amount to be provided by themselves. Five States accepted that condition, and they have not only carried it out, but have also made a greater reduction than they were obliged to make. It is quite correct that the Treasurer and Acting Premier of Tasmania, <inline font-weight="bold">Mr. Dwyer-Gray,</inline> refused to accept the grant on behalf of Tasmania with that condition attached. </para>
+          </talk.start>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time. </para>
+          <para class="italic">
+            <inline font-style="italic">In committee:</inline>
+          </para>
+          <para>Clauses 1 and 2 agreed to. </para>
+          <para>Clause 3 (Allocation of grant).&#39; </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1058</page.no>
+              <time.stamp />
+              <name.id>KS7</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>UAP; LP from 1944</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, Allan</name>
+              <name role="display">Senator ALLAN MACDONALD</name>
+            </talker>
+            <para>. -  In his budget the Premier and Treasurer of Western Australia, <inline font-weight="bold">Mr. Collier,</inline> estimated a deficit of &#163;255,000, after allowing for a Commonwealth grant of only &#163;600,000. The actual amount of the grant is &#163;800,000. The extra &#163;200,000 should reduce the State deficit to &#163;55,000. Now this bill is proposing a further special grant of &#163;35,000, reducing the deficit to &#163;20,000. Allowing for the undertaking given by the Treasurer of Western Australia, which is similar to the undertakings given by the Treasurers of the other States, to reduce the State deficit further by an amount equal to that of the grant, the deficit should disappear entirely. In fact, this year Western Australia should enjoy a surplus. I ask whether the deficit considered by the Commonwealth Government for the purpose of this grant to Western Australia was &#163;255,000, as submitted by the State Treasurer to the Parliament of Western Australia. </para>
+          </talk.start>
+          <para>
+            <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE (Western Australia - Minister for External Affairs) &#91;3.31&#93;.  -  The deficits considered for the purpose of making this grant were those submitted by the various States to the Loan Council, and not those which were estimated in the budgets subsequently submitted to the respective State Parliaments. At the time the Loan Council met, neither Western Australia, South Australia nor Tasmania, knew the actual  sumwhich would be made available to them by this Government by way of special grants. Therefore, the figure to be considered in &#34;Western Australia&#39;s case is the figure that was submitted at the Loan Council. That figure, as the honorable senator has pointed out, may not have agreed with the figure submitted in the Western Australia budget. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1059</page.no>
+                <time.stamp />
+                <name.id>KS7</name.id>
+                <electorate>WESTERN AUSTRALIA</electorate>
+                <party>UAP; LP from 1944</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MACDONALD, Allan</name>
+                <name role="display">Senator ALLAN MACDONALD</name>
+              </talker>
+              <para>- The figure mentioned in the State budget was &#163;600,000; therefore, Western Australia should have a surplus this year of &#163;15,000. </para>
+            </talk.start>
+          </interjection>
+          <para>Clause agreed to. </para>
+          <para>Clauses 4 and 5 agreed to. </para>
+          <para>Preamble and title agreed to. </para>
+          <para>Bill reported without amendment; report adopted. </para>
+          <para>Bill read a third time. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>WHALING BILL 1935</title>
+        <page.no>1059</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill brought up by <inline font-weight="bold">Senator Sir George</inline></para>
+      <para>Pearce, and read a first time. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SPECIAL ADJOURNMENT</title>
+        <page.no>1059</page.no>
+        <type>special adjournment</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator Sir George</inline> Pearce) agreed to - </para>
+      <quote>
+        <para>That the Senate, at its rising, adjourn until Wednesday next at 3 p.m. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>1059</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <para>CommonwealthGrants to States - Dairying Industry. </para>
+      <para>Motion (by <inline font-weight="bold">Senator Sir George</inline> Pearce) proposed - </para>
+      <quote>
+        <para>That the Senate do now adjourn. </para>
+      </quote>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1059</page.no>
+            <time.stamp />
+            <name.id>K08</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">ARKINS, James</name>
+            <name role="display">Senator ARKINS</name>
+          </talker>
+          <para>. - I desire to make a personal explanation with regard to the discussion which took place in this chamber yesterday on the South Australia Grant Bill. In to-day&#39;s Sydney newspapers it is reported that I withdrew certain references which I made to <inline font-weight="bold">Senator Hardy&#39;s</inline> speech. It will be remembered that I remarked that <inline font-weight="bold">Senator Hardy</inline> attempted to seduce honorable senators by false reasoning. At your request, <inline font-weight="bold">Mr. President,</inline> I certainly withdrew that particular remark. But I am reported in the Sydney press as having also withdrawn other remarks which I made at that time, to the effect that, not only by his words, but also by inference, <inline font-weight="bold">Senator Hardy</inline> had suggested that New South Wales was dominating the smaller States, and that in  making such a suggestion, the honorable senator was raising the cry of the smaller States versus the bigger States. Those remarks I did not withdraw, and I do not withdraw them now. I still say that <inline font-weight="bold">Senator Hardy</inline> deliberately attempted to do that. It will be recalled that twice during the honorable senator&#39;s speech, I said that he was crying &#34; stinking fish &#34; against his own State. In a subsequent speech I stated my impression of <inline font-weight="bold">Senator Hardy&#39;s</inline> intentions, expressed my regret at his attitude, and on behalf of myself and my fellow senators from New South Wales, dissented from his remarks. </para>
+        </talk.start>
+        <para>
+          <inline font-weight="bold">Senator ALLAN</inline>MacDONALD (Western Australia &#91;3.38&#93;. - I should like to refer to the remarks made by <inline font-weight="bold">Senator Hardy</inline> yesterday in relation to a speech by me concerning the proposal to disband the Australian Dairy Council; I thought I made my remarks on that subject in a very temperate and reasonable manner, but <inline font-weight="bold">Senator Hardy</inline> summarized my speech as an attack on the Government and claimed that it contained many inaccuracies. I assure honorable senators that I am not in the habit of submitting tothem inaccuracies. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>1059</page.no>
+              <time.stamp />
+              <name.id>K2Z</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BRENNAN, Thomas</name>
+              <name role="display">Senator Brennan</name>
+            </talker>
+            <para>- I thought the honorable senator&#39;s remarks were addressed to me. </para>
+          </talk.start>
+        </interjection>
+        <para>
+          <inline font-weight="bold">Senator ALLAN</inline>MacDONALD.They were addressed to the Assistant Minister and also to <inline font-weight="bold">Senator Hardy.</inline> I feel sure I expressed myself temperately, and that by no flight of the imagination could my remarks be construed as an attack. The attack has not started yet. I do not know why <inline font-weight="bold">Senator Hardy</inline> should adopt such an attitude ; perhaps references to him as &#34; the Cromwell of the Riverina &#34; have somewhat turned his head. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>1059</page.no>
+              <time.stamp />
+              <name.id>K08</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARKINS, James</name>
+              <name role="display">Senator Arkins</name>
+            </talker>
+            <para>- Roundhead or blockhead? </para>
+          </talk.start>
+        </interjection>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1059</page.no>
+            <time.stamp />
+            <name.id>KS7</name.id>
+            <electorate>WESTERN AUSTRALIA</electorate>
+            <party>UAP; LP from 1944</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MACDONALD, Allan</name>
+            <name role="display">Senator ALLAN MACDONALD</name>
+          </talker>
+          <para>- I think it is a case of hardheads. I hope <inline font-weight="bold">Senator Hardy</inline> will not attempt to emulate the famous Oliver who was noted for his impetuosity. Several points have been brought under my attention regarding proposed drastic changes in the Australian Dairy Council and the Dairy Produce Export Control Board, and I have been strengthened in the attitude which I took earlier. I should like to draw the attention of honorable senators to a number of additional items which will affect the situation when the particular measure concerned comes before this chamber. <inline font-weight="bold">Senator Hardy&#39;s</inline> address yesterday sounded very much like an apology for the Minister for Commerce <inline font-weight="bold">(Dr. Earle Page).</inline> I was not aware that he represented the Minister for Commerce in this chamber. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>1060</page.no>
+              <time.stamp />
+              <name.id>K08</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARKINS, James</name>
+              <name role="display">Senator Arkins</name>
+            </talker>
+            <para>- It more than sounded like it ; from where I was sitting, it looked like it. </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>1060</page.no>
+              <time.stamp />
+              <name.id>KS7</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>UAP; LP from 1944</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, Allan</name>
+              <name role="display">Senator ALLAN MACDONALD</name>
+            </talker>
+            <para>- I was not aware to what documents <inline font-weight="bold">Senator Hardy</inline> referred, until he read a telegram sent by the Primary Producers Association of Western Australia to the Minister for Commerce. In reading that telegram he endeavoured to throw some doubt on my authority for saying that the State advisory committee on the dairying industry had sent their representative to Sydney to protest against the disbandment of the Australian Dairy Council. As I mentioned previously, the State advisory committee on dairying in Western Australia is fully representative of the producers and the -industry generally in that State, and I repeat that that body is far more competent to pass an opinion regarding the industry in Western Australia than is the Primary Producers Association of Western Australia which is recognized as a political body, being, in fact, the organization of the Country party. That association cannot assume more authority than the State advisory committee to speak in the interests of the dairying industry in Western Australia. To indicate the strength, or lack of strength, of that association in the dairying country, as an organization of the Country party, I point out that the south-west portion of the State, which is the main sphere of the dairying industry in Western Australia, consists of six electorates for the Legislative Assembly and one province for the Legislative Council, yet none of these seats are held by members of the Country party. Three of the seats in the Assembly are held by Nationalists and three by members of the Labour party, whilst all three seats in the council are held by Nationalists. After <inline font-weight="bold">Senator Hardy</inline> had read a lettergram from the Primary Producers Asso ciation I interjected that that organization did not represent the dairying industry in Western Australia, and that anybody could have sent suck a message. </para>
+          </talk.start>
+        </continue>
+        <para>Since I mentioned this subject in the Senate on Tuesday evening, I have received a copy of the official report of the annual meeting of the Australian Dairy Council, held in Sydney on the 9th and 10th October, and presided over by <inline font-weight="bold">Mr. W.</inline> T. Harris, a representative of Queensland. A perusal of this report does not suggest that the council is in any sense a moribund organization. On the contrary, there is ample evidence that it is a very live body with a creditablerecord of achievement. The chairman&#39;s report referred to proposed action in connexion with various phases of the industry, including experimental plots, improvement of pastures, and demonstrational work, in which the keenest interest had been displayed by dairy farmers, financial institutions, educational and other bodies. The report went on to mention a number of proposals, including the necessity for a uniform brand, recommendations relating to an excise duty on butter substitutes, research, into cattle diseases and other important subjects. It also stated - </para>
+        <quote>
+          <para>During the year a recommendation was made to the Minister for Commerce that a dairy research institute be established in Australia to undertake research into manufacturing and other dairying problems. The council promised to make a substantial contribution spread over a number of years towards the cost of such institute. The Minister promised to&#62; go fully into the matter, but up to date no advice has been received from him as to theGovernment&#39;s decision. </para>
+        </quote>
+        <para>The report further dealt with a number of other matters for the benefit of the industry which the council had under consideration during the year, and in which the liveliest interest had been displayed. This, honorable senators should note, is the body which, under the Government&#39;s proposal, is to be - I stick to the term which I used on Tuesday night - wantonly thrust aside. I wish it to be clearly understood that I do not know any members of the council personally, I have ventilated the matter because I object to the treatment which they have received after having rendered such valuable services to an important primary industry. The  chairman-  of the council is not alone in his eulogy of the work of the council. The Minister for Commerce <inline font-weight="bold">(Dr. Earle Page),</inline> speaking at the National Dairy Conference held in Sydney in April of this year, said - </para>
+        <quote>
+          <para>J do not think it has been suggested either by Kew South Wales or by the Government which has distributed a partial statement of the position, that there is any question of the Export Control Board or the Australian Dairy Council being on trial for their lives. Everybody associated with the dairying industry realizes the very great debt that it owes to these organizations. The Australian Dairy Council has done a great amount of exceedingly useful work. The difficulty in connexion with that organization is that its ideas cannot be translated into practice in many cases, merely because of the lack of necessary machinery. What is aimed at is that the good work it does, and the decisions at which it arrives, shall be implemented instead of being allowed to remain more or less a dead letter. I want everybody present to disabuse their minds of the suggestion that there is any censure implied on the Australian Dairy Council. We all acknowledge the good work it has done, and the patriotic efforts that have been put forward by its members. So far as the Export Control Board is concerned, there is no thought of interfering with its powers in the slightest degree. My attitude, and that nf the Commonwealth Government, is that the extension of a similar principle to other industries is the only way in which we can help to satisfactorily solve our marketing problems. The efforts which have been put forward &#39;by the Dairy Export Board, which is the child of the Bruce-Page Government, show precisely where T stand in this matter. THIC WORK DONE BY THAT BOARD IS BEYOND ALL PRAISE. ITS COMPOSITION IN REGARD TO ITS PERSONNEL AND EXPERIENCE LEAVES NOTHING TO BE DESIRED. </para>
+        </quote>
+        <para class="block">That is an encomium of which any public or quasi-public body might well be proud. Yet this organization is to be ruthlessly disbanded and much of the value of its services dissipated. </para>
+        <para>
+          <inline font-weight="bold">Senator Hardy</inline>also criticized my statement that the change would lead to a large measure of government control of the industry through the appointment of a permanent committee consisting of the State directors of agriculture to advise the council. I substantiate what I said on that aspect of the proposal by reading the following comment contained in a statement issued by the Co-operative Butter and Cheese Factories Association of Victoria : - </para>
+        <quote>
+          <para>The National Dairy Conference made recommendations to the Minister for Commerce, who submitted them to the standing committee of government officials, which, after prolonged discussion, rejected them and submitted their own recommendations to the Australian Agricultural Council, which adopted them with some amendments, and then forwarded them to the Minister for Commerce, on whose advice they have been accepted by Cabinet, thus ignoring the recommendations of the producers, as expressed at the National Dairy Conference. </para>
+        </quote>
+        <para class="block">The subject will be thoroughly ventilated when the proposed legislation comes before the Senate, and I should like honorable senators to bear in mind what I have said. I understand that a deputation is leaving Western Australia this week to endeavour to interview the Prime Minister on the subject. I&#39; am informed also that other States have taken action and strongly resent the proposal. The following telegram, which I received from Adelaide to-day, will give to honorable senators an idea of what the industry in that State thinks of the proposal : - </para>
+        <quote>
+          <para>We the South Australian Farmers Cooperative Union Limited, representing  15,000  shareholders controlling eleven factories manufacturing butter, cheese, condensed milk, casein, bacon and city milk suppliers with a total capital investment of  &#163;826,000  in dairying business, strongly protest against proposals of Minister for Commerce to reconstitute Dairy Produce Board, which will eliminate representation of co-operative manufacturers in this State as his proposal is to have only one co-operative manufacturers&#39; representative to represent Tasmania, Western Australia and South Australia. We claim that even though these States are small as compared with total Commonwealth production, we are an important industry in our own State ami are justly entitled to one representative each on the new board, and method of election should be on a production basis, as is being done when electing the present Dairy Produce Board. Have no objection additional producers being added to present Dairy Produce Board, but producers should be elected by ballot of all cream and milk suppliers. Before  bin  is placed before House, we respectfully request you receive Commonwealth deputation of those interested so that objection can bc fully discussed. </para>
+        </quote>
+        <para class="block">
+          <inline font-weight="bold">Senator Hardy</inline>spoke of my earlier remarks on this subject as a scathing attack on the proposed re-organization of the industry. My appeal to him was merely a reasonable request that as the leader of the Country party senators he would use his influence with his friends in !New South Wales to persuade them to take a broader federal outlook of the industry so as to ensure for the smaller </para>
+        <para class="block">States adequate representation on the board. If he would do this, his action would go a long way towards removing misunderstanding, and thus improve the immediate outlook for the industry. </para>
+        <para>Question resolvedin the affirmative. </para>
+      </speech>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>1062</page.no>
+        <time.stamp>15:55:00</time.stamp>
+      </adjournmentinfo>
+      <para>Senate adjourned at 3.55 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

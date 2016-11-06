@@ -1,251 +1,2058 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #010214; } body { background-image: url(/images/body-home-dusk-blurred.jpg); background-color: #010214; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-07-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-07-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-07-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-07-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-07-01%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-07-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-07-01%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1943-07-01/19430701_senate_16_175.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.05");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1943-07-01</date>
+    <parliament.no>16</parliament.no>
+    <session.no>1</session.no>
+    <period.no>9</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>621</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1943-07-01</day.start>
+      <para>The Senate met at 2.15 p.m. </para>
+      <para>The  Clerk.  - I have received advice that the <inline font-weight="bold">President (Senator the Honorable J. Cunningham)</inline> will be unable to attend to-day&#39;s .sittings of the Senate. In&#39; accordance with Standing Order No. 29, the  Chairman  of Committees will take the chair as  Deputy President. </para>
+      <para>The <inline font-weight="bold">Deputy President (Senator Brown)</inline> thereupon took the chair, and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>621</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>DULY AND HANSFORD  PROPRIETARY LIMITED</title>
+          <page.no>621</page.no>
+        </subdebateinfo>
+        <para class="block">Non-unionist Employees. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>621</page.no>
+              <time.stamp />
+              <name.id>KOL</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCBRIDE, Philip</name>
+              <name role="display">Senator McBRIDE</name>
+            </talker>
+            <para>- Will the Leader of the Senate state what action the Government has taken to enable nonunionists engaged at the works of Duly and Hansford Proprietary Limited, Sydney, to follow their lawful occupation and continue in the war work in which they desire to engage? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>621</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party>ALP</party>
+              <role>Minister for the Interior</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- It is quite unusual for the Government to disclose matters of policy in answer to questions. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>621</page.no>
+              <time.stamp />
+              <name.id>K6Z</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SPICER, John</name>
+              <name role="display">Senator SPICER</name>
+            </talker>
+            <para>- Is it. a fact &#34;as reported in to-day&#39;s press that the Prime Minister told <inline font-weight="bold">Mr. Tannock</inline> that he was behind unionists employed by Duly and Hansford Proprietary Limited, who are engaged in an illegal strike? Is the Government prepared to support  the nonunionists in their endeavour to observe the law? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>621</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- To the first part of the honorable senator&#39;s question my answer is, &#34; I do not know &#34;. As to the second .portion of the question matters of government policy are not usually disclosed in reply to questions. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>621</page.no>
+                <time.stamp />
+                <name.id>KOL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCBRIDE, Philip</name>
+                <name role="display">Senator McBRIDE</name>
+              </talker>
+              <para>- Has the Government yet decided to enforce its own laws against unionists who are engaged in an illegal strike at the works of Duly and Hansford Proprietary Limited? If not, is the Government prepared to give an undertaking to the Senate that it will make up its mind on this issue before the general elections? </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>621</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I am not in a position at the moment to give an answer to that question. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>621</page.no>
+                <time.stamp />
+                <name.id>KOL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCBRIDE, Philip</name>
+                <name role="display">Senator McBRIDE</name>
+              </talker>
+              <para>- Am I to understand from the Minister&#39;s reply that the Government does not know whether it has decided to enforce its own laws in this country? </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>621</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- The answer 1 gave was a reply to the honorable senator&#39;s first question. He has now propounded a second question which I am unable to answer. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>621</page.no>
+                <time.stamp />
+                <name.id>K6Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPICER, John</name>
+                <name role="display">Senator SPICER</name>
+              </talker>
+              <para>- Will the Leader of the Senate state whether it is or is not the policy of this Government to enforce the law of the land ? </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>621</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- If the honorable senator will tell me which law he refers to I shall give his question consideration. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>621</page.no>
+                <time.stamp />
+                <name.id>KOL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCBRIDE, Philip</name>
+                <name role="display">Senator McBRIDE</name>
+              </talker>
+              <para>- Are we to understand that this Government discriminates as to which laws it will enforce? </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>621</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I am unable to say what the honorable senator or any of his colleagues is to understand. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>621</page.no>
+                <time.stamp />
+                <name.id>K6Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPICER, John</name>
+                <name role="display">Senator SPICER</name>
+              </talker>
+              <para>- Will the Minister representing the Attorney-General state whether members of the Commonwealth Investigation Branch have interviewed certain non-unionists employed by Duly and Hansford Proprietary Limited ? Was this action for the purpose of obtaining evidence with a view to prosecuting unionists who are engaged in an illegal strike? If not, was this designed to bring pressure to bear upon non-unionists to join a union which is engaged in an illegal strike? </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>622</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- The Prime Minister answered that question in the House of Representatives yesterday by saying that the Government had no knowledge that officers of the Investigation Branch had interviewed anybody, but inquiries were being made as to the truth or otherwise&#39; of that statement. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>622</page.no>
+                <time.stamp />
+                <name.id>KOL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCBRIDE, Philip</name>
+                <name role="display">Senator McBRIDE</name>
+              </talker>
+              <para>- Will the Leader of the Senate state whether the Government intends to administer the laws of the land impartially as between unionists and non-unionists? </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>622</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- Yes. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>622</page.no>
+                <time.stamp />
+                <name.id>KOL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCBRIDE, Philip</name>
+                <name role="display">Senator McBRIDE</name>
+              </talker>
+              <para>- When is it the intention of the Government to administer the laws of this land impartially as between unionists and non-unionists? </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>622</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- That has always been the intention of the Government </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>622</page.no>
+                <time.stamp />
+                <name.id>KOL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCBRIDE, Philip</name>
+                <name role="display">Senator McBride</name>
+              </talker>
+              <para>- When? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>622</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- Now, and at all times. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>622</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PUBLIC SERVICE</title>
+          <page.no>622</page.no>
+        </subdebateinfo>
+        <para>Officers&#39; Travelling Allowances</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>622</page.no>
+              <time.stamp />
+              <name.id>KQL</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LATHAM, Charles</name>
+              <name role="display">Senator LATHAM</name>
+            </talker>
+            <para>- In view of the motion carried by the Senate last evening, relating to the differentiation in the payment of travelling allowances to Public Service officers, is the Leader of the Senate prepared immediately to lay on the table the papers relating to the matter ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>622</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- I always honour my promises. Thereturn has been tabled and is listed with other papers in the records. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>622</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>MINISTER FOR AIRCRAFT PRODUCTION</title>
+          <page.no>622</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>622</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- Has the attention of the Leader of the Senate been drawn to a statement by a responsible Cabinet Minister in the book, <inline font-style="italic">Introducing Australia,</inline> by Hartley Gratten? That book has a wide circulation and is of great interest to Americans. In 1927 a member of the present Government is said to have made some of the vilest comments possible against our American Allies. Will the Leader of the Senate dissociate reasonable Labour men from the views expressed by the Minister referred to, because I feel certain that his remarks must do Australia a great deal of harm? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>622</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- I have yet to learn that it is the function of the Government to answer questions based on what an author has said at some time or other and about which we know nothing. </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>622</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLEAY</name>
+              </talker>
+              <para>- Were instructions given to the censor to censor that portion of <inline font-weight="bold">Senator Leckie&#39;s</inline> speech which had reference to the comments made by the Minister for Aircraft Production? </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>622</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- I have no knowledge of what instruction might have been given to the censor concerning what was said as far back as1 927, but I know that the censor has received no instructions as to what he should censor. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>622</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLEAY</name>
+              </talker>
+              <para>- In view of the misunderstanding that might be created over these comments which were made <inline font-style="italic">as</inline> long ago as 1927, will the Minister for Aircraft Production state whether he was correctly reported, and, having &#34; seen the light&#34;, will he now repudiate those &#34;Yarra bank&#34; statements? </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>622</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>ALP</party>
+              <role>Minister for Aircraft Production</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator CAMERON</name>
+            </talker>
+            <para>- I have no knowledge of the statements to which the honorable senator refers. He spoke of something saidby me in 1927. As I have made many statements since then I ask the honorable senator to specify the particular remarks to which he refers so that I shall be in a position to supply him with an answer. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>622</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ALUMINIUM</title>
+          <page.no>622</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>622</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Supply and Shipping-&#39; </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What is the position in regard to aluminium stocks in Australia? </para>
+            </item>
+            <item label="2.">
+              <para>Has the erection of plant for the manufacture of this metal in Australia been proceeded with? </para>
+            </item>
+            <item label="3.">
+              <para>Is this plant now in operation? </para>
+            </item>
+            <item label="4.">
+              <para>If so, is the production sufficient to meet Australian requirements ? </para>
+            </item>
+            <item label="5.">
+              <para>If not, when is it expected that production forAustralian requirements will be reached ? </para>
+            </item>
+            <item label="6.">
+              <para>What action has the Government taken in regard to the production of magnesium? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>622</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>ALP</party>
+              <role>Minister for External Territories</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator FRASER</name>
+            </talker>
+            <para>- The Minister for Supply and&#39; Shipping states that for security reasons the information desired by the honorable senator cannot be supplied. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>623</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>WHEAT AND BARLEY PRICES</title>
+          <page.no>623</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>623</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Commerce and Agriculture, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>When ia it intended to make a further advance on barley for the 1941-42 and 1942-43 seasons 7 </para>
+            </item>
+            <item label="2.">
+              <para>ls it a fact that the advance paid to growers of barley for the 1942-43 season is considerably below the cost of production? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>623</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator FRASER</name>
+            </talker>
+            <para>- The Minister for Commerce and Agriculture has supplied the following answers : - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Advances on harley acquired ave made as soon as they can be justified by sales from the pools concerned. Stocks held on account of the 1941-42 pool are being disposed of and the financial position of that pool is being carefully watched so that a further advance may be made at the appropriate time. Stocks from the 1942-43 pool are extensive and sales arc slow because of the necessity of selling the old pool barley first. Further advances in connexion with 1942-43 pool will be made according to realizations. </para>
+            </item>
+            <item label="2.">
+              <para>The first advance on barley of the 1942-43 pool was based on market prospects. It has never been the practice to make advances on costs of production. </para>
+            </item>
+          </list>
+          <para class="block">
+            <graphic href="175332194307012_2_0.jpg" />
+          </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>623</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLEAY</name>
+              </talker>
+              <para>asked the Minister representing the Minister for Commerce and Agriculture, <inline font-style="italic">upon notice -</inline></para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>What actual returns were paid to growers, at country sidings, on wheat and barley delivered to the respective boards, for the years 1939-40, 1940-41, 1941-42, and 1942-43? </para>
+          </quote>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>623</page.no>
+                <time.stamp />
+                <name.id>KKR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FRASER, James</name>
+                <name role="display">Senator FRASER</name>
+              </talker>
+              <para>- The Minister for Commerce and Agriculture has supplied the following answers : - </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>Wheat payments to growers on basis of terminals less freight - 1939- 40 No. 2 pool - bagged, 3s. 7.95d.; bulk, 3s. 5.95d. Final adjustment may give an additional fraction of a penny. 1940- 41 No. 4 pool- bagged, 3s. Hid.; bulk, 3s. 9|d. Final adjustment may give an additional fraction of a penny. 1941- 4.2 No. 5 pool - bagged, 3s. 3d.; bulk 3s. Id. Advance only. 1942- 43 No. fi pool - bagged, 4s. quota payment, net at country siding; 2s. advance on excess wheat on basis net at country siding. </para>
+            <para class="block">Payments on all except No. 0 pool were made less freight. The actual return to a grower for pools 1 to 5 is therefore the figure shown less freight from his delivery point to the terminal. </para>
+          </quote>
+          <para class="block">
+            <graphic href="175332194307012_2_0.jpg" />
+          </para>
+          <para class="block">
+            <graphic href="175332194307012_2_1.jpg" />
+          </para>
+          <para class="block">
+            <graphic href="175332194307012_2_2.jpg" />
+          </para>
+          <para pgwide="yes">Payments in all  cases  are less freight. The freight from the delivery point to the terminal must be deducted to get the return at growers&#39; sidings. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>INCOME TAX (WAR-TIME ARRANGEMENTS) BILL 1943</title>
+        <page.no>624</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para class="block">Bill received from the House of Reprresentatives . </para>
+      <para>Standing and Sessional Orders- suspended. </para>
+      <para>Bill (on motion by <inline font-weight="bold">Senator Keane)</inline> read a first time. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>624</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>624</page.no>
+              <time.stamp />
+              <name.id>KE4</name.id>
+              <electorate>Victoria</electorate>
+              <party>ALP</party>
+              <role>Minister for Trade and Customs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KEANE, Richard</name>
+              <name role="display">Senator KEANE</name>
+            </talker>
+            <para>.- I move - </para>
+          </talk.start>
+          <quote>
+            <para class="block">That the bill be now read a second time. </para>
+          </quote>
+          <para class="block">This bill proposes to amend the Income Tax (War-time Arrangements) Act 1942, in order to enable those officers who were transferred from the service of the States to the Commonwealth service under the provisions of that act to make additional contributions to the superannuation funds of the States. Honorable senators will recall that during the passage of the bill, which was part of the uniform taxation legislation, it was stated that the existing and accruing rights of officers who were transferred from the service of the States would be preserved. The act provides that a transferred officer who was a contributor to a State superannuation fund shall continue to be a contributor to that fund. It also provides that where the Government of the State makes any payment to the superannuation fund in respect of a transferred officer, the Commonwealth shall reimburse the State for the amount contributed by the State to the fund. Whilst that provision preserves an officer&#39;s right to continue as a contributor to the fund, it does not permit him to increase his contributions should he be promoted during the period of his service with the Commonwealth. It is proposed by this bill to provide that an officer may continue his contributions or increase his contributions to the fund in the same manner as he would have done had he remained in the service of a State, and as a result of salary increases in the State service had been required, or entitled, to increase his contributions. As honorable senators are aware, the Superannuation Boards have adopted the principle that contributions and benefits should increase as an officer&#39;s salary . is increased. Conse quently, it is proposed by this bill that a transferred officer who receives an increase of salary during his service with the Commonwealth shall have the right to contribute for additional superannuation benefits in keeping with his increased remuneration. </para>
+          <para>Since the Income Tax (War-time Arrangements) Act came into operation, correspondence has passed between the Commonwealth and the States suggesting that officers should be permitted to increase their contributions in such circumstances. With the exception of Tasmania, all States have expressed agreement with the suggestion. Increased contributions made by an officer involve larger contributions by the State and, therefore, should officers be permitted to contribute for additional superannuation benefits, the liability of the State to make proportionately increased contributions to the fund should be undertaken by the Commonwealth during the time that the officers are employed in the Commonwealth Service. The bill accordingly contains a provision requiring the Commonwealth to undertake that responsibility. </para>
+          <para>The State of Tasmania, as already stated, has not been prepared to allow transferred officers to contribute to the State Superannuation Fund for increased benefits as a result of any increase of salary payable to them whilst employed by the Commonwealth. No doubt the State has good reasons for its&#39; decision in this matter. The bill has, therefore, been drafted so that the clause conferring upon officers the right to increase their contributions will not operate in respect of any State unless the Treasurer of the State notifies the Public Service Board that he is agreeable to its operation. It will thus be open for any State to agree to its operation at a later date should it so desire. </para>
+          <para>If the act be amended to provide for the matters to which I have referred, it will be necessary to clarify its existing provisions in order to ensure that transferred officers who are promoted to higher positions in the State service while temporarily employed by the Commonwealth will have preserved to them their rights as State officers to contribute for increased superannuation benefits. The  bill has been drafted in order to clarify the relevant provisions of the act and&#39; so remove any doubts as to the officer&#39;s rights in this connexion. </para>
+          <para>This bill is necessary to give effect to the Government&#39;s definitely expressed intention to preserve to transferred officers their existing and accruing rights as State officers, and to ensure that no officer will be penalized in regard to superannuation by his transfer to the Commonwealth. The result of the enactment of this legislation will be that transferred officers will be treated for superannuation purposes in the same manner as other officers of the Commonwealth Public Service. The States will not be obliged to incur any additional expense, and the cost to the Commonwealth will be no greater than it would be if the officers had been recruited from other sources. I commend the bill to honorable senators. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>625</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role>Leader of the Opposition</role>
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>. -  I have had an opportunity to examine the bill, and to peruse the Minister&#39;s second-reading speech. The Opposition supports the measure. </para>
+          </talk.start>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time. </para>
+          <para class="italic">
+            <inline font-style="italic">In committee:</inline>
+          </para>
+          <para>Clauses 1 and 2 agreed to. </para>
+          <para>Clause 3 (.Superannuation contributions). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>625</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>.- This proposal seems to be rather halfbaked. I do not question the wisdom or the fairness of what the Government is trying to do, but the proposal discriminates between officers taken over from different States, because it will not operate in any State in which the State Treasurer does not agree to the scheme. The Minister for Trade and Customs <inline font-weight="bold">(Senator Keane)</inline> said in his second-reading speech that Tasmania did not agree to the proposal. Therefore, any officers who are taken over by the Commonwealth from Tasmania will suffer a distinct disadvantage as compared with those taken over from other States in which the State Treasurer has agreed to accept this proposal. Is it not possible to ensure that officers taken over <inline font-style="italic">by</inline> the Commonwealth from all States will come under this legislation? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>625</page.no>
+              <time.stamp />
+              <name.id>KE4</name.id>
+              <electorate>Victoria</electorate>
+              <party>ALP</party>
+              <role>Minister for Trade and Customs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KEANE, Richard</name>
+              <name role="display">Senator KEANE</name>
+            </talker>
+            <para>.- The explanation of the point raised by <inline font-weight="bold">Senator Leckie</inline> is that all these superannuation funds are State funds, and, therefore, the Commonwealth cannot take action on its own initiative which would directly interfere with them. The bill provides that if a State agrees to the scheme, action will be taken in respect of officers taken over from that State. All the States, except Tasmania, have already agreed to the scheme, and it is very probable that Tasmania will shortly come into line with the other States. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>625</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>.- When the Commonwealth took over these officers from the States, it promised them that they would not lose anything by reason of the transfer, for instance, in. respect of status, or right to promotion. Now, however, it seems that under this measure the Commonwealth is discriminating between State officers. If the Commonwealth cannot honour the promise it has given to these officers, some of them will suffer distinct injustice. Is there no way in which this proposal can b? applied to officers from all States on a common basis? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>625</page.no>
+              <time.stamp />
+              <name.id>KE4</name.id>
+              <electorate>Victoria</electorate>
+              <party>ALP</party>
+              <role>Minister for Trade and Customs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KEANE, Richard</name>
+              <name role="display">Senator KEANE</name>
+            </talker>
+            <para>.-So long as the principal act which this bill seeks to amend remains, it will be impossible to overcome the difficulties pointed out by <inline font-weight="bold">Senator Leckie.</inline> However, State officers who are taken over by the Commonwealth still contribute to their respective State superannuation fund. The objection raised by the Tasmanian Government is that should, say, Brown, whose status is equal to that of Smith, be taken over by the Commonwealth, and Smith continue in the State service, and Brown receives an increase  of  salary from the Commonwealth Government, an anomaly in respect of their salaries will arise when Brown resumes his service with the State Government. That is the principal objection to be overcome. For the reasons I outlined in my secondreading speech, it is difficult to apply this proposal generally. </para>
+          </talk.start>
+          <para>Clause agreed to. </para>
+          <para>Clause 4 agreed to. </para>
+          <para>Title agreed to. </para>
+          <para>Bill reported &#34;without amendment; report adopted. </para>
+          <para>Bill read a third time. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SALES TAX (EXEMPTIONS AND CLASSIFICATIONS) BILL 1943</title>
+        <page.no>626</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para class="block">Bill received from the House of Representatives. </para>
+      <para>Standing and Sessional Orders suspended. </para>
+      <para>Bill (on motion by <inline font-weight="bold">Senator Keane)</inline> read a first time. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>626</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>626</page.no>
+              <time.stamp />
+              <name.id>KE4</name.id>
+              <electorate>Victoria</electorate>
+              <party>ALP</party>
+              <role>Minister for Trade and Customs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KEANE, Richard</name>
+              <name role="display">Senator KEANE</name>
+            </talker>
+            <para>.-^1 move - </para>
+          </talk.start>
+          <quote>
+            <para>That the bill bc now read&#39; a.  second  time. </para>
+          </quote>
+          <para class="block">This bill is designed primarily to authorize certain slight extensions of the existing exemptions from sales tax. In some of these instances, where it would have been clearly anomalous to insist upon payment of the tax, the tax has been waived in anticipation of the amendment of the law, and in those instances the bill provides for retrospective operation of the exemptions. The proposed new exemptions include certain piping for use in the agricultural industry, certain educational films, and imported goods, up to a value of &#163;10 in any one year, brought or sent to Australia by or for members of the armed forces. The amendments concerning films and piping are merely logical extensions of the exemptions already allowed in the law in respect, of goods of that kind. The effect of the amendments upon the revenue is negligible. </para>
+          <para>A further feature of the bill is a provision to withdraw the exemption from sales tax in &#39; respect of imported newsprint, which has existed since the inception of the sales tax in 1930. At that time, all supplies of newsprint were imported into the Commonwealth, and the exemption was accordingly limited to imported newsprint. In recent years, the manufacture of newsprint has developed in Australia, but there is no. provision in the law for exemption of Australianmade newsprint. The principal use of newsprint is, of course, as raw material for newspapers, and there is no liability for sales tax in respect of any newsprint so used, because the sales tax law authorizes newspaper publishers to obtain their raw materials free of sales tax. Thus the only Australian-made newsprint which is subject to tax is that which is used for wrapping paper or for any purpose other than the manufacture of goods. It was represented to the Government that it is anomalous . to tax Australian-made paper so used whilst imported newsprint goes free. It is proposed to remove the anomaly by placing Australian-made newsprint and imported newsprint on the same footing by withdrawing the exemption from sales tax of the imported article. Newspaper proprietors will still obtain, free of tax, the newsprint required by them as material for their newspapers. They will be obliged to pay tax on their sales of residue paper for wrapping or other purposes, whether it is imported or of Australian origin. </para>
+          <para>The bill also provides for specific inclusion in the third schedule to the Sales Tax (Exemptions and Classifications) Act 1935-1942 of certain goods which are clearly of the kind intended to be covered by the schedule, but do not actually come within the terms of any item at present in that schedule. Goods covered by that schedule are subject to tax at the rate of 25 per cent. The effect of the amendment is to increase the rate of tax from 12&#163; per cent, to 25 per cent on toilet preparations known as liquid hosiery, &#38;c, having regard to the fact that other toilet preparations bear tax at the higher rate. The bill also raises the rate of tax from 12&#163; per cent, to 25 per cent, in respect of goods sold as mottoes for decorative purposes. These goods are comparable with pictures, which bear tax at the higher rate. The change of rate will be effective on and from the 1st July, 1943. </para>
+          <para>The only remaining purpose of the bill is to include in the law a provision on the usual lines authorizing the Governor-General to make such regulations as may be necessary for giving effect to the act. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>626</page.no>
+              <time.stamp />
+              <name.id>JTR</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DARCEY, Richard</name>
+              <name role="display">Senator DARCEY</name>
+            </talker>
+            <para>. - This bill both increases and lowers the sales tax on certain articles. I remember quite well when the sales tax was first introduced. The Labour party has been twitted over and over again by the </para>
+          </talk.start>
+          <para class="block">Opposition with first introducing it. We know that it did. It was first brought in by the Scullin &#39;Government, which imposed a tax of 2&#163; per cent. After ten years of the Bruce-Page Government and its disastrous effect on the economy of Australia, <inline font-weight="bold">Mr. Scullin</inline> had to look round for new ways of raising revenue, and later increased the tax to 5 per cent. It was afterwards raised to 7$ per cent, and 15&#39; per cent., and now has been raised to .25 per cent. That is a crushing tax, and I shall be prepared to support any bill which will lower it, because under a proper system of finance such a tax would be quite unnecessary. We are dealing now with the cost of government, which has to .he met bv taxes, including a sales tax of 25 per cent. Taxes are imposed to pay the cost of government, and if there is a system of governing the country at a much lower cost it should be adopted. I will give one instance which I proposed two years ago in connexion with government contracts. Governments in Australia have let hundreds of millions of pounds worth of contracts, and 99 per cent, of the contractors are financed by the private banks. I proposed to the Fadden and Menzies governments that they should insert a clause in every government contract compelling the contractor to obtain financial assistance from the Commonwealth Bank. That could- be easily done. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>627</page.no>
+                <time.stamp />
+                <name.id>KR9</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LECKIE, John</name>
+                <name role="display">Senator Leckie</name>
+              </talker>
+              <para>- What has this to do with the sales tax? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>627</page.no>
+                <time.stamp />
+                <name.id>JTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DARCEY, Richard</name>
+                <name role="display">Senator DARCEY</name>
+              </talker>
+              <para>- The bill deals with taxation. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>627</page.no>
+                <time.stamp />
+                <name.id>KOL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCBRIDE, Philip</name>
+                <name role="display">Senator McBride</name>
+              </talker>
+              <para>- Would not the present Prime Minister accept the honorable senator&#39;s suggestion? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>627</page.no>
+                <time.stamp />
+                <name.id>JTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DARCEY, Richard</name>
+                <name role="display">Senator DARCEY</name>
+              </talker>
+              <para>- I do not take any notice of inane interjections by <inline font-weight="bold">Senator McBride.</inline> He is the most irresponsible man in this chamber, and a menace to good government. The effect of my scheme if adopted would be this: If the Government gave a man a contract worth &#163;50,000, he would get a cheque from the Government for that amount when it was completed. If he were financing his business through the Commonwealth Bank, which could be easily done, he would have, to pay his cheque for &#163;50,000 into the Commonwealth Bank to meet his overdraft. The Government would be justified in inserting such a clause, because it would simply be asking for reciprocal business. If I sell a tailor a watch for &#163;10, naturally I feel bound to give him an order. That would be reciprocity. In that way the people would be taught to use the Commonwealth Bank, which is their own bani, and the private banks would be prevented from exploiting the Government. I can give the Senate an instance of how we could save millions of pounds. </para>
+            </talk.start>
+          </continue>
+          <para>The  DEPUTY PRESIDENT.  - The bill is designed primarily to authorize certain slight extensions of the existing exemptions from sales tax. I ask the honorable senator to confine his remarks to the bill. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>627</page.no>
+                <time.stamp />
+                <name.id>JTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DARCEY, Richard</name>
+                <name role="display">Senator DARCEY</name>
+              </talker>
+              <para>- The bill also proposes to increase the sales tax in certain cases. I am showing how the increase of taxes could he avoided by a proper method. An instance came to my notice of an engineering firm, working on a war contract. It had an overdraft of &#163;17,000 on which it was paying 6 per cent. It wanted to increase its output by adding a moulding division to its factory. The private bank valued the firm&#39;s plant at &#163;60,000. The firm asked its bank for an additional &#163;10,000, but the bank refused to lend it unless the Government guaranteed the account. The firm then received a further advance of &#163;10,000, making &#163;27,000, on which the bank received 6 per cent, although the security was worth &#163;60,000. The firm was in that position because it was banking with a private hank, and not with the Commonwealth Bank. If the contract had been financed by the Commonwealth Bank the result would have been that the people&#39;s bank would have earned 6 per cent, on &#163;27,000, but, as the arrangement stood, all that the Government got was the right to &#34; carry the baby &#34; if anything went wrong. I challenge any one to find fault with that proposition. It can be done, and in that way heavy taxation avoided. I have submitted the scheme to some of the biggest men in the States and they have always agreed with it. I ask honorable senators opposite who find fault with my financial ideas to show me what is  wrong with the proposal. I challenge them to disprove its soundness. </para>
+            </talk.start>
+          </continue>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time. </para>
+          <para class="italic">
+            <inline font-style="italic">In committee:</inline>
+          </para>
+          <para>Clauses 1 to 4 agreed to. </para>
+          <para>Clause 5 (Amendment of Third Schedule). </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>628</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate>Victoria</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>.- As the Minister for Trade and Customs <inline font-weight="bold">(Senator Keane),</inline> who is in charge of this bill, no doubt has an intimate knowledge of this subject, I should like him to tell honorable senators the difference between &#34; leg tan cream, leg tan lotion, stockingless cream, liquid hosiery, and similar preparations &#34;, mentioned in this clause, how they are used, who uses them and what is the meaning of the word &#34; unframed &#34; in paragraph <inline font-style="italic">b.</inline></para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>628</page.no>
+              <time.stamp />
+              <name.id>KE4</name.id>
+              <electorate>Victoria</electorate>
+              <party>ALP</party>
+              <role>Minister for Trade and Customs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KEANE, Richard</name>
+              <name role="display">Senator KEANE</name>
+            </talker>
+            <para>. - I am notsure just what <inline font-weight="bold">Senator Leckie</inline> means when he says that I have an intimate knowledge of this subject, but I do know that the use of these preparations has considerably eased the problem of hosiery rationing in this country. Liquid hosiery and stockingless cream are made in all sorts of colours, to suit all sorts of legs. I am informed that they are excellent, although I personally would prefer hosiery. </para>
+          </talk.start>
+          <para>Clause agreed to. </para>
+          <para>Clause 6 agreed to. </para>
+          <para>Title agreed to. </para>
+          <para>Bill reported without amendment; report adopted. </para>
+          <para>Bill read a third time. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>INVALID AND OLD-AGE PENSIONS (RECIPEOCITY WITH NEW ZEALAND) BILL 1943</title>
+        <page.no>628</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para class="block">Secondreading. </para>
+      <para>Debate resumed from the 30th June (vide page 559), on motion by <inline font-weight="bold">Senator Keane</inline> - </para>
+      <quote>
+        <para>That the bill be now read a second time. </para>
+      </quote>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>628</page.no>
+            <time.stamp />
+            <name.id>KUA</name.id>
+            <electorate>South Australia</electorate>
+            <party />
+            <role>Leader of the Opposition</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLEAY, George</name>
+            <name role="display">Senator McLEAY</name>
+          </talker>
+          <para>. - I support the bill. </para>
+        </talk.start>
+        <para>Question resolved in the affirmative. </para>
+        <para>Bill read a second time, and passed through its remaining stages without amendment or debate. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>FIGHTING SERVICES</title>
+        <page.no>628</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Repatriation and Rehabilitation</title>
+          <page.no>628</page.no>
+        </subdebateinfo>
+        <para>Debate resumed from the 25th June,. <inline font-style="italic">{vide</inline> page 365), on motion by <inline font-weight="bold">Senator Wilson</inline> - </para>
+        <quote>
+          <para>That the Senate is of opinion that the repatriation and rehabilitation of members of the fighting service will involve temporary difficulties of adjustment at the close of the war; that these difficulties will be aggravated if there is then a wholesale immediate demobilization; that the rate of demobilization should therefore be related to the availabilty of civil employment; and that to give effect to this policy no member of the fighting services should, after the termination of hostilities, be discharged (except for disciplinary or the like reasons) unless and until he has civil employment or has refused a reasonable offer of employment. </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>628</page.no>
+              <time.stamp />
+              <name.id>K7M</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLETT, Herbert</name>
+              <name role="display">Senator COLLETT</name>
+            </talker>
+            <para>. - I hope that the Senate will bear with me for a few moments whilst I make some comments on this motion which has been moved by <inline font-weight="bold">Senator Wilson,</inline> with the sincerity engendered by his knowledge of the views and needs of the men with whom he has served during the past two years. I think that the honorable senator has returned from overseas a better Australian as a result of that service, than he otherwise might have been. I feel sure, also, that, as the result of his contacts, he must be imbued with a better appreciation of what Australia means to Australians, and what service to the country implies, and the responsibilities that go with it. The purport of his motion is that adequate preparation should be made by the Government, by the Parliament, and by the country generally, to absorb most effectively the members of our fighting forces when they are released from service. The honorable senator proposes, as a primary expedient to avoid unemployment, that men should be retained in the services until they can be placed in suitable jobs. I do not agree with that. The services exist for a specific purpose and are not intended to be machines for keeping men in pay without giving them something useful to do. The Minister for Trade and Customs <inline font-weight="bold">(Senator Keane)</inline> rightly drew attention to the words of the late General <inline font-weight="bold">Sir John</inline> Monash in regard to this problem at the end of the last war. The statements made by General <inline font-weight="bold">Sir John</inline> Monash  on that occasion apply with equal force to-day. It would be very much better to make adequate preparation in this country to absorb the men of our fighting services as quickly as possible, rather than to keep them in the services, with nothing effective to do. I remind honorable senators - I am sure that the thought already must be in the minds of many members of this chamber - that the commitments of this country abroad, when hostilities cease, cannot be fully envisaged at present. If we are to be victorious, as I am sure we shall be, the peace guarantees that we shall seek will have to be enforced, and that will entail the use of many men and many machines for some considerable time. A war-weary army will not be the best machine to enforce those guarantees. We shall have to raise new forces, and in doing that we shall provide experience for the young people who are coming on to-day, which will be of great value to them in later life and a great relief to the labour market. </para>
+          </talk.start>
+          <para>The Minister made an informative statement. He said that this subject brings to public attention the phase of reconstruction policy to which the Government has been devoting a good deal of thought and attention. I know that to be a fact, because the Leader of the Opposition <inline font-weight="bold">(Senator McLeay)</inline> and I were instrumental in first launching the inquiries as to the post-war commitments of this country. Then the Minister suggested that without the increased powers proposed under the Commonwealth Powers Bill the Government will be hampered in making such arrangements. I do not agree with that. I consider that such arrangements as are needed for the effective repatriation of ex-servicemen can be made by agreement with the States. I have traversed the subject myself and I have consulted appropriate organizations on the matter, and they can see no obstacle to an effective arrangement being reached. The Minister further stated - </para>
+          <quote>
+            <para>This Government is determined that the manhood of this country shall not rot in unemployment as it did a year or two after the last war. </para>
+          </quote>
+          <para class="block">That statement is incorrect. Sixteen months after the termination of the last war only 7,000 returned soldiers were registered for employment in Australia, and as there were over 200,000 returned men, that was only the normal percentage of unemployed. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>629</page.no>
+                <time.stamp />
+                <name.id>L8E</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CAMERON, Donald</name>
+                <name role="display">Senator Cameron</name>
+              </talker>
+              <para>- Thousands were of the opinion that it was not worth while registering for employment. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>629</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator Latham</name>
+              </talker>
+              <para>- Australia was short of labour at that time. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>629</page.no>
+                <time.stamp />
+                <name.id>K7M</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLETT, Herbert</name>
+                <name role="display">Senator COLLETT</name>
+              </talker>
+              <para>- The interjection by the Minister for Aircraft Production <inline font-weight="bold">(Senator Cameron)</inline> reminds me that yesterdayI said that an Australian who goes abroad returns a better Australian. There is one thing he learns in the Navy, the Army and the Air Force, and that is that there is no place for class distinction, and certainly not for class warfare such as the Minister delights in promoting as much as possible. The Minister for Trade and Customs further stated, and I agree with him, that these projects must be carefully and imaginatively planned as part of a programme to develop our national state and to round off industrial and economic plans. That is a comprehensive statement and I commend the Minister upon it. </para>
+            </talk.start>
+          </continue>
+          <para>As to what avenues of employment will be open to ex-servicemen when they are being demobilized, I suggest that during the post-war period the time of stress after the termination of hostilities will be double the period occupied by hostilities. My theory is that for every day that has passed, or passes, between the date of the Munich Pact and the cessation of hostilities, two days will be required to regain our economic equilibrium. That is because of the shortages of reserve stocks and raw materials. When the men are discharged they will, I think, fit into the plan which the Treasurer <inline font-weight="bold">(Mr. Chifley),</inline> with a good deal of vision, has described in these words - </para>
+          <quote>
+            <para>The Australia we look forward to is very much the Australia we have always known. There were many good things in pre-war Australia which we do not want to lose. </para>
+          </quote>
+          <para class="block">The Treasurer went on to say - </para>
+          <quote>
+            <para>Upon these things we have and intend to hold we propose to build. There were some things that were bad. Those things we hope to change. That is the idea in the minds of most of the men who are abroad to-day acting as sailors, soldiers, and airmen. They saw a great deal to admire in the Old Country and much -which they would like to see in Australia, but there are many things in Australia which they do not find abroad and which they have a great affection for and want to keep. </para>
+          </quote>
+          <para class="block">That is where the reconstruction scheme, if worthy of the name, begins to become effective. </para>
+          <para>As to what employment will be available after the war, I can only point at this stage to the probability that many thousands of men will, on demobilization, revert immediately to appointments formerly held by them in business and industry, which, though shrunken, have survived the impact of war, and form an integral part of the social structure. It may be assumed, of course, that rationing will come to an end, and in this I see danger of chaos, unless restrictions are lifted gradually and prices remain under control. I repeat that there will be an absence of raw materials and reserve stocks. One can imagine the rush that there will be for essential things such as food, clothing, housing, and furnishings. All of this will involve the expansion of public utilities and services. The release of petrol will bring the motor car back on the road, thus facilitating movement and reviving many dormant towns and districts. With&#39; this one can envisage the gradual restoration of sports and amusements, including, I suppose, horse racing, and the return of semi-luxury, and luxury, trading. The subject of housing has been referred to. In the provision of homes for the people a great deal of labour will be absorbed after the war. One authority estimates that in Western Australia 6,000 homes will be required immediately the war ends, and that thereafter 4,000 houses per annum for five years will be required. In addition to requiring the expenditure of a considerable amount of capital, that work will provide a great deal of employment, because many other industries are closely associated with the building industry. The average , cost of the houses is estimated at &#163;800. </para>
+          <para>Having brought our fighting men home, and having  reclothed  and rehoused them, they will have to be fitted to take their place &#39;in commerce and industry. The Government has already taken action to provide for the vocational training of service men, and from what I have been able, to gather, the best men available have been engaged to survey the field. I have no doubt that effective plans are being laid. However, in some form or other, these men will have to pay the cost of their rehabilitation, because the various plans will be carried out chiefly with borrowed money. The obvious thing to do will be to employ the men on reproductive work in which they will produce goods which some one else wants to buy. Therein lies the catch, although I suppose that every economist will advance some solution of the problem. That leads me to refer to the Atlantic Charter which has been emphasized on many occasions as containing the basis for the ultimate solution of all our problems. The Atlantic Charter embodies the four freedoms - freedom of speech, freedom of religion, freedom from want, and freedom from fear. In my opinion, freedom from fear includes freedom from the fear of being debarred from doing a job, as well as freedom from the fear of being restricted to a 2s. meal when a meal which would cost 2s. 6d. is desired. These disabilities are experienced because one is not a member of a trade union. The Atlantic Charter should be examined calmly and with some reservations. I recently read an interesting book by a Canadian writer entitled <inline font-style="italic">The Unknown Country.</inline> The author plays with the idea of the solution of world troubles. In it he states that he spent an afternoon in Washington, and he put down his thoughts as follows: - </para>
+          <quote>
+            <para>In Washington I hear much big talk about the future - about a new North American hemispheric economy in which all our trade will be rationalized, allocated by agreement, and perfectly organized by new deal methods. </para>
+          </quote>
+          <para>That should please the Minister for Aircraft Production. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>630</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- It should please every Christian. </para>
+            </talk.start>
+          </interjection>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>630</page.no>
+                <time.stamp />
+                <name.id>KQH</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LARGE, William</name>
+                <name role="display">Senator Large</name>
+              </talker>
+              <para>- It pleased <inline font-weight="bold">Mr. Winston</inline> Churchill. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>630</page.no>
+                <time.stamp />
+                <name.id>K7M</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLETT, Herbert</name>
+                <name role="display">Senator COLLETT</name>
+              </talker>
+              <para>- The writer continued - </para>
+            </talk.start>
+          </continue>
+          <quote>
+            <para>I have heard new dealers outline a brave new world over an old fashioned . . . </para>
+          </quote>
+          <para>I am not reading from a book written by Aldous Huxley - but I have looked out the window, past the busy street, out across the grain fields of </para>
+          <para class="block">Canada, the protected industries of Ontario, the factories of the United States, the ranches which fear Canadian beef, the lumber mills that oppose even a trickle of Canadian lumber, and I have wondered. </para>
+          <para class="block">If we substitute &#34; Atlantic Charter &#34; for &#34; New Deal &#34; the moral of the story is not obscure. </para>
+          <para>The action of <inline font-weight="bold">Senator Wilson</inline> in bringing to the notice of the Senate the prospective needs of his former comrades is one that we would expect him to take. It is something which the Senate appreciates; the subject of his motion will, I am sure, receive the earnest consideration of every honorable senator. I believe that the Government will explore thoroughly the problems which will have to be faced. It is a problem with which I have had the privilege of being associated for some years. Having had close contact with ex-service men for a considerable period, I know something of their aspirations. I know, too, that they are responsive to good treatment, that they appreciate good government, and that they want to see Australia a better country than it now is. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>631</page.no>
+              <time.stamp />
+              <name.id>JTR</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DARCEY, Richard</name>
+              <name role="display">Senator DARCEY</name>
+            </talker>
+            <para>. - Honorable senators will recollect that when on a former occasion we debated the subject of preference to returned soldiers, I said that there would be no need at all for any policy of preference if the nation&#39;s credit were used for national purposes. The proposals that have already been mentioned will provid&#39;e a great volume of work in the post-war period. <inline font-weight="bold">Senator Collett</inline> has just mentioned the demand on labour and materials which a comprehensive housing programme will entail. The -big irrigation scheme visualized by <inline font-weight="bold">Dr. Bradfield,</inline> which, if proceeded with, would bring 1,000,000 acres of rich land in North Queensland into production, producing large quantities of cotton, coffee, and other products, and would provide employment for many people. Honorable senators will recall the muddle which was associated with the period following the last war. Most of the trouble arose because money for repatriation purposes was borrowed from the private hanks. No honorable senator opposite will be able to say in future that a country which raised hundreds of millions of pounds for. destructive purposes cannot raise as many millions of pounds for restoration. I have visited a number of factories recently. I have in mind particularly one in which I saw operatives making instruments of death in great numbers. Finally, I came to the diningroom, where I saw a number of women employees having a meal. I told them that it was the first room in that huge factory in which I had seen something being done to sustain life, although I had seen many rooms in which missiles of death were being manufactured. If we are to do anything effective for the soldiers who will return from the war, we must provide them with reproductive work. That means that we must plan post-war schemes now. Some time ago <inline font-weight="bold">Dr. Coombs</inline> was appointed Director of Post-war Reconstruction. I read the report in the <inline font-style="italic">Argus</inline> which referred to the appointment of that young economist, fie passed through the London School of Economics, where he obtained his doctorate of economics because he wrote a thesis on central banking. Any one who knows anything about the London School of Economics knows that it was subsidized by that rich Jew, <inline font-weight="bold">Sir John</inline> Cassells. An up-to-date idea has never emanated from that institution. It still preaches the theories of the age of scarcity, despite the fact that we are now living in the greatest age of productivity that the world has known. The cause of the war cannot be attributed to any one factor; but it is certain that the financial system, which governs our present political system, plunged us into war, and, therefore, cannot possibly give us peace. We must realize that fact before we can effectively repatriate our soldiers, or plan for post-war reconstruction. I was very pleased to read that <inline font-weight="bold">Dr. Coombs</inline> has been sent overseas. He is now out of the way. He tried to &#34; put over &#34; the ideas of the London School of Economics. Those ideas have reduced the world to poverty. What I predicted five years ago in the Senate - and I was laughed at when I did so - has now come to pass. I draw the attention of honorable senators to the great opportunities now available to us to repatriate our soldiers, provided we go the right way about the matter. A few weeks ago Professor Wadham, who was a member of the Royal Commission on the Wheat Industry, was appointed by the Government to take evidence from primary producers throughout the Commonwealth with the object of helping the Government to deal with their disabilities. On one occasion when Professor Wadham spoke to members of the Economic Society of Hobart, of which I am a member, I rose at question time and asked him if he recalled that the evidence given before the Royal Commission on the Wheat Industry was that the wheatlands of Australia were mortgaged to the private banks and financial institutions to the amount of &#163;160,000,000. When he admitted that fact, I asked him how could we expect the wheat-farmers to keep out of the hands of the banks when they incurred that debt with the price of wheat at 5s. a bushel, whereas at the time he addressed us the price was from ls. 6d. to ls. 9d. a bushel. He told the meeting that he was an agricultural expert, and not an economist. I told him that there was no necessity for him to leave Victoria in order to ascertain the cause of the difficulties of the primary producers. Those difficulties are due to one fundamental cause. I also said that if he understood the up-to-date economics of the age of plenty he would realize that prices are governed by the amount of purchasing power in the hands of the people. That is axiomatic in economics. If an extra amount of money comes into circulation, prices will inevitably rise unless they are properly controlled. Honorable senators opposite have given evidence that prices are rising, although they unjustifiably blame this Government for that fact. The cost of living commenced to rise before this Government assumed office. However, it is still rising. The point I make is that the same law applies when money is taken out of circulation at a time when the amount in circulation is just sufficient to meet the purchasing requirements of the people. The last depression, as is the case in respect of every depression, was caused by the private banks calling up overdrafts and refusing further credits, lt is an economic fact that 99 per cent, of the world&#39;s business is done on credit. Not a very great sum of money is required to carry on the present financial system. The duration of what is known as the money cycle, that is, the period from the time money is withdrawn from the bank to make purchases and the time the same money is redeposited  in the bank, is never more than a week. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>632</page.no>
+                <time.stamp />
+                <name.id>K7M</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLETT, Herbert</name>
+                <name role="display">Senator Collett</name>
+              </talker>
+              <para>- The honorable senator is blocking discussion on the motion. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>632</page.no>
+                <time.stamp />
+                <name.id>JTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DARCEY, Richard</name>
+                <name role="display">Senator DARCEY</name>
+              </talker>
+              <para>- I am dealing with the problem of repatriating our soldiers, which will involve an expenditure of millions of pounds; and I am showing how we failed to repatriate our soldiers after the last war under the present financial system. The States were obliged to write down the value of the soldiers&#39; settlements by millions of pounds, because they had borrowed the money to finance those schemes from private banks, and the soldier settlers were unable to carry the &#39; burden of interest thus incurred. Taxes are imposed to pay the cost of government, and all money borrowed to repatriate our soldiers represents part of the cost of government. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>632</page.no>
+                <time.stamp />
+                <name.id>KOJ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HAYS, Herbert</name>
+                <name role="display">Senator Herbert Hays</name>
+              </talker>
+              <para>- How would our borrowings affect the overseas price of wheat? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>632</page.no>
+                <time.stamp />
+                <name.id>JTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DARCEY, Richard</name>
+                <name role="display">Senator DARCEY</name>
+              </talker>
+              <para>- I put that question to Professor Wadham. He said that the overseas price was the world&#39;s parity; but I wanted to know what brought down the price to that figure. I supplied the answer by saying that it was caused by world economics. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>632</page.no>
+                <time.stamp />
+                <name.id>KOJ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HAYS, Herbert</name>
+                <name role="display">Senator Herbert Hays</name>
+              </talker>
+              <para>- Not the system in Australia. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>632</page.no>
+                <time.stamp />
+                <name.id>JTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DARCEY, Richard</name>
+                <name role="display">Senator DARCEY</name>
+              </talker>
+              <para>- Nothing that happens in Australia is of much concern in world economics, because our parliaments are governed by the banking institutions, and they receive their instructions from Wall-street and London. We must repatriate our soldiers after this war. Until we realize the economics of the primary producers we shall never be able to do anything for our soldiers in that direction. I asked Professor Wadham why the Canadian price for wheat dropped from $1 to 36 cents, and he merely replied that he knew nothing about economics. I then told him that the Government was wasting money in sending him around the country on the inquiry on which he was then engaged. I told him that the problem was financial, and not agricultural, because finance dominates the economics of the primary producers. Until we realize the part played by finance in world economics we shall not obtain intelligent government. How can men who know nothing whatever about the principles of political economy place democratic measures on our statute-book? George Bernard Shaw defined political economy as &#34; the art of spending the national income in such a way as to bring happiness and prosperity to the greatest number of people &#34;. Political economy deals with the nature of wealth, and its production and distribution; and its production and distribution must be in harmony, because the only thing that justifies production is consumption and the only way you can get consumption is by providing effective means for the purchase of goods. If sufficient purchasing power is not made available, goods will be left to rot or will be destroyed even though many people may be starving. During the last depression huge quantities of food were destroyed although thousands of people were starving. That has been the weakness of our universities for the last 50 years, and I have seen a lot of it in Hobart. Until we can get men who are trained in the art of government, and are in this chamber for what they can put into public life instead of what they can get out of it, there will be no improvement. The flower of the world&#39;s youth is being slaughtered on land and sea and in the air because of the ineptitude, corruption and want of knowledge of the various parliaments of the world. No wonder dictators point with scorn to democratic governments. What has happened in the last three days? We have debated a Supply Bill, which it was well known had to be passed, yet senator after senator, hour- after hour, carried on the debate, and I sat here without making an interjection whilst not an inch of new ground was broken. As I have said before, the worst-managed business in Australia is the business of governing Australia. The reason is that members will not study the subject of finance or listen to the man who has studied it. Repatriating the soldiers, finding them homes and putting them into work can be done only in one way, which is by the use of national credit. That credit is available, as was pointed out by the royal commission appointed by the Lyons Government, of which the right honorable member for Kooyong <inline font-weight="bold">(Mr. Menzies)</inline> was a member. It has never been denied in this chamber, because no one has been game to stand up and say that it is wrong. I have quoted the royal commission and the greatest authorities in the world in regard to finance, but nothing has come of it. We still use some national credit, &#39; but not nearly enough. <inline font-weight="bold">Senator McBride</inline> spoke for nearly an hour recently, but he was hopelessly out of it, because he knows no more about banking and finance than the man in the moon. After speaking, he left the chamber, as he has done to-day, because he does not want to hear the truth. I still hope that my five years&#39; work in this chamber will have some result. I have travelled as far north as Cairns and spoken in scores of towns and made hundreds of converts. I have been able, with the help of those associated with me, to get motions passed in five parliaments out of six supporting every word that I have said since I entered Parliament. When such a motion was passed by the local branch of the Labour party it was submitted to the State conference, proposed by the Treasurer of the State and supported by another Minister, and agreed to unanimously. The conference allowed me to speak for a quarter of an hour, and I made a number of converts. No one can question the truth of my contention, and no one in this chamber has been able in five years to prove me wrong. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>633</page.no>
+                <time.stamp />
+                <name.id>KOJ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HAYS, Herbert</name>
+                <name role="display">Senator Herbert Hays</name>
+              </talker>
+              <para>- Why does not the Government which the honorable senator supports adopt his proposal? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>633</page.no>
+                <time.stamp />
+                <name.id>JTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DARCEY, Richard</name>
+                <name role="display">Senator DARCEY</name>
+              </talker>
+              <para>- Why was it not adopted by the previous Government? I did not intend to answer interjections, but I like the honorable senator, because he represents Tasmania and is fairminded. Still, as I have told him, one does not learn economics on the farm. I pointed out on one occasion to </para>
+            </talk.start>
+          </continue>
+          <para class="block">Professor Wadham that you can grow a ton of potatoes or a bushel of wheat, but you cannot grow the money to buy them. When the Bruce-Page Government brought in a Commonwealth bank bill in 1925, it bulldozed the Parliament and got &#163;30,000,000 worth of notes printed which it lodged with the private banks, with the right to draw against them. When the notes went into the vaults of the banks, they were able to lend against their value and they used that &#163;30,000,000 worth of credit which had been placed with them by the Bruce-Page Government to buy Commonwealth bonds. It was the people&#39;s own money, but the private banks did not pay a penny in interest for it, while the Government had to pay 3&#163; per cent. That was the biggest swindle ever perpetrated on the people of Australia, but the act was passed and <inline font-weight="bold">Senator Herbert</inline> Hays supported the Government that did it, simply because he did not know any better. The whole weakness of parliamentary government is due to the one principal fact, that no political party asks any aspirant for a seat in Parliament what he knows about his job if he gets it. </para>
+          <para>We are borrowing hundreds of millions of pounds, year after year, for which the taxpayers will eventually have to foot the bill. I am showing honorable senators a way to reduce the cost of government by millions of pounds. Why do they not adopt it? If I am wrong, why do they not tell me so? I am thinking of our men overseas risking their lives every day in the air, on the land and on the sea. They will have to come back and pay this war bill. Because of our rotten system of finance, the &#34;rats of Tobruk &#34; were charged income tax while they were away. All those men who are getting above 8s. or 9s. a day have to pay income tax. Why should I charge myself for changing my money from one pocket to another? Recently 1 heard <inline font-weight="bold">Mr. Anderson,</inline> of Sydney, the great prophet of new political ideas, speak. He thought that he would reduce the cost of government by doing away with State Parliaments. I told him that it cost the people of Australia under 2s. a head to keep all these Parliaments going, with the judiciary thrown in, whereas before this war we paid in interest bills &#163;5 8s. 6d. a head. That was simply to meet the interest on the cost of the last war. Before this war started we had paid more than &#163;400,000,000 in interest on the last war. To-day many hundreds of business people are being ruined because, owing to restrictions or to shortages, they cannot buy stocks. An individual cannot buy or build a house without authority. I know of returned soldiers of this war who are unable to obtain houses. In fact, I sold a house to a returned soldier in Hobart last October, and I have not yet been able to get a clearance. The housing shortage is due, in some measure, to the fact that this Government and its immediate predecessors have been obsessed with the idea that every available &#163;1 in this country is required for the war effort. Some time ago a school in a certain town in New South Wales was burnt down, and the Government would npt grant permission for the premises to be rebuilt, with the result that the children are now housed in a tin shed; but when a picture theatre was burnt down in Western Australia approximately eighteen months ago, authority to rebuild was given immediately, simply because, owing to the entertainments tax, picture shows are revenueproducing undertakings. Our present financial policy cannot continue. As Demosthenes told the decadent Greeks, a policy which has led from success to failure cannot possibly be expected to lead from failure back to success. Unfortunately, all honorable senators and members of the House of Representatives refuse to abandon their orthodox financial theories in regard to post-war reconstruction, housing, repatriation and so on; but I am not discouraged, and I shall persist in my endeavours. I did not come to Canberra to get a job; I came here to expose the swindle associated with the private banks, but I am up against conservative minds who represent the private financial institutions in this country. Every suggestion for improved finance that I have made in this chamber has been laughed at or ignored by honorable senators opposite, who because they have a slender majority in this chamber, believe that they are entitled to hold up the business of the Government. I cannot see how the parliamentary system as it is carried on in Canberra will survive the war- </para>
+          <para>The  DEPUTY PRESIDENT  Order! This is not a discussion on parliamentary institutions. I ask the honorable senator to confine his remarks to the motion before the Chair. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>635</page.no>
+                <time.stamp />
+                <name.id>JTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DARCEY, Richard</name>
+                <name role="display">Senator DARCEY</name>
+              </talker>
+              <para>- I shall conclude by asking honorable &#39; senators to give serious consideration to what I have said. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>635</page.no>
+                <time.stamp />
+                <name.id>KOJ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HAYS, Herbert</name>
+                <name role="display">Senator Herbert Hays</name>
+              </talker>
+              <para>-  Why not ask the Government to do that? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>635</page.no>
+                <time.stamp />
+                <name.id>JTR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">DARCEY, Richard</name>
+                <name role="display">Senator DARCEY</name>
+              </talker>
+              <para>- I have made that request to several governments. I am not responsible for what this Government does, or for its policy. The debate on the Supply Bill in this chamber was characterized by a series of vicious personal attacks on various political leaders. What does it matter what somebody said in  1940  or  1941?  Why not get down to the fundamental difficulties of the worldtoday and deal with them as best we can? Again I urge honorable senators to consider the financial morass into which this country is drifting. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>635</page.no>
+              <time.stamp />
+              <name.id>KOJ</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYS, Herbert</name>
+              <name role="display">Senator HERBERT HAYS</name>
+            </talker>
+            <para>. - <inline font-weight="bold">Senator Wilson</inline> is to be commended for moving the motion before the Senate, to which I am sure he has given considerable thought and attention. The problem of repatriation is like the problem of unemployment, which comes in cycles in this country as in every country. I suggest that in planning the repatriation of members of our fighting forces we should not allow our enthusiasm to override sound judgment and discretion. There is a general disposition amongst all honorable senators, and the people of this country, to give the fullest recognition to what our soldiers, sailors and airmen have done, and, although, in my opinion, tangible evidence of our appreciation should not be confined entirely to repatriation benefits, I contend that the men who have gone overseas to fight for Australia are true citizens of this country; they did not go away expecting some great reward upon their return; they were prepared to fight to preserve their country for themselves, their loved ones, and for succeeding generations of Australians. History shows that it is always the young manhood of a country that fights its battles, whether the cause be just or unjust. Let us be realists in this matter and remember that we are dealing with a problem involving the employment or re-employment of hundreds of thousands of men. It will not be possible in the post-war period to build a wall around this country and to undertake plans and schemes affecting our own people exclusively. <inline font-weight="bold">Senator Wilson</inline> has indicated one way in which he believes the problem of unemployment upon demobilization may be tackled. We should not be carping critics and say that the honorable senator is wrong, merely because his ideas may not correspond with ours. Let us be realists and face the position which we know is bound to arise. Hundreds of millions of pounds have been expended upon works which. are a definite liability, but1 we have been compelled to incur that expenditure because the members of the services are fighting for us and for those -who will come after us. We have no right to assume that those men will expect special favours on their return to Australia. They will merely desire to be treated as citizens who are prepared to resume the responsibilities of citizenship. It would be highly improper, for political or any other motives, to make specially attractive offers to them. We can visualize what the position of Australia will be after the war. We have accepted the basic principles of the Atlantic Charter, and under it we cannot live to ourselves. Therefore, the whole economy of this country may, willy-nilly, undergo great changes. Are we in Australia to be the only people who shall say what the position shall be with regard to our exports? If we are partners with our Allies in the great struggle for the preservation of democracy, we shall have to be partners in peace. Much will depend upon what other nations which are allied to us have to say. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>635</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>-  The motion deals only with the period of demobilization. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>635</page.no>
+                <time.stamp />
+                <name.id>KOJ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HAYS, Herbert</name>
+                <name role="display">Senator HERBERT HAYS</name>
+              </talker>
+              <para>- But reference has been made to various industries. In examining the position wc note first a great scarcity of the commodities ordinarily needed by the people. Huge quantities of food, clothing and  other manufactured goods will he required immediately after the war, but, as soon as the demands for the first two or three years have been met, what is to happen to our primary producers if the saturation point has been reached in Australia? It will be necessary for us to find markets in other parts of the world. </para>
+            </talk.start>
+          </continue>
+          <para>We should be careful that the returned men are not attracted from the callings which they followed prior to the war. We should induce them as far as possible to return to their former occupations, and they should not suffer through the promotion of others who have not gone overseas. They should be placed at no disadvantage as the result of their war service. I give way to nobody in my desire to &#39;see secondary industries established in this country, but for many years ahead the keystone of Australia&#39;s progress must be successful primary production. In the forefront of our policy for post-war reconstruction we must place primary production. Australia has great opportunities for the development of the country by means of irrigation schemes. Queensland, without being overcrowded, could absorb the whole of the present population of the Commonwealth, under a properly planned programme of development. One might almost say the same of New South Wales. The possibilities of primary production in Australia have never been fully recognized. This country could do much to supply the needs of the starving people in Europe and Asia. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>636</page.no>
+                <time.stamp />
+                <name.id>JQY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COURTICE, Benjamin</name>
+                <name role="display">Senator Courtice</name>
+              </talker>
+              <para>- Other countries will want to do that. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>636</page.no>
+                <time.stamp />
+                <name.id>KOJ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HAYS, Herbert</name>
+                <name role="display">Senator HERBERT HAYS</name>
+              </talker>
+              <para>- We have such a fertile land and such a favorable climate that we can compete with other countries in supplying foodstuffs and raw materials needed overseas. The best way to ease our burden of taxation and meet our financial commitments is to develop as far as possible our primary industries, and send our surplus produce overseas. The great manufacturing countries of the world will be looking for markets for their goods, and we shall need to export our own primary products in order to pay for the manufactured goods imported. </para>
+            </talk.start>
+          </continue>
+          <para>The sugar industry is well planned and highly efficient, and I see no reason why other industries which have been established in Australia should not be similarly organized. This is not a parly matter and I have no desire to see political capital made out of it. The problem requires the undivided attention of all parties, so that the members of the fighting services may be successfully absorbed in civil life after the war. All that they will expect is to be restored to such positions as they would have occupied had they not joined the defence forces. We owe something to them. They should not be placed at any disadvantage compared with others who remain in Australia. I commend the honorable senator for bringing, the matter forward. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>636</page.no>
+              <time.stamp />
+              <name.id>KBH</name.id>
+              <electorate>South Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">WILSON, Keith Cameron</name>
+              <name role="display">Senator WILSON</name>
+            </talker>
+            <para>. - <inline font-style="italic">in reply</inline> - I wish to express my appreciation of the valuable contribution to the debate by the Minister for Trade and Customs <inline font-weight="bold">(Senator Keane).</inline> It is pleasing to know that the motion has the support of not only Opposition senators, but also the Government and its supporters. I assure honorable senators that the minds of our fighting men are troubled about their future. They have never doubted their ability to win the war; they know that they will win it, and they do not complain or grizzle about their conditions. But they are troubled about their future, and I am sure that the knowledge that the Senate has expressed a determination that, after the cessation of hostilities, they will not simply be discharged from the forces and left to roam the streets looking for work, will be a great relief to them. At the time of their discharge they will have done the job that they were asked to do, and I have no doubt that all sections of the community will agree that the job has been done well. The problem of reconstruction after the war will be a difficult one, and a period of transition will be inevitable. During that period the knowledge that this motion has been carried will be of value to our fighting men. </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>636</page.no>
+                <time.stamp />
+                <name.id>KOJ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HAYS, Herbert</name>
+                <name role="display">Senator Herbert Hays</name>
+              </talker>
+              <para>- That transition period will affect munitions workers and others also. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>636</page.no>
+                <time.stamp />
+                <name.id>KBH</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WILSON, Keith Cameron</name>
+                <name role="display">Senator WILSON</name>
+              </talker>
+              <para>- That is true; but they will have the advantage of having learned a trade, whereas the young soldier, who had no opportunity to learn a trade or engage in an occupation after leaving school, will have learned nothing but how to fight. He will not be fitted for civil life, and so, while still in the fighting services, he must be trained for the job that he is to fill in the post-war period. Whether one, two, three, or more years elapse before he engages in civil employment, the soldier will eventually go straight out of the forces into a job. In that way he will not suffer the disadvantage that he would certainly suffer if effect were not given to something in the nature of this motion. We do not want men to leave the armed forces untrained and unskilled, having only a knowledge of fighting and matters incidental to fighting. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>637</page.no>
+                <time.stamp />
+                <name.id>KOJ</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">HAYS, Herbert</name>
+                <name role="display">Senator Herbert Hays</name>
+              </talker>
+              <para>- Australian men are most adaptable. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>637</page.no>
+                <time.stamp />
+                <name.id>KBH</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WILSON, Keith Cameron</name>
+                <name role="display">Senator WILSON</name>
+              </talker>
+              <para>- That is so; but even well-disciplined men may become demoralized after months of unemployment. We all know the effect upon the morale of the young men who were unable to find employment during the depression years 1929 to 1933. The statement prepared by the Minister for Trade and Customs <inline font-weight="bold">(Senator Keane)</inline> is a valuable contribution to the debate. Generally, it supports my motion. However, I wish to refer to two points raised by the Minister. The first is that, before the Government could implement the plan I propose, an alteration of the Constitution would be necessary. The adoption of this plan does not involve any alteration of the Constitution. As I pointed out in my opening speech, the proposal embodied in my motion can be carried out by the Commonwealth under the Constitution as it now stands. Therefore, I trust that the Government will not draw red herrings across the trail. My motion expresses a definite objective, and Parliament now possesses the power to give effect to that objective. Therefore, I trust that the Government will not waste any time before it introduces a bill to give effect to the motion. </para>
+            </talk.start>
+          </continue>
+          <para>The Minister also mentioned that the Government desired to extend the proposal set out in the motion to persons other than members of the fighting ser vices. Whilst I appreciate the urgent need to provide for such persons as well as members of the fighting services, I again emphasize the specific objective of the motion. I have indicated means whereby that objective can be obtained. Members of the fighting services are already trained, disciplined, fed and clothed. They are now an organized section, and while remaining in the services they can be trained for the civilian occupations which they intend to enter. Therefore, the Government should not delay the introduction of a measure to give effect to the motion merely because it is of opinion that a similar provision should be made in respect of persons who are not members of the fighting services. Provision can be made for the latter under separate legislation, either at the time legislation is enacted to give effect specifically to my motion, or subsequently. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>637</page.no>
+                <time.stamp />
+                <name.id>JQY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COURTICE, Benjamin</name>
+                <name role="display">Senator Courtice</name>
+              </talker>
+              <para>- Will the soldier be satisfied if his brother is out of a job? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>637</page.no>
+                <time.stamp />
+                <name.id>KBH</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">WILSON, Keith Cameron</name>
+                <name role="display">Senator WILSON</name>
+              </talker>
+              <para>- No; but very often the apple cart is upset by placing too much in it. I emphasize that we have available at the moment all the requisite machinery to prevent members of the fighting services from becoming unemployed, and to ensure that they will be trained for the avocations in civilian life which they decide to follow. </para>
+            </talk.start>
+          </continue>
+          <para>
+            <inline font-weight="bold">Senator Collett</inline>made a very valuable contribution to the debate. I am sure that honorable senators generally hu ve benefited from his remarks. <inline font-weight="bold">Senator Herbert</inline> Hays mentioned the possibility that we might reach saturation point in the production of certain commodities. I do not think that it is possible to reach saturation point in the production of any essential commodity, because the needs of the people are unlimited. In the past, so-called surpluses of certain commodities have occurred, but such surpluses were purely nominal, because whilst there was an over-production of a particular commodity in certain countries, other countries were experiencing a shortage of it. For example, we now have a surplus of wheat in Australia, whilst countries in the Middle East, from which I have just returned, are experiencing a shortage of wheat. While </para>
+          <para class="block">Australian producers are being urged to grow less wheat and more cotton, the Egyptian Government is asking its farmers to plough up their cotton lands in order to grow more wheat. So long as we have the requisite raw material and man-power, there is no limit to our power to produce and to distribute the goods we produce. <inline font-weight="bold">Senator Herbert</inline> Hays also remarked that I omitted to refer to primary industries. I remind him that one of the industries in which I suggested we can provide employment for our soldiers after the cessation of hostilities is afforestation. The list of industries I gave was in no sense exhaustive. I merely cited a number of industries, making particular reference to industries not yet established in this country. I did so in order to indicate that it is a practical proposition to provide that these men shall not be discharged until suitable work has been found for them., and to show that we can establish certain industries immediately after the war. </para>
+          <para>While this debate was in progress, I received a letter from Sydney informing me that the parliament of the Union of South Africa has just passed a bill which provides that all members of the fighting services in that country, male and female, shall be retained in the services on full pay until suitable employment is found for them. While we have been debating this matter, the parliament of our sister dominion has enacted legislation almost identical with that which I now urge the Government to pass in order to give effect to my motion. I trust that the motion will be carried unanimously, and that the Government will give legislative effect to it at the earliest possible moment. </para>
+          <para>Question resolved in the affirmative. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SUPPLY BILL (No. 1) 1943-44</title>
+        <page.no>638</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Assent reported. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SOCIAL SECURITY COMMITTEE</title>
+        <page.no>638</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>638</page.no>
+            <time.stamp />
+            <name.id>JQP</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COOPER, Walter</name>
+            <name role="display">Senator COOPER</name>
+          </talker>
+          <para>- I present the sixth interim report of the Social Security Committee, including the report of the Medical Survey Sub-committee. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>NEW BUSINESS AFTER 10.30 P.M</title>
+        <page.no>638</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator Collings)</inline> proposed - </para>
+      <quote>
+        <para>That Standing Order No. 68 be suspended to enable new business to be commenced after 10.30 p.m. this day. </para>
+      </quote>
+      <para>The <inline font-weight="bold">deputy president (Senator Brown).</inline> - There being an absolute majority of the whole number of senators present, and no dissentient voice, the question is resolved in the affirmative. death of the honorable john McNeill. </para>
+      <para>The  deputy president.-  I have received from <inline font-weight="bold">Mrs. John</inline> McNeill a letter of thanks for the resolution of sympathy and condolence passed by the Senate on the occasion of the death of the Honorable John McNeill. </para>
+      <para class="block">
+        <inline font-style="italic">Sitting suspended from 8.9 to 10.15 p.m.</inline>dairying industry ASSISTANCE BILL 1943. </para>
+      <para>Bill received from the House of Representatives. </para>
+      <para>Standing and Sessional Orders suspended. </para>
+      <para>Bill (on motion by <inline font-weight="bold">Senator Fraser)</inline> read a first time. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>638</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>638</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate>Western Australia</electorate>
+              <party>ALP</party>
+              <role>Minister for External Territories</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator FRASER</name>
+            </talker>
+            <para>.- I move- </para>
+          </talk.start>
+          <quote>
+            <para>That the bill be now read a second time. </para>
+          </quote>
+          <para class="block">As I understand that this measure will not be opposed I ask leave to incorporate my second-reading speech in <inline font-style="italic">Hansard.</inline></para>
+          <para class="block">Leave granted. </para>
+          <para>The purpose of this bill is to give effect to the decision of the Commonwealth Government to grant an increased subsidy to the dairying industry. Honorable senators are aware of the previous decision of the Commonwealth Government which was embodied in the Dairying Industry Assistance Act 1942. Under that act, a subsidy at the rate of &#163;2,000,000 annually was granted, and an amount of &#163;1,500,000 was appropriated in respect of the period from the 1st October, 1942, to the 30th June, 1943. In accordance with the recommendations of the Tariff Board, the amount so appropriated has been distributed under the direction of the Commonwealth Dairy Produce Equalization Committee Limited. The recent decision of the Government was that the subsidy should be increased from &#163;2,000,000 per annum to &#163;6,500,000 per annum, the increase to be made retrospective to the 1st April, 1943. </para>
+          <para>It will be recalled by honorable senators that the original subsidy was in the nature of a tentative arrangement only pending the determination of production costs within the industry. These costs in tum could only be assessed on the basis of wages paid to employees. In the original act provision was made for an approach by the industry to the Commonwealth Court of. Conciliation and Arbitration in regard to wage rates, and a consent award has now been determined which will operate as from the 1st July, 1943. It will be realized that wages constitute a material factor in production costs within this industry, but on the other hand the number of employees is relatively small. It has been estimated that not more than 10 per cent, of the dairy-farmers of Australia employ labour, and in this connexion I would point out that the determination of a wage rate, and the fixation of production costs of various dairy products, will therefore benefit the industry considerably, but more particularly the great hulk of the producers who do not employ labour. </para>
+          <para>The decision of the Commonwealth Government to subsidize the industry was based on two factors, the first of which has already been mentioned. The second is that the subsidy, in effect, takes the place of a price increase to the consuming population of Australia. In the normal course, Australia has a surplus of butter which has been exported to the United Kingdom under contract. The contract prices for both butter and cheese are considerably lower than local consumption prices and an equalization scheme has operated within the industry by which returns to factories, and therefore to producers, have been equalized on the basis of the proportions of sales to the local market and for export. The present subsidy will materially assist the position in that regard. In the representations which were made to the Com monwealth Government, through the Commonwealth Prices Commissioner, it was claimed that an adequate return to the producers of Australia would have to be on the basis of ls. 6d. per lb. return to the producer for butter. It has been estimated that the subsidy at the rate of &#163;6,500,000 per annum would ensure a price of not less than ls.. 5d. per lb., but the average price would probably be between ls. 5d. and ls. 6d. per lb.. It will be noted that the bill provides that the payment is not confined to dairyfarmers whose milk is manufactured into butter or cheese, but has been extended to condensed milk, dried milk powder other than skim milk powder, and concentrated milk. Producers of the principal dairy products which are so urgently needed in time of war will therefore receive by way of the subsidy an adequate reward for their labours. Considerable thought and careful attention have been given to the amount necessary to cover the products mentioned, and I am confident that the annual amount which it is intended to make available to the industry by appropriation by this Parliament will suffice to cover all commitments. It will be noted that the production year will cover the period from the 1st April to the 31st March. The subsidy of &#163;6,500,000 per annum will operate as from the 1st April, 1943, and it is intended that it will cover production on an annual basis during the period from the 1st April, 1943, to the 30th June, 1944. Payment will be made through the Commonwealth Dairy Produce Equalization Committee Limited, which will be requested to make recommendations through the Commonwealth Prices Commissioner regarding the method and manner in which the subsidy will be allocated and distributed to the industry. Most honorable senators are aware of the vitally important part which this committee plays in the affairs of the dairying industry of Australia, and it appears to&#39; the Government that it should appeal in the first instance to this body regarding the manner in which the funds appropriated by this Parliament should be distributed to the industry. The Commonwealth Prices Commissioner has been responsible for the negotiations with the industry regarding the payment of a subsidy in lieu of a price increase. In the normal way it is suggested that recommendations regarding distribution of the subsidy should be made to him and through him to the Minister responsible for the payment of the moneys appropriated by Parliament. </para>
+          <para>There is a further provision covering the approach by the industry, or by those engaged in the industry, to the Commonwealth Court of Conciliation and Arbitration for an adjustment of wage rates and conditions of employment. Provision will be made by regulation under the act for the setting up of a tribunal to deal with disputes which may arise from time to time between principals and sharefarmers relative to the distribution of the subsidy. This is important as it is considered that provision should be made by which principals and share-farmers receive equitable treatment. It is intended that the tribunal should have the requisite power to call evidence, to examine witnesses on oath, to investigate any documents, and so determine the relative merits of the dispute. </para>
+          <para>The bill provides for the promulgation of further regulations which will cover the machinery measures necessary in connexion with the distribution of the subsidy which, as previously mentioned, will be undertaken by the Commonwealth Dairy Produce Equalization Committee Limited in association with the equalization committees operating in South Australia and Western Australia. In considering the bill generally, I would suggest to honorable senators that they give consideration to the action which has already been taken by the Commonwealth Government to ration butter to the consuming population of Australia in order that additional quantities will be available for export to the United Kingdom. As honorable senators are aware, the contract prices of butter and cheese sold to Great Britain are very much less than the prices approved by the Commonwealth Prices Commissioner for local consumption. In normal times this price disparity has been adjusted to producers by means of the equalization scheme, and this has continued since the original contract with the British Ministry of Food was entered into shortly after the outbreak of war in 1939. </para>
+          <para>The decision of the Commonwealth Government to grant the present subsidy was influenced by the fact that it was necessary to compensate the industry in some way for the higher production costs which have occurred. Various increases of prices for both butter and cheese have been secured for the industry, first by increased prices for local consumption, and secondly by adjustments of the contract rates, but these have not been considered adequate in view of the steadily increasing costs of production in Australia. The present subsidy will not only adjust the position from the point of view of Australian production, but will also compensate the industry in respect of that portion of its production which is surplus to Australian requirements and is exported, also that proportion of its production which in the normal course would have received the local consumption price but, because of the institution of butter rationing, will now be exported to Great Britain. It will be seen, therefore, that the present subsidy serves a threefold purpose. First, it adjusts production costs; secondly, it recompenses the industry for the lower cost of its exportable surplus to the United Kingdom and at the same time meets the loss occasioned by rationing; and thirdly, it places the industry on a sound financial basis and should bring about that stimulus to production which is so urgently needed. Honorable senators will agree that it is our duty not only to ensure that the civilian population in Australia receives an adequate supply of dairy produce, but that the people of the United Kingdom, who are rationed to the small quantity of 2 oz. of butter perperson per week, are assured that they will continue to receive that minimum quantity and, if possible, an increased allowance. Australia has been asked to make every effort to ensure continuity of supplies to the United Kingdom. This bill, which will help to achieve that objective, is commended to honorable senators. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>640</page.no>
+              <time.stamp />
+              <name.id>KOF</name.id>
+              <electorate>TASMANIA</electorate>
+              <party>NAT; UAP from 1931; LP from 1944</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HAYES, John</name>
+              <name role="display">Senator J B HAYES</name>
+            </talker>
+            <para>. - I welcome this bill as it will give to the dairying industry &#163;6,500,000 by way of subsidy, but I do not think that it represents the correct approach to the problem. Every one knows that dairying is hard, exacting work and involves a large capital outlay. Although this subsidy will do something towards improving the remuneration of the dairyfarmer, with the price of butter at its present figure, he still will be unable, after paying wages to his employees, to receive an adequate return for his own labour and that of his family. Especially in Tasmania, a lot of dairying is carried on by small farmers with the assistance of their wives and families. I have always held that butter should be sold at a price that would enable dairy-farmers, who work not five days a week but seven days, to secure a remuneration comparable to that of the industrial workers. To do that the price of butter would have to be fixed at not less than 2s. per lb. Butter is a cheap wholesome food, and I am afraid that, despite measures such as this, production will decrease. Already farmers are finding it hard to make ends meet and are selling their stock with the result that the production of butter in this country, instead of rising, as it should be, is falling. I received a letter recently from <inline font-weight="bold">Mr. J.</inline> Walker, the  chairman  of the Flinders Island branch of the Tasmanian Producers Organization, in the following terms: - </para>
+          </talk.start>
+          <quote>
+            <para>The Flinders Island branch of the Tasmanian Producers Organization protests against the Federal Government&#39;s action, which has placed the dairying industry in the disastrous position of having to pay the award rate of wages without receiving an adequate price for butter-fat, to cover the cost of production. </para>
+            <para>We wish to make it clear that we welcome the wages award, but farmers cannot continue dairying unless they receive a minimum price of 2s. per lb. for butter-fat on the present basic cost of production. </para>
+            <para>The restricted supply of superphosphate, labour shortage, and long hours, have already forced many farmers to give up dairying, and now the proposed subsidy and award will have the very serious effect of curtailing production still further, which to-day is a national calamity. </para>
+            <para>The retail price of milk in Launoestnn is 31/2. per pint, or 2s. 4d. per gallon; it takes 21/2 gallons of milk, approximately, to manufacture 1 lb. of butter, equivalent to 5s.10d. per lb. </para>
+            <para>Surely it is not unreasonable for the consumer to pay 2s. 3d. per lb. for butter. </para>
+            <para>The Federal Government&#39;s &#163;6,500,000 subsidy, which sounds so impressive, works out at about 31/2 id. per lb. on the butter-fat, and will probably cost thousands of pounds to distribute. </para>
+          </quote>
+          <para>That letter expresses the position very clearly. It would require an immense subsidy to make dairying pay, and that must be the goal. Dairy-farmers have to buy expensive land; only the best land can be used for dairying purposes. In addition, stock costs a lot of money and depreciates substantially in value, and everything that is required on a dairy farm is increasing in price. I repeat that while I welcome this increased subsidy I do not think that it goes far enough, and it does not tackle the problem in the right way. I urge that the Government, if returned to office at the forthcoming general elections, should re-examine this matter with a view to taking action along the lines I have suggested, because this subsidy, large as it is, will not have the effect that the Government seeks. </para>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time, and passed through its remaining stages without amendment or debate. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>NATIONAL SECURITY BILL 1943</title>
+        <page.no>641</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill received from the House of Representatives. </para>
+      <para>Standing and Sessional Orders suspended. </para>
+      <para>Bill (on motion by <inline font-weight="bold">Senator Ashley)</inline> read a first time. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>641</page.no>
+        </subdebateinfo>
+        <para>
+          <inline font-weight="bold">Senator ASHLEY</inline>(New South Wales - </para>
+        <para>Postmaster-General) &#91;10.25&#93;. - I move - </para>
+        <quote>
+          <para>That the bill be now read a second time. </para>
+        </quote>
+        <para>As I understand that this measure will not be opposed, I ask leave to incorporate my second-reading speech in <inline font-style="italic">Hansard.</inline></para>
+        <para>Leave granted. </para>
+        <para>In view of the decision of the High Court in the case of <inline font-style="italic">Peacock v. The Newtown, Marrickville and GeneralCooperative Building Society No.</inline> 4 <inline font-style="italic">Limited,</inline> of Sydney, remedial action by Parliament is necessary. The High Court was of opinion that the adjustment of contracts in the circumstances provided for in the National Security (Contracts Adjustment) Regulations was within the defence power of the Commonwealth, but that the National Security Act, in its present terms, does not, on its true construction, authorize the GovernorGeneral to make regulations vesting federal jurisdiction in State courts. The majority of the court indicated that it was competent for Parliament to authorize the Governor-General to make such regulations by a specific provision to that effect. </para>
+        <para>As a result of this decision, doubt is felt as to the validity of a number of regulations made under the National Security Act, and it would appear that various judgments, decisions, orders, determinations, directions and other acts and things which have been given, made or done by the courts are unenforceable, and that the protection sought to be afforded by the regulations does not exist. </para>
+        <para>The regulations, now considered to be of doubtful validity, were, in some cases, promulgated by the Menzies Government, and, in others, by the present Ministry. Of regulations made by our predecessors in office I may cite the National Security (War Service Moratorium) Regulations the National Security (Debtors&#39; Relief) Regulations, which are similar in principle to the National Security (Contracts Adjustment) Regulations and the National Security (Supply of Goods) Regulations, which, it may be noted, were made in 1939. The principal regulations made by this Government which are affected are the National Security (Contracts Adjustment) Regulations and the National Security (Coal Control) Regulations. </para>
+        <para>I do not think that I need emphasize the importance of permitting the GovernorGeneral to invest State courts with federal, jurisdiction in the many new matters which may arise under national security regulations. The machinery for carrying out a policy is often inseparable from the policy itself. Prior to the High Court&#39;s recent decision, nobody realized that the Governor-General lacked power in this regard. I should add that in consequence of the High Court&#39;s judgment there are certain other powers which the Governor-General has hitherto been assumed to possess, but which he will not be able to exercise unless specially authorized. I mention in particular the conferring of original jurisdiction on the High Count in matters arising under the regulations, and the definition of the jurisdiction of federal courts other than the High Court. The bill makes provision for vesting those powers also. Honorable senators will notice, however, that no power is given to the Governor-General to make regulations creating new federal courts. </para>
+        <para>Honorable senators will observe that the three powers which I have just mentioned are specified in clause 3 of the bill. These powers are necessary because in the regulations to which I have referred there are provisions conferring original jurisdiction on the High Court; provisions defining the jurisdiction of some federal courts and provisions investing State courts with federal jurisdiction. Although only the last-mentioned provisions were considered in Peacock&#39;s case, it is clear that the principle enunciated by the High Court applies to the other two provisions. It is necessary, therefore, to deal with all three. </para>
+        <para>The bill contains provision validating existing regulations and giving them future effect as if made under the National Security Act as amended by this bill. It is necessary also to validate judgments, declarations, orders and so forth given by virtue of the powers which the regulations purported to confer. </para>
+        <para>From what I have said, honorable senators will appreciate that, if action is not taken to remove the difficulties created by the decision of the High Court in Peacock&#39;s case, grave hardship is likely to be suffered by many people, and many difficulties of an economic or industrial character are likely to be created. It is essential, therefore, that as far as practicable this Parliament should take immediate steps to restore the position as it was understood to be before the decision was given. No new powers are sought under the bill, which I hope will have a speedy passage. </para>
+        <para>Question resolved in the affirmative. </para>
+        <para>Rill read a second time, and passed through its remaining stages without amendment or debate. </para>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>WAR SERVICE ESTATES BILL 1943</title>
+        <page.no>642</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill received from the House of Representatives. </para>
+      <para>Standing and Sessional Orders- suspended. </para>
+      <para>Bill (on motion by <inline font-weight="bold">Senator FRASER&#39;</inline> read a first time. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>643</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>643</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate>Western Australia</electorate>
+              <party>ALP</party>
+              <role>Minister for External Territories</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator FRASER</name>
+            </talker>
+            <para>.- I move- </para>
+          </talk.start>
+          <quote>
+            <para class="block">Tha.t the bill be now read a second time. </para>
+          </quote>
+          <para>As I understand that this measure will not be opposed, I ask leave to incorporate my second-reading speech in <inline font-style="italic">Hansard.</inline></para>
+          <para>Leave granted. </para>
+          <para>Last year this Parliament passed a short act modelled on the Deceased Soldiers&#39; Estates Act 1918-1919 relating to estates of deceased members of all branches of the defence forces, including the auxiliary women&#39;s organizations. This bill has been introduced to clear up some difficulties that have arisen in connexion with the administration of the act. Section 7 of the act provides for the distribution by an authorized service authority of the war service estate of a deceased member of the forces to the persons set out in that section. The persons to whom the estate may be distributed include the personal representative of the deceased member, any person beneficially entitled to the estate, a public trustee or a person specified by the appropriate Minister. It has been pointed out that as at present framed section 7 does not permit the estate being divided between these persons, but that the authorized service authority must select one of such persons, or one class of such persons, to whom the whole estate will &#39;be paid. Honorable senators will realize that there will be many instances in which the merits of the case will require distributions of estates in different proportions to one or more of the relatives of the deceased, and it seems desirable that any doubts as to the power to effect proportional distribution should be removed. </para>
+          <para>The amendments provided for in clause 3 of the bill make such alterations in the act as will allow estates being proportionately distributed to the persons set out in the act. </para>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time, and passed through its remaining stages without amendment or debate. </para>
+          <para class="italic">
+            <inline font-style="italic">Sitting suspended from 10.31 to 1042 p.m.</inline>
+          </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SUPPLEMENTARY APPROPRIATION BILL 1941-42</title>
+        <page.no>643</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para class="block">Bill received from the House of Representatives. </para>
+      <para>Standing and Sessional Orders suspended. </para>
+      <para>Bill (on motion by <inline font-weight="bold">Senator Keane)</inline> read a first time. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>643</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>643</page.no>
+              <time.stamp />
+              <name.id>KE4</name.id>
+              <electorate>Victoria</electorate>
+              <party>ALP</party>
+              <role>Minister for Trade and Customs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KEANE, Richard</name>
+              <name role="display">Senator KEANE</name>
+            </talker>
+            <para>.- I move - </para>
+          </talk.start>
+          <quote>
+            <para>That this bill be now read a second time. </para>
+          </quote>
+          <para class="block">As I understand that this measure will not be opposed, I ask leave to incorporate my second-reading speech in <inline font-style="italic">Hansard.</inline></para>
+          <para>Leave granted. </para>
+          <para>This bill covers the supplementary estimates of expenditure amounting to &#163;4,291,064 for the year 1941-42. The expenditure was made from the appropriation of &#163;6,000,000 under &#34; Advance to the Treasurer &#34; and specific parliamentary appropriation is now sought under the various divisions and items of the Estimates. </para>
+          <para>Details of the amounts have been circulated with the bill to honorable senators. The main items, in round figures, are - </para>
+          <para class="block">
+            <graphic href="175332194307012_22_3.jpg" />
+          </para>
+          <para>In September, 1941, the previous Government brought down proposals which provided for expenditure on war services from revenue amounting to &#163;6S,000,000. The revised Estimates of this Government, which were introduced a month later, increased this amount to &#163;82,147,000. After additional taxation had been imposed, a further appropriation&#39; of &#163;25,000,000 was obtained later in the year, making the total &#163;107,147,000. This bill provides for a supplementary appropriation of &#163;1,500,000, which brings the total provision for war services from revenue to approximately &#163;108,650,000. The amount actually charged against this total appropriation was &#163;108,625,000, compared with &#163;65,000,000 for 1940-41. </para>
+          <para>It is usual to await the report of the Auditor-General on the accounts of the year before submitting Supplementary Estimates to Parliament. That report was presented to Parliament on the 19th March and has been made available to honorable senators. </para>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time, and passed through its remaining stages without requests or debate. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SUPPLEMENTARY APPROPRIATION (WORKS AND BUILDINGS) BILL 1941-42</title>
+        <page.no>644</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Bill received from the House of Representatives. </para>
+      <para>Standing and Sessional Orders suspended. </para>
+      <para>Bill (on motion by <inline font-weight="bold">Senator Keane)</inline> read a first time. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Second Reading</title>
+          <page.no>644</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>644</page.no>
+              <time.stamp />
+              <name.id>KE4</name.id>
+              <electorate>Victoria</electorate>
+              <party>ALP</party>
+              <role>Minister for Trade and Customs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KEANE, Richard</name>
+              <name role="display">Senator KEANE</name>
+            </talker>
+            <para>.- I move - flint this bill be now read a second time. </para>
+          </talk.start>
+          <para class="block">As I understand that this measure will not be opposed, I ask leave to incorporate my second-reading speech in <inline font-style="italic">Ilansard.</inline></para>
+          <para>Leave granted. </para>
+          <para>This bill provides for a supplementary appropriation for the year 1941-42 of &#163;270.507 for additions, new works, &#38;c. Expenditure of this sum was made from the amount appropriated for &#34; Advance to the Treasurer &#34; and specific appropriation is now submitted under the  various  items of the Estimates. The total expenditure in 1941-42 on new works from  revenue  was &#163;3,305,344, which was actually &#163;525.656 less than the appropriation of &#163;3,831,000. On certain items, however, there was excess expenditure, for which it is now necessary to obtain the approval of Parliament. The main excesses were approximately - </para>
+          <para class="block">
+            <graphic href="175332194307012_23_4.jpg" />
+          </para>
+          <para>Question resolved in the affirmative. </para>
+          <para>Bill read a second time, and passed through its remaining stages without amendment or debate. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SPECIAL ADJOURNMENT</title>
+        <page.no>644</page.no>
+        <type>special adjournment</type>
+      </debateinfo>
+      <para class="block">Motion (by <inline font-weight="bold">Senator Collings)</inline> agreed to- </para>
+      <quote>
+        <para>That the Senate, at its rising, adjourn to Wednesday, the 14th July, at 3 p.m. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>644</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Bacon - Ministerial Visits to Western Australia - Coal and Iron Cargoes</title>
+          <page.no>644</page.no>
+        </subdebateinfo>
+        <para>Motion (by <inline font-weight="bold">Senator Collings)</inline> proposed - </para>
+        <quote>
+          <para>That the Senate do now adjourn. </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>644</page.no>
+              <time.stamp />
+              <name.id>KE4</name.id>
+              <electorate>Victoria</electorate>
+              <party>ALP</party>
+              <role>Minister for Trade and Customs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KEANE, Richard</name>
+              <name role="display">Senator KEANE</name>
+            </talker>
+            <para>. - On the 30th June, <inline font-weight="bold">Senator Cooper</inline> asked, <inline font-style="italic">without notice,</inline> the following question : - </para>
+          </talk.start>
+          <quote>
+            <para>In view of the fact that the price fixed for  baconers  of 100 lb. and over is 8d. per lb., and that porkers at 00 lb. are selling at ls. &#93;&#62;er lb., how can the Minister for Trade and Customs reconcile the sale of a 99-lb. porker for &#163;4 19s. with the fixed price for a 100-lb.  baconer  at Sd. &#39; per lb., which would bring only &#163;3 6s. Sd.? By adding 1 lb. to the 99-lb. pig, the grower is at a loss of &#163;1 12s. 4d. </para>
+          </quote>
+          <para>Upon consultation with the Commonwealth Prices Commissioner, I find that the prices fixed for pork meats are now being reviewed, with the object of, as far as possible, rectifying any proven anomalies. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>644</page.no>
+              <time.stamp />
+              <name.id>K7M</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLETT, Herbert</name>
+              <name role="display">Senator COLLETT</name>
+            </talker>
+            <para>. - Recently, I directed the following question to the Minister representing the Minister for the Army <inline font-weight="bold">(Senator Fraser)</inline> : - </para>
+          </talk.start>
+          <quote>
+            <para>What Army personnel and vehicles were detailed to attend, or were present at the point of arrival when the Minister for the Army reached Perth on the loth April, 1943; </para>
+          </quote>
+          <para class="block">The answer I received read - </para>
+          <quote>
+            <para class="block">The Minister for the Army was met by the General Officer Commanding and travelled from the railway station with him in his car. The Minister was on an official visit of inspection of the Field Army and of Army establishments in various parts of the State of Western Australia. He was accompanied by the secretary of the department, the Adjutant-General Australian Military Forces and ministerial staff. </para>
+          </quote>
+          <para>The number of the Ministerial staff is not stated, but I understand that a photographer was included. The answer continues - </para>
+          <quote>
+            <para>Two military staff officers met the Minister&#39;s party with two cars for personnel and one for baggage. </para>
+          </quote>
+          <para>I was informed, rightly or wrongly, that, added to this personnel and number of vehicles, was a detachment of motor cyclists from the Provost Corps. The reason for their presence I cannot understand. The second part of my question sought similar information in connexion with the arrival of the Prime Minister on the 22nd April last. The answer read - </para>
+          <quote>
+            <para>The Prime Minister was met by the Genera&#93; Officer Commanding, but did not proceed from the station in an Army vehicle. </para>
+          </quote>
+          <para>I understand that the Prime Minister&#39;s modest staff consisted of one private secretary, one typist and one publicity officer. Arising out of the visit of the Prime Minister, a reception was tendered to him in Perth by the Western Australian branch of the Returned Sailors, Soldiers and Airmen&#39;s Imperial League of Australia, which delights, when <inline font-style="italic">the</inline> occasion offers, to honour the Prime Minister of the Commonwealth. On this occasion the Minister assisting the Minister for the Army was also present. The following account of the function appeared in the <inline font-style="italic">Argus</inline> on the 8th May, under the heading of &#34; Canberra Commentary &#34;, and the sub-heading of &#34; Telepolitics &#34; -From our unofficial correspondent with the Prime Minister - </para>
+          <quote>
+            <para>The Prime Minister waded through a long list of appointments with locals on subjects ranging from gold-mining to shortage of clothes pegs. On short notice he went to Ansae House to meet the local Returned Sailors, Soldiers and Airmen&#39;s Imperial League of Australia executive. As he was leaving his office he met <inline font-weight="bold">Mr. Coles</inline> and took Benty&#39;s returned soldier member with him. It was a surprise show. </para>
+          </quote>
+          <para>I quite agree with that. The article continues - </para>
+          <quote>
+            <para>PresidentEdmondson, a local school inspector, cracked at McLeay and Ward for party bickering in the local press and praised <inline font-weight="bold">Mr. Curtin.</inline></para>
+          </quote>
+          <para>The Returned Sailors, Soldiers and Airmen&#39;s Imperial League of Australia is non-partisan in politics. It was delighted to honour the Prime Minister, and <inline font-weight="bold">Mr. Edmondson</inline> paid a compliment to the right honorable gentleman for the dignity which he had observed in his high office. He made no mention of any other member of this Parliament, or any phase of government. The Minister representing the Minister for the Army who was present will remember that. The function was a personal compliment to the Prime Minister. The man who furnished that account, I think, was the publicity officer of the Prime Minister. For the guest to misrepresent his host in the public press was a very poor return for the hospitality extended to him. </para>
+          <para>SenatorFRASER (Western Australia - Minister for External Territories) &#91;10.55&#93;.  -  The following information has just been received from the Director of Shipping, in reply to a question asked in the Senate yesterday by the Leader of the Opposition <inline font-weight="bold">(Senator McLeay),</inline> in which he alleged that the Commonwealth Government had given preference to general cargo and luxury goods over essential goods on coastal shipping services :  - </para>
+          <quote>
+            <para>Replying to the allegation by <inline font-weight="bold">Senator McLeay</inline> that luxury goods were given shipping priority, the result of inquiries is that no luxury goods are being shipped, but only essential clothing and foodstuffs required by civilian population. Most of the cargo is urgent defence cargo, such as foodstuffs and equipment for troops, in addition to which other general space is being used in order to carry large quantities of coal, coke, steel and other products on the coast. The Shipping Control Board will be pleased to investigate the claims made by <inline font-weight="bold">Senator McLeay</inline> if he will give details. </para>
+          </quote>
+          <para>Question resolved in the affirmative. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>645</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers were pre  sented :  - </para>
+      <quote>
+        <para>Lands Acquisition Act - Land acquired for Commonwealth purposes - </para>
+        <para>Forbes, New South Wales. </para>
+        <para>Forrest, Western Australia. </para>
+        <para>Kalgoorlie, Western Australia. </para>
+        <para>Lake Boga, Victoria. </para>
+        <para>Mulwala, New South Wales. </para>
+        <para>National Security Act - </para>
+        <para>National Security (General) Regulations - Orders - </para>
+        <para>Taking possession of land, &#38;c. (96). Use of land (9). </para>
+        <para>National Security (Industrial Peace) Regulations - Dairying Industry Award, 1943. </para>
+        <para pgwide="yes">Return to Order of the Senate of 30th June, 1943 - Commonwealth Public Service Travelling Allowances - Instructions providing for differentiation in payment of travelling allowances to Public Service officers. </para>
+        <para class="block">Senate adjourned at 10.65 p.m. </para>
+      </quote>
+    </debate>
+  </chamber.xscript>
+</hansard>

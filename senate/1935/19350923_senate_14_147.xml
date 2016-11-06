@@ -1,251 +1,1155 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #030303; } body { background-image: url(/images/body-home-day-blurred.jpg); background-color: #030303; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-09-23%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-09-23%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-09-23%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-09-23%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-09-23%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-09-23%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1935-09-23%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1935-09-23/19350923_senate_14_147.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1935-09-23</date>
+    <parliament.no>14</parliament.no>
+    <session.no>1</session.no>
+    <period.no>3</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>3</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para>COMMONWEALTH OF AUSTRALIA. </para>
+    <para class="block">PARLIAMENTARY DEBATES. </para>
+    <para>FirstSession  oftheFourteenth  Parliament. (Third Period.) </para>
+    <para>The Senate on the 11th April, 1935, adjourned till a day and hour to be fixed and <inline font-style="italic">to</inline> be notified by the  President  to each honorable senator. </para>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1935-09-23</day.start>
+      <para>The Senate met at 3 p.m. pursuant to the notification of the  President. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>SWEARING IN OF SENATORS</title>
+        <page.no>3</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>
+        <inline font-weight="bold">His Excellency</inline>the Right Honorable <inline font-weight="bold">Sir Isaac</inline> Alfred Isaacs, P.C., G.C.M.G., Governor-General and CommanderinChief in and over the Commonwealth of Australia, entered the chamber, and taking his seat on the dais, said - </para>
+      <quote>
+        <para class="block">Honarable SENATORS : </para>
+      </quote>
+      <para>I am present to administer to newlyelected senators the oath or affirmation of allegiance as required by section 42 of the Constitution. </para>
+      <para>The Acting Clerk.  -  I produce and lay on the table the certificates of return for members elected on the 15th September, 1934, to serve in the Senate as senators for their respective States. I have also to announce with regret that I have received official intimation of the death, on the 11th July, 1935, of <inline font-weight="bold">Senator Lionel</inline> Thomas Courtenay, who was elected as a senator for the State of New South Wales on the 15th September, 1934. </para>
+      <para>The following honorable senators made and subscribed to the oath or affirmation of allegiance: - New South Wales. - Macartney Abbott, </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Adam Kemball Dein</title>
+          <page.no>3</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Victoria. - Charles Henry Brand, C.B., C.M.G., C.V.O., D.S.O., William Gerrand Gibson, John William Leckie</title>
+          <page.no>3</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Queensland. - Walter Jackson Cooper,</title>
+          <page.no>3</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>M.B.E., Thomas William Crawford,</title>
+          <page.no>3</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Hattil Spencer Foll</title>
+          <page.no>3</page.no>
+        </subdebateinfo>
+        <para>South Australia. - James McLachlan, </para>
+        <para>George McLeay, Oliver Uppill. </para>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Tasmania. - John Blyth Hayes,</title>
+          <page.no>3</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>C.M.G., Herbert Hays</title>
+          <page.no>3</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Western Australia. - Edward Bertram</title>
+          <page.no>3</page.no>
+        </subdebateinfo>
+        <para>Johnston, Allan Nicoll MacDonald. His Excellency the GovernorGeneral having retired, </para>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ELECTION OF PRESIDENT</title>
+        <page.no>3</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;3.14&#93;.- <inline font-weight="bold">Mr. Broinowski,</inline> the time has arrived for choosing some suitable member of the Senate as its  President.  I move - </para>
+        </talk.start>
+        <quote>
+          <para>That <inline font-weight="bold">Senator Patrick</inline> Joseph Lynch do take the Chair of this Senate as  President. </para>
+        </quote>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3</page.no>
+              <time.stamp />
+              <name.id>KNF</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>NAT</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MASSY-GREENE, Walter</name>
+              <name role="display">Senator Sir WALTER MASSY GREENE</name>
+            </talker>
+            <para>- I second the motion. </para>
+          </talk.start>
+        </interjection>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>3</page.no>
+              <time.stamp />
+              <name.id>KRZ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LYNCH, Patrick</name>
+              <name role="display">Senator Lynch</name>
+            </talker>
+            <para>-  I submit myself to the will of the Senate. </para>
+          </talk.start>
+        </interjection>
+        <para>
+          <inline font-weight="bold">Senator</inline>Lynch  being the only honorable senator proposed as  President,  was conducted to the dais, and said - </para>
+        <para>I thank honorable senators for the great distinction which they have conferred upon me. There are several reasons for which I should be appreciative of their action, but mention of two of them will suffice. In the first place, this important office, one of the highest, if not the highest in the Commonwealth, is filled periodically. The filling of it devolves upon honorable senators who come here from the remote corners of the Commonwealth - an assembly unique perhaps among legislative chambers in the world, because Australians are the only people who control an entire continent. Therefore the selection of a man from among those specially appointed to share in the government of the nation, to be the chief presiding officer of the Commonwealth Parliament confers upon him a very high honour indeed. My next point is that, as some people may very readily understand, I have not  been  appointed to this honorable post in any haphazard manner. As a matter of fact, there was a very keen and spirited, but, at the same time, friendly contest for it; and when I call to mind the character of the men opposed to me in the selection for this high office- old, experienced, and trusted parliamentarians - I feel that the choice of me from such a distinguished group of competitors is n complement of which I may pardonably be proud. I am not new to this office ; I have borne its responsibilities for three years, and I regard my selection for a second term as an appreciation of my past service. It will readily occur to honorable senators and, for that matter, to any other citizen of the Commonwealth, that the filling of this high and important office calls for impartial and fearless administration, requiring the holder of it sometimes to do unpleasant things. Although some of my actions in the past may be remembered against me, I feel that I can justifiably claim that I weathered the storm fairly well, and discharged the duties of the office with satisfaction to the majority of honorable senators. For these and other reasons which I could mention, I sincerely thank honorable senators for the very great honour which they have conferred upon: me by re-electing me to the presidential chair. The harness is ready for  me.  I can promise honorable senators that, although I may not always be able to pull the required load of responsibility placed upon me, I shall at all times do  my  best ; at any rate, I shall not &#34; jib &#34; in the effort. </para>
+        <para>
+          <inline font-weight="bold">Senator Sir GEORGE</inline>PEARCE (Western Australia - Minister for External Affairs) &#91;3.19&#93;.- On behalf of honorable senators on this side of the chamber I congratulate you, <inline font-weight="bold">Mr. President,</inline> on your election. I feel sure that you will discharge your duties impartially and with due regard to the dignity and decorum of the proceedings of the Senate. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>4</page.no>
+            <time.stamp />
+            <name.id>K7P</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLLINGS, Joseph</name>
+            <name role="display">Senator COLLINGS</name>
+          </talker>
+          <para>. - On behalf of the Opposition in this chamber I congratulate you, sir, on having been re-elected to the position of  President  of the Senate. A few moments ago you suggested that at times during your previous term of office you may have been compelled to do things which did not, please every one, and which may or may not have been remembered against you. T assure you sir, that although at times you may have had to discipline some of us we do not remember such occasions with feelings of animosity. We are glad to see you again occupying such a high position, and we feel sure that you will give a fair and impartial deal to all honorable senators. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>4</page.no>
+            <time.stamp />
+            <name.id>K6P</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BROWN, Gordon</name>
+            <name role="display">Senator BROWN</name>
+          </talker>
+          <para>. - I was very pleased to hear you admit, sir, that when previously occupying the position of  President,  you may have made some mistakes. Such mistakes, I suggest, were rare. During the next three years we do not expect you to be infallible. We on this side of the chamber are few in number, and we shall rely upon your good judgment to allow us a certain amount of latitude in the work which we have to undertake. We admired the way in which you carried out your duties, particularly when efforts were made by certain honorable senators opposite to restrict our rights. On such occasions you stood four square against our opponents, and assisted us in our endeavour to express ourselves freely. We hope that you will continue such good offices, and assure to us adequate freedom of debate. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>5</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>WESTERN AUSTRALIA</electorate>
+            <party>ALP; NAT from 1917; UAP from 1931</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;3.23&#93;. - I desire to intimate  to  honorable senators that  His Excellency  the Governor-General will be pleased to receive <inline font-weight="bold">Mr. President,</inline> and such honorable senators as desire to accompany him in the President&#39;sRoom forthwith. </para>
+        </talk.start>
+        <para>The <inline font-weight="bold">PRESIDENT (Senator the Hon.</inline> P.  J. Lynch). -  I shall suspend the sitting of the Senate at this stage in order that I may present myself to the GovernorGeneral as the choice of the Senate. I hope that as many honorable senators as can do so will accompany me to the President&#39;s Room. </para>
+        <para class="italic">
+          <inline font-style="italic">Sitting suspended at3.24 p.m.</inline>
+        </para>
+        <para>The <inline font-weight="bold">President (Senator the Hon.</inline> P. J.  Lynch)  took the chair at 3.35 p.m., and read prayers. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>5</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>- I have to announce that, accompanied by honorable senators, I, this day, presented myself to the Governor-General as the person chosen by the Senate as its  President. His Excellency  was pleased to congratulate me upon my election, and to approve of the choice of the Senate. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>LEADER OF OPPOSITION</title>
+        <page.no>5</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>5</page.no>
+            <time.stamp />
+            <name.id>K7P</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLLINGS, Joseph</name>
+            <name role="display">Senator COLLINGS</name>
+          </talker>
+          <para>. - <inline font-style="italic">by leave</inline> - I have to announce that at a meeting of the Federal Parliamentary Labour party held in April last I was elected Leader of the Opposition in this chamber as from the 1st July last. All that I desire to say at this juncture is that I shall endeavour to carry out the duties which devolve upon me to the best of my ability, and that any criticism I may offer will be honest and sincere. Although the Opposition in this chamber is small in numbers, it represents 46 per cent. of the electors  who  cast their votes at the election held on the 15th September, 1934. The duty devolves upon us therefore to see that justice is done to that section of the people which voted for Labour representation. </para>
+        </talk.start>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>5</page.no>
+              <time.stamp />
+              <name.id>KNZ</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">HARDY, Charles</name>
+              <name role="display">Senator Hardy</name>
+            </talker>
+            <para>-  Is the honorable senator referring only to Queensland? </para>
+          </talk.start>
+        </interjection>
+        <continue>
+          <talk.start>
+            <talker>
+              <page.no>5</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- I am speaking of Australia generally. It must be realized that there is something wrong with the system of electing the members of this chamber since 46 per cent. of the  electors obtained no representation at all, the other 54 per cent. receiving the whole of the representation. Those are the official figures. My object in referring to this matter now is not to grieve about the result, but to meet in advance the satirical remarks which will, no doubt, be heard in this chamber later, if not this afternoon, concerning our depleted numbers, and our ineffectiveness as an Opposition. </para>
+          </talk.start>
+        </continue>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>5</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>WESTERN AUSTRALIA</electorate>
+            <party>ALP; NAT from 1917; UAP from 1931</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;3.40&#93;. - I congratulate the honorable senator upon the honour which has been bestowed upon him by his colleagues. I shall not repeat the jocular hope, so often expressed by Ministers on occasions of this kind, regarding the duration of his term of office in opposition. I am sure the Ministry will extend to him the courtesy which is due to the Leader of the Opposition, irrespective of the number of his followers. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>NEW SOUTH WALES : REPRESENTATION IN SENATE</title>
+        <page.no>5</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>5</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>- I have to inform the Senate that when advice was received of the death of <inline font-weight="bold">Senator Lionel</inline> Thomas Courtenay, which occurred on the 11th July last, I conveyed to <inline font-weight="bold">Mrs. Courtenay</inline> an expression of sympathy on behalf of honorable senators, pending a. formal resolution of the Senate. In accordance with Section 21 of the Constitution, I notified his  Excellency  the Governor of New South Wales of the existence of a vacancy in the representation of that State in this Chamber. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF SENATOR L. T. COURTENAY</title>
+        <page.no>5</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>5</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;3.42&#93;. - <inline font-style="italic">by leave</inline> - I move - </para>
+        </talk.start>
+        <quote>
+          <para>That the Senate expresses its deep regret at the death of <inline font-weight="bold">Senator Lionel</inline> Thomas Courtenay, of New South Wales, and tenders to his widow and family its sincere sympathy in their bereavement. </para>
+        </quote>
+        <para class="block">On the 1 1th July last, ten days after he had been elected a member of this chamber, <inline font-weight="bold">Senator Courtenay</inline> passed away. He had taken a prominent part in the public life of New South Wales, and almost to the last he continued to evince a keen interest in matters connected with the public life of his State and of the Commonwealth. For two years immediately prior to his election to the Senate he had been a member of the Legislative Council of New South Wales. He had a record of public service extending over 34 years, and was regarded as an authority on Local Government matters.  His  connexion with Local Government administration in New South Wales included service for a period of six years as a member of the City Council of Sydney. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6</page.no>
+            <time.stamp />
+            <name.id>JUD</name.id>
+            <electorate>New South Wales</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">DEIN, Adam</name>
+            <name role="display">Senator DEIN</name>
+          </talker>
+          <para>. - I second the motion. I was closely associated with the late senator during the last election campaign, and it had been my privilege and pleasure to be acquainted with him for many years previously. I feel keenly the loss which this chamber and the people of Australia have sustained through his death. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6</page.no>
+            <time.stamp />
+            <name.id>K7P</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLLINGS, Joseph</name>
+            <name role="display">Senator COLLINGS</name>
+          </talker>
+          <para>. - Although I was not personally acquainted with the late honorable senator, I desire to support the motion, for the sympathies of all of us go out to the members of the bereaved family. </para>
+        </talk.start>
+        <para>Question resolved in the affirmative, honorable senators standing in their places. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF MR. G. A. MAXWELL, K.C., M.P</title>
+        <page.no>6</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;3.45&#93;. - <inline font-style="italic">by leave</inline> - I move - </para>
+        </talk.start>
+        <quote>
+          <para>That the Senate expresses its sincere regret at the death of <inline font-weight="bold">Mr. George</inline> Arnot Maxwell, K.C., who represented the Division of Fawkner in the House of Representatives for a period of eighteen years, places on record its appreciation of his distinguished public services, and tenders to his widow and family its profound sympathy in their bereavement. </para>
+        </quote>
+        <para class="block">
+          <inline font-weight="bold">Mr. Maxwell,</inline>whose death occurred on the 25th June, last, represented the Fawkner electorate in the House of Representatives for eighteen years. During that period he won the esteem of the members of both branches of the legislature&#34; because of the rare qualities of mind and heart which he brought to bear in his public service.  His  conspicuous devotion to duty, notwithstanding a great physical handicap, will long be remembered by those who were privileged to be associated with him. I never ceased to marvel at not only his assiduous attention to his parliamentary duties, but also his activity in the legal profession, despite a disability which would have sent a less courageous man into retirement. The Parliament of the Commonwealth will be the poorer for the passing of a man of such character and ability as the late <inline font-weight="bold">Mr. Maxwell,</inline> and his memory will be cherished by all of us. On behalf of the Senate, I extend to his widow and family our deepest sympathy. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6</page.no>
+            <time.stamp />
+            <name.id>K7P</name.id>
+            <electorate>Queensland</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLLINGS, Joseph</name>
+            <name role="display">Senator COLLINGS</name>
+          </talker>
+          <para>. - I second the motion. We of the Opposition sincerely endorse the remarks of the Leader of the Senate <inline font-weight="bold">(Senator Pearce),</inline> and extend our sincere sympathy to the widow and family of the late <inline font-weight="bold">Mr. George</inline> Maxwell. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6</page.no>
+            <time.stamp />
+            <name.id>K2Z</name.id>
+            <electorate>Victoria</electorate>
+            <party>UAP</party>
+            <role>Assistant Minister</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">BRENNAN, Thomas</name>
+            <name role="display">Senator BRENNAN</name>
+          </talker>
+          <para>. - I knew the late <inline font-weight="bold">Mr. Maxwell</inline> for many years. I have stood by his side in many a hard-fought legal battle, and also was well acquainted with him privately. Knowing his sterling character and lovable nature, I associate myself with the tribute paid to his memory by the Leader of the Senate. </para>
+        </talk.start>
+        <para>Question resolved in the affirmative, honorable senators standing in their places. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF THE HONORABLE SIR ELLIOTT LEWIS, K.C.M.G</title>
+        <page.no>6</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>6</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;3.48&#93;. - <inline font-style="italic">by leave</inline> - I move - </para>
+        </talk.start>
+        <quote>
+          <para>That the Senate expresses its profound regret at the death of the Honorable <inline font-weight="bold">Sir Elliott</inline> Lewis, K.C.M.G-., Lieutenant-Governor of Tasmania, a former Minister of the Crown, places on record its appreciation of his notable public service, and tenders its deep sympathy to his widow and family in their bereavement. </para>
+        </quote>
+        <para class="block">The late <inline font-weight="bold">Sir Elliott</inline> Lewis has left behind him a record of distinguished public service, in both the State and Federal spheres. He was a member of the Tasmanian House of Assembly from 1S86 to 1903, and again from 1909 to 1922. He was AttorneyGeneral of Tasmania from August, 1892, to April, 1894, and Premier and Attorney-General from October, 1899, to April, 1903. For a short period in 1909, and again from October, 3909, to June, 1912, he was Premier and Treasurer of the State. He was Treasurer and Minister for Mines from April, 1916, to March, 1922, and Chief Secretary from March to June, 1922. However, it is particularly of his activities in the federal sphere that I wish to speak this afternoon. He was a member of a federal convention during 1S97 and 1S98, and a member of the first Commonwealth Ministry, although not a member of the First Commonwealth Parliament. From 1933 he held the high office of Lieutenant-Governor of Tasmania. For his meritorious services he was honoured by the King with the distinction of K.C.M.G. His sterling character and high ideals won for him a high place in the esteem of the people. To his widow and family we extend our sincere sympathy in their great loss. </para>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>7</page.no>
+            <time.stamp />
+            <name.id>K09</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PAYNE, Herbert</name>
+            <name role="display">Senator PAYNE</name>
+          </talker>
+          <para>.- I second the motion, and associate myself to the full with the sentiments expressed by the Leader of the Senate <inline font-weight="bold">(Senator Pearce).</inline> I knew the late <inline font-weight="bold">Sir Elliott</inline> Lewis as a public man since 1903, when I first entered the Tasmanian Parliament, and I say without hesitation that no man in Tasmania earned the respect and confidence of the people of that State more than he did. As a Minister, he was always reliable and sound in his judgment; in his private capacity and in business he was esteemed by every section of the community as a true gentleman. The record of his life shows how much he was appreciated, not only by those more directly associated with the political life of Tasmania, but also by the people of that State generally.  His  death will be a heavy loss to Tasmania. I endorse to the full the expression of sympathy with Lady Lewis and the family of the deceased gentleman. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>7</page.no>
+            <time.stamp />
+            <name.id>KOF</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">HAYES, John</name>
+            <name role="display">Senator J B HAYES</name>
+          </talker>
+          <para>. - I also associate myself with the motion. For many years I was a colleague of the late <inline font-weight="bold">Sir Elliott</inline> Lewis in the House of Assembly of Tasmania, and can. speak with first-hand knowledge of his sterling qualities and unswerving devotion to duty at all times. Tasmania is the poorer by his passing. I also tender my sinceresympathy to Lady Lewis and the other members of the bereaved family. </para>
+        </talk.start>
+      </speech>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>7</page.no>
+            <time.stamp />
+            <name.id>KMK</name.id>
+            <electorate>Tasmania</electorate>
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">GRANT, Charles</name>
+            <name role="display">Senator GRANT</name>
+          </talker>
+          <para>.- I support the motion. My association with tho late <inline font-weight="bold">Sir Elliott</inline> Lewis, unlike that of previous speakers, was not in the realm of politics, but in the business world. Recently I attended with him two business meetings, and only last week he appeared to me to be in good health. I, too, can speak of the sterling qualities of the deceased gentleman and of his devotion to duty, and I offer my sincere sympathy to Lady Lewis and the other members of his family in their great bereavement. I am sure that every section of the community in Tasmania deeply regrets the passing of so notable a citizen as <inline font-weight="bold">Sir Elliott</inline> Lewis - a man who did so much, both politically and commercially, for his native country. </para>
+        </talk.start>
+        <para>
+          <inline font-weight="bold">Senator COLLINGS</inline>(Queensland) &#91;3.54  1  . - I associate the members of the Opposition with the motion before the Senate, as well as with the expression of sympathy with the relatives of the late <inline font-weight="bold">Sir Elliott</inline> Lewis. </para>
+        <para>Question resolved in the affirmative, honorable senators standing in their places. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>OFFICE OF GOVERNOR-GENERAL</title>
+        <page.no>7</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>7</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;3.55&#93;. - <inline font-style="italic">by leave</inline> - I desire to announce to the Senate that  His  Majesty the King has been pleased to appoint Brigadier-General the Honorable <inline font-weight="bold">Sir Alexander</inline> Gore Arkwright HoreRuthven, V.C., K.C.M.G., CB., D.S.O., Governor of the State of New South Wales, to succeed the Right Honorable <inline font-weight="bold">Sir Isaac</inline> Alfred Isaacs, G.C.M.G., as Governor-General and Commander-in Chief in and over the Commonwealth of Australia. <inline font-weight="bold">Sir Alexander</inline> Hore-Ruthven will assume the office of Governor-General as soon after the 21st January, 1936, as can be conveniently arranged. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>JAPANESE GOODWILL MISSION</title>
+        <page.no>7</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Ministerial Statement</title>
+          <page.no>7</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>7</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>UAP</party>
+              <role>Minister for External Affairs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;3.56&#93;. - <inline font-style="italic">by leave</inline> - I desire to inform honorable senators that <inline font-weight="bold">His Excellency Mr. Katsuji</inline> Debuchi, Ambassador Extraordinary and Plenipotentiary to  His  Imperial Japanese Majesty. arrived at Brisbane on the 14th August by the SS. <inline font-style="italic">Karno Maru,</inline> and was welcomed on behalf of the Commonwealth Government by the Honorable J. A. J. Hunter, who conveyed to  His Excellency  a personal message from the Prime Minister. <inline font-weight="bold">Mr. Debuchi</inline> proceeded by train to Sydney where he was met by the Honorable R. Archdale Parkhill, Minister for Defence, and on the 15th August he embarked on the SS. <inline font-style="italic">Marama</inline> for New Zealand. </para>
+          </talk.start>
+          <para>
+            <inline font-weight="bold">Mr. Debuchi</inline>returned to Sydney on the 4th September, when his official mission to the Commonwealth actually commenced. He was there met by me as Minister for External Affairs, and I accompanied him during the visits to the Federal Capital Territory and the State of Victoria. </para>
+          <para>The purpose of the mission of <inline font-weight="bold">Mr. Debuchi,</inline> who is a gentleman of very high standing and has had a distinguished diplomatic career in Korea, China, Germany, and the United States of America, was to reciprocate the Australian Goodwill Mission to Japan last year of the Right Honorable <inline font-weight="bold">Sir John</inline> Latham, then  Deputy  Prime Minister, Attorney-General and Minister for External Affairs of the Commonwealth . </para>
+          <para>
+            <inline font-weight="bold">Mr. Debuchi</inline>reached Canberra on the 4th September, and was received by the Right Honorable the Prime Minister. He was entertained on that evening by the Commonwealth Government at a State dinner at Parliament House. </para>
+          <para>
+            <inline font-weight="bold">Mr. Debuchi&#39;s</inline>tour in Australia included visits to the States of Victoria, New South Wales and Queensland, to which it was necessarily restricted by the period of time available for his stay in New Zealand and Australia. </para>
+          <para>The Commonwealth Government highly appreciates the honour paid to Australia by the Government of Japan in sending the mission, and the people of Australia have been charmed with <inline font-weight="bold">Mr. Debuchi&#39;s</inline> delightful and entertaining personality. <inline font-weight="bold">Mr. Debuchi</inline> and his staff greatly impressed all our people who met them, and the Government is convinced that this mission and that of <inline font-weight="bold">Sir John</inline> Latham to Japan have done much to strengthen and extend the friendly relations which have at all times existed between Japan and Australia. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ITALO-ABYSSINIAN DISPUTE</title>
+        <page.no>8</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Ministerial Statement</title>
+          <page.no>8</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>UAP</party>
+              <role>Minister for External Affairs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;3.58&#93;.- <inline font-style="italic">by leave-</inline> The Commonwealth Government has been gravely concerned by the Italo-Abyssinian dispute, and has given the most careful consideration to the position of Australia in relation thereto in the light of our obligations under the Covenant of the League of Nations and the various agreements for the settlement of international disputes by peaceful means. </para>
+          </talk.start>
+          <para>In order properly to appreciate the situation, it is necessary to trace the history of the dispute. This I shall do as briefly as possible. </para>
+          <para>In connexion with the so-called &#34; partition&#34; of Africa among the main European powers during the latter half of the last century, Italy, soon after its birth as a united nation, began to turn its eyes towards Abyssinia, which was known to be a rich and relatively unexploited country, whereas the Italian colonies in North Africa consisted mostly of arid regions of little economic importance. The result of the colonial enterprises of Great Britain, France and Italy was that the ancient Empire of Ethiopia was deprived of all sea coast and completely surrounded by the colonies of these three powers. </para>
+          <para>Italy became involved in numerous frontier and other disputes with Abyssinia, and in 1887 a small Italian force was annihilated at Dogali by the Abyssinian General Ras Alula. Indignation was aroused in Italy, and war <inline font-style="italic">on</inline> Abyssinia was declared. Italy consolidated its position on the Red Sea coast, and joined forces with Menelik, the King of Shoa, against the Ethiopian Emperor, whose death at that time resulted in the enthronement of Menelik as Emperor in his stead. </para>
+          <para>By an Italo-Abyssinian treaty of 1889, the frontiers were defined in such a manner as considerably to extend the Italian possessions in this region, and it was provided that Abyssinia should use Italy as intermediary in its dealings with other European powers. Later, an Italian loan to Abyssinia was secured on the latter&#39;s customs duties, which Italy was to administer if the interest were not paid regularly. </para>
+          <para>Abyssinia some time later repudiated part of the 1889 treaty, and eventually war was declared by Italy against Menelik in 1894. After winning several victories, the Italians were defeated in 1S96 at Adowa, where they sustained considerable losses. By the peace which was then concluded, Italy recognized the complete independence of Abyssinia, and notified the Powers to that effect, while the boundaries were vaguely denned by a treaty of 1896, and by another signed in 190S. By these treaties the frontier of Italian Somaliland was to follow a line ISO miles from the coast, whereas all the territory of Ogaden, and all that of the tribes towards Ogaden, should remain dependent on Abyssinia. </para>
+          <para>Abyssinia holds that according to these treaties Walwal is well within the Ethiopian boundary, but during the last fewyears the Italians have raised the frontier question, and sought to establish their claim to the Walwal wells. The Italians claim that Walwal and Wardair, where incidents have occurred, form part of the Sultanate of Obbia, taken over by the Italians in 1889, and do not belong to Ogaden; that is to say, it is the territory of a tribe towards the coast within the meaning of the 1908 agreement. </para>
+          <para>That brief summary brings us to the immediate causes of the present dispute. These are based upon disagreement as to Abyssinia&#39;s status as a member of the League of Nations; the interpretation of certain treaties; and frontier hostilities. Italy complains that Abyssinia has invariably pursued a course of hostility, and that the economic concessions implied in a treaty of friendship and arbitration entered into between the two countries in 1928 have never been granted. </para>
+          <para>Abyssinia was admitted as a member of the League of Nations after some discussion in 1923, subject to certain conditions as to the control of slavery and the traffic in arms. Italy was one of the supporters of Abyssinia&#39;s admission. Now, however, Italy questions the right of Abyssinia to remain a member on the grounds that slavery and other abuses still exist within its borders, and that the Emperor, Haile Selassie, is only a nominal ruler, with no real control of the outlying tribes, and is unable to control his countrymen so as to prevent border raids and such occurrences as those at Walwal and Wardair. Italy claims that Abyssinia is not a civilized country within the meaning of the Covenant of the League, and, therefore, urges thai Abyssinia should be excluded from membership. </para>
+          <para>A serious clash occurred at Walwal on the 5th December, 1934, between the Abyssinians and Italians. On the day following began a series of verbal and written exchanges between Abyssinia and Italy, each side accusing the other of unwarranted aggression. Abyssinia asked for arbitration under the 1928 treaty, which provides for the submission to arbitration of disputes between Italy and Abyssinia. Italy demanded apologies from the Governor at Harrar, a salute to the Italian flag at Walwal punishment of the offenders, and &#163;20,000 compensation. </para>
+          <para>On the 14th December, Abyssinia summarized the position in a note to the League of Nations Secretariat, and, after continued refusal by Italy to submit to arbitration on the ground that the aggression was unwarranted, Abyssinia finally appealed to the League on. the 31st January, 1935, under Article 11 of the Covenant. This article provides that any threat of war is a matter of concern to the whole League, and that the League shall take any action that may be deemed wise and effectual to safeguard the peace of nations. Moreover, in the case of any such emergency the Secretary-General shall, on the request of any member of the League, summon a meeting of the Council. After some persuasion, Italy decided to submit the question to arbitration, in consideration of which Abyssinia agreed that the League should postpone discussion of its appeal until the next session of the Council in May. </para>
+          <para>In the meantime a further clash occurred at Afdub, whereupon it was announced on the 11th February that Italy had mobilized two divisions numbering about 30,000 men for duty on the Italo-Ethiopian frontier. </para>
+          <para>In the correspondence which followed, it became clear that difficulties had arisen with regard to the arbitration proceedings. On the one hand, Abyssinia wished to submit the whole boundary question to the arbitrators, while, on the other, Italy insisted upon limitation of  the discussions to the  Walwal  incident. It was suggested that a neutral zone should be established in the  GerlogubiAdoWalwalAfdub  quadrilateral, and after some argument this was done on the 4th March. </para>
+          <para>There remained, nevertheless, the differences of opinion regarding the arbitrators&#39; terms of reference. Abyssinia, following the 1928 treaty, suggested the establishment of a Conciliation Commission. It then made a second appeal to the League under both Articles 15 and 10 of the Covenant on the ground that there existed between Ethiopia and the Royal Italian Government a dispute likely to lead to a rupture. </para>
+          <para>Eventually Italy agreed to the appeal coming before the Council. On the 12th April, the two countries agreed to the appointment of a Conciliation Commission, as provided hy the treaty of 1928, and the appeal was again postponed to the ordinary meeting of the Council in May. </para>
+          <para>Further disagreement arose as to the appointment of Commissioners. The 1928 treaty did not specify the nationality of the nominees. In consequence, when Abyssinia nominated a Frenchman and an American, Italy objected on the ground that only nationals of the two parties to the dispute were eligible. </para>
+          <para>Each country, however, continued to arm and to protest against the other&#39;s arming. The Italian press accused Great Britain and certain other powers of supplying arms to Abyssinia, but the accusation was categorically denied so far as Great Britain was concerned by the British Under-Secretary for Foreign Affairs, who maintained that no licences to export arms to Abyssinia had been either issued or applied for since the Walwal incident. Abyssinia countered on the 13th May with yet another appeal to the League to see that its independence and integrity were respected. </para>
+          <para>It was decided, therefore, to bring the matter before the Council immediately. On the 25th May, with <inline font-weight="bold">Mr. Eden</inline> and M. Laval as rapporteurs, the matter was discussed and Italy recognized the League&#39;s standing in the dispute, and withdrew its objection regarding the nationality of Abyssinia&#39;s nominees on the Commission. </para>
+          <para class="block">It was decided that, if the four Commissioners nominated had not agreed by the 25th July to the selection of a fifth arbitrator or the extension of the period, the Council should meet again. If a fifth arbitrator were chosen, but no final settlement were arrived at by the 25 th August, the Council should meet after that date. </para>
+          <para>Despite this agreement, Italy continued to mass troops on the frontier. Abyssinia protested and invited the League to send neutral observers to investigate the existing position. </para>
+          <para>At this stage, Great Britain, which had been watching the progress of the dispute with close interest, decided to intervene in the interests of peace. The Minister for League of Nations Affairs <inline font-weight="bold">(Mr. Eden)</inline> was sent to Rome to sound Signor Mussolini on the proposal that Great Britain might be prepared to cede to Abyssinia the port of Zeila  and a narrow quarter through British Somaliland on condition that Abyssinia made certain territorial and economic concessions to Italy. Great Britain was to ask nothing for itself, with the exception of certain small grazing rights for its Somaliland tribes. This proposition Signor Mussolini refused, and <inline font-weight="bold">Mr. Eden</inline> was forced to report to the House of Commons on the 1st July that to pursue this line of settlement further would be useless. </para>
+          <para>Meanwhile, the Conciliation Commission had met on. the 25th June. On the 9th July it suspended its sittings indefinitely, the reason for the -breakdown being the fundamental cleavage of opinion regarding the terms of reference. The Italian Commissioners contended that the commission had power to deal only with the  Walwal  incident, and refused to hear evidence to the effect that Walwal was in Abyssinian territory. To the proposal of the Abyssinian members to appoint a fifth arbitrator, the Italians objected on the ground that the question involved was the competence of the commission, and could not be solved by such an appointment. </para>
+          <para>In consequence of the deadlock, the Council of the League met on the 31st July to consider the situation. Italy agreed to send a delegate on the express condition that the Council should limit its discussions to the work of the Conciliation Commission. This precluded  the wider discussion of Italo-Abyssinian relations which most of the members of the Council had desired. </para>
+          <para>Abyssinia was prevailed upon to abstain from pressing a consideration of the whole situation, and the discussion was therefore limited according to the wishes of Italy. At this juncture a tendency by Great Britain and France to co-operate with one another became manifest. These two Powers collaborated in the drafting of a resolution providing for (a) resumption of the Conciliation Commission sittings; (i&#62;) appointment of a fifth arbitrator; and (c) the holding of conversations between three parties to the 1906 agreement, namely, Great Britain, France, and Italy, with the object of finding a basis of settlement. A motion on these lines was agreed to by Italy and adopted by the Council on the 3rd August. </para>
+          <para>It was agreed that the commission should limit itself to a discussion of the Walwal and other incidents, and report its findings to the Council when next it met - on the 4th September. It was also decided that the French and British representatives should report the success or otherwise of the Three-Power conversations on that date. </para>
+          <para>Representatives of Great Britain, France, and Italy met in Paris on the 16th August. It is understood that Baron Aloisi made certain suggestions as a basis of negotiation. The most important of these was that the United Kingdom and France should recognise Italian economic and political preponderance in Abyssinia. Great Britain and France, while willing to recognize Italy&#39;s economic interest in Abyssinia, could not agree to political preponderance, which doubtless would involve annexation of a large portion of Abyssinia and a measure of control over the remainder. </para>
+          <para>These suggestions were rejected by Great Britain and France. After consultation with the Emperor of Abyssinia, they suggested as a basis of discussion certain economic concessions and some satisfaction in the way of appointment of technical advisers. These concessions, together with the right of settlement in some parts of Abyssinia, would  give  to Italy, by peaceful means, a substantial portion of  what it might seek by war. </para>
+          <para>This basis of discussion proved unacceptable to Italy, which apparently insisted on some measure of political control. Italy, however, reserved its right to intervene during the discussion of the dispute at Geneva. An official communique was issued by the Conference to the effect that it had been unable to find a basis of discussion which would permit of a solution of the dispute. It was further decided to continue, through diplomatic channels, the study of the suggestions which had been submitted. </para>
+          <para>
+            <inline font-weight="bold">Mr. Bruce</inline>was instructed, on the 30th August, that the policy of the Commonwealth Government was one of close cooperation with the Government of the United Kingdom in continued efforts to settle the dispute by peaceful means, and to maintain the principles of the League. </para>
+          <para>No further progress had been made when the Council of the League of Nations met on the 4th September. On that date the Italian delegate submitted the case of his country against Abyssinia, which was supported by voluminous documentation, and Abyssinia replied on the following day. </para>
+          <para>The Council proceeded to set up a small committee consisting of <inline font-weight="bold">Mr. Eden</inline> (Great Britain), M. Laval (France), Senor de Madariaga (Spain),  Colonel Beck  (Poland), and M. Aras (Turkey), to examine the dispute and the possibilities of conciliatory settlement. </para>
+          <para>The earlier Arbitration Commission under the 192S Treaty between Italy and Abyssinia, which was inquiring into the Walwal incident, reported on the 3rd September that it found that neither Italy nor Abyssinia was to blame in connexion with this affair. </para>
+          <para>On the 11th September .the British Foreign Secretary, <inline font-weight="bold">Sir Samuel</inline> Hoare, made a momentous statement on British policy before the League Assembly, which had opened two days earlier. He declared that Great Britain stood for the maintenance of the Covenant in its entirety, and particularly for steady collective resistance to all acts of unprovoked aggression. He said that  His  Majesty&#39;s Government was second to none in its intention to fulfil, within the measure of its capacity, the obligations laid upon it <inline font-style="italic">by</inline> the Covenant of the League of Nations. </para>
+          <para>Other members of the League, including Canada, South Africa, New Zealand, and the Irish Free State, announced their intention to adhere firmly to the principles of the League. <inline font-weight="bold">Mr. Bruce,</inline> the Australian representative, referred to the adverse effect of the dispute on the postwar structure for the maintenance of peace by collective action and the renunciation of war, and urged that, while the Conciliation Committee of the League Council had the problem under review, speakers should avoid dealing with the dispute in any manner which might add to the difficulties of a solution. </para>
+          <para>Advice has now been received that the sub-committee of the Council, which has been investigating the dispute with a view to the submission to the Council of a draft basis for settlement, has arrived at certain conclusions which have been communicated to Italy and Abyssinia for consideration. This basis briefly contemplates a considerable measure of administrative and other assistance to Abyssinia under the auspices of the League, directed by a delegate of the League, and including foreign advisers; re-organization of the police to ensure the security of foreigners and the observance of frontiers; and foreign participation in the economic development of Abyssinia. Moreover, certain territorial concessions would be made by France and the United Kingdom .to Abyssinia, which would cede a considerable area to Italy. </para>
+          <para>While it is understood that this basis has been accepted by Abyssinia, subject to the condition that Italy shall not be given any special economic concession, advice has been received that the Italian Government has decided that the subcommittee&#39;s proposals are unacceptable as not providing a minimum basis of discussion, but the official Italian reply has not yet been received at Geneva. It remains now to be seen whether, after the receipt of the Italian reply, the Council sub-committee will adhere to its recommendations, and submit them to the full Council for discussion with a view to the adoption of a &#34;report&#34; as to the basis of settlement of the dispute. </para>
+          <para>If such report is unanimously agreed to by the members of the Council other than one or both of the parties to the dispute, the members of the League are obliged, under Article 15 of the Covenant, not to go to war with a party to the dispute which complies with the recommendations of the report. If the report is not unanimous, members of the League have &#34; the right to take such action as they shall consider necessary for the maintenance of right and justice &#34;. </para>
+          <para>But, in any event, members have undertaken by Article 12 of the Covenant in no case to resort to war until three months after the report of the Council. Should any member resort to war in disregard of the foregoing undertakings, it shall, <inline font-style="italic">ipso facto,</inline> under Article 16, be deemed to have committed an act of war against all other members of the League, which have undertaken by the Covenant immediately to subject such member to the severance of all trade or financial relations, the prohibition of all intercourse between their nationals and the nationals of the covenant-breaking State, and the prevention of all financial, commercial, or personal intercourse between the nationals of the covenant-breaking State and the nationals of any other State, whether a member of the League or not. Moreover, under Article 16, it shall be the duty of the Council to recommend to the several governments concerned what effective military, naval or air force the members of the League shall severally contribute to the armed forces to be used to protect the covenants of the League. Finally, under Article 10 of the Covenant, members of the League have undertaken to respect and preserve, as against external aggression, the territorial and existing political independence of all members of the League. </para>
+          <para>The Commonwealth Government, while convinced that the upholding of the principles of collective security embodied in the League of Nations is essential to the world&#39;s peace, desires to point out that none of the provisions of the Covenant has been violated by either Italy or Abyssinia. The Government feels that discussion on these matters should not, at this juncture, assume that either of these countries will violate any of its obligations in this regard. It therefore seems unwise either to anticipate any breach, or to announce in advance the course of action to be followed by the Commonwealth Government in contingencies the nature and circumstances of which cannot at present be foreseen. &#34;While fully recognizing the gravity of the present situation, the Government holds very strongly that it ought not, either by word or by action, to embarrass those who are earnestly striving to effect a peaceful settlement. I move - </para>
+          <para>That the paper be printed. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>13</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>Queensland</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>. - I shall give to the Senate an outline of the attitude of the Federal Parliamentary Labour party as agreed to by unanimous resolution at a meeting of the party this morning. It represents, so far as we are able to judge, the opinion of Labour organizations throughout Australia. </para>
+          </talk.start>
+          <para>Australia has been looking to the Prime Minister <inline font-weight="bold">(Mr. Lyons)</inline> to make a definite pronouncement as to his Government&#39;s attitude on the Abyssinian crisis. Weeks ago, the other dominions declared their attitude. On the 8th September, the Prime Minister of Canada was reported to have said - </para>
+          <quote>
+            <para>Canadians will not be embroiled in any foreign quarrel in which the rights of Canadians are not involved. We have bought and paid for security and peace, and we wean to have them. </para>
+          </quote>
+          <para>The Defence Minister of South Africa stated that no son of that country would fire a shot without the people being consulted. </para>
+          <para>As uncontradicted statements appeared in the newspapers that Australia had been committed right up to the hilt there was a growing feeling that the Commonwealth Government had blundered into a decision that might involve Australia in war. </para>
+          <para>While the Australian Labour Party&#39;s platform provides for adequate home defence against foreign aggression, it also contains a proviso against raising forces for service outside the Commonwealth, or participation, or promise of participation, in any future overseas war, except by the decision of the people. While we admire the efforts of countries that have been striving to settle the dispute in a peaceful manner, and particularly the way in which. Great Britain has endeavoured to have conciliation used in this dispute, we strongly hold the view that. Australia should not allow the statesmen of any country to determine this country&#39;s course of action. </para>
+          <para>The Commonwealth Government should instruct its delegate at Geneva that Australia will not be a party to war. Surely there is no more reason why Australia should become involved to-day than there was when four provinces were wrested from China by an original member of the League of Nations. If it were not for the oil fields of Abyssinia and other rich natural resources desired by great vested interests there would nor. be  manoeuvrings  for war; there would be the same apathy that was shown regarding the invasion of Manchuria. </para>
+          <para>Only recently it was announced that  Abysinnia  had sold the rights to exploit the oil wealth of the country to American and British interests. The price to be paid was &#163;10,000,000. Under pressure however, the concessionaries withdrew. It is immaterial to the masses of the people of Australia how those oil fields are eventually distributed. Therefore we should keep out of this sordid quarrel over mineral and other wealth. </para>
+          <para>We sincerely hope that war will be averted; the control of Abyssinia by any country is not worth the loss of a single Australian life. </para>
+          <para>While the Australian Labour party is opposed to Australia&#39;s participation in a foreign war over Abyssinia it does not for one moment seek to justify Italy&#39;s attitude. </para>
+          <para>We should remember the price of the last war when 7,000,000 lives were lost and the financial cost was &#163;40,000,000,- 000. The price Great Britain had to pay for the holocaust was a war debt of &#163;7&#39;,500,000,000. The cost to Australia, according to the last issue of the Commonwealth <inline font-style="italic">Tear-Booh,</inline> amounted to &#163;S1.2,000,000, including expenditure from war loans and consolidated revenue. The annual interest bill, as a direct result, is &#163;8,000,000. Also 60,000 Australians were killed and 160,000 wounded. In addition to the tremendous burden of debt and interest, hundreds of thousands of our people were plunged into an abyss of grief and misery on account of the loss of their loved ones on the battlefields of Europe and Asia. </para>
+          <para>Many of the economic burdens that are weighing down the world to-day are the direct outcome of the last war, which left a trail of misery unparalleled in history. Although we were told it was a war to end war the world to-day is on the edge of another grave cataclysm. </para>
+          <para>The attitude of the Australian Labour party is clear and unequivocal. It wants no war on foreign fields for economic treasure. It wants Australia to be kept free of the entanglements leading to a repetition of the horrors of 1914-18. Therefore the Australian Labour party for which I speak to-day says &#34; Non-participation &#34;. </para>
+          <para>Debate (on motion by <inline font-weight="bold">Senator A.</inline> J. McLachlan) adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>HIS MAJESTY KING GEORGE V</title>
+        <page.no>14</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Twenty-Fifth Anniversary of Accession to Throne - Reply to Joint Address</title>
+          <page.no>14</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>14</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- I have received the following communication from His Excellency the Governor-General :  - </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Government House,</title>
+          <page.no>14</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Canberra. 16th August, 1935</title>
+          <page.no>14</page.no>
+        </subdebateinfo>
+        <para>The Governor-General transmits herewith to the  President  of the Senate  His  Majesty the King&#39;s reply to the address from the members of the Senate and the members of the House of Representatives on the occasion of Their Majesties&#39; Silver Jubilee, and which was handed to  His  Majesty by the Prime Minister of the Commonwealth at St. James&#39;s Palace on the 8th May, 1935. </para>
+        <para>The Governor-General would be pleased if <inline font-weight="bold">Mr. President</inline> would take the earliest opportunity of reading  His  Majesty&#39;s address to the members of the Senate. </para>
+        <para>The Governor-General desires to inform <inline font-weight="bold">Mr. President</inline> that he has forwarded a copy of  His  Majesty&#39;s reply with a similar request to the  Speaker  of the House of Representatives. </para>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Isaac A. Isaacs,</title>
+          <page.no>14</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Governor-General</title>
+          <page.no>14</page.no>
+        </subdebateinfo>
+        <para class="italic">
+          <inline font-style="italic">His Majesty&#39;s reply reads as follows: -</inline>
+        </para>
+        <para>Members of the Senate and House of Representatives of the Commonwealth of Australia: </para>
+        <para>I thank you from my heart for your Address of loyalty and affection, which I received from the hands of my Prime Minister of the Commonwealth of Australia at St. James&#39;s Palace on the8th May. The Queen and I were deeply touched by the warmth and sincerity of the congratulations addressed to us by <inline font-weight="bold">Mr. Lyons</inline> and by the other representatives of my dominions overseas, who had assembled to greet us on that memorable occasion. </para>
+        <para>By a happy coincidence the following day was the anniversary of the day when, thirty-four years ago, I stood amongst you as the bearer of a commission from my father, King Edward, to open the first Parliament of the Commonwealth of Australia: the Queen and I have never forgotten our visit to Australia and the warm-hearted welcome which we received. Speaking on that occasion in my father&#39;s name I referred to the loyalty and devotion to the Throne and Empire of which the people of Australia had already given such signal proofs. Those words were true then: they stand reinforced to-day. </para>
+        <para>The intervening years have brought with them grievous blows of war and economic depression. In this time of celebration let us remember to pay our tribute of sympathy to those who have suffered and are suffering. I trust that reviving prosperity, aided by a spirit of mutual comradeship, may soon bring encouragement and help to those who are at present the victims of unemployment. </para>
+        <para>In your Address you have referred to the marvellous inventions which have done so much to improve communications. I was, as ever, filled with wonder when, on the 6th May I listened to the broadcast messages spoken from Canberra and from other distant parts of my Dominions. I rejoiced to think that my words on that day of my Silver Jubilee could be heard by my peoples throughout the Empire. I trust that these instruments which science has placed in our hands may be wisely used,  may maintain and strengthen the bonds of fellowship, and may advance the good of all. </para>
+        <para>The constitutional developments of recent years have brought into being a new conception of the British Empire as a union of free and equal peoples. I am confident that in concert with the other partners in the British Empire Australia will play its part in the world in maintaining the ideals of peace and of liberty. </para>
+        <para>I have been touched by your references to the visits which my sons have paid to Australia. The accounts which I have received from them of their visits, so crowded with incident and interest, have made me realize that my people of Australia, though far away in distance, are near in spirit. </para>
+        <para>I join with you in the prayer that, under Divine Providence, my people of Australia may ever advance on the path of prosperity and peace. (Signed) George R.I. 12th May, 1935. </para>
+        <para class="italic">
+          <inline font-style="italic">Sitting suspended from 4.37 to8 p.m.</inline>
+        </para>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ASSENT TO BILLS</title>
+        <page.no>15</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Assent to the following bills reported :  - </para>
+      <para>Sales Tax Procedure Bill 1935. </para>
+      <para>Immigration Bill 1935. </para>
+      <para>Norfolk Island Bill 1935. </para>
+      <para>Wheat Commission Bill 1935. </para>
+      <para>Patents Bill 1935. </para>
+      <para>Copyright Bill 1935. </para>
+      <para>Carriage by Air Bill 1935. </para>
+      <para>Supply Bill (No. 1 ) 1935-36. </para>
+      <para>Supplementary Appropriation Bill 1933-34. </para>
+      <para>Customs Tariff Validation Bill 1935. </para>
+      <para>Customs Tariff (Exchange Adjustment) Validation Bill 1935. </para>
+      <para>Customs Tariff (Canadian Preference) Validation Bill 1935. </para>
+      <para>Dairy Produce Bill 1935. </para>
+      <para>Loan (Farmers&#39; Debt Adjustment) Bill 1935. </para>
+      <para>Spirits Bill 1935. </para>
+      <para>Port Augusta toRed Hill Railway Bill 1935. </para>
+      <para>Soldier Settlement Loans (Financial Agreement) Bill 1935. </para>
+      <para class="block">Seat of Government (Supreme Court) Bill 1935. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>NAVIGATION BILL 1935</title>
+        <page.no>15</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Reservation of assent notified. </para>
+      <para>Royal Assent. </para>
+      <para>The  PRESIDENT  announced the receipt of a message from the Governor-General informing the Senate that the proposed law which was reserved for the signification of His Majesty&#39;s pleasure had been laid before His Majesty in Council, and that His Majesty had, by an Order in Council dated the 6th day of June, 1935, been pleased to confirm, approve, and declare his assent to the said proposed law. </para>
+      <para>The Governor-General had caused the King&#39;s assent to be proclaimed in the <inline font-style="italic">Commonwealth of Australia Gazette</inline> No. 37, dated the 11th July, 1935. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ACKNOWLEDGMENT OF RESOLUTIONS OF SYMPATHY</title>
+        <page.no>15</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>The  PRESIDENT  announced the receipt of messages from the Minister for Foreign Affairs, of Yugoslavia, through the Prime Minister, and from Lady Kingsmill, Miss AlmaWatkins, and <inline font-weight="bold">Mrs. T.</inline> W. White expressing appreciation and thanks for the resolutions of sympathy and condolence passed by the Senate on the occasions of the deaths of King Alexander of Yugoslavia, <inline font-weight="bold">Senator Sir Walter</inline> Kingsmill, the honorable David Watkins, and <inline font-weight="bold">Mrs. Pattie</inline> Deakin respectively. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>REGULATIONS AND ORDINANCES COMMITTEE</title>
+        <page.no>15</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>The  PRESIDENT  announced the receipt of a letter from <inline font-weight="bold">Senator Payne</inline> tendering his resignation as a member of the Regulations and Ordinances Committee. </para>
+      <para>Motion (by <inline font-weight="bold">Senator Sir George</inline> Pearce) - <inline font-style="italic">by leave</inline> - agreed to - </para>
+      <quote>
+        <para>That <inline font-weight="bold">Senator H.</inline> J. M. Payne be excused from attendance on theRegulations and Ordinances Committee. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>MINISTERIAL CHANGES</title>
+        <page.no>15</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>15</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;8.10&#93;. - <inline font-style="italic">by leave</inline> - I desire to inform honorable senators that a rearrangement of duties of some members of the Cabinet has been effected. </para>
+        </talk.start>
+        <para>The Honorable H. V. C. Thorby will assist the Minister for Commerce, as well as have charge of War Service Homes. <inline font-weight="bold">Senator the</inline> Honorable T. C. Brennan will continue to assist in the administration of the Department of Commerce. </para>
+        <para>The Honorable J. A. J. Hunter has taken over the duties of Assistant Minister for Repatriation <inline font-style="italic">vice</inline><inline font-weight="bold">Mr. Thorby,</inline> and will also assist the Minister for the Interior. </para>
+        <para>It is the intention of the Government to introduce as early as practicable a bill to make provision for the appointment of an additional Minister of State, the number being at present limited by the Ministers of State Act 1917 to a maximum of nine. When the requisite provision has been made by the Parliament, it is proposed to submit to the Governor-General the name of the Honorable R. G. Casey, at present Assistant Treasurer, with a view to his definite appointment as Treasurer. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>SECESSION</title>
+        <page.no>16</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Petition by Western Australia. </para>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>16</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>- I lay on the table - </para>
+        </talk.start>
+      </interjection>
+      <quote>
+        <para>Report by the Joint Committee of the House of Lords and the House ofCommons appointed to consider the Petition of the State of Western Australia. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>16</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers were presented - </para>
+      <quote>
+        <para>Nanru - Report to the Council of the League of Nations on the Administration of Nauru during the year 1934. </para>
+        <para>New Guinea - Report to the Council of the League of Nations on the Administration of the Territory of New Guinea from 1st July, 1933, to 30th June, 1934. </para>
+        <para>Arbitration (Public Service) Act - Determinations by the Arbitrator, &#38;c. - </para>
+      </quote>
+      <para>No. 5 of 1935 - Professional Officers&#39; Association, Commonwealth Public Service. </para>
+      <para>No.6 of 1935 - Meat Inspectors&#39; Association, Commonwealth Public Service. </para>
+      <para>No. 7 of 1935 - Arms, Explosives and Munition Workers&#39; Federation of Australia. </para>
+      <para>No. 8 of 1935 - Amalgamated Postal  Workers&#39; Union of Australia. </para>
+      <para>No. 9 of 1935 - Federated Public Service  Assistants&#39; Association of Australia. </para>
+      <para>No. 10 of 1935 - Federated Public Service Assistants&#39; Association of Aus tralia- </para>
+      <para>No. 11 of 1935 - Commonwealth Fore men&#39;s Association. </para>
+      <para>No. 12 of 1935 - Commonwealth Public  Service Clerical Association. </para>
+      <para>No. 13 of 1935 - Arms, Explosives and Munition Workers&#39; Federation of Australia. </para>
+      <para>No. 14 of 1935 - Meat Inspectors&#39; Association, Commonwealth Public Service. </para>
+      <para>No. 15 of 1935 - Amalgamated Postal Workers&#39; Union of Australia and Others. </para>
+      <para>Commonwealth Public Service ActAppointments - Department of - </para>
+      <para>Attorney -General - T. J. Brown. </para>
+      <para>Commerce - A. J. Edwards. </para>
+      <para>Health - G. M.Redshaw. </para>
+      <para>Interior - J. J. Clark andF. McCardell. </para>
+      <para>Trade and Customs - J. Ginges. </para>
+      <para>Treasury - A. Smithies. </para>
+      <para>Regulations amended - Statutory Rules 1935, No. 44- No. 54- No. 72- </para>
+      <para>No. 78. </para>
+      <para>Commonwealth Railways Act - By-laws - No. 68 - No.69. </para>
+      <para class="block">Contract Immigrants Act - Return for 1934. </para>
+      <para>Defence Act - Regulations amended. &#38;c. - Statutory Rules 1935, No. 37- No. 43- No. 49- No. 50- No.60- No. 83. </para>
+      <para class="block">Immigration Act - Return for 1934. </para>
+      <para>Invalid and Old-age Pensions Act - Regulations amended-Statutory Rules 1935. No. 57. </para>
+      <para class="block">Lands Acquisition Act - Land acquired at - Bullsbrook, Western Australia - For Defence purposes. </para>
+      <para class="block">Cumnock, New South Wales - For Postal, telegraphic, telephonic and other like services. </para>
+      <para>Dooen, Victoria - For Postal, telegraphic, telephonic and other like services. </para>
+      <para>Frenchville, Queensland - For Defence purposes. </para>
+      <para>Maylands, Western Australia - For Defence purposes. </para>
+      <para>Nedlands, Western Australia - For Postal telegraphic, telephonic and other like services. </para>
+      <para class="block">Parish of Burra, County of Murray. Federal Capital Territory - In connexion with the establishment of the Seat of Govern ment ( 2 ) . </para>
+      <para class="block">Parish of Booroomba, County of Cowley, Federal Capital Territory - In connexion with the establishment of the Seat of Government. </para>
+      <para class="block">Werribee, Victoria - For Defence purposes. </para>
+      <para class="block">Woodside, South Australia - For Defence  purposes. </para>
+      <para class="block">Maternity Allowance Act - Regulations amended - Statutory Rules 1935, No. 38 - No. 40 - No. 56. </para>
+      <para class="block">National Debt Sinking Fund Act - National Debt Commission - Twelfth Annual Report. year ended 30th June, 1935. </para>
+      <para class="block">Naval Defence Act - Regulations amended - Statutory Rules 1935, No. 35 - No. 36 - No. 42- No. 55- No. 59- No. 74- No. 86No. 87. </para>
+      <para>Northern Territory Acceptance Act and Northern Territory (Administration) Act - Ordinances of 1935 - No. 2 - Gold Buyers. </para>
+      <para>No. 3 - Mining. </para>
+      <para>No. 4 - Crown lands. </para>
+      <para>No. 5 - Licensing. </para>
+      <para>No. 6 - Police and Police Offences. </para>
+      <para>No. 7- Mining (No. 2). </para>
+      <para>No. 8 - Foreign Companies. </para>
+      <para>No. 9 - Prison. </para>
+      <para>No. 10 - Hire-purchase Agreements. </para>
+      <para>Medical Practitioners Registration Ordinance - Regulations. </para>
+      <para>Pearling Ordinance - Regulations amended (2). </para>
+      <para class="block">Papua Act - Infirm and Destitute Natives Account - Statement of Transactions of the Trustees for the year ended 30th June, 1 935. </para>
+      <para class="block">Sales Tax Assessment Acts (Nos. 1 to 9) - Regulations amended- Statutory Rules 1935, No. 51. </para>
+      <para class="block">Sales Tax Procedure Act - Regulations amended - Statutory Rules 1935. No. 52. </para>
+      <para class="block">Seat of Government Acceptance Act and Seat of Government (Administration) Act- </para>
+      <para class="block">Ordinances of 1935 - </para>
+      <para>No. 5 - Electrical Interference. </para>
+      <para>No. 6 - Lotteries and Art Union-!. </para>
+      <para>No. 7- Fish Protection. </para>
+      <para>No. 8 - Hawkers. </para>
+      <para>No. 9- Business Names. </para>
+      <para>No. 10 - Liquor. </para>
+      <para>No. 11 - Liquor (No. 2). </para>
+      <para>No. 12- Canberra Community Hospital Board. </para>
+      <para>No. 13 - Hospital Tax. </para>
+      <para>Advisory Council Ordinance - Regula tionamended. </para>
+      <para>Canberra Community Hospital Board Ordinance - Regulations. </para>
+      <para>Public Health Ordinance - Regulations amended. </para>
+      <para>Workmen&#39;s Compensation Ordinance - Rules. </para>
+      <para>Bankruptcy Act - Regulations amended - Statutory Rules 1935, No. 34. </para>
+      <para>Cotton Industries Bounty Act and Raw Cotton Bounty Act - Returns for 1934-35. </para>
+      <para>Customs Act - Regulations amended - Statutory Rules 1935, No. 41- No.69. </para>
+      <para>Designs Act - Regulations amended - Statutory Rules 1935, No. 73. </para>
+      <para>Flax and Linseed Bounties Act - Return for 1934-35. </para>
+      <para>High Court Procedure Act and Judiciary Act- Rules of Court- Statutory Rules 1935, No. 48. </para>
+      <para>Judiciary Act - Rule of Court - Dated 19th July,1935. </para>
+      <para>Navigation Act - Regulations amended. &#38;c. -Statutory Rules 1935, No.64 - No.66 -No. 75- No. 76- No. 81. </para>
+      <para>Papua and New Guinea Bounties Act - Return for 1934-35. </para>
+      <para>Patents Act - Regulations amended - Statutory Rules 1935. No. 45- No.67- No. 90. </para>
+      <para>Post and Telegraph Act - Regulations amendedStatutory Rules 1935. No. 53- No. 70- No. 77- No. 80. </para>
+      <para>Quarantine Act - Regulations - Statutory Rules 1935. No. 71. </para>
+      <para>Spirits Act - Regulations amended - Statutory Rules 1935, No. 68. </para>
+      <para>Sulphur Bounty Act - Return for 1934-35. </para>
+      <para>Transport Workers Act - Regulations amendedStatutory Rules 1935. No. 46- No. 79. </para>
+      <para>War Service Homes Act - Regulations amended - Statutory Rules 1935, No. 58 - No. 82. </para>
+      <para>WineExport Bounty Acts - Return for 1 934-35. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>17</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SHIP-BUILDING INDUSTRY</title>
+          <page.no>17</page.no>
+        </subdebateinfo>
+        <para>Broken Hill Proprietary Company</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>17</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- I ask the Leader of the Senate <inline font-weight="bold">(Senator Pearce)</inline> (1) Is it a fact that the Broken Hill Proprietary Limited intend to have one or two vessels constructed overseas? (2) If so, will the Government communicate with this company and urge that in view of the protection granted to this firm, and its economic value and importance to the Commonwealth, the vessels be constructed in Australia? </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>17</page.no>
+                <time.stamp />
+                <name.id>K0F</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">PEARCE, George</name>
+                <name role="display">Senator Sir GEORGE PEARCE</name>
+              </talker>
+              <para>- In the ordinary course, we could not say what would be the intentions of a private company, but we could make representations with respect to its policy. In this case, I happen to know, from inquiries that have been made of the Government, not by the Broken Hill Proprietary Limited, but by a company which contemplates submitting prices for building these vessels in Australia, that the Broken Hill Proprietary Limited is also inquiring as to the feasibility of local construction. </para>
+            </talk.start>
+          </interjection>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ESTIMATES AND BUDGET PAPERS 1935-36</title>
+        <page.no>17</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>17</page.no>
+            <time.stamp />
+            <name.id>K0F</name.id>
+            <electorate>Western Australia</electorate>
+            <party>UAP</party>
+            <role>Minister for External Affairs</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PEARCE, George</name>
+            <name role="display">Senator Sir GEORGE PEARCE</name>
+          </talker>
+          <para>&#91;8.22&#93;.- I lay on the table- </para>
+        </talk.start>
+        <quote>
+          <para>Estimates of receipts and expenditure, and estimates of expenditure for additions, new works, buildings, &#38;c, for the year ending 30th June, 1930. </para>
+          <para>The Budget 1935-36 - Papers presented by the Honorable R. G. Casey, M.P., on the occasion of the budget of 1935-36. and move - </para>
+          <para>That the papers be printed. </para>
+        </quote>
+        <para>For the information of a number of senators who are new to the Senate procedure in respect of money bills, I may say that in the early years of federation, in order to give honorable senators an opportunity to discuss the financial proposals of the Government simultaneously with the budget debate in the House of </para>
+        <para class="block">Representatives, the practice was adopted of presenting with the Estimates and budget-papers what is practically an epitome of the Government&#39;s financial policy, and moving &#34; that the papers be printed &#34;. </para>
+        <para>The Assistant Treasurer <inline font-weight="bold">(Mr. Casey)</inline> is this evening presenting  the budget in the House of Representatives. In doing so, he will emphasize the fact that the Government, since its return to power, has done everything possible and with considerable success, to assist in the great work of recovery from depression and to relieve unemployment. His speech will review the present hopeful position with regard to export prices and overseas trade generally, and will also refer to the evidence of internal recovery and returning business activity within the Commonwealth. </para>
+        <para>In 1934-35, revenue receipts amounted to &#163;76,252,000, and expenditure to &#163;75,541,000. The excess of receipts over expenditure was therefore &#163;711,000 as compared with the anticipated excess of &#163;14,000. Revenue exceeded the estimate by &#163;4,059,000. The principal increases were : - </para>
+        <para class="block">
+          <graphic href="147332193509233_15_0.jpg" />
+        </para>
+        <para>The flour tax, which was imposed after the introduction of the budget, yielded &#163;798,000. Miscellaneous revenue decreased by &#163;377,000. </para>
+        <para>Increased expenditure included relief to wheat-growers, &#163;4,066,000, which was provided for after the introduction of the last budget. Of this sum, &#163;79S,000 was raised by means of the flour tax, and &#163;3,268,000 was a charge on general revenue. </para>
+        <para> Revenue from the Postmaster-General&#39;s Department exceeded the estimate by &#163;565,000, while the expenditure was less than the estimate by &#163;106.000, a total improvement in the transactions of this department of &#163;671,000. </para>
+        <para>Conversions of Commonwealth loans in London since October, 1932, now exceed &#163;160,000,000, representing approximately 37 per cent, of the Australian securities held by the public in the United Kingdom. The average rate on the loans dealt with has decreased from an average of &#163;5 2s. 7d. per cent, to an average of &#163;3 13s. 5d. per cent. The terms obtained in recent conversions show a progressive improvement. The short-term debt in London, &#163;33,625,000, is now carried wholly by the Commonwealth Bank. </para>
+        <para>The total loans raised in Australia since 1932 amount to &#163;66,564,000, of which &#163;16,500,000 was for the funding of treasury-bills. Loan services continue to be financed by funded loans, and bills issued to finance revenue deficits are funded during the course of each year. The total volume of treasury-bills now outstanding is less than in December, 1932. Since June, 1932, the Commonwealth debt has decreased by &#163;4,700,000. </para>
+        <para>The aggregate interest bill for the total Commonwealth and State public debts has decreased from &#163;7 9s. 4d. per head of population in 1921-22 to &#163;7 8s. Id. in 1935-36, after allowing for the present exchange charge on interest payable overseas. From the excess receipts of 1934-35 it is proposed to make a non-recurring unconditional grant of &#163;500,000 to the States to assist their general budgetary position. </para>
+        <para>For the year 1935-36 the Government presents a balanced budget. </para>
+        <para>It is proposed to lighten the burden of the special income tax on property by reducing the rate from 6 per cent, to 5 per cent., at a cost to the budget of &#163;200,000. No further variations of rates of tax are to be made in respect of land tax, estate duty and ordinary income tax. It is hoped that, during the coming year, legislation will be enacted both by the States and the Commonwealth to give effect to a considerable number of recommendations of the Royal  Commission on Taxation. This proposed legislation will not affect revenue materially, but will bring welcome relief to a large body of taxpayers. </para>
+        <para>It is proposed to prescribe further exemptions from sales tax to the amount, of &#163;200,000 for a full year. The law relating to the deposit of securities in connexion with sales tax will be amended to relieve taxpayers. </para>
+        <para>Further remissions of primage duty to the amount of &#163;45,000 in 1935-36 will be made to rectify a number of anomalies. </para>
+        <para>The total taxation adjustments proposed for 1935-36 are as follow: - </para>
+        <para class="block">
+          <graphic href="147332193509233_16_0.jpg" />
+        </para>
+        <para>The CommonwealthG rants Commission has recommended that grants to the smaller States be made as follows :  - </para>
+        <para>South Australia- &#163;1,500,000 ; increase, &#163;100,000. </para>
+        <para>Western Australia- &#163;800,000; increase, &#163;200,000. </para>
+        <para>Tasmania - &#163;450,000; increase, &#163;50,000. </para>
+        <para class="block">The Government will ask Parliament to approve these increases. The increases granted to these States for the two years 1934-35 and 1935-36 amount to &#163;620,000. </para>
+        <para>The Government proposes to grant further benefits toex-members of the Australian Expeditionary Forces in special cases at an annual cost of &#163;350,000, the added expenditure for this year being &#163;175,000. </para>
+        <para>The policy of bringing the Defence Forces up to the minimum strength necessary for national security will be continued. The total Defence services for the year are estimated to cost &#163;7,352,000, of which &#163;5,606,000 is provided on the Revenue Estimates and &#163;1,746,000 from the fund previously set aside for this purpose. It is proposed to re-establish the Royal Military College at Duntroon in the present year. </para>
+        <para>The number of invalid and old-age pensioners at the 30th June, 1935, was 273,978, an increase of 13,313 during the year. The total expenditure in 1934-35 reached  &#163;1 1,762,000,  the highest, figure recorded. The estimate for the current year shows an increase of slightly over &#163;l,000,000, of which &#163;350,000 is due to the increase in the rate of pension by 6d. due to a rise in the cost of living index number. </para>
+        <para>The Government proposes to provide &#163;100,000 for ground organization in connexion with the extension of air mail facilities, and to devote a further &#163;100,000 towards the extension of postal, telegraph and telephone services, especially in country districts. </para>
+        <para>It is proposed to restore salaries in the various services and to members of Parliament and Ministers by an amount equal to21/2 per cent. of the salary which would have been paid on the 1930 standard. The reductions as compared with the 1930 standard will then be as follows :  - </para>
+        <para>On salaries up to &#163;485 - cost of living reductions only. </para>
+        <para>On salaries from &#163;486 to &#163;1,000- 10 per cent. </para>
+        <para>On salaries from &#163;1,001 to &#163;2,000- 121/2 per cent. </para>
+        <para>On salaries over &#163;2,000 - 15 per cent. </para>
+        <para>On allowances of members of Parliament - 15 per cent. </para>
+        <para>On salaries of Ministers - 171/2 per cent. </para>
+        <para>The partial restoration to the Service will cost &#163;90,000 per annum, and to members and Ministers &#163;3,000 per annum. </para>
+        <para>The Government also proposes to make provision for &#163;100,000 towards interest and sinking fund on loans for works for local government bodies with the object of providing employment and additional amenities. </para>
+        <para>The cost of the principal new expenditure proposals in 1935-36 may be summarized thus - </para>
+        <para class="block">
+          <graphic href="147332193509233_16_1.jpg" />
+        </para>
+        <para>The estimated receipts from the flour tax amount to &#163;900,000, which will be hypothecated for the relief of wheatgrowers. Any other action necessary in regard to wheat will be considered later. </para>
+        <para>Other proposed benefits to primary producers are - </para>
+        <para>A bounty of 2s. a case on oranges exported to the United Kingdom; </para>
+        <para>Extension of the subsidy of 15s. a ton on artificial manure to a minimum of half ton lots instead of one ton as in the past; </para>
+        <para>Increase of the grant for trade publicity in the United Kingdom from &#163;15,000 to &#163;25,000 per annum; and </para>
+        <para class="block">The provision of &#163;120,000 for the services of the Council for Scientific and IndustrialResearch. </para>
+        <para class="block">The total proposed expenditure for works 1935-36, is &#163;5,610,000, of which &#163;3,367,000 will be provided from revenue and &#163;2,243,000 from loan. This represents an increase of &#163;2,448,000 on the provision for last year. In addition, &#163;3,000,000 will be provided from loan for adjustment of farmers&#39; debts. </para>
+        <para>The estimated budget results for 1935-36 may be summarized as follows: - </para>
+        <para class="block">
+          <graphic href="147332193509233_17_0.jpg" />
+        </para>
+        <para>Debate (on motion by <inline font-weight="bold">Senator Collings)</inline> adjourned. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>HOUR OF MEETING</title>
+        <page.no>20</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>Motion (by <inline font-weight="bold">Senator Sir George</inline> Pearce) agreed to - </para>
+      <para>That the Senate, at its rising, adjourn till to-morrow at 3 p.m. </para>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Ex-Senators Blakey and Benny</title>
+          <page.no>20</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>20</page.no>
+              <time.stamp />
+              <name.id>K0F</name.id>
+              <electorate>Western Australia</electorate>
+              <party>UAP</party>
+              <role>Minister for External Affairs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PEARCE, George</name>
+              <name role="display">Senator Sir GEORGE PEARCE</name>
+            </talker>
+            <para>&#91;8.37&#93;. -I move- </para>
+          </talk.start>
+          <para>That the Senate do now adjourn. </para>
+          <para>I take this opportunity to refer to two ex-senators who have passed away in recent months. Ex-Senator Albert Edward Howarth Blakey, was first elected to the Senate in 1910 and was re-elected after the double dissolution in 1914. He was unsuccessful, however at the general election in 1917. The late senator, who was better known, to an older generation of senators, was a member of the Joint Committee of Public Accounts from 1914 to 1917. I knew the deceased gentleman well, and recall his genial personality and popularity. He rendered good service to Australia, and on behalf of the Senate I desire to express to the relatives of the late ex-senator our sincere sympathy. </para>
+          <para>The late ex-Senator Benny, who died on the 10th February, 1935, was elected to the Senate as a representative of South Australia at the general election of 1919. He was a member of the Joint Committee of Public Accounts from July, 1923, and of the Royal Commission on National Insurance from 1923 to 1926, and was a Temporary  Chairman  of Committees in 1923. He resigned from the Senate on the 27th January, 1926. On behalf of the Senate, I extend to his widow and family our sincere sympathy. </para>
+          <para>Question resolved in the affirmative. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>20</page.no>
+        <time.stamp>20:41:00</time.stamp>
+      </adjournmentinfo>
+      <para>Senate adjourned at 8.41 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

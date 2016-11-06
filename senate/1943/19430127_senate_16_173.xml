@@ -1,251 +1,2173 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #010214; } body { background-image: url(/images/body-home-dusk-blurred.jpg); background-color: #010214; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-01-27%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-01-27%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-01-27%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-01-27%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-01-27%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-01-27%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1943-01-27%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1943-01-27/19430127_senate_16_173.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1943-01-27</date>
+    <parliament.no>16</parliament.no>
+    <session.no>1</session.no>
+    <period.no>8</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>3</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">COMMONWEALTH OF AUSTRALIA </para>
+    <para class="block">PARLIAMENTARY DEBATES. </para>
+    <para class="block">FirstSessionoftheSixteenthParliament.  (Eighth Period). </para>
+    <para>On the 11th December, 1942, the Parliament adjourned to a date and hour to be fixed by the  President  and <inline font-weight="bold">Mr. Speaker.</inline></para>
+    <para>The  President  and <inline font-weight="bold">Mr. Speaker</inline> summoned the Senate and the House of Representatives respectively to meeton the 27th January,1943, at 3 p.m. </para>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1943-01-27</day.start>
+      <para>The <inline font-weight="bold">President (Senator the Hon. J. Cunningham)</inline> took the chair at 3 p.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>INTERNATIONAL AFFAIRS</title>
+        <page.no>3</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para class="block">Conference between <inline font-weight="bold">Mr Churchill</inline> and  President  Roosevelt. </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>3</page.no>
+            <time.stamp />
+            <name.id>K7P</name.id>
+            <electorate>QUEENSLAND</electorate>
+            <party>FLP; ALP from 1937</party>
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLLINGS, Joseph</name>
+            <name role="display">Senator COLLINGS</name>
+          </talker>
+          <para>- <inline font-style="italic">by leave</inline> - I have to inform the Senate that the following communique was issued at 1 o&#39;clock this afternoon, Eastern Australian time :  - </para>
+        </talk.start>
+        <para>The  President  of the United States and the Prime Minister of Great Britain have been in conference near Casablanca since the 14th January. They were accompanied by the combined chiefs of staff of the two countries, namely, for the United States of America, the Chief of Staff of the United States Army, General George C. Marshall; the Commander-in-Chief of the United States Navy, Admiral E. J. King; the officer commanding the United States Army Air Force, Lieuten ant-General H. H. Arnold ; and for Great Britain, the First Sea Lord, Admiral of the Fleet <inline font-weight="bold">Sir Dudley</inline> Pound ; the Chief of the Imperial General Staff, General <inline font-weight="bold">Sir Alan</inline> Brooke; and the Chief of the Air Staff, Air Chief Marshal <inline font-weight="bold">Sir Charles</inline> Portal. </para>
+        <para>These were assisted by the Commanding General of Services of Supply, United States Army, LieutenantGeneral B. B. Somervell; the head of the British Joint Staff Mission in Washington, Field-MarshalSir John Dill ; Vice- Admiral Lord Louis Mountbatten; the Chief Staff Officer to the Minister for Defence, LieutenantGeneral <inline font-weight="bold">Sir Hastings</inline> Ismay; together with a number of staff officers from both countries. </para>
+        <para>They have received visits from <inline font-weight="bold">Mr. Murphy</inline> and <inline font-weight="bold">Mr. MacMillan;</inline> from the Commander-in-Chief of the Allied Expeditionary Force in North Africa, General Eisenhower; from the Naval Commander of the Allied Expeditionary Force in North Africa, Admiral of the Fleet <inline font-weight="bold">Sir Andrew</inline> Cunningham; from the Air Commander of the Allied Expeditionary Force in North Africa, General Spaatz; from General Clark, of the United States Army and from Middle East Head-quarters; from General <inline font-weight="bold">Sir Harold</inline> Alexander, Air Chief Marshal <inline font-weight="bold">Sir Arthur</inline> Tedder, and Lieutenant-General F. M. Andrews, United States Army. </para>
+        <para>The  President  was accompanied by <inline font-weight="bold">Mr. Harry</inline> Hopkins and was joined by <inline font-weight="bold">Mr. Averil</inline> Harriman. With the Prime Minister was the British Minister for War Transport, Lord Leathers. </para>
+        <para>For ten days, the combined staffs have been in constant session, meeting two or three times a day and recording progress at intervals to the  President  and the Prime Minister. The entire field of the war was surveyed, theatre by theatre, throughout the world, and all resources were marshalled for the more intense direction of the war by sea, land and air. Nothing like this prolonged discussion between the two allies has ever taken place before. Complete agreement was reached between the leaders of the two countries and their respective staffs upon war plans and enterprises to be undertaken during the campaign of 1943 against Germany, Italy and Japan with a view to drawing the utmost advantage from the markedly favorable turn of events at the close of 1942. </para>
+        <para>Premier Stalin was cordially invited to meet the  President  and the Prime Minister, in which case the meeting would have been held very much farther to the east. He is, however, unable to leave Russia at this time on account of the great offensive which he himself, as commander-in-chief, is directing. </para>
+        <para>The  President  and the Prime Minister realize to the full the enormous weight of the war which Russia is successfully bearing along her whole land front and their prime object has been to draw as much of the weight as possible off the Russian armies by engaging the enemy as heavily as possible at the best selected point. </para>
+        <para>Premier Stalin has been fully informed of the military proposals-. The  President  and the Prime Minister have been in communication with Generalissimo Chiang Kai-shek. They have apprised him of the measures which they are undertaking to assisthim in China&#39;s magnificent and unrelaxing struggle for the common cause. </para>
+        <para>The occasion of the meeting between the  President  and the Prime Minister made it imperative to invite General Giraud to the conference of Combined Chiefs of Staff and to arrange for a meeting between him and General de Gaulle. The two generals have been in close consultation. </para>
+        <para>The  President  and the Prime Minister and the Combined Staffs, having completed their plans for the offensive campaign of 1943, have now separated in order toput them into active and concerted execution. </para>
+        <para>With regard to the consultations between General de Gaulle and General Giraud, the two generals have jointly made the following statement: - </para>
+        <para>We have met. We have talked. We have registered our entire agreement on the end to be achieved, which isthe liberation of France and triumph of human liberties by total defeat of the enemy. This end will be attained by union in war of all Frenchmen  fighting  side by side with all their allies. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>DEATH OF THE HONORABLE WILLIAM HENRY LAIRD-SMITH</title>
+        <page.no>4</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>4</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The PRESIDENT</name>
+          </talker>
+          <para>- I have received from <inline font-weight="bold">Mrs. W.</inline> H. Laird-Smith, a letter of thanks and appreciation for the resolution of sympathy and condolence passed by the Senate on the occasionof the death of the Honorable William Henry Laird-Smith. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>WAR POLICY</title>
+        <page.no>4</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Repatriation of Service Personnel and Care of Dependants - Manpower and Material Resources - National Welfare</title>
+          <page.no>4</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>4</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>QueenslandMinister for the Interior</electorate>
+              <party>ALP</party>
+              <role>Minister for the Interior</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- <inline font-style="italic">by leave</inline> - I move - </para>
+          </talk.start>
+          <quote>
+            <para>That the Senate, at. this its first meeting in the year 1943, in the fourth year of war with Germany and Italy, and in the second year of war with Japan, declares - </para>
+            <list type="decimal">
+              <item label="(">
+                <para>1 ) Australia&#39;s indissoluble unity with the British Commonwealth of Nations, its unswerving loyalty to the cause of the United Nations and its admiration for the heroic efforts of the allied forces : </para>
+              </item>
+              <item label="(2)">
+                <para>Its pride in the bravery and achievements of the Australian forces, in all theatres, and its intention to make provision for their re-instatement and advancement and for the dependants of those who have died or been disabled as a consequence of the war ; and </para>
+              </item>
+              <item label="(3)">
+                <para>Its determination to use the whole of the man-power and material resources of the nation in order to ensure the maximum war effort necessary to bring about victory, and arising therefrom to provide the requisite measures to promote the national welfare of the whole of the Australian people. </para>
+              </item>
+            </list>
+          </quote>
+          <para class="block">As you, <inline font-weight="bold">Mr. President,</inline> and, as I presume, all honorable senators also, are aware, at this the first meeting of  the Senate in the year 1943, the procedure under normal conditions would have been somewhat different from that being adopted on this occasion. The usual .procedure would have been to have prorogued the Parliament at the end of last year, and for the Governor-General to have called us together to-day to listen to a speech by him setting out the policy of his advisers. After that speech, we should have given attention to the promulgation of an appropriate address in reply to  His  Excellency&#39;s speech. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>5</page.no>
+                <time.stamp />
+                <name.id>K6Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPICER, John</name>
+                <name role="display">Senator Spicer</name>
+              </talker>
+              <para>- That course was not followed in the previous year. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>5</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- The conditions prevailing then were not normal, and, because of the war and other matters, the conditions now are not normal. It is our duty, and I aru sure there will be no disagreement on the matter, to concentrate every effort of which we are capable on the winning of the war. Because the Government has accepted that responsibility, it also accepts that other grave responsibility of making adequate provision for all members of the fighting services as they return from the war fronts. The Government must also accept, and it does so very proudly, the responsibility of making provision for the future welfare of the dependants of those who have already, unfortunately, in many instances, made the supreme sacrifice, and those who may yet have to make it. The Government also accepts the great responsibility, and it does so with very great pride, of providing for the future welfare of that great industrial army behind the lines. The declaration which I have just read, and which is divided into three parts, provides all honorable senators with an opportunity to make such speeches or comments as they consider fit and proper for them to make, within the ambit of the three components of the declaration and on the remarks which F shall make during the course of my speech. There is no necessity for me to address honorable senators at great length on this motion, because the three points of the declaration speak for themselves. Australia&#39;s history in this war is a record of unquestioned loyalty to the British Commonwealth of Nations. In actual test over the last four years, Australia has proved the adequacy and flexibility of the ties which bind us to the Motherland and to the other dominions which form that great Commonwealth. Australia has taken its place among the United Nations, and has not hesitated to express its views on global strategy and all that that strategy involves. This country has been equally definite regarding the position in the South-west Pacific. But I need not go over the different chapters which comprise the history of those negotiations. Australia has not been selfish during this time of great trial; on the contrary, it has subordinated its own material ends and immediate wishes to the more pressing and vital needs of global strategy when that has been necessary. Australia&#39;s fighting men have distinguished themselves in every theatre of war in which they have so far been engaged. If we go back a quarter of a century in the world&#39;s history we shall recall the struggle which the previous world war occasioned, and rem em her with pride how Australian fighting men acquitted themselves in a war which was vastly different in its technical aspects from the present far greater and more serious struggle. Having regard to the part that Australia&#39;s fighting men and women have played, and also to the achievements of the great industrial army behind the battle line, it is not difficult to realize that a duty devolves upon every one of us, and specially upon the Government, to express our gratitude, not in mere platitudes or in lip service, but in legislation calculated to benefit those who have participated in the struggle. It is the determination of the Government to introduce a legislative programme to that end; .but I shall not weary the Senate this afternoon by giving details of the Government&#39;s proposals. As quickly as is practicable, that legislative programme will be submitted to the Parliament. At the moment, it will be sufficient for me to stress some points which have direct relation to the motion which I have submitted. The Government recognizes its duty in the matter of the repatriation of the members of the fighting forces, and it is determined that, so far as is possible, the mistakes associated with the repatriation of soldiers after the last war shall  not be repeated. Whatever is done in the interests of servicemen, the Government will do along lines which will be generous as well as just to those to whom this country owes so much. The Government also is conscious of its duty to provide for the dependants of the men who will never return; their care must be one of our first considerations. </para>
+            </talk.start>
+          </continue>
+          <para>The Government is preparing a complete scheme of post-war reconstruction, not only for the reasons which I have indicated, but also because the total war in. which this country is now engaged has made such heavy demands on the Australian economy that there is no inexhaustible supply of man-power from which to draw. In the future, as in the past, the Government will be forced to do r.i:::ry unpopular things. I say feelingly that. beyond the fact that Australian fathers, mothers, wives, sisters and sweethearts have had to suffer the agony of losing their loved ones in various theatres of war. the Australian people have not yet felt the war to the same degree as have the people in some other countries. It is true that what may be called savage taxation has been imposed upon the Australian people, but it has not hurt any one very much. There has been some measure of austerity in regard to the meals which we may eat, and some artificial shortage of various food products, due chiefly to transport difficulties occasioned by the necessity to transport troops and war equipment instead of foodstuffs; but. the inconvenience has been nothing like that which our own people in the United Kingdom had to endure during the Battle for Britain, when in one night damage estimated at many millions of pounds was done and thousands of lives were sacrificed. Notwithstanding the strain to which they were subjected, the men and women of the Old Country did not squeal or complain. Nor did the people of some other countries which were similarly treated complain. The Government will not .hesitate to do what it thinks right, merely because its proposals may be unpopular, because, if it can prevent the invasion of this continent by an enemy the people of Australia will be in a paradise compared with those other countries to which I have referred. The Government claims that Australia has reason to be proud of its war effort, and it is determined to go forward, with singleness of purpose, in order to put into operation its plan of post-war reconstruction. That plan must be proceeded with if the Government is to justify its existence. Whatever steps - either constitutional or otherwise - are necessary to give effect to that plan will be taken by the Government, because it believes that it has no right to remain in office unless it. is prepared to compensate in some degree those who in the different theatres of war have made tremendous sacrifices, some even unto death, or provide . for their dependants. The Government is determined upon its course ; I say that in no way as a challenge. So long as it has the confidence of the people of this country- </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6</page.no>
+                <time.stamp />
+                <name.id>KUA</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLEAY, George</name>
+                <name role="display">Senator McLeay</name>
+              </talker>
+              <para>-  And the approval of the Australian Labour party caucus. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>6</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- - That is rather a petty interjection; but I should be far happier to know that the proposals of the Government had the approval of the Australian Labour party than the commendation of that reactionary bloc from South Australia of whom the Leader of the Opposition <inline font-weight="bold">(Senator MoLeay)</inline> is such a shining light. The Government is determined to utilize to the full the resources of this country in order to keep it free from any invader. We intend to defend this country for very definite reasons other than those which I have already indicated. We are going to defend it to the last ditch, because we believe that it is worth defending. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>6</page.no>
+                <time.stamp />
+                <name.id>K3L</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SAMPSON, Burford</name>
+                <name role="display">Senator Sampson</name>
+              </talker>
+              <para>-  It is the duty of the Government in any case. It is the duty of any government to do so. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>6</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- We believe that this country is worth defending because of its wonderful history. Australia is a comparatively new country. It is one of the youngest nations, and has had but a century and a half to develop this great continent. It has a population of only <inline font-style="italic">7,000,000</inline> people, and had far .fewer than that during many of the years that have gone, yet we can say with pride that no country in the world in the same space of time has achieved with 30 small a population anything like what Australia has achieved. We believe that Australia is worth defending because of all that it  has done during that wonderful century and a half. We believe, too, that the continent is worth defending because of the visions our people have seen, and the dreams that they have dreamed. We believe that it is not only what we have achieved that makes this country worth defending. There are also all those things that we visualize as not only present possibilities, but also far ahead down the vista of time, where some of us visualize the wonderful potentialities of this great continent. We shall go right ahead and defend Australia from those who seek to invade it. and who, if they secured a footing upon our soil, would destroy our people and our ideals and that way of life which we know and love, and for which our loved ones are fight- ing. The Government accepts its duty. <inline font-weight="bold">Senator Sampson</inline> interjected that all that I was foreshadowing was but the duty of the Government, and, in fact, of any government. That is true, but it is also true that it is a wonderful privilege to be the Government of a country at, a time like the present, when these wonderful things require to be done. This Government knows that it is its duty to do those things to which I have referred. It is not only a duty but also a very heavy responsibility, and a glorious privilege, and in that spirit and in that faith it proposes to go ahead. The Government intends not only to do those tilings to which I have referred, but also to build for the future. Amongst all the United Nations and all the dominions which, with the Motherland, go to make up the British Commonwealth of Nation&#39;s, this is the country in which it will be more easily possible than in any other to build for the future, a future freed from the fear of want for all time, and freed from the fear of fear. We must build now in all those countries which are fighting shoulder to shoulder in this struggle such a condition for the future that we shall have freedom from fear. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>7</page.no>
+                <time.stamp />
+                <name.id>K6Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SPICER, John</name>
+                <name role="display">Senator Spicer</name>
+              </talker>
+              <para>- Fear of what? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>7</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator COLLINGS</name>
+              </talker>
+              <para>- The answer to that interjection is very important. The remark was made in a spirit of levity, but it containeda serious suggestion. Exactly half an hour ago I had the opportunity in my room of meeting a little band of children. You all know them, because you have listened to them over the air. although probably you have never met them. They are the children known as the Quiz Kids &#34;. I looked at those youngsters and I thought what a mess we old men had made of the world. Looking at them, I knew the answer to that interjection. I know, and the honorable senator ought to know - if he does not know it will be written down in the Book of Time to his discredit - the fear from which I wanted to save those children. It was the fear that when they become adults we shall have no better use to put them to than to provide cannon fodder for another international war. This must not happen. We dare not face the children to-day unless within our hearts there is the determination for ourselves and for our generation that that sort of thing shall never happen again. The Government believes that this country is worth defending, and is prepared to go ahead with its plans in order that in the future there shall be no room in this fair land of ours for tyranny and oppression of any kind. This Government has set its hand to the plough, and there will be no looking back until the last furrow is turned. There will be no turning back until we have accomplished those things which I have indicated. I am presumptuous enough to believe that even the Opposition knows, as the people ofthis country know, that this is the type of Government which alone can be expected to put through the programme of which in my humble way I have tried this afternoon to give some indication. </para>
+            </talk.start>
+          </continue>
+          <para>Debate (on motion by <inline font-weight="bold">Senator McLeay)</inline> adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT MOTION NEGATIVED</title>
+        <page.no>7</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para class="block">Motion (by SenatorCollings) put - </para>
+      <quote>
+        <para class="block">That the Senate do now adjourn. </para>
+      </quote>
+      <division>
+        <division.header>
+          <time.stamp />
+          <para>The Senate divided.</para>
+        </division.header>
+        <division.data>
+          <ayes>
+            <num.votes>0</num.votes>
+            <title>AYES</title>
+          </ayes>
+          <noes>
+            <num.votes>0</num.votes>
+            <title>NOES</title>
+          </noes>
+        </division.data>
+        <para>AYES</para>
+        <para>NOES</para>
+        <division.result />
+      </division>
+      <interjection>
+        <talk.start>
+          <talker>
+            <page.no>7</page.no>
+            <time.stamp />
+            <name.id>10000</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">PRESIDENT, The</name>
+            <name role="display">The President</name>
+          </talker>
+          <para>- Senatorthe  Hon.  J. Cunningham. </para>
+        </talk.start>
+      </interjection>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Ayes . .  . .  . . 16</title>
+          <page.no>7</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Noes . .  . . 17</title>
+          <page.no>7</page.no>
+        </subdebateinfo>
+      </subdebate.1>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Majority . . 1</title>
+          <page.no>7</page.no>
+        </subdebateinfo>
+        <para class="block">
+          <graphic href="173332194301276_5_0_1_A.jpg" />
+        </para>
+        <para class="block">
+          <graphic href="173332194301276_5_0_2_N.jpg" />
+        </para>
+        <para>Question so resolved in the negative. </para>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>8</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TRANSPORT OF MEMBERS</title>
+          <page.no>8</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>K7M</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLETT, Herbert</name>
+              <name role="display">Senator COLLETT</name>
+            </talker>
+            <para>- Is the Minister for the Interior aware that in travelling from Perth in order to attend the sessions of this Parliament, Western Australian members must spend five successive nights in trains? In these circumstances, does he think it reasonable that although bookings have been made almost a week in advance these members are allotted what appears to be the least comfortable accommodation available between Albury and Canberra? Will he ascertain whether some improvement can be effected in the booking arrangements? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- The transport of members to Canberra is a very difficult problem, the responsibility for which rests entirely on my shoulders. I am doing my best to cope with it. If the honorable senator will furnish me with the facts to which he refers I shall be glad to take up the matter in order to see if some measure of relief can be afforded. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>LEAVE OF ABSENCE</title>
+        <page.no>8</page.no>
+        <type>leave of absence</type>
+      </debateinfo>
+      <para>Motion  (by  SenatorUppill) - <inline font-style="italic">by leave</inline> - agreed to - </para>
+      <quote>
+        <para>That leave of absence for three months be granted to SenatorWilson on account of military service with the Australian Imperial Force abroad. </para>
+      </quote>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>MUNITIONS PRODUCTION</title>
+        <page.no>8</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>8</page.no>
+            <time.stamp />
+            <name.id>KUA</name.id>
+            <electorate />
+            <party />
+            <role />
+            <in.gov>0</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCLEAY, George</name>
+            <name role="display">Senator McLEAY</name>
+          </talker>
+          <para>- Has the Leader of the Senate seen the article which appeared in yesterday&#39;s issue of the <inline font-style="italic">Daily</inline></para>
+        </talk.start>
+        <para class="block">
+          <inline font-style="italic">Telegraph,</inline>Sydney, headed &#34; Go-Slow Cuts War Output &#34;, which reads - </para>
+        <quote>
+          <para>Managers of some Sydney foundries and factories said yesterday that go-slow tactics are drugging production of essential war materials. Production rate has dropped by half in places. </para>
+        </quote>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>8</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>REPORT MAN-POWER INTERFERENCE</title>
+          <page.no>8</page.no>
+        </subdebateinfo>
+        <para>Employers have given up trying to discipline slackers. They have found that if they sack a man work stoppage results, or they are ordered to reinstate the man by man-power authorities. </para>
+        <para>The unions, they say, discipline, not the slacker but the conscientious, or industrious, worker, who tries to give a greater output. </para>
+        <para>The rate of production is determined by the men themselves, and none dares exceed it, even where he could double the output. </para>
+        <interjection>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator Ashley</name>
+            </talker>
+            <para>-  I rise to a point of order. Is the honorable senator in order in making a quotation under the cloak of a question? </para>
+          </talk.start>
+        </interjection>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>10000</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">PRESIDENT, The</name>
+              <name role="display">The PRESIDENT</name>
+            </talker>
+            <para>- The honorable senator is asking a question in relation to a newspaper report concerning the production of essential war materials. He is in order in making a quotation from the report. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>KUA</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCLEAY, George</name>
+              <name role="display">Senator McLEAY</name>
+            </talker>
+            <para>- The article continues - </para>
+          </talk.start>
+          <quote>
+            <para>At one foundry, moulders are now making nineteen boxes a man per103/4-hourday, compared with 100 in an 83/4-hour day before the war. </para>
+          </quote>
+          <para>If the Minister has seen the article, which I regard as a very serious statement in view of its publication in a reputable newspaper, will he give consideration to the appointment of an Arbitration Court judge, or commissioner, to investigate the serious allegations made? If the Minister has not seen the article will he make a point of reading it, and making a statement to the Senate later setting out the Government&#39;s views on the matter? </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- The answer to the honorable senator&#39;s speech is &#34;No&#34;. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>8</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>VOLUNTEER DEFENCE CORPS</title>
+          <page.no>8</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>8</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>- Is the Minister for Trade and Customs aware that because of the limited issue of clothing to members of the Volunteer Defence Corps many of these men are obliged to purchase tropical clothes and working clothes at their own expense? The men are not complaining, butwould the Minister ask the Rationing Commission to make available a small additional issue of coupons to cover such purchases? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>9</page.no>
+              <time.stamp />
+              <name.id>KE4</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>ALP</party>
+              <role>Minister for Trade and Customs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KEANE, Richard</name>
+              <name role="display">Senator KEANE</name>
+            </talker>
+            <para>-Ishall bring that matter before the Rationing Commission. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>9</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CANBERRA BOARDING-HOUSES</title>
+          <page.no>9</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>9</page.no>
+              <time.stamp />
+              <name.id>K0N</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARNOLD, James</name>
+              <name role="display">Senator ARNOLD</name>
+            </talker>
+            <para>- Will the Minister for the Interior assure the Senate that he will undertake immediately to make an investigation regarding the accommodation provided at boardinghouses and similar establishments in Canberra, with a view to determining whether adequate facilities are provided? Will the Minister also state whether he is satisfied that the class of food served in boarding-houses leased to certain persons by the Government is of a standard in keeping with the board money paid? If the inquiry reveals that accommodation is lacking, will the Minister see that additional provision is made at the earliest possible moment? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>9</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- All of the matters referred to by the honorable senator are, and will continue to be, under continuous observation. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>GREENSLOPES MILITARY HOSPITAL</title>
+        <page.no>9</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <para>SenatorFOLL. - Is the Minister for the Interior aware that considerable inconvenience is being caused through the non-completion of the Greenslopes Military Hospital because work has been stopped in connexion with the construction of the administrative block? Does the Government intend to ensure the completion of the administrative block so that the work may be proceeded with at an early date? </para>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>9</page.no>
+            <time.stamp />
+            <name.id>K7P</name.id>
+            <electorate />
+            <party>ALP</party>
+            <role />
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">COLLINGS, Joseph</name>
+            <name role="display">Senator COLLINGS</name>
+          </talker>
+          <para>- The matter of hospital accommodation is an exceedingly difficult one, as the honorable senator probably knows. All action in such matters is being taken on the advice of the service chiefs, and those projects which are of immediate urgency are receiving higher priority than those which can wait at least for a while until the problems associated with them can be solved. </para>
+        </talk.start>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>9</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SUGAR RATIONING</title>
+          <page.no>9</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>9</page.no>
+              <time.stamp />
+              <name.id>KR9</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LECKIE, John</name>
+              <name role="display">Senator LECKIE</name>
+            </talker>
+            <para>- Will the Minister  for Trade and Customs inform the Senate whether householders who desire the sugar ration of 6 lb. a head for jammaking purposes have first to make application in writing to the rationing authorities? That would involve the use of a 2&#189;d. stamp, and the reply would further increase the cost of correspondence to 5d. which would add practically1d. a lb. to the cost of the sugar. Do householders also have to sign a declaration before a justice of the peace, which, in the case of a person living in the country, would sometimes involve a long journey, whereas in metropolitan areas it would probably involve a train or tram journey, thus still further increasing the cost of the sugar. If that be so, will the Minister stir the rationing authorities into such activity as to find a better method of dealing with such a simple matter? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>9</page.no>
+              <time.stamp />
+              <name.id>KE4</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KEANE, Richard</name>
+              <name role="display">Senator KEANE</name>
+            </talker>
+            <para>- I think that this is the first query I have heard regarding the methods adopted by the rationing authorities. The matter raised by the honorable senator will be investigated, and, if his contention be sound, the fault will be rectified. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>9</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>EMPLOYEES IN GOVERNMENT DEPARTMENTS</title>
+          <page.no>9</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>9</page.no>
+              <time.stamp />
+              <name.id>KOL</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCBRIDE, Philip</name>
+              <name role="display">Senator McBRIDE</name>
+            </talker>
+            <para>- Will the Leader of the Senate ascertain the total number of employees engaged at the 30th September, 1941, and at the 30th September, 1942, by the Department of Supply and Shipping, the Department of War Organization of Industry, and the Department of Labour and National Service? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>9</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party>FLP; ALP from 1937</party>
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>-S- No. On account of the man-power shortage such an inquiry could not be undertaken. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>9</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>MINISTERIAL CHANGES</title>
+          <page.no>9</page.no>
+        </subdebateinfo>
+        <para>
+          <inline font-weight="bold">Senator COLLINGS</inline>(Queensland- </para>
+        <para>Minister for the Interior). - <inline font-style="italic">by leave</inline> - I desire to inform honorable senators that the Honorable J. B. Chifley, M.P., Treasurer, has been appointed to administer the new Department of Post-War Reconstruction established on the 22nd December, 1942. <inline font-weight="bold">Mr. Chifley</inline> will continue to act as Treasurer. <inline font-weight="bold">Senator Keane</inline> will represent the Minister for Post- War Reconstruction in the Senate. The portfolio of Minister of State for Supply and Development, held by the Honorable J. A. Beasley, M.P., has been changed to that of Minister of State for </para>
+        <para>Supply and Shipping, and on the 17th October, 1942. <inline font-weight="bold">Mr, Beasley</inline> was appointed to that office. </para>
+        <para>
+          <inline font-weight="bold">Senator the</inline>Honorable J. M. Eraser, Minister of State for External Territories, who hitherto was assisting the Minister for Commerce, has been appointed to assist the Minister for Supply and Shipping. <inline font-weight="bold">Senator Eraser</inline> will continue to discharge the duties associated with External Territories. </para>
+        <para>The Department of Supply and Development will in future be known as the Department of Supply and Shipping. </para>
+        <para>The portfolio of Minister of State for Commerce, held by the Honorable W. J. Scully, M.P., has been changed to that of Minister for Commerce and Agriculture. The additional duties were assumed by <inline font-weight="bold">Mr. Scully</inline> on the 22nd December, 1 942. The Department of Commerce will in future be known as the Department of Commerce and Agriculture. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>- Why was the Treasurer appointed Minister for Post-War Reconstruction, seeing that the AttorneyGeneral claimed that he was responsible for the agreement reached at the recent Constitutional Convention on the subject of granting additional powers to the Commonwealth, in order that post-war reconstruction problems might be dealt with by the Commonwealth Parliament? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>-Iam afraid that the honorable senator has his facts mixed. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>10</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CONSTITUTION ALTERATIONS</title>
+          <page.no>10</page.no>
+        </subdebateinfo>
+        <para class="block">Broadcasts by Attorney-General. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>KOL</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCBRIDE, Philip</name>
+              <name role="display">Senator McBRIDE</name>
+            </talker>
+            <para>asked the PostmasterGeneral, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Will the Minister inform the Senate what time was occupied on the national stations by the Attorney-General <inline font-weight="bold">(Dr. Evatt)</inline> in broad- casting propaganda in favour of his proposed constitutional amendments? </para>
+            </item>
+            <item label="2.">
+              <para>What programmes were put off the air to allow Dr.Evatt time for his broadcasts? </para>
+            </item>
+            <item label="3.">
+              <para>What time wasallowed the opponents of the proposedconstitutional amendments to put their case before the public? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>- The answers to the honorable senator&#39;s questions are as follows :  -  1, 2,and3. In view of the great public interesttaken in the Constitutional Convention and the desire of listeners generally for an explanation as to the scope and meaning of the draft bill and the convention generally. arrangements were madeforthe AttorneyGeneral to broadcast two expository talks dealing with the proposals and the convention. T hese talks, which, having regard to the nonparty character of the convention, were not regarded by the Australian Broadcasting Commission as being in the nature of propaganda, covered only two fifteen minutes talks and two musical programmes were slightly reduced in length accordingly. Throughout the whole period of the convention objective and nonpartisan reports were given by the commission&#39;s staff covering all the view-points expressed and in this way due emphasis was given to the opinions voiced by the various delegates. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>10</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>DIRECTOR GENERAL OF AGRICULTURE</title>
+          <page.no>10</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>KAY</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIBSON, William</name>
+              <name role="display">Senator GIBSON</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Commerce and Agriculture, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Will the duties of the new DirectorGeneral of Agriculture appointed by the Government override the States&#39; Directors of Agriculture? </para>
+            </item>
+            <item label="2.">
+              <para>Will the Minister outline to the Senate the duties of the new Director-General ? </para>
+            </item>
+          </list>
+          <para>SenatorFRASER.- The Minister for Commerce and Agriculture has supplied the following answers: -  1 and 2. The following matters will come under the control ofthe Director-General of Agriculture: -Matters relating to agricultural production referred to the Director-General by the Minister and, with the Minister&#39;s approval, by the Australian Food Council: matters arising out of Agricultural Council meetings affecting agricultural production; contact with Departments of Agriculture regarding agricultural production; rural man-power; district war agricultural committees: action in association with the States to secure the attainment of production goals; and matters associated with the above, including fertilizer rationing, fodderconservation, &#38;c. The Director-General will assist the Minister in the administration of Commonwealth policy on agricultural production. He will coordinate the efforts of the States to secure the production most required for the war effort. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>10</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>CANNED AND DEHYDRATED MUTTON</title>
+          <page.no>10</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>10</page.no>
+              <time.stamp />
+              <name.id>KAY</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">GIBSON, William</name>
+              <name role="display">Senator GIBSON</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Commerce and Agriculture, <inline font-style="italic">upon notice -</inline> 1.In view of the low price of sheep for canning purposes, viz.,1&#189;d. per lb. can the Minister state how the price of23/4d. per lb. guaranteed by the Minister in statements on several occasions can be obtained by the producer? </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="2.">
+              <para>Where can one deliver mutton for dehydratingpurposes and obtain the27/8. per 1b. the Minister guaranteed for that purpose? </para>
+            </item>
+            <item label="3.">
+              <para>Have any dehydrating works yet operated on a commercial basis? </para>
+            </item>
+            <item label="4.">
+              <para>Is it a fact the cannersdo not purchase mutton but buy sheep and slaughter them for that purpose. </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>11</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party>ALP</party>
+              <role>Minister for External Territories</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator FRASER</name>
+            </talker>
+            <para>- The Minister for Commerce and Agriculture has supplied the following answers: - 1 and 2. The Australian Heat Industry Commission has made the following statement regarding the purchase and storage of mutton suitable for dehydration and canning: - </para>
+          </talk.start>
+          <list type="lowerroman">
+            <item label="(i)">
+              <para>The commission will assume responsibility for mutton in store at15th January, 1943, at27/8d. per lb. f.o.r. dehydrator, and 23/4d. per lb. f.o.r. cannery.No freezing or storage charges will be allowed in respect of such mutton from the date of placing the mutton into store up to the15th January,1943. </para>
+            </item>
+            <item label="(ii)">
+              <para>If mutton in (i) remains in store after loth January,1943. the commission will pay storage at the rate of1/32d. per lb. from16th January until date delivereddehydrator or cannery. </para>
+            </item>
+            <item label="(iii)">
+              <para>If not delivered to dehydrator or cannery, the commission will take over at loth March.1943, at 27/8d. per lb. and/or23/4d. per lb f.o.r. dehydrator or cannery plus storage for period 16th January to loth March, at l/32d. per lb. per week or portion of week. </para>
+            </item>
+            <item label="(iv)">
+              <para>In respect of mutton treated after15th January and placed in store/works will be paid freezing charge3/8d. per lb. including 28 days&#39; storage and thereafter l/32d. per lb. per week or portion of week up to date of delivery f.o.r. dehydrator or cannery. </para>
+            </item>
+            <item label="(v)">
+              <para>Where mutton treated after l5th January, 1043, has not been delivered to a dehydrator or cannery hut is still held in store at15th March. 1943, the commission will take over such mutton at27/8d. per lb. or23/4d. per lb. f.o.r. dehydrator or cannery as the case may be, plus freezing charge of3/8d. per lb., including 28 days&#39; storage.Extra storage after the 28 days will bepaid for at 1/32d per 1b. per week or portion of a week. </para>
+            </item>
+            <item label="(vi)">
+              <para>Where mutton taken into store after loth January is wrapped by direction ofCommonwealth officer - works will be paid cost of wrap. </para>
+            </item>
+            <item label="(vii)">
+              <para>The above conditions will apply only to those works which agree to issue a schedule on weight and grade basis of prices covering export, dehydration and canning mutton mutually suitable arrangements to be made between the producers and the works concerned for processing. 3.The dehydration units at Bourke, Aberdeen and Daroobalgie will commence operations within the next fourteen days. </para>
+              <list type="decimal-dotted">
+                <item label="4.">
+                  <para>Canners, whooperate their own meatworks, do buy and slaughter sheep: other canners purchase mutton from meat operators. </para>
+                </item>
+              </list>
+            </item>
+          </list>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>11</page.no>
+                <time.stamp />
+                <name.id>JQP</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COOPER, Walter</name>
+                <name role="display">Senator COOPER</name>
+              </talker>
+              <para>asked the Minister representing the Minister for Commerce and Agriculture, <inline font-style="italic">upon notice -</inline></para>
+            </talk.start>
+          </continue>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>is it a fact that plants for the dehydration of mutton have been erected in different parts of Australia? </para>
+            </item>
+            <item label="2.">
+              <para>If so, can the Minister advise the Senate where the plants have been erected? </para>
+            </item>
+            <item label="3.">
+              <para>Ifnot, can he give an assurance that these plants will be erected in country districts where sheep (locks are depasturing? </para>
+            </item>
+            <item label="4.">
+              <para>Are any of these plants in operation. If so. where? </para>
+            </item>
+          </list>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>11</page.no>
+                <time.stamp />
+                <name.id>KKR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FRASER, James</name>
+                <name role="display">Senator FRASER</name>
+              </talker>
+              <para>- The Minister for Commerce and Agriculture hassupplied the following answers: - </para>
+            </talk.start>
+          </continue>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Dehydration units are being erected in various parts of Australia. </para>
+            </item>
+            <item label="2.">
+              <para>Units are being constructed atBendigo and Portland, Victoria; Bourke, Aberdeen, Daroobalgie and Newcastle,New South Wales; and Moreton, Queensland. </para>
+            </item>
+            <item label="3.">
+              <para>Before approval is given for the erection of dehydration units, consideration is given to accessibility of sheep flocks and the continuous supply of sheep suitable for dehydration purposes. </para>
+            </item>
+            <item label="4.">
+              <para>It is anticipated that the units at Bourke, Aberdeen and Daroobalgie will commence operations within the next fourteen days. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>11</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ARMY MAGAZINE SALT</title>
+          <page.no>11</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>11</page.no>
+              <time.stamp />
+              <name.id>K7M</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLETT, Herbert</name>
+              <name role="display">Senator COLLETT</name>
+            </talker>
+            <para>asked the Minister representing the Minister for the Army, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is the periodical entitled <inline font-style="italic">Salt,</inline> and printed by Truth and Sportsman Limited, Melbourne, the official organ of the Australian Army Education Service? </para>
+            </item>
+            <item label="2.">
+              <para>If so, is the Minister of the opinion that it should be used as a medium for the dissemination of political propaganda of a partisan character even if of government origin ? </para>
+            </item>
+            <item label="3.">
+              <para>Will the Minister approve of these questions, and the answers thereto, being published in the next issue of Soft? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>11</page.no>
+              <time.stamp />
+              <name.id>KKR</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FRASER, James</name>
+              <name role="display">Senator FRASER</name>
+            </talker>
+            <para>- The Minister for the Army has supplied the following a nswers :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. </para>
+            </item>
+            <item label="2.">
+              <para>No. </para>
+            </item>
+            <item label="3.">
+              <para>Yes. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>11</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BEER RATIONING</title>
+          <page.no>11</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>11</page.no>
+              <time.stamp />
+              <name.id>K7M</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLETT, Herbert</name>
+              <name role="display">Senator COLLETT</name>
+            </talker>
+            <para>asked the Minister for Trade and Customs, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What is the basis of the system of rationing of beer to hotels? </para>
+            </item>
+            <item label="2.">
+              <para>Is there any variation of method as between urban and rural hotels? </para>
+            </item>
+            <item label="3.">
+              <para>Is any discrimination shown, within these bounds, between one hotel and another? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>KE4</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KEANE, Richard</name>
+              <name role="display">Senator KEANE</name>
+            </talker>
+            <para>- The answers to the honorable senator&#39;s questions are as follows :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>A hotelkeeper&#39;s beer ration under the Control of Liquor Order is based on his beer purchases during January and February, 1942, or purchases during the calendar year 1941, whichever is the more favorable. </para>
+            </item>
+            <item label="2.">
+              <para>No distinction is drawn between urban and rural districts as such. Industrial areas whether in city or country receive an additional 10 per cent. on basic quotas. </para>
+            </item>
+            <item label="3.">
+              <para>No. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>12</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>WAR DAMAGE INSURANCE</title>
+          <page.no>12</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>KS7</name.id>
+              <electorate>through SenatorCollett</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MACDONALD, Allan</name>
+              <name role="display">Senator ALLAN MacDONALD</name>
+            </talker>
+            <para>asked the Minister representing the Treasurer, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>In view of the rapid accumulation of funds collected by the Government under the war damage insurance scheme, now approaching &#163;7,000,000, will the Treasurer give early consideration to a reduction of the present premium rate? </para>
+            </item>
+            <item label="2.">
+              <para>Will the Treasurer take steps to earmark the large balance of these funds for repayment to the contributors on the cessation of hostilities ? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>KE4</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KEANE, Richard</name>
+              <name role="display">Senator KEANE</name>
+            </talker>
+            <para>- The Treasurer has supplied the following answers: - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Consideration has already been given to this matter and it has been decided in the light of all the facts that the rates of contribution for war damage insurance during 1943 shall be the same as those imposed during 1942. It is impossible to estimate the probable damages which the fund may be called upon to meet. The total value of all property at present covered by war damage insurance is approximately &#163;2,700,000,000. Property of an estimated total value of &#163;10,000,000 is situated in New Guinea, Papua, and parts of Australia which have been subjected to heavy attacks by the enemy. The War Damage Fund will be called upon to meet liabilities in respect of damages which have already occurred in those areas. The total amount of such liabilities cannot at present be assessed but is known to be a very considerable sum. The Government considers that the present balance of &#163;7,000,000 in the War Damage Fund would be an inadequate provision to meet existing and prospective liabilities and that it would be unwise to reduce the rates of contributions until a much greater fund has been established. </para>
+            </item>
+            <item label="2.">
+              <para>It is not possible to earmark any portion of the present War Damage Fund for repayment to contributors on the cessation of hostilities. The fund can only be earmarked for war damage claims. The disposal of any unexpended balance in the fund at the end of the war will be a matter for Parliament to determine. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>12</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PREFERENCE TO RETURNED SERVICEMEN</title>
+          <page.no>12</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>JZD</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FOLL, Hattil</name>
+              <name role="display">Senator FOLL</name>
+            </talker>
+            <para>asked the Minister representing the Prime Minister, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Did the Attorney-General state in a national broadcast recently, when defending the proposed constitutional amendments: &#34; Will returned servicemen be given preference in employment? Yes, but the Government believes this preference is far from adequate. In the depression years, that preference was a mockery, for jobs were not available&#34;? </para>
+            </item>
+            <item label="2.">
+              <para>If so, does this mean that when the additional powers are available, the Government&#39;s policy will be : &#34; Preference to returned soldiers &#34;? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- The Prime Minister has supplied the following answers :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>The actual statement made by the Attorney -General was as follows: &#34;Will returned servicemen be given preference in employment? Yes, but the Government believes that this preference is far from adequate. It was evident in the depression years following the last war that preference was a mockery, for jobs were not available for civilians or servicemen. With a reconstruction plan which should strain our labour resources to the limit, the servicemen will obtain real security of employment.&#34; </para>
+            </item>
+            <item label="2.">
+              <para>The Attorney-General&#39;s statement as to preference is in accordance with government policy. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>12</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>OFFICIALHISTORY OF AUSTRALIA. IN THE WAR OF 1914-18</title>
+          <page.no>12</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>K7M</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLETT, Herbert</name>
+              <name role="display">Senator COLLETT</name>
+            </talker>
+            <para>asked the Minister representing the Prime Minister, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that the <inline font-style="italic">Official History of Australia in the War of</inline> 1914-18, edited by <inline font-weight="bold">Dr. C.</inline> E. W. Bean, is completed? </para>
+            </item>
+            <item label="2.">
+              <para>If so, and whilst the services of <inline font-weight="bold">Dr. Bean</inline> may still be available, will the Government favorably consider meeting an existing demand for a condensed edition of the <inline font-style="italic">History</inline> for the purposes of popular reading? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>12</page.no>
+              <time.stamp />
+              <name.id>K7P</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COLLINGS, Joseph</name>
+              <name role="display">Senator COLLINGS</name>
+            </talker>
+            <para>- The Prime Minister has supplied the following answers :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Yes. </para>
+            </item>
+            <item label="2.">
+              <para>The matter will receive consideration. There is, however, some doubt as to <inline font-weight="bold">Dr. Bean&#39;s</inline> availability for this work. This phase is now being inquired into. Fullinformationon this matter was conveyed to the honorable senator by letter on the 19th December, 1942. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>13</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>WHEAT INDUSTRY</title>
+          <page.no>13</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>13</page.no>
+              <time.stamp />
+              <name.id>KQL</name.id>
+              <electorate>Western Australia</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LATHAM, Charles</name>
+              <name role="display">Senator LATHAM</name>
+            </talker>
+            <para>. - I move - </para>
+          </talk.start>
+          <quote>
+            <para>That in view of the Government&#39;s action in fixing, through the Wheat Harvest Employment Commission, the wages and conditions of harvest employees, the Senate urges and recommends the Government to immediately determine and guarantee afixed payable price to farmers for their products. </para>
+          </quote>
+          <para class="block">At the outset, I wish to make it clear that I have no desire to have the Senate believe that I hold the view that employees of farmers should be treated less favorably than any other section of workers. Nevertheless, I draw attention to the fact that it is unreasonable for a commission to fix such high rates of wages - they were far in excess of the basic wage, as I shall show - and expect an industry which for years has carried on at a loss in most parts of Australia to pay them. The method adopted by the Government, through its responsible Minister, to give effect to its policy was somewhat strange. At a conference of wheat-growers, which met at Canberra, a discussion took place as to the best way to bring about better conditions in the wheat-growing industry. On the 6th October, 1942, when the Senate was in session, the Australian Workers Union approached the Government with a view to obtaining better conditions in that industry, particularly the provision of a standard wage to be paid to workers engaged in it. On the 9th October, the Parliament went into recess, and on the 23rd of that month regulations appointing the commission were gazetted. Among other things, those regulations provided - </para>
+          <quote>
+            <para>There shall be a Wheat Harvest Employment Commission, consisting of a chairman, two representatives of the Australian Wheat Growers Federation and two representatives of the Australian Workers Union. </para>
+          </quote>
+          <para class="block">That commission remained in existence until yesterday, when the responsible Minister advised its members that the commission would function no longer. To say the least, that was a most extraordinary method of conducting the business of the country. Regulations under the National Security Act are gazetted ostensibly for the purpose of doing those things to which the Leader of the Senate <inline font-weight="bold">(Senator Collings)</inline> referred this afternoon in an eloquent speech, but if the honorable senator can show that the regulations now under consideration assisted the country&#39;s war effort in any way, I shall be prepared to withdraw my motion. I accept the challenge of the AttorneyGeneral <inline font-weight="bold">(Dr. Evatt)</inline> to show that these regulations have not assisted in the war effort. Even if they did in any measure assist, Australia&#39;s war effort, it was only for a short period ; but I cannot see that they had that effect at all. The composition of the commission shows that it was loaded. It consisted of <inline font-weight="bold">Mr. Arthur</inline> Blakeley, as chairman; Messrs. W. C. Cambridge, M.L.C., and J. W. Diver, representing the Australian Wheat Growers Federation; and Messrs. G. H. Buckland and D. Gunn, representing the Australian Workers Union. </para>
+          <para>Sub-regulation 2 of regulation 5 states - </para>
+          <quote>
+            <para>The  chairman  shall be a person who holds the office of judge of a Commonwealth Court of Conciliation and Arbitration or a Conciliation Commissioner appointed under the <inline font-style="italic">Commonwealth Conciliationand Arbitration Act</inline> 1904-1934 or under that act as applied and construed by the National Security (Industrial Peace) Regulations. (Statutory Rules 1940, No. 290, as amended for the time being.) </para>
+          </quote>
+          <para class="block">I assume that <inline font-weight="bold">Mr. Blakeley</inline> came within that category.  Most  of us know that gentleman&#39;s political leanings. Just as it is difficult for a man to change his religion, so it is difficult for a man to change his politics. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>13</page.no>
+                <time.stamp />
+                <name.id>KQF</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LAMP, Charles</name>
+                <name role="display">Senator Lamp</name>
+              </talker>
+              <para>-  When we pointed that out in connexion with Judge DrakeBrockman we were not believed. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>13</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- In addition  to  two strong representatives of the Australian Workers Union, a man who during the whole of his political career had been a supporter of the Labour party, was chairman of the commission. He was even a member of this National Parliament for many years, representing Labour, and from that point of view probably did very good service  to  the Labour cause. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>13</page.no>
+                <time.stamp />
+                <name.id>KQF</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LAMP, Charles</name>
+                <name role="display">Senator Lamp</name>
+              </talker>
+              <para>-  Judge DrakeBrockman was once a member of the Commonwealth Parliament. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>13</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- So far as I know. Judge Drake-Brockman was never placed in a responsible position on a board or commission, with two other ardent supporters, biased politically. It was possible  to appeal against any decision he gave, but there was no appeal against the decision of this commission. If the Government thinks that it is good to appoint that sort of body, it must not complain in the future if other parties do the same thing. The unfortunate farmer was placed entirely in the hands of a board that was politically biased. Although the representatives of the wheat-growers opposed the submission of the matter to the board for its determination, they were advised by the  chairman  of the conference that, if they did not agree the Government would probably make the appointments as it had done in the case of the &#34;Women&#39;s Employment Board. It is very dangerous to say to a person &#34; If you do not agree, we have another method of forcing you &#34;. Consequently, the wheat-growers agreed to nominate two men, because if they had not. done so the board would probably have consisted of five politically biased individuals. I object to that kind of thing, and I think that national politics ought to be above it. The commission got together and a log was submitted to it by the Australian Workers Union. </para>
+            </talk.start>
+          </continue>
+          <para class="block">
+            <inline font-style="italic">I</inline>propose to read to the Senate a list of the wages fixed by the commission in spite of the protests of the two representatives of the wheat-growers, and in spite of the fact that for many years now the National Parliament has been compelled to pass legislation to assist the wheatgrowers to keep their industry going. The members of the commission could not have been ignorant of the condition of the industry when they fixed such high wages. One does not object to the payment of good wages, but it is very difficult for a person carrying on an industry to be compol led by law to pay a rate far in excess of what he himself is getting out of it. No one knows better than you do, <inline font-weight="bold">Mr. President,</inline> that these men and their wives and children work from one year&#39;s end to the other and at the end of the year all that they have done is to build up a d efi* it. I deeply regret that this very important industry is being carried on under these conditions. When I heard the statement, of the Leader of the Senate this afternoon I felt impressed by it, and I thought that, if he would include among the workers and the industrialists those who have carried on important in- dustries iin  Australia for many years, and place them in an equally good position, lie could depend on the wholehearted support of this side of. the Senate. No one desires to see people living under bad conditions, but those who have suffered most i&#187; Australia have been those who have carried on the wheat industry. The wage fixed by the commission for stack builders and  thatchers  was 8s. 3d. an hour, which for an eight hour day means fi 6s. It set down the value of a man&#39;s  board aat  &#163;1 6s. 6d. a week. Six days at &#163;1 6s. per clay makes &#163;7 16s. a week, to which must be added the &#163;1 6s. 6d. for board. I have also allowed 5s. for lodging, being the amount allowed as a deduction under the Income Tax Assessment Act, which brings the total effective wage to &#163;9 7s. 6d. a week for a man who builds or thatches a stack. The commission fixed &#163;1 6s. 6d. a &#34;week for board, but I notice that when the farmer wants to make a deduction for what the board of an. employee has cost him he is permitted to deduct only 15&#39;s. a week, unless he can clearly show that he  has  spent more than that sum. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>14</page.no>
+                <time.stamp />
+                <name.id>K6N</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CLOTHIER, Robert</name>
+                <name role="display">Senator Clothier</name>
+              </talker>
+              <para>- What is the average number of weeks that they would work under that award % </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>14</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- It depends on a variety of circumstances. Some people in Western Australia cut. a thousand acres of hay for chaffing. If the crop is small, it will not take very long to stack and thatch it; on the other hand it may fake a considerable time. There may be two or three wagons supplying the builder or tha teller, or there may be only one. The period may be a week, a fortnight or a month. I should say that in all probability the Minister in charge of this legislation thought that from the 9th November until yesterday was sufficiently long to exhaust, it, because he telegraphed to the members of the commission that their services would be no longer required from yesterday. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>14</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator Aylett</name>
+              </talker>
+              <para>- Has the honorable  senator  compared that wage, with the amounts earned by other highly skilled workmen ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>14</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- I have done the work  myself,  and 1 do not say that it is very highly skilled. It. is quite an easy job in comparison with many others. If </para>
+            </talk.start>
+          </continue>
+          <para class="block">L had a choice of the work on a farm, I should prefer to be a stack builder rather than a sheaf thrower, because it is a very much harder job to toss the &#62;heaves up to the top of the stack than to place them in position. The next item was  drivers of binders, harvesters, headers and tractors, 2s. iki. an hour &#34;. Under similar conditions, that works out at &#163;8 3s. a week. Then all other employees during the harvesting period, including youths of nineteen years of age and upwards, sheaf-pitchers,  stookers,  platform hands and bag sewers, were to receive on the same basis &#163;6 19s. a week. At that time the average basic wage for Australia was &#163;4 15s. a week. One does nol; mind these men getting a little over the basic wage, but when  it  is remembered that the commission doubled the basic wage, and imposed those conditions on an industry the principals of which are in a very serious financial condition, the resentment felt by the wheat-growers can be easily understood. To show the way in which the commission arrived at its figures, 1 may explain that it took the basic figure for 30 towns for the September quarter, which was S9s., and added 2s. for November, making 91s. Then it put a 5s. prosperity loading on the industry, although those engaged in it have had to come year after year to the National Parliament for financial assistance. It is most extraordinary that such a thing should happen. It shows a complete lack of knowledge of the industry. When Ministers select people to advise and assist them, they should at least get somebody who knows something about the industry under consideration. Finally the commission added a 12-&#163; per cent, loading for casual work. I do not know why there should be any difference in that regard between employees on farms and elsewhere. So far as I know, no loading has been imposed on any other industry for casual work. The commission did not take into consideration the principles laid down in the Commonwealth Conciliation and Arbitration Act. The Senate should rake the opportunity to protest against the setting up of such a conciliation commission by regulations. Why was not the Arbitration Court used? That is the proper method of determining wages and salaries throughout Australia. If the Government could not use the Arbitration Court at the time, why did it not use the principles laid down by the court to determine the wages in this industry? <inline font-weight="bold">Mr. Justice</inline> Piddington laid down the following as the principles to be followed : - </para>
+          <quote>
+            <para>To secure the economic consequence of adequate maintenance of the worker and his family, and to secure the economic consequence of prosperous industry for the employer. Any statutory tribunal which fails to consider  either  of these consequences when declaring a living wage, fails to discharge a primary function. </para>
+          </quote>
+          <para class="block">The commission made no attempt to follow that sound advice. All that it was concerned about was to take something from an industry that was already overloaded, and give it to a section of the workers. The commission did not provide any additional employment for the workers, or any additional labour for the farmers. Long before this, when Australia called for volunteers for its defence, the response came first from the country, as it always has and always will. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>15</page.no>
+                <time.stamp />
+                <name.id>K7P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COLLINGS, Joseph</name>
+                <name role="display">Senator Collings</name>
+              </talker>
+              <para>- Nonsense. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>15</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- If the Minister obtains the returns from the country districts and from the industrial centres, he will find that what I say is right. I say nothing against the labouring men in the cities. I am not blaming any one for it, but I say that the response has always come quicker from the country than from the city areas. Undoubtedly, the number of men in country districts who enlisted in the Australian Imperial Force shortly after the outbreak of the war was very large. They were young nien capable of doing this work. Only aged men are now available. The whole of the country districts were combed long ago by the authorities. Thus, this wage is altogether out of proportion to the capacity of the men available to do the work. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>15</page.no>
+                <time.stamp />
+                <name.id>KKR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FRASER, James</name>
+                <name role="display">Senator Fraser</name>
+              </talker>
+              <para>- When the honorable senator was a member of the Legislative Assembly of Western Australia, he declared that women who replaced men in industry were not entitled &#39;to the male rate. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>15</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- That is not correct. My remarks on that subject are published in the Western Australian </para>
+            </talk.start>
+          </continue>
+          <para>
+            <inline font-style="italic">Hansard.</inline>If the Minister will read them, perhaps he will cease misleading the public. I shall certainly stand by what I have said with respect to the payment  Of  women in industry. However, that has nothing to do with the matter now under consideration .because this wage is not prescribed in respect of female employees. I repeat that the only labour available, and there was very little of it, consisted of elderly men who were anxious &#39;to help, but whose physical capacity did not entitle them to earn so high a rate. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>K6N</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CLOTHIER, Robert</name>
+                <name role="display">Senator Clothier</name>
+              </talker>
+              <para>-  Has the honorable senator always been in favour of arbitration? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- Yes. I am certainly opposed to this method of fixing wages. When wages arid conditions for an industry are fixed, the least that the arbitrator should do is, as <inline font-weight="bold">Mr. Justice</inline> Piddington pointed out, to see that the industry is able to pay the wages awarded. The Arbitration Court has proved its worth. Incidentally, it was not established by a Labour government. One would not have objected to this higher wage had the Government of to-day seen fit to ena&#39;ble the industry to pay the wage. About three years ago the Government of the day brought down a scheme to pay the wheatgrowers of Australia 3s. lOd. a bushel f.o.b. at, port, on a total crop of 140.000,000 bushels. Unfortunately, in the 1941-42 season, the production exceeded that quantity by 13,000,000 bushels. The problem then arose as to what should be done in respect of that excess production, and in this matter this Government decided to repudiate its predecessor&#39;s agreement. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>KKR</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">FRASER, James</name>
+                <name role="display">Senator Fraser</name>
+              </talker>
+              <para>-  That is entirely wrong. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- The only statutory provision in respect of the price of wheat which I can find is that when the price exceeds 3s. -10d. a bushel, 50 per cent, of the excess price shall be paid to the farmer and 50 per cent, shall be paid into n pool. That is the only statutory reference I am able to find, with the exception of the legislation passed by a previous Labour Government, under which a price of 3s. was guaranteed ; but that guarantee was never honoured. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>K6N</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CLOTHIER, Robert</name>
+                <name role="display">Senator Clothier</name>
+              </talker>
+              <para>-  What will be the difference between the amount which the farmer will receive this year and the amount he received last year from the previous Government. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- As a matter of fact, the farmer is still living on promises. Last session, I asked <inline font-weight="bold">Senator Fraser,</inline> as the Minister assisting the Minister for Commerce, when the amount payable to the Western Australian wheatfarmer in respect of the reduction of acreage by one-third in that State would be made available, and he replied that he would advise me; but I have not yet received a reply from him. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>K6N</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CLOTHIER, Robert</name>
+                <name role="display">Senator Clothier</name>
+              </talker>
+              <para>-  What is the difference between the amount which the farmer received for 1,000 bags this year and the amount he received last year. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- It is a better price this year. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>K6N</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CLOTHIER, Robert</name>
+                <name role="display">Senator Clothier</name>
+              </talker>
+              <para>-  What is it? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- The farmers have received an advance from the No. 5 pool of 2s. 7&#163;d. a bushel for bagged wheat, and 2s. 5&#163;d. a bushel for bulk wheat. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>K6N</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CLOTHIER, Robert</name>
+                <name role="display">Senator Clothier</name>
+              </talker>
+              <para>-  The difference is &#163;220 on each 1,000 bags. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>16</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- Apparently the honorable senator is not aware that a large quantity of last season&#39;s wheat still remains unsold and, until it is sold, we cannot say definitely what price it will realize. However, the 4s. a .bushel we are now receiving is all that we are going to get. Any return in excess of that price will go to the Government. That is how I understand the matter, but I ask the Minister to deal with that point. I understand that for the first 1,000 bags the farmer will receive 4s. a bushel, and for all wheat in excess of that he will receive 2s. a bushel. This arrangement is distinctly unfortunate so far as the Western Australian wheatfarmer is concerned. For many years the agriculturist in Western Australia has played an important part in building up the nation&#39;s credit overseas by producing large quantities of wheat and wool  foi1  export The wheat farms in Western Australia are comparatively large. More farmers in that State produce over 3,000 bushels than under 3,000 bushels. The  reason is that the areas in Western Australia were divided into comparatively large blocks, no farm being under 1,000 acres, owing principally to the comparatively low fertility of the soil. Consequently, the Western Australian wheatfarmer will suffer most under the Government&#39;s present proposal, because the present guaranteed price to the farmer who produces 6,000 bushels - and there are many producing over that quantity - will average only 3s. a bushel. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>17</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate>SOUTH AUSTRALIA</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator A J McLACHLAN</name>
+              </talker>
+              <para>- What will happen if more than 2s. a bushel is realized for the excess wheat? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>17</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- The Government has not yet made up its mind on that matter; but taking a kindly view of its intentions it will probably give to the farmer everything in excess of 2s. a bushel up to 4s. a bushel and divide everything in excess of 4s. a bushel between the farmer and the Government. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>17</page.no>
+                <time.stamp />
+                <name.id>KTR</name.id>
+                <electorate>SOUTH AUSTRALIA</electorate>
+                <party>NAT</party>
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCLACHLAN, Alexander</name>
+                <name role="display">Senator A J McLACHLAN</name>
+              </talker>
+              <para>- What has the Government to do with it? It is the farmer&#39;s wheat? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>17</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- I understand that any return in excess of 4s. a bushel is to be paid into a pool with the object of placing the industry on a sounder footing by making it independent of the whims of political parties. I now propose to contrast the treatment meted out <inline font-style="italic">to</inline> the Australian wheat-farmer and that given to wheat-growers in other countries, in New Zealand the guaranteed price is 6.&#171;. <inline font-style="italic">6id.</inline> a bushel, although the wage in the industry in that country is not so high as that now prescribed in our case. The English guaranteed price is 8s. 5-J-d. a bushel with a minimum wage of &#163;3 for a working week of 48 hours. In the United States of America under the Agricultural Adjustment Act, a price of 7s. <inline font-style="italic">5&#38;d.</inline> a bushel is guaranteed. The conference of Commonwealth and State Ministers, held in August, 103S, at which the Labour party was well represented, discussed the basis of the flour tax then under consideration, and unanimously agreed that 4s. 8d. a bushel was a fair price to the farmer. </para>
+            </talk.start>
+          </continue>
+          <para>My motive in moving this motion is to endeavour to impress upon the Government, that it should enable the industry to pay the wages which  the  industry ought to pay. I have worked in many callings, but </para>
+          <para class="block">I know of no avocation in which the relations between master and employee are more harmonious than in the agricultural industry. I say that in spite of statements to the contrary by members of the Labour party in this Parliament. Generally speaking, complete harmony exists between the master and employee on farms, mainly because the employee appreciates the difficulties which beset the farmer. Farming* is hard work. The farmer cannot control climatic conditions. He never knows when a fire might sweep his property and destroy, not only his home, but also his stock. To-day, wheatgrowing is a very important industry. Many people say that we have too much wheat; but should the war terminate within a month we should find we would not have nearly sufficient to feed the starving millions throughout the world. Other countries have lived up to their responsibilities to the wheat industry and other primary industries. I appeal to honorable senators opposite who boast that they represent the workers, and I take it that they mean not only trade unionists- </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>17</page.no>
+                <time.stamp />
+                <name.id>JQY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COURTICE, Benjamin</name>
+                <name role="display">Senator Courtice</name>
+              </talker>
+              <para>- We represent the farmers also. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>17</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- If that be so honorable senators opposite represent them, very badly ; otherwise we should not find the conditions which prevail on farms to-day. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>17</page.no>
+                <time.stamp />
+                <name.id>K6N</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">CLOTHIER, Robert</name>
+                <name role="display">Senator Clothier</name>
+              </talker>
+              <para>- The farmer ha? got more from the Labour party than from any other party. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>17</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- He has certainly got more from the Labour party; but more of what? I recall the time when all envelopes sent through the post were branded with the words : &#34; Grow more wheat&#34;. To that appeal the farmers made the greatest response that has ever been made to an appeal issued by any Government in this country. I could clearly show the loyalty of the farmer to the National Government. What was the result? The farmer received ls. 6d. a bushel for his wheat, and many promises about what would be done for him. Legislation was introduced to fix the price at 3s. a bushel, but that legislation was never implemented. I am extremely sorry that you, <inline font-weight="bold">Mr. Acting President,</inline> now occupy the chair, because </para>
+            </talk.start>
+          </continue>
+          <para class="block">I now wish to refer to a promise made bythe  President  of the Senate <inline font-weight="bold">(Senator Cunningham),</inline> who is a personal friend of mine. I remember on one occasion going into an important wheat-growing district in Western Australia in company with other honorable senators, who promised the wheat-growers that they would receive 4s. a bushel for their wheat if a Labour government were returned to power. I now ask those hon- ourable senators to honour the promise made to the people at Lake Grace. At that time the price of wheat was even lower than it is to-day. It was prior to the establishment of an Australian price for wheat for human consumption, by which the price was fixed at 5s. 2d. a bushel f.o.b. Williamstown. That, of course, was not the act of a Labour government, but of a United Australia party government. For the first time, the people of Australia were told that, if they desired Australian industrial conditions, they must bring their industries into line with such conditions, and that the prices of the commodities required by the primary producers should he Australian prices, and not overseas dumping prices. I feel sure that if <inline font-weight="bold">Mr. President</inline> wore aware of what I am saying at the moment, he would come into the chamber and support, the motion now before us, because I have known him sufficiently long to believe that he would honour that, obligation. He definitely promised the farmers that the price of 4s. a bushel would be paid by a Labour government. </para>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>18</page.no>
+                <time.stamp />
+                <name.id>K0P</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">ARTHUR, Thomas</name>
+                <name role="display">Senator Arthur</name>
+              </talker>
+              <para>- Did the honorable senator suggest a price that should be paid ? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>18</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- I mentioned no price at all, because I knew how difficult it would be to finance such a price as 4s. a bushel. I disagreed with the other honorable senators. I was then, as today, on the Opposition side in Parliament, and I have always found that it is far better to be frank with the people than to mislead them by specious promises. On that occasion I could not give my backing to the promise of 4s. a bushel. </para>
+            </talk.start>
+          </continue>
+          <para>Owing to the farmers not having sufficient money, no prices have been fixed for hay or chaff. </para>
+          <para>SenatorFraser. - It is no new thing to find that the farmers have little or no money. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>18</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- They have always been a slave community, and there has been no improvement since the Minister has been in office. The womenfolk and the children on the farms are doing the work to-day because the farmers have not the cash with which to pay the wage rates ordinarily demanded by employees. The farmers have not yet been paid for their wheat, and therefore they arc worse off than ever. The prices of chaff and oats have not been fixed, and the effect in Western Australia has been that stock have been run on the barley crops and in all probability there will be a shortage ofbarley for malting purposes. If that be so, barley-growers in South Australia may find a market for their commodity. I appeal to honorable senators to support the motion, and I urge the Government to honour the promise made by its representatives in Western Australia, when the Prime Minister(Mr. Curtin) was Leader of the Opposition in the House of Representatives, to pay to the farmers 4s. a bushel. That is not an unreasonable request, because, in the second report of the Royal Commission on the Wheat, Flour and Bread Industries, dated March,1935, it was pointed out that the cost of production at thattime was 3s.6d. a. bushel, including rail freight and handling charges from sidingto f.o.r. port position, for which the report allowed fid. a bushel. At that time the cost of production of wheat, on an Australian average yield, was 3s. a bushel, and since then the price of commodities has increased by 40 or50 per rent. The price of superphosphatehas increased by 46 per cent. and the cost of bags is from10d. to1s. greater than it was at that time. </para>
+            </talk.start>
+          </continue>
+          <para>SenatorCameron. - Is the honorable senator in favour of abolishing the interest charges which wheat-growers have to pay ? </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>18</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- I hope that, before I cease to be a member of this chamber, a. limit will be placed on interest charges. The commission to which I referred has put down the labour costs, including the farmer&#39;s own labour, as well as family and hired labour, at1s.1&#189;d. a bushel. That seems to contrast strongly with what the commission stated in its own report. At page 79 the report states - </para>
+            </talk.start>
+          </continue>
+          <para>If we take the case of a farm on which an annual average crop of 8.000 bushels of wheat is being produced, then every extra man receiving &#163;1 per week as wages and 15s. for keep involves an extra expenditure of &#163;91 per annum or 2s. 7d. per bushel. &#34;What a low rate to fix to say that &#163;1 a week for wages and 15s. a week for keep would make the labour cost1s.1&#189;d. a bushel! Very little consideration was given to the report. I realize that the com mission had time in which to investigate the matter, but the labour cost has been raised from &#163;1 15s. a week to &#163;6 19s. a week for the lowest paid man. Another matter which the commission overlooked is that, when it took into account the basic wage affecting certain towns, it forgot that an employee was to receive &#163;16s. a week if he boarded himself. I hope that in future the Government will not interfere with the payment to employees of farmers on the basis adopted in this instance. There is no reason why the farm labourer should be in any worse position that other workers. I have worked both as a farmer and as a farmer&#39;s employee, and it is of nouse to say that elaborate wages can be imposed on an industry in which, during the last nine or ten years, the farmers have had to go to theNational Parliament for financial assistance. </para>
+          <para>SenatorKeane. - A great deal of money has been provided by the Commonwealth Parliament for the wheat-farmers. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>19</page.no>
+                <time.stamp />
+                <name.id>KQL</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">LATHAM, Charles</name>
+                <name role="display">Senator LATHAM</name>
+              </talker>
+              <para>- That is so, but wo have not yet found a remedy for the ills of the farmers. It is of no use to say that, if an industry cannot provide wages at. Australian rates, it must close down. The only way in which Australia can meet its overseas commitments is by means of the goods it exports, but commodities such as wheat, wool and butter are being produced by sweated labour. The only way in which to improve the position is to ensure that the commodities produced by the farmers command prices which will enable them to give a living wage to their employees. </para>
+            </talk.start>
+          </continue>
+          <para>Debate (on motion by <inline font-weight="bold">Senator Fraser)</inline> adjourned. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>19</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers were presented :  - </para>
+      <para>Air Force Act - Regulations - Statutory Rules 1942, No. 543. </para>
+      <para>Apple and Pear Organization Act - Regulations - Statutory Rules 1942, No. 190. </para>
+      <para>Arbitration (Public Service) Act - Determinations by the Arbitrator, &#38;c. - </para>
+      <para>No. 1 of 1943 - Federated Public Service Assistants&#39; Association of Australia. </para>
+      <para>No. 2 of 1943 - Line Inspectors&#39; Association, Commonwealth of Australia. </para>
+      <para>No. 3 of 1943 - Commonwealth Temporary Clerks&#39; Association; and Arms, Explosives and Munition Workers&#39; Federation of Australia. </para>
+      <para>No. 4 of 1943 - Commonwealth Storemen and Packers&#39; Union of Australia; and Commonwealth Naval Storehousemen&#39;a Association. </para>
+      <para>Audit Act-Regulations - Statutory Rules 1942, Nos. 523, 542. </para>
+      <para>Cable and Wire Bounty Act - Return for year 1941-42 (Substitute copy). </para>
+      <para>Canned Fruits Export Control Act - Regulations - Statutory Rules 1942, No. 194. </para>
+      <para>Commonwealth Employees&#39; Compensation Act - Regulations - Statutory Rules 1942, No. 528. </para>
+      <para>Commonwealth Public Service Act - Regulations - Statutory Rules 1942, No. 552. </para>
+      <para>Customs Act - Proclamations prohibiting the exportation (except under certain conditions ) of - </para>
+      <para>Kyanite, Sillimanite (dated 22nd December, 1942). </para>
+      <para>Sewing and embroidery threads of silk or synthetic fibre (dated 13th January, 1943). </para>
+      <para>Dairy Produce Export Control Act - RegulationsStatutory Rules 1942, No. 192. </para>
+      <para>Defence Act - Regulations - Statutory Rules 1942, Nos. 555, 556; 1943, No. 17. </para>
+      <para>Defence Act and Naval Defence Act - Regulations - Statutory Rules 1942, No. 544. </para>
+      <para>Income Tax Assessment Act - Regulations - Statutory Rules 1942, No. 553. </para>
+      <para>Lands Acquisition Act - Land acquired - </para>
+      <para>For Commonwealth purposes at - </para>
+      <para>Archerfield, Queensland. </para>
+      <para>Ballarat, Victoria. </para>
+      <para>Bathurst, New South Wales. </para>
+      <para>Beverley, South Australia. </para>
+      <para>Dysart, Victoria. </para>
+      <para>Fitzroy, Victoria. </para>
+      <para>Mile End, South Australia. </para>
+      <para>Moorooka, Queensland. </para>
+      <para>Mount Martha, Victoria. </para>
+      <para>Narrogin. Western Australia. </para>
+      <para>New Farm, Queensland. </para>
+      <para>Normanton, Queensland. </para>
+      <para>Oodnadatta. South Australia. </para>
+      <para>Perth. Western Australia. </para>
+      <para>Rhodes, New South Wales. </para>
+      <para>Wagga Wagga. New South Wales. </para>
+      <para>Wolseley, South Australia. </para>
+      <para class="block">Meat Export Control Act - Regulations - Statutory Rules 1942, No. 193. </para>
+      <para class="block">National Security Act - </para>
+      <para>Australian Barley Board Regulations - Order - Barley Acquisition. </para>
+      <para>National Security (Apple and Pear Acquisition ) Regulations - Order - Apple and Pear Acquisition 1942-1943. </para>
+      <para>National Security (Camouflage) Regulations^ - Order - Camouflage of Vehicles. </para>
+      <para>National Security (Capital Issues) Regulations - Order - Exemption. </para>
+      <para>National Security (Emergency Control) Regulations - Order - Military powers during emergency. </para>
+      <para>National Security (Exchange Control) Regulations - Order - Sterling area. </para>
+      <para>National Security (Field Peas Acquisition ) - Regulations - Order - Field Peas Acquisition. </para>
+      <para>National Security (General) Regulations - Orders - </para>
+      <para>Basis of Compensation (2). </para>
+      <para>Bread Control (South Australia ). </para>
+      <para>Bread Industry (Australian Capital </para>
+      <para>Territory), (New South Wales), (Queensland), (Tasmania), (Victoria), (Western Australia). </para>
+      <para>Control of - </para>
+      <para>Clothing (Feminine outerwear), (Knitted outerwear), (Knitted underwear), (Male outerwear), (Men&#39;s half hose), (Shirts, collars and pyjamas). </para>
+      <para>Electric Dry Battery manufacture. </para>
+      <para>Electric Torch Case manufacture. </para>
+      <para>Essential materials. </para>
+      <para>Hand and Garden Tools. </para>
+      <para>Horseshoe manufacture. </para>
+      <para>Liquor (Interstate supplies of beer ) . </para>
+      <para>Manufacture of Shovels. </para>
+      <para>Rubber. </para>
+      <para>Second-hand Jute. </para>
+      <para>Tyres. </para>
+      <para>Ice Industry (Victoria). </para>
+      <para>Milk Industry (New South Wales). </para>
+      <para>Navigation (Port Stephens - Private Craft). </para>
+      <para>Prohibited place. </para>
+      <para>Prohibiting work on land (7). </para>
+      <para>Prohibition of non-essential production. </para>
+      <para>Regulation of Transport. </para>
+      <para>Requisitioning of Agricultural Im plements and Machinery. </para>
+      <para>Restriction of Pastrycooks&#39; goods (New South Wales). </para>
+      <para>Restrictions on new manufactures - Exemptions (2). </para>
+      <para>Taking possession of land,&#38;c. (414). </para>
+      <para>Use of land (19). </para>
+      <para>Orders bv State Premiers - New South </para>
+      <para>Wales (3). Queensland (3), Tasmania (0), Victoria (3), Western Australia. </para>
+      <para>National Security (General and Supplementary) Regulations - Orders by State Premier - New South Wales (3). </para>
+      <para>National Security (Industrial Lighting) Regulations - Order - Interior artificial lighting. </para>
+      <para>National Security (Land Transport) Regulations - </para>
+      <para>Directorate of Emergency Road Transport for Victoria - </para>
+      <para>Orders - </para>
+      <para>No. 11. </para>
+      <para>New South Wales No&#39;. 4, South Australia No. 10, Victoria No. 8. </para>
+      <para>National Security (Man Power) Regulations - Orders - </para>
+      <para>Man Power (Certificates of Exemption). </para>
+      <para>Man Power (Exemption from Service). </para>
+      <para>Protected undertakings (119). </para>
+      <para>Regulation of engagement of employees - Exemption. </para>
+      <para>National Security (Maritime Industry) Regulations - Orders - Nos. 34, 35. </para>
+      <para>National Security (Potatoes) Regulations -Order- No. 10. </para>
+      <para>National Security (Prices) Regulations -Orders- Nos. 876-896. </para>
+      <para>National Security (Rationing) Regulations - Orders- Nos. 13-20. </para>
+      <para>National Security (Supplementary) Regulations - </para>
+      <para>Order - Provision of first-aid facilities. </para>
+      <para>Orders by State Premiers - New South Wales, South Australia (2) , Tasmania (4), Victoria, Western Australia (3). </para>
+      <para>National Security (Vegetable Seeds) Regulations - Order - Declaration of prescribed vegetable. </para>
+      <para class="block">Regulations - Statutorv Rules 1942, Nos. 524, 525, 526, 527,535, 536, 537, 538, 539, 540. 541, 545, 546, 547. 551, 557; 1943, Nos.1, 2. 3. 4, 5. 6. 7. 8, 9, 10, 12, 13, 14, 15, 19. </para>
+      <para class="block">Navigation Act - Regulations - Statutory Rules 1942, No. 520. </para>
+      <para class="block">Northern Territory Acceptance Act and Northern Territory ( Administration ) Act - Regulations - No. 2 of 1942 - (Slaughtering Ordinance). </para>
+      <para class="block">No. 3 of 1942 - (Rules under Local Courts Ordinance) . </para>
+      <para class="block"> No. 4 of 1942- (Health Ordinance). </para>
+      <para class="block">Post and Telegraph Act - Regulations - Statutory Rules 1942, Nos. 550, 554. </para>
+      <para class="block">Seat of Government Acceptance Act and Seat of Government (Administration) Act- </para>
+      <para class="block">Ordinance No. 20 of 1942 - Trespass on Commonwealth Lands. </para>
+      <para class="block">Ordinances of 1943 - </para>
+      <para class="block">No. 1. - Careless use of fire. </para>
+      <para class="block">No. 2 - Motor traffic. </para>
+      <para class="block">No. 3 - Liquor. </para>
+      <para class="block">Wine Overseas Marketing Act - Regulations -Statutory Rules 1942. No. 191. </para>
+      <para class="block">Women&#39;s Emplovment Act - Regulations -  Statutory Rules 1942, No. 548. </para>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>20</page.no>
+        <time.stamp>17:15:00</time.stamp>
+      </adjournmentinfo>
+      <para class="block">Senate adjourned at 5.15 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>

@@ -1,251 +1,1739 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-US">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="en-AU"/>
-    <meta name="language" content="en-AU"/>
-    <meta name="description" content="Search engine for Australian parliamentary documents and media."/>
-    <meta name="keywords" content="parlinfo, parliament, australian government"/>
-<title>ParlInfo - Missing File</title><link rel="stylesheet" type="text/css" href="/css/reset-fonts.css" /><link rel="stylesheet" type="text/css" href="/css/parlInfo.css" /><link rel="stylesheet" type="text/css" href="/css/headerAndFooter.css" /><style>html { background-color: #010214; } body { background-image: url(/images/body-home-dusk-blurred.jpg); background-color: #010214; }</style><script type="text/javascript" src="/javaScript/utils.js"></script>
-  </head>
-<body><div class="invisible"><a href="#startContent" accesskey="S">Skip all navigation links</a></div><div id="container"><div id="header">    <div class="logo">
-      <a href="http://www.aph.gov.au" id="logo">Parliament of Australia</a>
-    </div>
-				<div id="siteTools"> 
-					<ul>
-            <li><a href="#content">Skip to content</a> |</li>
-						<!-- Logged in Case -->
-            <li><a href='http://parlinfo.aph.gov.au/parlInfo/register/login.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1948-04-28%2Ftoc%22%3F%20Database%3ATOC;resCount=0'>Log in</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help/Contact">Contact</a> |</li>
-            <li><a href="http://www.aph.gov.au/Help">Help</a></li>
-					</ul>
-
-          <ul>
-             <li><a href="/parlInfo/help/tips.w3p;helpLoc=whatsnew">What's New</a> |</li>
-             <li>ParlInfo Search v1.28.0</li>
-          </ul>
-				</div>
-				<div class="clearfix" id="quickLinks">
-					<ul class="quickLinksBar" id="quickLinksHoRep">
-					    <!-- This displays when each house is currently live, it toggles between two states:
-					        Live state -->
-					    <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">LIVE</a></li>
-					    <!-- Not Live state
-					        <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-					        -->
-							<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives"><strong>House of Representatives</strong></a></li>
-                            <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/House">Committees</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=2&amp;coi=0">Hansard</a></li>
-							<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR">Documents</a></li>
-					</ul>
-					<ul class="quickLinksBar" id="quickLinksSenate">
-						<!-- This displays when each house is currently live, it toggles between two states:
-							Live state
-              <li class="first liveIndicator liveIndicatorNotLive"><a href="#">Not Live</a></li>
-						-->
-                         <li class="first liveIndicator liveIndicatorIsLive"><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament">Live</a></li>
-					    <!-- EO Not Live state -->
-						<li><a href="http://www.aph.gov.au/About_Parliament/Senate"><strong>Senate</strong></a></li>
-                        <li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Senate">Committees</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard/Search?q=&amp;expand=true&amp;drvH=0&amp;drt=2&amp;pnu=44&amp;pnuH=44&amp;pi=0&amp;pv=&amp;chi=1&amp;coi=0">Hansard</a></li>
-						<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents">Documents</a></li>
-					</ul>
-				</div>
-
-                <div id="primaryNav">
-                    <ul class="clearfix">
-                         <li class="first rootMenu firstRootMenu" id="primaryNavHome"><a href="http://www.aph.gov.au"><span>Home</span></a></li>
-						<li class="rootMenu" id="primaryNavParliamentaryBusiness"><a href="http://www.aph.gov.au/Parliamentary_Business" title="Parliamentary Business"><span>Parliamentary Business</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation" title="Bills and Legislation">Bills and Legislation</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents" title="Chamber documents">Chamber documents</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Hansard" title="Hansard">Hansard</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Senate_Estimates" title="Senate Estimates">Senate Estimates</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Statistics" title="Statistics">Statistics</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-								<li><a href="http://www.aph.gov.au/Parliamentary_Business/Opening" title="Opening of the 44th Parliament">Opening of the 44th Parliament</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavSenatorsAndMembers"><a href="http://www.aph.gov.au/Senators_and_Members" title="Senators and Members"><span>Senators and Members</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-								<li><a href="http://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members" title="Contacting Senators and Members">Contacting Senators and Members</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavEvents"><a href="http://www.aph.gov.au/News_and_Events" title="News & Events"><span>News & Events</span></a>
-							<ul class="subMenu">
-								<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-								<li><a href="http://www.aph.gov.au/myfirstspeech" title="My First Speech">My First Speech</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavAboutParliament"><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament"><span>About Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/About_Parliament/Work_of_the_Parliament" title="Work of the Parliament">Work of the Parliament</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments" title="Parliamentary Departments">Parliamentary Departments</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Publications" title="Publications">Publications</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Friendship" title="Parliamentary Friendship Groups">Parliamentary Friendship Groups</a></li>
-								<li><a href="http://www.aph.gov.au/About_Parliament/Sitting_Calendar" title="Sitting Calendar">Sitting Calendar</a></li>
-</ul></li>
-						<li class="rootMenu" id="primaryNavVisitParliament"><a href="http://www.aph.gov.au/Visit_Parliament" title="Visit Parliament"><span>Visit Parliament</span></a>
-							<ul class="subMenu">
-								<li class="first"><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Virtual_Tours" title="Virtual Tours of Parliament House">Virtual Tours of Parliament House</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Visitor_Events" title="Visitor Events">Visitor Events</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Food_and_Shop" title="Food and Shop">Food and Shop</a></li>
-								<li><a href="http://www.aph.gov.au/Visit_Parliament/Venue_Hire" title="Venue Hire">Venue Hire</a></li>
-</ul></li>
-						
-				   
-                        <!-- No primary nav items will be in "active" state (i.e we are not in any of the primary IA while searching). This
-                            means there is no active implamentation -->
-					
-
-                    </ul>
-				</div>
-<div id="secondaryNavWrapper"><div id="secondaryNav" class="clearfix"><h2 class="offLeft">Menu Options</h2><ul class="secondaryNavOff"><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1948-04-28%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Basic Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/search/search.w3p;adv=yes;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1948-04-28%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Advanced Search/Browse</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/guide/guide.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1948-04-28%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>Guided Search</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/list/trolleyView.w3p;query=TOCId%3A%22hansard80%2Fhansards80%2F1948-04-28%2Ftoc%22%3F%20Database%3ATOC;rec=0;resCount=0" title="You have 0 items in your list"><span>My List (0)</span></a></li><li class=""><a href="http://parlinfo.aph.gov.au/parlInfo/register/account.w3p;orderBy=none;page=0;query=TOCId%3A%22hansard80%2Fhansards80%2F1948-04-28%2Ftoc%22%3F%20Database%3ATOC;resCount=0"><span>My Profile</span></a></li><li class=""><a class="menu" href="http://parlinfo.aph.gov.au/parlInfo/help/searchHelp.w3p;orderBy=none;query=TOCId%3A%22hansard80%2Fhansards80%2F1948-04-28%2Ftoc%22%3F%20Database%3ATOC;resCount=0" accesskey="6"><span>Help</span></a></li></ul></div></div></div><div id="content"><a name="startContent"></a><table border="0" class="fullWidth"><tr><td class="fullWidth"><h1 class="centerAlign">
-                  Could not find the file 'hansard80/hansards80/1948-04-28/19480428_senate_18_196.xml'
-                </h1></td></tr></table></div>      <div class="line" id="footer">
-        <div class="unit" id="footerHouses">
-          <h3 class="senate">Senate</h3>
-            <ul class="senate">
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate" title="Senate">Senate</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Senate_chamber_documents" title="Senate chamber documents">Senate chamber documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Dynamic_Red" title="Dynamic Red">Dynamic Red</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Senators" title="Senators">Senators</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Senate/Senate_Seating_Plan" title="Senate Seating Plan">Senate Seating Plan</a></li>
-
-            </ul>
-
-          <h3 class="hoRep">House of Representatives</h3>
-          <ul class="hoRep">
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives" title="House of Representatives">House of Representatives</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/HoR" title="House of Representatives chamber and business documents">House of Representatives chamber and business documents</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Chamber_documents/Live_Minutes_-_House" title="Live Minutes - House">Live Minutes - House</a></li>
-				<li><a href="http://www.aph.gov.au/Senators_and_Members/Members" title="Members">Members</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/House_of_Representatives/House_of_Representatives_Seating_Plan" title="House of Representatives Seating Plan">House of Representatives Seating Plan</a></li>
-
-          </ul>
-        </div>
-
-        <div class="lastUnit" id="footerQuickLinks">
-          <div class"line">
-            <div class="unit size1of3">
-              <h3 class="footer">Get informed</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/News_and_Events" title="News & Events">News & Events</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Watch_Parliament" title="Watch Parliament">Watch Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament" title="About Parliament">About Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Education_Resources" title="Education Resources">Education Resources</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library" title="Parliamentary Library">Parliamentary Library</a></li>
-				<li><a href="http://www.aph.gov.au/About_Parliament/International_Program" title="International Program">International Program</a></li>
- 
-              </ul>
-
-              <h3 class="footer">Bills</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_before_Parliament" title="Bills before Parliament">Bills before Parliament</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Assented_Bills_of_previous_Parliaments" title="Assented Bills of previous Parliaments">Assented Bills of previous Parliaments</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Tariff_Proposals" title="Tariff Proposals">Tariff Proposals</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/leginstruments" title="Legislative Instruments">Legislative Instruments</a></li>
-
-              </ul>
-
-              <h3 class="footer">Committees</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees" title="Committees">Committees</a></li>
-
-              </ul>
-            </div>
-
-            <div class="unit size1of3">
-              <h3 class="footer">Get involved</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Committees/Getting_Involved_in_Parliamentary_Committees" title="Getting involved in Parliamentary Committees">Getting involved in Parliamentary Committees</a></li>
-				<li><a href="http://www.aph.gov.au/Parliamentary_Business/Petitions" title="Petitions">Petitions</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Connect_with_us" title="Connect with us">Connect with us</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Contact" title="Contact">Contact</a></li>
-
-              </ul>
-
-              <h3 class="footer">Visit Parliament</h3>
-              <ul>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Planning_a_visit" title="Planning a visit">Planning a visit</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Media_Rules" title="Media Rules">Media Rules</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/About_the_Building" title="About the Building">About the Building</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Tours" title="Tours">Tours</a></li>
-				<li><a href="http://www.aph.gov.au/News_and_Events/Events_Calendar" title="Events Calendar">Events Calendar</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Parliament_House_Art_Collection" title="Parliament House Art Collection">Parliament House Art Collection</a></li>
-				<li><a href="http://www.aph.gov.au/Visit_Parliament/Photo_gallery" title="Photo gallery">Photo gallery</a></li>
-
-              </ul>
-            </div>
-
-            <div class="lastUnit size1of3">
-			<ul>
-			   <div class="column">
-			   <h3 class="footerNoIndent">APH Website features</h3>
-                  <div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<div>
-<p>Track bills, Senators and Members. </p>
-<p>Authorised Users | <a href="http://Remote.aph.gov.au" title="Remote Access for Authorised Users" target="_blank">Login</a><br />
-Remote access for Parliamentary Computing Network account holders.</p>
-<p><a href="http://parlinfo.aph.gov.au" title="ParlInfo Search" target="_blank">ParlInfo Search</a></p>
-<p><a href="~/link.aspx?_id=F244620359D34A41A3C2B06BE18A4001&amp;_z=z">Information Requests</a></p>
-<p><a href="https://www.surveymonkey.com/s/aphwebsite_feedback_010A" target="_blank">Parliament of Australia website survey</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-				<li><a href="http://www.aph.gov.au/About_Parliament/Employment" title="Employment">Employment</a></li>
-				<li><a href="http://www.aph.gov.au/Help/A_-_Z_Index" title="A - Z Index">A - Z Index</a></li>
-				<li><a href="http://www.aph.gov.au/Help/Glossary" title="Glossary">Glossary</a></li>
-				<li><a href="http://www.aph.gov.au/Help/RSS_feeds" title="RSS feeds">RSS feeds</a></li>
-				<li><a href="parlinfo.aph.gov.au" title="parlinfo.aph.gov.au">parlinfo.aph.gov.au</a></li>
-
-           
-
-			</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30081640-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-
-<script type="text/javascript">
-      statusTime("0.02");
-    </script></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<hansard xsi:noNamespaceSchemaLocation="../../hansard.xsd" version="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <session.header>
+    <date>1948-04-28</date>
+    <parliament.no>18</parliament.no>
+    <session.no>1</session.no>
+    <period.no>4</period.no>
+    <chamber>SENATE</chamber>
+    <page.no>1114</page.no>
+    <proof>0</proof>
+  </session.header>
+  <chamber.xscript>
+    <para class="block">Senate. </para>
+    <business.start>
+      <day.start>1948-04-28</day.start>
+      <para>The <inline font-weight="bold">President (Senator the</inline> Hon. Gordon Brown) took the chair at 3 p.m., and read prayers. </para>
+    </business.start>
+    <debate>
+      <debateinfo>
+        <title>ASSENT TO BILLS</title>
+        <page.no>1114</page.no>
+        <type>bill</type>
+      </debateinfo>
+      <para>Assent to the following bills reported :  - </para>
+      <para>Customs Tariff Bill 1948. </para>
+      <para>Customs Tariff (Southern Rhodesian Preference) Bill 1948. </para>
+      <para>Excise Tariff Bill 1948. </para>
+      <para>Excise Tariff Bill (No. 2) 1948. </para>
+      <para>Customs Tariff Bill (No. 2)1948. </para>
+      <para>Customs Tariff (New Zealand Preference) Bill 1948. </para>
+      <para>Customs Tariff (Canadian Preference) Bill 1948. </para>
+      <para>Customs Tariff (Exchange Adjustment) Act Repeal Bill 1948. </para>
+      <para>Customs Tariff Bill (No. 3) 1948. </para>
+      <para>Customs Tariff (New Zealand Preference) Bill (No. 2) 1948. </para>
+      <para>Customs Tariff (Canadian Preference) Bill (No. 2) 1948. </para>
+      <para>Customs Tariff Bill (No. 4) 1948. </para>
+      <para>Customs Tariff (Canadian Preference) Bill (No. 3) 1948. </para>
+      <para>Excise Tariff Bill (No. 3) 1948. </para>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1114</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PHARMACEUTICAL BENEFITS</title>
+          <page.no>1114</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1114</page.no>
+              <time.stamp />
+              <name.id>JZH</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AMOUR, Stanley</name>
+              <name role="display">Senator AMOUR</name>
+            </talker>
+            <para>- I ask the Minister for Health whether it is the intention of the Government to delay the implementation of the Pharmaceutical Benefits Act beyond the specified date, owing to the opposition of the British Medical Association, and contrary to the wishes of the general public and the workers of Australia? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1114</page.no>
+              <time.stamp />
+              <name.id>KTN</name.id>
+              <electorate>TASMANIA</electorate>
+              <party>ALP</party>
+              <role>Minister for Health</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCKENNA, Nicholas</name>
+              <name role="display">Senator McKENNA</name>
+            </talker>
+            <para>-There will be no delay in the introduction of the pharmaceutical benefits scheme. Within the next three or four days, I shall make a full announcement on this matter. I am not aware that the British Medical Association has declined to co-operate in the scheme. I have not been advised by the federal council of the association that it intends to recommend that members of the association should not co-operate. I do not know the attitude of the federal council on the matter, but the latest advice that I have had from the <inline font-weight="bold">president, Sir Henry</inline> Newland, rather indicates that members of the association are consider ing their position in the light of the Cabinet decisions that I conveyed to the council recently. I assure the honorable senator that in the very near future a statement of the Government&#39;s policy will be made. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1114</page.no>
+              <time.stamp />
+              <name.id>JYY</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;FLAHERTY, Sidney</name>
+              <name role="display">Senator O&#39;FLAHERTY</name>
+            </talker>
+            <para>-Will the Minister for Social Services inform the Senate whether, in preparation for the inauguration of the free medicine scheme proposed by the Government, the Friendly Societies Medical Association executives, who have at all times cooperated to the fullest degree with the Government, have been given only two weeks to supply the Department of Health and the Department of Social Services with a complete list of members, in alphabetical order, together with their addresses? If so, does the Minister appreciate fully the magnitude of this task, bearing in mind the limited staff available, and will he extend the time for the compilation of this information? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1114</page.no>
+                <time.stamp />
+                <name.id>KTN</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCKENNA, Nicholas</name>
+                <name role="display">Senator McKENNA</name>
+              </talker>
+              <para>- The honorable senator&#39;s question takes me completely by surprise because I have not the faintest knowledge of any such request having been made. It is a fact that the friendly societies dispensary movement has been exceedingly co-operative with the Government, particularly in view of the fact that its requests could not be met in full. I appreciate fully the co-operation of the executive officers of the movement. The honorable senator must have been misinformed, because I am certain that such information has not been sought by my department, particularly as it would serve no useful purpose whatsoever, so far as I can see, in connexion with the administration of pharmaceutical benefits.. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1114</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>ANZAC DAY</title>
+          <page.no>1114</page.no>
+        </subdebateinfo>
+        <para>Ceremony in Brisbane. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1114</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>- Has the attention of the Minister representing the Minister for the Army been drawn to an article appearing in the Brisbane <inline font-style="italic">Telegraph</inline> of the 24th April, 1948, in which it is stated that, for the first time in the <inline font-style="italic">memory</inline> of ex-servicemen arranging the Anzac Day parade in Brisbane, the Army was not represented in the ceremonial guard at the Shrine of Remembrance? Did the ceremonial guard comprise 24 members of the Navy and the Air Force instead of the usual 36? Is it a fact that when the Department of the Army was approached for men for the guard,  an  Army spokesman said that equipment for the guard could be supplied, hut that trained men to carry out this duty were not available in the Brisbane area ? In view of reassuring statements issued by the Minister for the Army from time to time regarding enlistments in the Interim Army, can he explain why it was not possible to find twelve soldiers capable  of  performing this ceremonial guard duty? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1115</page.no>
+              <time.stamp />
+              <name.id>JQY</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party>ALP</party>
+              <role>Minister for Trade and Customs</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COURTICE, Benjamin</name>
+              <name role="display">Senator COURTICE</name>
+            </talker>
+            <para>- I shall bring the honorable senator&#39;s question to the notice of the Minister for the Army, and shall ask him to furnish a reply to it as soon as possible. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1115</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>MEAT</title>
+          <page.no>1115</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1115</page.no>
+              <time.stamp />
+              <name.id>JSB</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRITCHLEY, John</name>
+              <name role="display">Senator CRITCHLEY</name>
+            </talker>
+            <para>- Is the Minis  ter  for Trade and Customs aware that since control of the price  of  lamb has been lifted, the retail price in Adelaide has soared to over 2s. per lb.? Whatever may have been the reasons which prompted the Government to remove control of lamb prices, will the Government, in view of what has since happened, take immediate steps to protect consumers by the introduction of a ceiling price or other effective means? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1115</page.no>
+              <time.stamp />
+              <name.id>JQY</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COURTICE, Benjamin</name>
+              <name role="display">Senator COURTICE</name>
+            </talker>
+            <para>- The Government, in collaboration with interested parties in the meat industry, has given this matter a good deal of consideration. It was considered that the price-fixing machinery in relation to mutton and beef would operate to the greater advantage of the people if the price of lamb were decontrolled. After exhaustive consideration by the Government and the Commonwealth Meat Controller, it was decided to decontrol the price  of  lamb for the time being. I have noticed with regret that  the  price of lamb has since been increased. The reasons stated by those responsible are that there is  an  acute shortage  of  supply, and that the price which the retailers have had to pay to the wholesalers has made inevitable  an  increase  of  the price charged to the public. It is hoped that the supply difficulties will be  overcome  shortly and that the price will then be reduced to a reasonable level. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1115</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>THE PARLIAMENT</title>
+          <page.no>1115</page.no>
+        </subdebateinfo>
+        <para class="block">Duties of Honorable Senators - &#34;Dorothy Dix&#34; Questions. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1115</page.no>
+              <time.stamp />
+              <name.id>KQF</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LAMP, Charles</name>
+              <name role="display">Senator LAMP</name>
+            </talker>
+            <para>- Has the attention of the Leader of the Senate been drawn to this statement by <inline font-weight="bold">Mr. Holt,</inline> M.P., in the House of Representatives last Friday - </para>
+          </talk.start>
+          <quote>
+            <para>I am reminded of a story an honorable senator told me and my colleagues in our party room. He said, &#34;I got a letter yesterday. I am not going to answer it until to-day, and I shall not post it until to-morrow. In that way I will have found something to do for three days of this week anyhow &#34;. From what we can see of our friends in the Senate, most of us would say that that would represent a fair week&#39;s work for most of them. </para>
+          </quote>
+          <para class="block">Will the Leader of the Opposition say which of his two colleagues made that statement ? Will he also assure the people of Australia that it is directly opposed to the truth, so far as Labour senators are concerned ? </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1115</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>ALP</party>
+              <role>Minister for Shipping and Fuel</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>- The question might have been addressed to the Leader of the Opposition, who is in a better position than I am to answer it. I am positive that the statement quoted was not made by any senator supporting the Government. It should not be difficult to determine by whom the statement was made. I have always been fully occupied as a senator, and my correspondence has not been confined to one letter daily or one every three days. If any honorable senator considers that he has not sufficient parliamentary work to do, or is not gainfully employed, there is nothing to prevent him from resigning. He would not be missed by either honorable senators or the people of Australia. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1115</page.no>
+              <time.stamp />
+              <name.id>JZI</name.id>
+              <electorate>QUEENSLAND</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;SULLIVAN, Neil</name>
+              <name role="display">Senator O&#39;SULLIVAN</name>
+            </talker>
+            <para>- As the statement alleged by <inline font-weight="bold">Senator Lamp</inline> to have been made to the honorable member for Fawkner <inline font-weight="bold">(Mr. Holt)</inline> at some time by some honorable senator was not made by either of the present Liberal party senators, will the Leader of the Senate, in the interests of common decency and out of respect for the dignity and prestige of this chamber, use his influence to ensure that the practice of asking &#34;Dorothy Dix &#34; questions, which, in the asking and . in the answering, cast unfounded reflections upon honorable senators, shall be abandoned ? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1116</page.no>
+                <time.stamp />
+                <name.id>K0W</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">ASHLEY, William</name>
+                <name role="display">Senator ASHLEY</name>
+              </talker>
+              <para>- I cannot accept any responsibility for statements made in the House of Representatives, particularly by members of the party to which the honorable senator belongs. I have never encouraged so-called &#34; Dorothy Dix&#34; questions. The only person who mentioned this matter to me was the Labour party Whip in this chamber, <inline font-weight="bold">Senator Clothier.</inline> The question asked by <inline font-weight="bold">Senator Lamp</inline> to-day was not of the &#34;Dorothy Dix&#34; variety. I cannot give the honorable senator an assurance that I shall refrain from answering questions of any particular kind in this chamber. I shall deal with each question on its merits. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1116</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>TOBACCO AND CIGARETTES</title>
+          <page.no>1116</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1116</page.no>
+              <time.stamp />
+              <name.id>KQH</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LARGE, William</name>
+              <name role="display">Senator LARGE</name>
+            </talker>
+            <para>- In view of general dissatisfaction with the distribution of tobacco and cigarettes since the Government relinquished that task, will the Minister for Trade and Customs examine the present method of distribution? If he finds that it is not in the best interests of the public, will he recommend to Cabinet that control by the Government be reimposed ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1116</page.no>
+              <time.stamp />
+              <name.id>JQY</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COURTICE, Benjamin</name>
+              <name role="display">Senator COURTICE</name>
+            </talker>
+            <para>- There have been many complaints regarding the distribution of tobacco. There was also a great deal of clamour when the Government was in charge of distribution and there was some agitation in favour of handing control back to the industry. I have referred many complaints to the tobacco distributing authorities with a view to obviating dissatisfaction as much as possible, and they have at all times indicated their willingness to do their utmost to meet the wishes of the public. The suggestion that the Government should again undertake the responsibility of distributing tobacco and cigarettes relates to government policy and therefore is a matter for decision by the Government. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1116</page.no>
+              <time.stamp />
+              <name.id>KPC</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">KATZ, Frederick</name>
+              <name role="display">Senator KATZ</name>
+            </talker>
+            <para>- I preface a question directed to the Minister for Trade and Customs by explaining that an exserviceman who moves from New South Wales to Victoria, for instance, loses the tobacco ration granted to him in his original State of domicile. Will the Minister take action to protect the interests of these men? Could not steps be taken to ensure that they shall be entitled to a tobacco ration when they move to another State? If the Government has no power to enforce such an arrangement, will it recommend to the authorities which control the distribution of tobacco that ration entitlements granted to ex-servicemen in any State be recognized in other States? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1116</page.no>
+                <time.stamp />
+                <name.id>JQY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COURTICE, Benjamin</name>
+                <name role="display">Senator COURTICE</name>
+              </talker>
+              <para>- I am under the impression that provision has been made for ex-servicemen to obtain their tobacco rations in all circumstances. If they experience difficulty when they transfer from one State to another, I am sure that the situation can be overcome. I shall investigate this matter and inform the honorable senator of the result of my inquiries as soon as possible. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1116</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SOCIAL SERVICES</title>
+          <page.no>1116</page.no>
+        </subdebateinfo>
+        <para>Grants to States - Age Pension - Means Test - Hospital Benefits</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1116</page.no>
+              <time.stamp />
+              <name.id>JQN</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOKE, Joseph</name>
+              <name role="display">Senator COOKE</name>
+            </talker>
+            <para>- I have received many inquiries regarding social services for which State governments are responsible and for the improvement of which this Government has made grants to State governments. Will the Minister for Social Services supply particulars of amounts granted to the State of Western Australia by the Australian Government for the years 1945-46, 1946-47, and 1947-48 for the following purposes: <inline font-style="italic">(a)</inline> for providing improved social services by State Departments; (&#38;) for providing economic relief to tuberculosis sufferers and their dependants? Has the total amount granted for such purposes been expended by the State for those purposes ? If not, what is the unexpended amount in respect of each category mentioned? Is the State Government making an equivalent contribution from its revenue for the relief of tuberculosis sufferers and their dependants? </para>
+          </talk.start>
+          <para>Sena-tor McKENNA. - I have not at my immediate disposal the information that the honorable senator seeks. He has asked for the particulars of amounts expended by the Australian Government in payments to Western Australia for application to social service benefits for three years. I point out to the honorable substantial payments - amounting to senator that, pursuant to recommendations of the Commonwealth Grants Commission, the Commonwealth makes very hundreds of thousands of pounds per annum- to Western Australia. The amount granted each year includes a sum to enable the State to bring the level of its social services up to the average level of social services in the eastern States. In addition, specific amounts are paid to Western Australia for particular purposes as, for instance, the control of tuberculosis. A total sum was made available to Western Australia for the purpose of aiding sufferers from tuberculosis and their dependants, but I cannot say whether or not the whole of it has been expended. The money has certainly been made available by the Commonwealth. I shall obtain the exact particulars that the honorable senator seeks and let him have the information at an early date. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1117</page.no>
+              <time.stamp />
+              <name.id>JYY</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">O&#39;FLAHERTY, Sidney</name>
+              <name role="display">Senator O&#39;FLAHERTY</name>
+            </talker>
+            <para>- Will the Minister for Social Services explain the position of a man and wife who have no property but receive an income of &#163;3 a week from superannuation and seek age pensions ? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1117</page.no>
+              <time.stamp />
+              <name.id>KTN</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCKENNA, Nicholas</name>
+              <name role="display">Senator McKENNA</name>
+            </talker>
+            <para>- Of the income of &#163;3 a week received by the couple from superannuation, &#163;2 would be treated as permissible income. The remaining &#163;1 would be halved, 10s. being regarded as income of the husband, and the other 10s. as income of the wife. These sums would be deducted from the pension in each case, leaving &#163;1 7s. 6d. a week each. This with the &#163;3 superannuation would give a total income of &#163;5 15s. a week. In all such cases the pension payments can be determined by bearing in mind that the total income shall not exceed &#163;5 15s. a week. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1117</page.no>
+              <time.stamp />
+              <name.id>KVB</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MORROW, William</name>
+              <name role="display">Senator MORROW</name>
+            </talker>
+            <para>- Does the Government intend to raise the permissible income limit so that more pensioners and others may receive full pensions or social service benefits? If so, what income will pensioners and recipients of other social services be permitted to earn before such earnings affect their social service payments? What will be the new limit on the value of property that may be held by a pensioner, or a person in receipt of other social service benefits without suffering a reduction of these payments? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1117</page.no>
+                <time.stamp />
+                <name.id>KTN</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCKENNA, Nicholas</name>
+                <name role="display">Senator McKENNA</name>
+              </talker>
+              <para>- The honorable senator&#39;s question relates, of course, to the abolition of the means test. The Government has already made its attitude to that matter quite clear. The problem is primarily, and almost solely, one of finance. It involves the expenditure of an additional &#163;50,000,000 annually. On a number of occasions, the Government has indicated that its policy is to secure the abolition of the means test by the progressive amelioration of the income and property tests as circumstances permit. Each year the Government reviews the operation of the means test in the light of the existing financial position. Recently, the Prime. Minister intimated that further attention would be given to this matter when the next budget proposals were under consideration. Obviously, as the problem is primarily one of finance, it has a close relationship to budgetary provisions. Whilst I can assure the honorable senator that further consideration will be given to the abolition of the means test, I am not in a position to advise what change, if any, will he made in either the permissible income limit or the property bar. </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1117</page.no>
+              <time.stamp />
+              <name.id>K7Y</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">TANGNEY, Dorothy</name>
+              <name role="display">Senator TANGNEY</name>
+            </talker>
+            <para>- I ask the Minister for Social Services whether it is a fact that, although patients in community wards in public hospitals and those in private hospitals receive the full hospital benefit of 6s. a day, public hospital authorities do not receive the full amount - in some cases -the payment is only 4s. 8d. a day. - in respect of patients in public wards, in spite of the high cost of the upkeep of such patients ? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1117</page.no>
+                <time.stamp />
+                <name.id>KTN</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCKENNA, Nicholas</name>
+                <name role="display">Senator McKENNA</name>
+              </talker>
+              <para>- It is true that patients in approved private hospitals throughout Australia receive the hospital benefit of 6s. a day and it may be of interest to the honorable senator to know that more than 95 per cent, of the beds in private hospitals throughout Australia are provided for in the scheme. No particular rule can be laid down as to the amount which shall be paid to public hospitals as there are public hospitals conducted by various denominational bodies in addition to those which  are operated by the States. The Commonwealth pays to the States 6s. a day in respect of each patient occupying a bed. The amount paid to a particular institution depends upon what that institution had charged the public before the scheme was introduced. I understand that some hospitals receive from the State 12s. or 13s. a day, because prior to the commencement of the scheme they had collected that amount. For the same reason others receive a good deal less - 2s. or 3s. a day. The 6s. a day paid to the State is much move than most public hospitals formerly collected from their patients. The result is that out of the excess moneys the States are able to provide for considerable capital expenditure in respect of hospitals. </para>
+            </talk.start>
+          </continue>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1118</page.no>
+                <time.stamp />
+                <name.id>K7Y</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">TANGNEY, Dorothy</name>
+                <name role="display">Senator Tangney</name>
+              </talker>
+              <para>-  Is that the responsibility of the States? </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1118</page.no>
+                <time.stamp />
+                <name.id>KTN</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">MCKENNA, Nicholas</name>
+                <name role="display">Senator McKENNA</name>
+              </talker>
+              <para>- Yes. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1118</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>FISHING</title>
+          <page.no>1118</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1118</page.no>
+              <time.stamp />
+              <name.id>JZ8</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">FINLAY, Alexander</name>
+              <name role="display">Senator FINLAY</name>
+            </talker>
+            <para>- Is the Minister representing the Minister for Commerce and Agriculture aware that fishermen at Moonta Bay and other places are experiencing great difficulty in procuring the following articles, which they consider to be essential to their calling: - fishing nets 32 by 7 2-in. mesh, 32 by 12 1^-in. mesh, 32 by 15 1^-iu. mesh, 32 by 18 1^-in. mesh. Manila rope is also said to be unprocurable, and substitutes have to be used. Fishermen claim that these substitutes are unsatisfactory for use as mooring and running gear. Blocks, hook-lines and 4-strand coir rope are also in very short supply. Can the Minister give any indication as to when fishermen may expect supplies of those items to be made available? I point out that they are tools of trade to the fishermen. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1118</page.no>
+              <time.stamp />
+              <name.id>JQY</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COURTICE, Benjamin</name>
+              <name role="display">Senator COURTICE</name>
+            </talker>
+            <para>- I shall bring the honorable senator&#39;s question to the attention of the Minister for Commerce and Agriculture and inform him of the Minister&#39;s reply. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1118</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SUBSIDIES</title>
+          <page.no>1118</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1118</page.no>
+              <time.stamp />
+              <name.id>K5X</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SHEEHAN, James</name>
+              <name role="display">Senator SHEEHAN</name>
+            </talker>
+            <para>- Has the Minister for Trade and Customs noticed  in the press of the capital citiesreports of a statement made by thepresident of the Associated Chambers of Commerce, <inline font-weight="bold">Mr. Groves,</inline> at a meeting held in Perth, in the course  of  which he advocated that the Government should abolish all subsidies? Will the Minister have a statement prepared showing what the result of the adoption of <inline font-weight="bold">Mr. Groves&#39;s</inline> suggestion would be? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1118</page.no>
+              <time.stamp />
+              <name.id>JQY</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COURTICE, Benjamin</name>
+              <name role="display">Senator COURTICE</name>
+            </talker>
+            <para>- I have noticed reports in the press of the statement attributed to <inline font-weight="bold">Mr. Groves.</inline> I shall havea. statement prepared indicating the Government&#39;s policy in regard to the payment of subsidies and the effect which withdrawal of those subsidies would haveon prices generally. Although the Government pays great respect to the views of chambers of commerce and other similar bodies, it does not necessarily accept their advice, particularly in matters of this kind. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1118</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PUBLIC HEALTH</title>
+          <page.no>1118</page.no>
+        </subdebateinfo>
+        <para>Outbreak of Diphtheria</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1118</page.no>
+              <time.stamp />
+              <name.id>K1Q</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BEERWORTH, Frederick</name>
+              <name role="display">Senator BEERWORTH</name>
+            </talker>
+            <para>- Has the Minister for Health seen press reports of a statement made by <inline font-weight="bold">Mr. E.</inline> J. Brown, secretary of the Salisbury District Council, in the course of which he alleged that many of the 500 children in the cabin homes at Salisbury had not been immunized because the Australian Government had refused to pay the fees for them to be immunized? <inline font-weight="bold">Mr. Brown</inline> is also reported to have said that as the cabin homes were not paying rates to the district council, and were outside the control of the district council- </para>
+          </talk.start>
+          <para>The <inline font-weight="bold">PRESIDENT (Senator the Hon. Gordon Brown)</inline> . - Order ! I point out to the honorable senator that the time set apart for questions is intended to be used to elicit, not to give information. I notice that there has been a tendency lately for honorable senators to preface their questions with somewhat lengthy statements. That is not in accordance with the procedure of the Senate and I intend to adhere to the prescribed practice. Proceedings of this chamber are broadcast, and it is only fair that honorable senators who wish to ask questions of Ministers should not have their time  curtailed by other honorable senators unduly taking up the time of the Senate with lengthy questions. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1119</page.no>
+                <time.stamp />
+                <name.id>K1Q</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">BEERWORTH, Frederick</name>
+                <name role="display">Senator BEERWORTH</name>
+              </talker>
+              <para>- Has the attention of the Minister been drawn to reports which appeared in the Adelaide <inline font-style="italic">Advertiser</inline> of the 23rd April and <inline font-style="italic">The News</inline> of the 22nd April, that the Government has refused to pay an immunisation fee of 7s. 6d. a child for the administration of preventive treatment to children living in the cabin homes in that district, which are under the control of the Government? Has any approach been made to the Government to have the children in that area immunised in order to prevent any further outbreak of diphtheria? </para>
+            </talk.start>
+          </continue>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1119</page.no>
+              <time.stamp />
+              <name.id>KTN</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCKENNA, Nicholas</name>
+              <name role="display">Senator McKENNA</name>
+            </talker>
+            <para>- I am aware that there has been an outbreak of diphtheria in South Australia, but I have not seen the press report to which the honorable senator has referred. I assure him, however, that no application has been madeby the Salisbury Council either to me or to my department for payment or help in connexion with the matter. As to the steps which the Commonwealth proposes to take in the circumstances he has mentioned, I point out that a few months ago, having regard to the need for immunization against diphtheria and whooping cough, I secured Cabinet approval to a proposal that when the pharmaceutical benefits scheme is implemented supplies of sera or vaccine will be made available free of charge to State governments, municipalities and public authorities which will conduct the immunization campaigns. The only condition will be that the campaigns shall be carried out with the approval of either the Commonwealth or the State health authorities. That is necessary to ensure the safety of the persons who are to be immunized, and also to eliminate waste. As a pharmaceutical benefits scheme will be introduced in the very near future, the honorable senator will realize that the Salisbury Council, in common with other municipalities throughout Australia, will be able to obtain its supplies of sera, or vaccine, or whatever is required, without any charge whatsoever. That might dispose of the problems confronting the Salisbury Council and enable it in the near future to include in its immunization campaign children at the particular camp mentioned by the honorable senator. </para>
+          </talk.start>
+          <para class="block">1939-45 WAR MEDAL. </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1119</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>- Has the Minister representing the Minister for the Army seen a report in the daily press that all members of the Home Guard and the Civil Defence Corps in England, who served 28 days or more, not necessarily continuously, will receive the 1939-45 War Medal? Is it a fact that members of the Australian Volunteer Defence Corps, whose service in many instances exceeded four years, will not be entitled to receive the 1939-45 War Medal? If so, what is the reason? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1119</page.no>
+              <time.stamp />
+              <name.id>JQY</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COURTICE, Benjamin</name>
+              <name role="display">Senator COURTICE</name>
+            </talker>
+            <para>- I shall bring the honorable senator&#39;s question to the notice of the Minister for the Army. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1119</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BRITISH COMMONWEALTH OCCUPATION FORCE</title>
+          <page.no>1119</page.no>
+        </subdebateinfo>
+        <para>General Robertson&#39;s Residence</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1119</page.no>
+              <time.stamp />
+              <name.id>JUL</name.id>
+              <electorate>VICTORIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">DEVLIN, John</name>
+              <name role="display">Senator DEVLIN</name>
+            </talker>
+            <para>- I ask the Minister representing the Minister for the Army whether there is any truth in the newspaper report that &#163;1,000,000 has been expended upon the official residence of General Robertson, the general officer commanding, British Commonwealth Occupation Force in Japan? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1119</page.no>
+              <time.stamp />
+              <name.id>JQY</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COURTICE, Benjamin</name>
+              <name role="display">Senator COURTICE</name>
+            </talker>
+            <para>- I shall direct the honorable senator&#39;s question to the Minister for the Army. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1119</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>PETROL</title>
+          <page.no>1119</page.no>
+        </subdebateinfo>
+        <para>Motor-boat Racing. </para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1119</page.no>
+              <time.stamp />
+              <name.id>KQH</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LARGE, William</name>
+              <name role="display">Senator LARGE</name>
+            </talker>
+            <para>- As petrol rationing is now almost as severe as when a state of emergency existed, will the Minister for Shipping and Fuel inquire into the apparent profligate use of petrol every Saturday by motor boats for racing purposes? These motor-boats consume large quantities of petrol which could be more profitably used by persons operating motor trucks to gain a livelihood. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1119</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>- Before the continuance of petrol rationing was decided upon, consideration was given to the use of petrol by private persons; it was suggested at one period that there should be complete prohibition of the use of petrol for private transport. The Government, however, was opposed to that although the British Government had prohibited the supply of petrol for private cars. That the Australian Government has adopted a sound scheme is shown by the fact that the British Government has again allocated petrol to private car users. No special allowance of petrol is made to bodies conducting motor races. Some people prefer a motor boat to a motor car or motor cycle, and it would be as unfair to deprive them of the use of their motor boats as it would be to deprive others of the use of their motor cars or motor cycles. Supplies of petro&#93; are rationed to all consumers. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1120</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SUGAR</title>
+          <page.no>1120</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1120</page.no>
+              <time.stamp />
+              <name.id>JXC</name.id>
+              <electorate>TASMANIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MURRAY, Reginald</name>
+              <name role="display">Senator MURRAY</name>
+            </talker>
+            <para>- Will the Minister for Shipping and Fuel inform the Senate of the quantity of sugar received in Tasmania from the 1st April, 1948, to date, and. how it has been allocated to jam factories, confectionery manufacturers and others? Will he also state the tonnage received by distributors for domestic use? </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1120</page.no>
+              <time.stamp />
+              <name.id>K0C</name.id>
+              <electorate>NEW SOUTH WALES</electorate>
+              <party>ALP</party>
+              <role>Minister for Supply and Development</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARMSTRONG, John Ignatius</name>
+              <name role="display">Senator ARMSTRONG</name>
+            </talker>
+            <para>- I am afraid I am unable to give a detailed answer to the honorable senator to-day, but I shall obtain the information and furnish it to him as soon&#39; as possible. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1120</page.no>
+              <time.stamp />
+              <name.id>K5X</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">SHEEHAN, James</name>
+              <name role="display">Senator SHEEHAN</name>
+            </talker>
+            <para>- As sugar is the subject of an agreement between the Australian Government and the Government of Queensland, will the Minister for Trade and Customs make inquiries in order to ascertain who is responsible for the distribution of sugar within the various States? What part is played by the Colonial Sugar Refining Company Limited in allocating sugar to wholesalers, and what part is played by wholesalers in distributing sugar to retailers? I should like the Minister to devise a plan for the equitable distribution of sugar to all retailers so as to obviate the practice which seems to be in operation at present of according favoured treatment to some retail traders. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1120</page.no>
+              <time.stamp />
+              <name.id>JQY</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COURTICE, Benjamin</name>
+              <name role="display">Senator COURTICE</name>
+            </talker>
+            <para>- I am fully prepared to make a thorough investigation of the distribution of sugar supplies throughout Australia, but I know some thing about this matter and I assure the honorable senator that the Government has no control over the distribution of sugar. Refined sugar is manufactured by the Colonial Sugar Refining Company Proprietary Limited in variousStates and by the Millaquin Sugar Company Limited in Queensland. There isa refinery in each State except Tasmania,, where the quantity of sugar consumed would not warrant the establishment of a refinery. Raw sugar would have to be shipped to Tasmania and then probably some of the refined product would have to be shipped back to the mainland. There have been complaints about the distribution of sugar in recent yearsTrouble has arisen from various causes. On one occasion we were able to obtain, the services of a naval vessel in order to transport sugar from Sydney to Victoria, where there was a shortage during the fruit-processing season. Honorablesenators are doubtless well aware of the reasons for the shortages of various products, including sugar, that haveoccurred from time to time. Consumption of sugar has increased considerably in. the last few years, and, for this reason,, refineries must work at almost full capacity all the time in order to satisfy the demand. As everybody knows, thework of the refineries has been dislocated because of shipping and other difficulties. The Minister for Shipping and Fuel isdealing with the problem of providing ships to transport large quantities of raw sugar from Queensland to refineries in the other States. &#39; I am sure that if raw sugar can be distributed to the refineries in reasonable quantities, thepublic will have no further difficulty in securing supplies of refined sugar. This matter has not escaped the attention of the Government, which is doing everything possible to provide the people with adequate supplies of sugar. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1120</page.no>
+              <time.stamp />
+              <name.id>KQH</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LARGE, William</name>
+              <name role="display">Senator LARGE</name>
+            </talker>
+            <para>- Will the Ministermake inquiries regarding the truth or otherwise of a statement that between 350 and 400 tons of sugar was supplied by the Colonial Sugar Refining Company Proprietary Limited to the various breweries in Sydney last Friday? In view of the fact that beer is not being issued from thesebreweries, will he ascertain the purpose-  for which that sugar was acquired, particularly in view of the restrictions on the supply of sugar for domestic use? </para>
+          </talk.start>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1121</page.no>
+                <time.stamp />
+                <name.id>JQY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COURTICE, Benjamin</name>
+                <name role="display">Senator COURTICE</name>
+              </talker>
+              <para>- I shall make the inquiries requested by the honorable senator. I point out that, when the shortage of refined sugar became acute, I directed the breweries to use raw sugar in the manufacture of beer. They have been using raw sugar for a considerable time. However, I shall inquire whether supplies of refined sugar are being shipped to them. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1121</page.no>
+                <time.stamp />
+                <name.id>K5X</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">SHEEHAN, James</name>
+                <name role="display">Senator SHEEHAN</name>
+              </talker>
+              <para>- I appreciate the statement made by the Minister regarding the over-all shortage of sugar. However, my question related particularly to what appears to be discrimination in the distribution of sugar by wholesalers to retailers. In some centres &#38; few retailers have ample supplies of sugar whilst their competitors have insufficient stocks to meet the needs of their customers. It appears that sugar is being used for the purpose of restricting the trading operations of various retailers. </para>
+            </talk.start>
+          </continue>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1121</page.no>
+                <time.stamp />
+                <name.id>JQY</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">COURTICE, Benjamin</name>
+                <name role="display">Senator COURTICE</name>
+              </talker>
+              <para>- I shall make inquiries on this matter, but I cannot think of any legitimate reason why a large company such as the Colonial Sugar Refining Company Proprietary Limited, which has five refineries throughout the Commonwealth, should engage in preferential distribution of sugar. &#34;Wholesalers purchase sugar from the refineries in the usual course of trade. The Colonial Sugar Refining Company Proprietary Limited is a big private concern and the Government has no power to control its method of distributing sugar. However, I shall investigate this subject because I consider it essential that the people should be served efficiently by an important industry of this nature. I shall advise the honorable senator of the result of my inquiries. </para>
+            </talk.start>
+          </continue>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1121</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>BUILDING MATERIALS</title>
+          <page.no>1121</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1121</page.no>
+              <time.stamp />
+              <name.id>K1Q</name.id>
+              <electorate>SOUTH AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">BEERWORTH, Frederick</name>
+              <name role="display">Mr BEERWORTH</name>
+            </talker>
+            <para>- Is the Minister for Supply and Development aware that South Australia has recently been afflicted, first, by disastrous bush-fires, and, secondly, by the worst hurricane in living memory, and that immense damage has been done to homes and property in many parts of the State? In order that the damage may be repaired, will the Government arrange to have forwarded speedily to South Australia supplies of galvanized iron, . fencing wire, wire netting and water piping? These commodities are almost unprocurable in South Australia at present and are urgently required. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1121</page.no>
+              <time.stamp />
+              <name.id>K0C</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARMSTRONG, John Ignatius</name>
+              <name role="display">Senator ARMSTRONG</name>
+            </talker>
+            <para>- I shall be very pleased to ascertain what can be clone to give assistance to the people of South Australia in this matter. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>TRIBOPHYSICS LABORATORY AT MELBOURNE FOR THE COUNCIL FOR SCIENTIFIC AND INDUSTRIAL RESEARCH</title>
+        <page.no>1121</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Report of Public Works Committee</title>
+          <page.no>1121</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1121</page.no>
+              <time.stamp />
+              <name.id>KQF</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">LAMP, Charles</name>
+              <name role="display">Senator LAMP</name>
+            </talker>
+            <para>- As chairman, I present the report of the Public Works Committee on the following subject :  - </para>
+          </talk.start>
+          <quote>
+            <para class="block">Proposed erection of a tribophysics laboratory for the Council for Scientific and Industrial Research at Melbourne. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>INTERNATIONAL AFFAIRS</title>
+        <page.no>1121</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <speech>
+        <talk.start>
+          <talker>
+            <page.no>1121</page.no>
+            <time.stamp />
+            <name.id>KTN</name.id>
+            <electorate>Tasmania</electorate>
+            <party>ALP</party>
+            <role>Minister for Health and Minister for Social Services</role>
+            <in.gov>1</in.gov>
+            <first.speech>0</first.speech>
+            <name role="metadata">MCKENNA, Nicholas</name>
+            <name role="display">Senator McKENNA</name>
+          </talker>
+          <para>. - I lay on the table the following paper: - </para>
+        </talk.start>
+        <quote>
+          <para>International Affairs - Statement prepared by the Minister for External Affairs, 11th March, 1948-  and move - </para>
+          <para>That the paper be printed. </para>
+        </quote>
+        <para>Debate (on motion by <inline font-weight="bold">Senator Cooper)</inline> adjourned. </para>
+      </speech>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1121</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>REPATRIATION COMMISSION</title>
+          <page.no>1121</page.no>
+        </subdebateinfo>
+        <para>Annual Report</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1121</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Repatriation, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What was the period covered by the last report of the Repatriation Commission which was presented to the Senate? </para>
+            </item>
+            <item label="2.">
+              <para>Will the Minister inform the Senate when subsequent reports of the commission are likely to be tabled in the Senate? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1121</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate>VICTORIA</electorate>
+              <party>ALP</party>
+              <role>Postmaster-General</role>
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator CAMERON</name>
+            </talker>
+            <para>- The Minister for Repatriation has supplied the following information :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>The last report of the Repatriation Commission presented was in respect of the financial year 1944-45. </para>
+            </item>
+            <item label="2.">
+              <para>The commission&#39;s annual report for the year 1945-46 is now with the Government Printer, and will be tabled as early as practicable. The report for the year 1946-47 is nearing completion. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1122</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>COMMUNISM</title>
+          <page.no>1122</page.no>
+        </subdebateinfo>
+        <para>Attitude of Australian Labour Party</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1122</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>asked the Minister representing the Prime Minister, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that at the annual conference of the Victorian branch of the Australian Labour party which was held at Melbourne on the 27th March, 1948, a strongly worded motion was overwhelmingly adopted which reaffirmed the opposition of the Labour movement to communism ? </para>
+            </item>
+            <item label="2.">
+              <para>Is it a fact that the annual conference of industrial groups of the Australian Labour party held at Sydney on the 4th April, 1948, carried a motion urging Commonwealth and State Governments to inquire into the activities of the Australian Communist party? </para>
+            </item>
+            <item label="3.">
+              <para>Is it a fact that the  president  of the Sydney conference, <inline font-weight="bold">Mr. T.</inline> Junor, said that if Labour were to remain in office, Communists must be crushed? </para>
+            </item>
+          </list>
+          <para>If the answers to questions 1, 2 and 3 are in the affirmative, what action is the Government taking to combat Communist activities in Australia? </para>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1122</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>- I have asked the Prime Minister to furnish me with replies to the questions, and shall communicate the answers to the Leader of the Opposition as soon as possible. </para>
+          </talk.start>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1122</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>SUGAR</title>
+          <page.no>1122</page.no>
+        </subdebateinfo>
+        <para>Australian Consumption</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1122</page.no>
+              <time.stamp />
+              <name.id>JQP</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COOPER, Walter</name>
+              <name role="display">Senator COOPER</name>
+            </talker>
+            <para>asked the Minister for Trade and Customs, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What was the average monthly consumption of sugar in Australia, including special issues, for the twelve months preceding the abolition of sugar rationing? </para>
+            </item>
+            <item label="2.">
+              <para>What is the average monthly consumption since its abolition? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1122</page.no>
+              <time.stamp />
+              <name.id>JQY</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COURTICE, Benjamin</name>
+              <name role="display">Senator COURTICE</name>
+            </talker>
+            <para>- The answers to the honorable senator&#39;s questions are as follows. - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>For the year ended the 30th June, 1947, the average monthly consumption of sugar in Australia was 35,736 tons. </para>
+            </item>
+            <item label="2.">
+              <para>For the eight months ended the 29th February, 1948, the average monthly consumption was 39.977 tons. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1122</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>REPATRIATION</title>
+          <page.no>1122</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1122</page.no>
+              <time.stamp />
+              <name.id>JSB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRITCHLEY, John</name>
+              <name role="display">Senator CRITCHLEY</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Repatriation, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Will the Minister inform the Senate of the Government&#39;s inquiries into, and methods adopted, for treatment of ex-service personnel who are suffering from war neurosis? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1122</page.no>
+              <time.stamp />
+              <name.id>L8E</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CAMERON, Donald</name>
+              <name role="display">Senator CAMERON</name>
+            </talker>
+            <para>- The Minister for Repatriation has supplied the following answer :  - </para>
+          </talk.start>
+          <quote>
+            <para>With a view to ensuring that the most modern form of treatment is provided for exservicemen suffering from war neurosis and mental illnesses, the Repatriation Department has appointed <inline font-weight="bold">Dr. Alan</inline> Stoller as its specialist in medical psychology. <inline font-weight="bold">Dr. Stoller</inline> has spent most of his post-graduate career in institutions devoted to the care of patients suffering from mental disorders. He received a diploma in psychological medicine before coining to Australia before the war. After his release from the forces he proceeded to England at his own expense to undertake a post-graduate refresher course in modern techniques.  His  status in the profession is disclosed by the fact that he has just delivered, at the Melbourne University, the Beattie Smith Memorial Lecture. </para>
+            <para>The aim of the Psychiatric Service of the Repatriation Commission is to deal with cases at the earliest possible stage, and the present out-patient facilities throughout the Commonwealth are being expanded. It is hoped to prevent cases from developing, and the provision of the most up-to-date methods of mental hygiene will contribute to this end. Where necessary, the Repatriation General Hospitals are used to administer modern therapies, including shock treatment. In many cases treatment is largely a matter of team work on the part of trained experts, comprising the patient&#39;s doctor, a clinical psychologist, the skilled nursing staff, the occupational therapists, the psychiatric social workers and the education and training officers. For acute cases of mental disorder, admission to a repatriation mental hospital may be necessary, but the patient will be returned to the Repatriation General Hospital for out-patient treatment as soon as possible, with a view to re-establishing him as an effective cog in the social machine. In certain cases brain surgery is applied. </para>
+            <para>Facilities for group interests are provided for in-patients, such as picture shows, concerts and so on, and education and training officers arrange interesting discussions and provide educational facilities whilst social workers maintain direct contacts with the patients&#39; families. Many recoveries occur in even difficult cases, and the existing method of management will certainly increase the numbers of these recoveries. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>QUESTION</title>
+        <page.no>1123</page.no>
+        <type>Questions</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>RAIL TRANSPORT</title>
+          <page.no>1123</page.no>
+        </subdebateinfo>
+        <para>Commonwealth Railways: Sale of Stores - Standardization of Gauges</para>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1123</page.no>
+              <time.stamp />
+              <name.id>JSB</name.id>
+              <electorate />
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">CRITCHLEY, John</name>
+              <name role="display">Senator CRITCHLEY</name>
+            </talker>
+            <para>asked the Minister representing the Minister for the Interior, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>What were the profits from the sales held by the Commonwealth Railways Stores Department at Port Augusta for each of the years from1938-39 to 1946-47, and for the period the 1st July, 1947, to the present time? </para>
+            </item>
+            <item label="2.">
+              <para>To what funds were the profits allotted, and how much was allotted to each fund in the periods mentioned? </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1123</page.no>
+              <time.stamp />
+              <name.id>JQY</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COURTICE, Benjamin</name>
+              <name role="display">Senator COURTICE</name>
+            </talker>
+            <para>- The Minister for the Interior has supplied the following answers to the honorable senator&#39;s questions :  - </para>
+          </talk.start>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>The profits from sales held by Commonwealth Railways Stores, including bakeries and meat supply, for each of the years from 1938-39 to 1946-47 were as follows: - </para>
+            </item>
+          </list>
+          <para class="block">
+            <graphic href="196332194804281_9_0.jpg" />
+          </para>
+          <para class="block">The results for the year 1947-48 are not yet available. </para>
+          <list type="decimal-dotted">
+            <item label="2.">
+              <para>After retaining a balance in the provision stores account for working purposes the balance of the net profit each year is transferred to revenue. The working balance as at the end of the year 1947 was &#163;2,399 9s. 5d. Provision has to be made for new stores including Port Augusta to replace those which have outgrown their usefulness, the cost of which will have to be recouped from provision store profits. </para>
+            </item>
+          </list>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1123</page.no>
+              <time.stamp />
+              <name.id>JXE</name.id>
+              <electorate>WESTERN AUSTRALIA</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">NASH, Richard</name>
+              <name role="display">Senator NASH</name>
+            </talker>
+            <para>asked the Minister representing the Minister for Transport, <inline font-style="italic">upon notice -</inline></para>
+          </talk.start>
+          <quote>
+            <para>Will the Minister inform the Senate whether any representations have been made on behalf of the Government of Western Australia to have an agreement entered into between that State and the Commonwealth for the purpose of railway standardization? </para>
+          </quote>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1123</page.no>
+              <time.stamp />
+              <name.id>K0C</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ARMSTRONG, John Ignatius</name>
+              <name role="display">Senator ARMSTRONG</name>
+            </talker>
+            <para>- The Minister for Transport has supplied the following answer :  - </para>
+          </talk.start>
+          <quote>
+            <para>Following an approach by the Western Australian Government, a conference was arranged in Canberra on the 7th April, which was attended by the Right Honorable J. B. Chifley, M.P., Prime Minister, the Honorable E. J. Ward, M.P., Commonwealth Minister for Transport, the Honorable H. S. Seward, M.L.A., Western Australian Minister for Railways, <inline font-weight="bold">Mr. J.</inline> A. Ellis, Railway Commissioner for Western Australia, and other departmental officers of both the State of Western Australia and the Commonwealth. The possibility of an agreement for the standardization and modernization of the Western Australian railwill be resumed at a later date. ways was discussed, and the matter is at present under consideration. The talks between the representatives of both Governments </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ROYAL AUSTRALIAN NAVY</title>
+        <page.no>1123</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Uniforms</title>
+          <page.no>1123</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1123</page.no>
+              <time.stamp />
+              <name.id>KTN</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">MCKENNA, Nicholas</name>
+              <name role="display">Senator McKENNA</name>
+            </talker>
+            <para>- During the last sessional period <inline font-weight="bold">Senator Lamp</inline> raised the matter of supplying up-to-date uniforms to ratings in the Royal Australian Navy and asked me, as the Minister representing the Minister for the Navy, whether any progress had been made in that respect. The Minister for the Navy has now supplied the following answer :  - </para>
+          </talk.start>
+          <quote>
+            <para>There is no intention at present of altering the traditional dress of the Navy. Steps have been taken to bring naval uniform up to peace-time standards as to material and fitting, also by the introduction, as supplies become available, of the better type of uniforms discarded during the war. Certain war-time improvements in the formal uniform and a better working dress for use on board have been introduced. </para>
+          </quote>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>RAW COTTON</title>
+        <page.no>1123</page.no>
+        <type>miscellaneous</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Sydney Eire</title>
+          <page.no>1123</page.no>
+        </subdebateinfo>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1123</page.no>
+              <time.stamp />
+              <name.id>JQY</name.id>
+              <electorate />
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">COURTICE, Benjamin</name>
+              <name role="display">Senator COURTICE</name>
+            </talker>
+            <para>- On the 7th </para>
+          </talk.start>
+          <para>April last, <inline font-weight="bold">Senator Cooper</inline> asked me the total value of the cotton destroyed? following questions :  - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Is it a fact that 15,000 bales of raw cotton, owned by the Commonwealth, were recently destroyed by fire at Waterloo, Sydney? </para>
+            </item>
+            <item label="2.">
+              <para>What was the landed cost per lb. and </para>
+            </item>
+            <item label="3.">
+              <para>Was the cotton insured? </para>
+            </item>
+            <item label="4.">
+              <para>If not, was any consideration given to the method of storing such combustible goods, in accordance with general fire insurance precautions? Is it usual to store this type of raw material in such large quantities? </para>
+            </item>
+            <item label="5.">
+              <para>Are there further large quantities of raw cotton stored in a similar manner? </para>
+            </item>
+            <item label="6.">
+              <para>If so, will I ensure that fire precautions for stacking combustible goods? shall be taken in accordance with the rules laid down by general fire insurance companies </para>
+            </item>
+          </list>
+          <para>The answers to the honorable senator&#39;s questions are as follows : - </para>
+          <list type="decimal-dotted">
+            <item label="1.">
+              <para>Fourteen thousand four hundred and sixty-seven bales of raw cotton were damaged by fire at the Department of Trade and Customs store at Waterloo, Sydney, but the whole quantity was not destroyed. It is estimated that one-third will be salvaged as first-class spinners&#39; cotton. </para>
+            </item>
+            <item label="2.">
+              <para>The average landed cost into store of this cotton was 24.78d. per lb. </para>
+            </item>
+            <item label="3.">
+              <para>The cotton was not insured with the fire underwriters, but the department includes in the selling price of goods procured by government cash purchase an insurance premium and from these amounts an insurance fund is constituted. </para>
+            </item>
+            <item label="4.">
+              <para>The damaged cotton was stored in accordance with the storage technique developed and observed all through the war years without mishap. In the development of this technique the department frequently obtained expert opinion from the commercial and business community. Cotton is dispersed as  much  as possible consistent with the nature and capacity of storage space available. There is a great dearth of storage space at present, particularly in the port of Sydney. </para>
+            </item>
+            <item label="5.">
+              <para>Yes. </para>
+            </item>
+            <item label="0.">
+              <para>Steps are being taken to consult authoritative bodies again with the object of ascertaining whether any improvement is possible in the precautions already being taken by the Department of Trade and Customs against loss by fire of raw cotton in store. </para>
+            </item>
+          </list>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>ADJOURNMENT</title>
+        <page.no>1124</page.no>
+        <type>adjournment</type>
+      </debateinfo>
+      <subdebate.1>
+        <subdebateinfo>
+          <title>Timber</title>
+          <page.no>1124</page.no>
+        </subdebateinfo>
+        <para>Motion (by <inline font-weight="bold">Senator Ashley)</inline> proposed - </para>
+        <quote>
+          <para>That the Senate do now adjourn. </para>
+        </quote>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1124</page.no>
+              <time.stamp />
+              <name.id>K0Z</name.id>
+              <electorate>Tasmania</electorate>
+              <party />
+              <role />
+              <in.gov>0</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">AYLETT, William</name>
+              <name role="display">Senator AYLETT</name>
+            </talker>
+            <para>.- In view of the present acute shortage of timber on the mainland I draw the attention of the Minister for Shipping and Fuel <inline font-weight="bold">(&#39;Senator Ashley)</inline> to the fact that approximately 30,000,000 super, feet of seasoned and partly seasoned timber is stacked in Tasmania. As I have no doubt that the Government will require large quantities of timber in its defence projects I urge it to investigate the suitability of that timber for such purposes. Whilst the building industry is clamouring for materials generally, particularly timber, Tasmanian timber merchants are unable to shift these huge stocks because of the shortage of shipping. In view of the high prices prevailing for timber they are doing everything in their power to obtain ship ping, but so far have not been successful. Because they are obliged to hold such large stocks, many of these merchants are rapidly nearing the end of their financial resources. For instance, one small company has timber to the value of &#163;250,000 stacked and racked, and is unable to shift it. I am fully aware of the shortage of shipping, but I urge the Government to do something to relieve the position of these timber merchants. While the timber is held in stock there is always the possibility that much of it may be destroyed by fire. Considerable loss has been caused by fire in the past in similar circumstances. A bush-fire may sweep through the areas in which the timber yards are situated, or a fire arising from carelessness on the part of persons in the area may destroy timber stacked in the open. The Government should investigate the suitability of this timber for use in its defence projects. In any event, as timber is so urgently needed on the mainland for building purposes, every effort should be made to provide ships to lift this timber. Steps should be taken to ensure a fairer allocation among timber merchants of the limited shipping that is available, because whilst some merchants are able to forward their timber to the mainland because they are financially interested in shipping companies the remainder are unable to ship any of their stocks at all. </para>
+          </talk.start>
+        </speech>
+        <speech>
+          <talk.start>
+            <talker>
+              <page.no>1124</page.no>
+              <time.stamp />
+              <name.id>K0W</name.id>
+              <electorate>New South Wales Minister for Shipping and Fuel</electorate>
+              <party>ALP</party>
+              <role />
+              <in.gov>1</in.gov>
+              <first.speech>0</first.speech>
+              <name role="metadata">ASHLEY, William</name>
+              <name role="display">Senator ASHLEY</name>
+            </talker>
+            <para>
+              <inline font-style="italic">. - in reply</inline>- The problem of providing ships for the transport of timber from Tasmania to the mainland has been raised in this chamber on previous occasions. I believe that in the circumstances the present system is the fairest that can be devised. Requirements are determined by the Controller of Timber in each State whilst the allocation of timber available from Tasmania is made by the Controller of Timber in that State. <inline font-weight="bold">Senator Aylett</inline> has said that whilst some timber merchants are able to ship portion of their stocks others are unable to obtain any transport whatever. The allocation of the shipping available is the responsibility of private enterprise. As the honorable senator is aware, most of the shipping has been derequisitioned. As the Timber Controller in each State determines what timber is required in his State andthe Controller in Tasmania decides what timber shall be sent after receiving requisitions from the States, I cannot see how any particular firm could get an advantage. If the honorable senator will give me details of the matter- </para>
+          </talk.start>
+          <interjection>
+            <talk.start>
+              <talker>
+                <page.no>1125</page.no>
+                <time.stamp />
+                <name.id>K0Z</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">AYLETT, William</name>
+                <name role="display">Senator Aylett</name>
+              </talker>
+              <para>- Check up on K.D Atkins and Holymans. </para>
+            </talk.start>
+          </interjection>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1125</page.no>
+                <time.stamp />
+                <name.id>K0W</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">ASHLEY, William</name>
+                <name role="display">Senator ASHLEY</name>
+              </talker>
+              <para>- I shall certainly check up, but I think that the honorable senator must be speaking of something that happened some years ago. </para>
+            </talk.start>
+          </continue>
+          <para>Senates Aylett. -No, I am speaking of the present. </para>
+          <continue>
+            <talk.start>
+              <talker>
+                <page.no>1125</page.no>
+                <time.stamp />
+                <name.id>K0W</name.id>
+                <electorate />
+                <party />
+                <role />
+                <in.gov>0</in.gov>
+                <first.speech>0</first.speech>
+                <name role="metadata">ASHLEY, William</name>
+                <name role="display">Senator ASHLEY</name>
+              </talker>
+              <para>- I cannot see how the system now operating could permit discrimination such as that alleged by the honorable senator. </para>
+            </talk.start>
+          </continue>
+          <para>Question resolved in the affirmative. </para>
+        </speech>
+      </subdebate.1>
+    </debate>
+    <debate>
+      <debateinfo>
+        <title>PAPERS</title>
+        <page.no>1125</page.no>
+        <type>papers</type>
+      </debateinfo>
+      <para>The following papers were pre sented: - </para>
+      <quote>
+        <para>Air Force Act - Regulations - Statutory Rules. 1948, No. 34.. </para>
+        <para>Apple and Pear Organization Act - Regulations - Statutory Rules 1948, No. 46. </para>
+        <para>Australian. Soldiers&#39; Repatriation Act - Regulations - Statutory Rules 1948, Nos. 38, 43. </para>
+        <para>Banking Act - Regulations - Statutory Rules    1949, No. 39. </para>
+        <para>Bankruptcy Act - Ninteenth Annual Report, by Attorney-General, for year ended 31st July, 1947. </para>
+        <para>Commonwealth Bank Act - Appointments - F. V. Fels, R. M. McNiven. </para>
+        <para>Commonwealth Public Service Act - </para>
+        <para>Appointments - Department - </para>
+        <para>Commerce and Agriculture - C. W. Lattimore. </para>
+        <para>Health - J. F. Funder. </para>
+        <para>Interior - R. A. Borland, B. F. Cane, </para>
+        <list type="upperalpha-dotted">
+          <item label="E.">
+            <para>L. R. Forbes, O. D. Gaffney, P. Liiv, B. C. Oliver, R. R. Parr, J. W. Slater. </para>
+          </item>
+        </list>
+        <para>Labor and National Service - I. Anderson. </para>
+      </quote>
+      <para>  Treasury - B. E. Fleming. </para>
+      <para>Works and Housing - J. M. Hamilton, </para>
+      <list type="upperalpha-dotted">
+        <item label="W.">
+          <para>Tauss. </para>
+        </item>
+      </list>
+      <para>Regulations - Statutory Rules 1948, No. 32. </para>
+      <para>Customs Act - Regulations - Statutory Rules 1948, No. 35. </para>
+      <para>Dairy Produce Export Control Act - RegulationsStatutory Rules 1948, No. 48. </para>
+      <para>Defence Act - Regulations - Statutory Rules 1948, Nos. 33, 40, 41. </para>
+      <para class="block">Defence(Transitional Previsions) Act - </para>
+      <para>National Security. (Industrial Property) Regulations - Orders - Inventions and. designs (60). </para>
+      <para>National Security (Maritime industry) Regulations - Order - No. 64. </para>
+      <para>National Security (Prices) Regulations - Orders- Nos. 3270-3304. </para>
+      <para>National Security (Rabbit Skins) RegulationsOlder - Returns. </para>
+      <para>National. Security (Rationing) Regulations - Order - No. 153. </para>
+      <para>Order - Control of tinplate (No. 3). </para>
+      <para>Regulations- Statutory Rules 1948; Nos.. 44, 45. </para>
+      <para class="block">Dried. Fruits Export. Control Act - RegulationsStatutory Rules 1948, No. 47. </para>
+      <para class="block">Excise Act - Regulations- Statutory. Rules 1948, No. 36. </para>
+      <para class="block">Lands Acquisition Act - land acquired for - Defence purposes - </para>
+      <para class="block">Pearce, Western Australia. </para>
+      <para class="block">Portland, New South- Wales. </para>
+      <para class="block">Department of Civil Aviation purposes - </para>
+      <para class="block">Derby, Western Australia. </para>
+      <para class="block">Kalgoorlie, Western Australia. </para>
+      <para class="block">Nhill, Victoria. </para>
+      <para class="block">Rockhampton, Queensland. </para>
+      <para class="block">Wynard, Tasmania. </para>
+      <para class="block">Overseas Telecommunication Commission purposes - Esperance, Western Australia. </para>
+      <para class="block">Postal purposes - </para>
+      <para class="block">Murrurundi, New South Wales. </para>
+      <para class="block">South  Yarrai,  Victoria. </para>
+      <para class="block">Spring Hill, Queensland. </para>
+      <para class="block">Yass, New South Wales. </para>
+      <para class="block">Life Insurance Act - Second Annual Report of the Insurance Commissioner, year 1947.. </para>
+      <para class="block">Naval Defence Act - Regulations - Statutory Rules 1948.. Nos. 37, 42. </para>
+      <para class="block">Northern Territory Acceptance Act and. Northern Territory (Administration) Act- </para>
+      <para class="block">Regulations - 1948 - No, 1 (Crown- Lands Ordinance). </para>
+      <para class="block">Stevdoring Industry Act - Orders - 1948,. Nos. 7-12. </para>
+    </debate>
+    <adjournment>
+      <adjournmentinfo>
+        <page.no>1125</page.no>
+        <time.stamp>16:16:00</time.stamp>
+      </adjournmentinfo>
+      <para class="block">Senate adjourned at 4.16 p.m. </para>
+    </adjournment>
+  </chamber.xscript>
+</hansard>
