@@ -10,7 +10,8 @@ Browse the files or [download a zip file](https://github.com/wragge/hansard-xml/
 
 ## More info
 
+* [Commonwealth Parliamentary Debates (Hansard)](https://github.com/GLAM-Workbench/australian-commonwealth-hansard) – Jupyter notebooks to harvest and explore XML formatted versions of Hansard.
 * [Historic Hansard](http://timsherratt.org/research-notebook/projects/historic-hansard/) in my Research Notebook
-* [Historic Hansard](http://historichansard.net/) -- my own version of Hansard, optimised for easy browsing.
+* [Historic Hansard](http://historichansard.net/) – my own version of Hansard, optimised for easy browsing.
 * [Documentation](http://timsherratt.org/digital-heritage-handbook/docs/historic-hansard/) of the Historic Hansard site.
 
