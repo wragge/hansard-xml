@@ -2,7 +2,7 @@
 
 These are Hansard XML files downloaded from the [Parliament of Australia website](http://parlinfo.aph.gov.au/parlInfo/search/summary/summary.w3p;adv%3Dyes;orderBy%3D_fragment_number,doc_date-rev;query%3DDataset%3Ahansardr,hansardr80;resCount%3DDefault) by [Tim Sherratt](http://timsherratt.org).
 
-# Harvesting history
+## Harvesting history
 
 - The original harvest was run in 2016.
 - A complete reharvest was undertaken in April 2019
